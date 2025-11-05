@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Kościół Zmartwychwstałego w Tarnowskich Górach'
+pagination.pagerSize = 6
+
+[params]
+mediaBase = "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev"
+

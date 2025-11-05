@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="icon" type="image/jpeg" href="{{ "/images/icons/icon-48x48.png" | relURL }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Sans:wght@400;700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+          rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="{{ "css/style.css" | relURL }}" rel="stylesheet">
+    <link rel="manifest" href="{{ "manifest.webmanifest" | relURL }}">
+    <link rel="preload" as="image" href="/images/hero2.jpg" fetchpriority="high">
+    <meta name="theme-color" content="#1E3A8A">
+    <meta name="description"
+          content="Kościół Zmartwychwstałego Tarnowskie Góry — chrześcijańska wspólnota z pasją do Boga i ludzi. Nabożeństwa na żywo i online, kazania, modlitwa, pomoc duchowa i wsparcie w Tarnowskich Górach.">
+</head>
+
+<body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen font-['EB_Garamond']">
+<header class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-0 left-0 z-50">
+    <div class="flex items-center justify-between px-4 md:px-8 py-3">
+        <a href="/" class="flex items-center space-x-4">
+            <img src="{{ "images/logo.jpg" | relURL }}" alt="Logo" class="w-12 h-12 rounded-full shadow-sm">
+        </a>
+    </div>
+</header>
+
+<main class="flex-1 pb-24">
+    {{ $sermons := where .Site.RegularPages "Section" "sermons" }}
+    {{ $sorted := sort $sermons "Date" "desc" }}
+    {{ $rest := after 1 $sorted }}
+    {{ $paginator := .Paginate $rest 6 }}
+    {{ $first := index $paginator.Pages 0 }}
+    {{ partial "hero.html" . }}
+
+    <div class="container mx-auto px-4 pt-8 sm:pt-4 md:pt-24">
+        <div class="-mx-4 sm:mx-0 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {{ range ($paginator.Pages) }}
+                {{ $audioURL := "" }}
+                {{ with .File }}
+                    {{ $dir := replace .Dir "content/" "" }}
+                    {{ $audioURL = printf "%s/%saudio.mp3" site.Params.mediaBase $dir }}
+                    {{ $audioURL = $audioURL | safeURL }}
+                {{ end }}
+                {{ if $audioURL }}
+                    <link rel="preload" as="audio" href="{{ $audioURL }}">
+                {{ end }}
+
+                <article
+                        class="group bg-white rounded-none sm:rounded-xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1 flex flex-col w-full">
+                    {{ with .File }}
+                        {{ $dir := replace .Dir "content/" "" }}
+                        <div class="relative overflow-hidden rounded-none sm:rounded-t-xl w-full h-64 group">
+                            <img src="{{ printf "%s/%scover.jpg" site.Params.mediaBase $dir }}"
+                                 class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
+                                 alt="Okładka kazania">
+                            <div class="hidden sm:block absolute inset-0 bg-white/20 opacity-100 group-hover:opacity-0 transition-opacity duration-500"></div>
+                        </div>
+                    {{ else }}
+                        <div class="rounded-t-xl bg-gray-200 w-full h-56 flex items-center justify-center text-gray-500">
+                            Brak miniatury
+                        </div>
+                    {{ end }}
+
+                    <div class="p-5 flex flex-col flex-1">
+                        <h3 class="text-lg font-bold mb-2 leading-snug text-gray-800 group-hover:text-[#6f85b8] transition-colors duration-200">{{ .Title }}</h3>
+                        {{ with .Params.preacher }}
+                            <p class="text-sm text-gray-700 mb-1"><span class="font-medium">Kaznodzieja:</span> {{ . }}
+                            </p>
+                        {{ end }}
+                        <p class="text-sm text-gray-500 mb-3">{{ .Date.Format "02.01.2006" }}</p>
+
+                        {{ if $audioURL }}
+                            <div class="mt-auto w-full flex flex-col sm:flex-row gap-3 pt-3">
+                                <button
+                                        type="button"
+                                        class="sermon-play-btn w-full sm:w-1/2 p-2 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-start sm:justify-center gap-2"
+                                        data-title="{{ .Title | htmlEscape }}"
+                                        data-preacher="{{ .Params.preacher | default "" | htmlEscape }}"
+                                        data-audio="{{ $audioURL }}"
+                                        onclick="setHero(this.dataset.title, this.dataset.audio, this)"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                         viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/>
+                                    </svg>
+                                    Odsłuchaj
+                                </button>
+
+                                <a href="{{ $audioURL }}?download=true" download="sermon.mp3"
+                                   class="w-full sm:w-1/2 p-2 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-start sm:justify-center gap-2">
+                                    <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'
+                                         fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'
+                                         stroke-linejoin='round'>
+                                        <path d='M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z'/>
+                                        <path d='M14 2v4a2 2 0 0 0 2 2h4'/>
+                                        <path d='M12 18v-6'/>
+                                        <path d='m9 15 3 3 3-3'/>
+                                    </svg>
+                                    Pobierz
+                                </a>
+                            </div>
+                        {{ else }}
+                            <div class="text-gray-400 italic text-sm mt-auto">Brak nagrania audio</div>
+                        {{ end }}
+                    </div>
+                </article>
+            {{ end }}
+        </div>
+
+        {{ if gt $paginator.TotalPages 1 }}
+            <nav class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-2 mt-16 text-center">
+                {{ if $paginator.HasPrev }}
+                    <a href="{{ $paginator.Prev.URL }}"
+                       class="w-full sm:w-auto px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-lg hover:bg-[#6f85b8]/10 transition text-sm sm:text-base">
+                        ← Nowsze
+                    </a>
+                {{ end }}
+
+                <span class="text-gray-600 text-sm sm:text-base w-full sm:w-auto">
+      Strona {{ $paginator.PageNumber }} z {{ $paginator.TotalPages }}
+    </span>
+
+                {{ if $paginator.HasNext }}
+                    <a href="{{ $paginator.Next.URL }}"
+                       class="w-full sm:w-auto px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-lg hover:bg-[#6f85b8]/10 transition text-sm sm:text-base">
+                        Starsze →
+                    </a>
+                {{ end }}
+            </nav>
+        {{ end }}
+
+    </div>
+</main>
+
+<div id="audioPlayer"
+     class="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-lg flex flex-col items-center justify-center px-6 py-4 transition-all duration-500 transform translate-y-full opacity-0 z-50">
+
+    <!-- Moving preacher + title -->
+    <div class="overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto mb-2">
+        <div id="playerTitle"
+             class="whitespace-nowrap text-gray-800 font-semibold animate-marquee hover:[animation-play-state:paused]">
+        </div>
+    </div>
+
+    <!-- Control buttons -->
+    <div class="flex items-center gap-4">
+        <button id="prevBtn" class="p-2 rounded-full hover:bg-gray-200 transition" title="Poprzednie kazanie">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                 stroke-linejoin="round" class="text-[#6f85b8]">
+                <polygon points="11 19 2 12 11 5 11 19"/>
+                <line x1="22" y1="19" x2="22" y2="5"/>
+            </svg>
+        </button>
+
+        <button id="playPauseBtn" class="p-3 rounded-full bg-[#6f85b8] text-white hover:bg-[#5c6ea4] transition"
+                title="Odtwórz / Zatrzymaj">
+            <svg id="playIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="5 3 19 12 5 21 5 3"/>
+            </svg>
+            <svg id="pauseIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="hidden">
+                <rect x="6" y="4" width="4" height="16"/>
+                <rect x="14" y="4" width="4" height="16"/>
+            </svg>
+        </button>
+
+        <button id="nextBtn" class="p-2 rounded-full hover:bg-gray-200 transition" title="Następne kazanie">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                 stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                 stroke-linejoin="round" class="text-[#6f85b8]">
+                <polygon points="13 19 22 12 13 5 13 19"/>
+                <line x1="2" y1="19" x2="2" y2="5"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Progress bar + timer -->
+    <div class="w-full max-w-md mt-3">
+        <input id="progressBar" type="range" min="0" max="100" value="0"
+               class="w-full accent-[#6f85b8] cursor-pointer">
+        <div class="flex justify-between text-sm text-gray-600 mt-1">
+            <span id="currentTime">0:00</span>
+            <span id="totalTime">0:00</span>
+        </div>
+    </div>
+
+    <audio id="audioElement" preload="auto" class="hidden"></audio>
+</div>
+
+<footer class="bg-white border-t text-center py-4 text-gray-500 text-sm">
+    © {{ now.Year }} Kościół Zmartwychwstałego w Tarnowskich Górach
+</footer>
+
+<script src="{{ "index.js" | relURL }}"></script>
+</body>
+</html>

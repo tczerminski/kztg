@@ -1,0 +1,5 @@
+---
+title: "Życie"
+date: 2023-01-15
+preacher: "Krzysztof Rataj"
+---
