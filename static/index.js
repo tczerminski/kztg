@@ -1,7 +1,6 @@
 /* Audio player synchronization for sermon cards + global bottom player
    Supports custom bottom player controls, timers, marquee title, and prev/next navigation.
 */
-
 (function () {
   const audioPlayer = document.getElementById('audioPlayer');
   const audioElement = document.getElementById('audioElement');
@@ -66,6 +65,19 @@
     return `${m}:${s < 10 ? '0' + s : s}`;
   }
 
+  // --- Helper: update sermon button icon/label ---
+  function updateSermonButton(isPlaying) {
+    if (!currentButton) return;
+    if (!currentButton.dataset.originalHTML) {
+      currentButton.dataset.originalHTML = currentButton.innerHTML;
+    }
+    if (isPlaying) {
+      currentButton.innerHTML = '⏸ Zatrzymaj';
+    } else {
+      currentButton.innerHTML = currentButton.dataset.originalHTML;
+    }
+  }
+
   // --- Main: set and play sermon ---
   window.setHero = function (title, audioUrl, button) {
     const sermon = sermons.find(s => s.audioUrl === audioUrl);
@@ -101,14 +113,21 @@
       button.dataset.originalHTML = button.innerHTML;
     }
 
-    button.innerHTML = '⏸ Zatrzymaj';
+    // Set pause icon/label for the new button
+    updateSermonButton(true);
     audioElement.src = audioUrl;
     audioElement.play().catch(err => console.warn('Autoplay blocked:', err));
   };
 
   // --- Audio events ---
-  audioElement.addEventListener('play', () => toggleIcons(true));
-  audioElement.addEventListener('pause', () => toggleIcons(false));
+  audioElement.addEventListener('play', () => {
+    toggleIcons(true);
+    updateSermonButton(true);
+  });
+  audioElement.addEventListener('pause', () => {
+    toggleIcons(false);
+    updateSermonButton(false);
+  });
   audioElement.addEventListener('ended', () => {
     restoreButtonHTML(currentButton);
     toggleIcons(false);

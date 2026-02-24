@@ -61,3 +61,6 @@ article:hover h3 {
   transform: translateY(0);
   opacity: 1;
 }
+
+/* Utility class for hiding elements */
+.hidden { display: none !important; }

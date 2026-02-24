@@ -17,10 +17,39 @@
     <meta name="theme-color" content="#1E3A8A">
     <meta name="description"
           content="Kościół Zmartwychwstałego Tarnowskie Góry — chrześcijańska wspólnota z pasją do Boga i ludzi. Nabożeństwa na żywo i online, kazania, modlitwa, pomoc duchowa i wsparcie w Tarnowskich Górach.">
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js')
+              .then(reg => console.log('Service Worker zarejestrowany', reg))
+              .catch(err => console.error('Service Worker błąd', err));
+          });
+        }
+    </script>
+
+    <style>
+      @keyframes pulse-once {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(0.97); opacity: 0.85; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+      #installBtn.clicked {
+        animation: pulse-once 0.25s ease-out;
+      }
+    </style>
 </head>
 
 <body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen font-['EB_Garamond']">
-<header class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-0 left-0 z-50">
+
+<!-- ✅ Fixed install button above header -->
+<button id="installBtn"
+  class="fixed top-0 left-0 w-full z-[60] bg-[#6f85b8] text-white py-3 text-center font-medium text-sm md:text-base shadow-md hover:bg-[#5c6ea4] transition">
+  <span class="install-text block px-4">
+    Kliknij tutaj, aby zainstalować aplikację i móc korzystać ze strony bez internetu
+  </span>
+</button>
+
+<header class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-[48px] md:top-[52px] left-0 z-50">
     <div class="flex items-center justify-between px-4 md:px-8 py-3">
         <a href="/" class="flex items-center space-x-4">
             <img src="{{ "images/logo.jpg" | relURL }}" alt="Logo" class="w-12 h-12 rounded-full shadow-sm">
@@ -68,8 +97,7 @@
                     <div class="p-5 flex flex-col flex-1">
                         <h3 class="text-lg font-bold mb-2 leading-snug text-gray-800 group-hover:text-[#6f85b8] transition-colors duration-200">{{ .Title }}</h3>
                         {{ with .Params.preacher }}
-                            <p class="text-sm text-gray-700 mb-1"><span class="font-medium">Kaznodzieja:</span> {{ . }}
-                            </p>
+                            <p class="text-sm text-gray-700 mb-1"><span class="font-medium">Kaznodzieja:</span> {{ . }}</p>
                         {{ end }}
                         <p class="text-sm text-gray-500 mb-3">{{ .Date.Format "02.01.2006" }}</p>
 
@@ -81,8 +109,7 @@
                                         data-title="{{ .Title | htmlEscape }}"
                                         data-preacher="{{ .Params.preacher | default "" | htmlEscape }}"
                                         data-audio="{{ $audioURL }}"
-                                        onclick="setHero(this.dataset.title, this.dataset.audio, this)"
-                                >
+                                        onclick="setHero(this.dataset.title, this.dataset.audio, this)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                          viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -122,8 +149,8 @@
                 {{ end }}
 
                 <span class="text-gray-600 text-sm sm:text-base w-full sm:w-auto">
-      Strona {{ $paginator.PageNumber }} z {{ $paginator.TotalPages }}
-    </span>
+                    Strona {{ $paginator.PageNumber }} z {{ $paginator.TotalPages }}
+                </span>
 
                 {{ if $paginator.HasNext }}
                     <a href="{{ $paginator.Next.URL }}"
@@ -133,21 +160,17 @@
                 {{ end }}
             </nav>
         {{ end }}
-
     </div>
 </main>
 
+<!-- Audio Player -->
 <div id="audioPlayer"
      class="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-lg flex flex-col items-center justify-center px-6 py-4 transition-all duration-500 transform translate-y-full opacity-0 z-50">
-
-    <!-- Moving preacher + title -->
     <div class="overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto mb-2">
         <div id="playerTitle"
-             class="whitespace-nowrap text-gray-800 font-semibold animate-marquee hover:[animation-play-state:paused]">
-        </div>
+             class="whitespace-nowrap text-gray-800 font-semibold animate-marquee hover:[animation-play-state:paused]"></div>
     </div>
 
-    <!-- Control buttons -->
     <div class="flex items-center gap-4">
         <button id="prevBtn" class="p-2 rounded-full hover:bg-gray-200 transition" title="Poprzednie kazanie">
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
@@ -182,7 +205,6 @@
         </button>
     </div>
 
-    <!-- Progress bar + timer -->
     <div class="w-full max-w-md mt-3">
         <input id="progressBar" type="range" min="0" max="100" value="0"
                class="w-full accent-[#6f85b8] cursor-pointer">
@@ -200,5 +222,32 @@
 </footer>
 
 <script src="{{ "index.js" | relURL }}"></script>
+<script>
+  let deferredPrompt;
+  const installBtn = document.getElementById('installBtn');
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installBtn.classList.remove('hidden');
+  });
+
+  installBtn.addEventListener('click', async () => {
+    installBtn.classList.add('clicked'); // pulse animation
+    setTimeout(() => installBtn.classList.remove('clicked'), 250);
+
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log('User choice:', outcome);
+    deferredPrompt = null;
+    installBtn.classList.add('hidden');
+  });
+
+  window.addEventListener('appinstalled', () => {
+    console.log('App installed');
+    installBtn.classList.add('hidden');
+  });
+</script>
 </body>
 </html>
