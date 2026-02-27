@@ -1,97 +1,31 @@
 {{ $sermons := where site.RegularPages "Section" "sermons" }}
-{{ $audio := "" }}
-{{ if gt (len $sermons) 0 }}
-    {{ $latest := index (first 1 (sort $sermons "Date" "desc")) 0 }}
-    {{ with $latest.File }}
-        {{ $dir := replace .Dir "content/" "" }}
-        {{ $audio = printf "%s/%saudio.mp3" site.Params.mediaBase $dir }}
-        <link rel="preload" as="audio" href="{{ $audio }}">
-    {{ end }}
-    {{ $cover := $latest.Resources.GetMatch "cover.jpg" }}
-    {{ $heroOriginal := resources.Get "images/hero2.jpg" }}
+{{ $audio := site.Params.radioStream | default "https://s3.free-shoutcast.com/stream/18120" }}
 
-    {{ with $heroOriginal }}
-        {{ $hero640 := .Resize "640x360 webp q80" }}
-        {{ $hero1280 := .Resize "1280x720 webp q80" }}
-        {{ $hero1920 := .Resize "1920x1080 webp q80" }}
+<section id="radio"
+         class="relative min-h-screen flex items-center justify-center text-gray-900 overflow-hidden">
+    <img src="/images/hero2.jpg" alt="Tło"
+         class="absolute inset-0 w-full h-full object-cover opacity-70"
+         loading="lazy">
+    <div class="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/50"></div>
 
-        <!-- Preload main hero image -->
-        <link rel="preload" as="image" href="{{ $hero1280.RelPermalink }}" fetchpriority="high">
-
-        <section
-                class="relative w-full h-auto sm:h-[70vh] lg:h-[80vh] flex items-start sm:items-center justify-start text-left text-gray-900 overflow-hidden pt-[6rem] sm:pt-[7rem] pb-10 bg-[#f9fafb] sm:bg-transparent">
-
-            <!-- Hero background image (hidden on mobile) -->
-            <img
-                    src="{{ $hero1280.RelPermalink }}"
-                    srcset="
-      {{ $hero640.RelPermalink }} 640w,
-      {{ $hero1280.RelPermalink }} 1280w,
-      {{ $hero1920.RelPermalink }} 1920w"
-                    sizes="100vw"
-                    alt="Tło z krzyżem"
-                    fetchpriority="high"
-                    decoding="async"
-                    class="absolute inset-0 w-full h-full object-cover transform scale-105 opacity-0 transition-all duration-[2000ms] ease-out hidden sm:block"
-                    onload="this.classList.remove('opacity-0'); this.classList.add('opacity-100','scale-100');"
-            />
-
-            <!-- Gradient overlay (hidden on mobile) -->
-            <div class="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-white/60 sm:from-white/10 sm:via-white/30 sm:to-[#f9fafb] hidden sm:block"></div>
-
-            <!-- Hero content (always visible) -->
-            <div class="relative z-10 w-full sm:max-w-3xl px-0 sm:px-16">
-                <div class="bg-white sm:bg-white/80 sm:backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-none sm:rounded-2xl shadow-sm w-full">
-
-                    <p class="text-sm uppercase tracking-wide text-gray-500 mb-4">Najnowsze kazanie</p>
-
-                    <div class="border-l-4 border-gray-900 pl-4">
-                        <h1 class="text-3xl md:text-5xl font-semibold mb-4 leading-tight">{{ $latest.Title }}</h1>
-
-                        {{ with $latest.Params.preacher }}
-                            <p class="text-lg md:text-xl mb-1 text-gray-800 font-medium">{{ . }}</p>
-                        {{ end }}
-
-                        <p class="text-gray-600 mb-6">{{ $latest.Date.Format "02.01.2006" }}</p>
-
-                        {{ if $audio }}
-                            <div class="flex flex-col sm:flex-row gap-3">
-                                <button
-                                        data-title="{{ $latest.Title | htmlEscape }}"
-                                        class="w-full sm:w-1/2 p-2 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-start sm:justify-center gap-2"
-                                        onclick="setHero('{{ $latest.Title | htmlEscape }}', '{{ $audio }}', this)">
-                                    <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'
-                                         fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'
-                                         stroke-linejoin='round'>
-                                        <path d='M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z'/>
-                                    </svg>
-                                    Odsłuchaj
-                                </button>
-
-                                <a
-                                        href="{{ $audio }}?download=true"
-                                        download="sermon.mp3"
-                                        class="w-full sm:w-1/2 p-2 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-start sm:justify-center gap-2">
-                                    <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'
-                                         fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'
-                                         stroke-linejoin='round'>
-                                        <path d='M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z'/>
-                                        <path d='M14 2v4a2 2 0 0 0 2 2h4'/>
-                                        <path d='M12 18v-6'/>
-                                        <path d='m9 15 3 3 3-3'/>
-                                    </svg>
-                                    Pobierz
-                                </a>
-                            </div>
-                        {{ else }}
-                            <div class="text-gray-400 italic text-sm mt-4">Brak nagrania audio</div>
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-
-        </section>
-    {{ end }}
-{{ else }}
-    <section class="h-[50vh] flex items-center justify-center text-gray-500">Brak dostępnych kazań</section>
-{{ end }}
+    <div class="relative z-10 w-full max-w-4xl px-6 py-16 text-white">
+        <p class="text-sm uppercase tracking-[0.3em] text-[#9bb0e4] mb-4">Radio Internetowe</p>
+        <h1 class="text-4xl md:text-6xl font-semibold leading-tight mb-6">Słuchaj chrześcijańskiego radia 24/7</h1>
+        <p class="text-lg md:text-xl text-gray-100 mb-10 max-w-3xl">
+            Muzyka uwielbieniowa, inspirujące kazania oraz transmisje na żywo z Tarnowskich Gór.
+            Pozostań w kontakcie z Kościołem Zmartwychwstałego, niezależnie od miejsca i czasu.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+            <button type="button"
+                    class="px-6 py-3 border border-white/70 rounded-2xl text-white font-semibold flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 transition"
+                    onclick="setRadio()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2v20"/></svg>
+                Słuchaj teraz
+            </button>
+            <a href="#kazania"
+               class="px-6 py-3 border border-white/30 rounded-2xl text-white/80 font-semibold flex items-center justify-center gap-3 hover:text-white hover:border-white transition">
+                Przejdź do kazań
+            </a>
+        </div>
+    </div>
+</section>

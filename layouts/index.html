@@ -36,6 +36,9 @@
       #installBtn.clicked {
         animation: pulse-once 0.25s ease-out;
       }
+      html {
+        scroll-behavior: smooth;
+      }
     </style>
 </head>
 
@@ -43,17 +46,34 @@
 
 <!-- ✅ Fixed install button above header -->
 <button id="installBtn"
-  class="fixed top-0 left-0 w-full z-[60] bg-[#6f85b8] text-white py-3 text-center font-medium text-sm md:text-base shadow-md hover:bg-[#5c6ea4] transition">
+  class="fixed top-0 left-0 w-full h-12 z-[60] flex items-center justify-center bg-[#6f85b8] text-white text-sm md:text-base shadow-md hover:bg-[#5c6ea4] transition">
   <span class="install-text block px-4">
     Kliknij tutaj, aby zainstalować aplikację i móc korzystać ze strony bez internetu
   </span>
 </button>
 
-<header class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-[48px] md:top-[52px] left-0 z-50">
-    <div class="flex items-center justify-between px-4 md:px-8 py-3">
+<header class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-12 left-0 z-50">
+    <div class="flex items-center justify-between px-4 md:px-8 py-3 text-sm sm:text-base font-semibold text-[#1f2a44]">
         <a href="/" class="flex items-center space-x-4">
             <img src="{{ "images/logo.jpg" | relURL }}" alt="Logo" class="w-12 h-12 rounded-full shadow-sm">
         </a>
+        <nav class="hidden md:flex gap-8 items-center">
+            <a href="#radio" class="hover:text-[#6f85b8] transition-colors">Radio</a>
+            <a href="#kazania" class="hover:text-[#6f85b8] transition-colors">Kazania</a>
+            <a href="#kontakt" class="hover:text-[#6f85b8] transition-colors">Kontakt</a>
+        </nav>
+        <button id="mobileNavToggle" class="md:hidden rounded-full p-2 text-[#1f2a44] hover:bg-gray-100" aria-label="Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="7" x2="23" y2="7" />
+                <line x1="3" y1="13" x2="23" y2="13" />
+                <line x1="3" y1="19" x2="23" y2="19" />
+            </svg>
+        </button>
+    </div>
+    <div id="mobileNav" class="md:hidden bg-white/95 border-t border-gray-100 px-4 py-4 space-y-3 text-base font-medium text-[#1f2a44] hidden">
+        <a href="#radio" class="block hover:text-[#6f85b8]">Radio</a>
+        <a href="#kazania" class="block hover:text-[#6f85b8]">Kazania</a>
+        <a href="#kontakt" class="block hover:text-[#6f85b8]">Kontakt</a>
     </div>
 </header>
 
@@ -65,102 +85,140 @@
     {{ $first := index $paginator.Pages 0 }}
     {{ partial "hero.html" . }}
 
-    <div class="container mx-auto px-4 pt-8 sm:pt-4 md:pt-24">
-        <div class="-mx-4 sm:mx-0 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {{ range ($paginator.Pages) }}
-                {{ $audioURL := "" }}
-                {{ with .File }}
-                    {{ $dir := replace .Dir "content/" "" }}
-                    {{ $audioURL = printf "%s/%saudio.mp3" site.Params.mediaBase $dir }}
-                    {{ $audioURL = $audioURL | safeURL }}
-                {{ end }}
-                {{ if $audioURL }}
-                    <link rel="preload" as="audio" href="{{ $audioURL }}">
-                {{ end }}
+    <section id="kazania" class="min-h-screen flex flex-col justify-center py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <p class="text-sm uppercase tracking-[0.3em] text-[#9bb0e4] mb-3">Kazania</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">Najświeższe przesłania</h2>
+                <p class="text-gray-600 mt-4">Posłuchaj kazań z ostatnich nabożeństw i dziel się nimi z innymi.</p>
+            </div>
 
-                <article
-                        class="group bg-white rounded-none sm:rounded-xl shadow-sm hover:shadow-lg transition transform hover:-translate-y-1 flex flex-col w-full">
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                {{ range ($paginator.Pages) }}
+                    {{ $audioURL := "" }}
                     {{ with .File }}
                         {{ $dir := replace .Dir "content/" "" }}
-                        <div class="relative overflow-hidden rounded-none sm:rounded-t-xl w-full h-64 group">
-                            <img src="{{ printf "%s/%scover.jpg" site.Params.mediaBase $dir }}"
-                                 class="w-full h-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
-                                 alt="Okładka kazania">
-                            <div class="hidden sm:block absolute inset-0 bg-white/20 opacity-100 group-hover:opacity-0 transition-opacity duration-500"></div>
-                        </div>
-                    {{ else }}
-                        <div class="rounded-t-xl bg-gray-200 w-full h-56 flex items-center justify-center text-gray-500">
-                            Brak miniatury
-                        </div>
+                        {{ $audioURL = printf "%s/%saudio.mp3" site.Params.mediaBase $dir }}
+                        {{ $audioURL = $audioURL | safeURL }}
+                    {{ end }}
+                    {{ if $audioURL }}
+                        <link rel="preload" as="audio" href="{{ $audioURL }}">
                     {{ end }}
 
-                    <div class="p-5 flex flex-col flex-1">
-                        <h3 class="text-lg font-bold mb-2 leading-snug text-gray-800 group-hover:text-[#6f85b8] transition-colors duration-200">{{ .Title }}</h3>
-                        {{ with .Params.preacher }}
-                            <p class="text-sm text-gray-700 mb-1"><span class="font-medium">Kaznodzieja:</span> {{ . }}</p>
-                        {{ end }}
-                        <p class="text-sm text-gray-500 mb-3">{{ .Date.Format "02.01.2006" }}</p>
-
-                        {{ if $audioURL }}
-                            <div class="mt-auto w-full flex flex-col sm:flex-row gap-3 pt-3">
-                                <button
-                                        type="button"
-                                        class="sermon-play-btn w-full sm:w-1/2 p-2 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-start sm:justify-center gap-2"
-                                        data-title="{{ .Title | htmlEscape }}"
-                                        data-preacher="{{ .Params.preacher | default "" | htmlEscape }}"
-                                        data-audio="{{ $audioURL }}"
-                                        onclick="setHero(this.dataset.title, this.dataset.audio, this)">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                         viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"/>
-                                    </svg>
-                                    Odsłuchaj
-                                </button>
-
-                                <a href="{{ $audioURL }}?download=true" download="sermon.mp3"
-                                   class="w-full sm:w-1/2 p-2 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-start sm:justify-center gap-2">
-                                    <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'
-                                         fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'
-                                         stroke-linejoin='round'>
-                                        <path d='M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z'/>
-                                        <path d='M14 2v4a2 2 0 0 0 2 2h4'/>
-                                        <path d='M12 18v-6'/>
-                                        <path d='m9 15 3 3 3-3'/>
-                                    </svg>
-                                    Pobierz
-                                </a>
+                    <article class="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition flex flex-col">
+                        {{ with .File }}
+                            {{ $dir := replace .Dir "content/" "" }}
+                            <div class="relative overflow-hidden rounded-t-2xl h-64">
+                                <img src="{{ printf "%s/%scover.jpg" site.Params.mediaBase $dir }}"
+                                     class="w-full h-full object-cover transition duration-700 ease-out blur-sm group-hover:blur-0 group-hover:scale-105"
+                                     alt="Okładka kazania">
+                                <div class="absolute inset-0 bg-white/60 transition duration-700 group-hover:bg-transparent"></div>
                             </div>
                         {{ else }}
-                            <div class="text-gray-400 italic text-sm mt-auto">Brak nagrania audio</div>
+                            <div class="rounded-t-2xl bg-gray-200 h-64 flex items-center justify-center text-gray-500">
+                                Brak miniatury
+                            </div>
                         {{ end }}
-                    </div>
-                </article>
+
+                        <div class="p-6 flex flex-col flex-1">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 group-hover:text-[#6f85b8] transition">{{ .Title }}</h3>
+                            {{ with .Params.preacher }}
+                                <p class="text-sm text-gray-600 mb-1">{{ . }}</p>
+                            {{ end }}
+                            <p class="text-sm text-gray-500 mb-4">{{ .Date.Format "02.01.2006" }}</p>
+
+                            {{ if $audioURL }}
+                                <div class="mt-auto flex flex-col gap-3">
+                                    <button type="button"
+                                            class="sermon-play-btn w-full p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
+                                            data-title="{{ .Title | htmlEscape }}"
+                                            data-preacher="{{ .Params.preacher | default "" | htmlEscape }}"
+                                            data-audio="{{ $audioURL }}"
+                                            onclick="setHero(this.dataset.title, this.dataset.audio, this)">
+                                        <!-- Play icon -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                        Odsłuchaj
+                                    </button>
+                                    <a href="{{ $audioURL }}?download=true" download
+                                       class="w-full p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
+                                       style="text-decoration: none;">
+                                        <!-- Download icon: arrow down into a box, kolor #6f85b8 -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2">
+                                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-5-5m5 5l5-5" />
+                                          <rect x="4" y="18" width="16" height="2" rx="1" />
+                                        </svg>
+                                        Pobierz
+                                    </a>
+                                </div>
+                            {{ else }}
+                                <p class="text-sm text-gray-400 mt-auto">Brak nagrania audio</p>
+                            {{ end }}
+                        </div>
+                    </article>
+                {{ end }}
+            </div>
+
+            {{ if gt $paginator.TotalPages 1 }}
+                <nav class="flex flex-wrap justify-center items-center gap-3 mt-12 text-center">
+                    {{ if $paginator.HasPrev }}
+                        <a href="{{ $paginator.Prev.URL }}"
+                           class="px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-xl hover:bg-[#6f85b8]/10 transition">
+                            ← Nowsze
+                        </a>
+                    {{ end }}
+
+                    <span class="text-gray-600">Strona {{ $paginator.PageNumber }} z {{ $paginator.TotalPages }}</span>
+
+                    {{ if $paginator.HasNext }}
+                        <a href="{{ $paginator.Next.URL }}"
+                           class="px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-xl hover:bg-[#6f85b8]/10 transition">
+                            Starsze →
+                        </a>
+                    {{ end }}
+                </nav>
             {{ end }}
         </div>
+    </section>
 
-        {{ if gt $paginator.TotalPages 1 }}
-            <nav class="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-2 mt-16 text-center">
-                {{ if $paginator.HasPrev }}
-                    <a href="{{ $paginator.Prev.URL }}"
-                       class="w-full sm:w-auto px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-lg hover:bg-[#6f85b8]/10 transition text-sm sm:text-base">
-                        ← Nowsze
-                    </a>
-                {{ end }}
+    <section id="kontakt" class="min-h-screen flex items-center py-16 bg-[#f3f5fb]">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <p class="text-sm uppercase tracking-[0.3em] text-[#9bb0e4] mb-3">Kontakt</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">Pozostańmy w kontakcie</h2>
+                <p class="text-gray-600 mt-4">Napisz do nas lub odwiedź nas podczas najbliższego nabożeństwa.</p>
+            </div>
 
-                <span class="text-gray-600 text-sm sm:text-base w-full sm:w-auto">
-                    Strona {{ $paginator.PageNumber }} z {{ $paginator.TotalPages }}
-                </span>
+            <div class="grid gap-8 lg:grid-cols-2">
+                <form class="bg-white rounded-2xl shadow-sm p-8 space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-name">Imię i nazwisko</label>
+                        <input id="contact-name" type="text" placeholder="Jan Kowalski"
+                               class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-email">E-mail</label>
+                        <input id="contact-email" type="email" placeholder="twojemail@example.com"
+                               class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-message">Wiadomość</label>
+                        <textarea id="contact-message" rows="5" placeholder="W czym możemy pomóc?"
+                                  class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required></textarea>
+                    </div>
+                    <button type="submit"
+                            class="w-full bg-[#6f85b8] text-white font-semibold py-3 rounded-xl hover:bg-[#5c6ea4] transition">
+                        Wyślij wiadomość
+                    </button>
+                </form>
 
-                {{ if $paginator.HasNext }}
-                    <a href="{{ $paginator.Next.URL }}"
-                       class="w-full sm:w-auto px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-lg hover:bg-[#6f85b8]/10 transition text-sm sm:text-base">
-                        Starsze →
-                    </a>
-                {{ end }}
-            </nav>
-        {{ end }}
-    </div>
+                <div class="rounded-2xl overflow-hidden shadow-sm h-[500px]">
+                    <iframe class="w-full h-full"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.741156150152!2d18.8557788!3d50.4449118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710b67f3ce4993d%3A0x8f546fb0b2ef2762!2sSienkiewicza%208%2C%2042-600%20Tarnowskie%20G%C3%B3ry!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <!-- Audio Player -->
@@ -248,6 +306,16 @@
     console.log('App installed');
     installBtn.classList.add('hidden');
   });
+
+  const mobileToggle = document.getElementById('mobileNavToggle');
+  const mobileNav = document.getElementById('mobileNav');
+
+  if (mobileToggle && mobileNav) {
+    mobileToggle.addEventListener('click', () => {
+      mobileNav.classList.toggle('hidden');
+    });
+    mobileNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => mobileNav.classList.add('hidden')));
+  }
 </script>
 </body>
 </html>
