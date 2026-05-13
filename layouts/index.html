@@ -39,6 +39,30 @@
       html {
         scroll-behavior: smooth;
       }
+      .sermon-btn {
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (min-width: 640px) {
+        .sermon-btn {
+          width: 100% !important;
+        }
+      }
+      .desktop-services-card {
+        display: none;
+      }
+      .mobile-services-section {
+        display: block;
+      }
+      @media (min-width: 768px) {
+        .desktop-services-card {
+          display: block;
+        }
+        .mobile-services-section {
+          display: none;
+        }
+      }
     </style>
 </head>
 
@@ -46,13 +70,13 @@
 
 <!-- ✅ Fixed install button above header -->
 <button id="installBtn"
-  class="fixed top-0 left-0 w-full h-12 z-[60] flex items-center justify-center bg-[#6f85b8] text-white text-sm md:text-base shadow-md hover:bg-[#5c6ea4] transition">
+  class="fixed top-0 left-0 w-full h-12 z-[60] hidden items-center justify-center bg-[#6f85b8] text-white text-sm md:text-base shadow-md hover:bg-[#5c6ea4] transition">
   <span class="install-text block px-4">
     Kliknij tutaj, aby zainstalować aplikację i móc korzystać ze strony bez internetu
   </span>
 </button>
 
-<header class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-12 left-0 z-50">
+<header id="siteHeader" class="w-full bg-white/95 backdrop-blur-sm shadow-sm fixed top-0 left-0 z-50">
     <div class="flex items-center justify-between px-4 md:px-8 py-3 text-sm sm:text-base font-semibold text-[#1f2a44]">
         <a href="/" class="flex items-center space-x-4">
             <img src="{{ "images/logo.jpg" | relURL }}" alt="Logo" class="w-12 h-12 rounded-full shadow-sm">
@@ -89,8 +113,8 @@
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto text-center mb-12">
                 <p class="text-sm uppercase tracking-[0.3em] text-[#9bb0e4] mb-3">Kazania</p>
-                <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">Najświeższe przesłania</h2>
-                <p class="text-gray-600 mt-4">Posłuchaj kazań z ostatnich nabożeństw i dziel się nimi z innymi.</p>
+                <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">Ostatnie kazania</h2>
+                <p class="text-gray-600 mt-4">Posłuchaj najnowszych kazań z naszych nabożeństw.</p>
             </div>
 
             <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -110,7 +134,7 @@
                             {{ $dir := replace .Dir "content/" "" }}
                             <div class="relative overflow-hidden rounded-t-2xl h-64">
                                 <img src="{{ printf "%s/%scover.jpg" site.Params.mediaBase $dir }}"
-                                     class="w-full h-full object-cover transition duration-700 ease-out blur-sm group-hover:blur-0 group-hover:scale-105"
+                                     class="w-full h-full object-cover transition duration-700 ease-out group-hover:scale-105"
                                      alt="Okładka kazania">
                                 <div class="absolute inset-0 bg-white/60 transition duration-700 group-hover:bg-transparent"></div>
                             </div>
@@ -128,9 +152,9 @@
                             <p class="text-sm text-gray-500 mb-4">{{ .Date.Format "02.01.2006" }}</p>
 
                             {{ if $audioURL }}
-                                <div class="mt-auto flex flex-col gap-3">
+                                <div class="mt-auto flex flex-col gap-3 w-full">
                                     <button type="button"
-                                            class="sermon-play-btn w-full p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
+                                            class="sermon-play-btn sermon-btn block p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
                                             data-title="{{ .Title | htmlEscape }}"
                                             data-preacher="{{ .Params.preacher | default "" | htmlEscape }}"
                                             data-audio="{{ $audioURL }}"
@@ -140,7 +164,7 @@
                                         Odsłuchaj
                                     </button>
                                     <a href="{{ $audioURL }}?download=true" download
-                                       class="w-full p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
+                                       class="sermon-btn block p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
                                        style="text-decoration: none;">
                                         <!-- Download icon: arrow down into a box, kolor #6f85b8 -->
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2">
@@ -197,7 +221,7 @@
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-email">E-mail</label>
-                        <input id="contact-email" type="email" placeholder="twojemail@example.com"
+                        <input id="contact-email" type="email" placeholder="twoj@email.pl"
                                class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required>
                     </div>
                     <div>
@@ -212,10 +236,16 @@
                 </form>
 
                 <div class="rounded-2xl overflow-hidden shadow-sm h-[500px]">
-                    <iframe class="w-full h-full"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.741156150152!2d18.8557788!3d50.4449118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710b67f3ce4993d%3A0x8f546fb0b2ef2762!2sSienkiewicza%208%2C%2042-600%20Tarnowskie%20G%C3%B3ry!5e0!3m2!1spl!2spl!4v1700000000000!5m2!1spl!2spl"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.449402420695!2d18.876954211011448!3d50.44441097062951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112bca94457a2f%3A0xe456ccebf37e9f3d!2zS2_Fm2Npw7PFgiBabWFydHd5Y2h3c3RhxYJlZ28gdyBUYXJub3dza2ljaCBHw7NyYWNo!5e0!3m2!1spl!2spl!4v1772382865381!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+            </div>
+
+            <div class="mt-6 md:hidden">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=Ko%C5%9Bci%C3%B3%C5%82%20Zmartwychwsta%C5%82ego%20w%20Tarnowskich%20G%C3%B3rach"
+                   target="_blank" rel="noopener noreferrer"
+                   class="block w-full text-center bg-[#6f85b8] text-white font-semibold py-3 rounded-xl hover:bg-[#5c6ea4] transition">
+                    Nawiguj w Google Maps
+                </a>
             </div>
         </div>
     </section>
@@ -283,11 +313,33 @@
 <script>
   let deferredPrompt;
   const installBtn = document.getElementById('installBtn');
+  const siteHeader = document.getElementById('siteHeader');
+  const isMobileAgent = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(navigator.userAgent || '');
+
+  const setInstallBarVisible = (visible) => {
+    if (!installBtn || !siteHeader) return;
+
+    if (visible) {
+      installBtn.classList.remove('hidden');
+      installBtn.classList.add('flex');
+      siteHeader.classList.remove('top-0');
+      siteHeader.classList.add('top-12');
+    } else {
+      installBtn.classList.add('hidden');
+      installBtn.classList.remove('flex');
+      siteHeader.classList.remove('top-12');
+      siteHeader.classList.add('top-0');
+    }
+  };
+
+  // Keep the PWA install bar strictly mobile-only.
+  setInstallBarVisible(false);
 
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
+    if (!isMobileAgent) return;
     deferredPrompt = e;
-    installBtn.classList.remove('hidden');
+    setInstallBarVisible(true);
   });
 
   installBtn.addEventListener('click', async () => {
@@ -299,12 +351,12 @@
     const { outcome } = await deferredPrompt.userChoice;
     console.log('User choice:', outcome);
     deferredPrompt = null;
-    installBtn.classList.add('hidden');
+    setInstallBarVisible(false);
   });
 
   window.addEventListener('appinstalled', () => {
     console.log('App installed');
-    installBtn.classList.add('hidden');
+    setInstallBarVisible(false);
   });
 
   const mobileToggle = document.getElementById('mobileNavToggle');

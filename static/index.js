@@ -78,6 +78,21 @@
     }
   }
 
+  // --- Helper: set audio source with explicit type ---
+  function setAudioSource(url, type) {
+    if (!audioElement) return;
+    audioElement.pause();
+    audioElement.removeAttribute('src');
+    while (audioElement.firstChild) {
+      audioElement.removeChild(audioElement.firstChild);
+    }
+    const source = document.createElement('source');
+    source.src = url;
+    if (type) source.type = type;
+    audioElement.appendChild(source);
+    audioElement.load();
+  }
+
   // --- Main: set and play sermon ---
   window.setHero = function (title, audioUrl, button) {
     const sermon = sermons.find(s => s.audioUrl === audioUrl);
@@ -115,8 +130,24 @@
 
     // Set pause icon/label for the new button
     updateSermonButton(true);
-    audioElement.src = audioUrl;
+    setAudioSource(audioUrl, 'audio/mpeg');
     audioElement.play().catch(err => console.warn('Autoplay blocked:', err));
+  };
+
+  // --- Set Radio stream ---
+  window.setRadio = function () {
+    audioPlayer.setAttribute('data-mode', 'radio');
+    playerTitle.textContent = 'Radio na żywo';
+    playerTitle.classList.remove('animate-marquee');
+    void playerTitle.offsetWidth;
+    playerTitle.classList.add('animate-marquee');
+    showPlayer();
+    restoreButtonHTML(currentButton);
+    currentAudioUrl = 'https://s3.free-shoutcast.com/stream/18120';
+    currentButton = null;
+    updateSermonButton(false);
+    setAudioSource(currentAudioUrl, 'audio/mpeg');
+    audioElement.play().catch(function(err) { console.warn('Radio play failed:', err); });
   };
 
   // --- Audio events ---
