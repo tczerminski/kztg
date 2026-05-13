@@ -8,6 +8,7 @@
   const playPauseBtn = document.getElementById('playPauseBtn');
   const playIcon = document.getElementById('playIcon');
   const pauseIcon = document.getElementById('pauseIcon');
+  const playerProgress = document.getElementById('playerProgress');
   const progressBar = document.getElementById('progressBar');
   const currentTimeEl = document.getElementById('currentTime');
   const totalTimeEl = document.getElementById('totalTime');
@@ -59,10 +60,25 @@
 
   // --- Helper: format seconds as m:ss ---
   function formatTime(sec) {
-    if (isNaN(sec)) return '0:00';
+    if (!Number.isFinite(sec) || sec < 0) return '0:00';
     const m = Math.floor(sec / 60);
     const s = Math.floor(sec % 60);
     return `${m}:${s < 10 ? '0' + s : s}`;
+  }
+
+  // --- Helper: show/hide slider row based on playback mode ---
+  function setProgressVisible(visible) {
+    if (!playerProgress) return;
+    playerProgress.classList.toggle('hidden', !visible);
+  }
+
+  // --- Helper: show/hide prev-next controls by playback mode ---
+  function setNavigationVisible(visible) {
+    [prevBtn, nextBtn].forEach((btn) => {
+      if (!btn) return;
+      btn.classList.toggle('hidden', !visible);
+      btn.disabled = !visible;
+    });
   }
 
   // --- Helper: update sermon button icon/label ---
@@ -95,6 +111,9 @@
 
   // --- Main: set and play sermon ---
   window.setHero = function (title, audioUrl, button) {
+    audioPlayer.setAttribute('data-mode', 'sermon');
+    setProgressVisible(true);
+    setNavigationVisible(true);
     const sermon = sermons.find(s => s.audioUrl === audioUrl);
     currentIndex = sermon ? sermon.index : -1;
     const preacher = sermon?.preacher || '';
@@ -137,13 +156,15 @@
   // --- Set Radio stream ---
   window.setRadio = function () {
     audioPlayer.setAttribute('data-mode', 'radio');
-    playerTitle.textContent = 'Radio na żywo';
+    setProgressVisible(false);
+    setNavigationVisible(false);
+    playerTitle.textContent = 'Transmisja radia Kościoła Zmartwychwstałego na żywo';
     playerTitle.classList.remove('animate-marquee');
     void playerTitle.offsetWidth;
     playerTitle.classList.add('animate-marquee');
     showPlayer();
     restoreButtonHTML(currentButton);
-    currentAudioUrl = 'https://s3.free-shoutcast.com/stream/18120';
+    currentAudioUrl = 'https://s3.free-shoutcast.com/stream/18132';
     currentButton = null;
     updateSermonButton(false);
     setAudioSource(currentAudioUrl, 'audio/mpeg');
@@ -166,7 +187,7 @@
   });
 
   audioElement.addEventListener('timeupdate', () => {
-    if (!audioElement.duration) return;
+    if (!Number.isFinite(audioElement.duration) || audioElement.duration <= 0) return;
     progressBar.value = (audioElement.currentTime / audioElement.duration) * 100;
     currentTimeEl.textContent = formatTime(audioElement.currentTime);
   });
