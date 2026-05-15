@@ -65,22 +65,69 @@ article:hover h3 {
 /* Utility class for hiding elements */
 .hidden { display: none !important; }
 
-/* Mobile-specific sermon card styles */
+/* Desktop hover UX: richer visual effect on precise pointers */
+@media (hover: hover) and (pointer: fine) {
+  #kazania .sermon-cover-image {
+    transition: transform 700ms ease-out;
+  }
+
+  #kazania .sermon-cover-overlay {
+    background: rgba(255, 255, 255, 0.6);
+    transition: background-color 700ms ease-out, opacity 700ms ease-out;
+  }
+
+  #kazania .sermon-card:hover .sermon-cover-image {
+    transform: scale(1.05);
+  }
+
+  #kazania .sermon-card:hover .sermon-cover-overlay {
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+/* Touch UX: stable and lightweight (no sticky hover effects) */
+@media (hover: none), (pointer: coarse) {
+  #kazania .sermon-cover-image {
+    transform: none !important;
+    transition: none !important;
+  }
+
+  #kazania .sermon-cover-overlay {
+    background: rgba(255, 255, 255, 0.22) !important;
+    transition: background-color 150ms ease-out;
+  }
+}
+
+/* Mobile layout: full-width sermon card and cover */
 @media (max-width: 639px) {
-  #kazania article {
+  #kazania .sermon-card {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     border-radius: 0 !important;
   }
 
-  #kazania article > div:first-child {
-    border-radius: 0 !important;
+  #kazania .sermon-cover {
     width: 100%;
     margin-left: 0;
+    border-radius: 0 !important;
   }
 
-  #kazania article > div:first-child img {
+  #kazania .sermon-cover-image {
     border-radius: 0 !important;
+  }
+
+  #kazania .sermon-card > .p-6 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Accessibility: respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  #kazania .sermon-cover-image,
+  #kazania .sermon-cover-overlay {
+    transition: none !important;
+    animation: none !important;
   }
 }
 
