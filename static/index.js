@@ -2,7 +2,7 @@
    Supports custom bottom player controls, timers, marquee title, and prev/next navigation.
 */
 (function () {
-  const RADIO_STREAM_URL = 'https://s3.free-shoutcast.com/stream/18120';
+  const RADIO_STREAM_URL = 'https://s3.free-shoutcast.com/stream/18132';
   const audioPlayer = document.getElementById('audioPlayer');
   const audioElement = document.getElementById('audioElement');
   const playerTitle = document.getElementById('playerTitle');
