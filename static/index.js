@@ -2,6 +2,7 @@
    Supports custom bottom player controls, timers, marquee title, and prev/next navigation.
 */
 (function () {
+  const RADIO_STREAM_URL = 'https://s3.free-shoutcast.com/stream/18120';
   const audioPlayer = document.getElementById('audioPlayer');
   const audioElement = document.getElementById('audioElement');
   const playerTitle = document.getElementById('playerTitle');
@@ -14,7 +15,6 @@
   const totalTimeEl = document.getElementById('totalTime');
   const nextBtn = document.getElementById('nextBtn');
   const prevBtn = document.getElementById('prevBtn');
-  const radioPlayBtn = document.getElementById('radioPlayBtn');
   const radioPlayIcon = document.getElementById('radioPlayIcon');
   const radioPauseIcon = document.getElementById('radioPauseIcon');
   const radioButtonText = document.getElementById('radioButtonText');
@@ -31,12 +31,6 @@
     button: btn,
     index
   }));
-
-  for (let i = 0; i < sermons.length; i++) {
-  console.log(sermons[i].title);
-  console.log(sermons[i].preacher);
-  console.log(sermons[i].audioUrl);
-  }
 
   // --- Helper: show player with slide animation ---
   function showPlayer() {
@@ -94,7 +88,7 @@
     }
     if (isPlaying) {
       currentButton.innerHTML = `
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2">
           <rect x="6" y="4" width="4" height="16"/>
           <rect x="14" y="4" width="4" height="16"/>
         </svg>
@@ -122,6 +116,7 @@
 
   // --- Main: set and play sermon ---
   window.setHero = function (title, audioUrl, button) {
+    const previousMode = audioPlayer.getAttribute('data-mode');
     audioPlayer.setAttribute('data-mode', 'sermon');
     setProgressVisible(true);
     setNavigationVisible(true);
@@ -151,7 +146,7 @@
     }
 
     // Reset radio button if switching from radio
-    if (isRadioPlaying || audioPlayer.getAttribute('data-mode') === 'radio') {
+    if (isRadioPlaying || previousMode === 'radio') {
       isRadioPlaying = false;
       updateRadioButton(false);
     }
@@ -181,7 +176,7 @@
     playerTitle.classList.add('animate-marquee');
     showPlayer();
     restoreButtonHTML(currentButton);
-    currentAudioUrl = 'https://s3.free-shoutcast.com/stream/18132';
+    currentAudioUrl = RADIO_STREAM_URL;
     currentButton = null;
     
     // If already playing radio, toggle pause
