@@ -93,7 +93,13 @@
       currentButton.dataset.originalHTML = currentButton.innerHTML;
     }
     if (isPlaying) {
-      currentButton.innerHTML = '⏸ Zatrzymaj';
+      currentButton.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2">
+          <rect x="6" y="4" width="4" height="16"/>
+          <rect x="14" y="4" width="4" height="16"/>
+        </svg>
+        Zatrzymaj
+      `;
     } else {
       currentButton.innerHTML = currentButton.dataset.originalHTML;
     }
