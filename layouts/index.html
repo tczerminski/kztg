@@ -278,8 +278,23 @@
                     </button>
                 </form>
 
-                <div class="sm:rounded-2xl overflow-hidden shadow-sm h-[500px] -mx-4 sm:mx-0">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.449402420695!2d18.876954211011448!3d50.44441097062951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112bca94457a2f%3A0xe456ccebf37e9f3d!2zS2_Fm2Npw7PFgiBabWFydHd5Y2h3c3RhxYJlZ28gdyBUYXJub3dza2ljaCBHw7NyYWNo!5e0!3m2!1spl!2spl!4v1772382865381!5m2!1spl!2spl" width="600" height="450" style="border:0;width:100%;height:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="sm:rounded-2xl overflow-hidden shadow-sm h-[500px] -mx-4 sm:mx-0 bg-white">
+                    <iframe id="contactMapFrame"
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.449402420695!2d18.876954211011448!3d50.44441097062951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112bca94457a2f%3A0xe456ccebf37e9f3d!2zS2_Fm2Npw7PFgiBabWFydHd5Y2h3c3RhxYJlZ28gdyBUYXJub3dza2ljaCBHw7NyYWNo!5e0!3m2!1spl!2spl!4v1772382865381!5m2!1spl!2spl"
+                            class="hidden w-full h-full"
+                            title="Mapa Google"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="contactMapPlaceholder" class="h-full flex flex-col items-center justify-center text-center px-6 bg-[#f8f9fe]">
+                        <p class="text-sm font-semibold text-[#1f2a44]">Mapa Google wymaga opcjonalnych cookie</p>
+                        <p class="text-sm text-gray-600 mt-2">Jeśli się nie zgadzasz, mapa nie zostanie załadowana. Nadal możesz użyć przycisku nawigacji poniżej.</p>
+                        <button id="contactMapConsentBtn" type="button"
+                                class="mt-4 px-4 py-2 rounded-xl bg-[#6f85b8] text-white hover:bg-[#5c6ea4] transition">
+                            Akceptuj i pokaż mapę
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -357,12 +372,12 @@
     <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div class="pr-2">
             <p class="text-sm font-semibold text-[#1f2a44]">Używamy plików cookie</p>
-            <p class="text-sm text-gray-600">Korzystamy z niezbędnych cookie do działania strony oraz analitycznych, aby ją ulepszać.</p>
+            <p class="text-sm text-gray-600">Korzystamy z niezbędnych cookie do działania strony oraz opcjonalnych (np. mapa Google), aby ją ulepszać.</p>
         </div>
         <div class="flex gap-2 sm:shrink-0">
             <button id="cookieNecessaryBtn" type="button"
                     class="px-4 py-2 rounded-xl border border-[#6f85b8] text-[#6f85b8] hover:bg-[#6f85b8]/10 transition">
-                Tylko niezbędne
+                Nie zgadzam się
             </button>
             <button id="cookieAcceptBtn" type="button"
                     class="px-4 py-2 rounded-xl bg-[#6f85b8] text-white hover:bg-[#5c6ea4] transition">
@@ -427,8 +442,13 @@
   const cookieBanner = document.getElementById('cookieBanner');
   const cookieAcceptBtn = document.getElementById('cookieAcceptBtn');
   const cookieNecessaryBtn = document.getElementById('cookieNecessaryBtn');
+  const contactMapFrame = document.getElementById('contactMapFrame');
+  const contactMapPlaceholder = document.getElementById('contactMapPlaceholder');
+  const contactMapConsentBtn = document.getElementById('contactMapConsentBtn');
 
   const COOKIE_CONSENT_KEY = 'kztg_cookie_consent';
+  const CONSENT_ACCEPTED = 'accepted';
+  const CONSENT_REJECTED = 'rejected';
 
   const hideCookieBanner = () => {
     if (!cookieBanner) return;
@@ -449,21 +469,58 @@
     hideCookieBanner();
   };
 
+  const hasOptionalConsent = (value) => value === CONSENT_ACCEPTED;
+
+  const applyOptionalConsent = (value) => {
+    const canLoadOptional = hasOptionalConsent(value);
+
+    if (contactMapFrame && contactMapPlaceholder) {
+      if (canLoadOptional) {
+        const mapSrc = contactMapFrame.dataset.src || '';
+        if (mapSrc && contactMapFrame.getAttribute('src') !== mapSrc) {
+          contactMapFrame.setAttribute('src', mapSrc);
+        }
+        contactMapFrame.classList.remove('hidden');
+        contactMapPlaceholder.classList.add('hidden');
+      } else {
+        contactMapFrame.classList.add('hidden');
+        contactMapPlaceholder.classList.remove('hidden');
+        if (contactMapFrame.getAttribute('src')) {
+          contactMapFrame.setAttribute('src', 'about:blank');
+        }
+      }
+    }
+  };
+
   try {
     const savedConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
+    applyOptionalConsent(savedConsent);
     if (!savedConsent) {
       showCookieBanner();
     }
   } catch (err) {
     console.warn('Cannot read cookie consent:', err);
+    applyOptionalConsent(CONSENT_REJECTED);
     showCookieBanner();
   }
 
   if (cookieAcceptBtn) {
-    cookieAcceptBtn.addEventListener('click', () => saveCookieConsent('accepted'));
+    cookieAcceptBtn.addEventListener('click', () => {
+      saveCookieConsent(CONSENT_ACCEPTED);
+      applyOptionalConsent(CONSENT_ACCEPTED);
+    });
   }
   if (cookieNecessaryBtn) {
-    cookieNecessaryBtn.addEventListener('click', () => saveCookieConsent('necessary'));
+    cookieNecessaryBtn.addEventListener('click', () => {
+      saveCookieConsent(CONSENT_REJECTED);
+      applyOptionalConsent(CONSENT_REJECTED);
+    });
+  }
+  if (contactMapConsentBtn) {
+    contactMapConsentBtn.addEventListener('click', () => {
+      saveCookieConsent(CONSENT_ACCEPTED);
+      applyOptionalConsent(CONSENT_ACCEPTED);
+    });
   }
 
   if (mobileToggle && mobileNav) {
