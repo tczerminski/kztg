@@ -154,7 +154,7 @@
                             <p class="text-sm text-gray-500 mb-4">{{ .Date.Format "02.01.2006" }}</p>
 
                             {{ if $audioURL }}
-                                <div class="mt-auto flex flex-col gap-3 w-full">
+                                <div class="mt-auto w-full">
                                     <button type="button"
                                             class="sermon-play-btn sermon-btn block p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
                                             data-title="{{ .Title | htmlEscape }}"
@@ -165,16 +165,6 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                                         Odsłuchaj
                                     </button>
-                                    <a href="{{ $audioURL }}?download=true" download
-                                       class="sermon-btn block p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"
-                                       style="text-decoration: none;">
-                                        <!-- Download icon: arrow down into a box, kolor #6f85b8 -->
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2">
-                                          <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v12m0 0l-5-5m5 5l5-5" />
-                                          <rect x="4" y="18" width="16" height="2" rx="1" />
-                                        </svg>
-                                        Pobierz
-                                    </a>
                                 </div>
                             {{ else }}
                                 <p class="text-sm text-gray-400 mt-auto">Brak nagrania audio</p>
