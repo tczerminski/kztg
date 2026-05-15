@@ -18,12 +18,14 @@
                 Pozostań w kontakcie z naszym zgromadzeniem, niezależnie od miejsca i czasu.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 w-full">
-                <button type="button"
+                <button id="radioPlayBtn"
+                        type="button"
                         class="w-[90%] sm:w-1/2 mx-auto sm:mx-0 p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] bg-white font-semibold flex items-center justify-center gap-3 hover:bg-white/90 transition"
                         onclick="setRadio()">
                     <!-- Play icon -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-                    Słuchaj teraz
+                    <svg id="radioPlayIcon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    <svg id="radioPauseIcon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="#6f85b8" stroke-width="2" class="hidden"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    <span id="radioButtonText">Słuchaj teraz</span>
                 </button>
             </div>
 

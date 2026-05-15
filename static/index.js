@@ -14,10 +14,15 @@
   const totalTimeEl = document.getElementById('totalTime');
   const nextBtn = document.getElementById('nextBtn');
   const prevBtn = document.getElementById('prevBtn');
+  const radioPlayBtn = document.getElementById('radioPlayBtn');
+  const radioPlayIcon = document.getElementById('radioPlayIcon');
+  const radioPauseIcon = document.getElementById('radioPauseIcon');
+  const radioButtonText = document.getElementById('radioButtonText');
 
   let currentButton = null;
   let currentAudioUrl = '';
   let currentIndex = -1;
+  let isRadioPlaying = false;
 
   const sermons = Array.from(document.querySelectorAll('.sermon-play-btn')).map((btn, index) => ({
     title: btn.dataset.title,
@@ -139,6 +144,12 @@
       return;
     }
 
+    // Reset radio button if switching from radio
+    if (isRadioPlaying || audioPlayer.getAttribute('data-mode') === 'radio') {
+      isRadioPlaying = false;
+      updateRadioButton(false);
+    }
+
     // Switch to new audio
     restoreButtonHTML(currentButton);
     currentAudioUrl = audioUrl;
@@ -166,24 +177,58 @@
     restoreButtonHTML(currentButton);
     currentAudioUrl = 'https://s3.free-shoutcast.com/stream/18132';
     currentButton = null;
-    updateSermonButton(false);
+    
+    // If already playing radio, toggle pause
+    if (isRadioPlaying) {
+      audioElement.pause();
+      return;
+    }
+    
+    // Play radio
+    isRadioPlaying = true;
     setAudioSource(currentAudioUrl, 'audio/mpeg');
     audioElement.play().catch(function(err) { console.warn('Radio play failed:', err); });
   };
 
+  // --- Helper: update radio button icon/label ---
+  function updateRadioButton(isPlaying) {
+    if (!radioPlayIcon || !radioPauseIcon || !radioButtonText) return;
+    radioPlayIcon.classList.toggle('hidden', isPlaying);
+    radioPauseIcon.classList.toggle('hidden', !isPlaying);
+    radioButtonText.textContent = isPlaying ? 'Zatrzymaj' : 'Słuchaj teraz';
+  }
+
   // --- Audio events ---
   audioElement.addEventListener('play', () => {
     toggleIcons(true);
-    updateSermonButton(true);
+    const mode = audioPlayer.getAttribute('data-mode');
+    if (mode === 'radio') {
+      isRadioPlaying = true;
+      updateRadioButton(true);
+    } else {
+      updateSermonButton(true);
+    }
   });
   audioElement.addEventListener('pause', () => {
     toggleIcons(false);
-    updateSermonButton(false);
+    const mode = audioPlayer.getAttribute('data-mode');
+    if (mode === 'radio') {
+      isRadioPlaying = false;
+      updateRadioButton(false);
+    } else {
+      updateSermonButton(false);
+    }
   });
   audioElement.addEventListener('ended', () => {
-    restoreButtonHTML(currentButton);
-    toggleIcons(false);
-    nextSermon(); // auto advance
+    const mode = audioPlayer.getAttribute('data-mode');
+    if (mode === 'radio') {
+      isRadioPlaying = false;
+      updateRadioButton(false);
+    } else {
+      restoreButtonHTML(currentButton);
+      toggleIcons(false);
+      nextSermon(); // auto advance
+    }
   });
 
   audioElement.addEventListener('timeupdate', () => {

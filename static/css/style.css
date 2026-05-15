@@ -64,3 +64,21 @@ article:hover h3 {
 
 /* Utility class for hiding elements */
 .hidden { display: none !important; }
+
+/* Mobile-specific sermon card styles */
+@media (max-width: 639px) {
+  article {
+    border-radius: 0 !important;
+  }
+
+  article > div:first-child {
+    border-radius: 0 !important;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+  }
+
+  article > div:first-child img {
+    border-radius: 0 !important;
+  }
+}
+
