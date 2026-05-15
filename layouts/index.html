@@ -364,7 +364,11 @@
 </div>
 
 <footer class="bg-white border-t text-center py-4 text-gray-500 text-sm">
-    © {{ now.Year }} Kościół Zmartwychwstałego w Tarnowskich Górach
+    <p>© {{ now.Year }} Kościół Zmartwychwstałego w Tarnowskich Górach</p>
+    <button id="cookieSettingsBtn" type="button"
+            class="mt-2 text-[#6f85b8] hover:text-[#5c6ea4] hover:underline transition">
+        Zmień ustawienia cookie
+    </button>
 </footer>
 
 <div id="cookieBanner"
@@ -442,6 +446,7 @@
   const cookieBanner = document.getElementById('cookieBanner');
   const cookieAcceptBtn = document.getElementById('cookieAcceptBtn');
   const cookieNecessaryBtn = document.getElementById('cookieNecessaryBtn');
+  const cookieSettingsBtn = document.getElementById('cookieSettingsBtn');
   const contactMapFrame = document.getElementById('contactMapFrame');
   const contactMapPlaceholder = document.getElementById('contactMapPlaceholder');
   const contactMapConsentBtn = document.getElementById('contactMapConsentBtn');
@@ -520,6 +525,11 @@
     contactMapConsentBtn.addEventListener('click', () => {
       saveCookieConsent(CONSENT_ACCEPTED);
       applyOptionalConsent(CONSENT_ACCEPTED);
+    });
+  }
+  if (cookieSettingsBtn) {
+    cookieSettingsBtn.addEventListener('click', () => {
+      showCookieBanner();
     });
   }
 
