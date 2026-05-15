@@ -352,6 +352,26 @@
     © {{ now.Year }} Kościół Zmartwychwstałego w Tarnowskich Górach
 </footer>
 
+<div id="cookieBanner"
+     class="fixed left-4 right-4 bottom-4 z-[80] hidden rounded-2xl border border-[#d6deef] bg-white/95 backdrop-blur shadow-xl p-4 sm:p-5">
+    <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div class="pr-2">
+            <p class="text-sm font-semibold text-[#1f2a44]">Używamy plików cookie</p>
+            <p class="text-sm text-gray-600">Korzystamy z niezbędnych cookie do działania strony oraz analitycznych, aby ją ulepszać.</p>
+        </div>
+        <div class="flex gap-2 sm:shrink-0">
+            <button id="cookieNecessaryBtn" type="button"
+                    class="px-4 py-2 rounded-xl border border-[#6f85b8] text-[#6f85b8] hover:bg-[#6f85b8]/10 transition">
+                Tylko niezbędne
+            </button>
+            <button id="cookieAcceptBtn" type="button"
+                    class="px-4 py-2 rounded-xl bg-[#6f85b8] text-white hover:bg-[#5c6ea4] transition">
+                Akceptuję
+            </button>
+        </div>
+    </div>
+</div>
+
 <script src="{{ "index.js" | relURL }}"></script>
 <script>
   let deferredPrompt;
@@ -404,6 +424,47 @@
 
   const mobileToggle = document.getElementById('mobileNavToggle');
   const mobileNav = document.getElementById('mobileNav');
+  const cookieBanner = document.getElementById('cookieBanner');
+  const cookieAcceptBtn = document.getElementById('cookieAcceptBtn');
+  const cookieNecessaryBtn = document.getElementById('cookieNecessaryBtn');
+
+  const COOKIE_CONSENT_KEY = 'kztg_cookie_consent';
+
+  const hideCookieBanner = () => {
+    if (!cookieBanner) return;
+    cookieBanner.classList.add('hidden');
+  };
+
+  const showCookieBanner = () => {
+    if (!cookieBanner) return;
+    cookieBanner.classList.remove('hidden');
+  };
+
+  const saveCookieConsent = (value) => {
+    try {
+      localStorage.setItem(COOKIE_CONSENT_KEY, value);
+    } catch (err) {
+      console.warn('Cannot persist cookie consent:', err);
+    }
+    hideCookieBanner();
+  };
+
+  try {
+    const savedConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
+    if (!savedConsent) {
+      showCookieBanner();
+    }
+  } catch (err) {
+    console.warn('Cannot read cookie consent:', err);
+    showCookieBanner();
+  }
+
+  if (cookieAcceptBtn) {
+    cookieAcceptBtn.addEventListener('click', () => saveCookieConsent('accepted'));
+  }
+  if (cookieNecessaryBtn) {
+    cookieNecessaryBtn.addEventListener('click', () => saveCookieConsent('necessary'));
+  }
 
   if (mobileToggle && mobileNav) {
     mobileToggle.addEventListener('click', () => {

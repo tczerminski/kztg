@@ -65,77 +65,22 @@ article:hover h3 {
 /* Utility class for hiding elements */
 .hidden { display: none !important; }
 
-/* Desktop hover UX: richer visual effect on precise pointers */
-@media (hover: hover) and (pointer: fine) {
-  #kazania .sermon-cover-image {
-    transition: transform 700ms ease-out;
-  }
-
-  #kazania .sermon-cover-overlay {
-    background: rgba(255, 255, 255, 0.6);
-    transition: background-color 700ms ease-out, opacity 700ms ease-out;
-  }
-
-  #kazania .sermon-card:hover .sermon-cover-image {
-    transform: scale(1.05);
-  }
-
-  #kazania .sermon-card:hover .sermon-cover-overlay {
-    background: rgba(255, 255, 255, 0);
-  }
-}
-
-/* Touch UX: stable and lightweight (no sticky hover effects) */
-@media (hover: none), (pointer: coarse) {
-  #kazania .sermon-card:hover {
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
-  }
-
-  #kazania .sermon-card:hover h3 {
-    color: rgb(17 24 39) !important;
-  }
-
-  #kazania .sermon-cover-image {
-    transform: none !important;
-    transition: none !important;
-  }
-
-  #kazania .sermon-cover-overlay {
-    background: rgba(255, 255, 255, 0.22) !important;
-    transition: none !important;
-  }
-}
-
-/* Mobile layout: full-width sermon card and cover */
+/* Mobile-specific sermon card styles */
 @media (max-width: 639px) {
-  #kazania .sermon-card {
+  #kazania article {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
     border-radius: 0 !important;
   }
 
-  #kazania .sermon-cover {
+  #kazania article > div:first-child {
+    border-radius: 0 !important;
     width: 100%;
     margin-left: 0;
+  }
+
+  #kazania article > div:first-child img {
     border-radius: 0 !important;
-  }
-
-  #kazania .sermon-cover-image {
-    border-radius: 0 !important;
-  }
-
-  #kazania .sermon-card > .p-6 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-/* Accessibility: respect reduced motion preferences */
-@media (prefers-reduced-motion: reduce) {
-  #kazania .sermon-cover-image,
-  #kazania .sermon-cover-overlay {
-    transition: none !important;
-    animation: none !important;
   }
 }
 
