@@ -87,6 +87,14 @@ article:hover h3 {
 
 /* Touch UX: stable and lightweight (no sticky hover effects) */
 @media (hover: none), (pointer: coarse) {
+  #kazania .sermon-card:hover {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+  }
+
+  #kazania .sermon-card:hover h3 {
+    color: rgb(17 24 39) !important;
+  }
+
   #kazania .sermon-cover-image {
     transform: none !important;
     transition: none !important;
@@ -94,7 +102,7 @@ article:hover h3 {
 
   #kazania .sermon-cover-overlay {
     background: rgba(255, 255, 255, 0.22) !important;
-    transition: background-color 150ms ease-out;
+    transition: none !important;
   }
 }
 
