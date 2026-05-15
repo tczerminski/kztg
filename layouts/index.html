@@ -39,6 +39,9 @@
       html {
         scroll-behavior: smooth;
       }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
       .sermon-btn {
         width: 95% !important;
         margin-left: auto;
@@ -256,25 +259,43 @@
             </div>
 
             <div class="grid gap-8 lg:grid-cols-2">
-                <form class="bg-white sm:rounded-2xl shadow-sm p-8 space-y-4 -mx-4 sm:mx-0">
+                <form id="contactForm" class="bg-white sm:rounded-2xl shadow-sm p-8 space-y-4 -mx-4 sm:mx-0">
+                    <!-- Web3Forms access key — zastąp YOUR_ACCESS_KEY kluczem z https://web3forms.com -->
+                    <input type="hidden" name="access_key" value="b34a545a-a177-4917-9333-ceae8be0bb40">
+                    <input type="hidden" name="subject" value="Wiadomość ze strony kztg.pl">
+                    <input type="hidden" name="from_name" value="Formularz kztg.pl">
+                    <!-- honeypot — ochrona przed spamem -->
+                    <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-name">Imię i nazwisko</label>
-                        <input id="contact-name" type="text" placeholder="Jan Kowalski"
+                        <input id="contact-name" name="name" type="text" placeholder="Jan Kowalski"
                                class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-email">E-mail</label>
-                        <input id="contact-email" type="email" placeholder="twoj@email.pl"
+                        <input id="contact-email" name="email" type="email" placeholder="twoj@email.pl"
                                class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-message">Wiadomość</label>
-                        <textarea id="contact-message" rows="5" placeholder="W czym możemy pomóc?"
+                        <textarea id="contact-message" name="message" rows="5" placeholder="W czym możemy pomóc?"
                                   class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#6f85b8]" required></textarea>
                     </div>
-                    <button type="submit"
-                            class="w-full bg-[#6f85b8] text-white font-semibold py-3 rounded-xl hover:bg-[#5c6ea4] transition">
-                        Wyślij wiadomość
+
+                    <div id="contactFormSuccess" class="hidden rounded-xl bg-green-50 border border-green-200 text-green-700 px-4 py-3 text-sm">
+                        ✓ Wiadomość wysłana! Odezwiemy się wkrótce.
+                    </div>
+                    <div id="contactFormError" class="hidden rounded-xl bg-red-50 border border-red-200 text-red-700 px-4 py-3 text-sm">
+                        ✗ Coś poszło nie tak. Spróbuj ponownie lub napisz bezpośrednio na <a href="mailto:info@kztg.pl" class="underline">info@kztg.pl</a>.
+                    </div>
+
+                    <button id="contactSubmitBtn" type="submit"
+                            class="w-full bg-[#6f85b8] text-white font-semibold py-3 rounded-xl hover:bg-[#5c6ea4] transition flex items-center justify-center gap-2">
+                        <svg id="contactSpinner" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" class="hidden" style="animation:spin 0.8s linear infinite;">
+                            <circle cx="12" cy="12" r="10" stroke="white" stroke-width="4" stroke-dasharray="60" stroke-dashoffset="40" stroke-linecap="round"/>
+                        </svg>
+                        <span id="contactSubmitLabel">Wyślij wiadomość</span>
                     </button>
                 </form>
 
@@ -443,101 +464,110 @@
 
   const mobileToggle = document.getElementById('mobileNavToggle');
   const mobileNav = document.getElementById('mobileNav');
-  const cookieBanner = document.getElementById('cookieBanner');
-  const cookieAcceptBtn = document.getElementById('cookieAcceptBtn');
-  const cookieNecessaryBtn = document.getElementById('cookieNecessaryBtn');
-  const cookieSettingsBtn = document.getElementById('cookieSettingsBtn');
-  const contactMapFrame = document.getElementById('contactMapFrame');
-  const contactMapPlaceholder = document.getElementById('contactMapPlaceholder');
-  const contactMapConsentBtn = document.getElementById('contactMapConsentBtn');
-
-  const COOKIE_CONSENT_KEY = 'kztg_cookie_consent';
-  const CONSENT_ACCEPTED = 'accepted';
-  const CONSENT_REJECTED = 'rejected';
-
-  const hideCookieBanner = () => {
-    if (!cookieBanner) return;
-    cookieBanner.classList.add('hidden');
-  };
-
-  const showCookieBanner = () => {
-    if (!cookieBanner) return;
-    cookieBanner.classList.remove('hidden');
-  };
-
-  const saveCookieConsent = (value) => {
-    try {
-      localStorage.setItem(COOKIE_CONSENT_KEY, value);
-    } catch (err) {
-      console.warn('Cannot persist cookie consent:', err);
-    }
-    hideCookieBanner();
-  };
-
-  const hasOptionalConsent = (value) => value === CONSENT_ACCEPTED;
-
-  const applyOptionalConsent = (value) => {
-    const canLoadOptional = hasOptionalConsent(value);
-
-    if (contactMapFrame && contactMapPlaceholder) {
-      if (canLoadOptional) {
-        const mapSrc = contactMapFrame.dataset.src || '';
-        if (mapSrc && contactMapFrame.getAttribute('src') !== mapSrc) {
-          contactMapFrame.setAttribute('src', mapSrc);
-        }
-        contactMapFrame.classList.remove('hidden');
-        contactMapPlaceholder.classList.add('hidden');
-      } else {
-        contactMapFrame.classList.add('hidden');
-        contactMapPlaceholder.classList.remove('hidden');
-        if (contactMapFrame.getAttribute('src')) {
-          contactMapFrame.setAttribute('src', 'about:blank');
-        }
-      }
-    }
-  };
-
-  try {
-    const savedConsent = localStorage.getItem(COOKIE_CONSENT_KEY);
-    applyOptionalConsent(savedConsent);
-    if (!savedConsent) {
-      showCookieBanner();
-    }
-  } catch (err) {
-    console.warn('Cannot read cookie consent:', err);
-    applyOptionalConsent(CONSENT_REJECTED);
-    showCookieBanner();
-  }
-
-  if (cookieAcceptBtn) {
-    cookieAcceptBtn.addEventListener('click', () => {
-      saveCookieConsent(CONSENT_ACCEPTED);
-      applyOptionalConsent(CONSENT_ACCEPTED);
-    });
-  }
-  if (cookieNecessaryBtn) {
-    cookieNecessaryBtn.addEventListener('click', () => {
-      saveCookieConsent(CONSENT_REJECTED);
-      applyOptionalConsent(CONSENT_REJECTED);
-    });
-  }
-  if (contactMapConsentBtn) {
-    contactMapConsentBtn.addEventListener('click', () => {
-      saveCookieConsent(CONSENT_ACCEPTED);
-      applyOptionalConsent(CONSENT_ACCEPTED);
-    });
-  }
-  if (cookieSettingsBtn) {
-    cookieSettingsBtn.addEventListener('click', () => {
-      showCookieBanner();
-    });
-  }
 
   if (mobileToggle && mobileNav) {
-    mobileToggle.addEventListener('click', () => {
-      mobileNav.classList.toggle('hidden');
-    });
+    mobileToggle.addEventListener('click', () => mobileNav.classList.toggle('hidden'));
     mobileNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => mobileNav.classList.add('hidden')));
+  }
+
+  // ── Cookie consent ──────────────────────────────────────────
+  const COOKIE_KEY = 'kztg_cookie_consent';
+  const banner          = document.getElementById('cookieBanner');
+  const acceptBtn       = document.getElementById('cookieAcceptBtn');
+  const rejectBtn       = document.getElementById('cookieNecessaryBtn');
+  const settingsBtn     = document.getElementById('cookieSettingsBtn');
+  const mapFrame        = document.getElementById('contactMapFrame');
+  const mapPlaceholder  = document.getElementById('contactMapPlaceholder');
+  const mapConsentBtn   = document.getElementById('contactMapConsentBtn');
+
+  function getConsent() {
+    try { return localStorage.getItem(COOKIE_KEY); } catch(e) { return null; }
+  }
+  function setConsent(val) {
+    try { localStorage.setItem(COOKIE_KEY, val); } catch(e) {}
+  }
+
+  function applyMap(accepted) {
+    if (!mapFrame || !mapPlaceholder) return;
+    if (accepted) {
+      if (!mapFrame.getAttribute('src') || mapFrame.getAttribute('src') === 'about:blank') {
+        mapFrame.setAttribute('src', mapFrame.dataset.src);
+      }
+      mapFrame.classList.remove('hidden');
+      mapPlaceholder.classList.add('hidden');
+    } else {
+      mapFrame.setAttribute('src', 'about:blank');
+      mapFrame.classList.add('hidden');
+      mapPlaceholder.classList.remove('hidden');
+    }
+  }
+
+  function hideBanner() { banner && banner.classList.add('hidden'); }
+  function showBanner() { banner && banner.classList.remove('hidden'); }
+
+  function accept() {
+    setConsent('accepted');
+    applyMap(true);
+    hideBanner();
+  }
+  function reject() {
+    setConsent('rejected');
+    applyMap(false);
+    hideBanner();
+  }
+
+  // Init — show banner if no decision yet; apply map state based on saved consent
+  const saved = getConsent();
+  if (!saved) {
+    showBanner();
+    applyMap(true); // show map optimistically until explicitly rejected
+  } else {
+    applyMap(saved === 'accepted');
+  }
+
+  acceptBtn    && acceptBtn.addEventListener('click', accept);
+  rejectBtn    && rejectBtn.addEventListener('click', reject);
+  mapConsentBtn && mapConsentBtn.addEventListener('click', accept);
+  settingsBtn  && settingsBtn.addEventListener('click', showBanner);
+
+  // ── Contact form ─────────────────────────────────────────────
+  const contactForm        = document.getElementById('contactForm');
+  const contactSubmitBtn   = document.getElementById('contactSubmitBtn');
+  const contactFormSuccess = document.getElementById('contactFormSuccess');
+  const contactFormError   = document.getElementById('contactFormError');
+
+  if (contactForm) {
+    const contactSpinner     = document.getElementById('contactSpinner');
+    const contactSubmitLabel = document.getElementById('contactSubmitLabel');
+
+    contactForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      contactFormSuccess.classList.add('hidden');
+      contactFormError.classList.add('hidden');
+      contactSubmitBtn.disabled = true;
+      contactSubmitBtn.classList.add('opacity-80', 'cursor-not-allowed');
+      contactSpinner.classList.remove('hidden');
+      contactSubmitLabel.textContent = 'Wysyłanie…';
+
+      try {
+        const res  = await fetch('https://api.web3forms.com/submit', { method: 'POST', body: new FormData(contactForm) });
+        const json = await res.json();
+        if (res.ok && json.success) {
+          contactFormSuccess.classList.remove('hidden');
+          contactForm.reset();
+        } else {
+          throw new Error(json.message || 'Błąd');
+        }
+      } catch (err) {
+        console.error('Form error:', err);
+        contactFormError.classList.remove('hidden');
+      } finally {
+        contactSubmitBtn.disabled = false;
+        contactSubmitBtn.classList.remove('opacity-80', 'cursor-not-allowed');
+        contactSpinner.classList.add('hidden');
+        contactSubmitLabel.textContent = 'Wyślij wiadomość';
+      }
+    });
   }
 </script>
 </body>
