@@ -45,7 +45,7 @@
       threshold: 0.28,
       distance: 80,
       ignoreLocation: true,
-      minMatchCharLength: 2,
+      minMatchCharLength: 1,
       useExtendedSearch: false,
       keys: [
         { name: 'title', weight: 0.55 },
