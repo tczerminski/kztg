@@ -271,7 +271,7 @@
     state.mode = 'radio';
     el.player.setAttribute('data-mode', 'radio');
     setProgressVisible(false);
-    setTitle('Transmisja radia Kościoła Zmartwychwstałego na żywo');
+    setTitle('Transmisja radia Kościoła Zmartwychwstałego w Tarnowskich Górach');
     el.player.classList.add('show');
 
     el.sermonAudio.pause();
