@@ -9,9 +9,9 @@ import boto3
 # CONFIG
 # =========================
 
-R2_ACCOUNT_ID = os.getenv("R2_ACCOUNT_ID", "6e2f99c2f7e47ee4cedc79c738c78567")
-R2_ACCESS_KEY_ID = os.getenv("R2_ACCESS_KEY_ID", "6bcb4e3959c0bec68406c462b7b98086")
-R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "7d09ef27375e17a870d234ec74f41b0a1fd4a369493f6ffc3152af0edeecec27")
+R2_ACCOUNT_ID = os.getenv("R2_ACCOUNT_ID", "")
+R2_ACCESS_KEY_ID = os.getenv("R2_ACCESS_KEY_ID", "")
+R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "")
 
 if not R2_ACCOUNT_ID or not R2_ACCESS_KEY_ID or not R2_SECRET_ACCESS_KEY:
     raise SystemExit("Missing R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, or R2_SECRET_ACCESS_KEY in environment.")
