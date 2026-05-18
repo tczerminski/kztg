@@ -1,0 +1,48 @@
+name: Download audio with yt-dlp
+
+on:
+  workflow_dispatch:
+    inputs:
+      yt_url:
+        description: "Sermon YT URL"
+        required: true
+        type: string
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install yt-dlp boto3
+
+      - name: Download and transcode
+        run: |
+          yt-dlp \
+            -f "bestaudio*" \
+            -x \
+            --audio-format opus \
+            --audio-quality 40K \
+            --write-thumbnail \
+            --write-info-json \
+            --convert-thumbnails webp \
+            --ppa "ExtractAudio:-af highpass=f=70,lowpass=f=12000,acompressor=threshold=-18dB:ratio=2:attack=20:release=250,loudnorm" \
+            --ppa "ExtractAudio:-c:a libopus -b:a 40k -vbr on -compression_level 10 -application voip" \
+            -o "%(id)s/%(id)s.%(ext)s" \
+            "${{ inputs.yt_url }}"
+
+      - name: Build manifest and upload to R2
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET || 'kztg' }}
+        run: |
+          python scripts/build_manifest_and_upload.py

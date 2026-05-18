@@ -9,9 +9,9 @@ import boto3
 # CONFIG
 # =========================
 
-R2_ACCOUNT_ID = os.getenv("R2_ACCOUNT_ID", "")
-R2_ACCESS_KEY_ID = os.getenv("R2_ACCESS_KEY_ID", "")
-R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "")
+R2_ACCOUNT_ID = os.getenv("R2_ACCOUNT_ID", "6e2f99c2f7e47ee4cedc79c738c78567")
+R2_ACCESS_KEY_ID = os.getenv("R2_ACCESS_KEY_ID", "6bcb4e3959c0bec68406c462b7b98086")
+R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "7d09ef27375e17a870d234ec74f41b0a1fd4a369493f6ffc3152af0edeecec27")
 
 if not R2_ACCOUNT_ID or not R2_ACCESS_KEY_ID or not R2_SECRET_ACCESS_KEY:
     raise SystemExit("Missing R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, or R2_SECRET_ACCESS_KEY in environment.")
@@ -46,6 +46,21 @@ def public_url(key: str) -> str:
 
 sermons = {}
 
+audio_priority = {
+    ".opus": 0,
+    ".mp3": 1,
+    ".m4a": 2,
+    ".aac": 3,
+    ".ogg": 4,
+    ".wav": 5,
+}
+cover_priority = {
+    ".webp": 0,
+    ".jpg": 1,
+    ".jpeg": 2,
+    ".png": 3,
+}
+
 continuation_token = None
 
 while True:
@@ -69,32 +84,46 @@ while True:
 
         _, sermon_id, filename = parts
 
-        if len(sermon_id) != 8 or not sermon_id.isdigit():
-            continue
 
         sermons.setdefault(sermon_id, {
             "id": sermon_id,
             "date": "",
         })
+        sermons[sermon_id].setdefault("_audio_rank", None)
+        sermons[sermon_id].setdefault("_cover_rank", None)
 
         if filename == "metadata.json":
             obj_data = s3.get_object(Bucket=BUCKET_NAME, Key=key)
             meta = json.loads(obj_data["Body"].read())
-            sermons[sermon_id]["date"] = meta.get("date", "")
-            sermons[sermon_id]["preacher"] = meta.get("preacher", "")
-            sermons[sermon_id]["title"] = meta.get("title", "")
 
-        if filename == "audio.mp3":
-            sermons[sermon_id]["audio"] = public_url(key)
+            if filename == "manifest.json":
+                sermons[sermon_id]["date"] = meta.get("date", "")
+                sermons[sermon_id]["preacher"] = meta.get("preacher", "")
+                sermons[sermon_id]["title"] = meta.get("title", "")
+            else:
+                if not sermons[sermon_id].get("date"):
+                    sermons[sermon_id]["date"] = meta.get("date", "")
+                if not sermons[sermon_id].get("preacher"):
+                    sermons[sermon_id]["preacher"] = meta.get("preacher", "")
+                if not sermons[sermon_id].get("title"):
+                    sermons[sermon_id]["title"] = meta.get("title", "")
 
-        elif filename == "audio.opus":
-            sermons[sermon_id]["audio"] = public_url(key)
+        _, ext = os.path.splitext(filename)
+        ext = ext.lower()
 
-        elif filename == "cover.jpg":
-            sermons[sermon_id]["cover"] = public_url(key)
+        if ext in audio_priority:
+            current_rank = sermons[sermon_id]["_audio_rank"]
+            new_rank = audio_priority[ext]
+            if current_rank is None or new_rank < current_rank:
+                sermons[sermon_id]["audio"] = public_url(key)
+                sermons[sermon_id]["_audio_rank"] = new_rank
 
-        elif filename == "cover.webp":
-            sermons[sermon_id]["cover"] = public_url(key)
+        if ext in cover_priority:
+            current_rank = sermons[sermon_id]["_cover_rank"]
+            new_rank = cover_priority[ext]
+            if current_rank is None or new_rank < current_rank:
+                sermons[sermon_id]["cover"] = public_url(key)
+                sermons[sermon_id]["_cover_rank"] = new_rank
 
     if not response.get("IsTruncated"):
         break
@@ -111,12 +140,17 @@ for item in sermons.values():
     if "audio" not in item:
         continue
 
+    item.pop("_audio_rank", None)
+    item.pop("_cover_rank", None)
     items.append(item)
 
-items.sort(
-    key=lambda x: x["id"],
-    reverse=True
-)
+def sort_key(entry):
+    return (
+        entry.get("date", ""),
+        entry.get("id", ""),
+    )
+
+items.sort(key=sort_key, reverse=True)
 
 # =========================
 # FINAL JSON
