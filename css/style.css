@@ -74,6 +74,14 @@ article:hover h3 {
 
 /* Mobile-specific sermon card styles */
 @media (max-width: 639px) {
+  .bank-account--desktop {
+    display: none !important;
+  }
+
+  .bank-account--mobile {
+    display: inline-block !important;
+  }
+
   #kazania article {
     width: 100vw;
     margin-left: calc(-50vw + 50%);
@@ -89,6 +97,14 @@ article:hover h3 {
   #kazania article > div:first-child img {
     border-radius: 0 !important;
   }
+}
+
+.bank-account--desktop {
+  display: inline-block;
+}
+
+.bank-account--mobile {
+  display: none;
 }
 
 /* Landing page / index template helpers */
@@ -150,4 +166,3 @@ html {
     display: none;
   }
 }
-
