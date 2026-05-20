@@ -30,6 +30,7 @@
     mode: 'sermon',
     currentButton: null,
     currentSermonUrl: '',
+    radioWanted: false,
   };
 
   let audioCtx = null;
@@ -39,9 +40,49 @@
   let rafId = null;
   let lastDrawAt = 0;
   let smoothedPoints = [];
+  let reconnectTimer = null;
+  let reconnectAttempts = 0;
+  const MAX_RECONNECT_ATTEMPTS = 6;
+  const MIN_RECONNECT_GAP_MS = 1500;
+  let lastReconnectAt = 0;
 
   function activeAudio() {
     return state.mode === 'radio' ? radioAudio : el.sermonAudio;
+  }
+
+  function clearReconnectTimer() {
+    if (reconnectTimer) {
+      clearTimeout(reconnectTimer);
+      reconnectTimer = null;
+    }
+  }
+
+  function scheduleRadioReconnect(reason) {
+    if (state.mode !== 'radio' || !state.radioWanted) return;
+    if (reconnectAttempts >= MAX_RECONNECT_ATTEMPTS) return;
+    if (!radioAudio.paused && !radioAudio.ended) return;
+    if (!radioAudio.error && radioAudio.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) return;
+
+    const now = Date.now();
+    if (now - lastReconnectAt < MIN_RECONNECT_GAP_MS) return;
+    lastReconnectAt = now;
+
+    clearReconnectTimer();
+    reconnectAttempts += 1;
+    const delay = Math.min(12000, 800 * Math.pow(2, reconnectAttempts - 1));
+
+    reconnectTimer = setTimeout(() => {
+      if (state.mode !== 'radio' || !state.radioWanted) return;
+      radioAudio.pause();
+      radioAudio.src = `${RADIO_STREAM_URL}?t=${Date.now()}`;
+      radioAudio.load();
+      radioAudio.play().catch((err) => console.warn('Radio reconnect failed:', reason, err));
+    }, delay);
+  }
+
+  function resetRadioReconnect() {
+    reconnectAttempts = 0;
+    clearReconnectTimer();
   }
 
   function formatTime(sec) {
@@ -240,6 +281,7 @@
     if (!audioUrl) return;
 
     state.mode = 'sermon';
+    state.radioWanted = false;
     el.player.setAttribute('data-mode', 'sermon');
     setProgressVisible(true);
 
@@ -250,6 +292,7 @@
     radioAudio.pause();
     setRadioButtonPlaying(false);
     stopVisualizer();
+    resetRadioReconnect();
 
     if (state.currentSermonUrl === audioUrl) {
       if (el.sermonAudio.paused) el.sermonAudio.play();
@@ -279,10 +322,14 @@
     state.currentButton = null;
 
     if (!radioAudio.paused) {
+      state.radioWanted = false;
+      resetRadioReconnect();
       radioAudio.pause();
       return;
     }
 
+    state.radioWanted = true;
+    resetRadioReconnect();
     radioAudio.play().catch((err) => console.warn('Radio play failed:', err));
   };
 
@@ -318,6 +365,7 @@
     setMainPlaying(true);
     setRadioButtonPlaying(true);
     startVisualizer();
+    resetRadioReconnect();
   });
 
   radioAudio.addEventListener('pause', () => {
@@ -325,6 +373,14 @@
     setMainPlaying(false);
     setRadioButtonPlaying(false);
     stopVisualizer();
+  });
+
+  radioAudio.addEventListener('error', () => {
+    scheduleRadioReconnect('error');
+  });
+
+  radioAudio.addEventListener('ended', () => {
+    scheduleRadioReconnect('ended');
   });
 
   if (el.progress) {
