@@ -4,6 +4,11 @@ import os
 from pathlib import Path
 
 import boto3
+from botocore.config import Config
+
+
+IMMUTABLE_CACHE_CONTROL = "public, max-age=31536000, immutable"
+SHORT_CACHE_CONTROL = "public, max-age=300, must-revalidate"
 
 
 def extract_tag_value(tags, prefix):
@@ -27,6 +32,15 @@ def parse_date(upload_date):
     if len(upload_date) == 8 and upload_date.isdigit():
         return f"{upload_date[0:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
     return ""
+
+
+def cache_control_for(path: Path):
+    suffix = path.suffix.lower()
+    if suffix in {".webp", ".jpg", ".jpeg", ".png", ".opus", ".mp3"}:
+        return IMMUTABLE_CACHE_CONTROL
+    if path.name == "metadata.json":
+        return SHORT_CACHE_CONTROL
+    return SHORT_CACHE_CONTROL
 
 
 def main():
@@ -58,13 +72,18 @@ def main():
     account_id = os.environ["R2_ACCOUNT_ID"]
     access_key = os.environ["R2_ACCESS_KEY_ID"]
     secret_key = os.environ["R2_SECRET_ACCESS_KEY"]
+    endpoint_url = os.environ.get(
+        "R2_ENDPOINT",
+        f"https://{account_id}.r2.cloudflarestorage.com",
+    )
 
     s3 = boto3.client(
         "s3",
-        endpoint_url=f"https://{account_id}.eu.r2.cloudflarestorage.com",
+        endpoint_url=endpoint_url,
         aws_access_key_id=access_key,
         aws_secret_access_key=secret_key,
         region_name="auto",
+        config=Config(signature_version="s3v4"),
     )
 
     sermon_id = item_dir.name
@@ -72,7 +91,9 @@ def main():
 
     def upload_file(path: Path):
         content_type, _ = mimetypes.guess_type(path.name)
-        extra = {"ContentType": content_type} if content_type else {}
+        extra = {"CacheControl": cache_control_for(path)}
+        if content_type:
+            extra["ContentType"] = content_type
         key = key_prefix + path.name
         with path.open("rb") as fh:
             s3.put_object(Bucket=bucket, Key=key, Body=fh, **extra)

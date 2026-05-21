@@ -4,6 +4,7 @@ import os
 from datetime import datetime
 
 import boto3
+from botocore.config import Config
 
 # =========================
 # CONFIG
@@ -16,11 +17,14 @@ R2_SECRET_ACCESS_KEY = os.getenv("R2_SECRET_ACCESS_KEY", "")
 if not R2_ACCOUNT_ID or not R2_ACCESS_KEY_ID or not R2_SECRET_ACCESS_KEY:
     raise SystemExit("Missing R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, or R2_SECRET_ACCESS_KEY in environment.")
 
-BUCKET_NAME = "kztg"
+BUCKET_NAME = os.getenv("R2_BUCKET", "kztg")
 
 PREFIX = ""
 
-PUBLIC_BASE_URL = "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev"
+PUBLIC_BASE_URL = os.getenv(
+    "R2_PUBLIC_BASE_URL",
+    "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev",
+).rstrip("/")
 
 OUTPUT_FILE = "js/metadata.js"
 
@@ -30,10 +34,14 @@ OUTPUT_FILE = "js/metadata.js"
 
 s3 = boto3.client(
     "s3",
-    endpoint_url=f"https://{R2_ACCOUNT_ID}.eu.r2.cloudflarestorage.com",
+    endpoint_url=os.getenv(
+        "R2_ENDPOINT",
+        f"https://{R2_ACCOUNT_ID}.r2.cloudflarestorage.com",
+    ),
     aws_access_key_id=R2_ACCESS_KEY_ID,
     aws_secret_access_key=R2_SECRET_ACCESS_KEY,
     region_name="auto",
+    config=Config(signature_version="s3v4"),
 )
 
 def public_url(key: str) -> str:

@@ -1,0 +1,35 @@
+{
+  "name": "kztg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "build:css": "tailwindcss -i ./css/style.css -o ./dist/style.css --minify",
+    "build:js": "node esbuild.config.js",
+    "build": "npm run build:css && npm run build:js",
+    "watch:css": "tailwindcss -i ./css/style.css -o ./dist/style.css --watch",
+    "watch:js": "esbuild js/index.js --bundle --outfile=dist/index.js --platform=browser --target=es2017 --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tczerminski/kztg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tczerminski/kztg/issues"
+  },
+  "homepage": "https://github.com/tczerminski/kztg#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "dotenv": "^17.4.2",
+    "esbuild": "^0.28.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^10.53.1",
+    "@sentry/esbuild-plugin": "^5.3.0",
+    "fuse.js": "^7.3.0"
+  }
+}
