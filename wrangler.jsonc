@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kztg",
+  "compatibility_date": "2026-05-21",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_flags": ["nodejs_compat"]
+}
+

@@ -4,9 +4,13 @@
   "private": true,
   "description": "",
   "scripts": {
+    "clean": "rm -rf ./dist",
+    "dev": "npx wrangler dev",
     "build:css": "tailwindcss -i ./css/style.css -o ./dist/style.css --minify",
     "build:js": "node esbuild.config.js",
-    "build": "npm run build:css && npm run build:js",
+    "build:dist": "webpack --config webpack.dist.config.cjs",
+    "build": "npm run clean && npm run build:css && npm run build:js && npm run build:dist",
+    "build:pages": "npm run build",
     "watch:css": "tailwindcss -i ./css/style.css -o ./dist/style.css --watch",
     "watch:js": "esbuild js/index.js --bundle --outfile=dist/index.js --platform=browser --target=es2017 --watch"
   },
@@ -23,9 +27,12 @@
   "homepage": "https://github.com/tczerminski/kztg#readme",
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.0",
+    "copy-webpack-plugin": "^14.0.0",
     "dotenv": "^17.4.2",
     "esbuild": "^0.28.0",
-    "tailwindcss": "^4.3.0"
+    "tailwindcss": "^4.3.0",
+    "webpack": "^5.107.1",
+    "webpack-cli": "^7.0.2"
   },
   "dependencies": {
     "@sentry/browser": "^10.53.1",
