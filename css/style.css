@@ -145,6 +145,51 @@ article:hover h3 {
     border-radius: 10px;
 }
 
+@media (min-width: 1024px) {
+    #audioPlayer {
+        left: 24px;
+        right: 24px;
+        bottom: 24px;
+        width: auto;
+        max-width: 560px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #dbe3f5;
+        border-radius: 18px;
+        background: rgb(255 255 255 / 0.96);
+        box-shadow: 0 14px 32px rgb(15 23 42 / 0.16);
+        padding: 14px 16px;
+        gap: 10px;
+        align-items: stretch;
+    }
+
+    #audioPlayer > div:first-child {
+        margin: 0;
+        max-width: 100%;
+    }
+
+    #audioPlayer > div:nth-child(2) {
+        justify-content: center;
+    }
+
+    #audioPlayer #playerProgress {
+        max-width: 100%;
+    }
+
+    #playerTitle {
+        font-size: 0.95rem;
+        line-height: 1.4;
+    }
+
+    #playPauseBtn {
+        padding: 0.65rem;
+    }
+
+    .audio-visualizer {
+        height: 44px;
+    }
+}
+
 /* Utility class for hiding elements */
 .hidden {
     display: none !important;
