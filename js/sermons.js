@@ -48,7 +48,9 @@
 
   // Fuse will be lazy-loaded on first search input
   function initializeFuse() {
-    if (fuse) return; // Already initialized
+    if (fuse) {
+        return;
+    } // Already initialized
     
     // Dynamic import of Fuse - only when needed
     return import('./vendor/fuse.mjs').then(module => {
@@ -87,14 +89,12 @@
     var audio = sermon.audio;
     var cover = sermon.cover;
 
-    var titleHTML = title
-      ? '<h3 class="text-xl font-semibold text-gray-900 mb-2 transition">' +
+    var titleHTML = title ? '<h3 class="text-xl font-semibold text-gray-900 mb-2 transition">' +
         title +
         "</h3>"
       : '<h3 class="text-xl font-semibold text-gray-400 mb-2 transition italic">Brak tytułu</h3>';
 
-    var preacherHTML = preacher
-      ? '<p class="text-sm text-gray-600 mb-1">' + preacher + "</p>"
+    var preacherHTML = preacher ? '<p class="text-sm text-gray-600 mb-1">' + preacher + "</p>"
       : "";
 
     return (
@@ -112,12 +112,12 @@
       '<div class="p-6 flex flex-col flex-1">' +
       titleHTML +
       preacherHTML +
-      '<p class="text-sm text-gray-500 mb-4">' +
+      '<p class="text-sm text-gray-600 mb-4">' +
       date +
       "</p>" +
       '<div class="mt-auto w-full">' +
       '<button type="button"' +
-      ' class="sermon-play-btn sermon-btn block p-3 border border-[#6f85b8] rounded-xl text-[#6f85b8] hover:bg-[#6f85b8]/10 transition flex items-center justify-center gap-2"' +
+      ' class="sermon-play-btn sermon-btn block p-3 border border-[#3f568f] rounded-xl text-[#3f568f] hover:bg-[#3f568f]/10 transition flex items-center justify-center gap-2"' +
       ' data-title="' +
       escapeAttr(title || date) +
       '"' +
@@ -145,21 +145,21 @@
 
     if (page > 1) {
       parts.push(
-        '<button class="sermons-page-btn px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-xl hover:bg-[#6f85b8]/10 transition" data-page="' +
+        '<button class="sermons-page-btn px-5 py-3 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition" data-page="' +
           (page - 1) +
-          '">← Nowsze</button>',
+          '">← Nowsze</button>'
       );
     }
 
     parts.push(
-      '<span class="text-gray-600">Strona ' + page + " z " + total + "</span>",
+      '<span class="text-gray-600">Strona ' + page + " z " + total + "</span>"
     );
 
     if (page < total) {
       parts.push(
-        '<button class="sermons-page-btn px-5 py-3 border border-[#6f85b8] text-[#6f85b8] rounded-xl hover:bg-[#6f85b8]/10 transition" data-page="' +
+        '<button class="sermons-page-btn px-5 py-3 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition" data-page="' +
           (page + 1) +
-          '">Starsze →</button>',
+          '">Starsze →</button>'
       );
     }
 
@@ -197,6 +197,31 @@
 
     if (page < totalPages) {
       prefetchPageImages(page + 1);
+    }
+  }
+
+  var prefetchedAudio = {};
+
+  function prefetchAudio(url) {
+    if (!url || prefetchedAudio[url]) {
+      return;
+    }
+    prefetchedAudio[url] = true;
+
+    var link = document.createElement("link");
+    link.rel = "prefetch";
+    link.as = "audio";
+    link.href = url;
+    document.head.appendChild(link);
+  }
+
+  function prefetchFirstPageAudio() {
+    var items = filteredSermons.slice(0, PAGE_SIZE);
+    var i;
+    for (i = 0; i < items.length; i += 1) {
+      if (items[i].audio) {
+        prefetchAudio(items[i].audio);
+      }
     }
   }
 
@@ -297,4 +322,11 @@
   }
 
   renderPage(currentPage);
+
+  // Prefetch audio for first page when browser is idle
+  if (window.requestIdleCallback) {
+    window.requestIdleCallback(prefetchFirstPageAudio, { timeout: 3000 });
+  } else {
+    window.setTimeout(prefetchFirstPageAudio, 2000);
+  }
 })();

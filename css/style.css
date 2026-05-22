@@ -244,3 +244,31 @@ html {
         display: none;
     }
 }
+
+/* =============================================
+   MOBILE: wyłącz wszelkie efekty hover na kartach kazań
+   (hover: none = urządzenia bez precyzyjnego wskaźnika — telefony, tablety)
+   ============================================= */
+@media (hover: none) {
+    /* zatrzymaj scale na zdjęciu */
+    .sermon-cover-image {
+        transform: scale(1) !important;
+        transition: none !important;
+    }
+
+    /* overlay całkowicie niewidoczny — na mobile nie ma hover, więc by wisiał na stałe */
+    .sermon-cover-overlay {
+        display: none !important;
+    }
+
+    /* brak efektu shadow na karcie */
+    .sermon-card {
+        box-shadow: var(--shadow-sm) !important;
+        transition: none !important;
+    }
+
+    /* brak zmiany koloru tytułu */
+    article:hover h3 {
+        color: inherit !important;
+    }
+}

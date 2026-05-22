@@ -262,6 +262,15 @@
     drawVisualizerFrame();
   }
 
+  function prepareVisualizerFromUserGesture() {
+    if (!ensureVisualizer()) {
+      return;
+    }
+    if (audioCtx && audioCtx.state === 'suspended') {
+      audioCtx.resume().catch(() => {});
+    }
+  }
+
   function stopVisualizer() {
     if (rafId) {
       cancelAnimationFrame(rafId);
@@ -330,6 +339,8 @@
 
     state.radioWanted = true;
     resetRadioReconnect();
+    // Safari is stricter about Web Audio unlock; do this in direct click gesture.
+    prepareVisualizerFromUserGesture();
     radioAudio.play().catch((err) => console.warn('Radio play failed:', err));
   };
 
