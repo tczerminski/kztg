@@ -146,6 +146,10 @@ article:hover h3 {
 }
 
 @media (min-width: 1024px) {
+    body > main {
+        padding-bottom: 0 !important;
+    }
+
     #audioPlayer {
         left: 24px;
         right: 24px;
