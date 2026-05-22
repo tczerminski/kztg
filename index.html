@@ -639,7 +639,31 @@
             id="audioPlayer"
             class="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-lg flex flex-col items-center justify-center px-6 py-4 gap-4 transition-all duration-500 transform translate-y-full opacity-0 z-50"
         >
+            <button
+                id="playerCloseBtn"
+                type="button"
+                class="player-close-btn absolute top-2 right-2 z-20 inline-flex h-10 w-10 items-center justify-center rounded-full border border-[#c9d5ee] bg-white text-[#3f568f] shadow-sm hover:bg-[#eef2fb] transition"
+                title="Zamknij odtwarzacz"
+                aria-label="Zamknij odtwarzacz"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                >
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+            </button>
             <div
+                id="audioPlayerTitleWrap"
                 class="overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto mt-4 mb-4"
             >
                 <div
@@ -647,7 +671,7 @@
                     class="whitespace-nowrap text-gray-800 font-semibold animate-marquee hover:[animation-play-state:paused]"
                 ></div>
             </div>
-            <div class="flex items-center gap-4">
+            <div id="audioPlayerControls" class="w-full flex items-center justify-center gap-4">
                 <button
                     id="playPauseBtn"
                     class="p-3 rounded-full bg-[#3f568f] text-white hover:bg-[#334577] transition"

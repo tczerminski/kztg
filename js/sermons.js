@@ -8,11 +8,11 @@
   var sermons;
   var filteredSermons;
   var fuse;
+  var fuseReadyPromise;
   var totalPages;
   var currentPage = 1;
   var prefetchedCovers = {};
   var searchTimer;
-  var Fuse; // Lazy-loaded
 
   if (!grid || !nav || !window.SERMONS) {
     return;
@@ -39,6 +39,9 @@
     }
 
     copy.dateDisplay = formatDate(sermon.date);
+    copy.searchText = normalizeText(
+      [copy.title, copy.preacher, copy.dateDisplay, copy.date].join(" ")
+    );
 
     return copy;
   }
@@ -46,30 +49,28 @@
   sermons = window.SERMONS.map(enhanceSermon);
   filteredSermons = sermons.slice();
 
-  // Fuse will be lazy-loaded on first search input
   function initializeFuse() {
     if (fuse) {
-        return;
-    } // Already initialized
-    
-    // Dynamic import of Fuse - only when needed
-    return import('./vendor/fuse.mjs').then(module => {
-      Fuse = module.default;
-      fuse = new Fuse(sermons, {
-        includeScore: true,
-        threshold: 0.28,
-        distance: 80,
+      return Promise.resolve();
+    }
+
+    if (fuseReadyPromise) {
+      return fuseReadyPromise;
+    }
+
+    fuseReadyPromise = import("./vendor/fuse.mjs").then(function (module) {
+      var FuseCtor = module && module.default ? module.default : module;
+
+      fuse = new FuseCtor(sermons, {
+        includeScore: false,
+        useExtendedSearch: true,
         ignoreLocation: true,
-        minMatchCharLength: 1,
-        useExtendedSearch: false,
-        keys: [
-          { name: "title", weight: 0.55 },
-          { name: "preacher", weight: 0.3 },
-          { name: "dateDisplay", weight: 0.1 },
-          { name: "date", weight: 0.05 },
-        ],
+        threshold: 0,
+        keys: ["searchText"],
       });
     });
+
+    return fuseReadyPromise;
   }
 
   totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
@@ -280,25 +281,51 @@
       totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
       renderPage(1);
     } else {
-      // Lazy-load Fuse when search is first used
-      if (!fuse) {
-        initializeFuse().then(() => {
-          updateSearchResults(query); // Retry search after Fuse loads
-        });
-        return;
-      }
-      
-      filteredSermons = fuse
-        .search(normalized)
-        .sort(function (a, b) {
-          return (a.score || 0) - (b.score || 0);
-        })
-        .map(function (entry) {
-          return entry.item;
-        });
+      initializeFuse()
+        .then(function () {
+          // Use Fuse include search, then enforce phrase contains exactly.
+          filteredSermons = fuse
+            .search("'" + normalized)
+            .map(function (entry) {
+              return entry.item;
+            })
+            .filter(function (sermon) {
+              return sermon.searchText.indexOf(normalized) !== -1;
+            })
+            .sort(function (a, b) {
+              var dateA = a && a.date ? a.date : "";
+              var dateB = b && b.date ? b.date : "";
 
-      totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
-      renderPage(1);
+              if (dateA === dateB) {
+                return 0;
+              }
+
+              // ISO yyyy-mm-dd sorts correctly as plain strings.
+              return dateA > dateB ? -1 : 1;
+            });
+
+          totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
+          renderPage(1);
+        })
+        .catch(function () {
+          filteredSermons = sermons
+            .filter(function (sermon) {
+              return sermon.searchText.indexOf(normalized) !== -1;
+            })
+            .sort(function (a, b) {
+              var dateA = a && a.date ? a.date : "";
+              var dateB = b && b.date ? b.date : "";
+
+              if (dateA === dateB) {
+                return 0;
+              }
+
+              return dateA > dateB ? -1 : 1;
+            });
+
+          totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
+          renderPage(1);
+        });
     }
   }
 
@@ -331,4 +358,6 @@
   } else {
     window.setTimeout(prefetchFirstPageAudio, 2000);
   }
+
 })();
+

@@ -3,6 +3,7 @@
 
   const el = {
     player: document.getElementById('audioPlayer'),
+    closeBtn: document.getElementById('playerCloseBtn'),
     sermonAudio: document.getElementById('audioElement'),
     title: document.getElementById('playerTitle'),
     playPauseBtn: document.getElementById('playPauseBtn'),
@@ -32,6 +33,8 @@
     currentSermonUrl: '',
     radioWanted: false,
   };
+
+  const DEFAULT_PLAYER_TITLE = '';
 
   let audioCtx = null;
   let sourceNode = null;
@@ -105,6 +108,36 @@
     el.progressWrap.classList.remove('hidden');
     el.progressControls?.classList.toggle('hidden', !isSermonMode);
     el.visualizer?.classList.toggle('hidden', isSermonMode);
+  }
+
+  function openPlayer() {
+    el.player.classList.add('show');
+  }
+
+  function closePlayer() {
+    state.radioWanted = false;
+    resetRadioReconnect();
+
+    radioAudio.pause();
+    el.sermonAudio.pause();
+
+    restoreSermonButton();
+    state.currentButton = null;
+    state.currentSermonUrl = '';
+    setSermonButtonPlaying(false);
+    setRadioButtonPlaying(false);
+    setMainPlaying(false);
+
+    el.sermonAudio.currentTime = 0;
+    if (el.progress) el.progress.value = 0;
+    if (el.currentTime) el.currentTime.textContent = '0:00';
+    if (el.totalTime) el.totalTime.textContent = '0:00';
+
+    setTitle(DEFAULT_PLAYER_TITLE);
+    stopVisualizer();
+    setProgressVisible(true);
+    el.player.setAttribute('data-mode', 'sermon');
+    el.player.classList.remove('show');
   }
 
   function setMainPlaying(isPlaying) {
@@ -296,7 +329,7 @@
 
     const preacher = button?.dataset?.preacher || '';
     setTitle(preacher ? `${preacher} — ${title}` : title);
-    el.player.classList.add('show');
+    openPlayer();
 
     radioAudio.pause();
     setRadioButtonPlaying(false);
@@ -324,7 +357,7 @@
     el.player.setAttribute('data-mode', 'radio');
     setProgressVisible(false);
     setTitle('Transmisja radia Kościoła Zmartwychwstałego w Tarnowskich Górach');
-    el.player.classList.add('show');
+    openPlayer();
 
     el.sermonAudio.pause();
     setSermonButtonPlaying(false);
@@ -409,6 +442,16 @@
       else audio.pause();
     });
   }
+
+  if (el.closeBtn) {
+    el.closeBtn.addEventListener('click', closePlayer);
+  }
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    if (!el.player.classList.contains('show')) return;
+    closePlayer();
+  });
 
   setProgressVisible(true);
   drawVisualizerIdle();
