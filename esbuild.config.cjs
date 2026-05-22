@@ -1,6 +1,6 @@
 const { sentryEsbuildPlugin } = require("@sentry/esbuild-plugin");
 const esbuild = require("esbuild");
-require("dotenv").config({ path: ".env" });
+require("dotenv").config({ path: ".env", override: true });
 
 esbuild.build({
   entryPoints: ["js/index.js"],

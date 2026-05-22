@@ -104,10 +104,12 @@
       '<img src="' +
       cover +
       '"' +
-      ' class="sermon-cover-image w-full h-full object-cover transition duration-700 ease-out group-hover:scale-105"' +
+      ' class="sermon-cover-image w-full h-full object-cover transition duration-1000 ease-out group-hover:scale-103"' +
       ' alt="Okładka kazania"' +
-      ' loading="lazy">' +
-      '<div class="sermon-cover-overlay absolute inset-0 bg-white/60 transition duration-700 group-hover:bg-transparent"></div>' +
+      ' loading="lazy"' +
+      ' onload="this.classList.add(\'loaded\');this.parentElement.classList.add(\'cover-ready\')"' +
+      ' onerror="this.classList.add(\'loaded\');this.parentElement.classList.add(\'cover-ready\')">' +
+      '<div class="sermon-cover-overlay absolute inset-0 bg-white/60 transition duration-1000 group-hover:bg-transparent"></div>' +
       "</div>" +
       '<div class="p-6 flex flex-col flex-1">' +
       titleHTML +

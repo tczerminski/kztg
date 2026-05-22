@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 import { config as dotenvConfig } from "dotenv";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-dotenvConfig({ path: path.join(ROOT, ".env") });
+dotenvConfig({ path: path.join(ROOT, ".env"), override: true });
 
 // =========================
 // CONFIG
@@ -92,20 +92,21 @@ const coverPriority = { ".webp": 0, ".jpg": 1, ".jpeg": 2, ".png": 3 };
 const sermons = {};
 let token;
 
-do {
-  const res = await s3.send(new ListObjectsV2Command({
-    Bucket: BUCKET_NAME,
-    ...(token ? { ContinuationToken: token } : {}),
-  }));
+(async () => {
+  do {
+    const res = await s3.send(new ListObjectsV2Command({
+      Bucket: BUCKET_NAME,
+      ...(token ? { ContinuationToken: token } : {}),
+    }));
 
-  for (const obj of res.Contents ?? []) {
-    const parts = obj.Key.split("/");
-    if (parts.length !== 3 || parts[0] !== "sermons") continue;
+    for (const obj of res.Contents ?? []) {
+      const parts = obj.Key.split("/");
+      if (parts.length !== 3 || parts[0] !== "sermons") continue;
 
-    const [, id, filename] = parts;
-    const ext = path.extname(filename).toLowerCase();
+      const [, id, filename] = parts;
+      const ext = path.extname(filename).toLowerCase();
 
-    sermons[id] ??= { id, date: "", _audioRank: null, _coverRank: null };
+      sermons[id] ??= { id, date: "", _audioRank: null, _coverRank: null };
 
     if (filename === "metadata.json") {
       const r = await s3.send(new GetObjectCommand({ Bucket: BUCKET_NAME, Key: obj.Key }));
@@ -132,10 +133,10 @@ do {
         sermons[id]._coverRank = rank;
       }
     }
-  }
+    }
 
-  token = res.IsTruncated ? res.NextContinuationToken : undefined;
-} while (token);
+    token = res.IsTruncated ? res.NextContinuationToken : undefined;
+  } while (token);
 
 // =========================
 // BUILD ITEMS
@@ -167,4 +168,8 @@ items.sort((a, b) =>
 fs.writeFileSync(OUTPUT_FILE, `window.SERMONS=${JSON.stringify(items)};`, "utf8");
 console.log(`\nGenerated ${OUTPUT_FILE}`);
 console.log(`Items: ${items.length}`);
+})().catch(err => {
+  console.error("Fatal error:", err.message);
+  process.exit(1);
+});
 

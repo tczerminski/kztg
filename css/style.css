@@ -253,7 +253,7 @@ html {
     /* zatrzymaj scale na zdjęciu */
     .sermon-cover-image {
         transform: scale(1) !important;
-        transition: none !important;
+        transition: opacity 0.8s ease-in-out !important;
     }
 
     /* overlay całkowicie niewidoczny — na mobile nie ma hover, więc by wisiał na stałe */
@@ -270,5 +270,65 @@ html {
     /* brak zmiany koloru tytułu */
     article:hover h3 {
         color: inherit !important;
+    }
+}
+
+/* Fade-in animation for lazy-loaded images */
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes coverShimmer {
+    from {
+        background-position: -200% 0;
+    }
+    to {
+        background-position: 200% 0;
+    }
+}
+
+.sermon-cover {
+    background-color: #e5e7eb;
+}
+
+.sermon-cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #e5e7eb 0%, #f3f4f6 50%, #e5e7eb 100%);
+    background-size: 200% 100%;
+    animation: coverShimmer 1.6s ease-in-out infinite;
+    transition: opacity 0.25s ease-out;
+}
+
+.sermon-cover.cover-ready::after {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sermon-cover-image {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.sermon-cover-image.loaded {
+    opacity: 1;
+    animation: fadeInImage 0.8s ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sermon-cover::after {
+        animation: none;
+    }
+
+    .sermon-cover-image,
+    .sermon-cover-image.loaded {
+        transition: none !important;
+        animation: none !important;
     }
 }
