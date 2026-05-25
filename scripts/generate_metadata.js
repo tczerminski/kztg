@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 import { config as dotenvConfig } from "dotenv";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-dotenvConfig({ path: path.join(ROOT, ".env"), override: true });
+dotenvConfig({ path: path.join(ROOT, ".env") });
 
 // =========================
 // CONFIG

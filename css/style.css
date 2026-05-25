@@ -138,35 +138,28 @@ article:hover h3 {
     opacity: 1;
 }
 
-.player-close-btn {
+#playerCloseBtn {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 10px;
+    right: 10px;
     z-index: 20;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 999px;
-    border: 1px solid #c9d5ee;
-    color: #3f568f;
-    background: rgb(255 255 255 / 0.98);
-    box-shadow: 0 2px 8px rgb(15 23 42 / 0.12);
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+    background-color: #3f568f;
+    color: #ffffff;
+    border: none;
     cursor: pointer;
-    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    transition: background-color 0.2s ease;
 }
 
-.player-close-btn:hover {
-    background: #eef2fb;
-    border-color: #c3d0ea;
-    box-shadow: 0 4px 12px rgb(15 23 42 / 0.16);
+#playerCloseBtn:hover {
+    background-color: #334577;
 }
 
-.player-close-btn:focus-visible {
-    outline: 2px solid #3f568f;
-    outline-offset: 2px;
-}
 
 .audio-visualizer {
     width: 100%;
