@@ -5,6 +5,9 @@ from pathlib import Path
 
 import boto3
 from botocore.config import Config
+from dotenv import load_dotenv
+
+load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 
 
 IMMUTABLE_CACHE_CONTROL = "public, max-age=31536000, immutable"
