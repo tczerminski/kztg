@@ -13,6 +13,7 @@
     "build:dist": "webpack --config webpack.dist.config.cjs",
     "build": "npm run clean && npm run build:metadata && npm run build:css && npm run build:js && npm run build:dist",
     "build:pages": "npm run build",
+    "deploy": "npm run build && npx wrangler deploy",
     "watch:css": "tailwindcss -i ./css/style.css -o ./dist/style.css --watch",
     "watch:js": "esbuild js/index.js --bundle --outfile=dist/index.js --platform=browser --target=es2017 --watch"
   },

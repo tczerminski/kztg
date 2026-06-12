@@ -29,7 +29,7 @@
         />
         <link rel="preconnect" href="https://o4511420811509761.ingest.de.sentry.io" crossorigin />
         <link rel="preconnect" href="https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev" crossorigin />
-        <link rel="preload" as="script" href="/dist/index.js" />
+        <link rel="preload" as="script" href="/dist/index.js" crossorigin />
         <link
             rel="preload"
             as="font"
@@ -637,29 +637,45 @@
         </main>
         <div
             id="audioPlayer"
-            class="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-sm shadow-lg flex flex-col items-center justify-center px-6 py-4 gap-4 transition-all duration-500 transform translate-y-full opacity-0 z-50"
+            class="fixed bottom-0 left-0 right-0 bg-white shadow-lg flex flex-col items-center justify-center px-6 py-4 gap-4 transition-all duration-500 transform translate-y-full opacity-0 z-50"
         >
             <button
-                id="playerCloseBtn"
+                id="playerToggleBtn"
                 type="button"
-                class="player-close-btn absolute top-2 right-2 z-20 inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#3f568f] text-white hover:bg-[#334577] transition"
-                title="Zamknij odtwarzacz"
-                aria-label="Zamknij odtwarzacz"
+                class="w-24 h-8 mx-auto mb-1 flex items-center justify-center rounded-full text-[#3f568f] hover:bg-gray-200/60 transition"
+                title="Zwiń / rozwiń odtwarzacz"
+                aria-label="Zwiń lub rozwiń odtwarzacz"
             >
                 <svg
+                    id="playerChevronDown"
                     xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
+                    width="28"
+                    height="28"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="2"
+                    stroke-width="2.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     aria-hidden="true"
                 >
-                    <line x1="18" y1="6" x2="6" y2="18" />
-                    <line x1="6" y1="6" x2="18" y2="18" />
+                    <polyline points="6 9 12 15 18 9" />
+                </svg>
+                <svg
+                    id="playerChevronUp"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                    class="hidden"
+                >
+                    <polyline points="6 15 12 9 18 15" />
                 </svg>
             </button>
             <div

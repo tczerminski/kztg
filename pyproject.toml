@@ -1,0 +1,16 @@
+[project]
+name = "kztg"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "boto3>=1.43.24",
+    "ffmpeg-python>=0.2.0",
+    "openai>=1.82.0",
+    "python-dotenv>=1.1.0",
+    "yt-dlp>=2025.5.22",
+]
+
+[project.scripts]
+pipeline = "scripts.pipeline:main"

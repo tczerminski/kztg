@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 import { config as dotenvConfig } from "dotenv";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-dotenvConfig({ path: path.join(ROOT, ".env") });
+dotenvConfig({ path: path.join(ROOT, ".env"), override: true });
 
 // =========================
 // CONFIG
@@ -116,6 +116,8 @@ let token;
       if (!sermons[id].date)     sermons[id].date     = meta.date     ?? "";
       if (!sermons[id].preacher) sermons[id].preacher = meta.preacher ?? "";
       if (!sermons[id].title)    sermons[id].title    = meta.title    ?? "";
+      if (!sermons[id].summary)  sermons[id].summary  = meta.summary  ?? "";
+      if (!sermons[id].duration) sermons[id].duration = meta.duration ?? 0;
     }
 
     if (ext in audioPriority) {

@@ -83,44 +83,60 @@
       .replace(/>/g, "&gt;");
   }
 
+  function formatDuration(seconds) {
+    if (!seconds) return "";
+    var m = Math.floor(seconds / 60);
+    var s = seconds % 60;
+    return m + ":" + (s < 10 ? "0" : "") + s;
+  }
+
   function sermonCardHTML(sermon) {
     var title = sermon.title || "";
     var preacher = sermon.preacher || "";
     var date = formatDate(sermon.date);
+    var duration = formatDuration(sermon.duration);
+    var summary = sermon.summary || "";
     var audio = sermon.audio;
     var cover = sermon.cover;
 
-    var titleHTML = title ? '<h3 class="text-xl font-semibold text-gray-900 mb-2 transition">' +
+    var titleHTML = title ? '<h3 class="sermon-card-title text-lg font-semibold text-gray-900 leading-tight mb-1 transition">' +
         title +
         "</h3>"
-      : '<h3 class="text-xl font-semibold text-gray-400 mb-2 transition italic">Brak tytułu</h3>';
+      : '<h3 class="sermon-card-title text-lg font-semibold text-gray-400 leading-tight mb-1 transition italic">Brak tytułu</h3>';
 
-    var preacherHTML = preacher ? '<p class="text-sm text-gray-600 mb-1">' + preacher + "</p>"
+    var metaParts = [];
+    if (preacher) metaParts.push('<span>' + escapeAttr(preacher) + '</span>');
+    if (date) metaParts.push('<span>' + date + '</span>');
+    if (duration) metaParts.push('<span>' + duration + '</span>');
+
+    var metaHTML = '<div class="sermon-card-meta">' +
+      metaParts.join('<span class="sermon-card-meta-dot">·</span>') +
+      '</div>';
+
+    var summaryHTML = summary
+      ? '<p class="sermon-card-summary">' + escapeAttr(summary) + "</p>"
       : "";
 
     return (
       "" +
-      '<article class="group sermon-card bg-white rounded-2xl shadow-sm hover:shadow-xl transition flex flex-col">' +
-      '<div class="sermon-cover relative overflow-hidden rounded-t-2xl h-64">' +
+      '<article class="sermon-card bg-white rounded-2xl shadow-sm flex flex-col">' +
+      '<div class="sermon-cover relative overflow-hidden rounded-t-2xl aspect-video">' +
       '<img src="' +
       cover +
       '"' +
-      ' class="sermon-cover-image w-full h-full object-cover transition duration-1000 ease-out group-hover:scale-103"' +
+      ' class="sermon-cover-image w-full h-full object-cover"' +
       ' alt="Okładka kazania"' +
       ' loading="lazy"' +
       ' onload="this.classList.add(\'loaded\');this.parentElement.classList.add(\'cover-ready\')"' +
       ' onerror="this.classList.add(\'loaded\');this.parentElement.classList.add(\'cover-ready\')">' +
-      '<div class="sermon-cover-overlay absolute inset-0 bg-white/60 transition duration-1000 group-hover:bg-transparent"></div>' +
       "</div>" +
-      '<div class="p-6 flex flex-col flex-1">' +
+      '<div class="sermon-card-body">' +
       titleHTML +
-      preacherHTML +
-      '<p class="text-sm text-gray-600 mb-4">' +
-      date +
-      "</p>" +
-      '<div class="mt-auto w-full">' +
+      metaHTML +
+      summaryHTML +
+      '<div class="sermon-card-action">' +
       '<button type="button"' +
-      ' class="sermon-play-btn sermon-btn block p-3 border border-[#3f568f] rounded-xl text-[#3f568f] hover:bg-[#3f568f]/10 transition flex items-center justify-center gap-2"' +
+      ' class="sermon-play-btn sermon-btn w-full p-3 border border-[#3f568f] rounded-xl text-[#3f568f] hover:bg-[#3f568f]/10 transition flex items-center justify-center gap-2 font-medium"' +
       ' data-title="' +
       escapeAttr(title || date) +
       '"' +
@@ -131,7 +147,7 @@
       escapeAttr(audio) +
       '"' +
       ' onclick="setHero(this.dataset.title, this.dataset.audio, this)">' +
-      '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"' +
+      '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"' +
       ' viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">' +
       '<polygon points="5 3 19 12 5 21 5 3"/>' +
       "</svg>" +

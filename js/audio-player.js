@@ -3,7 +3,9 @@
 
   const el = {
     player: document.getElementById('audioPlayer'),
-    closeBtn: document.getElementById('playerCloseBtn'),
+    toggleBtn: document.getElementById('playerToggleBtn'),
+    chevronDown: document.getElementById('playerChevronDown'),
+    chevronUp: document.getElementById('playerChevronUp'),
     sermonAudio: document.getElementById('audioElement'),
     title: document.getElementById('playerTitle'),
     playPauseBtn: document.getElementById('playPauseBtn'),
@@ -111,8 +113,37 @@
   }
 
   function openPlayer() {
+    el.player.classList.remove('minimized');
     el.player.classList.add('show');
+    updateChevron(false);
   }
+
+  function minimizePlayer() {
+    el.player.classList.remove('show');
+    el.player.classList.add('minimized');
+    updateChevron(true);
+  }
+
+  function expandPlayer() {
+    el.player.classList.remove('minimized');
+    el.player.classList.add('show');
+    updateChevron(false);
+  }
+
+  function togglePlayer() {
+    if (el.player.classList.contains('minimized')) {
+      expandPlayer();
+    } else {
+      minimizePlayer();
+    }
+  }
+
+  function updateChevron(isMinimized) {
+    if (!el.chevronDown || !el.chevronUp) return;
+    el.chevronDown.classList.toggle('hidden', isMinimized);
+    el.chevronUp.classList.toggle('hidden', !isMinimized);
+  }
+
 
   function closePlayer() {
     state.radioWanted = false;
@@ -137,7 +168,8 @@
     stopVisualizer();
     setProgressVisible(true);
     el.player.setAttribute('data-mode', 'sermon');
-    el.player.classList.remove('show');
+    el.player.classList.remove('show', 'minimized');
+    updateChevron(false);
   }
 
   function setMainPlaying(isPlaying) {
@@ -211,13 +243,15 @@
 
     try {
       audioCtx = new AudioContextCtor();
-      sourceNode = audioCtx.createMediaElementSource(radioAudio);
       analyser = audioCtx.createAnalyser();
       analyser.fftSize = 1024;
       analyser.smoothingTimeConstant = 0.93;
+      dataArray = new Uint8Array(analyser.fftSize);
+
+      sourceNode = audioCtx.createMediaElementSource(radioAudio);
       sourceNode.connect(analyser);
       analyser.connect(audioCtx.destination);
-      dataArray = new Uint8Array(analyser.fftSize);
+
       return true;
     } catch (err) {
       console.warn('Visualizer unavailable:', err);
@@ -233,6 +267,7 @@
     const dpr = window.devicePixelRatio || 1;
     const width = Math.floor(el.visualizer.clientWidth * dpr);
     const height = Math.floor(el.visualizer.clientHeight * dpr);
+
     if (el.visualizer.width !== width || el.visualizer.height !== height) {
       el.visualizer.width = width;
       el.visualizer.height = height;
@@ -286,9 +321,26 @@
       drawVisualizerIdle();
       return;
     }
-    if (audioCtx && audioCtx.state === 'suspended') {
+    if (audioCtx && audioCtx.state !== 'running') {
       audioCtx.resume().catch(() => {});
     }
+
+    // Wait until context is running to avoid empty frames on stricter browsers.
+    if (audioCtx && audioCtx.state !== 'running') {
+      const checkState = () => {
+        if (audioCtx.state === 'running') {
+          if (rafId) cancelAnimationFrame(rafId);
+          lastDrawAt = 0;
+          smoothedPoints = [];
+          drawVisualizerFrame();
+        } else {
+          setTimeout(checkState, 50);
+        }
+      };
+      checkState();
+      return;
+    }
+    
     if (rafId) cancelAnimationFrame(rafId);
     lastDrawAt = 0;
     smoothedPoints = [];
@@ -372,8 +424,10 @@
 
     state.radioWanted = true;
     resetRadioReconnect();
-    // Safari is stricter about Web Audio unlock; do this in direct click gesture.
+
+    // Keep Web Audio unlock in direct click gesture where needed.
     prepareVisualizerFromUserGesture();
+
     radioAudio.play().catch((err) => console.warn('Radio play failed:', err));
   };
 
@@ -408,7 +462,9 @@
     if (state.mode !== 'radio') return;
     setMainPlaying(true);
     setRadioButtonPlaying(true);
+
     startVisualizer();
+
     resetRadioReconnect();
   });
 
@@ -443,14 +499,18 @@
     });
   }
 
-  if (el.closeBtn) {
-    el.closeBtn.addEventListener('click', closePlayer);
+  if (el.toggleBtn) {
+    el.toggleBtn.addEventListener('click', togglePlayer);
   }
 
   document.addEventListener('keydown', (event) => {
     if (event.key !== 'Escape') return;
-    if (!el.player.classList.contains('show')) return;
-    closePlayer();
+    if (!el.player.classList.contains('show') && !el.player.classList.contains('minimized')) return;
+    if (el.player.classList.contains('show')) {
+      minimizePlayer();
+    } else {
+      closePlayer();
+    }
   });
 
   setProgressVisible(true);

@@ -4,6 +4,7 @@ public/
 __pycache__/
 *.pyc
 .env
+.envrc
 node_modules/
 dist/
 .wrangler/
