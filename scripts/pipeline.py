@@ -119,7 +119,7 @@ def generate_summary(transcript: str) -> str:
                     "odcinka podcastu. Styl: zwięzły, ciepły, konkretny. "
                     "Użyj głównego pytania lub napięcia z kazania jako haczyka. "
                     "Nakreśl główny wątek i pokaż, co słuchacz może wynieść. "
-                    "Nie zaczynaj od 'W tym kazaniu...'. Nie używaj słów 'zapraszam', "
+                    "Nie zaczynaj od 'W tym kazaniu...'. Nie używaj słów 'odcinek', 'zapraszam', "
                     "'zachęcam' ani pierwszej osoby — "
                     "opis ma być napisany jakby przez redaktora, nie przez kaznodzieję."
                 ),
@@ -187,11 +187,8 @@ def build_metadata(info: dict) -> dict:
         "date": parse_date(upload_date),
         "youtube_url": f"https://www.youtube.com/watch?v={video_id}",
         "video_id": video_id,
-        "duration": f"{int(duration) // 60}:{int(duration) % 60:02d}",
+        "duration": int(duration),
     }
-
-
-# --- Upload ---
 
 
 def cache_control_for(path: Path) -> str:
