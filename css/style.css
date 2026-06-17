@@ -328,6 +328,14 @@ html {
     display: block;
 }
 
+.radio-text-desktop {
+    display: block;
+}
+
+.radio-text-mobile {
+    display: inline;
+}
+
 @media (min-width: 768px) {
     .desktop-services-card {
         display: block;
@@ -335,6 +343,22 @@ html {
 
     .mobile-services-section {
         display: none;
+    }
+
+    .radio-text-desktop {
+        display: block;
+    }
+
+    .radio-text-mobile {
+        display: none;
+    }
+
+    .radio-text-mobile {
+        display: none;
+    }
+
+    #radio video {
+        display: block;
     }
 }
 

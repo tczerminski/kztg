@@ -52,6 +52,10 @@ module.exports = {
           to: "images/hero2-optimized.webp",
         },
         {
+          from: "videos",
+          to: "videos",
+        },
+        {
           from: "fonts",
           to: "fonts",
         },
