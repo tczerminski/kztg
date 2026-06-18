@@ -324,16 +324,67 @@ html {
     display: none;
 }
 
+.mobile-hidden-header {
+    display: none;
+}
+
 .mobile-services-section {
     display: block;
 }
 
-.radio-text-desktop {
+.mobile-radio-section {
     display: block;
 }
 
-.radio-text-mobile {
-    display: inline;
+.radio-content-desktop {
+    display: none;
+}
+
+.radio-desc-desktop {
+    display: none;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll-indicator svg {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+.scroll-indicator-desktop {
+    display: none;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .scroll-indicator-desktop {
+        display: flex;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+.scroll-indicator-desktop svg {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0);    opacity: 1; }
+    50%       { transform: translateY(12px); opacity: 0.4; }
 }
 
 @media (min-width: 768px) {
@@ -345,16 +396,24 @@ html {
         display: none;
     }
 
+    .mobile-hidden-header {
+        display: block;
+    }
+
+    .mobile-radio-section {
+        display: none;
+    }
+
+    .radio-content-desktop {
+        display: block;
+    }
+
     .radio-text-desktop {
         display: block;
     }
 
-    .radio-text-mobile {
-        display: none;
-    }
-
-    .radio-text-mobile {
-        display: none;
+    .radio-desc-desktop {
+        display: block;
     }
 
     #radio video {
