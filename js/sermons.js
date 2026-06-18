@@ -383,6 +383,12 @@
         updateSearchResults(event.target.value || "");
       }, 120);
     });
+
+    searchInput.addEventListener("keydown", function (event) {
+      if (event.key === "Enter") {
+        searchInput.blur();
+      }
+    });
   }
 
   renderPage(currentPage);
