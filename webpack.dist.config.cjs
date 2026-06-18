@@ -36,6 +36,10 @@ module.exports = {
           to: "images/logo.jpg",
         },
         {
+          from: "images/video-poster.webp",
+          to: "images/video-poster.webp",
+        },
+        {
           from: "images/hero-optimized.jpg",
           to: "images/hero-optimized.jpg",
         },

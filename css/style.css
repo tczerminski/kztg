@@ -346,7 +346,7 @@ html {
 
 .scroll-indicator {
     position: absolute;
-    bottom: 24px;
+    bottom: 72px;
     left: 0;
     right: 0;
     display: flex;
