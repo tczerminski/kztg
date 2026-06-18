@@ -135,8 +135,10 @@
       metaHTML +
       summaryHTML +
       '<div class="sermon-card-action">' +
+      '<div class="sermon-inline-player" data-sermon-player>' +
+      '<div class="sermon-inline-player__body">' +
       '<button type="button"' +
-      ' class="sermon-play-btn sermon-btn w-full p-3 border border-[#3f568f] rounded-xl text-[#3f568f] hover:bg-[#3f568f]/10 transition flex items-center justify-center gap-2 font-medium"' +
+      ' class="sermon-inline-player__toggle"' +
       ' data-title="' +
       escapeAttr(title || date) +
       '"' +
@@ -146,13 +148,29 @@
       ' data-audio="' +
       escapeAttr(audio) +
       '"' +
-      ' onclick="setHero(this.dataset.title, this.dataset.audio, this)">' +
-      '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"' +
+      ' onclick="setHero(this.dataset.title, this.dataset.audio, this)"' +
+      ' aria-label="Odtwórz kazanie">' +
+      '<svg data-play-icon xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"' +
       ' viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">' +
       '<polygon points="5 3 19 12 5 21 5 3"/>' +
       "</svg>" +
-      "Odsłuchaj" +
+      '<svg data-pause-icon xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"' +
+      ' viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="hidden">' +
+      '<rect x="6" y="4" width="4" height="16"/>' +
+      '<rect x="14" y="4" width="4" height="16"/>' +
+      "</svg>" +
       "</button>" +
+      '<input type="range" min="0" max="100" value="0"' +
+      ' class="sermon-inline-player__progress"' +
+      ' data-sermon-progress aria-label="Postęp odtwarzania kazania">' +
+      '<div class="sermon-inline-player__times">' +
+      '<span data-current-time>0:00</span>' +
+      '<span data-total-time>' +
+      escapeAttr(duration || "0:00") +
+      "</span>" +
+      "</div>" +
+      "</div>" +
+      "</div>" +
       "</div>" +
       "</div>" +
       "</article>"
@@ -262,6 +280,7 @@
 
     currentPage = page;
 
+    document.dispatchEvent(new CustomEvent("sermons:before-render"));
     grid.innerHTML = "";
 
     if (!items.length) {
@@ -376,4 +395,3 @@
   }
 
 })();
-
