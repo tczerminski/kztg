@@ -99,10 +99,11 @@
     var audio = sermon.audio;
     var cover = sermon.cover;
 
+    var noTitle = window.i18n ? window.i18n.t('sermons.noTitle') : 'Brak tytułu';
     var titleHTML = title ? '<h3 class="sermon-card-title text-lg font-semibold text-gray-900 leading-tight mb-1 transition">' +
         title +
         "</h3>"
-      : '<h3 class="sermon-card-title text-lg font-semibold text-gray-400 leading-tight mb-1 transition italic">Brak tytułu</h3>';
+      : '<h3 class="sermon-card-title text-lg font-semibold text-gray-400 leading-tight mb-1 transition italic">' + noTitle + '</h3>';
 
     var metaParts = [];
     if (preacher) metaParts.push('<span>' + escapeAttr(preacher) + '</span>');
@@ -125,7 +126,7 @@
       cover +
       '"' +
       ' class="sermon-cover-image w-full h-full object-cover"' +
-      ' alt="Okładka kazania"' +
+      ' alt="' + (window.i18n ? window.i18n.t('sermons.cover') : 'Okładka kazania') + '"' +
       ' loading="lazy"' +
       ' onload="this.classList.add(\'loaded\');this.parentElement.classList.add(\'cover-ready\')"' +
       ' onerror="this.classList.add(\'loaded\');this.parentElement.classList.add(\'cover-ready\')">' +
@@ -149,7 +150,7 @@
       escapeAttr(audio) +
       '"' +
       ' onclick="setHero(this.dataset.title, this.dataset.audio, this)"' +
-      ' aria-label="Odtwórz kazanie">' +
+      ' aria-label="' + (window.i18n ? window.i18n.t('sermons.play') : 'Odtwórz kazanie') + '">' +
       '<svg data-play-icon xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"' +
       ' viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">' +
       '<polygon points="5 3 19 12 5 21 5 3"/>' +
@@ -162,7 +163,7 @@
       "</button>" +
       '<input type="range" min="0" max="100" value="0"' +
       ' class="sermon-inline-player__progress"' +
-      ' data-sermon-progress aria-label="Postęp odtwarzania kazania">' +
+      ' data-sermon-progress aria-label="' + (window.i18n ? window.i18n.t('sermons.progress') : 'Postęp odtwarzania kazania') + '">' +
       '<div class="sermon-inline-player__times">' +
       '<span data-current-time>0:00</span>' +
       '<span data-total-time>' +
@@ -184,19 +185,19 @@
       parts.push(
         '<button class="sermons-page-btn px-5 py-3 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition" data-page="' +
           (page - 1) +
-          '">← Nowsze</button>'
+          '">' + (window.i18n ? window.i18n.t('sermons.newer') : '← Nowsze') + '</button>'
       );
     }
 
     parts.push(
-      '<span class="text-gray-600">Strona ' + page + " z " + total + "</span>"
+      '<span class="text-gray-600">' + (window.i18n ? window.i18n.t('sermons.page', { page: page, total: total }) : ('Strona ' + page + ' z ' + total)) + '</span>'
     );
 
     if (page < total) {
       parts.push(
         '<button class="sermons-page-btn px-5 py-3 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition" data-page="' +
           (page + 1) +
-          '">Starsze →</button>'
+          '">' + (window.i18n ? window.i18n.t('sermons.older') : 'Starsze →') + '</button>'
       );
     }
 
@@ -285,7 +286,7 @@
 
     if (!items.length) {
       grid.innerHTML =
-        '<p class="text-center text-gray-500">Brak wyników wyszukiwania.</p>';
+        '<p class="text-center text-gray-500">' + (window.i18n ? window.i18n.t('sermons.noResults') : 'Brak wyników wyszukiwania.') + '</p>';
 
       nav.innerHTML = "";
 
@@ -392,6 +393,10 @@
   }
 
   renderPage(currentPage);
+
+  document.addEventListener('i18n:change', function () {
+    renderPage(currentPage);
+  });
 
   // Prefetch audio for first page when browser is idle
   if (window.requestIdleCallback) {

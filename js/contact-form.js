@@ -13,7 +13,7 @@
     contactSubmitBtn.disabled = true;
     contactSubmitBtn.classList.add('opacity-80', 'cursor-not-allowed');
     if (contactSpinner) contactSpinner.classList.remove('hidden');
-    if (contactSubmitLabel) contactSubmitLabel.textContent = 'Wysyłanie...';
+    if (contactSubmitLabel) contactSubmitLabel.textContent = window.i18n ? window.i18n.t('contact.sending') : 'Wysyłanie...';
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
@@ -24,7 +24,7 @@
         contactFormSuccess.classList.remove('hidden');
         contactForm.reset();
       } else {
-        throw new Error(json.message || 'Błąd wysyłki');
+        throw new Error(json.message || (window.i18n ? window.i18n.t('contact.sendError') : 'Błąd wysyłki'));
       }
     } catch (err) {
       console.error('Form error:', err);
@@ -33,7 +33,7 @@
       contactSubmitBtn.disabled = false;
       contactSubmitBtn.classList.remove('opacity-80', 'cursor-not-allowed');
       if (contactSpinner) contactSpinner.classList.add('hidden');
-      if (contactSubmitLabel) contactSubmitLabel.textContent = 'Wyślij wiadomość';
+      if (contactSubmitLabel) contactSubmitLabel.textContent = window.i18n ? window.i18n.t('contact.submit') : 'Wyślij wiadomość';
     }
   });
 })();

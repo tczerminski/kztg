@@ -46,6 +46,7 @@ function scheduleSentryInit() {
 
 window.addEventListener('load', scheduleSentryInit, { once: true });
 
+import "./i18n.js";
 import "./metadata.js";
 import "./audio-player.js";
 import "./contact-form.js";

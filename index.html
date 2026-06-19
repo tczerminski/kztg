@@ -14,6 +14,8 @@
             href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
             rel="stylesheet"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             rel="icon"
             type="image/jpeg"
@@ -91,6 +93,19 @@
                 display: none !important;
             }
 
+            .lang-btn--active {
+                color: #3f568f;
+                font-weight: 700;
+                text-decoration: underline;
+            }
+
+            /* Na ciemnym tle (mobile hero) aktywny przycisk jest biały i pogrubiony */
+            .lang-switcher--hero .lang-btn--active {
+                color: #fff;
+                font-weight: 700;
+                text-decoration: underline;
+            }
+
             #siteHeader {
                 position: fixed;
                 top: 0;
@@ -161,7 +176,16 @@
                         class="w-12 h-12 rounded-full shadow-sm"
                     />
                 </a>
-                <span class="absolute left-1/2 -translate-x-1/2" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-size: 1.4rem; color: #111827;">Kościół Zmartwychwstałego w Tarnowskich Górach</span>
+                <span class="absolute left-1/2 -translate-x-1/2" style="font-family: 'Dancing Script', cursive; font-weight: 700; font-size: 1.4rem; color: #111827;" data-i18n="site.name">Kościół Zmartwychwstałego w Tarnowskich Górach</span>
+                <nav aria-label="Wybór języka" class="flex items-center gap-0.5 ml-auto">
+                    <button type="button" data-lang-btn="pl" onclick="window.i18n.setLang('pl')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-[#1f2a44] hover:bg-gray-100" aria-label="Polski" aria-current="true">PL</button>
+                    <span class="text-gray-300 select-none">|</span>
+                    <button type="button" data-lang-btn="en" onclick="window.i18n.setLang('en')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-[#1f2a44] hover:bg-gray-100" aria-label="English" aria-current="false">EN</button>
+                    <span class="text-gray-300 select-none">|</span>
+                    <button type="button" data-lang-btn="uk" onclick="window.i18n.setLang('uk')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-[#1f2a44] hover:bg-gray-100" aria-label="Українська" aria-current="false">UA</button>
+                    <span class="text-gray-300 select-none">|</span>
+                    <button type="button" data-lang-btn="ta" onclick="window.i18n.setLang('ta')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-[#1f2a44] hover:bg-gray-100" aria-label="தமிழ்" aria-current="false">TA</button>
+                </nav>
             </div>
         </header>
         <main class="flex-1 pb-24">
@@ -183,8 +207,20 @@
                 <div
                     class="hero-overlay absolute inset-0 bg-linear-to-r from-black/70 via-black/60 to-black/50"
                 ></div>
+                <nav
+                    aria-label="Wybór języka"
+                    class="lang-switcher--hero md:hidden absolute top-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-0.5 bg-black/30 backdrop-blur-sm rounded-xl px-2 py-1"
+                >
+                    <button type="button" data-lang-btn="pl" onclick="window.i18n.setLang('pl')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-white hover:text-white/70" aria-label="Polski" aria-current="true">PL</button>
+                    <span class="text-white/40 select-none">|</span>
+                    <button type="button" data-lang-btn="en" onclick="window.i18n.setLang('en')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-white hover:text-white/70" aria-label="English" aria-current="false">EN</button>
+                    <span class="text-white/40 select-none">|</span>
+                    <button type="button" data-lang-btn="uk" onclick="window.i18n.setLang('uk')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-white hover:text-white/70" aria-label="Українська" aria-current="false">UA</button>
+                    <span class="text-white/40 select-none">|</span>
+                    <button type="button" data-lang-btn="ta" onclick="window.i18n.setLang('ta')" class="lang-btn px-2 py-1 text-xs font-semibold rounded transition text-white hover:text-white/70" aria-label="தமிழ்" aria-current="false">TA</button>
+                </nav>
                 <div
-                    class="mobile-hero-brand md:hidden absolute inset-0 flex flex-col items-center justify-start pt-16 z-10 pointer-events-none"
+                    class="mobile-hero-brand md:hidden absolute inset-0 flex flex-col items-center justify-start pt-24 z-10 pointer-events-none"
                 >
                     <div
                         class="w-36 h-36 rounded-full shadow-xl overflow-hidden ring-4 ring-white/90"
@@ -202,6 +238,7 @@
                             font-weight: 700;
                             text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
                         "
+                        data-i18n-html="site.name.mobile"
                     >
                         Kościół Zmartwychwstałego<br />w<br />Tarnowskich Górach
                     </p>
@@ -216,20 +253,23 @@
                             <div>
                                 <p
                                     class="text-sm uppercase tracking-[0.3em] text-[#dce7ff] mb-4"
+                                    data-i18n="radio.label"
                                 >
                                     Radio Internetowe
                                 </p>
                                 <h1
                                     class="text-3xl sm:text-4xl md:text-6xl font-semibold leading-tight mb-6"
+                                    data-i18n="radio.heading"
                                 >
                                     Słuchaj o dowolnej porze
                                 </h1>
                                 <p
                                     class="text-base sm:text-lg md:text-xl text-gray-100 mb-10 max-w-3xl radio-desc-desktop"
+                                    data-i18n="radio.desc"
                                 >
                                     Muzyka uwielbieniowa, kazania oraz
                                     transmisje na żywo z Tarnowskich Gór.
-                                    <br />Pozostań w kontakcie z naszym
+                                    Pozostań w kontakcie z naszym
                                     zgromadzeniem, niezależnie od miejsca i
                                     czasu.
                                 </p>
@@ -243,6 +283,7 @@
                                         data-radio-toggle
                                         onclick="setRadio()"
                                         aria-label="Odtwórz lub zatrzymaj transmisję na żywo"
+                                        data-i18n-aria-label="radio.playAriaLabel"
                                     >
                                         <svg
                                             data-radio-play-icon
@@ -285,6 +326,7 @@
                                     </button>
                                     <div class="radio-inline-player__body">
                                         <span class="radio-inline-player__label"
+                                            data-i18n="radio.live"
                                             >Transmisja na żywo</span
                                         >
                                         <canvas
@@ -304,11 +346,13 @@
                             >
                                 <p
                                     class="mb-2 text-sm uppercase tracking-[0.3em] text-[#dce7ff]"
+                                    data-i18n="services.label"
                                 >
                                     Nabożeństwa
                                 </p>
                                 <h2
                                     class="mb-6 text-2xl sm:text-3xl font-semibold"
+                                    data-i18n="services.heading"
                                 >
                                     Spotkajmy się
                                 </h2>
@@ -317,6 +361,7 @@
                                         class="flex items-center justify-between gap-4 border-b border-white/20 pb-3"
                                     >
                                         <span class="text-gray-200"
+                                            data-i18n="services.sunday"
                                             >Niedziela</span
                                         >
                                         <span class="font-semibold">9:30</span>
@@ -324,7 +369,7 @@
                                     <p
                                         class="flex items-center justify-between gap-4"
                                     >
-                                        <span class="text-gray-200">Środa</span>
+                                        <span class="text-gray-200" data-i18n="services.wednesday">Środa</span>
                                         <span class="font-semibold">18:00</span>
                                     </p>
                                 </div>
@@ -352,7 +397,7 @@
                     >
                         <polyline points="6 9 12 15 18 9" />
                     </svg>
-                    <p class="text-white text-xs tracking-widest mb-0">
+                    <p class="text-white text-xs tracking-widest mb-0" data-i18n="scroll.down">
                         Przewiń w dół
                     </p>
                 </div>
@@ -376,7 +421,7 @@
                     >
                         <polyline points="6 9 12 15 18 9" />
                     </svg>
-                    <p class="text-white text-xs tracking-widest mb-0">
+                    <p class="text-white text-xs tracking-widest mb-0" data-i18n="scroll.down">
                         Przewiń w dół
                     </p>
                 </div>
@@ -387,13 +432,14 @@
             >
                 <p
                     class="mb-2 text-sm uppercase tracking-[0.3em] text-[#5a6f9f]"
+                    data-i18n="radio.label"
                 >
                     Radio Internetowe
                 </p>
-                <h2 class="mb-4 text-2xl font-semibold">
+                <h2 class="mb-4 text-2xl font-semibold" data-i18n="radio.heading">
                     Słuchaj o dowolnej porze
                 </h2>
-                <p class="mb-8 text-base text-gray-600">
+                <p class="mb-8 text-base text-gray-600" data-i18n="radio.desc">
                     Muzyka uwielbieniowa, kazania oraz transmisje na żywo z
                     Tarnowskich Gór. Pozostań w kontakcie z naszym
                     zgromadzeniem, niezależnie od miejsca i czasu.
@@ -406,6 +452,7 @@
                         data-radio-toggle
                         onclick="setRadio()"
                         aria-label="Odtwórz lub zatrzymaj transmisję na żywo"
+                        data-i18n-aria-label="radio.playAriaLabel"
                     >
                         <svg
                             data-radio-play-icon
@@ -436,6 +483,7 @@
                     </button>
                     <div class="radio-inline-player__body">
                         <span class="radio-inline-player__label"
+                            data-i18n="radio.live"
                             >Transmisja na żywo</span
                         >
                         <canvas
@@ -455,21 +503,22 @@
                 >
                     <p
                         class="mb-2 text-sm uppercase tracking-[0.3em] text-[#5a6f9f]"
+                        data-i18n="services.label"
                     >
                         Nabożeństwa
                     </p>
-                    <h2 class="mb-6 text-2xl sm:text-3xl font-semibold">
+                    <h2 class="mb-6 text-2xl sm:text-3xl font-semibold" data-i18n="services.heading">
                         Spotkajmy się
                     </h2>
                     <div class="space-y-4 text-base sm:text-lg">
                         <p
                             class="flex items-center justify-between gap-4 border-b border-gray-200 pb-3"
                         >
-                            <span class="text-gray-700">Niedziela</span>
+                            <span class="text-gray-700" data-i18n="services.sunday">Niedziela</span>
                             <span class="font-semibold">9:30</span>
                         </p>
                         <p class="flex items-center justify-between gap-4">
-                            <span class="text-gray-700">Środa</span>
+                            <span class="text-gray-700" data-i18n="services.wednesday">Środa</span>
                             <span class="font-semibold">18:00</span>
                         </p>
                     </div>
@@ -483,25 +532,29 @@
                     <div class="max-w-3xl mx-auto text-center mb-12">
                         <p
                             class="text-sm uppercase tracking-[0.3em] text-[#5a6f9f] mb-3"
+                            data-i18n="sermons.label"
                         >
                             Kazania
                         </p>
                         <h2
                             class="text-3xl md:text-4xl font-semibold text-gray-900"
+                            data-i18n="sermons.heading"
                         >
                             Ostatnie kazania
                         </h2>
-                        <p class="text-gray-600 mt-4">
+                        <p class="text-gray-600 mt-4" data-i18n="sermons.desc">
                             Posłuchaj najnowszych kazań z naszych nabożeństw.
                         </p>
                         <div class="mt-6">
                             <label class="sr-only" for="sermons-search"
+                                data-i18n="sermons.searchLabel"
                                 >Szukaj kazań</label
                             >
                             <input
                                 id="sermons-search"
                                 type="search"
                                 placeholder="Szukaj kazania..."
+                                data-i18n-placeholder="sermons.searchPlaceholder"
                                 class="w-full sm:w-2/3 lg:w-1/2 mx-auto block border border-gray-200 rounded-xl px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
                             />
                         </div>
@@ -525,15 +578,17 @@
                     <div class="max-w-2xl mx-auto text-center mb-10">
                         <p
                             class="text-sm uppercase tracking-[0.3em] text-[#5a6f9f] mb-3"
+                            data-i18n="donations.label"
                         >
                             Wsparcie
                         </p>
                         <h2
                             class="text-3xl md:text-4xl font-semibold text-gray-900"
+                            data-i18n="donations.heading"
                         >
                             Przekaż darowiznę
                         </h2>
-                        <p class="text-gray-600 mt-4">
+                        <p class="text-gray-600 mt-4" data-i18n="donations.desc">
                             Twoje wsparcie pomaga nam głosić Ewangelię i służyć
                             społeczności. Dziękujemy za Wasze darowizny!
                         </p>
@@ -565,6 +620,7 @@
                             <div>
                                 <p
                                     class="text-xs uppercase tracking-widest text-[#5a6f9f] mb-1"
+                                    data-i18n="donations.recipient"
                                 >
                                     Odbiorca
                                 </p>
@@ -603,6 +659,7 @@
                             <div>
                                 <p
                                     class="text-xs uppercase tracking-widest text-[#5a6f9f] mb-1"
+                                    data-i18n="donations.account"
                                 >
                                     Numer konta
                                 </p>
@@ -646,10 +703,11 @@
                             <div>
                                 <p
                                     class="text-xs uppercase tracking-widest text-[#5a6f9f] mb-1"
+                                    data-i18n="donations.transferTitle"
                                 >
                                     Tytuł przelewu
                                 </p>
-                                <p class="font-semibold text-gray-900">
+                                <p class="font-semibold text-gray-900" data-i18n="donations.purpose">
                                     Darowizna na cele Kościoła
                                 </p>
                             </div>
@@ -667,15 +725,17 @@
                     >
                         <p
                             class="text-sm uppercase tracking-[0.3em] text-[#5a6f9f] mb-3"
+                            data-i18n="contact.label"
                         >
                             Kontakt
                         </p>
                         <h2
                             class="text-3xl md:text-4xl font-semibold text-gray-900"
+                            data-i18n="contact.heading"
                         >
                             Pozostańmy w kontakcie
                         </h2>
-                        <p class="text-gray-600 mt-4">
+                        <p class="text-gray-600 mt-4" data-i18n="contact.desc">
                             Napisz do nas lub odwiedź nas podczas najbliższego
                             nabożeństwa.
                         </p>
@@ -710,56 +770,64 @@
                                 <label
                                     class="block text-sm font-medium text-gray-700 mb-1"
                                     for="contact-name"
-                                    >Imię i nazwisko</label
-                                >
-                                <input
-                                    id="contact-name"
-                                    name="name"
-                                    type="text"
-                                    placeholder="Jan Kowalski"
-                                    class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
-                                    required
-                                />
+                                data-i18n="contact.nameLabel"
+                                >Imię i nazwisko</label
+                            >
+                            <input
+                                id="contact-name"
+                                name="name"
+                                type="text"
+                                placeholder="Jan Kowalski"
+                                data-i18n-placeholder="contact.namePlaceholder"
+                                class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+                                required
+                            />
                             </div>
                             <div>
-                                <label
-                                    class="block text-sm font-medium text-gray-700 mb-1"
-                                    for="contact-email"
-                                    >E-mail</label
-                                >
-                                <input
-                                    id="contact-email"
-                                    name="email"
-                                    type="email"
-                                    placeholder="twoj@email.pl"
-                                    class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
-                                    required
-                                />
+                            <label
+                                class="block text-sm font-medium text-gray-700 mb-1"
+                                for="contact-email"
+                                data-i18n="contact.emailLabel"
+                                >E-mail</label
+                            >
+                            <input
+                                id="contact-email"
+                                name="email"
+                                type="email"
+                                placeholder="twoj@email.pl"
+                                data-i18n-placeholder="contact.emailPlaceholder"
+                                class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+                                required
+                            />
                             </div>
                             <div>
-                                <label
-                                    class="block text-sm font-medium text-gray-700 mb-1"
-                                    for="contact-message"
-                                    >Wiadomość</label
-                                >
-                                <textarea
-                                    id="contact-message"
-                                    name="message"
-                                    rows="5"
-                                    placeholder="W czym możemy pomóc?"
-                                    class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
-                                    required
-                                ></textarea>
+                            <label
+                                class="block text-sm font-medium text-gray-700 mb-1"
+                                for="contact-message"
+                                data-i18n="contact.messageLabel"
+                                >Wiadomość</label
+                            >
+                            <textarea
+                                id="contact-message"
+                                name="message"
+                                rows="5"
+                                placeholder="W czym możemy pomóc?"
+                                data-i18n-placeholder="contact.messagePlaceholder"
+                                class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+                                required
+                            ></textarea>
                             </div>
                             <div
                                 id="contactFormSuccess"
                                 class="hidden rounded-xl bg-green-50 border border-green-200 text-green-700 px-4 py-3 text-sm"
+                                data-i18n="contact.success"
                             >
                                 ✓ Wiadomość wysłana! Odezwiemy się wkrótce.
                             </div>
                             <div
                                 id="contactFormError"
                                 class="hidden rounded-xl bg-red-50 border border-red-200 text-red-700 px-4 py-3 text-sm"
+                                data-i18n-html="contact.error"
                             >
                                 ✗ Coś poszło nie tak. Spróbuj ponownie lub
                                 napisz bezpośrednio na
@@ -794,6 +862,7 @@
                                     />
                                 </svg>
                                 <span id="contactSubmitLabel"
+                                    data-i18n="contact.submit"
                                     >Wyślij wiadomość</span
                                 >
                             </button>
@@ -806,6 +875,7 @@
                                 data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.449402420695!2d18.876954211011448!3d50.44441097062951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112bca94457a2f%3A0xe456ccebf37e9f3d!2zS2_Fm2Npw7PFgiBabWFydHd5Y2h3c3RhxYJlZ28gdyBUYXJub3dza2ljaCBHw7NyYWNo!5e0!3m2!1spl!2spl!4v1772382865381!5m2!1spl!2spl"
                                 class="hidden w-full h-full"
                                 title="Mapa Google"
+                                data-i18n-title="contact.mapIframeTitle"
                                 style="border: 0"
                                 allowfullscreen=""
                                 loading="lazy"
@@ -815,10 +885,10 @@
                                 id="contactMapPlaceholder"
                                 class="h-full flex flex-col items-center justify-center text-center px-6 bg-[#f8f9fe]"
                             >
-                                <p class="text-sm font-semibold text-[#1f2a44]">
+                                <p class="text-sm font-semibold text-[#1f2a44]" data-i18n="contact.mapCookieTitle">
                                     Mapa Google wymaga opcjonalnych cookie
                                 </p>
-                                <p class="text-sm text-gray-600 mt-2">
+                                <p class="text-sm text-gray-600 mt-2" data-i18n="contact.mapCookieDesc">
                                     Jeśli się nie zgadzasz, mapa nie zostanie
                                     załadowana. Nadal możesz użyć przycisku
                                     nawigacji poniżej.
@@ -827,6 +897,7 @@
                                     id="contactMapConsentBtn"
                                     type="button"
                                     class="mt-4 px-4 py-2 rounded-xl bg-[#3f568f] text-white hover:bg-[#334577] transition"
+                                    data-i18n="contact.mapAccept"
                                 >
                                     Akceptuj i pokaż mapę
                                 </button>
@@ -839,6 +910,7 @@
                             target="_blank"
                             rel="noopener noreferrer"
                             class="block w-full text-center bg-[#3f568f] text-white font-semibold py-3 rounded-xl hover:bg-[#334577] transition"
+                            data-i18n="contact.mapNav"
                         >
                             Nawiguj w Google Maps
                         </a>
@@ -848,11 +920,12 @@
         </main>
         <audio id="audioElement" preload="auto" class="hidden"></audio>
         <footer class="bg-white text-center py-4 text-gray-600 text-sm">
-            <p>© 2026 Kościół Zmartwychwstałego w Tarnowskich Górach</p>
+            <p data-i18n="footer.copyright">© 2026 Kościół Zmartwychwstałego w Tarnowskich Górach</p>
             <button
                 id="cookieSettingsBtn"
                 type="button"
                 class="mt-2 text-[#3f568f] hover:text-[#334577] hover:underline transition"
+                data-i18n="cookie.settings"
             >
                 Zmień ustawienia cookie
             </button>
@@ -865,10 +938,10 @@
                 class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between"
             >
                 <div class="pr-2">
-                    <p class="text-sm font-semibold text-[#1f2a44]">
+                    <p class="text-sm font-semibold text-[#1f2a44]" data-i18n="cookie.bannerTitle">
                         Używamy plików cookie
                     </p>
-                    <p class="text-sm text-gray-600">
+                    <p class="text-sm text-gray-600" data-i18n="cookie.bannerDesc">
                         Korzystamy z niezbędnych cookie do działania strony oraz
                         opcjonalnych (np. mapa Google), aby ją ulepszać.
                     </p>
@@ -878,6 +951,7 @@
                         id="cookieNecessaryBtn"
                         type="button"
                         class="px-4 py-2 rounded-xl border border-[#3f568f] text-[#3f568f] hover:bg-[#3f568f]/10 transition"
+                        data-i18n="cookie.reject"
                     >
                         Nie zgadzam się
                     </button>
@@ -885,6 +959,7 @@
                         id="cookieAcceptBtn"
                         type="button"
                         class="px-4 py-2 rounded-xl bg-[#3f568f] text-white hover:bg-[#334577] transition"
+                        data-i18n="cookie.accept"
                     >
                         Akceptuję
                     </button>
