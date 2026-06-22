@@ -13,6 +13,8 @@
   var currentPage = 1;
   var prefetchedCovers = {};
   var searchTimer;
+  var langFilteredSermons;
+  var currentSearch = '';
 
   if (!grid || !nav || !window.SERMONS) {
     return;
@@ -39,15 +41,32 @@
     }
 
     copy.dateDisplay = formatDate(sermon.date);
+    var translatedTitles = [];
+    if (copy.translations) {
+      Object.keys(copy.translations).forEach(function (lc) {
+        var t = copy.translations[lc];
+        if (t && t.title) translatedTitles.push(t.title);
+      });
+    }
     copy.searchText = normalizeText(
-      [copy.title, copy.preacher, copy.dateDisplay, copy.date].join(" ")
+      [copy.title].concat(translatedTitles).concat([copy.preacher, copy.dateDisplay, copy.date]).join(" ")
     );
 
     return copy;
   }
 
   sermons = window.SERMONS.map(enhanceSermon);
-  filteredSermons = sermons.slice();
+
+  function applyLangFilter() {
+    var lang = window.i18n ? window.i18n.currentLang() : 'pl';
+    langFilteredSermons = sermons.filter(function (s) {
+      if (lang === 'pl') return true;
+      return !!(s.tts && s.tts[lang]);
+    });
+  }
+
+  applyLangFilter();
+  filteredSermons = langFilteredSermons.slice();
 
   function initializeFuse() {
     if (fuse) {
@@ -91,12 +110,18 @@
   }
 
   function sermonCardHTML(sermon) {
-    var title = sermon.title || "";
+    var lang = window.i18n ? window.i18n.currentLang() : 'pl';
+    var title = (sermon.translations && sermon.translations[lang] && sermon.translations[lang].title)
+      || sermon.title
+      || "";
     var preacher = sermon.preacher || "";
     var date = formatDate(sermon.date);
-    var duration = formatDuration(sermon.duration);
-    var summary = sermon.summary || "";
-    var audio = sermon.audio;
+    var summary = (sermon.translations && sermon.translations[lang] && sermon.translations[lang].summary)
+      || sermon.summary
+      || "";
+    var audio = (sermon.tts && sermon.tts[lang]) || sermon.audio;
+    var durationSecs = (sermon.tts_durations && sermon.tts_durations[lang]) || sermon.duration;
+    var duration = formatDuration(durationSecs);
     var cover = sermon.cover;
 
     var noTitle = window.i18n ? window.i18n.t('sermons.noTitle') : 'Brak tytułu';
@@ -163,7 +188,9 @@
       "</button>" +
       '<input type="range" min="0" max="100" value="0"' +
       ' class="sermon-inline-player__progress"' +
-      ' data-sermon-progress aria-label="' + (window.i18n ? window.i18n.t('sermons.progress') : 'Postęp odtwarzania kazania') + '">' +
+      ' data-sermon-progress' +
+      ' data-duration="' + (durationSecs || 0) + '"' +
+      ' aria-label="' + (window.i18n ? window.i18n.t('sermons.progress') : 'Postęp odtwarzania kazania') + '">' +
       '<div class="sermon-inline-player__times">' +
       '<span data-current-time>0:00</span>' +
       '<span data-total-time>' +
@@ -254,11 +281,13 @@
   }
 
   function prefetchFirstPageAudio() {
+    var lang = window.i18n ? window.i18n.currentLang() : 'pl';
     var items = filteredSermons.slice(0, PAGE_SIZE);
     var i;
     for (i = 0; i < items.length; i += 1) {
-      if (items[i].audio) {
-        prefetchAudio(items[i].audio);
+      var audioUrl = (items[i].tts && items[i].tts[lang]) || items[i].audio;
+      if (audioUrl) {
+        prefetchAudio(audioUrl);
       }
     }
   }
@@ -311,15 +340,17 @@
 
   function updateSearchResults(query) {
     var normalized = normalizeText(query);
+    currentSearch = query;
 
     if (!normalized) {
-      filteredSermons = sermons.slice();
+      filteredSermons = langFilteredSermons.slice();
       totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
       renderPage(1);
     } else {
       initializeFuse()
         .then(function () {
           // Use Fuse include search, then enforce phrase contains exactly.
+          var lang = window.i18n ? window.i18n.currentLang() : 'pl';
           filteredSermons = fuse
             .search("'" + normalized)
             .map(function (entry) {
@@ -327,6 +358,10 @@
             })
             .filter(function (sermon) {
               return sermon.searchText.indexOf(normalized) !== -1;
+            })
+            .filter(function (sermon) {
+              if (lang === 'pl') return true;
+              return !!(sermon.tts && sermon.tts[lang]);
             })
             .sort(function (a, b) {
               var dateA = a && a.date ? a.date : "";
@@ -344,9 +379,14 @@
           renderPage(1);
         })
         .catch(function () {
+          var lang = window.i18n ? window.i18n.currentLang() : 'pl';
           filteredSermons = sermons
             .filter(function (sermon) {
               return sermon.searchText.indexOf(normalized) !== -1;
+            })
+            .filter(function (sermon) {
+              if (lang === 'pl') return true;
+              return !!(sermon.tts && sermon.tts[lang]);
             })
             .sort(function (a, b) {
               var dateA = a && a.date ? a.date : "";
@@ -395,7 +435,8 @@
   renderPage(currentPage);
 
   document.addEventListener('i18n:change', function () {
-    renderPage(currentPage);
+    applyLangFilter();
+    updateSearchResults(currentSearch);
   });
 
   // Prefetch audio for first page when browser is idle

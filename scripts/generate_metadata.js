@@ -89,6 +89,7 @@ async function fetchCover(r2Key, sermonId) {
 
 const audioPriority = { ".opus": 0, ".mp3": 1, ".m4a": 2, ".aac": 3, ".ogg": 4, ".wav": 5 };
 const coverPriority = { ".webp": 0, ".jpg": 1, ".jpeg": 2, ".png": 3 };
+const TTS_LANG_CODES = ["en", "uk", "ta"];
 const sermons = {};
 let token;
 
@@ -113,14 +114,24 @@ let token;
       const chunks = [];
       for await (const c of r.Body) chunks.push(c);
       const meta = JSON.parse(Buffer.concat(chunks).toString("utf8"));
-      if (!sermons[id].date)     sermons[id].date     = meta.date     ?? "";
-      if (!sermons[id].preacher) sermons[id].preacher = meta.preacher ?? "";
-      if (!sermons[id].title)    sermons[id].title    = meta.title    ?? "";
-      if (!sermons[id].summary)  sermons[id].summary  = meta.summary  ?? "";
-      if (!sermons[id].duration) sermons[id].duration = meta.duration ?? 0;
+      if (!sermons[id].date)          sermons[id].date          = meta.date          ?? "";
+      if (!sermons[id].preacher)      sermons[id].preacher      = meta.preacher      ?? "";
+      if (!sermons[id].title)         sermons[id].title         = meta.title         ?? "";
+      if (!sermons[id].summary)       sermons[id].summary       = meta.summary       ?? "";
+      if (!sermons[id].duration)      sermons[id].duration      = meta.duration      ?? 0;
+      if (!sermons[id].translations)  sermons[id].translations  = meta.translations  ?? {};
+      if (!sermons[id].tts_durations) sermons[id].tts_durations = meta.tts_durations ?? {};
     }
 
-    if (ext in audioPriority) {
+    const baseName = path.basename(filename, ext);
+    const ttsLang = ext === ".opus"
+      ? TTS_LANG_CODES.find(lc => baseName === `${id}_${lc}`)
+      : undefined;
+
+    if (ttsLang) {
+      sermons[id].tts = sermons[id].tts || {};
+      sermons[id].tts[ttsLang] = publicUrl(obj.Key);
+    } else if (ext in audioPriority) {
       const rank = audioPriority[ext];
       if (sermons[id]._audioRank === null || rank < sermons[id]._audioRank) {
         sermons[id].audio = publicUrl(obj.Key);

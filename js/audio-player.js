@@ -459,18 +459,24 @@
       return;
     }
 
-    if (!state.currentButton) return;
+    const player = target.closest('[data-sermon-player]');
+    if (!player) return;
 
-    const currentPlayer = getSermonPlayer(state.currentButton);
-    if (!currentPlayer || currentPlayer !== target.closest('[data-sermon-player]')) {
-      return;
+    const isActive = !!state.currentButton && getSermonPlayer(state.currentButton) === player;
+    const audioDuration = isActive && Number.isFinite(sermonAudio.duration) && sermonAudio.duration > 0
+      ? sermonAudio.duration
+      : null;
+    const duration = audioDuration ?? Number(target.dataset.duration) ?? 0;
+
+    if (duration > 0) {
+      const currentEl = player.querySelector('[data-current-time]');
+      if (currentEl) currentEl.textContent = formatTime((Number(target.value) / 100) * duration);
     }
 
-    if (!Number.isFinite(sermonAudio.duration) || sermonAudio.duration <= 0) return;
-
-    sermonAudio.currentTime = (Number(target.value) / 100) * sermonAudio.duration;
-    rememberCurrentSermonPosition();
-    updateSermonPlayerUI(state.currentButton, sermonAudio.currentTime, sermonAudio.duration);
+    if (isActive && audioDuration) {
+      sermonAudio.currentTime = (Number(target.value) / 100) * audioDuration;
+      rememberCurrentSermonPosition();
+    }
   });
 
   document.addEventListener('sermons:before-render', () => {
