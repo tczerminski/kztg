@@ -1,0 +1,121 @@
+{
+  "date": "2025-08-17",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/bAajpRUhPNw/bAajpRUhPNw.opus",
+  "preacher": "Andreas Stutz",
+  "title": "Jak mogę być sprawiedliwy i święty?",
+  "summary": "Tematem przesłania jest sprawiedliwość i świętość chrześcijanina, oparta na 1 Liście Jana 3,7 oraz 1 Liście Piotra 1,15-16. Usprawiedliwienie utożsamiane jest z darem Bożej łaski otrzymywanym przez wiarę, niezależnym od uczynków, które natomiast świadczą o prawdziwej przemianie i dążeniu do życia według Bożych standardów. Podkreślono konieczność życia zgodnego z wolą Boga i naśladowania Jego świętości.",
+  "duration": 3105,
+  "translations": {
+    "en": {
+      "title": "How Can I Be Righteous and Holy?",
+      "summary": "Is it truly possible to be righteous and holy before God? This sermon explains that righteousness goes beyond mere honesty—it's a gift of freedom from sin through faith in Jesus Christ. Holiness, on the other hand, is an ongoing journey of transformation born from God's grace, leading us to imitate Him. The Gospel shifts our approach to deeds and daily spiritual challenges, offering a fresh perspective on life."
+    },
+    "uk": {
+      "title": "Як я можу бути праведним і святим?",
+      "summary": "Чи можливо бути справді праведним і святим перед Богом? Проповідь пояснює, що праведність — це не лише чесність, а дар свободи від гріха через віру в Ісуса Христа. Святість же — це постійний процес перетворення, який народжується з Божої ласки і веде до наслідування Бога. Євангеліє змінює наш підхід до вчинків і щоденних духовних викликів, відкриваючи нову перспективу життя."
+    },
+    "ta": {
+      "title": "நான் எப்படி நீதிமானும் பரிசுத்தனாவும் ஆகலாம்?",
+      "summary": "நாம் உண்மையாக நீதிமானும் பரிசுத்தனாவும் ஆக முடியுமா? இந்த முழக்கம் நீதிமான்மை என்பது சுருங்கிய நேர்த்தியல்ல, بلکہ இயேசு கிறிஸ்துவில் நம்பிக்கை வைத்து பாவத்தில் இருந்து விடுதலை பெறும் பரிசாகும் என்று விளக்குகிறது. பரிசுத்தம் என்பது ஒரு தொடர்ச்சியான மாற்றம், கடவுளின் கிருபையால் உருவாகி, தேவனை ஒப்புக் கொள்ளும் பயணம் ஆகும். சுவாரஸ்யமான செய்தி நமது செயல்களை மற்றும் தினசரி ஆன்மிக சவால்களை பற்றிய பார்வையை மாற்றி, புதிய வாழ்வுக் கண்ணோட்டத்தை தருகிறது."
+    },
+    "de": {
+      "title": "Wie kann ich gerecht und heilig sein?",
+      "summary": "Ist es möglich, vor Gott wirklich gerecht und heilig zu sein? Diese Predigt erklärt, dass Gerechtigkeit mehr bedeutet als nur Ehrlichkeit – sie ist ein Geschenk der Freiheit von der Sünde durch den Glauben an Jesus Christus. Heiligkeit hingegen ist ein fortlaufender Wandel, geboren aus Gottes Gnade und führend zur Nachahmung Gottes. Das Evangelium verändert die Sicht auf gute Werke und die täglichen geistlichen Herausforderungen und eröffnet eine ganz neue Lebensperspektive."
+    },
+    "es": {
+      "title": "¿Cómo puedo ser justo y santo?",
+      "summary": "¿Es posible ser realmente justo y santo ante Dios? Este sermón explica que la justicia no se limita a la honestidad, sino que es un don de libertad del pecado a través de la fe en Jesucristo. Por otro lado, la santidad es un proceso continuo de transformación, nacido de la gracia de Dios y que conduce a imitar a Dios. El evangelio cambia nuestro enfoque hacia las obras y los desafíos espirituales cotidianos, mostrando una nueva perspectiva de vida."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "1 J 3",
+      "Kpł 19",
+      "Pwt 16",
+      "Rz 3",
+      "1 P 1",
+      "Łk 6",
+      "Mt 5",
+      "1 Kor 6",
+      "Hbr 10",
+      "Kol 1",
+      "Ef 4",
+      "1 Kor 1"
+    ],
+    "en": [
+      "1 John 3",
+      "Lev 19",
+      "Deut 16",
+      "Rom 3",
+      "1 Pet 1",
+      "Luke 6",
+      "Matt 5",
+      "1 Cor 6",
+      "Heb 10",
+      "Col 1",
+      "Eph 4",
+      "1 Cor 1"
+    ],
+    "uk": [
+      "1 Ів 3",
+      "Лев 19",
+      "Повт 16",
+      "Рим 3",
+      "1 Пт 1",
+      "Лк 6",
+      "Мт 5",
+      "1 Кор 6",
+      "Євр 10",
+      "Кол 1",
+      "Еф 4",
+      "1 Кор 1"
+    ],
+    "ta": [
+      "1 யோவான் 3",
+      "எக்ஸோடஸ் 19",
+      "தேவனாமம் 16",
+      "ரோமர் 3",
+      "1 பطرு 1",
+      "லூக்கா 6",
+      "மத்தேயு 5",
+      "1 ಕೊರಿಂಥியர் 6",
+      "எபிரேயர் 10",
+      "கொலோசயர் 1",
+      "எபேசியர் 4",
+      "1 ಕೊರಿಂಥியர் 1"
+    ],
+    "de": [
+      "1 Joh 3",
+      "Lev 19",
+      "Dtn 16",
+      "Röm 3",
+      "1 Petr 1",
+      "Lk 6",
+      "Mt 5",
+      "1 Kor 6",
+      "Hebr 10",
+      "Kol 1",
+      "Eph 4",
+      "1 Kor 1"
+    ],
+    "es": [
+      "1 Juan 3",
+      "Lev 19",
+      "Deut 16",
+      "Rom 3",
+      "1 Ped 1",
+      "Lc 6",
+      "Mat 5",
+      "1 Cor 6",
+      "Hebr 10",
+      "Col 1",
+      "Ef 4",
+      "1 Cor 1"
+    ]
+  },
+  "transcript": {
+    "pl": "Bracia i siostry, chcę mówić dziś o tym, że cieszę się, iż możemy zgromadzić się tutaj w imię naszego Pana Jezusa Chrystusa. On jest obecny, a wszystko, co tutaj robimy, ma na celu Jego chwałę i budowę naszej wiary. Pozdrawiam was wszystkich – szalom! Niech pokój Boży będzie z nami, szczególnie teraz, gdy będziemy czytać Jego słowo i rozważać je razem. \n\nTematem mojego kazania jest: „Jak mogę być sprawiedliwy i święty?”. Myślę, że powoli zyskuję reputację, ponieważ często mówię o Ewangelii – i to prawda, chodzi mi właśnie o nią. Nie zmęczę się powtarzaniem tego, bo czuję, że dla wszystkich jest to bardzo centralny element wiary. Fundament naszej wiary, teologii i nauki ma ogromny wpływ na to, jak będziemy przyjmować inne nauki – czy akceptować je, czy odrzucać. To, co umieszcza się w centrum, decyduje o tym, które nauki są dopuszczalne, a które trzeba odrzucić. Dlatego Ewangelia jest dla nas tak ważna, byśmy zrozumieli, że mamy żyć w Ewangelii i przez Ewangelię. \n\nDziś powtarzam temat sprawiedliwości i świętości. Zaczniemy od sprawiedliwości. Ludzi, którzy prowadzą sprawiedliwe życie, Biblia nazywa sprawiedliwymi. Mamy na to przykłady, takie jak Józef, mąż Marii, Symeon, Zachariasz i Elżbieta oraz ich syn Jan, a także rzymski setnik Korneliusz. W Nowym Testamencie są nazywani sprawiedliwymi. Teraz przeczytamy Słowo Boże – 1 List Jana, rozdział 3, werset 7: „Dzieci, nie dajcie się zwieść. Kto postępuje sprawiedliwie, jest sprawiedliwy podobnie jak On.”\n\nTen werset mówi o sprawiedliwych uczynkach – o działaniach, które odzwierciedlają sprawiedliwy sposób życia. Mówi o tym, że mamy praktykować sprawiedliwość w życiu. Ale czym są te sprawiedliwe uczynki? Możemy na to spojrzeć na co najmniej dwa sposoby.\n\nPo pierwsze, sprawiedliwe uczynki można rozumieć dosłownie. Mamy przykład w Księdze Kapłańskiej, rozdział 19, werset 36: „Będziecie mieć wagi sprawiedliwe, odważniki sprawiedliwe, sprawiedliwą efę, sprawiedliwe hin. Ja jestem Pan, Bóg wasz, który wyprowadził was z ziemi egipskiej.” \n\nBóg tu mówi, że narzędzia używane w handlu mają być sprawiedliwe, czyli uczciwe i zgodne z prawem. Wagi mają pokazywać prawdziwą wagę, nie wolno oszukiwać. To pokazuje, że praktyka sprawiedliwości obejmuje także uczciwość w biznesie.\n\nDrugi przykład mamy w kontekście sądownictwa, w Księdze Powtórzonego Prawa, rozdział 16, wersety 18-20: „Wszystkich miastach, które daje ci Pan, twój Bóg, ustanowisz sędziów i urzędników, którzy zapewnią ludowi sprawiedliwy sąd. Nie będziesz naginał prawa, nie będziesz stronniczy, nie będziesz przyjmował łapówek. Łapówka bowiem zaślepia oczy mądrych i wypacza sprawiedliwość. O sprawiedliwość, tylko o sprawiedliwość zabiegaj, abyś zachował życie i utrzymał ziemię, którą daje ci Pan, twój Bóg.” \n\nBóg wymaga tutaj, by sądy i decyzje były uczciwe i zgodne z prawem. Sprawiedliwość to uczciwość i prawda w życiu społecznym, biznesie, prawie i na co dzień. To jest jasne w Starym Testamencie.\n\nAle jest jeszcze drugi sposób rozumienia uczynków sprawiedliwych – w sensie pobożności. W Starym Testamencie grzech jest często opisywany jako kryminalny akt, przestępstwo przeciwko Bogu – pesza, awon i inne słowa. Wtedy sprawiedliwość to jest to, co się temu przeciwstawia, co jest zgodne z wolą Boga.\n\nApostoł Paweł pisze w Rzymian 3,23-24: „Wszyscy bowiem zgrzeszyli i pozbawieni są chwały Bożej, a usprawiedliwienie otrzymują jako dar z Jego łaski przez odkupienie, które jest w Chrystusie Jezusie.”\n\nPaweł wskazuje, że każda próba człowieka, by być sprawiedliwym i doskonałym przed Bogiem, jest nieskuteczna. Nikt nie umie tego osiągnąć na własną rękę. Dlatego usprawiedliwienie otrzymujemy jako dar – z łaski Bożej, przez wiarę w Ewangelię, gdy uznajemy swoją winę i wierzymy, że Jezus Chrystus dokonał odkupienia.\n\nTen proces nie opiera się na naszych uczynkach, ale na wierze, na pokucie i przyjęciu Bożego daru usprawiedliwienia. Bóg, który ustanowił prawo i jest sędzią, mówi: „Byłeś w stanie winy, ale przez moją decyzję i dzieło mojego Syna, stajesz się teraz sprawiedliwy, usprawiedliwiony.” Tej decyzji nie zastępują twoje uczynki.\n\nTo prowadzi nas do ważnej prawdy: usprawiedliwienie jest aktem Bożym, niezależnym od naszych dobrych uczynków. Ale możemy mieć pytanie: „Jeśli jestem usprawiedliwiony, to czy muszę jeszcze czynić sprawiedliwe uczynki? Czy teraz mogę żyć bez nich, bo mam wolność?”\n\nOdpowiedź brzmi: ktoś, kto tak myśli, potwierdza, że nie został naprawdę usprawiedliwiony, nie ma nowej natury, nowego narodzenia. Żyje w starym życiu, szuka tylko wymówek do grzechu i próbuje usprawiedliwić swoje grzechy. Taka osoba nie ma nowego serca ani ducha.\n\nUczynki sprawiedliwe są świadectwem prawdziwego usprawiedliwienia – są reakcją człowieka, który został uwolniony od ciężaru grzechu. On nie powraca do grzechu mówiąc: „Teraz mogę dalej grzeszyć”, bo grzech go boli, jest mu ciężarem, bo wie, że stoi w sprzeczności z wolą Bożą.\n\nSprawiedliwe uczynki są naturalną reakcją i wyrazem wdzięczności wobec Boga, który usprawiedliwił. To jest nasze powołanie – żyć według sprawiedliwości i świętości. \n\nPrzejdźmy teraz do świętości. Czytamy 1 List Piotra 1,15-16: „Bądźcie święci, bo ja jestem święty.” Mamy tu wezwanie do życia w świętości, według wzoru Boga, który nas powołał.\n\nJak to wygląda? Mamy się wzorować na Bogu, żyć tak, jak On jest święty. Przykładem jest Jezus Chrystus, Jego życie i czyny. W Ewangelii Łukasza 6,36 czytamy: „Bądźcie miłosierni, jak Ojciec wasz jest miłosierny.” Miłosierdzie Boga jest centrum Jego świętości.\n\nW Mateuszu 5,48 Jezus mówi: „Bądźcie doskonali, jak doskonały jest wasz Ojciec niebieski.” To jest głębokie wezwanie obejmujące wszystkie aspekty naszego życia – myśli, motywacje, uczucia, działania. Mamy dążyć do świętości, naśladując Boga.\n\nTo jest trudne wezwanie, a więc ile uczuń świętości musimy czynić, jak często i jak konsekwentnie? Odpowiedź jest w 1 Liście do Koryntian 6,9-11: „Czyż nie wiecie, że niesprawiedliwi nie odziedziczą królestwa Bożego?... Aleście zostali oczyszczeni, uświęceni, usprawiedliwieni w imię Pana Jezusa Chrystusa i w Duchu Boga naszego.”\n\nW Liście do Hebrajczyków 10,14 czytamy: „Jedną ofiarą Jezus Chrystus uczynił na zawsze doskonałymi tych, których uświęca.” To znaczy, że nasze uświęcenie nie pochodzi z własnych zasług, ale jest darem Bożym przez ofiarę Jezusa.\n\nGrzech brudzi nas jak plama – przestanie brudzić ubranie nie sprawia, że stanie się czyste, a jedynie, że już nie jest brudzone. Podobnie, człowiek nie może sam doskonałość i świętość osiągnąć przez własne wysiłki.\n\nW Kolosan 1,22 jest napisane: „Teraz pojednał was w ciele swoim ziemskim przez śmierć, aby was postawić przed sobą jako świętych, nieskazitelnych i nienagannych.” Dzięki Chrystusowi mamy tę możliwość stania się świętymi i czystymi w oczach Boga.\n\nW Kościele katolickim świętymi nazywa się bohaterów wiary, męczenników lub tych, którzy doznali cudów. Jednak Biblia nazywa świętymi wszystkich, których Chrystus uświęca – czyli tych, którzy uwierzyli i są usprawiedliwieni.\n\nTo jest zasada tzw. simul justus et peccator – w tym samym czasie jestem usprawiedliwiony i grzesznik. Świętość jest procesem, a nie efektem własnych uczynków.\n\nNasze uczynki nie mogą i nie powinny być konkurencją dla dzieła Jezusa Chrystusa – one są rezultatem, reakcją na to, co On zrobił.\n\nW 1 Liście do Koryntian 1,2 czytamy, że Kościół Boży to ci, którzy są uświęceni. \n\nJeszcze jedna przestroga – nie możemy żyć tak, jakbyśmy byli uzdrowieni, usprawiedliwieni, a potem od razu wracać do grzechu. Prawdziwa wiara i nowa natura tworzą tęsknotę za świętym życiem. Brak takiej tęsknoty świadczy, że nie jesteśmy dziećmi Bożymi.\n\nChcę podać jeszcze jeden, stary przykład – opowieść sprzed kilkuset lat o prostytutce, która pewnego dnia została królową. Od momentu, gdy została królową, musiała nauczyć się żyć inaczej, nosić inne stroje, mówić inaczej. Tak samo my – od chwili usprawiedliwienia i uświęcenia stajemy się dziećmi Bożymi i powinniśmy żyć inaczej – to jest naturalna reakcja, wyraz wdzięczności.\n\nBrak tej zmiany jest powodem do poważnego zmartwienia co do naszego stanu duchowego.\n\nNa zakończenie, Efezjan 4,1-2 zachęca, byśmy żyli godnie powołania, które otrzymaliśmy: „Postępujcie z wszelką pokorą i łagodnością, cierpliwie znosząc jedni drugich w miłości.”\n\nJeśli są tutaj osoby, które nie zostały jeszcze usprawiedliwione i uświęcone, które nie znają Bożej łaski – nie mogą stanąć przed Bogiem. Jest tylko jedna droga: patrzeć na Jezusa, krzyż i wołać: „Wybaw mnie, Panie”, wyznać swoje grzechy, a On otworzy drzwi do Ojca i do wiecznej społeczności z Nim.\n\nAmen.\n\nMódlmy się: Panie Jezu, dziękujemy Ci za tę dobrą nowinę, za Ewangelię, za tęsknotę, którą w nas stworzyłeś – tę nienawiść do grzechu i pragnienie życia w sprawiedliwych i świętych uczynkach. Dziękujemy, że działasz w nas, zmieniasz nasze serca i wyznaczasz nam drogę. Prosimy, daj nam radość codziennie, każdej godziny i minuty, byśmy nigdy nie zapomnieli o usprawiedliwieniu i uświęceniu, które w nas dokonujesz. Niech będzie chwała Ojcu, Synowi i Duchowi Świętemu. Amen."
+  },
+  "cover": "/images/covers/bAajpRUhPNw.webp"
+}

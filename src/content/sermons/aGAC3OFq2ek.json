@@ -1,0 +1,103 @@
+{
+  "date": "2025-01-08",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/aGAC3OFq2ek/aGAC3OFq2ek.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Wszystko ma swój czas i porę - II - Nowonarodzenie cz. 4",
+  "summary": "Nowe narodzenie duchowe stanowi centralny temat kazania, opartego na Kaznodziei Salomona 3: „Wszystko ma swój czas”. Podkreśla ono, że narodzenie z Ducha Świętego prowadzi do przemiany umysłu, kierowania się myślą Chrystusową oraz uwolnienia od panowania grzechu. Podstawą jest wiara i ciągła przemiana duchowa (metanoia), które umożliwiają święte życie i naśladowanie Jezusa.",
+  "duration": 3659,
+  "translations": {
+    "en": {
+      "title": "Everything Has Its Time and Season - II - Being Born Again, Part 4",
+      "summary": "Have you experienced true rebirth through the Holy Spirit? This sermon reveals that it’s not just a moment but an ongoing process of transforming your mind and living according to Christ’s purpose. Understanding metanoia—a profound inner change—helps uncover how salvation and the Spirit’s guidance shape our daily relationship with God. It’s a reflection on the vibrant, dynamic work of God’s Word in our lives."
+    },
+    "uk": {
+      "title": "Усьому свій час і пора - ІІ - Новонародження ч. 4",
+      "summary": "Чи пережив ти справжнє новонародження через Святого Духа? Проповідь показує, що це не лише миттєвий момент, а безперервний процес оновлення розуму і життя відповідно до думки Христа. Розуміння метаною – глибокої внутрішньої трансформації – допомагає відкрити, як спасіння і провід Духа формують щоденні стосунки з Богом. Це роздум над живим, динамічним діянням Божого Слова у нашому житті."
+    },
+    "ta": {
+      "title": "ஒவ்வொன்றுக்கும் தன் காலமும் நேரமும் உண்டு - II - புது பிறப்பு பகுதி 4",
+      "summary": "நீங்கள் பரிசுத்த ஆவியால் உண்மையான புது பிறப்பை அனுபவித்துள்ளீர்களா? இந்த போதனம், அது வெறும் ஒரு தருணம் அல்ல, மனதையும் வாழ்க்கையையும் கிறிஸ்துவின் எண்ணத்திற்கேற்றவாறு மாற்றும் தொடர்ச்சியான ஒரு செயல்முறை என்பதைக் காட்டுகிறது. மனதின் ஆழ்ந்த மாற்றம் என்ற 'மெட்டானோயி'யை புரிந்துகொள்ளுதல், இரட்சிப்பு மற்றும் ஆவியுடைய நடத்தல் தினசரி கடவுளுடன் உள்ள உறவை எப்படி உருவாக்குகின்றன என்பதை வெளிப்படுத்த உதவுகிறது. இது எங்கள் வாழ்க்கையில் கடவுளின் வார்த்தையின் உயிர்வாழும், ஊமைமிக்க செயல்பாட்டைப் பற்றி சிந்திக்கச் செய்கிறது."
+    },
+    "de": {
+      "title": "Alles hat seine Zeit und Stunde - II - Wiedergeburt Teil 4",
+      "summary": "Hast du die wahre Wiedergeburt durch den Heiligen Geist erlebt? Diese Predigt zeigt, dass es nicht nur ein Moment ist, sondern ein fortwährender Prozess der Erneuerung des Denkens und des Lebens im Einklang mit Christi Gedanken. Das Verständnis von Metanoia – der tiefgreifenden Wandlung – hilft, zu entdecken, wie Errettung und Führung durch den Geist die tägliche Beziehung zu Gott formen. Eine nachdenkliche Betrachtung über das lebendige, dynamische Wirken des Wortes Gottes in unserem Leben."
+    },
+    "es": {
+      "title": "Todo tiene su tiempo y momento - II - Nuevo Nacimiento parte 4",
+      "summary": "¿Has experimentado el verdadero nuevo nacimiento a través del Espíritu Santo? Este sermón revela que no es solo un instante, sino un proceso continuo de transformación de la mente y de vivir conforme al pensamiento de Cristo. Comprender el metanoia —una profunda transformación— ayuda a descubrir cómo la salvación y la guía del Espíritu moldean nuestra relación diaria con Dios. Una reflexión sobre la acción viva y dinámica de la Palabra de Dios en nuestra vida."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Kazn 3",
+      "Kol 2",
+      "1 Tym",
+      "1 Kor 2",
+      "Mt 11",
+      "Jk 2",
+      "Iz 66",
+      "1 Kor 3",
+      "Rz 5"
+    ],
+    "en": [
+      "Eccl 3",
+      "Col 2",
+      "1 Tim",
+      "1 Cor 2",
+      "Matt 11",
+      "Jas 2",
+      "Isa 66",
+      "1 Cor 3",
+      "Rom 5"
+    ],
+    "uk": [
+      "Екл 3",
+      "Кол 2",
+      "1 Тим",
+      "1 Кор 2",
+      "Мт 11",
+      "Як 2",
+      "Іс 66",
+      "1 Кор 3",
+      "Рим 5"
+    ],
+    "ta": [
+      "கீதாயகாரம் 3",
+      "குலோசேயர் 2",
+      "1 திமோதி",
+      "1 கொரிந்தியர் 2",
+      "மத்தேயு 11",
+      "யாக்கோபு 2",
+      "ஈசாயா 66",
+      "1 கொரிந்தியர் 3",
+      "ரோமர் 5"
+    ],
+    "de": [
+      "Pred 3",
+      "Kol 2",
+      "1 Tim",
+      "1 Kor 2",
+      "Matth 11",
+      "Jak 2",
+      "Jes 66",
+      "1 Kor 3",
+      "Röm 5"
+    ],
+    "es": [
+      "Ecl 3",
+      "Col 2",
+      "1 Tim",
+      "1 Cor 2",
+      "Mat 11",
+      "Sant 2",
+      "Is 66",
+      "1 Cor 3",
+      "Rom 5"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was wszystkich w imieniu Pana naszego Jezusa Chrystusa. Będziemy dalej kontynuować drugą część rozważań Słowa Bożego, którym, tak jak mottem, było słowo z Kaznodziei Salomona z trzeciego rozdziału. Przeczytam je na wstępie, abyśmy również sobie to mogli przypomnieć: „Wszystko ma swój czas. Każda sprawa pod niebem ma swoją porę. Jest czas rodzenia i czas umierania.”\n\nPrzez najbliższe trzy wykłady wstecz zajęliśmy się czasem rodzenia i omawialiśmy nowonarodzenie tak, jak ono jest w Słowie Bożym napisane, ponieważ ten problem jest bardzo ważny. Myślę, że jeśli ktoś dobrze się narodzi, jeśli ktoś narodzi się tak, jak Słowo Boże mówi — z Ducha Świętego — i będzie prowadzony przez Ducha, nie przez zamysły ciała, to będzie nazwany dzieckiem Bożym. Będziemy starali się jeszcze może przez dwa wykłady mówić tutaj na temat rodzenia się w Duchu.\n\nAle na ubiegłym tygodniu chciałem również pewne rzeczy sprostować, które mi się tam troszeczkę nie wyjaśniły, z powodu tego, że chcąc coś obudować słowem, nie do końca to precyzyjnie oddałem. Chcę jeszcze raz z całą mocą podkreślić, że mój pogląd jest taki, że Pan Jezus był w pełni Bogiem i był w pełni człowiekiem. Na poparcie tego, nie czytając już wszystkich wersetów, polecam Kolosan 2:9 oraz 1 Tymoteusza 2:5 — tam to jest wszystko wyjaśnione. Przepraszam wszystkich, ponieważ troszeczkę się w moich myślach pogubiłem, ale to już jest za nami.\n\nJeśli komuś to wywołało niepokój, po prostu mój pogląd jest taki, jak jest w tych wersetach. Troszeczkę inaczej moje myśli obudowałem, za co przepraszam. Teraz chciałbym dalej kontynuować nasze rozważanie.\n\nRozważaliśmy, kiedy otworzyliśmy Pierwszy List do Koryntian — od tego momentu zaczniemy dzisiaj, choć tego szczegółowo już nie będziemy omawiać, ponieważ omówiliśmy to dokładnie. Już wyjaśniałem wcześniej, że jest XXI wiek, a ludzie jeszcze wiele razy nie pojmują, na czym polega rzeczywiste narodzenie się z Boga. Tak jak omawialiśmy, Pan Jezus powiedział to jednemu z uczonych w Piśmie — Nikodemowi, którego znacie oczywiście z narracji Słowa Bożego. On pewne rzeczy dosłownie rozumiał, natomiast Pan Jezus wyjaśnił mu, na czym to polega.\n\nMyślę, że te wykłady przybliżą nam to, przypomną nam — tak jak Piotr mówi — że on nie ma nic przeciwko, żeby wielokrotnie pewne rzeczy przypominać, ale również pewne sprawy nas będą budowały. Można też powiedzieć, że odświeżymy sobie pewne sprawy, abyśmy mogli zweryfikować, czy czasami po drodze nasze nowonarodzenie nie zostało nieco zniekształcone przez przeciwnika.\n\nCzytaliśmy z drugiego rozdziału, od jedenastego wersetu, ale ja bym już tego nie chciał czytać. Skończyliśmy na szesnastym wersecie drugiego rozdziału, i od niego chciałbym dzisiaj rozpocząć. Przeczytamy również w imieniu Pana naszego Jezusa Chrystusa.\n\n„Co daje to? Zaraz będziemy wyjaśniać, bo któż poznał myśl Pana, któż może go pouczać, ale my jesteśmy myśli Chrystusowej.” Widzimy zatem, że to, o czym mówiliśmy w ubiegłym tygodniu, prowadzi do tego, że w pewnym momencie, kiedy się na nowo narodzimy, powinna w nas nastąpić metanoia — przemiana — i powinniśmy być, prawda, myślą w Duchu, myślą Chrystusową kierowani.\n\nNie zaprzeczamy tutaj, ani nie mówimy, że teraz nagle nasz umysł nie powinien myśleć. Oczywiście, że wszystko to, co jest potrzebne do życia na tym świecie, cała wiedza itd., jest nam potrzebna. Tak jak już mówiłem wcześniej, w wykładach w sierpniu i lipcu, teologia jest bardzo istotna — mówi nam o Bogu. My pielgrzymujemy jednak w wierze, i dlatego nie powinniśmy polegać wyłącznie na wiedzy, ale na wierze, bo to w wierze mamy moc wykonania.\n\nNawet jeśli ktoś bardzo dobrze zna Boga z intelektualnego punktu widzenia — tak jak to wykazuje Słowo Boże o uczonych w Piśmie — to w pewnym momencie, przez wiarę, właśnie przez wiarę, jak to ojcem wiary był Abraham, dostąpiliśmy usprawiedliwienia i ożywienia ducha naszego do komunikacji z duchem Bożym. O tym ostatnio mówiliśmy.\n\nDzisiaj chcę nas bardziej zachęcić, abyśmy pamiętali, że nasza społeczność z Bogiem jest w duchu. Co daje nam narodzenie z ducha? Abyśmy sobie to uzmysłowili i zrozumieli istotę tej rzeczy.\n\nCzłowiek jest czasami pragmatyczny, więc zapytałem samego siebie: jakie korzyści ma człowiek, kiedy rzeczywiście prawidłowo się narodzi? Co nam to daje? Wiemy, że jest wiele różnych wyznań, które opierają się na pewnego rodzaju sakramentach, czy tradycji, ale Słowo Boże mówi jasno — narodźcie się na nowo i stańcie się ludźmi myśli Chrystusowej.\n\nMoglibyśmy się zapytać: jaki jest zysk? Słowo Boże też mówi w pewnym fragmencie, że jeśli uwierzyliście, macie pewien zysk. Jakie to zyski? Pierwszy – doznajemy zbawienia, przebaczenia grzechów i będziemy po prostu z Panem naszym Jezusem Chrystusem. Paweł powiedział: „świat dla mnie jest niczym, a Chrystus jest zyskiem”. Zobaczmy więc, że jeśli nasza metanoia, przemiana umysłu musi nastąpić, to wtedy patrzymy coraz mniej na świat materialny i zmysłowy, a więcej na duchowe wartości.\n\nSłowo Boże też mówi — i przypowieści Salomona to ukazują — że pieniądz na ziemi umożliwia wszystko, ale na ziemi. Po drugiej stronie, po drugiej stronie życia, pieniądz nie umożliwia zbawienia. Często więc możemy myśleć w sposób świecki, materialny i zagubić myśli chrystusowe, ale co jest naszym zyskiem w Panu naszym Jezusie Chrystusie?\n\nAby kierować naszym umysłem tak, aby został odnowiony i abyśmy byli w myśli chrystusowej. Kiedy otworzymy jedenasty rozdział Ewangelii Mateusza i przeczytamy od jedenastego wersetu dwa wersety:\n\n„Zaprawdę, powiadam wam, nie powstał z tych, którzy z niewiasty się rodzą większy od Jana Chrzciciela, ale najmniejszy w królestwie niebios jest większy niż on. A od dnia Jana Chrzciciela aż dotąd królestwo niebios doznaje gwałtu, i gwałtownicy je porywają.”\n\nWidzimy więc, że Pan Jezus wskazuje na wielkość tego epokowego wydarzenia, jakim jest narodzenie się na nowo dla Boga. I zresztą w wielu miejscach Słowo Boże mówi odwrotnie — że my od ducha rozpoczynamy to, by zamysł ciała nad nami nie panował. Ożywiamy naszego ducha.\n\nDuch Święty komunikuje się z nami, bo została usunięta przegroda grzechu i wtedy Duch Święty nas prowadzi, aby myśl chrystusowa wdrażana była w duszę i ciało, aby te rzeczy manifestowały się na naszym ciele.\n\nJeśli jednak nadal grzeszymy, myśląc, że w środku zostaliśmy ożywieni, to nie jest prawdą. Biblia mówi, że duch, dusza i ciało powinny być zachowane w czystości na przyjście Pana naszego Jezusa Chrystusa. Ciało musi emanować myślą Chrystusa — ciało to to, co wykonuje pewne rzeczy, więc musi emanować wykonaniem tych rzeczy.\n\nJeśli ktoś myśli, że dokonał pewnych rzeczy jedynie w duchu, a potem mówi: „Panie Boże, stworzyłeś mnie takiego, więc taki jestem, przecież Bóg wie, co jest w moim wnętrzu” — Słowo Boże mówi coś zupełnie innego. Mówi o metanoi, o przemianie, o tym, abyśmy zapierali się samych siebie, wykonywali Słowo Boże, naśladowali Jezusa Chrystusa, brali swój krzyż i nie patrzyli w stronę świata.\n\nNie chodzi mi tu o wymiar fizyczny niezbędny do funkcjonowania na tym świecie, ale chodzi o to, że nasz wzrok duchowy powinien być skierowany tak, by grzech nad nami nie panował.\n\nGrzech ma różne odniesienia. Wielu ludzi grzech definiuje powierzchownie, mówiąc: „Przecież nikogo nie okradłem, nikogo nie zabiłem, więc co Bóg ode mnie chce?” — to jest jego sprawiedliwość. Kiedy rozważamy Słowo Boże i mówimy komuś o grzechu, często słyszymy uspokajające słowa sumienia: „Nikogo nie zabiłem, nikomu nic nie ukradłem.” Wiemy jednak, że bogactwo grzechu, które wprowadziło do świata nieposłuszeństwo Bogu, jest o wiele szersze i głębsze.\n\nZ Słowa Bożego dowiadujemy się, co Bogu się nie podoba, to, co wychodzi na nasze ciało. Gdybyśmy dalej czytali: „A jeśliście dziećmi, to i dziedzicami, dziedzicami Bożymi, a współdziedzicami Chrystusa, jeśli tylko razem z nim cierpimy, abyśmy także razem z nim uwielbieni byli.”\n\nWidzimy tu wskazówki, że mamy pewne doświadczenia przejść, pewne cierpienia, które są potrzebne, aby nasze ciało mogło umrzeć dla świata i dla grzechu.\n\nSłowo Boże dalej mówi: „Utrapienie teraźniejszego czasu nic nie znaczy w porównaniu z chwałą, która ma się nam objawić. Bo stworzenie z tęsknotą oczekuje objawienia synów Bożych.” Pan Jezus cytował to wielokrotnie.\n\nW Piśmie czytamy, że do kogo dotrze Słowo Boże, ten jest nazwany synem Bożym. Ktoś może powiedzieć: „Do mnie Słowo Boże dotarło.” Ale w Jakubie w drugim rozdziale jest jasno powiedziane, że „nie bądźcie tylko słuchaczami Słowa Bożego, ale wykonawcami”.\n\nNie wystarczy tylko spojrzeć na siebie w zwierciadle Słowa Bożego i odejść bez działania z przekonaniem: „Jestem dzieckiem Bożym”. Biblia wymaga od nas wykonawstwa Słowa i przestrzega przed oszukiwaniem siebie samych. Największe oszustwo to oszustwo grzechu w nas.\n\nGrzech ma wiele obliczy i dopiero prawdziwe nowonarodzenie, prowadzone przez Ducha Świętego, które żywi myśl chrystusową w nas, jest w stanie nas z tego wyrwać.\n\nJak pisze Kaznodzieja, Bóg włożył w nasze serca wieczność, dał nam ducha, który dąży do Niego. Kiedy wypełniamy Słowo Boże, mamy wsparcie Boga.\n\nBóg wie, że chodzimy w słabości ciała i duchowej niesprawności, dlatego współdziała ku dobremu z tym, którzy Go miłują.\n\nNie omówię szczegółowo, czym jest ta miłość, bo Słowo Boże wyjaśnia to wyraźnie, choćby w listach i Ewangelii Jana.\n\nNa koniec chcę przeczytać fragment z Izajasza, co daje nowonarodzenie i o czym Bóg nas zapewnia. W 66 rozdziale czytamy: „Tak jak matka pociesza syna, tak ja będę was pocieszał, i w Jerozolimie doznacie pociechy. Gdy to zobaczycie, rozraduje się wasze serce, i jak świeża trawa zakwitną wasze kości. Objawi się ręka Pana jego sługom, a jego zawziętość jego nieprzyjaciołom.”\n\nWidzimy, że Słowo Boże zachęca nas, byśmy skierowali wzrok duchowy na Pana, gdzie doznajemy pociechy i nadziei — nadziei na nowy Jerozolim.\n\nBóg współdziała ku dobremu, zna nasze słabości i łaska Boża nie jest jednorazowym aktem, ale działa w nas przez cały czas.\n\nJesteśmy pod łaską Boga Wszechmogącego.\n\nMożemy się zastanowić: jak stać się myśli chrystusowej? Co czynić, aby nią być?\n\nPisma mówią jasno — to jest prawo Boże. Nie powinniśmy dzielić Słowa Bożego na to, co nas obowiązuje, a co nie, bo cały tekst jest potrzebny ku życiu w pobożności (1 Tymoteusza).\n\nDuch Święty nigdy nie zmieni Słowa Bożego, jest Duchem Prawdą, który objawia Jezusa — Drogę, Prawdę i Życie.\n\nDuch Święty jest Bogiem, współdziała ku dobremu, przebudowując nasze wnętrze, duszę i ciało, aby były zachowane w czystości.\n\nWracając do Pierwszego Listu do Koryntian — jak stać się tymi, którzy mają myśl Chrystusową? Słowo Boże udziela nam wskazówek.\n\nW 3 rozdziale czytamy:\n\n„Ja, bracia, nie mogłem mówić do was jako do duchowych, lecz jako do cielesnych, jako do niemowląt w Chrystusie. Poiłem was mlekiem, a nie stałym pokarmem, bo jeszcze go przyjąć nie mogliście, a teraz jeszcze nie możecie.”\n\nOznacza to, że są etapy duchowego wzrastania. Etap niemowlęcy, gdzie jesteśmy jeszcze cielesni, nie duchowi.\n\nCzłowiek duchowy to ten, który rozróżnia dobro od zła, nosi brzemiona innych i nie chełpi się darami Bożymi.\n\nBędąc dojrzałym duchowo, coraz bardziej będziemy manifestować myśli Chrystusowe w ciele i wydawać owoce godne upamiętania.\n\nGrzech nad nami nie będzie już panował.\n\nJeśli proces wzrastania jest prawidłowy, nie będzie sprzeczności — nie można zapewniać siebie o zbawieniu, a jednocześnie żyć w grzechu tego świata.\n\nJeśli przychodzą doświadczenia, nie uciekamy do świata czy grzechu, żeby ratować swoją sytuację. Musimy trwać, mieć panowanie nad językiem (Jakub), a Słowo Boże ma recepty, które prowadzą do męskiej dojrzałości duchowej.\n\nNie możemy od razu oczekiwać doskonałości zaraz po nowonarodzeniu — to się rozwija z czasem.\n\nEwangelia nie mówi: „raz zbawiony — zawsze zbawiony” — jest wiele fragmentów, które pokazują inaczej.\n\nŁaska działa w nas do momentu, aż Pan nie zażąda naszej duszy — dlatego jest zawsze nadzieja, jest szansa.\n\nW Liście do Rzymian, 5 rozdziale, czytamy: „Pokój mamy z Bogiem przez Pana naszego Jezusa Chrystusa, dzięki któremu mamy dostęp do łaski.”\n\nŁaska ta wykonuje pracę w nas, byśmy stawali się dojrzałymi ludźmi w wierze, a pokój i miłość Boża są wylane w naszych sercach przez Ducha Świętego.\n\nProces ten trwa, a proces wzrastania jest nieustanny.\n\nPowinniśmy przystąpić do żywego kamienia — Jezusa Chrystusa — który mimo że odrzucony przez świat, jest dla nas kamieniem węgielnym i kosztownym.\n\nPowinniśmy się do Niego zwracać w każdej sprawie i budować naszą relację ku Niemu, abyśmy byli duchowym domem i kapłaństwem świętym, składając duchowe ofiary, przyjemne Bogu przez Jezusa Chrystusa.\n\nW Piśmie czytamy: „Kto w niego wierzy, nie zawiedzie się.”\n\nTo jest dobra nadzieja.\n\nKiedy doświadczamy trudności, powinniśmy pamiętać, że Chrystus jest dla nas kosztownym kamieniem i pomaga nam przetrwać ciemną dolinę.\n\nPsalm 23 mówi: „Choćbym szedł doliną cienia śmierci, zła się nie ulęknę, bo Ty jesteś ze mną.”\n\nMusimy pamiętać, że nie chcemy zasmucać Ducha Świętego i powinniśmy się ciągle wspierać tą myślą.\n\nJezus wskazał, że jest chlebem życia i źródłem żywej wody.\n\nKiedy myślimy Chrystusowo, z nas tryskają wody życia.\n\nJako zjednoczona wspólnota — powszechne kapłaństwo — mamy poselstwo pojednania świata z Bogiem.\n\nSłowo Boże zawsze kieruje nasze myśli ku Pismom — dla nas Chrystus jest objawiony w Pięcioksięgu, prorokach i psalmach — prawdziwy Chrystus.\n\nMusimy być uważni, by nie wymyślić własnego fałszywego Chrystusa.\n\nDuch Święty zwraca nas ku Pismu, abyśmy szli drogą myśli Chrystusowej.\n\nW Przypowieściach Salomona 12:5–6 czytamy:\n\n„Sprawiedliwi myślą o tym, co prawe, lecz rady bezbożnych są zwodnicze; słowa bezbożnych czyhają na krew, ale usta prawych są dla nich ratunkiem.”\n\nWidzimy tu przeciwieństwa: grzech prowadzi do śmierci, usta prawych są jak ratunek.\n\nJako dzieci Boże mamy koło ratunkowe — jeśli jesteśmy prawymi, powinniśmy mówić o tym, co Bóg dla nas uczynił w Jezusie Chrystusie.\n\nTo jest nasze codzienne świadectwo, które powinno być oczywiste, niezależnie od tego, czy patrzymy na siebie jako „dawno nawróconych”, czy nowo narodzonych.\n\nNie dokonamy tego, jeśli obojętnie przejdziemy obok innych — Bóg używa naszych ust.\n\nJeśli nasza duchowość jest prawdziwa, będziemy mieli pragnienie dzielenia się świadectwem tego, co Chrystus uczynił.\n\nWalczymy z własnymi myślami, bo nadal mamy je — nie jest tak, że nagle ich nie ma. Myśli trzeba uzdrawiać i często ukierunkowywać przez Słowo Boże.\n\nTo nie chodzi o to, by pozbyć się myśli, ale by proces twórczy myśli przebiegał przez pryzmat myśli Chrystusowej.\n\nRadzę zawsze zadawać sobie pytanie: czy moja myśl jest zgodna ze Słowem Bożym? A jeśli nie, z pomocą Ducha Świętego i Pisma, zmieniać ją.\n\nAmen. Tego wszystkiego wam życzę. Amen."
+  },
+  "cover": "/images/covers/aGAC3OFq2ek.webp"
+}

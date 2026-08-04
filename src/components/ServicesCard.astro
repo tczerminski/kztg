@@ -1,0 +1,42 @@
+---
+import { t, type Locale } from "../i18n/utils";
+
+interface Props {
+  locale: Locale;
+  variant: "hero" | "mobile";
+}
+
+const { locale, variant } = Astro.props;
+const isHero = variant === "hero";
+---
+{isHero ? (
+  <div class="mx-auto w-full max-w-md rounded-2xl border border-white/25 bg-black/30 p-6 sm:p-8 backdrop-blur-sm">
+    <p class="mb-2 text-sm uppercase tracking-[0.3em] text-[#dce7ff]">{t(locale, "services.label")}</p>
+    <h2 class="mb-6 text-2xl sm:text-3xl font-semibold">{t(locale, "services.heading")}</h2>
+    <div class="space-y-4 text-base sm:text-lg">
+      <p class="flex items-center justify-between gap-4 border-b border-white/20 pb-3">
+        <span class="text-gray-200">{t(locale, "services.sunday")}</span>
+        <span class="font-semibold">9:30</span>
+      </p>
+      <p class="flex items-center justify-between gap-4">
+        <span class="text-gray-200">{t(locale, "services.wednesday")}</span>
+        <span class="font-semibold">18:00</span>
+      </p>
+    </div>
+  </div>
+) : (
+  <div class="mx-auto w-full max-w-md rounded-2xl border border-gray-100 bg-white p-6 sm:p-8 shadow-sm">
+    <p class="mb-2 text-sm uppercase tracking-[0.3em] text-[#5a6f9f]">{t(locale, "services.label")}</p>
+    <h2 class="mb-6 text-2xl sm:text-3xl font-semibold">{t(locale, "services.heading")}</h2>
+    <div class="space-y-4 text-base sm:text-lg">
+      <p class="flex items-center justify-between gap-4 border-b border-gray-200 pb-3">
+        <span class="text-gray-700">{t(locale, "services.sunday")}</span>
+        <span class="font-semibold">9:30</span>
+      </p>
+      <p class="flex items-center justify-between gap-4">
+        <span class="text-gray-700">{t(locale, "services.wednesday")}</span>
+        <span class="font-semibold">18:00</span>
+      </p>
+    </div>
+  </div>
+)}

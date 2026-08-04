@@ -1,0 +1,133 @@
+{
+  "date": "2024-12-04",
+  "preacher": "Czesław Ferdynand",
+  "title": "Rola Ducha Świętego w naszym życiu i kościele cz. 16",
+  "summary": "Znaczenie chrztu w Duchu Świętym zostaje omówione w kontekście Bożego planu zbawienia na podstawie fragmentów Listu do Hebrajczyków (9,11-12), 1 Listu Jana (5,6), Dziejów Apostolskich (2,33) oraz Listów do Rzymian i Galacjan. Autor podkreśla, że chrzest ten jest darem łaski Bożej, otrzymywanym przez wiarę, a nie przez uczynki, oraz że Duch Święty pojawia się po dokonaniu pełnej ofiary Chrystusa.",
+  "duration": 3960,
+  "translations": {
+    "en": {
+      "title": "The Role of the Holy Spirit in Our Life and Church, Part 16",
+      "summary": "Is baptism in the Holy Spirit proof of salvation? Preacher Czesław Ferdynand reveals how and when the Holy Spirit enters a believer’s life and explains that being filled with the Holy Spirit is a gift of grace, not a reward for deeds. Reflecting on God’s plan of salvation, he emphasizes how faith opens the way to the fullness of God’s blessings. This thoughtful message helps us better understand our own spiritual condition."
+    },
+    "uk": {
+      "title": "Роль Святого Духа в нашому житті і церкві, частина 16",
+      "summary": "Чи є хрещення Святим Духом доказом спасіння? Проповідник Чеслав Фердинанд показує, як і коли Святий Дух входить у життя віруючого, пояснюючи, що наповнення Святим Духом — це дар благодаті, а не заслуга діл. Роздумуючи над Божим планом спасіння, він підкреслює, як віра відкриває шлях до повноти Божих благословень. Ця рефлексія допомагає краще зрозуміти власну духовну суть."
+    },
+    "ta": {
+      "title": "எமது வாழ்கையும் ஆலயமும் புனித ஆவியின் பாத்திரம் - பகுதி 16",
+      "summary": "புனித ஆவி விழா மொத்த நிவாரணத்தின் சான்று தானா? பிரசங்கத்தாளர் செஸ்லாவ் பெர்டினாண்ட், புனித ஆவி எப்போது மற்றும் எப்படிப் பரிசுத்த நம்பிக்கையாளர் வாழ்க்கையில் நுழைகிறாள் என்பதை விளக்குகிறார். புனித ஆவி நிரப்பல் இது கடமையல்ல, அன்பின் வரமாகும் என்பதையும் அவர் கூறுகிறார். கடவுளின் நிவாரணத் திட்டத்தை ஆராய்வதில், நம்பிக்கை எப்படி கடவுளின் முழு வாழ்த்துகளுக்கு வழி அமைப்பதைக் கவனிக்கிறார். இதன் மூலம் உங்கள் ஆன்மிக நிலையை இன்னும் ஆழமாக புரிந்துகொள்ள வாய்ப்பு பெறுவீர்கள்."
+    },
+    "de": {
+      "title": "Die Rolle des Heiligen Geistes in unserem Leben und in der Kirche, Teil 16",
+      "summary": "Ist die Taufe im Heiligen Geist ein Beweis für die Errettung? Prediger Czesław Ferdynand zeigt auf, wie und wann der Heilige Geist ins Leben eines Gläubigen eintritt und erklärt, dass die Füllung mit dem Heiligen Geist ein Geschenk der Gnade ist, keine Verdienstleistung. In seiner Betrachtung des göttlichen Heilsplans betont er, wie der Glaube den Weg zur Fülle göttlicher Segnungen öffnet. Diese Reflexion hilft, die eigene geistliche Verfassung besser zu verstehen."
+    },
+    "es": {
+      "title": "El papel del Espíritu Santo en nuestra vida y en la iglesia, parte 16",
+      "summary": "¿Es el bautismo en el Espíritu Santo una evidencia de salvación? El predicador Czesław Ferdynand muestra cómo y cuándo el Espíritu Santo interviene en la vida del creyente, y explica que ser llenado con el Espíritu Santo es un don de gracia, no el resultado de obras. En la meditación sobre el plan divino de salvación, destaca cómo la fe abre el camino a la plenitud de las bendiciones de Dios. Esta reflexión nos ayuda a comprender mejor nuestra propia condición espiritual."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Hbr 9",
+      "1 J 5",
+      "Dz 2",
+      "Rz 11",
+      "Ga 3",
+      "Ga 5",
+      "Ga 1",
+      "Dz 2",
+      "J 7",
+      "Mt 5",
+      "Łk 1",
+      "Łk 11",
+      "Ps 81",
+      "2 Tm"
+    ],
+    "en": [
+      "Heb 9",
+      "1 John 5",
+      "Acts 2",
+      "Rom 11",
+      "Gal 3",
+      "Gal 5",
+      "Gal 1",
+      "Acts 2",
+      "John 7",
+      "Matt 5",
+      "Luke 1",
+      "Luke 11",
+      "Ps 81",
+      "2 Tim"
+    ],
+    "uk": [
+      "Євр 9",
+      "1 Ів 5",
+      "Дії 2",
+      "Рим 11",
+      "Гал 3",
+      "Гал 5",
+      "Гал 1",
+      "Дії 2",
+      "Ів 7",
+      "Мт 5",
+      "Лк 1",
+      "Лк 11",
+      "Пс 81",
+      "2 Тим"
+    ],
+    "ta": [
+      "எபிரேயர் 9",
+      "1 யோவான் 5",
+      "அப்போஸ்தலர் 2",
+      "ரோமர் 11",
+      "கலத்தியர் 3",
+      "கலத்தியர் 5",
+      "கலத்தியர் 1",
+      "அப்போஸ்தலர் 2",
+      "யோவான் 7",
+      "மத்தேயு 5",
+      "லூக்கா 1",
+      "லூக்கா 11",
+      "சங்கீதம் 81",
+      "2 திமோத்தேயு"
+    ],
+    "de": [
+      "Hebr 9",
+      "1 Joh 5",
+      "Apg 2",
+      "Röm 11",
+      "Gal 3",
+      "Gal 5",
+      "Gal 1",
+      "Apg 2",
+      "Joh 7",
+      "Matt 5",
+      "Lk 1",
+      "Lk 11",
+      "Ps 81",
+      "2 Tim"
+    ],
+    "es": [
+      "Heb 9",
+      "1 Juan 5",
+      "Hch 2",
+      "Rom 11",
+      "Gál 3",
+      "Gál 5",
+      "Gál 1",
+      "Hch 2",
+      "Juan 7",
+      "Mat 5",
+      "Luc 1",
+      "Luc 11",
+      "Sal 81",
+      "2 Tim"
+    ]
+  },
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/s7HwqzxVYVY/s7HwqzxVYVY.opus",
+  "transcript": {
+    "pl": "Witam serdecznie wszystkich, którzy zgromadzili się dzisiaj na tym miejscu, ale również tych, którzy w tej chwili siedzą przy swoich monitorach, telewizorach i chcą bezpośrednio brać udział razem z nami w naszym spotkaniu i badaniu Słowa Bożego.\n\nZanim przystąpimy, chciałbym, żebyśmy dzisiaj zwrócili się do Pana i skłonili swoje głowy, a przede wszystkim serca.\n\nDobry Boże, wdzięczni Ci jesteśmy, Panie, że Ty jesteś nami, że wyrwałeś nas, Panie, z więzów śmierci i Ty, Boże drogi, usynowiłeś nas. Dzisiaj, Boże drogi, pragniemy, aby prawda Słowa Twego odkrywała tajemnice w sercach naszych, abyś Ty, Boże drogi, tak dotykał nas, Panie, Twoim słowem, abyśmy również dzisiaj, Panie, nie wyszli tacy sami z tego miejsca, ale by Słowo Twoje dokonało, Boże drogi, tego objawienia i poruszenia naszego serca. Chwałę Ci oddaję jako Ojcu, Synowi i Duchowi Świętemu. Amen.\n\nCi, którzy śledzą nas, albo tutaj zgromadzają się razem, wspólnie już przez kilkanaście tygodni rozważając prawdy Boże, które mówią o Duchu Świętym, jak Bóg poprzez Słowo swoje objawia nam istotę i działanie Ducha Świętego. Duch Święty nie jest żadną mocą, ale jest osobą i, jak wiemy, również jest Bogiem.\n\nJakże istotna jest dzisiaj ta społeczność z Duchem Świętym, jakże istotna dla nas jest również Jego obecność w naszym życiu. Jak sami sobie przypominacie, ci którzy śledzą te nasze spotkania i rozważania, ostatnio mówiliśmy przez kilka spotkań o chrzcie w Duchu Świętym. Tydzień temu kontynuowaliśmy sprawę związaną z językami, które tutaj Słowo Boże nam opisuje jako wynik i efekt właśnie napełnienia Duchem Świętym.\n\nDzisiaj nie będę kontynuował już sprawy języków, nie będę w to tutaj się zagłębiał, ale w związku z tym, że jak i wcześniej wspominałem, jest wiele kontrowersji, jeśli chodzi o Ducha Świętego, jeśli chodzi o napełnienie Duchem Świętym, jak i również, co bardzo boleśnie przeżywam, jest wiele wątpliwości wśród ludzi wierzących, które rodzą pytania: czy ja zostałem ochrzczony w Duchu Świętym, czy ja generalnie, jeśli nie ma u mnie różnych przejawów, czy ja jestem zbawiony?\n\nW wielu wypadkach właśnie takie wątpliwości powstają. I chciałbym dzisiaj prześledzić Słowo Boże pod tym kątem, co Słowo Boże nam mówi, jakie warunki powinniśmy spełnić, aby otrzymać chrzest w Duchu Świętym. Myślę, że ten wykład powinien przynajmniej każdemu z nas dać możliwość weryfikacji tego, w którym miejscu się znajduję i co w moim życiu nastąpiło oraz jak to obecnie wygląda.\n\nOgólnie chciałbym przypomnieć, co się wydarzyło w niebie, w planie Bożym Boga Ojca, a co w sumie doprowadziło do wypełnienia Bożych planów co do zbawienia człowieka.\n\nDzisiejsze rozważanie chciałbym rozpocząć od listu do Hebrajczyków, od 9 rozdziału, dwóch wersetów – 11 i 12 – gdzie autor tego listu mówi o zbawczym dziele Pana Jezusa Chrystusa w sposób bardzo dosadny.\n\n9 rozdział Listu do Hebrajczyków, wersety 11-12:\n\n„Lecz Chrystus, który się zjawił jako arcykapłan dóbr przyszłych, wszedł przez większy i doskonalszy przybytek, nie ręką zbudowany, to jest nie z tego stworzonego świata pochodzący. Wszedł raz na zawsze do świątyni nie z krwią kozłów i cielców, ale z własną krwią swoją dokonawszy wiecznego odkupienia.”\n\nA więc widzimy tutaj, że ten element, który Słowo Boże nam pokazuje, ukazuje, że nie dopełniło się wszystko na ziemi. Pan Jezus żył, przyszedł na świat, staje się dla nas wzorem, potem widzimy Jego śmierć, Jego pogrzeb, Jego zmartwychwstanie.\n\nWydawałoby się, że plan zbawienia Bożego wypełnił się, ale Słowo Boże mówi, że on się wypełnił na ziemi, ale musiał się jeszcze dopełnić ten plan zbawienia, który Ojciec przygotował w niebie.\n\nWidzimy, że w niebie jest również świątynia i do tej świątyni Pan Jezus wchodzi z własną krwią i składa ją na ołtarzu w świątyni niebieskiej. I w tym momencie, jak mówi 12 werset, dokonał się ten cały proces wiecznego odkupienia.\n\nA więc widzimy, że przebłaganie za nasze grzechy nie dopełniło się tylko na ziemi, ale dopiero po wstąpieniu Pana Jezusa do nieba, gdy wszedł jako arcykapłan do świątyni niebieskiej, co później możemy przeczytać w dalszych fragmentach tej księgi.\n\nW tym momencie dokonało się pełne dzieło ułożone przez Boga Ojca dotyczące wiecznego odkupienia.\n\nChciałbym, abyśmy zobaczyli także pierwszy list Jana, który w piątym rozdziale, w wersecie szóstym, wskazuje na te wydarzenia:\n\n„On jest tym, który przeszedł przez wodę i krew, Jezus Chrystus nie w wodzie tylko, ale w wodzie i we krwi, a Duch składa świadectwo, gdyż Duch jest prawdą.”\n\nWidzimy, że Duch Święty składa świadectwo od momentu, kiedy to dzieło według planu Boga Ojca zostało dokonane. Duch Święty nie mógł być jeszcze dany, gdy ta ofiara nie była dokonana.\n\nPan Jezus przyjął chrzest wodny, oddał życie i przelał krew. Gdy ta krew została złożona na ołtarzu w świątyni niebieskiej, Duch Święty mógł przyjść, aby składać świadectwo, bo On jest prawdą. Wszystko, co On przekazuje, jest Bożą prawdą.\n\nPotwierdza to apostoł Piotr w dniu zesłania Ducha Świętego, opisanym w drugim rozdziale Dziejów Apostolskich. Kiedy został zesłany Duch Święty, a apostoł Piotr, pod wpływem chrztu w Duchu Świętym, zaczął głosić orędzie zbawienia zgromadzonym w Jerozolimie.\n\nW 33 wersecie czytamy:\n\n„Wywyższony wtedy prawicą Bożą i otrzymawszy od Ojca obietnicę Ducha Świętego, sprawił to, co wy teraz widzicie i słyszycie.”\n\nPan Jezus został przez Ojca wywyższony i w tym momencie Bóg zesłał obiecanego Ducha Świętego.\n\nPrzypomnę, że Pan Jezus, jak obiecał uczniom przed odejściem, powiedział: „Poczekajcie w Jerozolimie na obietnicę Ojca, którą otrzymacie”.\n\nWidzimy tutaj, że przed otrzymaniem Ducha Świętego potrzebne było wstąpienie Pana Jezusa do nieba, aby tam złożyć ofiarę na ołtarzu i wypełnić całe dzieło odkupienia.\n\nWażne jest, abyśmy zrozumieli, że chrzest w Duchu Świętym to nie jakaś moc czy dar magiczny, ale jest to realizacja Bożego planu, który jest powiązany z wiarą i posłuszeństwem.\n\nChciałbym teraz spojrzeć na list do Rzymian, 11 rozdział, gdzie znajduje się zasada ogólna w relacji człowieka do Boga.\n\nWerset 6 brzmi:\n\n„A jeśli z łaski, to już nie z uczynków, bo inaczej łaska nie byłaby już łaską.”\n\nTa ogólna zasada mówi, że zbawienie oraz wszelkie błogosławieństwa, w tym chrzest w Duchu Świętym, nie są wynikiem naszych uczynków, ale łaski Bożej.\n\nNawet jeśli ktoś mówi: „Ja byłem taki sprawiedliwy, starałem się”, a inny przyszedł i otrzymał — to gdzie jest tutaj sprawiedliwość? Bóg nie patrzy na nasze uczynki! My wszyscy wobec Boga jesteśmy równi.\n\nNie ma znaczenia kolor skóry, stanowisko, wykształcenie czy pozycja społeczna. Kiedy stajemy przed tronem Bożej łaski, Bóg nie bierze pod uwagę uczynków.\n\nDlatego łaska i uczynki są wzajemnie wykluczające się w relacji do zbawienia i darów Bożych.\n\nJeśli jesteśmy w łasce Bożej, to nie jesteśmy pod prawem.\n\nJeśli natomiast pokładamy nadzieję w uczynkach, jak mówi apostoł Paweł do Galacjan, wypadliśmy z łaski.\n\nW liście do Galacjan widzimy, jak apostoł Paweł jest zbulwersowany, że do zborów przychodzą nauczyciele z Jerozolimy i uczą, że trzeba przestrzegać zakonu, aby uzyskać usprawiedliwienie.\n\nCi, którzy poddali się tym naukom, cofali się z łaski i z powrotem poddawali się jarzmu niewoli prawa.\n\nChciałbym teraz otworzyć trzeci rozdział listu do Galacjan i przeczytać 13 i 14 werset:\n\n„Chrystus wykupił nas od przekleństwa zakonu, stawszy się za nas przekleństwem, gdyż napisano: przeklęty każdy, który zawisł na drzewie, aby błogosławieństwo Abrahamowe przeszło na pogan w Jezusie Chrystusie, my zaś, abyśmy obiecanego Ducha otrzymali przez wiarę.”\n\nDzięki temu planowi Bożemu, wykonanemu przez Pana Jezusa, mamy dostęp do błogosławieństw, w tym również do chrztu w Duchu Świętym, przez wiarę, nie przez uczynki.\n\nW tym samym rozdziale, 2 werset, Paweł pyta:\n\n„Chcę dowiedzieć się od was jednego: czy przez uczynki zakonu otrzymaliście ducha, czy przez słuchanie z wiarą?”\n\nW 5 wersecie kontynuuje:\n\n„Czy ten, który daje wam ducha i dokonuje cudów wśród was, czyni to na podstawie uczynków zakonu, czy na podstawie słuchania z wiarą?”\n\nWidzimy wyraźnie, że otrzymanie Ducha Świętego jest powiązane z wiarą i posłuszeństwem wobec Bożego Słowa.\n\nW 1 wersecie tego rozdziału czytamy:\n\n„Chrystus wyzwolił nas, abyśmy w tej wolności żyli. Stójcie więc niezachwianie i nie poddawajcie się znowu pod jarzmo niewoli.”\n\nTo jarzmo niewoli to prawo, które nie może nas zbawić.\n\nApostoł Paweł wzywa do zachowania wolności, czyli łaski Bożej.\n\nWielu dziś, podobnie jak Galacjanie, jest nauczanych, że muszą spełniać różne uczynki czy zachowywać rytuały, by zasłużyć na błogosławieństwo Boże.\n\nApostoł Paweł jasno mówi, że to nieprawda.\n\nBóg nie patrzy na nasze zasługi – jeśli przyjdziemy z wiarą, otrzymujemy Jego łaskę i błogosławieństwo.\n\nWiara zawsze objawia się posłuszeństwem wobec Słowa Bożego.\n\nTo nie oznacza, że oczekujemy zbawienia przez uczynki, ale że wiara prowadzi do zmiany życia i do życia zgodnego z Bożą wolą.\n\nChciałbym teraz zwrócić uwagę na kolejny element, niezbędny, aby otrzymać chrzest w Duchu Świętym — pokutę i chrzest wodny.\n\nApostoł Paweł w liście do Apostołów (Dz 2,38) mówi:\n\n„Upamiętajcie się i każdy z was niech się ochrzci w imię Jezusa Chrystusa na odpuszczenie grzechów waszych, a otrzymacie dar Ducha Świętego.”\n\nCzyli pierwszym warunkiem do otrzymania chrztu w Duchu Świętym jest upamiętanie się i chrzest wodny.\n\nKolejnym elementem jest pragnienie, które powinno zrodzić się w sercu.\n\nPrzytoczę słowa Pana Jezusa z Ewangelii Jana, 7 rozdział, wersety 37-39:\n\n„A w ostatnim, wielkim dniu święta stanął Jezus i głośno zawołał: Jeśli kto pragnie, niech przyjdzie do mnie i pije. Kto wierzy we mnie, jak mówi Pismo, z jego wnętrza popłyną rzeki wody żywej.\"\n\nTe „wody żywe” to oczywiście Duch Święty, którego mieli otrzymać.\n\nJeśli więc chcemy otrzymać chrzest w Duchu Świętym, musimy po pierwsze przyjść z pokutą i chrztem wodnym, po drugie — pragnąć tego z serca.\n\nPan Jezus również w Kazaniu na Górze, w Ewangelii Mateusza 5,6 mówi:\n\n„Błogosławieni, którzy łakną i pragną sprawiedliwości, albowiem oni będą nasyceni.”\n\nPodobnie w Ewangelii Łukasza 1,53 czytamy:\n\n„Łaknących nasycił dobrami, a bogaczy odprawił z niczym.”\n\nNiezależnie od naszych zasług, błogosławieństwo od Boga zyskujemy dzięki pragnieniu i wierze.\n\nPan Jezus także mówi w Ewangelii Łukasza 11,13:\n\n„Jeśli więc wy, którzy jesteście źli, umiecie dać dobre dary dzieciom swoim, o ileż bardziej Ojciec Niebieski da Ducha Świętego tym, którzy Go proszą.”\n\nMusimy więc prosić Boga o Ducha Świętego — z wiarą, z pokorą i posłuszeństwem.\n\nWażne jest też, abyśmy w sposób świadomy i aktywny przyjmowali to błogosławieństwo, tak jak mówi Pan Jezus w Ewangelii Jana 7,37-38: „Jeśli kto pragnie, niech przyjdzie do mnie i pije.”\n\nTo pokazuje, że musimy otworzyć nasze usta i przyjąć to, co On chce nam dać.\n\nPsalm 81,11 mówi:\n\n„Ja, Pan, jestem Bogiem twoim, który cię wywiódł z ziemi egipskiej. Otwórz szeroko swe usta, a napełnię je.”\n\nTo odnosi się również do Ducha Świętego, który chce napełnić nas i objawić przez nasze życie.\n\nNa zakończenie chciałbym zachęcić tych, którzy już otrzymali chrzest w Duchu Świętym, a na skutek różnych nauk i doświadczeń odeszli od tego daru — aby na nowo zapragnęli tego błogosławieństwa, ożywili je w swoim sercu i praktykowali. \n\nDuch Święty wstawia się za nami, zna nasze potrzeby i wyprasza łaski zgodne z wolą Bożą.\n\nTo wymaga od nas pokory, uświęcenia oraz posłuszeństwa.\n\nNie trzeba wielkich wysiłków — Bóg działa w sposób często niespodziewany.\n\nZnam ludzi, którzy długo pragnęli tego daru, czasem odchodzili zawiedzeni, ale gdy rozluźnili się i zauważyli działanie Ducha, zostali umocnieni.\n\nZachęcam was, abyście tak jak apostoł Paweł mówił do Tymoteusza, odświeżyli dar łaski, który otrzymali. Niech chrzest w Duchu Świętym będzie dla nas źródłem mocy, błogosławieństwa i duchowego życia.\n\nNiech Pan nas błogosławi. Amen."
+  },
+  "cover": "/images/covers/s7HwqzxVYVY.webp"
+}

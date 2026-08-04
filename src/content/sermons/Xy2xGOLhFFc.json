@@ -1,0 +1,121 @@
+{
+  "date": "2024-09-09",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/Xy2xGOLhFFc/Xy2xGOLhFFc.opus",
+  "preacher": "Jacek Maj",
+  "title": "Sprawiedliwość cz. 4",
+  "summary": "Paweł w Liście do Galacjan wyjaśnia różnicę między usprawiedliwieniem przez wiarę a uczynkami zakonu, podkreślając, że zbawienie następuje dzięki wierze w Chrystusa, a nie przez przestrzeganie prawa. Kazanie omawia także rozróżnienie między zbawieniem a procesem uświęcenia, zwracając uwagę na ich odrębny charakter i wpływ na życie chrześcijanina. Fragmenty z Mateusza i Rzymian podkreślają konieczność przemiany serca i trwałego dążenia do dobra jako odpowiedzi na Bożą sprawiedliwość.",
+  "duration": 3549,
+  "translations": {
+    "en": {
+      "title": "Justice Part 4",
+      "summary": "Salvation and sanctification are two distinct concepts that are often confused, leading to misunderstandings in faith. The letters to the Galatians and Romans teach us that justification comes through faith, while sanctification is an ongoing process of transformation. How does this truth shape our daily lives and our relationship with God? This sermon guides us to a deeper understanding of God's justice and its practical significance."
+    },
+    "uk": {
+      "title": "Праведність, ч. 4",
+      "summary": "Спасіння і освячення — це дві різні речі, які часто плутають, що призводить до непорозумінь у вірі. Послання до Галатів і Римлян вчать, що виправдання приходить через віру, тоді як освячення — це безперервний процес перетворення. Як ця істина формує наше повсякденне життя та стосунки з Богом? Ця проповідь допоможе глибше зрозуміти Божу праведність та її значення на практиці."
+    },
+    "ta": {
+      "title": "நீதிமான் பகுதி 4",
+      "summary": "கால்த்தனம் மற்றும் பரிசுத்தி என்பது இரண்டு வேறுபட்ட விஷயங்கள், அவை பெரும்பாலும் குழப்பத்திற்கு வழிவகுக்கின்றன. கலத்தியர் மற்றும் ரோமர் கடிதங்கள் நம்பிக்கையின் மூலம் நீதிமானாக இருப்பது சம்பந்தமாகக் கற்றுத்தருகின்றன, ஆனால் பரிசுத்தி என்பது நிலையான மாற்றத்தின் தொடர்ச்சியான நடைபடி. இந்த உண்மை எங்கள் அன்றாட வாழ்க்கையையும் கடவுளுடன் உள்ள உறவையும் எவ்வாறு வடிவமைக்கிறது? இந்த கற்பனை வழியாக கடவுளின் நீதியின் ஆழ்ந்த புரிதலும் அதன் நடைமுறையில் பங்கு பற்றுதலும் வெளிப்படுகின்றன."
+    },
+    "de": {
+      "title": "Gerechtigkeit Teil 4",
+      "summary": "Errettung und Heiligung sind zwei verschiedene Dinge, die oft verwechselt werden und so zu Missverständnissen im Glauben führen. Die Briefe an die Galater und Römer lehren uns, dass die Rechtfertigung durch den Glauben geschieht, während die Heiligung ein fortwährender Prozess der Veränderung ist. Wie prägt diese Wahrheit unser tägliches Leben und unsere Beziehung zu Gott? Diese Predigt führt zu einem tieferen Verständnis von Gottes Gerechtigkeit und ihrer praktischen Bedeutung."
+    },
+    "es": {
+      "title": "Justicia parte 4",
+      "summary": "La salvación y la santificación son dos cosas diferentes que a menudo se confunden, llevando a malentendidos en la fe. Las cartas a los Gálatas y Romanos enseñan que la justificación viene por la fe, mientras que la santificación es un proceso continuo de transformación. ¿Cómo esta verdad moldea nuestra vida diaria y nuestra relación con Dios? Este sermón nos guía hacia una comprensión más profunda de la justicia divina y su significado en la práctica."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Ga 2",
+      "Rz 11",
+      "Mt 5",
+      "Rz 2",
+      "Rz 1",
+      "Rz 3",
+      "Rz 4",
+      "Rz 6",
+      "Rz 7",
+      "Rz 8",
+      "Rz 10",
+      "Jk 2"
+    ],
+    "en": [
+      "Gal 2",
+      "Rom 11",
+      "Matt 5",
+      "Rom 2",
+      "Rom 1",
+      "Rom 3",
+      "Rom 4",
+      "Rom 6",
+      "Rom 7",
+      "Rom 8",
+      "Rom 10",
+      "Jas 2"
+    ],
+    "uk": [
+      "Гал 2",
+      "Рим 11",
+      "Мт 5",
+      "Рим 2",
+      "Рим 1",
+      "Рим 3",
+      "Рим 4",
+      "Рим 6",
+      "Рим 7",
+      "Рим 8",
+      "Рим 10",
+      "Як 2"
+    ],
+    "ta": [
+      "கலாத்தியர் 2",
+      "ரோமர் 11",
+      "மத்தேயு 5",
+      "ரோமர் 2",
+      "ரோமர் 1",
+      "ரோமர் 3",
+      "ரோமர் 4",
+      "ரோமர் 6",
+      "ரோமர் 7",
+      "ரோமர் 8",
+      "ரோமர் 10",
+      "யாக்கோபு 2"
+    ],
+    "de": [
+      "Gal 2",
+      "Röm 11",
+      "Matt 5",
+      "Röm 2",
+      "Röm 1",
+      "Röm 3",
+      "Röm 4",
+      "Röm 6",
+      "Röm 7",
+      "Röm 8",
+      "Röm 10",
+      "Jak 2"
+    ],
+    "es": [
+      "Gal 2",
+      "Rom 11",
+      "Mat 5",
+      "Rom 2",
+      "Rom 1",
+      "Rom 3",
+      "Rom 4",
+      "Rom 6",
+      "Rom 7",
+      "Rom 8",
+      "Rom 10",
+      "Sant 2"
+    ]
+  },
+  "transcript": {
+    "pl": "Chciałem powiedzieć, że wszystkie kazania, które wygłaszałem, chciałbym, abyśmy traktowali jako pewnego rodzaju sygnał, czyli jakby początek do dalszych rozważań, bardziej niż próbę definitywnego rozwiązania kwestii czy problemu, jakim jest definicja sprawiedliwości i tego, co to znaczy być sprawiedliwym, co to jest sprawiedliwy uczynek, jak Bóg tę sprawiedliwość utrwala w nas itd. Chciałbym, żebyśmy traktowali każde z tych poszczególnych kazań, także to dzisiejsze, jako pewien punkt startowy.\n\nChciałbym zacząć od Listu do Galacjan, drugi rozdział, od piętnastego do szesnastego wersetu, bo dzisiaj chciałbym poruszyć różnicę, która bardzo często jest rozmywana – różnicę między zbawieniem a uświęceniem. Przez to zrozumienie Bożej sprawiedliwości staje się w zasadzie niemożliwe później, w tym momencie, kiedy żyjemy już dłużej z Bogiem.\n\nDlaczego? Ponieważ pojęcie sprawiedliwości zaczyna się rozmywać coraz bardziej i bardziej właśnie dlatego, że mylone są dwa bardzo różne pojęcia: zbawienie i uświęcenie. Jezus nas zbawił każdego, kto w Niego uwierzył, ale uświęcenie jest osobnym procesem, przez który każdy z nas musi przejść. Dawać znak równości między jednym a drugim jest gigantycznym błędem, który odbija się bardzo, bardzo głębokim echem na wszystkich etapach naszego życia.\n\nBo jeśli przyjmiemy, że Bóg faktycznie w momencie zbawienia uczynił nas świętymi i dokonał wszystkiego towarzyszącego temu momentowi, to dlaczego mielibyśmy mieć jeszcze problemy w małżeństwie? Dlaczego mielibyśmy mieć jeszcze problemy z naszymi dziećmi w wychowaniu? Dlaczego mielibyśmy mieć jeszcze trudności z takimi kwestiami jak cierpliwość i relacje w zborze? Ta cielesność w nas w zasadzie powinna być uświęcona i jedyne, co by nam pozostało, to po prostu żyć, postępować zgodnie z tym, co odbieramy od Ducha Świętego.\n\nWydaje mi się, że nie tylko prezentując to w ten sposób, ale też intuicyjnie rozumiemy, że tak nie jest. To znaczy, nie tylko dlatego, że ja to tak teraz przedstawiłem, możemy powiedzieć „no faktycznie, tak nie jest”, ale można znaleźć wyjątki od tej reguły. Jednak to intuicyjne przyjęcie, że tak właśnie się sprawy mają, wydaje mi się prawdziwe – że dostaliśmy start od Boga w momencie zbawienia.\n\nChcę trochę o tym powiedzieć. Tak Paweł pisze w Liście do Galacjan: „Myśmy z urodzenia Żydzi, nie grzesznicy z pogan\". Mówi tutaj o zakonie. Kontekstem tego jest zakon, czyli stawia Żydów jako tych, którzy rozumieją prawo, w przeciwieństwie do pogan, którzy tego prawa nie rozumieją.\n\nWiedząc wszakże, że człowiek zostaje usprawiedliwiony nie z uczynków zakonu, ale tylko przez wiarę w Chrystusa Jezusa, i myśmy w Chrystusie Jezusie uwierzyli, abyśmy zostali usprawiedliwieni z wiary w Chrystusa, a nie z uczynków zakonu, ponieważ z uczynków zakonu nie będzie usprawiedliwiony żaden człowiek.\n\nI to jest problem w późniejszym rozumieniu chrześcijaństwa, tego, co należy robić, co to znaczy uświęcenie, co to znaczy szukanie Bożej sprawiedliwości. Z uczynków zakonu ty i ja nie zostaliśmy usprawiedliwieni. Ale kwestia uczynków, wiary i uczynków sprawiedliwości dalej pozostaje otwarta.\n\nWydaje mi się, że tak to odbieram, ze względu na kontekst, z którego ja pochodzę i chyba większość z nas, bo byliśmy katolikami, gdzie bardzo namiętnie wpajano nam, że uczynek sam w sobie jest dobry. Ta domena ex opere operato, czyli, bez względu na to, co masz w sercu i jak myślisz, po prostu czyniąc, czynisz dobrze.\n\nW momencie, gdy Ewangelia wolności do nas weszła, mam wrażenie, że poczuliśmy pewnego rodzaju wstręt do samych uczynków. Uczynek stał się kwestią, co najmniej płynną, tak? „Ważne jest, co mam w sercu.” Niemniej jednak to, o czym Paweł mówi, zawsze w kontekście uczynków, odnosi się do usprawiedliwienia, do zbawienia, a nie do późniejszych owoców, których Bóg jak najbardziej oczekuje.\n\nI tak mówi: „Albowiem końcem zakonu jest Chrystus, aby był usprawiedliwiony każdy, kto wierzy.” Zaraz po tym, w rozdziale 11 Listu do Rzymian (bo tu mówimy także o Rzymianach), Paweł przyrównuje tych, którzy zostali zbawieni z pogan, i mówi im, że zostali wszczepieni do drzewa oliwnego, ale pamiętajcie, żeby nie wynosić korzenia, tylko korzeń nosi was. I jeśli Bóg odszczepił tych, którzy byli naturalnie z drzewa oliwnego, to pamiętajcie, że wy możecie być wycięci.\n\nWraca więc natychmiast, mówiąc o wierze w Chrystusa, o tym, że dzięki temu zostaliśmy usprawiedliwieni, jednocześnie stawiając naprzeciw temu pewną postawę, za którą naturalnie idą uczynki i sąd. Jezus, kiedy został oskarżony o nieprzestrzeganie szabatu, mówi, że szabat został ustanowiony dla człowieka, a nie człowiek dla szabatu. „Tak więc Syn Człowieczy jest również Panem szabatu.”\n\nTo oznacza, że zakon, zasady, które Bóg ustanowił, są dla nas, ale nie na odwrót. Cofając się do Ewangelii, Jezus mówi też, że nie przyszedł znieść zakonu, ale go potwierdzić i wypełnić. Zakon jest dobry, ale ponieważ wy nie możecie być zbawieni przez zakon, bo brzemię to jest za ciężkie, ja go wypełnię za was. I dzięki temu każdy, kto we mnie uwierzy, tak jak Abraham przez wiarę został usprawiedliwiony, tak również i wy przez wiarę we mnie będziecie usprawiedliwieni.\n\nZakon, o którym Paweł pisze w Listach do Rzymian i Galacjan, jest święty i pozostaje. Uczynki dalej pozostają, ale kontekst się dramatycznie zmienia.\n\nNie mówię tutaj o zakonie liturgicznym, o jakim jest mowa w księgach Mojżeszowych, to kwestia już zrozumienia Listu do Hebrajczyków, którego teraz nie chcę poruszać. Chcę tylko powiedzieć, że uczynki zakonu zostały zmienione na uczynki wiary, a Bóg ich dalej od nas oczekuje.\n\nIdźmy dalej. Jezus mówi w Mateusza, 5 rozdziale, wersety 27-28: „Słyszeliście, że powiedziano: Nie będziesz cudzołożył. A ja wam powiadam, że każdy, kto patrzy na niewiastę i pożąda jej, już popełnił z nią cudzołóstwo w sercu swoim.”\n\nPrzechodzimy płynnie do tego, co znajduje się w naszym sercu. Innymi słowy, Jezus mówi: to, co masz w sercu, to, co myślisz, albo inaczej, to, co myślisz w ten sposób, to...\n\ndo słowa Bożego. Tak naprawdę tworzymy sobie jakąś mitologię, tworzymy swoje nauki, co w konsekwencji deprawuje nasze życie. Możemy tego nie zauważyć od razu, tak samo jak Żydzi. To nie było tak, że oni nagle wprowadzili swoje nauki i wszystko się zawaliło. Oni je wprowadzali powoli, krok po kroku. Kiedy przyszedł Chrystus, ukrzyżowali Go, bo przez te wszystkie dodatki nie mogli Go zaakceptować. Jezus totalnie nie spełniał tego wszystkiego, co oni tak systematycznie dodawali do tego, co Bóg ustanowił jako fundament niezmienny.\n\nW Liście do Rzymian, w 2 rozdziale, 6-9 wersecie, Paweł pisze: „Bóg odda każdemu według uczynków jego. Tym, którzy przez trwanie w dobrym uczynku dążą do chwały i czci i nieśmiertelności, da żywot wieczny.” To bardzo ciekawy zwrot – przez dobre uczynki chrześcijanie dążą do chwały i czci, oczywiście nie swojej, ale Boga, dążą do nieśmiertelności i za to dostaną żywot wieczny. Jest to pewnego rodzaju nagroda.\n\nNatomiast tych, którzy o uznanie dla siebie zabiegają i sprzeciwiają się prawdzie, a hołdują nieprawości, czeka gniew i pomsta. „Tak utrapienie i ucisk spadnie na duszę każdego człowieka, który popełnia zło, najpierw Żyda, potem Greka. A chwała i cześć i pokój każdemu, który czyni dobrze, najpierw Żydowi, a potem Grekowi.”\n\nJest to bardzo trudny werset do zrozumienia, jeśli wyciągniemy go z kontekstu całego listu. Nawet jeśli weźmiemy pod uwagę pierwszy, drugi i trzeci rozdział. Wynika z niego dychotomia, że niby jest łaska, ale jeszcze są uczynki.\n\nList do Rzymian jest stosunkowo złożony. Proponuję szybką analizę Listu do Rzymian, od 1 do 12 rozdziału, w kontekście sprawiedliwości, o której Paweł pisze najwięcej w tym liście.\n\nW rozdziale pierwszym, od 16 do 32 wersetu, Bóg i Jego standardy zostały objawione przez stworzenie. W tym, co obserwujemy w naturze, jesteśmy w stanie zaobserwować Boże działanie, dlatego Paweł dobitnie pisze, że nikt nie ma wymówki, aby Boga odrzucić. Pierwszym elementem jest więc to, że Bóg istnieje.\n\nW rozdziale drugim, od 1 do 4 wersetu, Paweł stwierdza, że Bóg jest sędzią — ani ja, ani ty nie mamy prawa sądzić, tylko Bóg.\n\nW dalszych wersetach (12-16) czytamy, że Bóg dał każdemu poczucie moralności, które jest fundamentem ludzkiego postępowania, niezależnie od miejsca urodzenia, kultury, języka czy wieku. Moralność jest sercem, które oskarża nas i broni.\n\nW rozdziale drugim, od 21 wersetu do kawałka trzeciego rozdziału (29), Paweł mówi, że jeśli chcemy iść uczynkowością, musimy wypełnić cały zakon. Nie możemy postępować tylko częściowo zgodnie z zakonem liturgicznym — należy go wypełnić w całości. Dalej przypomina, że wszyscy przekroczyli Boży zakon i nie ma nikogo sprawiedliwego.\n\nRozdział czwarty poświęcony jest Abrahamowi. Paweł pisze, jak wiara była połączona z uczynkami w jego życiu, i mówi też o obrzezaniu. W szóstym rozdziale dodaje, że grzech przejawia się w uczynkach. Grzech to nie jakaś abstractowa chmura, ale konkretny czyn wynikający z myśli, który prowadzi do śmierci.\n\nRozdział siódmy opisuje podwójną naturę człowieka: nędzny ja, który chce wypełnić zakon, ale jego ciało ciągnie w przeciwną stronę. Co zrobić w takiej sytuacji?\n\nRozdział ósmy mówi o tym, jak ważne jest podążanie za Duchem Świętym, o duchu chrystusowym, o naturze chrystusowej, która jest rozwiązaniem problemu opisanego wcześniej.\n\nW rozdziale dziesiątym, w wersecie czwartym, czytamy: „Końcem zakonu jest Chrystus, aby każdy, kto wierzy, został usprawiedliwiony.” Ale zaraz w rozdziale jedenastym powraca temat owoców wiary. Paweł jednoznacznie mówi, że jeśli zostałeś wszczepiony przez łaskę, uważaj, abyś nie został wycięty z drzewa. Wszyscy potrzebujemy krwi Jezusa, aby być zbawionymi, ale zbawienie to dopiero początek zrozumienia tego, co Bóg od nas chce. To zrozumienie musi iść w parze z wykonaniem — z konkretnym uczynkiem. Bóg zniósł liturgiczne nawyki i formalności, ale oczekuje od nas owoców wiary.\n\nPaweł mówi, żebyśmy, jeśli zostaliśmy uświęceni, nie oddawali naszych członków diabłu na oręż, lecz Bogu na oręż sprawiedliwości — aby nasze członki były użyteczne dla innych.\n\nW liście Jakuba 2,14 jest napisane: „Cóż to pomoże, bracia moi, jeśli ktoś mówi, że ma wiarę, a nie ma uczynków? Czy wiara może go zbawić?” W wersecie 17 dalej: „Tak i wiara, jeśli nie ma uczynków, martwa jest sama w sobie.” Bez wiary nie można podobać się Bogu, ale wiara bez uczynków jest martwa. Wszystko, co dzieje się w naszym wnętrzu, musi ujawniać się na zewnątrz, mieć przełożenie na czyny.\n\nJezus mówi o wstydzie i o tym, że kto się wstydzi Go przed ludźmi, ten i On będzie się wstydził przed Ojcem. Ten wstyd nie powinien mieć miejsca w naszym życiu. Powinniśmy poświęcać nasze życie, aby rozumieć, czego Bóg od nas oczekuje.\n\nCzęsto wydaje się, że po przyjęciu Jezusa zostaje pustka — zostaje tylko wiara w człowieka, który był Bogiem, umarł i zmartwychwstał, ale nie jest jasne, co dalej. Bóg oczekuje od nas konkretnych uczynków, a te zależą od naszej relacji z Nim i naszego duchowego rozwoju.\n\nPrzykład Abrahama pokazuje, że wiara i uczynek idą w parze. Opuszczając Ur Chaldejski, podjął pierwsze kroki, które były niewygodne, ale konieczne. Później przeszedł kolejne próby, aż do ostatecznej, która uczyniła go ojcem wiary. Podobnie inni bohaterowie wiary, jak Mojżesz czy Dawid, stawali się świętymi poprzez przechodzenie przez różne próby i wykonywanie uczynków, których Bóg od nich oczekiwał.\n\nZakon dawał im zrozumienie ich grzesznej natury i potrzebę Jezusa. Chcąc wykonywać uczynki, musimy pamiętać, że nie usprawiedliwia nas sam ich fakt — Bóg decyduje, co jest dobre i sprawiedliwe.\n\nWiara jest mechanizmem, który pozwala zrozumieć Bożą wolę, ale ta wola nie ukaże się, jeśli nasz wstyd przed moralnością Bożą będzie silniejszy niż to, co Bóg od nas wymaga.\n\nNie możemy też ustalić prostych definicji „sprawiedliwego uczynku”, bo jak weźmiemy Jezusa, to On miał cięty język i czasami postępowanie, które niektórzy mogli uznać za kontrowersyjne. Nie można więc po prostu naśladować Jego każdego gestu bez zrozumienia kontekstu.\n\nPodobnie Bóg zlecał różne rzeczy bohaterom Starego Testamentu, nawet takie, które dziś mogłyby budzić moralne wątpliwości — ale to Bóg jest sędzią, nie my.\n\nJakub w liście trzecim, 13 wersecie, mówi: „Czy jest między wami ktoś mądry i rozumny? Niech to pokaże przez dobre postępowanie uczynkami swymi, nacechowanymi łagodnością i mądrością.” Czyli praktyczna mądrość jest widoczna w uczynkach.\n\nMówię o tym wszystkim, bo widzę pewną tendencję – ludzie chcą mieć jasne, proste definicje, jasne cele i mówią: „Dajcie mi święty spokój.” Ale Bóg wymaga od nas poszukiwania, rozumienia Pisma Świętego w kontekście.\n\nZrozumienie jednego wersetu wyrwanego z kontekstu odwraca to, co Duch Święty chce powiedzieć. Gdybyśmy wzięli tylko rozdział 2 lub 4 Listu do Rzymian, moglibyśmy dojść do wniosku ex opere operato — że wystarczy wykonywać uczynki i mieć zbawienie. Ale to tylko część długiej argumentacji Pawła.\n\nBez Boga ani ja, ani ty, ani nikt nie może być dobry. Bez względu na spektakularność powołania czy doświadczenia z Bogiem, wszyscy potrzebujemy łaski i działania Ducha Świętego.\n\nPrzykład Gedeona pokazuje to wyraźnie – mimo wiary, pozostał gnuszny, pyślny i strachliwy. Był bohaterem wiary, bo miał wiarę, ale jego uczynki go osądziły. Natomiast Jonasz, choć chciał uciec, ostatecznie wykonał zadanie, choć nie bez nigdy dalszej niechęci.\n\nCierpienie jest potrzebne, aby utrwalić Bożą sprawiedliwość w nas. Bez cierpienia nie jesteśmy w stanie być cierpliwi, nie mamy nadziei na coś lepszego. Uciekanie przed doświadczeniami jest ogromnym błędem.\n\nJezus przez cierpienie nauczył się posłuszeństwa, Paweł zrozumiał to samo, Job zrozumiał Bożą sprawiedliwość, ponieważ poddał się procesowi.\n\nAbraham, szedł na górę Moria, wierząc, że Bóg wskrzesi jego syna, i nie złorzeczył Bogu w tym doświadczeniu.\n\nPrzypomnę też, że sprawiedliwość nie jest bierna. Bierność tu to nie bierna postawa wobec świata czy innych ludzi, ale to, czy sprawiedliwość oddziałuje na moje wnętrze, moje serce, czy spełnia wymagania Boże.\n\nJezus mówi: „Jeżeli prawe oko twoje gorszy cię, wyłup je i odrzuć od siebie, bo lepiej, aby jeden członek zginął niż całe ciało poszło do piekła. Jeżeli prawa ręka twoja cię gorszy, odetnij ją i odrzuć.” To znaczy, że jeśli nie opanujesz swojego serca, będziesz skazany na zagładę.\n\nAle Bóg nie chce, żebyśmy wyłupywali oczy dosłownie. To jest standard Jego sprawiedliwości. Obiecuje nam nowe serce, które będzie przez nasze członki okazywać tę sprawiedliwość dzięki naszej relacji z Nim.\n\nJeśli tego nie zrobimy, to jest przyczyna, dla której grzeszymy. Jak Bóg powiedział do Kaina: „U drzwi stoi grzech, ale ty masz nad nim panować.” Niemożliwe do wykonania, ale to jest standard, który Bóg ustanowił.\n\nJezus przyszedł, abyśmy mieli do tego dostęp, ale nie po to, żeby zabrać nam drogę, którą sam jest. Jezus jest drogą, prawdą i życiem, ale jeśli zbawienie oznaczałoby, że już jesteśmy w niebie i nic więcej nie trzeba, to po co Jezus miałby być drogą?\n\nZbawienie to coś zupełnie innego niż uświęcenie, którego Bóg od nas oczekuje.\n\nPrzede wszystkim mamy mieć serce, jak mówi któryś z proroków, „rozdróżniać swoje serca, a nie szaty.” Bóg wielokrotnie mówi o tym, że...\n\n[tu kazanie urywa się w tym miejscu]."
+  },
+  "cover": "/images/covers/Xy2xGOLhFFc.webp"
+}

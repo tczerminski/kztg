@@ -1,0 +1,103 @@
+{
+  "date": "2026-01-07",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/XMwneYqctms/XMwneYqctms.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Wszystko ma swój czas i porę - III cz. 3",
+  "summary": "Fragment Księgi Kaznodziei (3,1-3) ukazuje, że wszystko ma swój czas, w tym czas zabijania i leczenia. Kazanie omawia biblijne przykłady z Księgi Sędziów i Pierwszej Księgi Samuela, między innymi grzech Lamacha i konflikty Saula z Dawidem, ilustrując duchowe konsekwencje zabijania oraz niebezpieczeństwo pragnienia władzy. Przesłanie podkreśla Bożą sprawiedliwość i znaczenie duchowego życia w kontekście ludzkich działań.",
+  "duration": 3337,
+  "translations": {
+    "en": {
+      "title": "There Is a Time and Season for Everything - Part III.3",
+      "summary": "This biblical analysis reveals how power and fear can blur the line between spiritual life and death, leading to violence and tragic consequences. The story of Saul and David uncovers the dynamics of spiritual warfare driven by the desire to rule. These reflections offer a deeper understanding of our responsibility for life, as well as the significance of God's justice and the attitude of the heart toward sin."
+    },
+    "uk": {
+      "title": "У всьому свій час і пора - Частина III.3",
+      "summary": "Біблійний аналіз показує, як влада та страх можуть розмивати межу між життям і духовною смертю, ведучи до насильства і трагічних наслідків. Історія Саула і Давида відкриває механізми духовної боротьби, що відбувається під впливом прагнення панувати. Ці роздуми допомагають глибше усвідомити відповідальність за життя та значення Божої справедливості і ставлення серця до гріха."
+    },
+    "ta": {
+      "title": "ஒவ்வொருவருக்கும் தன்னைத் தனியாக முடிவு செய்யும் நேரம் - பாகம் III, அத்தியாயம் 3",
+      "summary": "ஆய்வுக் கட்டுரை பைபிள் கோரிக்கைகளை விரிவாக அறியும் வாய்ப்பை தருகிறது: அதிகாரமும் பயமும் ஆன்மிகப் பாழும் மற்றும் உயிர்க்குடுந்து இடையேயான எல்லைகளைக் கடந்து வன்முறைக்கு மற்றும் சங்கடமான விளைவுகளுக்கு வழிவகுக்கின்றன. சவூல் மற்றும் தாவீது கதைகள் ஆட்சியின் விருப்பத்தால் ஏற்படும் ஆன்மிகப் போராட்டத்தின் மனசாட்சியின் செயல்முறைகளைக் கிளப்புகின்றன. இந்த சிந்தனைகள் வாழ்க்கைக்கு பொறுப்பும், கடவுளின் நீதி மற்றும் பாவத்தை எதிர்கொள்ளும் மனப்பான்மையின் முக்கியத்துவத்தையும் நன்கு உணர உதவுகின்றன."
+    },
+    "de": {
+      "title": "Alles hat seine Zeit und Stunde – Teil III, Abschnitt 3",
+      "summary": "Eine biblische Analyse zeigt, wie Macht und Angst die Grenze zwischen Leben und geistlichem Tod verwischen können, was zu Gewalt und tragischen Folgen führt. Die Geschichte von Saul und David offenbart die Mechanismen geistlicher Kämpfe, die unter dem Einfluss des Herrschaftsverlangens stattfinden. Diese Betrachtungen ermöglichen ein tieferes Verständnis der Verantwortung für das Leben sowie der Bedeutung von Gottes Gerechtigkeit und der Haltung des Herzens gegenüber der Sünde."
+    },
+    "es": {
+      "title": "Todo tiene su tiempo y momento - Parte III, sección 3",
+      "summary": "Un análisis bíblico que revela cómo el poder y el miedo pueden desdibujar la línea entre la vida y la muerte espiritual, conduciendo a la violencia y a consecuencias trágicas. La historia de Saúl y David expone los mecanismos de la batalla espiritual que se libra bajo la influencia del deseo de dominio. Estas reflexiones nos permiten comprender más profundamente la responsabilidad sobre la vida y la importancia de la justicia divina y la actitud del corazón frente al pecado."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      " Kazn 3",
+      " Sdz 9",
+      " 1 Sm 19",
+      " 1 Sm 25",
+      " 1 Sm 26",
+      " Hi 5",
+      " Ps 10",
+      " Ps 34",
+      " Ps 37"
+    ],
+    "en": [
+      " Eccl 3",
+      " Judg 9",
+      " 1 Sam 19",
+      " 1 Sam 25",
+      " 1 Sam 26",
+      " Job 5",
+      " Ps 10",
+      " Ps 34",
+      " Ps 37"
+    ],
+    "uk": [
+      " Еккл 3",
+      " Суд 9",
+      " 1 Сам 19",
+      " 1 Сам 25",
+      " 1 Сам 26",
+      " Йов 5",
+      " Пс 10",
+      " Пс 34",
+      " Пс 37"
+    ],
+    "ta": [
+      " கூழை 3",
+      " நீதித்துப்பாகம் 9",
+      " 1 சாமுவேல் 19",
+      " 1 சாமுவேல் 25",
+      " 1 சாமுவேல் 26",
+      " எயோப் 5",
+      " சங்கீதம் 10",
+      " சங்கீதம் 34",
+      " சங்கீதம் 37"
+    ],
+    "de": [
+      " Pred 3",
+      " Ri 9",
+      " 1 Sam 19",
+      " 1 Sam 25",
+      " 1 Sam 26",
+      " Hi 5",
+      " Ps 10",
+      " Ps 34",
+      " Ps 37"
+    ],
+    "es": [
+      " Ecl 3",
+      " Jue 9",
+      " 1 Sam 19",
+      " 1 Sam 25",
+      " 1 Sam 26",
+      " Job 5",
+      " Sal 10",
+      " Sal 34",
+      " Sal 37"
+    ]
+  },
+  "transcript": {
+    "pl": "Dzisiaj będziemy dalej kontynuowali to, co rozpoczęliśmy w trzeciej części. A już dzisiaj będzie trzeci wykład, a mianowicie: „Wszystko ma swój czas i porę”. Przeczytamy, jak co wykład, tę myśl początkową z trzeciego rozdziału Księgi Kaznodziei Salomona: \n\n„Wszystko ma swój czas i każda sprawa pod niebem ma swoją porę. Jest czas rodzenia i czas umierania. Jest czas sadzenia i czas wyrywania tego, co zasadzono. Jest czas zabijania i czas leczenia.”\n\nSkupiliśmy się na czasie zabijania i mówiliśmy o tym od samego początku, jak to się właśnie miało. Omawialiśmy synonimy zabijania – jest to wytracenie, starcie, zgładzenie i zniszczenie. Wiemy, że od momentu, kiedy to rozważaliśmy, rozpoczęliśmy od momentu, kiedy Kain zabił swojego brata. Omawialiśmy tę sytuację, więc dziś do niej nie wrócimy, chociaż jeszcze będziemy się na nią powoływali.\n\nDzisiaj zaczniemy od grzechu Lamacha. Ostatnio skończyliśmy właśnie na tym. Wiemy, że było to wydarzenie za czasów sędziów, gdy Lamach zabił siedemdziesięciu swoich braci. Były to przyczyny tego, by po prostu nie było konkurencji, że tak powiem w dzisiejszym, nowoczesnym języku.\n\nRozpoczniemy od tego, że Bóg nie pozostawił tego bez kary. Gdybyśmy powrócili do Księgi Sędziów, właśnie do dziewiątego rozdziału, tylko od tego momentu chcę rozpocząć, aby kontynuować myśl, którą ostatnio rozważaliśmy. Chcę podkreślić, że mówimy o przyczynach, jakie w człowieku wywołało to, co jest dzisiaj zresztą w XXI wieku oglądane. Straszniejsze jest to, że zabijanie ma też przełożenie duchowe. Diabeł na samym początku, jak widzimy, nie zabił ani Adama, ani Ewy. Nie zabił też Boga Kaina. Ale co się stało? Została duchowość zabita i kontakt z Bogiem w tej duchowej rzeczywistości został przerwany.\n\nMyślę, że w kolejnym wykładzie lub dalej dojdziemy do tego, że Bóg również poprzez śmierć – a wiadomo, przez jaką śmierć – doprowadził do tego, iż duchowa rzeczywistość została ożywiona. Dziś chcę tylko przypomnieć, że kiedy otworzymy Księgę Sędziów, dziewiąty rozdział, rozpoczniemy od tego momentu. Chcę powiedzieć, że Bóg nie pozostawi dzisiaj również nas bez kary, jeśli staniemy się mordercami, nawet duchowo, bo tak też można to ująć.\n\nW dziewiątym rozdziale Księgi Sędziów przeczytam 56 i 57 werset, ku pamięci, bo poprzednio czytaliśmy cały fragment: \n\n„Tak odpłacił Bóg Amibalachowi za zło, które popełnił wobec swojego ojca, zabijwszy 70 braci swoich. Bóg również odpłacił za wszelkie zło mężom Sychemskim i spełniło się na nich przekleństwo Jotama, syna Jerubaala.”\n\nWidzimy więc, że tak jak mówiłem w ubiegłym tygodniu, również w prawie świeckim jest współudział. Bardzo często ludzie chcą wycofać się z odpowiedzialności, gdy widzą złe konsekwencje. Ale przykładanie drew do ognia zawsze kończy się tym, że Bóg widzi wszystko. Bóg jest sprawiedliwy, patrzy głębiej niż nasz umysł, bo sięga do serca.\n\nKolejna sekwencja związana z zabijaniem i powody tego to chęć władzy. Mówić będę o chęci władzy, która bardzo często, nawet dziś, doprowadza do zabijania, morderstw, do usunięcia rywala. A czy działo się to również w narodzie wybranym? Owszem.\n\nJeśli otworzymy pierwszą księgę Samuela, to rozważając dwa fragmenty, chcę przeczytać 19 rozdział, wersety 1 i 2: \n\n„Saul mówił do Jonatana, swojego syna, i do wszystkich swoich sług, że chce zabić Dawida. Jonatan jednak, syn Saula, sprzyjał Dawidowi. Zawiadomił o tym Dawida, mówiąc: Ojciec mój, Saul, chce cię zabić. Ukryj się więc jutro rano i schowaj się.”\n\nZnamy tę historię. Saul został pomazany na króla, ale nagle sprzeniewierzył się prawu Bożemu, a Bóg wybrał sobie innego króla. Nagle pojawiają się dwaj pomazańcy. I czy Dawid był rywalem? On również był pomazańcem Bożym. Wiem, że Jonatan, syn Saula, powiedział: „Wiem, że zostaniesz królem.” Znamy ten cytat.\n\nW historii zastanawiamy się, co działo się w umyśle Saula? Wiem, że był bardzo nieśmiały podczas wybrania i wtedy się schował, ale co później? Czy dziś nie grozi nam chęć władzy, panowania nad kimś, bycia lepszym, mądrzejszym, siedzenia w pierwszych rzędach? \n\nW Słowie Bożym jest mowa o tym, że jeśli ktoś przyjdzie dobrze ubrany i z pierścieniami, sadza się go na czele, a ktoś skromnie ubrany siada u jego stóp. Ale Bóg na to nie patrzy. Czy dziś się nie zmieniło, że ludzie sądzą po pozorach? A Słowo Boże mówi, że szatan zgubi człowieka, gdy patrzy tylko na zewnętrzny świat. Świat sądzi inaczej niż Słowo Boże.\n\nJeśli rozwiniemy tę historię, przeczytamy 9, 10, 11 werset 19 rozdziału pierwszej księgi Samuela. Ważne jest, aby zrozumieć, że istnieje duchowe środowisko, które nie zawsze działa dla nas korzystnie.\n\n„Zły duch zesłany przez Pana opadł na Saula, gdy pewnego razu przebywał w swoim domu, trzymając w ręku włócznię. Dawid grał na harfie. Saul chciał przebić Dawida włócznią i przywrzeć go do ściany, lecz Dawid uniknął, a włócznia wbiła się w ścianę. Dawid uciekł i ocalił życie nocą.”\n\nW poprzednich wersetach wiemy, że Saul obiecał synowi, że nie zabije Dawida. Jonatan powiedział, że Dawid jest sługą króla i zabił Filistynę Goliata. Takie były okoliczności.\n\nKończąc tę myśl, zwróćmy uwagę na chęć zniszczenia dowodów na to, że Jezus miał moc. Co uczynił Łazarz, że chcieli go zabić? Prawie dwadzieścia wieków temu grzech posunął się tak daleko, nawet pośród tych, którzy byli reprezentantami Boga.\n\nW Starym Testamencie jest przykazanie: „Nie morduj.” Nie wygląda to tak, że gdyby zabili Łazarza, nie byłby to mord? Z hebrajskiego „nie zabijaj” oznacza „nie morduj” dokładnie.\n\nCo narodziło się w ich umysłach? Jak wielką obawę mieli, że mogliby być pozbawieni swoich funkcji, stanowisk albo racji bytu? W książkach okołobiblijnych czytamy, że arcykapłani stanowili uprzywilejowaną kastę społeczną, mieli pałace. W Słowie Bożym czytamy o pałacach biskupich dzisiaj. A Jezus powiedział, że nie miał gdzie głowy skłonić.\n\nZobaczmy i przejmijmy się, jak świat źle wpływa na nasz umysł, a potem na serce. Dlatego w Słowie Bożym jest napisane, że przyjaźń ze światem to nieprzyjaźń z Bogiem. Bóg tego nie powiedział, abyśmy się izolowali, co też nie jest rozwiązaniem, ale świat ma na nas często zgubny wpływ, o czym powinniśmy wiedzieć.\n\nW Słowie Bożym jest wiele wskazań, że nawet w arcykapłańskiej modlitwie Pana Jezusa modlił się: „Ojcze, nie proszę Cię, abyś ich zabrał z tego świata, ale abyś ich zachował w tym świecie.” \n\nWidzimy więc, że recepty Słowa Bożego nie polegają na dziwnym zachowywaniu się. Przez średnie wieki ludzie umartwiali ciało, ale Biblia mówi, że „duch ożywia, ciało nie pomaga”. Gdy hołdujemy światu, swojemu ciału, pragnieniom, emocjom, które czasami wywołują w nas rzeczy niepożądane, to jest złe.\n\nZłe emocje objawiły się w tym, że nawet temu, któremu uratowano życie, czyli dowodowi na to, że Jezus dokonał mesjańskiego cudu – Łazarzowi – też chcieli zabić. Co za myśl! Nie będę tego dalej komentował, ale zastanówmy się, jak daleko człowiek może się posunąć. Nie przeszkadzało im, że byli tymi, którzy byli pośrednikami, wzorem dla trzody.\n\nWielu proroków, np. Jeremiasz, opisywał pasterzy, którzy nie paśli prawidłowo swojej trzody (por. Jeremiasz 23). Później zaś obiecuje, że Bóg pośle pasterza, czyli Pana Jezusa.\n\nCi, którzy Go oczekiwali, chcieli Go zabić – fizycznie. Nie spodziewali się, że Bóg poniesie śmierć, ale dzisiaj jest era życia od momentu ukrzyżowania Pana Jezusa, której finałem będzie zmartwychwstanie.\n\nPrzeczytajmy Boże rozwiązania – pierwsza księga Samuela, 25 rozdział, wersety 30 do 34: \n\n„A gdy Pan wykonał na moim panu wszystko to dobre, które wypowiedział o tobie i ustanowił cię księciem nad Izraelem, to nie będzie to dla ciebie, mojego pana, potknięciem i wyrzutem sumienia, jakby było, gdybyś wylał krew niewinną i ratował się własną ręką. Gdy zaś Pan wyświadczy dobro mojemu panu, wspomnij na swoją służebnicę.” \n\nDawid rzekł do Abigajl: \n\n„Błogosławiony Pan, Bóg Izraela, który cię wysłał dziś do mnie, błogosławiona twoja roztropność i błogosławieństwo. Błogosławiona jesteś, że powstrzymałaś mnie dziś od przelewu krwi i ratowania siebie własną ręką. Lecz jako żyje Pan, Bóg Izraela, który powstrzymał mnie przed krzywdą, gdybyś nie wyszła na spotkanie, żaden mężczyzna u Nabala do jutra nie byłby ocalony.”\n\nZnamy tę historię – Dawid pilnował dobytku Nabala, a Nabal go obraził. Dawid był wzburzony, ale nie zadziałał jak Saul, który obiecał, że nie zabije Dawida, a potem wielokrotnie próbował.\n\nCo spowodowała wizyta Abigajl? Myślę, że Dawid spojrzał sercem na całą sytuację i potrafił ją ocenić. Bóg chce ulokować swoje Słowo w naszych sercach. Patrząc na życie Dawida, widzimy tę cechę, którą i my powinniśmy mieć – gdy przyjdzie wybór, niech myśl nie zostanie tylko w umyśle, ale w sercu, bo mamy zakon serca, jak mówi list do Rzymian – wiemy, co dobre, a co złe. Amen.\n\nPrzeczytajmy 26 rozdział, wersety 10–11: \n\n„I rzekł Dawid: Jako żyje Pan, tylko On go uderzy, albowiem nadejdzie jego dzień i umrze, albo pójdzie na wojnę i zginie. Niech nie podniosę ręki na pomazańca Pana swego! Weź więc włócznię z jego głowy i dzbanek wody, i odejdźmy.”\n\nZnamy tę historię – Dawid miał kilka razy okazję zabić przeciwnika, pomazańca, ale za każdym razem spojrzał sercem, przez pryzmat Bożego prawa.\n\nMówi: „Niech mnie Bóg powstrzyma, abym podniósł rękę na pomazańca Bożego.” Może nas to zbulwersuje, ale jesteśmy napełnieni Duchem Świętym, naznaczeni. Czy powinniśmy nawzajem sobie podnosić ręce? Jaki jest nasz stan?\n\nBiblia zachęca, aby krzyżować to, co w nas ze starego człowieka. \n\nKsięga Hioba, piąty rozdział, werset 2: \n\n„Zaprawdę, głupiego zabija jego własny gniew, a prostaka uśmierca zawiść.”\n\nTu widzimy odsłonę naszej starej natury. Początkiem mądrości jest bojaźń Boża. My mamy mądrość duszewną, inaczej to postrzegamy. Ale jest napisane: „Zaprawdę, głupiego zabija jego własny gniew.” Przeciwnik, diabeł, stara się wzbudzać w nas gniew, który jest naturalny. Nie chcę rozwinąć tego teraz, ale Pan Jezus też kiedyś spojrzał z gniewem na kogoś, jednak opanował Go i uzdrowił człowieka ze suchą ręką.\n\nMy w gniewie często szkodzimy tak bardzo, że potem trudno to naprawić, nawet jeśli żałujemy.\n\n„Zawiść prostaka uśmierca” – gdy komuś czegoś zazdrościmy, redukujemy go, poniżamy. To jest spuścizna starego człowieka, którą Duch Święty może wyremontować, bo nie samym chlebem żyje człowiek, lecz każdym słowem Bożym.\n\nJeśli będziemy żyć Słowem Bożym, usuniemy takie złe zachowania. Powinniśmy zdawać sobie z tego sprawę i ich unikać.\n\nPsalm X, od 4 wersetu: \n\n„Bezbożny myśli w pysze swojej, że nie ma Boga. Oto całe rozumowanie jego. Zabiegi jego zawsze się udają. Sądy twoje nie obchodzą go. Wszystkich swoich przeciwników gardzi. Mówi w sercu swoim: Nie zachwieję się, nigdy nie spotka mnie nieszczęście.”\n\n„Przekleństwa pełne są usta jego, także fałszu i obłudy. Pod językiem jego jest krzywda i nieprawość. Czeka na gród, skrycie zabija niewinnego. Oczy jego wypatrują nieszczęśnika, czyha jak lew w gęstwinie. Czyha, aby porwać ubogiego.”\n\n„Mówi w sercu swoim: Zapomniał Bóg, zakrył oblicze swoje, nigdy nie będzie widział.”\n\n„Powstań, Panie Boże, podnieś rękę swoją, nie zapomnij ubogich.”\n\nDlaczego bezbożny ma urągać Bogu, mówiąc, że nigdy nie będzie ukarany? Ty zaś widzisz trud i utrapienie. Na Tobie polega nieszczęśliwy, Ty jesteś pomocą sierocie.\n\nWidzimy więc, że myśli złych ludzi eliminują Boga z ich działań, myśląc, że Bóg nie widzi. Słowo Boże mówi inaczej – Bóg widzi wszystko.\n\nPsalm 34, wersety 22–23: \n\n„Niegodziwego zabija złość, a ci, którzy nienawidzą sprawiedliwego, poniosą karę. Pan wyzwala dusze swoich sług i ci, którzy Mu ufają, nie będą ukarani.”\n\nCzyli co kogo zabija i jakie są konsekwencje. Niegodziwego zabija złość. Mówiliśmy wcześniej, że często nasze działanie bierze się ze złości.\n\nMamy różne usprawiedliwienia: „Jestem taki, jak mnie Pan stworzył.” Ale Bóg stworzył nas dobrze. Grzech doprowadził do tego, że w nas wybucha złość i gniew. Ale jest nadzieja. Pan wyzwala dusze swoich sług.\n\nPsalm 37, od 30 wersetu:\n\n„Usta sprawiedliwego wypowiadają mądrość, a jego język głosi prawo. Nauka Boża jest w sercu jego, krok jego się nie chwieje. Bezbożny czyha na sprawiedliwego i szuka sposobu, by go zabić.”\n\nWiemy zderzamy się z dwoma światami – z Bogiem i bezbożnym, który czyha na prawdę i chce ją zabić. Tak jak chcieli zabić Jezusa i tego, którego wskrzesił. Dziś ci bezbożni zabijają prawdę na różne sposoby – wyśmiewają, szydzą, a w XXI wieku są męczennicy.\n\nModlimy się za prześladowanych chrześcijan.\n\nEwangelia Mateusza, 23 rozdział, wersety 37 i 39: \n\n„Jerozolim, Jerozolim, która zabijasz proroków i kamieniujesz tych, którzy do ciebie byli posłani. Ileż razy chciałem zgromadzić dzieci twoje, jak kokos zgromadza pisklęta swoje pod skrzydła, a nie chcieliście. Oto dom wasz pusty zostanie, bo nie ujrzycie mnie, aż powiecie: Błogosławiony, który przychodzi w imieniu Pańskim.”\n\nPan Jezus mówi o stanie Żydów, Izraelitów, Hebrajczyków, gdy przyszedł Mesjasz. Bóg, który bywa przedstawiany jako okrutny w Starym Testamencie (co jest kłamstwem), był sprawiedliwy i wielokrotnie próbował zgromadzić swój lud. Oni jednak mówili: „Nie będziemy cię słuchać”.\n\nNigdy Bóg nie działał bez ostrzeżenia i miłosierdzia.\n\nCzy dziś jest lepiej? Mam wrażenie, że jest gorzej.\n\nEwangelia Marka, 3 rozdział, wersety od 4 do 6: \n\n„Czy wolno w szabat czynić dobrze czy źle? Życie zachować czy zabić?” – pytanie Jezus.\n\nOni milczeli. Spojrzał na nich z gniewem i zasmucił się z powodu zatwardziałości serc ich. Rzekł do człowieka: „Wyciągnij rękę.” I wyciągnął, wróciła do dawnego stanu.\n\nFaryzeusze wyszli i radzili się z Herodiadami, jakby Go zgładzić.\n\nJezusa zbulwersowało obojętne nastawienie, ale mógł działać cudownie. Ci, którzy mieli być wzorem Izraelowi, chcieli Go zabić. Za każdy cud groziła śmierć. A dziś? Czasami jest jeszcze gorzej.\n\nEwangelia Jana, 5 rozdział, wersety 16 i 18:\n\n„Żydzi prześladowali Jezusa, bo to uczynił w szabat. Jezus odparł: Mój Ojciec działa aż dotąd, i ja działam. Żydzi jeszcze usilniej chcieli Go zabić, bo nie tylko łamał szabat, ale nazywał siebie równym Bogu.”\n\nPan Jezus powiedział: „Pismo nie może być naruszone”, ale Jego cud przysparzał mu wrogów. W czasach wciąż żyjącej chęci zabijania, najczęstszym wyborem było zabicie kogoś.\n\nMy żyjemy w skażonym środowisku, gdzie zabijamy przyjaźń, braterstwo, przebaczenie. \n\nMyśl Jezusa w 17 wersecie jest dla nas znamienna: „Ojciec działa, a ja działam.” My jako uczniowie Jezusa powinniśmy działać ku dobremu, krzyżując starego człowieka i wydobywając wewnętrznego, dobrego człowieka stwarzanego przez Boga.\n\nNa dzisiaj ostatni cytat – Ewangelia Łukasza, 13 rozdział, 29 werset i dalej: \n\n„Przyjdą ze wschodu, zachodu, północy i południa i zasiądą w Królestwie Bożym. Ostatni będą pierwszymi, a pierwsi ostatnimi.”\n\nW tym czasie przyszli faryzeusze i powiedzieli Jezusowi: „Oddal się stąd, bo Herod chce cię zabić.” I na tym kończę.\n\nKról słyszał o zagrożeniach i miał przeciwników zarówno wśród pogan, jak i swojego ludu. Rozwiązaniem było usunięcie Jezusa.\n\nAle to było w planach Bożych.\n\nPo śmierci Jezusa rozpoczęła się inna era – era życia, o której będziemy mówić później.\n\nJeszcze trochę powiemy o tym, co Jezus uczynił, dlaczego musiał zostać zabity, i dlaczego Jego śmierć i zmartwychwstanie są ostatecznym rozwiązaniem dla naszego życia wiecznego.\n\nAmen."
+  },
+  "cover": "/images/covers/XMwneYqctms.webp"
+}

@@ -1,0 +1,28 @@
+---
+import { t, type Locale } from "../i18n/utils";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+<div
+  id="cookieBanner"
+  class="fixed left-4 right-4 bottom-4 z-80 hidden rounded-2xl border border-[#d6deef] bg-white/95 backdrop-blur shadow-xl p-4 sm:p-5"
+>
+  <div class="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+    <div class="pr-2">
+      <p class="text-sm font-semibold text-[#1f2a44]">{t(locale, "cookie.bannerTitle")}</p>
+      <p class="text-sm text-gray-600">{t(locale, "cookie.bannerDesc")}</p>
+    </div>
+    <div class="flex gap-2 sm:shrink-0">
+      <button id="cookieNecessaryBtn" type="button" class="px-4 py-2 rounded-xl border border-[#3f568f] text-[#3f568f] hover:bg-[#3f568f]/10 transition">
+        {t(locale, "cookie.reject")}
+      </button>
+      <button id="cookieAcceptBtn" type="button" class="px-4 py-2 rounded-xl bg-[#3f568f] text-white hover:bg-[#334577] transition">
+        {t(locale, "cookie.accept")}
+      </button>
+    </div>
+  </div>
+</div>

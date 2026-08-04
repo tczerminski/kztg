@@ -1,0 +1,115 @@
+{
+  "date": "2024-09-22",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/E1C3m_cuodA/E1C3m_cuodA.opus",
+  "preacher": "Krzysztof Rataj",
+  "title": "Światłość i Ciemność cz. 2",
+  "summary": "Boża światłość stanowi główny temat kazania, opartego na fragmentach z Księgi Rodzaju, Listu do Tymoteusza oraz Dziejów Apostolskich. Autor ukazuje ją jako podstawowy atrybut Boga, obecny od stworzenia świata i nieodłączny od Jego istoty. Przesłanie podkreśla konieczność poszukiwania i doświadczania Bożej światłości w codziennym życiu, a także jej zbawczą rolę ukazaną na przykładzie przemiany Pawła.",
+  "duration": 2688,
+  "translations": {
+    "en": {
+      "title": "Light and Darkness Part 2",
+      "summary": "Does God's light truly shine through your life? God dwells in unapproachable light, and His radiance always overcomes darkness — a source of hope that brightens everyday challenges and transforms hearts. Drawing from texts in Genesis, the Acts of the Apostles, and the prophecies of Isaiah, this sermon reveals the depth of God's presence leading to a victorious life with Jesus."
+    },
+    "uk": {
+      "title": "Світло і Темрява, частина 2",
+      "summary": "Чи справді Божє світло проникає у твоє життя? Бог живе у недосяжному світлі, і Його сяйво завжди перемагає темряву – це джерело надії, яке освітлює повсякденні труднощі та перетворює серця. На основі текстів із Книги Буття, Діянь Апостолів та пророцтв Ісаї, проповідь відкриває глибину Божої присутності, що веде до переможного життя з Ісусом."
+    },
+    "ta": {
+      "title": "ஒளியும் இருட்டும் பகுதி 2",
+      "summary": "கடவுளின் ஒளி எப்போதும் உங்கள் வாழ்க்கையை permeate செய்கிறதா? கடவுள் அணுகமுடியாத ஒளியில் வாழ்கிறார், அவரது பிரகாசம் எப்போதும் இருட்டை வென்றே காக்கும் – இது நம்பிக்கையின் மூலமாக, தினசரி சிரமங்களை பிரகாசப்படுத்தி இதயங்களை மாற்றும். இதன் அடிப்படையில் உருவாக்கப்பட்ட பேச்சு, பொருளாதார நூல், апொஸ்தோலு கதைகள் மற்றும் இசாயா முன்கணிப்புகள் ஆகியவற்றின் மேற்கோள்களைக் கொண்டு, இயேசுவுடன் வெற்றிகரமான வாழ்க்கைக்கு கடவுளின் ஆழமான முன்னிலையில் வழிநடத்துகின்றது."
+    },
+    "de": {
+      "title": "Licht und Dunkelheit, Teil 2",
+      "summary": "Durchdringt Gottes Licht wirklich dein Leben? Gott wohnt im unzugänglichen Licht, und Sein Glanz besiegt stets die Dunkelheit – eine Quelle der Hoffnung, die die täglichen Herausforderungen erhellt und Herzen verwandelt. Basierend auf Texten aus dem Buch Genesis, der Apostelgeschichte und den Prophezeiungen Jesajas, offenbart diese Predigt die Tiefe von Gottes Gegenwart, die zum siegreichen Leben mit Jesus führt."
+    },
+    "es": {
+      "title": "Luz y Oscuridad, parte 2",
+      "summary": "¿Realmente la luz de Dios penetra tu vida? Dios habita en una luz inaccesible, y su resplandor siempre vence a la oscuridad: una fuente de esperanza que ilumina las dificultades diarias y transforma corazones. Basado en textos del Génesis, Hechos de los Apóstoles y las profecías de Isaías, este sermón revela la profundidad de la presencia divina que conduce a una vida victoriosa con Jesús."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 1",
+      "1 Tm 6",
+      "Dz 22",
+      "Iz 9",
+      "Iz 42",
+      "Iz 49",
+      "Łk 2",
+      "Mt 17",
+      "2 Kor 4",
+      "Ps 23",
+      "Hi 14"
+    ],
+    "en": [
+      "Gen 1",
+      "1 Tim 6",
+      "Acts 22",
+      "Isa 9",
+      "Isa 42",
+      "Isa 49",
+      "Luke 2",
+      "Matt 17",
+      "2 Cor 4",
+      "Ps 23",
+      "Job 14"
+    ],
+    "uk": [
+      "Бут 1",
+      "1 Тим 6",
+      "Дії 22",
+      "Іс 9",
+      "Іс 42",
+      "Іс 49",
+      "Лк 2",
+      "Мт 17",
+      "2 Кор 4",
+      "Пс 23",
+      "Йова 14"
+    ],
+    "ta": [
+      "ஆதியாகமம் 1",
+      "1 திமோத்தியோ 6",
+      "அப்போஸ்தலர் 22",
+      "ஐசாயா 9",
+      "ஐசாயா 42",
+      "ஐசாயா 49",
+      "லூக்கா 2",
+      "மத்தேயு 17",
+      "2 கொரி 4",
+      "சங்கீதம் 23",
+      "யோவேப்பாட்டு 14"
+    ],
+    "de": [
+      "Gen 1",
+      "1 Tim 6",
+      "Apg 22",
+      "Jes 9",
+      "Jes 42",
+      "Jes 49",
+      "Lk 2",
+      "Mt 17",
+      "2 Kor 4",
+      "Ps 23",
+      "Hi 14"
+    ],
+    "es": [
+      "Gén 1",
+      "1 Tim 6",
+      "Hch 22",
+      "Is 9",
+      "Is 42",
+      "Is 49",
+      "Luc 2",
+      "Mat 17",
+      "2 Cor 4",
+      "Sal 23",
+      "Job 14"
+    ]
+  },
+  "transcript": {
+    "pl": "Przepraszamy za chwilowe niedogodności, ale już będziemy mogli rozpocząć. Dziś, bracie i siostry, chciałbym kontynuować to, co zacząłem na poprzednim moim kazaniu, które było jakiś czas temu, a mianowicie temat światłości. Światłości, ponieważ to, co wtedy zacząłem, pozostawiło we mnie niedosyt — jeszcze tyle można było powiedzieć, jeszcze tyle zaznaczyć o tym, jaka jest Boża światłość, czym ona jest, po co ona jest, z czym się wiąże i co mówi na ten temat Słowo Boże. Jest tyle do powiedzenia o tej Bożej światłości i dziś właśnie chciałbym rozważyć ten temat — Bożą światłość, światłość z wysokości. To jest ważne, wierzę, dla naszego życia i ważne, abyśmy mogli doświadczać tej Bożej światłości w naszym życiu, przeżywać ją, widzieć jej działanie naszymi duchowymi oczami, abyśmy mogli zobaczyć, że Boża światłość jest potrzebna, jest czymś dobrym, wspaniałym dla nas i warto za nią tęsknić, warto do niej dążyć, warto jej szukać.\n\nDziś właśnie chciałbym, abyśmy to rozważyli, byśmy zobaczyli, że to, co mówiłem wtedy — że kiedy jest światłość, to ciemność ustępuje. Choćby odrobinę światła, choćby troszeczkę, to już ciemność nie jest ciemnością; robi się jaśniej, robi się widoczniej, widać więcej. I po to też jest Boża światłość w naszym życiu — abyśmy widzieli więcej, abyśmy dostrzegali, abyśmy mogli spojrzeć na swoje życie, ale i nie tylko, żebyśmy tę Bożą światłość mogli też dawać innym, mogli się nią dzielić. Zobaczymy dziś, jak to zrobić.\n\nDlaczego warto żyć w światłości? Takie pytania postawiłem sobie dzisiaj, takie myśli — o czym będziemy rozważać: jak zweryfikować, czy jest Boża światłość w naszym życiu? Ile Biblia mówi na ten temat i co te informacje niosą dla nas? Dziś chciałbym rozważyć te trzy aspekty, zastanowić się, pokazać, co Słowo Boże mówi na ten temat, abyśmy dostrzegli, że Boża światłość powinna być nieodłączną częścią naszego życia. Żeby iść przez życie, żeby zwycięsko wieść życie z Panem Jezusem, Boża światłość powinna gościć w naszym życiu.\n\nI już na samym początku zacznę od fragmentu ze Słowa Bożego. Dziś będzie sporo fragmentów i wszystkie będą mówiły o Bożej światłości. Pierwsza Księga Mojżeszowa, pierwszy rozdział, wersety od 1 do 4:  \n\n„Na początku stworzył Bóg niebo i ziemię. Ziemia była pustkowiem i chaosem, ciemność była nad otchłanią, a Duch Boży unosił się nad powierzchnią wód. I rzekł Bóg: niech stanie się światłość. I stała się światłość. I widział Bóg, że światłość była dobra. Oddzielił wtedy Bóg światłość od ciemności.”\n\nMoże na tym poprzestaniemy na chwilę. Na samym początku, kiedy Bóg widział ziemię, stworzył niebo i ziemię, Ziemia była chaosem, pustkowiem, ciemność była nad otchłanią, Duch Boży się unosił, i pierwsze, co Bóg postanowił uczynić, to była światłość. To, co spowodowało, że zaczęliśmy widzieć więcej, nastąpiła zmiana. I to, co Bóg powiedział o tej światłości, to że była dobra. Dobra! To był pierwszy dzień, pierwszy dzień stworzenia — światłość. Światłość, która była potrzebna, aby realizować dalsze Boże zamierzenia. Tak stwierdził nasz Pan. Skoro Pan tak stwierdził, to wierzę, że ta światłość powinna być również ważna i cenna dla naszego życia, powinna być czymś, o co powinniśmy zabiegać i o co powinniśmy walczyć.\n\nTa Boża światłość była wcześniej niż słońce, ponieważ słońce i księżyc zostały uczynione dopiero czwartego dnia. Co to więc była za światłość? To pozostawiam do rozważań każdemu z nas.\n\nTeraz przeczytajmy w Pierwszym Liście do Tymoteusza fragment, gdzie Paweł dzieli się takimi informacjami z Tymoteuszem odnośnie naszego Pana Boga, aby ten zrozumiał Go lepiej. W 1 Liście do Tymoteusza, rozdział 6, werset 16:  \n\n„Jedyny, który ma nieśmiertelność, który mieszka w światłości niedostępnej, którego nikt z ludzi nie widział i widzieć nie może. Jemu niech będzie cześć i moc wieczna. Amen.”\n\nPan Bóg mieszka w światłości niedostępnej. Wiemy z innych fragmentów, że nikt z ludzi nie widział Boga i widzieć nie może, ponieważ ta światłość jest tak potężna, że wszystko, co na nią spojrzy, zostaje unicestwione. Taka niesamowita jest ta Boża światłość.\n\nW innym miejscu możemy przeczytać, że Bóg jest światłością — jest to atrybut naszego Pana, coś nieodłącznego, nierozłącznego. Nie można oddzielić Pana Boga od światłości. Inaczej mówiąc, nie ma Pana Boga bez światłości. I taki potężny Bóg chce, aby Boża światłość była w każdym z nas — Jego światłość, Jego dzień.\n\nJaka jest ta Boża światłość? To, co właśnie powiedziałem, zobaczmy też, jak człowiek doświadczył Bożej światłości. W Dziejach Apostolskich znajduje się fragment, w którym Paweł doświadczył tej Bożej światłości. W rozdziale 22, wersety od 6 do 11, czytamy:  \n\n„A gdy byłem w drodze i zbliżałem się do Damaszku, około południa, nagle olśniła mnie wielka światłość z nieba. I upadłem na ziemię i usłyszałem głos mówiący do mnie: Saulu, Saulu, czemu mnie prześladujesz? A ja odpowiedziałem: kto jesteś, Panie? I rzekł do mnie: Ja jestem Jezus, którego ty prześladujesz. A ci, którzy byli ze mną, światłość wprawdzie widzieli, ale głosu tego, który rozmawiał ze mną, nie słyszeli. I zapytałem: co mam czynić, Panie? Pan zaś rzekł do mnie: powstań i idź do Damaszku, a tam ci wszystko powiedzą, co ci jest przeznaczone, żebyś uczynił. A gdy za nie widziałem, od blasku owej światłości, prowadzony za rękę przez tych, którzy byli ze mną, przyszedłem do Damaszku.”\n\nTa światłość była tak ogromna, że Paweł za nie widział — może z początku w swojej dumie, bo był człowiekiem, który tak wiele chciał uczynić dla Pana, ale też nie rozumiał w pełni. Można powiedzieć, czytając jego historię, że błądził, mimo że gorliwie walczył o prawo i przepisy, i był prześladowcą chrześcijan — wywlekał ich i skazywał na śmierć.\n\nA jednak nagle olśniła go Boża światłość. Spojrzał — i za nią widział. Ale czy ta Boża światłość miała na celu zniszczyć człowieka czy go dobić? Nie, nie taki miał plan Pan dla Pawła. Później na kartach Dziejów dowiemy się, że Pan Bóg posłał Ananiasza do Pawła i uzdrowił go. Przez Ananiasza Pan Bóg… [tu tekst urywa się, ale możemy przypuszczać, że chodzi o uzdrowienie duchowe i fizyczne].\n\nChciałbym teraz sięgnąć do proroctw Izajasza, by zobaczyć, że już wtedy była mowa o Panu Jezusie. Izajasz prorokował o naszym mistrzu i wypowiadał słowa właśnie o Bożej światłości. Zacznijmy od 9 rozdziału Księgi Izajasza, werset 1:  \n\n„Lud, który chodzi w ciemności, ujrzy światło wielkie, nad mieszkańcami krainy mroku zabłyśnie światłość.”\n\nTo mowa o Panu Jezusie. Te wersety są potem cytowane też w Ewangelii.  \n\nW 42 rozdziale czytamy o Panu Jezusie, to proroctwo zostało wypowiedziane wiele lat wcześniej; w wersecie 6:  \n\n„Ja, Pan, powołałem cię w sprawiedliwości i ująłem cię za rękę, strzegę cię i uczynię cię pośrednikiem przymierza z ludem, światłością dla narodów.”\n\n„Światłością dla narodów.” — od razu widać, że misja Pana Jezusa obejmuje wszystkich ludzi, nie tylko Izrael.\n\nW 49 rozdziale, w wersecie 6, jest napisane:  \n\n„To za mało, że jesteś mi sługą, aby podźwignąć plemiona Jakuba i przywrócić oszczędzonych synów Izraela. Ustanowiłem cię światłością pogan, aby moje zbawienie sięgało aż do krańców ziemi.”\n\nKilka wersetów mówi tak wiele o Panu Jezusie i o Jego misji: On stał się pośrednikiem, zbawieniem dla narodów, dla całej ludzkości. Już wtedy była mowa o poganach, że oni również potrzebują nawrócenia, upamiętania, potrzebują Bożej światłości w życiu.\n\nI od momentu przyjścia Pana Jezusa światłość ta trwa i jest dostępna dla wszystkich, którzy chcą ją przyjąć. Zachęcam tych, którzy jeszcze nie poznali Pana i nie doświadczyli Bożej światłości w swoim życiu — uwierzcie, że to możliwe. Wielu z nas tego doświadczyło; mamy świadectwa Bożego działania, światła na różne sprawy, Bożej rady i pomocy w trudnych chwilach.\n\nTeraz chciałbym spojrzeć na Pana Jezusa, jak objawiała się Boża światłość, gdy On był na ziemi. To nie było tylko duchowe, ale miało też wymiar fizyczny. W Ewangelii Łukasza, rozdział 2, czytamy o narodzinach Pana Jezusa i tym, jak Boża światłość objawiła się pasterzom. Werset od 7 do 12:  \n\n„A porodziła syna swego pierworodnego i owinęła go w pieluszki, i położyła go w żłobie, gdyż nie było dla nich miejsca w gospodzie. A byli w tej krainie pasterze w polu, czuwający i trzymający nocne straże nad stadem swoim. I anioł Pański stanął przy nich, a chwała Pańska zewsząd ich oświeciła i ogarnęła ich bojaźń wielka. I rzekł do nich anioł: nie bójcie się, bo oto zwiastuję wam radość wielką, która będzie udziałem całego ludu, bo dziś narodził się wam Zbawiciel, którym jest Chrystus Pan, w mieście Dawidowym. A to będzie dla was znakiem: znajdziecie niemowlątko owinięte w pieluszki i położone w żłobie.”\n\nMaria urodziła, i w tym momencie, kiedy byli tam z Józefem, anioł Pański stanął przy pasterzach, oświecił ich swoją chwałą. Ta Boża światłość przyszła w namacalny, fizyczny sposób i zwiastowała narodziny Zbawiciela, na którego Izrael czekał.\n\nW tym samym rozdziale, w wersecie 29 i poniżej, Symeon wypowiada proroctwo:  \n\n„Teraz puszczasz sługę swego, Panie, według słowa swego w pokoju, gdyż oczy moje widziały zbawienie Twoje, które przygotowałeś przed obliczem wszystkich narodów, światłość na oświecenie pogan i chwałę ludu Twego izraelskiego.”\n\nJego rodzice dziwili się temu, co o nim mówiono, że będzie światłością dla pogan i narodów — takie dziwne, niesamowite słowa. Chwała Panu, że o Panu Jezusie już tyle jest powiedziane — że jest Bożym światłem, narzędziem, przez które ludzkość może wyjść z ciemności.\n\nJeszcze jeden fragment z Ewangelii Mateusza, o wydarzeniu na górze — przemienieniu Pana Jezusa. W rozdziale 17, wersety od 1 do 2:  \n\n„Po sześciu dniach Jezus wziął ze sobą Piotra, Jakuba i Jana, brata jego, i przeprowadził ich na wysoką górę na osobność. I został przemieniony przed nimi; i zajaśniało Jego oblicze jak słońce, a szaty Jego stały się białe jak światło.”\n\nPo tych fragmentach możemy powiedzieć, że Pan Bóg przyznaje się do Pana Jezusa i ta Boża światłość była Jego udziałem, została pokazana Jego uczniom, w wyjątkowy sposób dotknęła tych, którzy z Nim byli. Tak oni później się dzielili tym świadectwem, mówiąc o Nim i o tym, ile znaczy ta Boża światłość.\n\nPowinniśmy też nosić w sercu obraz Pana Jezusa jako tego Bożego światła dla każdego — dla Ciebie, dla mnie, dla wszystkich, którzy chcą.\n\nPo co jest ta Boża światłość? Dlaczego to wszystko? Wiemy, że Słowo Boże zachęca nas do przyjęcia Pana Jezusa do serca, do poznania Go jako Pana i Zbawiciela. Wtedy właśnie przychodzi ta Boża światłość.\n\nW 2 Liście do Koryntian, w rozdziale 4, w wersecie 6, czytamy:  \n\n„Bóg, który rzekł: z ciemności niech światłość zaświeci, rozświetlił serca nasze, aby zajaśniało poznanie chwały Bożej, która jest na obliczu Chrystusowym.”\n\nIdąc przez ciemną dolinę, nic nie widać, ale jak Dawid napisał: „choćbym chodził doliną cienia śmierci, zła się nie ulęknę, bo Ty jesteś ze mną.” Kiedy Pan Jezus jest z nami, ta ciemna dolina staje się rozświetlona.\n\nTa ciemna dolina nie jest już taka ciemna, bo dzięki Bożej światłości otrzymujemy wskazówki, jak przejść, jak iść dalej, co zrobić.\n\nPo to Pan Bóg daje nam Boże światło, abyśmy mogli przejść przez te ciemne doliny, bo w życiu są różne doświadczenia, jak napisał Salomon — złych dni jest wiele. Są to dni trudne, niewygodne, trudne do przeżycia.\n\nAle kiedy Pan Jezus jest z nami, gdy Jego światło rozświetla nasze życie, to jest nadzieja, w której możemy złożyć ufność i się nie zawieść.\n\nChwała naszemu Panu, że mamy taką obietnicę!\n\nJednak często w życiu budzą się w nas wątpliwości, zwłaszcza w trudnych doświadczeniach: czy ja w ogóle jestem nawrócony, czy oddałem swoje życie Panu? Czy można to jakoś zweryfikować? Kto może to zweryfikować? Kiedy pojawiają się te wątpliwości, nie pozwólmy, by wykraść z nas to, co stało się wcześniej, jakie doświadczenia mieliśmy z Bogiem.\n\nWiele razy po czasie przychodzi zwątpienie, zmaganie, pytania: co się dzieje z moim życiem, dlaczego przeżywam te ciemne doliny.\n\nKiedy przychodzą takie wątpliwości, mamy oparcie w Bożym Słowie. Zaraz zobaczymy, co może nas umocnić w przekonaniu, że naprawdę jesteśmy zbawieni i że Pan Jezus oddał za nas życie.\n\nChciałbym przeczytać fragment z Listu do Efezjan — to wskazówka dla tych, którzy mają wątpliwości, czy są na nowo narodzeni, którzy przeżyli nawrócenie, ale teraz się wahają.\n\nW 5 rozdziale, w wersecie 9 czytamy:  \n\n„Owocem światłości jest wszelka dobroć i sprawiedliwość i prawda.”\n\nJeśli Boża światłość jest w twoim życiu, jeśli się nawracasz, to pojawią się owoce — dobroć, sprawiedliwość i prawda. To są owoce Boże, nie ludzkie.\n\nJeśli tych owoców nie widzisz, warto się zastanowić, czy rzeczywiście się nawróciłeś.\n\nJeżeli owoce się pojawiają, wiedz, że zbawienie jest twoim udziałem, a wątpliwości odrzuć i idź za Panem.\n\nDziałaj w Jego mocy, w Jego duchu, a zobaczysz, że przejdziesz przez ciemne doliny.\n\nTo są wskazówki i rady dla nas.\n\nJednak nasz przeciwnik także widzi, że Boża światłość w naszym życiu jest dla niego złą wiadomością, dlatego też chce namieszać, chce zafałszować tę Bożą światłość.\n\nO tym przeczytamy w 2 Liście do Koryntian, rozdział 11, werset 14, gdzie Paweł pisze:  \n\n„I nic dziwnego, wszak i szatan przybiera postać anioła światłości.”\n\nZobaczmy — szatan przybiera postać anioła światłości. Chciałbym to trochę wyjaśnić.\n\nJeśli do naszego życia przychodzi anioł Pana, to jaka jest jego misja? Jaki jest jego cel? Zastanawiałem się nad tym. Ile razy w Słowie Bożym czytamy, że anioł przychodzi do kogoś i przekazuje wiadomość od Boga — wiadomość od Pana.\n\nCzyli jeśli przychodzi anioł, przynosi wiadomość od naszego Pana.\n\nA jeśli szatan przybiera postać anioła światłości, to już nie przynosi słowa od Pana, chociaż może się nam wydawać, że to jest wiadomość od Boga.\n\nTo jest zagrożenie!\n\nDlatego jeśli otrzymujemy różne doświadczenia, czy to w postaci wiadomości, czy jakichś objawień, powinniśmy je weryfikować.\n\nWeryfikacja polega na tym, że nie opieramy się na jednym fragmencie, bo często wybieramy tylko fragmenty Pisma, które nam pasują — a to jest niebezpieczne.\n\nMożemy mieć mylny obraz, że powinniśmy coś zrobić, bo tak „wskazuje Pismo\", ale to może być fałszywe światło, które szatan podaje.\n\nDajmy sobie radę, by sprawdzać te sygnały w świetle całego Słowa Bożego.\n\nNie jest to łatwe, nie ma jednej metody, ale ważne jest, by mieć rozeznanie i duchowe rozeznanie, które daje Duch Święty.\n\nTo jest walka duchowa, bo przeciwnik chce zafałszować Bożą światłość i wprowadzić zamęt.\n\nDlatego jesteśmy bardzo ostrożni w tym, co przyjmujemy jako Boże światło do naszego życia.\n\nTak więc dzisiaj rozważyliśmy ten ważny temat Bożej światłości — że Boża światłość jest potrzebna, pożądana i czymś, o co powinniśmy walczyć w naszym życiu.\n\nNiech Pan Bóg błogosławi nas wszystkich, abyśmy żyli w Jej blasku każdego dnia. Amen."
+  },
+  "cover": "/images/covers/E1C3m_cuodA.webp"
+}

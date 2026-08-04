@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import RadioHero from "./RadioHero.astro";
+import SermonsSection from "./SermonsSection.astro";
+import DonationsSection from "./DonationsSection.astro";
+import ContactSection from "./ContactSection.astro";
+import type { Locale } from "../i18n/utils";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+<BaseLayout locale={locale}>
+  <RadioHero locale={locale} />
+  <SermonsSection locale={locale} />
+  <DonationsSection locale={locale} />
+  <ContactSection locale={locale} />
+</BaseLayout>

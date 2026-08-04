@@ -1,0 +1,103 @@
+{
+  "date": "2023-11-05",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/VG89Mmr5fOQ/VG89Mmr5fOQ.opus",
+  "preacher": "Artur Kuder",
+  "title": "Wiara bezpieczna dla dzieci Bożych",
+  "summary": "Definicja wiary z Listu do Hebrajczyków (11:1–6) stanowi fundament kazania, które ukazuje wiarę jako pewność tego, czego nie widać, oraz jako warunek podobać się Bogu. Kaznodzieja podkreśla, że wiara, choć niewidzialna i nieracjonalna z punktu widzenia nauki, jest duchową rzeczywistością opartą na zaufaniu Bogu i Jego Słowu, z wezwaniem do patrzenia na Jezusa jako sprawcę i dokończyciela wiary (Hebr 12:1–2). W kazaniu poruszana jest także kwestia różnych obszarów, w które ludzie wierzą, oraz zachęta do refleksji nad autentycznością własnej wiary w kontekście świadectwa chrześcijańskiego.",
+  "duration": 3654,
+  "translations": {
+    "en": {
+      "title": "Faith Safe for God's Children",
+      "summary": "Faith is not just an invisible conviction but a lasting assurance that strengthens every child of God in daily life. This sermon reveals how to recognize true faith, anchored in Jesus Christ—the author and finisher of our salvation. By listening, you can better understand your spiritual journey and strengthen your trust in God's invisible yet reliable promises."
+    },
+    "uk": {
+      "title": "Віра, безпечна для дітей Божих",
+      "summary": "Віра — це не просто невидиме переконання, а тверда впевненість, що укріплює кожну дитину Божу у щоденному житті. Проповідь показує, як розпізнати справжню віру, орієнтиром якої є Ісус Христос — творець і завершувач спасіння. Слухаючи, можна краще зрозуміти свій духовний шлях і зміцнити довіру до невидимих, але надійних Божих обіцянок."
+    },
+    "ta": {
+      "title": "கடவுளின் பிள்ளைகளுக்கான பாதுகாப்பான நம்பிக்கை",
+      "summary": "நம்பிக்கை என்பது தெரியாமல் உணர்ச்சி மட்டும் அல்ல; இது ஒவ்வொரு கடவுளின் பிள்ளையையும் தினசரி வாழ்க்கையில் வலுப்படுத்தும் நிலையான உறுதிப்பாடு ஆகும். இந்த பிரசंगம் உண்மையான நம்பிக்கையை எவ்வாறு அடையாளம் காணலாம் என்பதைக் காட்டுகிறது, அதற்கான அடிக்குறை இயேசு கிரிஸ்து தான் – மீட்சியின் செயற்பாட்டாளர் மற்றும் நிறைவேற்றுபவர். கேட்கும்போது, உங்கள் ஆன்மிகப் பாதையை அடிப்படையாக புரிந்து கொள்வதுடன், தெரியாமல் இருந்தாலும் நம்பிக்கைக்குரிய கடவுளின் உறுதிகளுக்கான நம்பிக்கையை கூட வலுப்படுத்தலாம்."
+    },
+    "de": {
+      "title": "Sichere Glauben für Gottes Kinder",
+      "summary": "Glauben ist nicht nur eine unsichtbare Überzeugung, sondern eine beständige Gewissheit, die jedes Kind Gottes im Alltag stärkt. Die Predigt zeigt, wie man wahren Glauben erkennt, dessen Bezugspunkt Jesus Christus ist – der Urheber und Vollender unseres Heils. Beim Zuhören kann man den eigenen geistlichen Weg besser verstehen und das Vertrauen in die unsichtbaren, aber verlässlichen Verheißungen Gottes stärken."
+    },
+    "es": {
+      "title": "Fe segura para los hijos de Dios",
+      "summary": "La fe no es solo una creencia invisible, sino una certeza duradera que fortalece a cada hijo de Dios en la vida diaria. Este sermón muestra cómo reconocer la verdadera fe, cuyo referente es Jesucristo, el autor y consumador de la salvación. Al escuchar, podrás comprender mejor tu camino espiritual y fortalecer tu confianza en las promesas divinas, invisibles pero infalibles."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Ps 149",
+      "Ps 150",
+      "Hbr 11",
+      "Hbr 6",
+      "Hbr 12",
+      "1 Kor 15",
+      "Rz 1",
+      "J 5",
+      "J 8"
+    ],
+    "en": [
+      "Ps 149",
+      "Ps 150",
+      "Heb 11",
+      "Heb 6",
+      "Heb 12",
+      "1 Cor 15",
+      "Rom 1",
+      "John 5",
+      "John 8"
+    ],
+    "uk": [
+      "Пс 149",
+      "Пс 150",
+      "Євр 11",
+      "Євр 6",
+      "Євр 12",
+      "1 Кор 15",
+      "Рим 1",
+      "Ів 5",
+      "Ів 8"
+    ],
+    "ta": [
+      "சங்கீதம் 149",
+      "சங்கீதம் 150",
+      "எபிரேயர் 11",
+      "எபிரேயர் 6",
+      "எபிரேயர் 12",
+      "1 கொரி 15",
+      "ரோமர் 1",
+      "யோவான் 5",
+      "யோவான் 8"
+    ],
+    "de": [
+      "Ps 149",
+      "Ps 150",
+      "Hebr 11",
+      "Hebr 6",
+      "Hebr 12",
+      "1 Kor 15",
+      "Röm 1",
+      "Joh 5",
+      "Joh 8"
+    ],
+    "es": [
+      "Sal 149",
+      "Sal 150",
+      "Heb 11",
+      "Heb 6",
+      "Heb 12",
+      "1 Cor 15",
+      "Rom 1",
+      "Juan 5",
+      "Juan 8"
+    ]
+  },
+  "transcript": {
+    "pl": "Brata Artura, który dzisiaj będzie nam usługiwał Słowem Bożym, a również błogosławmy dzieci, które są na szkółkach. Tak, Panie Jezu, dziękujemy Ci za to, że dajesz nam, Panie Jezu, możliwość także tego, że nasze dzieci są uczone Twojego Słowa, Panie.\n\nBłogosław teraz nauczycieli, błogosław, Panie Jezu, te dzieci, które, Panie Jezu, uczą się Twojego Słowa, a również dotykaj się naszych serc, Panie Jezu, aby to, co dzisiaj położyłeś bratu na serce, Panie Jezu, było dla nas tym pokarmem, który będziemy wykonywali, Panie Jezu. Dziękujemy Ci, że dałeś nam Twoje Słowo, Panie, że dałeś nam samego siebie. Błogosław ten czas, Panie, niech będzie Tobie chwała, cześć i uwielbienie. Amen. Amen.\n\nChwała Bogu. Niech będzie naszemu Panu Jezusowi Chrystusowi chwała! Tak bardzo się cieszę, że mogliśmy uwielbiać Pana Jezusa Chrystusa, bo jak mówi Psalm 149 i Psalm 150: niech wszystko, co żyje, chwali Pana. Niech każde tchnienie i wszystko, co żyje, chwali Pana. Na cytrach, na bębnach chwalmy Pana. Amen.\n\nKochani bracia, kochane siostry, drodzy słuchacze, dzisiaj tematem tej usługi jest \"Wiara bezpieczna dla dzieci Bożych\", czyli będziemy rozmawiać o wierze, będziemy rozmawiać o prawdzie. Na początek otwórzmy List do Hebrajczyków. I jak wielu z was się domyśla, przeczytamy początek tego listu do Hebrajczyków. Wielu mówi, że ten początek to definicja wiary i można by tak oczywiście powiedzieć — to jest prawda:\n\n„A wiara jest pewnością tego, czego się spodziewamy, przeświadczeniem o tym, czego nie widzimy.” (Hebrajczyków 11:1)\n\nWszak jej zawdzięczają przodkowie chlubne świadectwo. I w szóstym wersecie: „Bez wiary zaś nie można podobać się Bogu. Kto bowiem przystępuje do Boga, musi uwierzyć, że On istnieje i że nagradza tych, którzy Go szukają.”\n\nWidzimy, że wiara to jest coś, co jest pewnością — tak mówi tu Słowo Boże — to jest przeświadczenie. Nie jesteśmy w stanie doświadczyć tego w sposób fizyczny, nie jesteśmy w stanie doświadczyć tego naszymi zmysłami. Apostoł mówi, że jest to przeświadczenie o tym, czego nie widzimy, jest to pewność tego, czego się spodziewamy, ale tego jeszcze nie ma. Nie jesteśmy w stanie tego zbadać fizycznie, nie jesteśmy w stanie tego dotknąć ani zobaczyć czy usłyszeć bezpośrednio. Ale to jest coś, co odnosi się do tego, co było — odnosi się do tego, co jest, czyli do teraźniejszości — ale także do przyszłości.\n\nI jedną kartkę dalej, ten sam autor mówi w 12. rozdziale: „Przeto i my, mając około siebie tak wielki obłok świadków, złożywszy z siebie wszelki ciężar i grzech, który nas usidla, biegnijmy wytrwale w wyścigu, który jest przed nami, patrząc na Jezusa, sprawcę — podkreślam: sprawcę — i dokończyciela wiary (…).”\n\nTo jest takie podsumowanie 11. rozdziału, który opisuje wielu bohaterów wiary, mówi o wielu ludziach, którzy uwierzyli Bogu, Jego Słowu, i zdobyli chlubne świadectwo.\n\nZamiast doznać należnej Mu radości, Jezus wycierpiał krzyż, nie bacząc na Jego hańbę, i usiadł na prawicy tronu Bożego. „Przeto pomyślcie o tym, który od grzeszników zniósł tak wielkie sprzeciwy, abyście nie upadali na duchu utrudzenia.”\n\nApostoł tutaj pragnie, aby Słowo Boże, aby Bóg przez swoje Słowo nas podniósł, aby chrześcijanie mieli chlubne świadectwo, patrząc na tych, których opisuje w 11. rozdziale, wyjaśniając, czym jest wiara i pokazując, że to Jezus Chrystus jest sprawcą i dokończycielem — On jest Alfa i Omega, początek i koniec. Patrzcie, opisuje, abyśmy na Niego patrzyli, nie tylko zerkali, ale patrzyli ustawicznie na Jezusa Chrystusa.\n\nKochani bracia, kochane siostry, Bóg tak często zadaje nam pytania i z tego miejsca, i wierzę, że także w życiu osobistym, gdy mamy z Nim społeczność: gdzie patrzymy? Gdzie wędrują nasze oczy? Czego słuchają nasze uszy? Na co patrzymy i czego słuchamy?\n\nBóg pragnie przez to Słowo zachęcić nas, abyśmy spojrzeli na Jezusa.\n\nChciałbym, żebyśmy jeszcze, zanim więcej będę mówił o wierze, przeczytali taki fragment z Listu apostoła Pawła do Rzymian. \n\nAle zanim to uczynimy, jeszcze raz usłyszmy definicję wiary z Hebrajczyków 11:1–6 (już omawianą), by dobrze to utrwalić, ponieważ jest to fundament wiary.\n\nWidzimy, że jest to pewność, przeświadczenie czegoś, czego nie widać, i to jest zarazem podstawa do podobać się Bogu.\n\nWiara to ciągle jest coś, czego nie da się potwierdzić doświadczalnie, co nie jest materialne i namacalne, to jest duchowe.\n\nCzęsto nie potrafimy tego zbadać naukowo, nie możemy powiedzieć z absolutną pewnością, jak było miliony lat temu — to są cały czas przypuszczenia na podstawie różnych danych naukowych, ale równie dobrze można to interpretować na wiele innych sposobów. Nie będę teraz zagłębiał się w te szczegóły, ponieważ nie o to chodzi, ale chciałem podać Wam taki przykład. Takich przykładów można mnożyć wiele — są to tak zwane dowody naukowe, które w zależności od interpretacji bywają przyjmowane lub odrzucane. I nie mówię tu tylko o pochodzeniu człowieka, ale o wielu innych rzeczach, których uczymy się w szkołach, czy które czytamy w czasopismach naukowych, gdzie pojawiają się różne twierdzenia ekspertów, także teologów.\n\nMówię tu ogólnie o wierze — wiele różnych teorii, które ludzie mogą przyjąć albo odrzucić. To od Ciebie i ode mnie zależy.\n\nTo jest cały czas wiara.\n\nI wierzę, że Duch Święty chce zadać nam pytanie: w co my wierzymy? W co człowiek potrafi wierzyć? Każdy z nas powie: „Przecież, Artur, jesteśmy dziećmi Boga, jesteśmy chrześcijanami, my wierzymy w Słowo Boże, tylko i wyłącznie.” Czy aby na pewno? Czy aby na pewno wierzymy tylko i wyłącznie w Słowo Boże? Zadajmy sobie to pytanie: ile jest w naszym życiu różnych rzeczy, w które wierzymy, a które nie pochodzą stricte ze Słowa Bożego? Wierzymy — czy ludzie ogólnie, czy my jako chrześcijanie — potrafimy wierzyć w różne źródła, którym ufamy: podania naszych przodków, babci, dziadka, taty, mamy, podania historyków.\n\nMówi się, że historię piszą zwycięzcy. Jak wiele faktów w cudzysłowie historycznych jest subiektywnych! Wyobraźcie sobie, jak inaczej patrzy się na historię II wojny światowej w Niemczech, inaczej w Polsce, a inaczej w Rosji. Dlaczego tak jest? Bo wielu ludzi wierzy — jedni są bliżej prawdy, drudzy daleko od niej. Jedni coś widzieli, słyszeli, inni nie. Wciąż wiele osób wierzy.\n\nWielokrotnie my w życiu, również jako chrześcijanie, gdy rozmawiamy z ludźmi, opieramy się na opisach i opiniach innych, którzy byli świadkami różnych wydarzeń. Nie jesteśmy ich w stanie często zweryfikować. Albo uwierzymy, albo nie. Albo dana osoba jest dla nas wiarygodna, albo nie. Często zdarza się, że my jako chrześcijanie potrafimy bardzo łatwo ocenić kogoś lub jakąś sytuację, wydać werdykt, ale nie znamy całego kontekstu jego życia czy wypowiedzi. Biblia przestrzega nas, żebyśmy nie sądzili pochopnie. Pan Jezus o tym często mówił, między innymi do faryzeuszów.\n\nTo mój krótki wywód na temat wiary, abyśmy zastanowili się nad naszym sercem, bo jestem od pewnego czasu bardzo zdumiony tym, w co ludzie potrafią wierzyć.\n\nWidzę też ciekawy przykład — w 15. rozdziale 1. Listu do Koryntian Paweł opisuje zmartwychwstanie. Byli ludzie, którzy widzieli zmartwychwstałego Jezusa — to nie była garstka, było ich wielu. Jednak niektórzy zaprzeczali zmartwychwstaniu. Apostoł Paweł mówi o nich w tym samym rozdziale.\n\nCi, którzy widzieli Pana Jezusa, nie musieli w to wierzyć — oni to widzieli. Inni zaś, którzy nie mogli zobaczyć, tylko słyszeli o tym, musieli uwierzyć, że zmartwychwstanie jest, i że jako pierwszy zmartwychwstał Chrystus.\n\nCzęsto tak jest, że jedni czegoś doświadczają, a dla innych jest to kwestia wiary. Pan Jezus powiedział: „Błogosławieni są ci, którzy nie widzieli, a uwierzyli.” \n\nJest to dla mnie bardzo zaskakujące. Mam już prawie czterdzieści lat i myślałem, że wiem o tym wcześniej, ale dopiero od kilku lat jestem zdumiony tematem wiary: jak człowiek potrafi wierzyć.\n\nLudzie mogą poświęcić całe swoje życie, wszystkie pieniądze, rodzinę i życie fizyczne dla tego, w co wierzą. I nie mówię tu tylko o wierze w Słowo Boże, ale też o różnych religiach czy wyznaniach, które są dzisiaj. Ludzie w coś wierzą — albo zostali do tego wychowani, albo sami znaleźli takie przekonania, ponieważ wierzymy zarówno w słowo czytane, jak i w słowo mówione.\n\nZobaczmy, ile jest różnych denominacji chrześcijańskich lub pseudochrześcijańskich. Jedni mówią: „My jesteśmy prawdziwymi chrześcijanami.” Drudzy uważają, że inni to fałszywe kościoły. Jest wiele różnych związków wyznaniowych lub denominacji.\n\nTemat wiary jest w ich życiu i w naszym życiu ciągle ważny — każdy wierzy w coś, co uważa za prawdę.\n\nChciałbym przytoczyć wypowiedź jednej z pań doktor, wykładowczyni na Uniwersytecie Śląskim, sprzed około 15–20 lat (nie wiem, czy jeszcze pracuje, ale jej słowa są dla mnie ważne).\n\nPowiedziała bardzo ważną rzecz: „Bezwarunkowo należy wierzyć tylko Biblii. We wszystko inne należy wątpić.” \n\nPowiecie na to: Amen?\n\nKochani bracia i siostry, to są ważne słowa!\n\nTeraz zbadajmy swoje serca: ile wierzymy w różne rzeczy, które nie pochodzą z kart Pisma Świętego i przesłania Ducha Świętego? A jeśli w nie wierzymy, czy robimy to bezwarunkowo, czy z dystansem, z wątpieniem?\n\nMożemy mieć własne przekonania, Bóg nie zabrania nam mieć swojego zdania. Ale czy podchodzimy do tego bezwarunkowo, czy z dystansem i pokładamy ufność głównie w Słowie Bożym?\n\nPan Jezus powiedział: „Ojcze, Twoje Słowo jest prawdą.”\n\nJako dziecko Boże, jako chrześcijanin, który doświadczył prawdy Słowa Bożego, wierzę, że tak samo jest z Wami — że Słowo Boże jest prawdą i tym, w co należy bezwarunkowo ufać i wierzyć.\n\nTo „wierzę” ma nas sądzić i zachęcać, żebyśmy spojrzeli w głąb siebie i zastanowili się: ile w moim życiu jest prawdy Słowa Bożego? Albo żebyśmy zapytali Boga, który jedynie jest w stanie to ocenić i osądzić, ile jest dodatkowych rzeczy, które mogą nam przeszkadzać lub być fałszywe.\n\nKochani bracia i siostry, w naszym życiu jako chrześcijan może się zdarzyć, że chcemy być bardzo oczytani, poinformowani i wyedukowani. Oczywiście dzieci Boże powinny być oczytane i poinformowane, ale czy zawsze to jest dobre?\n\nNie mam jednoznacznej odpowiedzi, ale wierzę, że czasami taka wiedza może nas zwieść — przez pychę, przez dumę, przez namiętność poznawania.\n\nMoże się wtedy zdarzyć, że Słowo Boże zostanie przyćmione albo odstawione w naszym życiu, albo będziemy próbowali dopasować Słowo Boże do tego, co my już wiemy, „bo przecież nauka tak mówi”, „bo ja to wyczytałem”, „bo ja tak uważam”.\n\nApostoł Paweł często przestrzega przed rzekomą prawdą.\n\nChciałbym teraz po tym wprowadzeniu przeczytać kilka fragmentów Słowa Bożego, gdzie Pan Jezus mówi o prawdzie.\n\nOtwórzmy Ewangelię Jana, piąty rozdział, werset 41 i 42:\n\n„Nie przyjmuję chwały od ludzi, ale znam was, że nie macie w sobie miłości Bożej. Ja przyszedłem w imieniu Ojca mego, a wy mnie nie przyjmujecie. Jeśli ktoś inny przyjdzie we własnym imieniu, tego przyjmiecie. Jakże możecie wierzyć, wy, którzy nawzajem od siebie przyjmujecie chwałę, a nie szukacie chwały pochodzącej od tego, który jedynie jest Bogiem?”\n\nKochani bracia i siostry, to jest kwintesencja. Taki jest człowiek: łatwo przyjmujemy chwałę od innych, łatwo znajdziemy grupę ludzi, którzy uwierzą tak samo jak my.\n\nPan Jezus mówi: „Ja przyszedłem w imieniu Ojca mego, a wy mnie nie przyjęliście. Jeśli ktoś przyjdzie we własnym imieniu, tego przyjmiecie.”\n\nAle ten, kto przyjmuje Pana i Jego Słowo, nie chce zabiegać o to, by przyjmować chwałę od ludzi, lecz chce żyć w prawdzie.\n\nW wersecie 42 dodaje, że w takich ludziach, którzy przyjmują Pana, jest miłość Boża.\n\nPan Jezus mówi: „Ja nie przyjmuję chwały od ludzi” — piękna postawa, aby wykonywać to, co Ojciec dał Mu do wykonania.\n\nJan 8:31–32: „Mówił więc Jezus do Żydów, którzy uwierzyli w Niego: jeśli wytrwacie w Słowie moim, prawdziwymi uczniami moimi będziecie i poznacie prawdę, a prawda was wyswobodzi.”\n\nKochani, jedyną rzeczą, która potrafi nas wyswobodzić, jest prawda Ewangelii, prawda Słowa Bożego.\n\nTo nie jest to, czego się nauczymy od innych, ale to Słowo żyje we mnie i ja w Nim.\n\nCzy Duch Święty odkrywa mi i przypomina Słowo Jezusa?\n\nKochani bracia i siostry, wierzę, że każdy z nas chce tak żyć — być w Nim i tylko w Nim.\n\nNie chcemy, żeby żadne „robaki” na liściach naszego życia, czyli grzechy i kłamstwa, zgryzały nas.\n\nW wersecie 43 tego samego rozdziału Pan Jezus mówi: „Dlaczego mowy mojej nie pojmujecie? Dlatego, że nie potraficie słuchać Słowa mojego. Ojcem waszym jest diabeł, i chcecie czynami iść za pożądliwością ojca waszego.”\n\nDiabeł to mężobójca od początku, nie ma prawdy w Nim, gdy mówi kłamstwo, mówi od siebie. Ponieważ ja, Jezus, mówię prawdę, nie wierzycie mi.\n\n„Kto jest z Boga, ten słucha Słów Bożych.”\n\nNie słuchacie, bo nie jesteście z Boga.\n\nTrudne słowa, ale pokazują serce człowieka: ile jest w nas prawdy, a ile kłamstwa.\n\nCały czas trwa bitwa o prawdę.\n\nJan 18:37: Piłat pyta: „Czy Ty jesteś Królem?” Jezus odpowiada: „Sam mówisz, że jestem Królem. Narodziłem się, aby dawać świadectwo prawdzie. Każdy, kto jest z prawdy, słucha głosu mego.”\n\nPiłat pyta: „Co to jest prawda?”\n\nKochani, czy potrafimy słuchać Słowa Chrystusa? Czy nasze serce jest otwarte na Jego Słowo, czy też zajmują je rzekome prawdy?\n\nApostoł Paweł w 1 Liście do Koryntian 13:6 mówi, że miłość nie raduje się z niesprawiedliwości, ale raduje się z prawdy.\n\nPrawdziwa miłość cieszy się z prawdy, że żyjemy w prawdzie.\n\n1 List do Tymoteusza 3:14–17 mówi o odstępstwie i o człowieku niegodziwości — synu zatracenia — który wynosi się ponad wszystko, co się zwie Bogiem lub jest przedmiotem boskiej czci, a udaje Boga.\n\nPóźniej Pan Jezus go pokona i zniszczy.\n\nTen człowiek przyjdzie z wielką mocą, wśród znaków i rzekomych cudów, by zwieść tych, którzy nie przyjęli miłości prawdy, która mogła ich zbawić.\n\nBóg zsyła na nich obłęd, aby uwierzyli kłamstwu i zostali osądzeni.\n\nTrudne słowa, ale to ostrzeżenie, by nie dać zwieść się kłamstwu.\n\nW Ewangelii Łukasza 18:7–8 Pan Jezus pyta, czy znajdzie wiarę na ziemi, gdy Syn Człowieczy przyjdzie.\n\nWierzę, że znajdzie — ale jaką? Czy prawdziwą, czy rzekomą?\n\nMy mamy być tym Kościołem, filarem i podwaliną prawdy, i zwiastować prawdę, wyrzec się kłamstwa.\n\nW Ewangelii Łukasza 8:5–15 Pan Jezus mówi przypowieść o siewcy, który rozsiewa ziarno — czyli Słowo Boże.\n\nCzęść pada na drogę, gdzie zdeptano je lub ptaki zjadły, część na opokę, ale uschło, część między ciernie, które je zdusiły, a część na ziemię dobrą, która wydała plon sto razy większy.\n\nSłowo Boże to ziarno, a ziarno jest nieustannie zagrożone.\n\nDiabeł chce wydziobać je z naszego życia, a ciernie i chwasty zaduszają prawdę.\n\nBóg jest cierpliwym ogrodnikiem, który chce plewić chwasty w naszym życiu, co często jest bolesne, gdy trzeba zrezygnować z własnej racji czy fałszywej prawdy i pokornie się przed Bogiem ukorzyć.\n\nSłowo Boże jest źródłem prawdy i wiary.\n\nW Ewangelii Jana 14:16–18 i 15:26–27 Pan Jezus mówi o Duchu Świętym, Duchu prawdy, który będzie z nami na wieki, i złoży świadectwo o Nim.\n\nMy także mamy składać świadectwo.\n\nTo jest świadectwo prawdy naszego życia, że Słowo Boże ma moc nas zmieniać i podnosić.\n\nDzisiaj będziemy też celebrować pamiątkę śmierci naszego Zbawiciela, ponieważ Jego Słowo jest prawdą, a On złożył swoje ciało jako okup za nas.\n\nMamy żyć w prawdzie i wyrzec się tego, co nie jest prawdą, choć czasem my uważamy to za prawdę.\n\nNa koniec przeczytajmy fragment Psalmu 119, który jest pochwałą Słowa Bożego. Weźmy na przykład werset 43:\n\n„Nie odejmuj też nigdy słowa prawdy od ust moich, gdy pokładam nadzieję w prawach Twoich.” \n\nZawsze strzec będę zakonu Twojego po wieki wieczne.\n\nKochani bracia i siostry, życzę Wam pokoju, prawdy i miłości, które wynikają ze Słowa Bożego i mocy Ducha Świętego.\n\nNiech Chrystus odnajdzie w nas wiarę, gdy przyjdzie — i to nie byle jaką wiarę, lecz wiarę w Słowo Boże, wiarę wynikającą z Jego myśli i prowadzenia przez Ducha Świętego i Słowo.\n\nNiech Bóg błogosławi Wam i nam wszystkim. Amen."
+  },
+  "cover": "/images/covers/VG89Mmr5fOQ.webp"
+}

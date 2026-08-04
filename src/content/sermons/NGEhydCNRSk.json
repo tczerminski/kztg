@@ -1,0 +1,109 @@
+{
+  "date": "2023-08-09",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/NGEhydCNRSk/NGEhydCNRSk.opus",
+  "preacher": "Czesław Ferdynand",
+  "title": "Czy można dzisiaj widzieć i słyszeć Boga? cz. 30",
+  "summary": "List do Rzymian 8:14–17 ukazuje, że Duch Boży prowadzi wierzących do synostwa Bożego, dzięki któremu stają się współdziedzicami Chrystusa. Tematem kazania jest miejsce cierpienia w życiu chrześcijanina — jest ono nieodłącznym elementem duchowego wzrostu i wypróbowania wiary. Kaznodzieja podkreśla, że cierpienie nie oznacza braku błogosławieństwa, lecz jest znakiem przynależności do Boga i udziału w Jego chwale.",
+  "duration": 3225,
+  "translations": {
+    "en": {
+      "title": "Can We See and Hear God Today? Part 30",
+      "summary": "Is suffering a sign of blessing or spiritual crisis? This sermon draws from the Letter to the Romans, revealing that hardships accompany the journey of those led by the Spirit of God as children and co-heirs with Christ. Through trials, God's work is revealed and the foundation of faith is strengthened, remaining steadfast amid all challenges."
+    },
+    "uk": {
+      "title": "Чи можна сьогодні бачити і чути Бога? Ч. 30",
+      "summary": "Чи є страждання знаком благословення чи духовної кризи? Проповідь звертається до Послання до римлян, показуючи, що труднощі супроводжують шлях тих, кого веде Дух Божий як дітей і співспадкоємців Христа. Через турботи виявляється Боже діяння і зміцнюється фундамент віри, стійкий перед будь-якими випробуваннями."
+    },
+    "ta": {
+      "title": "இன்று கடவுளை காணவும் கேட்பதும் முடியுமா? பகுதி 30",
+      "summary": "வலி ஆசீர்வாதத்தின் குறியீடா அல்லது ஆன்மீகப் பிரச்சினையா? ரோமர் ஆண்டு எழுத்துக்கு இக்கழுத்து செல்கிறது, கடவுளின் ஆன்மாவால் நடத்தப்படுகிறவர்கள் மற்றும் கிறிஸ்துவின் பிள்ளைகள் என்ற வகையில் உள்ளவர்களின் பாதையில் சிக்கல்கள் ஏற்படுவதை எடுத்துக்காட்டுகிறது. கவலையின் மூலம் கடவுள் செயல் வெளிப்பட்டு, நம்பிக்கையின் அடித்தளம் வலுவடைந்து, எந்த எதிர்ப்புகளையும் தாங்கி நிற்கிறது."
+    },
+    "de": {
+      "title": "Kann man heute Gott sehen und hören? Teil 30",
+      "summary": "Ist Leid ein Zeichen von Segen oder ein Zeichen einer geistlichen Krise? Die Predigt greift den Brief an die Römer auf und zeigt, dass Schwierigkeiten den Weg derer begleiten, die vom Geist Gottes als Kinder und Miterben Christi geführt werden. Durch Sorgen offenbart sich Gottes Wirken und stärkt das Fundament des Glaubens, beständig gegenüber allen Widrigkeiten."
+    },
+    "es": {
+      "title": "¿Se puede ver y escuchar a Dios hoy? parte 30",
+      "summary": "¿Es el sufrimiento una señal de bendición o una crisis espiritual? Este sermón se adentra en la Carta a los Romanos, mostrando que las dificultades acompañan el camino de aquellos a quienes el Espíritu de Dios guía como hijos y coherederos de Cristo. A través de las preocupaciones se manifiesta la obra divina y se fortalece el cimiento de la fe, firme ante toda adversidad."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rz 8",
+      "2 Kor 12",
+      "Mt 7",
+      "2 Tm 3",
+      "Flp 1",
+      "1 Tes 1",
+      "J 15",
+      "Dz 14",
+      "Mt 10",
+      "Łk 9"
+    ],
+    "en": [
+      "Rom 8",
+      "2 Cor 12",
+      "Matt 7",
+      "2 Tim 3",
+      "Phil 1",
+      "1 Thess 1",
+      "John 15",
+      "Acts 14",
+      "Matt 10",
+      "Luke 9"
+    ],
+    "uk": [
+      "Рим 8",
+      "2 Кор 12",
+      "Мт 7",
+      "2 Тим 3",
+      "Флп 1",
+      "1 Сол 1",
+      "Ів 15",
+      "Дії 14",
+      "Мт 10",
+      "Лк 9"
+    ],
+    "ta": [
+      "ரோமர் 8",
+      "2 கொரிந்தியர் 12",
+      "மத்தேயு 7",
+      "2 தீமோத்தேயு 3",
+      "பிலிப்பியர் 1",
+      "1 தசலோனிக்கெயர் 1",
+      "யோவான் 15",
+      "அப்போஸ்தலர் 14",
+      "மத்தேயு 10",
+      "லூக்கா 9"
+    ],
+    "de": [
+      "Röm 8",
+      "2 Kor 12",
+      "Matt 7",
+      "2 Tim 3",
+      "Phil 1",
+      "1 Thess 1",
+      "Joh 15",
+      "Apg 14",
+      "Matt 10",
+      "Lk 9"
+    ],
+    "es": [
+      "Rom 8",
+      "2 Cor 12",
+      "Mat 7",
+      "2 Tim 3",
+      "Flp 1",
+      "1 Tes 1",
+      "Juan 15",
+      "Hch 14",
+      "Mat 10",
+      "Lc 9"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was serdecznie w to środowe popołudnie. Miło mi, że znowu spotykamy się i pragniemy, myślę, wszyscy razem wspólnie studiować Słowo Boże. Chciałem przekazać jedno ogłoszenie. Najpierw nie zapowiedzieliśmy tego w niedzielę, ale we wtorek jest ślub naszej siostry Magdy Waloszczyk z Rafałem. Nie ogłosiliśmy zebrania darów, więc z jednej strony przesyłamy tę informację pocztą elektroniczną, ale również przypominam tutaj, jeśli ktoś nie dostał albo nie był na liście, gdzie to się normalnie przesyła.\n\nChciałbym, zanim zaczniemy rozważać dzisiaj Słowo Boże, abyśmy również dziś pochyli li głowy i przyszli przed Boży Majestat.\n\nDrogi Ojcze, jakże wdzięczni jesteśmy Tobie, Panie, że Ty nas usynowiłeś i również, Boże drogi, że zmieniłeś nasze serce, naturę naszą. Ten nowy człowiek, ta nowa natura, która się odrodziła, Panie, tak każdego dnia powinna przychodzić przed tron łaski Twojej i mieć z Tobą społeczność. I dzisiaj również, Panie, na tym miejscu chcemy, abyś zasiadł tu między nami, Panie, i również kładł na nasze serca prawdę Słowa Twojego. Chcemy wzrastać, Panie, chcemy doświadczać Cię i również chcemy, Boże drogi, aby Słowo Twoje odkrywało przed nami tajemnice, Panie, i abyśmy, Boże drogi, trzymali się prawdy, abyś ugruntował nas, Panie, i my, abyśmy byli mocni w wierze i każdego dnia w tym boju wiary, Panie, mogli odnosić zwycięstwo przez Syna Twojego, Pana Jezusa Chrystusa. Amen.\n\nNo, jak sami wiecie, może temat już wam troszeczkę się, że tak powiem, przedłuża, ludzi rozważamy sposób komunikowania się Boga z człowiekiem, jak Bóg przemawia, jak Bóg również w tym apelu do nas, takim osobistym, pragnie z nami mieć społeczność i również objawiać nam swoją wolę względem naszego życia.\n\nPoprzednie nasze spotkania skupiliśmy się na tym, co tak w wielu sercach budzi dzisiaj wątpliwości, a niektórzy wręcz są przeciwni: jak można cierpieć, jak można przeżywać cierpienie i jest to zgodne z wolą Bożą? Ale jak widzimy, Słowo Boże na ten temat ma wiele do powiedzenia i wskazuje nam wyraźnie, że to jest prawda. I ci, którzy tak jednoznacznie sprzeciwiają się takiemu, załóżmy, głoszeniu nauki i tak wyraźnie mówią, że jest to niemożliwe, jednak patrząc i badając Słowo Boże, widzimy, że jest to prawdą Bożą.\n\nOstatnio badaliśmy, jaką powinniśmy mieć względem cierpienia, które przychodzi do nas, postawę serca. Widzieliśmy również, co na ten temat mówi apostoł Paweł i Piotr, jak również widzieliśmy tutaj, że z cierpienia można w naszym życiu odnieść pewne korzyści. Dziwnie to brzmi, ale jednak Słowo Boże mówi nam jednoznacznie, że poprzez cierpienie zostaje wypróbowana nasza wiara.\n\nInna, tutaj wynikająca z tego doświadczenia sprawa, to jest to, że możemy również tym, którzy przeżywają podobne doświadczenia, które przynoszą im cierpienie, pomóc, przynieść im w tym momencie pocieszenie. To jednoznacznie również nam pokazuje, że nie powinniśmy tak bardzo polegać na sobie, ale w każdej chwili naszego życia odwoływać się do Pana, do Stwórcy, i mieć pewność, że On w taki czy inny sposób odpowie nam na wołanie i głos naszego serca.\n\nNie powinniśmy polegać na własnym rozumie, na tej wiedzy, którą posiadamy dzisiaj. Słowo Boże jednoznacznie mówi, że to jest wszystko cząstkowe i przemijające, a jednak Pan okazał nam miłosierdzie i w taki cudowny sposób do dzisiaj do nas przemawia i chce mieć z nami bliską więź i relację.\n\nCierpienie również przynosi nam w pewnym okresie to, że wykształcają się w nas pozytywne cechy chrześcijanina. Również patrząc na Słowo Boże, widzieliśmy tutaj w życiu Pana Jezusa, jak to wyglądało i wiemy, że On jest dla nas wzorem, jest dla nas przykładem.\n\nDzisiaj nasze rozważania chciałbym rozpocząć od listu do Rzymian, ósmego rozdziału. Otwórzmy sobie ósmy rozdział listu apostoła Pawła do Rzymian i pozwolę sobie przeczytać trzy, a może cztery wersety. Skleiły mi się tu strony, przepraszam. Od czternastego wersetu:\n\n„Bo ci, których Duch Boży prowadzi, są dziećmi Bożymi. Wszak nie wzięliście Ducha niewoli, by znowu ulegać bojaźni, lecz wzięliście Ducha synostwa, w którym wołamy: Abba, Ojcze. Ten Duch świadczy we współdziałaniu z Duchem naszym, że dziećmi Bożymi jesteśmy.”\n\nChciałem zwrócić na to uwagę, że Biblia nas uczy, iż Duch Boży jest, ale jest również nasz duch, którego posiadamy. Nie jest to tożsame.\n\nDalej, w siedemnastym wersecie: „A jeśli dziećmi, to i dziedzicami, dziedzicami Bożymi, a współdziedzicami Chrystusa, jeśli tylko razem z Nim cierpimy, abyśmy także razem z Nim uwielbieni byli.”\n\nA więc widzimy tutaj, że z jednej strony Słowo Boże mówi o wielkiej łasce — jesteśmy dziećmi Bożymi, otrzymujemy nową naturę. Razem z tym wydarzeniem stajemy się dziedzicami samego Boga, współdziedzicami Pana Jezusa Chrystusa.\n\nWidoczna jest również prawda o cierpieniu. To jest pewnego rodzaju wydarzenie, które w naszym życiu będzie i powinno występować. To jest to, co chcemy zbadać w Słowie Bożym — cierpienie.\n\nJeśli razem z Nim cierpimy, abyśmy także razem z Nim uwielbieni byli. A więc widzimy, że cierpienie jest oznaką synostwa, oznaką współdziedzictwa tego, co Bóg nam ofiarowuje. Nie jest to, tak jak niektórzy jednoznacznie twierdzą, coś, co znaczy, że w Twoim życiu jest coś nie w porządku, że musisz to natychmiast zbadać, sprawdzić, jaka jest przyczyna, dlaczego nie masz błogosławieństwa i dlaczego występuje bez względu na rodzaj — źródło cierpienia.\n\nOczywiście to należy badać, i myślę, że przyjdzie czas na omawianie, w jaki sposób to badać, jeśli coś takiego w naszym życiu występuje i nas spotyka. Ale widzimy jednoznacznie, że Słowo Boże w wielu fragmentach pokazuje nam wyraźnie, że cierpienie wśród chrześcijan nie jest czymś anormalnym, ani jak niektórzy mówią, absurdalnym.\n\nApostoł Paweł w drugim liście do Koryntian, dwunastym rozdziale, bardzo mocno odnosi się do siebie i tego, co doświadczał, jak żył i jakie cierpienia spotykały go w życiu. W dziewiątym wersecie mówi:\n\n„Lecz powiedział do mnie: Dosyć masz, gdy masz łaskę moją. Albowiem pełnia łaski Bożej sprawia, że moc swoją okazuje w słabości.”\n\nPatrząc na ten fragment Słowa Bożego, widzimy, że cierpienie należy do elementów chwilowych, przemijających, które w przyszłości, w Królestwie Bożym, nie będą miały miejsca.\n\nPan Jezus, kiedy żył, pokazywał nam również, na czym powinniśmy budować, jaki powinien być fundament naszego życia. Wielu z nas zna fragment Słowa Bożego, gdzie Pan Jezus mówi o dwóch fundamentach — w Ewangelii Mateusza, siódmym rozdziale. Pozwolę sobie przeczytać ten fragment, zwracając uwagę na inny kontekst wypowiedzi Pana Jezusa.\n\nMówi o dwóch fundamentach: jeden mocny, którym jest skała, a drugi, na którym budujemy na piasku — na elementach niepewnych, przejściowych, nietrwałych. Budynek naszej wiary w tym momencie jest bardzo słaby i może ulec zburzeniu oraz katastrofie.\n\nObydwa elementy, jak powiedziałem, są poddane próbie wskazanej przez Pana Jezusa. I widzimy, że ci, którzy są zbudowani na opoce, również będą przeżywali próby. Te próby dzięki temu, że fundament jest trwały, dom wiary przetrwa, a próba zostanie zwycięsko pokonana.\n\nNatomiast ten, który fundamentu nie ma, straci swój dom — jego dom się zawali.\n\nJednak Pan Jezus podkreśla, że ta próba będzie zawsze.\n\n„Każdy więc, kto słucha tych słów moich i wykonuje je, będzie przyrównany do męża mądrego, który zbudował dom swój na opoce. I spadł deszcz ulewny, wezbrały rzeki, powiały wiatry i uderzyły na ów dom, ale on nie runął, gdyż był zbudowany na opoce.”\n\nMyślę, że to nie jest nadinterpretacja, gdy powiem, że to jest właśnie dom wiary, postawa chrześcijańska, gdy jesteśmy ugruntowani na Jezusie Chrystusie. Ale Pan wyraźnie mówi, że przyjdą doświadczenia, próby wiary dotkliwie odczuwalne.\n\nWidzimy więc, że te burze, wichry i doświadczenia przychodzą także do tych, których fundamentem jest Jezus Chrystus. I my takie doświadczenia przechodzimy. Nie powinny one być powodem wątpliwości czy załamania, ale wręcz przeciwnie — postawa wobec cierpienia i doświadczeń powinna być wezwaniem przynoszącym radość i pokój, że jesteśmy godni ponosić pewien koszt za Ewangelie Bożą.\n\nChciałbym jeszcze wspomnieć o powodzi tysiąclecia w 1997 roku. Dla niektórych było to dawno, ale dla innych — świeże wydarzenia. Jednym z dotkniętych miast był Wrocław, gdzie około 40% powierzchni zostało zalane.\n\nJeden z braci opowiadał, jak pływał pontonem, aby dostać się do swojej teściowej. To pokazuje, że pomimo zabezpieczeń ludzie nie przewidywali takiego kataklizmu.\n\nWłaśnie na polderach wokół Odry budowano domy, mimo że te tereny były przygotowane na zalewanie, aby chronić inne rejony. Ludzie jednak kupowali działki i budowali, bo „nigdy nie było takich sytuacji”. W 1997 roku ich domy zostały zmyte.\n\nWidzimy, że mimo naszego przygotowania, wiary w „nigdy nie będzie”, przychodzi ludzka słabość wobec sił natury i nieprzewidzianych zdarzeń. To uczy nas pokory wobec planów Bożych i próby, które nas dotykają.\n\nPodobnie jest z innymi doświadczeniami życiowymi — spięcia rodzinne, choroby, utrata pracy. To zostawia ślad i ból w naszych sercach.\n\nSłowo Boże mówi, że szatan wykorzystuje to jako oręż i nie będzie nas oszczędzał. Doświadczenia musimy przechodzić jako chrześcijanie.\n\nSłowo Boże nie pozostawia złudzeń w tej kwestii. Niektórzy twierdzą, że cierpienie w życiu chrześcijanina nie jest konieczne, że to wynik złego życia. Nie, to nieprawda — Słowo Boże mówi o wielu aspektach i źródłach cierpienia w naszym życiu.\n\nDrugi list do Tymoteusza, rozdział trzeci, werset dwunasty: „Tak jest: wszyscy, którzy chcą żyć pobożnie w Chrystusie Jezusie, prześladowania znosić będą.”\n\nNie pozostawia to złudzeń.\n\nNie dopuśćcie jednak do oskarżeń wobec siebie, jeśli przechodzicie cierpienia, choroby, konflikty czy inne trudności — to nie zawsze jest wola Boża, ani znak braku błogosławieństwa.\n\nW liście do Filipian, rozdział pierwszy, werset dwudziesty dziewiąty, apostoł Paweł mówi:\n\n„Gdyż wam dla Chrystusa zostało darowane, że możecie nie tylko w Niego wierzyć, ale i dla Niego cierpieć.”\n\nCierpienie jest darem, choć może nieprzyjemnym.\n\nW drugim liście do Tesaloniczan, rozdział pierwszy, werset piąty:\n\n„Jest to dowodem sprawiedliwego sądu Bożego i tego, że zostaliście uznani za godnych Królestwa Bożego, za które też cierpicie.”\n\nŻyjąc na ziemi, która jest poddana władzy szatana, jesteśmy intruzami reprezentującymi Królestwo Boże. To nie jest normalne, że świat tego nie akceptuje i nie daje za wygrane. Z tego powodu cierpienie i upokorzenia nas nie ominą.\n\nJest to pouczenie i ostrzeżenie, byśmy byli na to gotowi i nie tracili wiary.\n\nObecnie na świecie jest ponad 8 miliardów ludzi, z czego około 2 miliardy to chrześcijanie. Ponad 360 milionów z nich jest codziennie prześladowanych za wiarę.\n\nWskazujemy na takie kraje jak Korea Północna, wiele krajów afrykańskich, azjatyckich i muzułmańskich, gdzie prześladowania te są bardzo dotkliwe. Nie jest też to obce Izraelowi, choć tam chrześcijan jest niewielu.\n\nW Ewangelii Jana, piętnastym rozdziale, dwudziestym wersecie, Pan Jezus mówi:\n\n„Wspomnijcie na słowo, które do was powiedziałem: Nie jest sługa większy nad Pana swego; jeśli mnie prześladowali, i was prześladować będą.”\n\nWskazuje jasno, że cierpienia się nie uniknie.\n\nW wielu kościołach omija się ten temat, bo nie jest łatwy do przyjęcia, ale jego zrozumienie powinno nas budować, nie załamywać.\n\nDzieje Apostolskie, czternasty rozdział, dwudziesty drugi werset:\n\n„Mówili: Trzeba przez wiele ucisków wejść do Królestwa Bożego.”\n\nTrzeba przez uciski przejść, by dotrzeć do celu.\n\nPan Jezus wielokrotnie mówił o tym cierpieniu swoim uczniom.\n\nChciałbym przytoczyć trzy wypowiedzi Pana Jezusa dotyczące tego doświadczenia.\n\nEwangelia Mateusza, 10 rozdział, 38 werset:\n\n„I kto nie bierze krzyża swego, a idzie za mną, nie jest mnie godzien.”\n\nPan Jezus pokazuje tu, że jeśli nie zaakceptujesz cierpienia z podniesioną głową, nie będziesz Jego godzien.\n\nEwangelia Łukasza, 9 rozdział, 23 werset:\n\n„Jeśli kto chce iść za mną, niech zaprze się samego siebie, weźmie krzyż swój codziennie i naśladuje mnie.”\n\nCierpienie związane z Królestwem Bożym to część naśladowania Pana Jezusa.\n\nEwangelia Łukasza, 14 rozdział, 27 werset:\n\n„Kto nie dźwiga krzyża swego, a idzie za mną, nie może być moim uczniem.”\n\nCierpienie jest elementem drogi za Panem.\n\nKto odrzuca tę prawdę, według Słowa Bożego, nie może być Jego uczniem.\n\nChciałbym, abyśmy z podniesioną głową przyjmowali doświadczenia i próby, rozumieli je w Bożym kontekście, akceptowali je i nie pozwalali, by oskarżenia czy zwątpienia niszczyły naszą wiarę.\n\nNiech ataki sił ciemności nie czynią spustoszenia w naszym duchowym życiu.\n\nAmen."
+  },
+  "cover": "/images/covers/NGEhydCNRSk.webp"
+}

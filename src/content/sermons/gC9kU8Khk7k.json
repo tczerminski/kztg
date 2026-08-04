@@ -1,0 +1,145 @@
+{
+  "date": "2025-06-15",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/gC9kU8Khk7k/gC9kU8Khk7k.opus",
+  "preacher": "Sylwester Torbiczuk",
+  "title": "Hiskiasz",
+  "summary": "Historia króla Hiskiasza ilustruje przemianę z domu pełnego bałwochwalstwa do pobożnego przywództwa. Wybrany fragment 2 Księgi Kronik 29 ukazuje działania Hiskiasza, który po objęciu tronu wprowadził reformę religijną, oczyszczając świątynię i przywracając kult prawdziwego Boga. Kazanie podkreśla nieposłuszeństwo narodu wybranego na tle Bożych planów i potrzebę pielęgnowania relacji z Bogiem.",
+  "duration": 2823,
+  "translations": {
+    "en": {
+      "title": "Hezekiah",
+      "summary": "The story of King Hezekiah shows how God can transform the life of a nation even amid a generation raised in disobedience. The renewal of the temple and repentance from sin become a call to true service to God today, especially in times of spiritual turmoil. This is a message of hope that highlights the importance of daily care for our relationship with God."
+    },
+    "uk": {
+      "title": "Ісая",
+      "summary": "Історія царя Ісаї показує, як Бог може змінити життя народу навіть перед обличчям покоління, вихованого в дусі непокори. Відновлення храму та покаяння від гріха стають закликом до справжнього служіння Богові сьогодні, у часи духовного безладу. Це послання надії, яке підкреслює важливість щоденної турботи про стосунки з Богом."
+    },
+    "ta": {
+      "title": "ஹிஸ்கியாக்",
+      "summary": "பெரும்பான்மையாகவே பிளர்க்கப்பட்ட மனப்பான்மையினால் வளர்ந்த ஒரு தலைமுறையின் முன்னிலையில் கூட, கடவுள் எந்த விதமாக ஒரு சமூகத்தின் வாழ்கையை மாற்றி வைக்க முடியும் என்பதை ஹிஸ்கியாகின் கதை வெளிக்காட்டுகிறது. கூரையை சீரமைத்தலும், பாவத்திலிருந்து திருப்புணர்வும், இன்றைய ஆன்மீக குழப்பங்களின் காலத்தில் உண்மையான கடவுள் சேவைக்கு அழைப்பு ஆகும். இது கடவுளுடன் உள்ள உறவு பற்றி தினந்தோரும் கவலை கொண்டிருப்பதன் முக்கியத்துவத்தை வலியுறுத்தும் ஒரு நம்பிக்கையின் செய்தி ஆகும்."
+    },
+    "de": {
+      "title": "Hiskia",
+      "summary": "Die Geschichte von König Hiskia zeigt, wie Gott das Leben eines Volkes verwandeln kann, selbst angesichts einer Generation, die im Geist des Ungehorsams aufgewachsen ist. Die Erneuerung des Tempels und die Abkehr von der Sünde werden zu einem Aufruf, heute in Zeiten geistiger Verwirrung wahrhaft Gott zu dienen. Diese Botschaft der Hoffnung unterstreicht die Bedeutung der täglichen Pflege der Beziehung zu Gott."
+    },
+    "es": {
+      "title": "Ezequías",
+      "summary": "La historia del rey Ezequías muestra cómo Dios puede transformar la vida de una nación incluso frente a una generación criada en un espíritu de desobediencia. La renovación del templo y el arrepentimiento del pecado se convierten en un llamado a un verdadero servicio a Dios hoy, en tiempos de confusión espiritual. Este es un mensaje de esperanza que resalta la importancia del cuidado diario de nuestra relación con Dios."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 3",
+      "Rdz 4",
+      "Rdz 5",
+      "Rdz 6",
+      "Rdz 11",
+      "Rdz 12",
+      "Wj 1",
+      "Lb 14",
+      "Joz 1",
+      "Sdz",
+      "1 Sm",
+      "2 Sm",
+      "1 Krl",
+      "2 Krl",
+      "2 Krn 29",
+      "1 Kor 3"
+    ],
+    "en": [
+      "Gen 3",
+      "Gen 4",
+      "Gen 5",
+      "Gen 6",
+      "Gen 11",
+      "Gen 12",
+      "Exod 1",
+      "Num 14",
+      "Josh 1",
+      "Judg",
+      "1 Sam",
+      "2 Sam",
+      "1 Kgs",
+      "2 Kgs",
+      "2 Chron 29",
+      "1 Cor 3"
+    ],
+    "uk": [
+      "Бут 3",
+      "Бут 4",
+      "Бут 5",
+      "Бут 6",
+      "Бут 11",
+      "Бут 12",
+      "Вих 1",
+      "Чис 14",
+      "Ісус Навин 1",
+      "Суд 1",
+      "1 Сам 1",
+      "2 Сам 1",
+      "1 Цар 1",
+      "2 Цар 1",
+      "2 Літ 29",
+      "1 Кор 3"
+    ],
+    "ta": [
+      "ஆதியாகமம் 3",
+      "ஆதியாகமம் 4",
+      "ஆதியாகமம் 5",
+      "ஆதியாகமம் 6",
+      "ஆதியாகமம் 11",
+      "ஆதியாகமம் 12",
+      "வெளிப்பாடு 1",
+      "எண்ணிக்கைகள் 14",
+      "யோசுவா 1",
+      "நியாயாதீபம்",
+      "1 சாமுவேல்",
+      "2 சாமுவேல்",
+      "1 இராஜாக்கள்",
+      "2 இராஜாக்கள்",
+      "2 நாளோக்கிகள் 29",
+      "1 கொரிந்தியர் 3"
+    ],
+    "de": [
+      "1 Mose 3",
+      "1 Mose 4",
+      "1 Mose 5",
+      "1 Mose 6",
+      "1 Mose 11",
+      "1 Mose 12",
+      "2 Mose 1",
+      "4 Mose 14",
+      "Josua 1",
+      "Richter",
+      "1 Sam",
+      "2 Sam",
+      "1 Könige",
+      "2 Könige",
+      "2 Chronik 29",
+      "1 Kor 3"
+    ],
+    "es": [
+      "Gén 3",
+      "Gén 4",
+      "Gén 5",
+      "Gén 6",
+      "Gén 11",
+      "Gén 12",
+      "Éxod 1",
+      "Núm 14",
+      "Jos 1",
+      "Jue",
+      "1 Sam",
+      "2 Sam",
+      "1 Rey",
+      "2 Rey",
+      "2 Crón 29",
+      "1 Cor 3"
+    ]
+  },
+  "transcript": {
+    "pl": "Chwała Panu Jezusowi Chrystusowi, bracia i siostry. Zanim przejdę do słowa, może się krótko przedstawię. Mam na imię Sylwek, przyjechałem do was z moją żoną Ewą. Przyjechaliśmy z Zamościa. Za naszym Panem Jezusem idziemy od dziesięciu lat, z czego siedem lat już jesteśmy w służbie. Prowadzimy zbór Kościoła Ewangelicznych Chrześcijan w Zamościu. Mamy dwójkę dzieci: syna trzynaście lat i córeczkę dziesięć lat. Patrząc na naszą córeczkę, widzimy, w jakim stanie duchowego wzrostu jesteśmy, bo ona rośnie razem z nami albo my razem z nią. Także chwała Bogu. Bardzo dziękuję za zaproszenie braciom. Bardzo się cieszę, że możemy tu być.\n\nWiecie, tak naprawdę wszystko, czym się chciałem podzielić, już zostało powiedziane, zaśpiewane i mógłbym teraz skończyć, ale jednak przyjechaliśmy parę kilometrów, więc podzielę się tym, co Pan Bóg położył na moje serce.\n\nDzisiaj siostra rozpoczęła od tego, że Pan Jezus zapowiedział czasy końca. Widzimy, że świat dookoła nas jest coraz bardziej pogrążony w chaosie. Widzimy bardzo wiele tolerancji na grzech, bardzo wiele zamieszania również w kościele, także w kościele Pana Jezusa Chrystusa. Wiecie, z jednej strony jest to trudne; wczoraj rozmawiałem o tym z bratem Henrykiem. Jest ciężko patrzeć na wiele rzeczy, ale wiemy, że tak ma być. A dzieje się tak dlatego, że na świecie jest grzech.\n\nOd samego początku, kiedy Pan Bóg stworzył człowieka, wiedział, co się będzie działo. Wiedział, że w ogrodzie Eden Ewa okaże nieposłuszeństwo. Wiedział, że jej syn Kain zabije swojego brata. Wiedział, że potomek Kaina, Lamech, będzie miał dwie żony i będzie stawiał się w miejscu Boga. Jednak równocześnie do tej rozwijającej się spirali grzechu Pan Bóg pozostawiał linię ludzi, przez których miało pojawić się potomstwo, które uratuje świat. Widzimy Seta, Henocha, Noego. Po Noem, jak wiemy, był potop. Czy po tym pierwszym wielkim sądzie grzech przestał istnieć? Nie przestał.\n\nZaraz pod wieżą Babel ludzie dalej okazywali nieposłuszeństwo. Mieli iść, rozpraszać się i zaludniać ziemię, a oni się skupili i chcieli nazwać siebie swoim własnym imieniem. Chcieli wybudować wieżę, która sięgałaby aż do nieba. Dlatego Pan Bóg ich rozproszył i pomieszał im języki.\n\nNastępnie widzimy Abrama, którego Pan Bóg wyciąga z pogańskiego narodu, powołuje go, z którego powstaje wielki naród. W oczach Abrama na początku, myślę, że on w ogóle tego nie widział. Naród powstaje, trafia do niewoli egipskiej, z której wyprowadza go Mojżesz. Czterdzieści lat chodzą po pustyni, a następnie przez Jozuego zostają wprowadzeni do ziemi obiecanej. Pamiętamy, że Pan Bóg miał bardzo mocne wymagania – mieli wytępić wszystko. Jednak okazali nieposłuszeństwo.\n\nPo śmierci Jozuego i starszych, którzy byli z nim, naród sprzeniewierzył się przeciwko Bogu i następuje czas sędziów. Ktoś czytał Księgę Sędziów? Pamiętacie, co się tam powtarza? Od samego początku naród był nieposłuszny, Pan Bóg posyłał ciemiężców. Kiedy ci zaczynali wołać, Pan Bóg posyłał sędziego, który ich ratował. I tak w kółko. Kiedy zaczynało dziać się dobrze, naród odchodził od Boga. Jak mówi Księga Sędziów, każdy robił to, co chciał. Każdy robił to, co chciał.\n\nJa myślę, że dzisiaj żyjemy bardziej w czasach sędziów niż wtedy. Bardzo wielu ludzi chce robić to, co chce.\n\nPo czasach sędziów ostatnim sędzią i zarazem prorokiem był Samuel. W czasach Samuela dzieje się coś bardzo niedobrego: naród chce mieć króla jak inne narody. Samuel się delikatnie, powiem, zdenerwował na to, ale Pan Bóg powiedział: „Pozwól im na to, niech wybiorą sobie króla”. Wybrali Saula – króla, który również nie był posłuszny Bogu. Przez swoje nieposłuszeństwo został odrzucony, a w tym czasie Pan Bóg wybiera Dawida.\n\nJak mówi nam Słowo Boże i świadectwo Nowego Testamentu, Pan Bóg nazwał Dawida człowiekiem według Bożego serca. Wiemy, że wcale nie był taki – w cudzysłowie „święty” – ale szukał Boga. W swoich upadkach szukał Boga, szukał tego, co Boże. Dlatego jest nazywany ojcem albo praojcem. Pan Bóg porównuje wszystkich wierzących ludzi Starego Testamentu do Dawida.\n\nW erze królów po Dawidzie panował Salomon. Po Salomonie naród izraelski, czyli dwanaście plemion, zostało podzielone na Izrael na północy i Judę na południu. Z Judy wywodzi się nasz Zbawiciel, Pan Jezus Chrystus.\n\nCzytając historię narodu wybranego, widzimy, że w tych dwóch królestwach - północnym Izraelu i południowej Judzie – bardzo niewielu władców było pobożnymi ludźmi. W Izraelu praktycznie nie widzimy żadnego, w Judzie od czasu do czasu pojawia się światło nadziei – Pan Bóg posyła króla, który powraca naród na Boże drogi.\n\nTaki król był Hiskiasz, o którym chciałbym dzisiaj kilka słów powiedzieć. Jeśli możemy, otwórzmy Biblię na drugiej Księdze Kronik, 29 rozdział, i postaramy się przejść przez cały ten rozdział.\n\nPowiem tylko krótko, że ojcem Hiskiasza był Achaz, bardzo bezbożny król, który składał własne dzieci na ofiary, zamknął świątynię Pana, jak czytamy w poprzednim, 28 rozdziale. Przez jego nieposłuszeństwo Pan upokorzył Judę, dlatego że chodził własnymi drogami, składał ofiary i oddawał cześć bałwanom, a nie żywemu Bogu.\n\nMożna się zastanawiać, jak z takiego domu, po takim ojcu, mógł wyjść ktoś dobry? Zaczynamy 29 rozdział, gdzie czytamy:\n\n„Hiskiasz objął władzę królewską mając 25 lat i panował w Jerozolimie 29 lat. Matka jego miała na imię Abija i była córką Zachariasza. Czynił to, co prawe w oczach Pana, zupełnie tak samo, jak czynił Dawid, jego praojciec.”\n\nZ tak bezbożnego króla wywodzi się Hiskiasz – pobożny król. Możemy się zastanowić, jak to się mogło stać? Myślę, że powodów może być kilka. Kiedy jednak patrzymy na te pierwsze wersety, widzimy, że matką Hiskiasza była Abija, córka Zachariasza. Byli to pobożni ludzie. Najprawdopodobniej ojciec Hiskiasza w ogóle nie interesował się wychowaniem dzieci, nie obchodziło go, w jakim kierunku pójdą. Skoro tak było, może się kryć jakiś nieporządek. Macie w domu pomieszczenia, do których zamykacie się i nie wchodzicie przez jakiś czas? Nawet jeśli zostawicie tam idealny porządek, po tygodniu, kiedy tam wejdziecie – a myślę, że to bardziej do sióstr – trzeba będzie pościerać kurze. I pytanie: skąd one się tam wzięły?\n\nWiecie, w życiu chrześcijańskim wystarczy nic nie robić, żeby brud zaczął się, że tak powiem, wpychać do naszych serc. O tę relację z Bogiem powinniśmy dbać, o tę relację powinniśmy zabiegać. Pan Jezus Chrystus zrobił wszystko na krzyżu, żebyśmy mogli tę relację mieć.\n\nPrzeczytajmy teraz kolejne wersety, od 4 do 19:\n\n„Następnie sprowadził kapłanów i lewitów, a zebrawszy ich na wschodnim dziedzińcu, rzekł do nich: ‘Słuchajcie mnie, lewici, poświęćcie się teraz i poświęćcie świątynię Pana, Boga waszych ojców, i usuńcie nieczystości z miejsca świętego. Sprzeniewierzyli się bowiem nasi ojcowie i czynili to, co złe w oczach Pana, naszego Boga. Opuścili Go, odwrócili swoje oblicza od mieszkania Pana, a obrócili się ku Niemu tyłem. Zamknęli także drzwi przedsionka, pogasili lampy, nie składali ofiar z kadzidła ani całopalnych w świątyni Boga izraelskiego. Toteż gniew Pana spadł na Judę i na Jeruzalem, więc uczynił z nich przedmiot zgrozy, zdumienia i drwiny, jak na własne oczy widzicie. Oto nasi ojcowie polegli od miecza, a nasi synowie, nasze córki i nasze żony poszły za to do niewoli. Zamierzam wtedy zawrzeć przymierze z Panem, Bogiem Izraela, aby odwrócił od nas żar swego gniewu. Nuże więc, synowie moi, nie gniewajcie się, gdyż was wybrał Pan, abyście nie stali przed Nim, służąc Mu i byli Mu sługami, składali Mu ofiary z kadzidła.’”\n\nWtedy wystąpili lewici: z Kehatytów Mahat, syn Amasaja, i Joel, syn Azariasza; z Merarytów Kish, syn Abdiasza, i Azariasz, syn Jechalaela; z Gerszonitów Joach, syn Zimny, i Eden, syn Joacha; z synów Elifasana Szimri i Jejel; z synów Asafa Zachariasz i Mitaniasz; z synów Hemana Jechiel i Szymei; z synów Jedotuna Szemajasz i Uzjel.\n\nZebrali swoich pobratymców, poświęcili się i na rozkaz króla, zgodnie ze słowami Pana, poszli oczyścić świątynię Pańską. Kapłani weszli do wnętrza świątyni Pańskiej, celem oczyszczenia jej, i wynieśli wszystkie nieczystości, jakie zostały w przybytku Pańskim, na dziedziniec świątyni. Stąd zaś zebrali to lewici, aby wynieść do potoku Kidron. Zaczęli oczyszczenie w pierwszym dniu pierwszego miesiąca, a w ósmym dniu tego miesiąca doszli do przedsionka Pana. Świątynię Pańską poświęcali przez osiem dni, a w szesnastym dniu pierwszego miesiąca zakończyli.\n\nNastępnie poszli do króla Hiskiasza i rzekli: ‘Oczyściliśmy całą świątynię Pańską, ołtarz całopaleń i wszystkie jego przybory oraz stół chlebów pokładnych i wszystkie jego przybory, i wszystkie przybory, które za swojego panowania, przy swoim odstępstwie wycofał z użytku król Hiskiasz. Przygotowaliśmy i poświęciliśmy, i są one oto przed ołtarzem Pana.’\n\nHiskiasz zrobił coś bardzo ważnego, co, myślę, ma wpływ dla wielu chrześcijan dzisiaj: rozpoczął od oczyszczenia, od wprowadzenia Bożego Słowa w życie.\n\nZobaczcie, że sprowadził kapłanów i lewitów, aby rozpoczęli pracę, która do nich należała – czyli kapłani i lewici nie robili tego, do czego powołał ich Bóg. Spowszednieli, żyli świeckim życiem, można powiedzieć, nie czynili tego, do czego powołał ich Pan. Myślę, że jako władca państwa Hiskiasz mógł spokojnie wynająć firmę sprzątającą – bez problemu mogli to wszystko wywieźć, wynieść. Ale on tego nie zrobił. On przywołał tych ludzi do tego, do czego zostali powołani przez Boga. Zwołał kapłanów i lewitów i mówi: „Oczyśćcie się!”\n\nTo pokazuje, że każdy, kto służy, kto chce iść za Jezusem Chrystusem, kto chce żyć dla Niego, musi przede wszystkim zadbać o swoje serce, o czystość swojego serca. Apostoł Paweł powiedział w pierwszym liście do Koryntian 3:16 takie słowa: „Czy nie wiecie, że świątynią Bożą jesteście i że Duch Święty mieszka w was?”\n\nW każdym z nas, którzy się narodzili na nowo, jest Duch Święty. Jesteśmy świątynią. Może tam są drzwi w tej świątyni, które są zamknięte przed Bogiem i trzeba je otworzyć. Pan Jezus idzie i chce oczyszczać nasze serca.\n\nMłody król rozpoczął od powrotu do relacji z Bogiem, od oczyszczenia. Nie przyszło mu do głowy, by porozsuwać te wszystkie śmieci na boki – mógł to zrobić bez problemu, żeby dojść do miejsca najświętszego. On doskonale rozumiał, że żeby powrócić do relacji z Bogiem, tam, w świątyni, musi być zrobiony porządek. Musi być zrobiony porządek.\n\nŻebyśmy my mogli mieć relację z Bogiem, by Duch Święty mógł się dobrze czuć w naszej świątyni, w naszych sercach, tam musi być porządek.\n\nKażdy z nas, przychodząc do Boga, rozpoczynając relację z Nim, rozpoczyna od pokuty. Zgadza się? Dzisiejsze chrześcijaństwo, mam wrażenie, że momentami oszalało. Ludzie zgłaszają się, mówią: „Jezus jest moim Panem”, ale za tym nic nie idzie. Kiedy ja przychodziłem do Jezusa, miałem wrażenie, że ja umieram. Duch Święty pokazał mi moje grzechy, brud, w którym żyłem, i żal, jaki w związku z tym był we mnie.\n\nWierzę, że każdy, kto naprawdę chce przyjść do Boga, nie przychodzi z radością. Oczyszczenie nie zaczyna się od podskoków i radości, ale od świadomości tego, kim jestem w Bożych oczach – że jestem grzesznikiem, zgubionym grzesznikiem, którego grzechy oddzieliły od Boga całkowicie. Świadomość, że bez Boga nie mogę nic z tym zrobić.\n\nKto z nas może poradzić sobie z własnymi grzechami? Dlatego Jezus Chrystus musiał umrzeć na krzyżu. Ale my, przychodząc do Niego, musimy się oczyścić.\n\nI dzisiaj mamy niesamowitą łaskę, bo możemy się oczyszczać w krwi Baranka Pana Jezusa Chrystusa.\n\nJan w pierwszym swoim liście mówi, że wierny jest Bóg i odpuści wszystkie grzechy, które wyznajemy. Wyznawanie… ukradła serca niektórych z nas.\n\nNie ma prawdziwego podążania za Bogiem bez oczyszczenia. Nie ma prawdziwego podążania za Bogiem bez prawdziwej pokuty.\n\nWielu ludzi dzisiaj w Polsce mówi, że będzie przebudzenie. Przebudzenie zaczyna się tu, w twoim i moim sercu, i od tego, jak bardzo damy się użyć naszemu Bogu.\n\nKiedy patrzymy na Słowo Boże, znacie człowieka, jak Nehemiasz? Kiedy zaczynał służbę dla Boga, nie skakał, nie radował się. Kiedy zobaczył, w jakim stanie są mury Jerozolimy, z żalu jego twarz się zmieniła. On poczuł ciężar powołania i odpowiedzialności. Wiedział, co musi zrobić, i był tego świadomy: aby te mury powstały na nowo, trzeba było usunąć gruz i śmieci.\n\nKiedy ja mówiłem pierwsze kazanie u nas w zborze, po objęciu służby, Bóg sprawił tak, że mieliśmy remonty. W czasie nabożeństwa leżały cegły w kaplicy, bo nie zdążyliśmy ich uporządkować. Mówiłem wtedy, że żeby coś nowego mogło powstać, żeby Bóg tu zaczął budować, to to stare musimy wyrzucić.\n\nTo zaczyna się od decyzji, co robimy.\n\nPóźniej zaczęliśmy ogłaszać posty w naszym zborze, 40-dniowe, raz w roku, przez 40 dni cały zbór pości. Nie ciągiem, bo się wymienialiśmy, ale modliliśmy się o oczyszczenie i o zjednoczenie zboru.\n\nPo pierwszym takim poście nagle kilku ludzi zniknęło ze zboru. Niektórzy zaczęli pokutować, u innych zmieniło się myślenie, niektóre siostry zostały uzdrowione. Po drugim poście, w 2021 roku, miałem wrażenie, że nic się nie stało – ale to tylko moje wrażenie.\n\nW lutym, kiedy mieliśmy obóz dla dzieci, w niedzielę po nabożeństwie – właściwie w trakcie nabożeństwa, po zakończeniu kazania – wstaliśmy do modlitwy i wtedy stało się coś, za czym bardzo tęsknię. Pojawiła się bardzo mocno odczuwalna Boża obecność między nami. Wszyscy zaczęli płakać.\n\nI cztery dni później wybuchła wojna. Nasz zbór – mały zbór przy granicy ukraińskiej – ja miałem wrażenie, że w ogóle nie jest gotowy. Jak możemy pomagać ludziom? Co możemy zrobić?\n\nBóg pokazał mi, że nie chodzi wcale o wielkość, ale o serce. Dawid sam stanął przeciwko Goliatowi. Mojżesz sam wyprowadził naród z Egiptu. Abram sam wyszedł z Ur Chaldejskiego. Nasz Zbawiciel sam był ukrzyżowany na krzyżu za nasze grzechy. I nie trzeba dużo.\n\nKiedy w sobotę rano modliłem się, padłem na kolana, moja rodzina jeszcze spała. Mówię: „Panie Boże, co mamy robić? Nie wiem, mamy budynek jako taki, chcemy go używać. Czy mamy przyjmować ludzi, żeby tu mieszkali, czy coś innego?”\n\nBóg pokazał mi, że mamy zrobić punkt przejściowy, w którym ludzie będą przychodzić, odpoczywać, prać ubrania, mogą zjeść.\n\nNiektórzy z was byli u nas.\n\nMówię: „Dobrze, Panie Boże, ale wiesz, że nie mamy pieniędzy. Nie mamy, czym tym ludziom pomóc. Nie mamy pampersów dla dzieci.” Powiedziałem to, wiecie. Potem wstałem z kolan, zadzwonił telefon. Odbieram – „Bracie, jadę do ciebie, wiozę pieniądze i wszystko, co powiedziałeś w modlitwie, nawet w takiej kolejności.”\n\nJa mówię: „Panie Boże, co się będzie tu działo? Nie mam pojęcia.”\n\nA wiecie, skąd to przyjechało? Z waszego zboru. Ja nie miałem pojęcia, że taki zbór jest. Wielu braci od was też nie wiedziało, że taki zbór jak w Zamościu jest.\n\nBóg odpowiada bardzo szybko. Używa nas, ale najpierw musieliśmy pozwolić Bogu się oczyścić, odrzucić wiele rzeczy, pokutować i pościć. I co się stało? Nasz zbór się zjednoczył. Mamy niewielu, ja mówię, że 120% zborów wzięło w tym udział. Sam zbór podzielił się na warty i zaczął działać.\n\nTo cztery godziny zmieniało się wszystko – 70-80 osób na dobę przychodziło, jadło, spało. Później dowiedziałem się, że wielu ludzi nawracało się, bo zwiastowano im Ewangelię. Tu, z siostrami od was ze zboru, modliliśmy się za wiele osób.\n\nBóg działa, ale nasze serca muszą być gotowe.\n\nWiecie, wtedy w takich sytuacjach i teologia, i nasze ludzkie mądrości nie mają znaczenia. Miałem wrażenie, że siedziałem z Bogiem i rozmawiałem z Nim jak z przyjacielem.\n\nMógłbym wiele godzin mówić świadectw, ale wiem, że nie mam czasu.\n\nHiskiasz doprowadził do oczyszczenia świątyni, a potem czytamy dalej, od 20 wersetu:\n\n„Król Hiskiasz wstał wcześnie rano, zgromadził naczelników miasta i poszedł do świątyni Pana. Przyprowadzono siedem cielców i siedem baranów, siedem jagniąt i siedem kozłów na ofiarę przebłagalną za królestwo, za świątynię i za Judę. Kazał synom Aaronowym, kapłanom, złożyć ofiary całopalne na ołtarzu Pana. Gdy zabito cielce, kapłani wzięli ich krew i pokropili ołtarz. Potem zabito barany i krwią ich pokropiono ołtarz. Zabito też jagnięta i krwią ich pokropiono ołtarz. Przyprowadzono kozły na ofiarę przebłagalną przed króla i zgromadzenie, i włożyli na nie swoje ręce. Gdy kapłani je zabili, krew ich wylano na ołtarz jako przebłaganie za całego Izraela, gdyż król nakazał złożyć tę ofiarę całopalną i przebłagalną.\n\nKazał stawić się też w świątyni pańskiej lewitom z cymbałami, lutniami i cytrami, według nakazu Dawida, jasnowidza królewskiego Gada i proroka Natana, bo nakaz ten pochodził od Pana za pośrednictwem jego proroków. Lewici z instrumentami Dawida oraz kapłani z trąbami stanęli.\n\nHiskiasz kazał złożyć ofiarę całopalną na ołtarzu. W chwili rozpoczęcia ofiary całopalnej zaczęto śpiewać śpiew na cześć Pana przy wtórze trąb, za przewodem instrumentów Dawida, króla Izraela. Całe zgromadzenie oddawało pokłon, rozbrzmiewał śpiew i donośny głos trąb, a wszystko trwało aż do zakończenia ofiary całopalnej. Gdy ofiara dobiegła końca, król i wszyscy przy nim uklękli i oddali pokłon. Potem Hiskiasz i naczelni nakazali lewitom wysławiać Pana słowami Dawida i jasnowidza Azafa. Zaśpiewali z radością pieśń pochwalną, klękali i oddawali pokłon. I odezwał się Hiskiasz, mówiąc: ‘Teraz poświęćcie się Panu…’”\n\nPrzyprowadzili te zwierzęta na ofiary i stąd ta radość bardzo się rozrosła.\n\nPrzeczytajcie 30 rozdział, co tam się działo, jaka była wielka radość.\n\nPan Jezus Chrystus – rozpoczęliśmy to nabożeństwo od Jego słów – powiedział, że będą ciężkie czasy, wojny, głód, chaos, ale dalej mówi:\n\n„Ale wy bądźcie gotowi.”\n\nList do Hebrajczyków mówi, że mamy dążyć do uświęcenia i pokoju ze wszystkimi – do uświęcenia, bez którego nikt nie zobaczy Boga.\n\nUświęcenie to między innymi oczyszczanie się, a mamy się oczyszczać w krwi naszego Pana Jezusa Chrystusa.\n\nŻyczę wam, byśmy o tym pamiętali, byśmy nie trzymali uraz w naszych sercach, nie trzymali nieprzebaczenia. Jeśli coś się wydarzy, zróbmy z tym porządek jak najszybciej.\n\nŻyczę wam, abyśmy dążyli do świętości.\n\nMoże dziś Bóg pobudził Twoje serce, by coś wyznać, zrobić porządek.\n\nNie trzymaj tego. Nie chodź w smutku, nie chodź w żalu. Kiedy dasz się Bogu oczyścić, następuje radość i pokój.\n\nApostoł Paweł mówi: „Zawsze się radujcie.” Zawsze!\n\nI tej radości życzę wszystkim braciom i siostrom. Amen."
+  },
+  "cover": "/images/covers/gC9kU8Khk7k.webp"
+}

@@ -1,0 +1,115 @@
+{
+  "date": "2024-07-10",
+  "preacher": "Henryk Zyzik",
+  "title": "Wszystko ma swój czas i porę - I cz. 2",
+  "summary": "Funkcjonowanie w złym czasie, opisanym w Księdze Kaznodziei Salomona (rozdział 9), jest głównym tematem omawianym z perspektywy relacji człowieka z Bogiem i wpływu zła. Przekaz odwołuje się do potrzeby wyboru wiary jako drogi do zbawienia oraz podkreśla znaczenie wolnej woli i czasu według Bożego planu. Zawiera analizę uwikłania w zło oraz nadzieję na wyzwolenie przez Chrystusa.",
+  "duration": 3570,
+  "translations": {
+    "en": {
+      "title": "Everything Has Its Time and Season - Part 2",
+      "summary": "How can we find God's presence during times of hardship and unrest? This sermon reveals that despite prevailing darkness, God has given us the longing for eternity and the gift of faith, choosing the path of hope. This message offers encouragement, reminding us that salvation is already available here and now, guiding us toward the fullness of true life."
+    },
+    "uk": {
+      "title": "У кожного свій час і пора - Частина 2",
+      "summary": "Як знайти Божу присутність у часи труднощів і тривог? Проповідь показує, що незважаючи на пануючу темряву, Бог дарував нам прагнення вічності та дар віри, який обирає шлях надії. Це послання додає мужності, нагадуючи, що спасіння вже доступне тут і тепер, ведучи до повноти справжнього життя."
+    },
+    "ta": {
+      "title": "ஒவ்வொன்றுக்கும் அவசியமான காலம் மற்றும் தருணம் - பாகம் 2",
+      "summary": "சிரமங்களும் கவலைகளும் நிறைந்த காலங்களில் கடவுளின் இருப்பை எப்படி கண்டுபிடிப்பது? இந்த முன்னிலை, உள்ளன சாய்ந்த இருளிலும் கடவுள் நமக்கு நித்திய வாழ்வுக்கு ஆசையையும் நம்பிக்கை பரிசையும் வழங்கியுள்ளார் என்பதைக் காண்பிக்கிறது. நம்பிக்கையின் பாதையைத் தேர்ந்தெடுக்கும் இந்த பரிசு நமக்கு ஊக்கம் தருகிறது, மீட்பு இப்போது மற்றும் இங்கே கிடைக்கிறது என்று நினைவூட்டுகிறது, உண்மையான வாழ்வின் முழுமையை நோக்கி வழிநடத்துகிறது."
+    },
+    "de": {
+      "title": "Alles hat seine Zeit und Stunde - Teil 2",
+      "summary": "Wie findet man Gottes Gegenwart in Zeiten voller Schwierigkeiten und Unruhe? Diese Predigt zeigt, dass Gott uns trotz der herrschenden Dunkelheit mit dem Verlangen nach Ewigkeit und dem Geschenk des Glaubens beschenkt hat, der den Weg der Hoffnung wählt. Diese Botschaft schenkt Trost und erinnert uns daran, dass das Heil bereits hier und jetzt zugänglich ist und zum vollen, echten Leben führt."
+    },
+    "es": {
+      "title": "Todo tiene su tiempo y momento - Parte 2",
+      "summary": "¿Cómo encontrar la presencia de Dios en tiempos llenos de dificultades e inquietud? Este sermón muestra que, a pesar de la oscuridad reinante, Dios nos ha otorgado el deseo de eternidad y el don de la fe, que elige el camino de la esperanza. Este mensaje brinda consuelo, recordándonos que la salvación ya está disponible aquí y ahora, guiándonos hacia la plenitud de la vida verdadera."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Kazn 3",
+      "Kazn 9",
+      "Rdz 3",
+      "Rdz 4",
+      "Rdz 5",
+      "Mt 4",
+      "Rdz 15",
+      "1 Kor 13",
+      "J 17",
+      "Ps 23",
+      "Ps 27"
+    ],
+    "en": [
+      "Eccl 3",
+      "Eccl 9",
+      "Gen 3",
+      "Gen 4",
+      "Gen 5",
+      "Matt 4",
+      "Gen 15",
+      "1 Cor 13",
+      "John 17",
+      "Ps 23",
+      "Ps 27"
+    ],
+    "uk": [
+      "Еккл 3",
+      "Еккл 9",
+      "Бут 3",
+      "Бут 4",
+      "Бут 5",
+      "Мт 4",
+      "Бут 15",
+      "1 Кор 13",
+      "Ів 17",
+      "Пс 23",
+      "Пс 27"
+    ],
+    "ta": [
+      "பழி 3",
+      "பழி 9",
+      "ஆதிக்கதை 3",
+      "ஆதிக்கதை 4",
+      "ஆதிக்கதை 5",
+      "மத்தேயு 4",
+      "ஆதிக்கதை 15",
+      "1 கொரிந்தியர் 13",
+      "யோவான் 17",
+      "சங்கீதம் 23",
+      "சங்கீதம் 27"
+    ],
+    "de": [
+      "Pred 3",
+      "Pred 9",
+      "1 Mose 3",
+      "1 Mose 4",
+      "1 Mose 5",
+      "Matt 4",
+      "1 Mose 15",
+      "1 Kor 13",
+      "Joh 17",
+      "Ps 23",
+      "Ps 27"
+    ],
+    "es": [
+      "Ecl 3",
+      "Ecl 9",
+      "Gn 3",
+      "Gn 4",
+      "Gn 5",
+      "Mat 4",
+      "Gn 15",
+      "1 Cor 13",
+      "Juan 17",
+      "Sal 23",
+      "Sal 27"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was w imieniu Pana naszego Jezusa Chrystusa. Dzisiaj będziemy kontynuowali ten krótki cykl wykładów, mianowicie o tytule ogólnym: „Wszystko ma swój czas i porę”. \n\nTak jak w ubiegłym tygodniu, cytowaliśmy tutaj z Księgi Kaznodziei Salomona, z trzeciego rozdziału, od drugiego do ósmego wersetu, a dzisiaj już to pozostawimy. Zakończyliśmy na Kaznodziei Salomona, dziewiąty rozdział, i właśnie od tego rozważania rozpoczniemy. Chciałbym zaznaczyć, że dziś troszeczkę będziemy rozmawiali na temat złego czasu. Ta myśl będzie nam towarzyszyła. \n\nChciałbym rozważać przez Słowo Boże, jak my, jako dzieci Boże, odbieramy zły czas. Czy Bóg przewidział dla świata, dla ludzi, w tym złym czasie, coś, co spowodowałoby, że będziemy mieli dobre relacje z Bogiem, dobre relacje ze sobą? Można by powiedzieć, że zły czas zaczął się od momentu, kiedy Bóg wypędził pierwszych rodziców z ogrodu Eden. Ale również tam – tak jakby istniały dwa pnie ludzkości. Jeden pień to pokolenie Kaina, a drugi pień ludzkości – to pokolenie Setta, z którego zresztą, jak wykazuje Słowo Boże, pochodzi Pan nasz Jezus Chrystus.\n\nJuż tam była zapowiedziana pora tego czasu, w którym ludzkość odetchnie, że przyjdzie takie pokolenie, kiedy urodzi się nasz Pan Jezus Chrystus, i ci wszyscy, którzy w Niego uwierzą – to jest taka skrótowa myśl – będą mieli w tym złym czasie, który od tamtego momentu trwa aż do dzisiaj, wyzwolenie. \n\nChcę jeszcze raz przeczytać tutaj z Księgi Kaznodziei Salomona, z dziewiątego rozdziału, od dziesiątego do dwunastego wersetu, abyśmy tę myśl, którą dzisiaj będziemy rozważać, troszeczkę uzupełnili o temat uwikłania. Diabeł jest tym, który w tym złym czasie chce nas uwikłać w swoje sprawy. Notabene, też Pan nasz Jezus Chrystus nie był od tego wolny. Kiedy poszedł na pustynię, to właśnie to kuszenie było wyrazem przez diabła chęci uwikłania Go w ten świat – w świat, który był światem współczesnym Jezusowi Chrystusowi. Możemy to czytać w Ewangelii Mateusza – były różne propozycje diabła, ale również w naszych czasach takie propozycje i takie uwikłania ze strony sił ciemności są przedstawiane każdemu z nas.\n\nCzy jest na to recepta? Czy jest wyjście, ponieważ funkcjonujemy w złym czasie? Dowiedzieliśmy się w niedzielę, że być może to będziemy analizować trochę później, na następnym wykładzie – że nastaną trudne czasy, nastaną złe czasy. Ale jednak w tym wszystkim jest ta dobra nowina, która w odpowiednim czasie, zapowiedziana przez Boga już przed potopem, wypełniła się w Izraelu. \n\nRównież przed nadaniem prawa przez Mojżesza, przez Boga, została zapowiedź, że nadejdzie czas, gdzie Abraham – ojciec wiary – i w nim będą błogosławione wszystkie narody ziemi. Oglądamy to błogosławieństwo, ponieważ łaska Boga – o której też będziemy mówić – rozszerzyła się od momentu Pana naszego Jezusa Chrystusa. Wiara powinna w nas być prawdziwa, bo może być słaba, mocna, prawdziwa i fałszywa, ponieważ pielgrzymujemy w wierze, nie w oglądaniu.\n\nTak Bogu się upodobało w tym planie, którym umieścił nas w czasie. Nie będę dziś wracał do tego, że funkcjonujemy w czasie, ale będąc wierzącym od jakiegoś czasu, oglądamy dzisiaj nawet proroctwa, które się na naszych oczach wypełniają. Sięgając do pokolenia naszych ojców – takim wypełnieniem w czasie proroctw było powstanie państwa Izrael. Widzimy, że precyzyjnie powstało w maju 1948 roku. I tak jak Słowo Boże mówi, że do końca będzie wojna, nie będzie pokoju – też możemy to oglądać. Możemy obserwować wiele innych proroctw, które się wypełniają. \n\nDzisiaj musimy sobie zdać sprawę, że funkcjonujemy w czasie i Słowo Boże mówi jasno, że jest to zły czas. Jakie powinno być nasze nastawienie? Można by powiedzieć, że nas spotkało wielkie szczęście. Nas spotkało to, że Bóg w swojej łasce wybrał nas z tego świata, przeniósł, jak mówi Słowo Boże, z świata ciemności do świata światłości. \n\nW pewnym momencie mamy również swój udział w tym wybraniu. Wiadomo, że Ojciec przez Ducha Świętego pociąga ludzi do Jezusa. Jest to pewnego rodzaju wybór. Chciałbym dzisiaj o tym złym czasie powiedzieć jeszcze trochę, czytając te wersety, które będziemy rozważać: „Na co natnie się twoja ręka, abyś to zrobił, to zrób według swej możności, bo w krainie umarłych, do której idziesz, nie ma ani działania, ani zamysłów, ani poznania, ani mądrości.”\n\nZwróćmy uwagę na to, że nasze zbawienie nie dokonuje się po drugiej stronie życia. Abyśmy doskonale rozumieli, że nie ma pewnych instytucji, które wymyślił sobie człowiek, że coś jeszcze, co nie zostało dokonane tu na ziemi, może dokonać się po drugiej stronie. Takich fragmentów Słowa Bożego jest wiele. Kiedy przejdziemy na drugą stronę życia, to w planie Bożym jest przygotowany taki czas dla nas, abyśmy uzyskali w pełni przebaczenie Boże, czyli inaczej zbawienie. Amen. \n\nZatem w tym złym czasie musimy poruszać się nie na oślep, bo zresztą Słowo Boże tak mówi – Paweł powołuje się na to, że on „uderza nie jak na oślep”. Nasza droga jest drogą oświetloną, bo Jezus powiedział: „Ja jestem droga i życie”. Jezus Chrystus oświetla nasze serca, abyśmy zajrzeli do nich i znaleźli antidotum na to, co się w nich znalazło zanim spotkaliśmy się z prawdą – z drogą, którą przygotował dla nas Bóg Ojciec w swojej łasce i miłosierdziu.\n\nCzytając jeszcze raz: „Na co natnie się twoja ręka, abyś to zrobił, to zrób” – moi kochani, jest taki czas dla każdego człowieka na ziemi, gdy zderzy się z Ewangelią. Czy wszyscy? Ja mogę powiedzieć ze swojej pozycji, że Bóg dał mi łaskę w pewnym czasie, wiele lat temu – że z miłosierdzia Ojca w niebiesiech zderzyłem się z prawdą. Jeszcze parę dni wcześniej, zanim nie usłyszałem prawdy, nawet moje myśli nie pomyślałyby, jak wielka łaska spotka mnie za parę dni. Nawet bym się tego zapierał. Ale, tak jak jest w Słowie Bożym – „jeśli coś możesz uczynić, to uczyń to”.\n\nDlaczego tak jest? Dlaczego człowiek ma zdecydować, którą drogą pójdzie? Czy pójdzie drogą, która rozpoczęła się w pokoleniu Setta, a końcem tej drogi jest Pan nasz Jezus Chrystus, przez którego rozszerza się Boża łaska i my jesteśmy uznani przez niego?  \n\nPrzeczytajmy jeszcze raz trzeci rozdział Księgi Kaznodziei Salomona, jedenasty werset, abyśmy wiedzieli, że w pewnym momencie zderzymy się z tym, co Bóg założył w nas jako ludzi. W jedenastym wersecie jest napisane: \n\n„Wszystko pięknie uczynił w swoim czasie. Nawet wieczność włożył w ich serca, a jednak człowiek nie może pojąć dzieła, którego dokonał Bóg od początku do końca.”\n\nWidzimy więc, że ukazują się nam dwie prawdy Boże: Bóg wszystko dobrze uczynił – to, że stworzył dobrze człowieka – i to, że człowiek z wolnej woli wybrał poznanie dobra i zła; to, że Bóg w pewnym momencie po tej decyzji również znalazł wyjście. My dzisiaj mamy szansę na to, aby się upamiętać. \n\nW pierwszej części tego wersetu jest napisane, że Bóg wszystko pięknie uczynił w swoim czasie. Nawet wieczność włożył w ich serca, a jednak człowiek nie może pojąć dzieła Bożego od początku do końca. Widzimy, że człowiek działa w tym świecie i obserwujemy zjawisko, gdy dziś człowiek chce żyć wiecznie. Widzieliśmy próby klonowania człowieka, i trwające próby zachowania życia za wszelką cenę. Nauka posunęła się tak daleko, że są przeszczepy różnych części ciała i tak dalej, ale jeśli przyjrzymy się genetyce, to i tak wszystkie te próby zawsze kończą się tym, co Bóg powiedział – życie człowieka trwa 70-80 lat, a po potopie zostało powiedziane, że człowiek będzie żył około 120 lat.\n\nPrawa Boże są prawami, które się spełniają – to tylko próby. Tutaj jest bardzo piękna myśl: „Wieczność włożył w nasze serca”. Uregulowanie spraw Bożych w tym złym czasie nie zaczyna się od fizycznej strony, ale od serca. Mamy na to wiele dowodów. Wiele złych rzeczy czynił Dawid, a był kim? Był upodobanym Boga według serca. Bóg daje nam szansę, bo włożył w nas pragnienie wieczności. \n\nWielu ludzi dzisiaj zapiera się Boga, ale tak prawdę mówiąc, wiara jest rzeczą, która coś w nas robi. Pewne decyzje, działania są powodowane przez wiarę. Dzisiaj naukowcy nazywają to genem wiary. Zwierzęta działają na zasadzie instynktu, my, kiedy podejmujemy pewne rzeczy, działamy na zasadzie wiary.\n\nMożna by ująć to tak, że Bóg włożył w każde serce człowieka pragnienie wieczności. Kiedy przyglądamy się narodom, historii, widzimy, jak człowiek zdeprawował to pragnienie wieczności, jak zdeprawował Boga, upodobnił Boga do produktów ludzkiej fantazji. Siły ciemności wprowadziły go w bałwochwalstwo, w zabójstwa i morderstwa. Ale mimo to w każdym człowieku jest dalej pragnienie wieczności.\n\nDiabeł nawet fałszuje pewnego rodzaju poczucie bezpieczeństwa – wytworzył wiele religii, które wymagają od ludzi pewnych czynności, nie zmieniając w rzeczywistości serca, nie wchodząc w prawo Boże, w sprawiedliwość Bożą. Wykonują pewne ceremoniały i myślą, że coś się dzieje po drugiej stronie świata duchowego, choć w fizycznej rzeczywistości nic się nie zmienia.\n\nLudzie potykają się o wiarę, a diabeł wkłada w nich fałszywe mniemanie o sobie samym. Wkłada grzech pychy, pragnienie bycia jak Bóg. Znamy wersety z pierwszej księgi Mojżeszowej, że owoc był godny pożądania, by zdobyć mądrość. Dzisiaj wielu ludzi uważa, że wie lepiej niż Bóg. Są teologowie, profesorowie, ale sytuacja ludzkości jest coraz gorsza.\n\nWielu z nich powołuje się na wiarę w Boga, w Chrystusa, ale ich czyny są zaprzeczeniem mocy, która miałaby wypływać z wiary. Jak to się stało, że tak mocno chybili celu? Kiedy Jezus mówi: „Ja jestem światłością świata” i oświeca nasze serca, pokazuje nam zakamarki serca, mówi o złym sercu, ale nie zostawia nas tylko z krytyką – daje receptę, wyjście i lekarstwo, którym jest Jezus Chrystus.\n\nNie zostawia nas samych – idzie, przygotowuje mieszkanie dla nas, posyła Ducha Świętego, który wprowadza nas w wszelką prawdę. Duch Święty buduje nasze wnętrze, wspomaga nas w dążeniu do dobra. Dziś wielu nie chce mówić o Duchu Świętym. Wielu, byłem tego świadkiem, gdy czytane są fragmenty o darach duchowych, po prostu je pomijają lub mówią, że to już przeminęło.\n\nA w dziejach Apostolskich jest napisane, że wszystko to będzie działo się aż do skończenia świata. To jest parafraza, ale wszystko jest dostępne. Co stało się, że tak chybimy celu? Bo jest zły czas.\n\nPrzyjrzyjmy się modlitwie arcykapłańskiej Jezusa z Ewangelii Jana. Jezus prosi Ojca, aby tych, których mu Ojciec dał, zachował w Nim. Myślę, że to dzieje się również dziś – wszystko jest, ale wszystko musi być zgodne ze Słowem Bożym. Diabeł podrabia i wyśmiewa pewne rzeczy, dziś wielu mówi o zjawiskach duchowych, również negatywnie o Duchu Świętym.\n\nOczywiście każdy, kto jest w Chrystusie i jest duchowo dojrzały, potrafi czytać Słowo Boże. Mamy dziś luksus, że wielu potrafi czytać i pisać – czego nie mieli ludzie przed II wojną światową. Bóg zawsze zadbał, aby w każdym zborze były osoby, które mogą prowadzić innych w prawdzie.\n\nNiektóre zgromadzenia przeżywały cuda – działo się to, aby dzieci Boże były zachowane w tym złym świecie. Bóg decyduje również o czasie, kiedy po nas przyjdzie. Mogę na ten temat mówić później.\n\nCzytajmy dalej. Słowo Boże mówi: „Ponownie stwierdziłem pod słońcem, że nie najszybszy zdobywa wyścig, nie najmocniejszy zdobywa bitwę...” – abyśmy współpracowali z Bogiem.\n\nJest okres niemowlęcy wiary – Słowo Boże mówi: zapragnijcie prostego, niesfałszowanego mleka. To, co przed chwilą czytaliśmy, pokazuje, że nie najmądrzejszy zdobywa nagrodę, ale posłuszny Słowu Bożemu. Amen.\n\nNagrodę zdobywa ten, który jest wykonawcą Słowa Bożego. Spójrzmy w nasze wnętrza – wierzę, że Duch Święty nam to ukazuje. Świeckie powiedzenie mówi, że to, co się rodzi w bólach, jest piękne. Ale Bóg powiedział, że w bólach będziesz rodzić.\n\nTo, co Bóg pięknego uczynił – życie zaczynające się w łonie matki – jest czymś niewytłumaczalnym, ale pięknym. Amen. \n\nZmieniając myślenie, to, co Jezus rozpoczyna, gdy się na nowo rodzimy, musi być piękne w trzech aspektach: duchowym, duszy i ciele. Amen, bo Bóg wszystko pięknie czyni.\n\nGdzie jest błąd? Niech każdy sobie odpowie – ile jest mojego uwikłania ze światem, ze złym czasem, który w każdym pokoleniu wygląda nieco inaczej? Ktoś, kto dzisiaj zmartwychwstałby, żyjąc w XVI wieku, powiedziałby, że w ogóle nie zna niektórych wynalazków, jak środki masowego przekazu. Dziś wikłamy się w różne techniczne wynalazki, które mogą służyć do wszystkiego – jak nóż: możemy kroić chleb, ale nim też można zabić. Możemy więc doświadczać dobra i zła.\n\nZawsze Bóg kładzie przed nami dobro i zło i radzi wybrać dobro. W Jezusie Chrystusie Bóg dokonał wszystkiego dobrze i pięknie, zostawiając nam działanie i radę, abyśmy wybierali dobro. Myślę, że te rady są w Słowie Bożym, a Duch Święty może każdemu z nas indywidualnie wypisać receptę na nasze chore duchy, na pożądliwe ciała – tylko musimy przychodzić pod krzyż Pana Jezusa Chrystusa i tam uzyskać moc wykonania tego, co jest lekarstwem dla ducha, duszy i ciała w tym złym czasie. Amen.\n\nMusimy współdziałać z Bogiem, w tej pielgrzymce ziemskiej współpracować z Nim. Odpowiedzmy sobie sami, ile współdziałamy z tym, czego od nas Bóg oczekuje, a jak często zaczynamy patrzeć oczami cielesnymi, pragnieniami duchowymi i duszowymi odwracamy się od Słowa Bożego i kierujemy ku światu. Pod tym hasłem kryje się wiele sytuacji. Wiemy, że królem świata jest szatan – ofiarował Jezusowi władzę nad światem w czasie kuszenia. To, co Jezus ma od Ojca, jest prawdziwe. Dlaczego więc diabeł usiłuje Go uwikłać? Ta oferta jest nadal aktualna dla tych, którzy się na nią złapią – niestety łapią się nawet dzieci Boże.\n\nNie zachowują braterstwa i równości w wierze, wynoszą się nawet ponad Pana Jezusa, który jest głową Kościoła. Musimy sobie powiedzieć jasno: to jest zły czas. Naszą wadą jest często to, że nie traktujemy poważnie Słowa Bożego w pewnych fragmentach. Słowo Boże mówi, że wiele dzieci Bożych przyjmuje tylko to, co im pasuje i co jest dla nich wygodne. \n\nA w tym złym czasie Słowo Boże wskazuje, że będąc wcześniej zanurzeni całkowicie w złym świecie, powinniśmy się zapierać samych siebie. Powinno w nas zaistnieć to, co Bóg przewidział. \n\nPrzyjrzyjmy się Jeremiaszowi – tam jest myśl o uwikłaniu w złym czasie. Musimy sobie zdać sprawę z jednej rzeczy: jesteśmy uwikłani w ten świat od samego narodzenia. Wielu ludzi mówi: wszystko jest nowe. Ale im bardziej się głośno to mówi, tym bardziej widzimy, że pod spodem są stare rzeczy – zło, które było, jest i będzie. \n\nBóg jednak mówi, że wszystko podlega zmianie – w pewnym momencie możemy zmienić nasze życie i pójść drogą Bożą, jeśli tylko się upamiętamy. \n\nW Jeremiaszu 10:23-24 czytamy takie słowa: „Wiem, Panie, że droga człowieka nie od niego zależy i że nikt, gdy idzie sam, nie kieruje swoimi krokami. Aha, o tym wiem, teraz i Ty, Boże, wiesz. Wiem, że droga człowieka jest kierowana.”\n\nZastanówmy się, kto kieruje naszym życiem: czy Bóg przez Ducha Świętego, czy też siły ciemności, choć my myślimy, że nasz wybór jest nasz własny? \n\nCzęsto słyszymy: „Ja wiem, nie mylę się”, a jednak okazuje się, że droga prowadzi do klęski. Znowu inna osoba mówi: „Teraz ja wiem”, i znów klęska. Ile razy tak jeszcze trzeba się pomylić?\n\nBóg jest cierpliwy i okazuje łaskę. Czyż Pan Jezus tak nie robił? Cytował słowa napisane, gdy był kuszony przez diabła. A my często trzymamy w sercu dumę i nie walczymy z tym, co Bóg chce od nas.\n\nMamy przywilej gasić pociski diabła Słowem Bożym – nie swoją mądrością, doświadczeniem ani wykształceniem. To wykształcenie jest potrzebne do życia na ziemi, ale w walce duchowej mamy stosować Słowo Boże. Efezjan 6 mówi o tym, jak się ostać w złym dniu.\n\nWszystko to rozważyłem w sercu i stwierdziłem, że sprawiedliwi i mędrcy, i wszystkie ich dzieła są w ręku Boga. Zarówno miłość, jak i nienawiść. Człowiek nie wie, co go spotka, bo wszystkich spotyka ten sam los: sprawiedliwego i bezbożnego, czystego i nieczystego, ofiarującego i tego, który nie ofiaruje, dobrego i grzesznika, tego, który przysięga, i tego, który się powstrzymuje od przysięgi.\n\nBardzo często diabeł będzie kusił słowem „prztak umrze” (czyli „na pewno umrzesz”), ale Słowo Boże mówi, że powinniśmy starać się być w rękach Boga, pomimo tego, że wizualnie nasze życie bywa różne – wizualnie widzimy różne zdarzenia.\n\nMy swoje zbawienie i Pana Jezusa będziemy oglądali po drugiej stronie. Nie patrzmy na świat i na niesprawiedliwych, którym dobrze się powodzi. Znam fragmenty, gdzie ktoś zazdrościł temu, komu powodzi się dobrze.\n\nOn może być uwikłany w zły czas, ale zewnętrznie wygląda to dobrze. A my sobie możemy odpowiedzieć – zapomniał o rodzinie, o żonie, bo od rana do wieczora pracuje, ale żona go zdradza, bo on nie ma dla niej czasu, dzieci zażywają narkotyki, a on się starał. Co się stało? Biblia mówi, że umiłowanie pieniędzy jest początkiem wszelkiego zła.\n\nDiabeł marzy o uwikłaniu nas w taki zły czas. Gdy spojrzymy na życie, to wszyscy, zarówno sprawiedliwi, jak i niesprawiedliwi, przejdą w swoim czasie dalej, ale los sprawiedliwych i niesprawiedliwych jest diametralnie inny po tej stronie.\n\nPowinniśmy się pocieszać tym, bo czasem i my możemy być uwikłani duchem w świat, myśląc, że wszystko jest w porządku. W Psalmie 37 czytamy od 18 wersetu: „Pan troszczy się o dni niewinnych, a dziedzictwo ich trwa na wieki”.\n\nPan troszczy się o nas! Czy to dla nas dobra wiadomość? Czy doświadczamy doświadczeń? Tak, ale Pan się troszczy. Jeśli się upamiętamy, jeśli przyjdziemy i poprosimy, On nas od tych złych dróg odstąpi i rozbłyśni na nowo.\n\nWidząc świat i jego złe czasy, widzimy, że Bóg zawsze daje wyjście. Nie ma sytuacji bez wyjścia, ale my sami musimy przyjąć receptę Bożą indywidualnie dla siebie. Kaznodzieje głoszą różne schematy i ogólne recepty, ale wielu z nich nie przynoszą trwałych owoców.\n\nKiedy zawołamy do Boga i uzyskamy moc płynącą z krzyża, wtedy możemy mieć trwałe owoce w życiu.\n\nMówi Słowo Boże: „W dniach głodu będą nasyceni, a bezbożni wyginą, nieprzyjaciele Pana jak ogień w piecu spłoną i pójdą z dymem”. To ciekawe, że nieprzyjaciele Pana są jak ogień w piecu – rozprzestrzenia się, ale jeśli jest w Bożym piecu, to zgaśnie.\n\nBóg do zła nie przykłada ręki. To, co jest złe, zostanie wytopione niczym złoto, które jest kilkakrotnie oczyszczane przez ogień. Duch Święty jest ogniem, który chrzci nas Duchem i ogniem. To ogień doświadczeń, który nigdy nie gaśnie, aż do dnia, gdy zostaniemy zabrani do miejsca wiecznej chwały.\n\nW tym trudnym czasie nie będziemy zawstydzeni, bo Pan troszczy się o nas. Amen."
+  },
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/xFqH30oHY8o/xFqH30oHY8o.opus",
+  "cover": "/images/covers/xFqH30oHY8o.webp"
+}

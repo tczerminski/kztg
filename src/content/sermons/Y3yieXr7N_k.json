@@ -1,0 +1,115 @@
+{
+  "date": "2025-02-12",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/Y3yieXr7N_k/Y3yieXr7N_k.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Wszystko ma swój czas i porę - II - Nowonarodzenie cz. 8",
+  "summary": "Księga Kaznodziei i Przypowieści Salomona stanowią biblijną podstawę rozważań na temat „czasu umierania”, szczególnie jego duchowego wymiaru. Kazanie podkreśla potrzebę posłuszeństwa Słowu Bożemu oraz odrzucenia kompromisów ze światem, wskazując, że złe umieranie oznacza duchowe zmagania z grzechem zakończone zgubą z powodu braku karności i rozsądku. Omówiona jest także konieczność dojrzałości duchowej oraz unikania nierozsądnych praktyk religijnych sprzecznych z biblijnym nauczaniem.",
+  "duration": 4200,
+  "translations": {
+    "en": {
+      "title": "Everything Has Its Time and Season - II - Being Born Again Part 8",
+      "summary": "Can dying become a transformation rather than a loss? This sermon explores how to truly die to the world and sin, avoiding the traps of a false 'bad dying.' It offers practical guidance on confidently progressing toward spiritual maturity, emphasizing the importance of grace and obedience to God's Word in daily life."
+    },
+    "uk": {
+      "title": "Усьому свій час і своя пора - II - Новоне народження ч. 8",
+      "summary": "Чи може смерть стати перетворенням, а не втратою? Проповідь показує, як по-справжньому вмирати для світу і гріха, уникаючи пасток хибної «поганої смерті». Вона дає практичні поради, як з довірою йти до духовної зрілості, підкреслюючи важливість благодаті та послуху Божому Слову в повсякденному житті."
+    },
+    "ta": {
+      "title": "ஒவ்வொன்றுக்கும் ஓருகாலம் vardır - II - புதுமைப் பிறப்பு பகுதி 8",
+      "summary": "சாவு என்பது அழிவா, மாற்றமா? இந்த அருவை வாழ்க்கையிலிருந்து புற்றுநோயுக்கு மரணம் என்ற தவறான முறையைத் தவிர்க்கும் விதத்தில் உண்மையிலேயே எப்படி இறக்க வேண்டும் என்பதை காட்டுகிறது. ஆன்மீகப் பொருத்தத்தை அடையும் வழியில் நம்பிக்கையுடன் முன்னேறுவதற்கான நடைமுறை அறிவுரைகளை வழங்குகிறது, அன்பும், கடவுள் வார்த்தைக்கு அமைவதும் எப்போதும் முக்கியம் என்பதை வலியுறுத்துகிறது."
+    },
+    "de": {
+      "title": "Alles hat seine Zeit und Stunde - II - Neue Geburt Teil 8",
+      "summary": "Kann Sterben eine Verwandlung und kein Verlust sein? Diese Predigt zeigt, wie man wirklich für die Welt und die Sünde stirbt und dabei die Fallen eines falschen „bösen Sterbens“ vermeidet. Sie gibt praktische Hinweise, wie man mit Vertrauen den Weg zur geistlichen Reife geht und dabei die Bedeutung von Gnade sowie Gehorsam gegenüber Gottes Wort im Alltag betont."
+    },
+    "es": {
+      "title": "Todo tiene su tiempo y temporada - II - Renacimiento parte 8",
+      "summary": "¿Puede la muerte convertirse en una transformación y no en una pérdida? Este sermón muestra cómo morir verdaderamente para el mundo y el pecado, evitando las trampas de una \"muerte mala\" falsa. Ofrece consejos prácticos para avanzar con confianza hacia la madurez espiritual, subrayando la importancia de la gracia y la obediencia a la Palabra de Dios en la vida diaria."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Koh 3",
+      "Rz 6",
+      "Rz 7",
+      "Łk 10",
+      "J 13",
+      "Prz 5",
+      "Prz 10",
+      "Prz 15",
+      "Hbr 9",
+      "Ap 20",
+      "Prz 11"
+    ],
+    "en": [
+      "Eccl 3",
+      "Rom 6",
+      "Rom 7",
+      "Luke 10",
+      "John 13",
+      "Prov 5",
+      "Prov 10",
+      "Prov 15",
+      "Heb 9",
+      "Rev 20",
+      "Prov 11"
+    ],
+    "uk": [
+      "Кгл 3",
+      "Рим 6",
+      "Рим 7",
+      "Лк 10",
+      "Ів 13",
+      "Пр 5",
+      "Пр 10",
+      "Пр 15",
+      "Євр 9",
+      "Од 20",
+      "Пр 11"
+    ],
+    "ta": [
+      "கொஹ் 3",
+      "ரோமர் 6",
+      "ரோமர் 7",
+      "லூக்கா 10",
+      "யோவான் 13",
+      "நீதிமொழிகள் 5",
+      "நீதிமொழிகள் 10",
+      "நீதிமொழிகள் 15",
+      "எபிரேயர் 9",
+      "வெளிப்படுத்தல் 20",
+      "நீதிமொழிகள் 11"
+    ],
+    "de": [
+      "Pred 3",
+      "Röm 6",
+      "Röm 7",
+      "Luk 10",
+      "Joh 13",
+      "Spr 5",
+      "Spr 10",
+      "Spr 15",
+      "Hebr 9",
+      "Offb 20",
+      "Spr 11"
+    ],
+    "es": [
+      "Ecl 3",
+      "Rom 6",
+      "Rom 7",
+      "Lc 10",
+      "Jn 13",
+      "Prov 5",
+      "Prov 10",
+      "Prov 15",
+      "Heb 9",
+      "Ap 20",
+      "Prov 11"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was wszystkich w imieniu Pana naszego Jezusa Chrystusa. Dalej będziemy kontynuowali cykl wykładów, które mają ogólny tytuł: „Wszystko ma swój czas i wszystko ma swoją porę”. Jak co tydzień, przeczytamy tylko tę przewodnią myśl z Księgi Kaznodziei Salomona, z trzeciego rozdziału, i będziemy rozważać dzisiaj kolejny element – czas umierania.\n\n„Wszystko ma swój czas i każda sprawa pod niebem ma swoją porę. Jest czas rodzenia i czas umierania.” Ostatnich kilka wykładów poświęciliśmy czasowi rodzenia, czyli temu, jak wygląda nowonarodzenie. Potem mówiłem o tym, aby będąc nowonarodzonym, być również w myśli Chrystusowej. Omawialiśmy też pewnego rodzaju pułapki, które mogą wystąpić, jeśli inaczej się na nowo narodzimy. Szczegółowo to omawialiśmy, a także w ubiegłym tygodniu podsumowaliśmy ten temat. Kończyliśmy na Liście do Rzymian, szeroko omawiając siódmy rozdział i szósty rozdział, od dziesiątego do czternastego wersetu.\n\nPodsumowując, chciałbym dodać, że rozdział siódmy często jest wykorzystywany – mówiłem o tym, ale chcę przypomnieć – przez ludzi, którzy nie chcą umrzeć dla grzechu. Wykorzystują ten rozdział inaczej, interpretując go tak, że im człowiek więcej grzeszy, tym łaska jest obfitsza. Co, jak wcześniej odnosiliśmy do Słowa Bożego, jest potępiane przez Pismo Święte i nie można się tym tłumaczyć. Osobiście też słyszałem takie tłumaczenia.\n\nDzisiaj będziemy dalej omawiać czas umierania. Musimy się zastanowić, co niesie ze sobą ten czas. Kiedy się na nowo narodziliśmy, zostaliśmy jakby z tamtej rzeczywistości światowej przeniesieni do nowej, duchowej rzeczywistości. Chociaż wszystkie emocje i bodźce, które nas otaczają na zewnątrz, pozostały takie same. Jak mówiłem, w tym okresie dążenia do spotkania z Panem – tak jak w życiu fizycznym – Słowo Boże dzieli to na pewne etapy. O tym już mówiliśmy, ale chcę przypomnieć, że był okres niemowlęcy – czas, kiedy powinniśmy zapragnąć prostego, niesfałszowanego mleka, jakim jest Słowo Boże. Mówiliśmy też o „czasie cielesności”, o którym jest mowa w liście do Koryntian – czas, w którym, podobnie jak u dzieci, pojawia się zjawisko „ja sam, ja sam”. W tym czasie człowiek popełnia coraz więcej błędów.\n\nWłaśnie po to jest łaska – szeroko omawiana już w lipcu – że Bóg nie tak jak było w Starym Przymierzu, ale w Nowym Przymierzu zmiłowania i łaski obfitują. Bóg daje nam czas, abyśmy stawali się dojrzałymi mężami, dojrzałymi ludźmi duchowymi, którzy, jak mówi Słowo Boże, są w stanie nieść brzemiona innych. Bóg powołując Kościół, nie stworzył go z jakąś kastowością – gdzie są kapłani, a inni mają pełnić inne funkcje i przynosić ofiary. Bóg stworzył Kościół, w którym są bracia i siostry. Wprowadził powszechne kapłaństwo, które przez Jego krew jednoczy ludzi ze świata z Panem naszym Jezusem Chrystusem. Funkcjonowanie Kościoła jest bardzo skrupulatnie omówione w Słowie Bożym, ale to nie jest temat dzisiejszej usługi.\n\nDziś mówimy o czasie umierania i zaczniemy od czasu złego umierania. Tak jak jest złe nowonarodzenie, tak jest złe umieranie. Już w ubiegłym tygodniu wyraziłem to, mówiąc o tym, że niektórzy manipulują Słowem Bożym i twierdzą, że mają inne poznanie na ten temat lub inaczej interpretują wersety. Już wielokrotnie było to cytowane z tego miejsca – w Ewangelii Łukasza, gdzie jeden uczony w Piśmie wystawił na próbę Pana Jezusa i zapytał: „Jak czytasz?” Uczony w Piśmie zacytował, a Pan Jezus powiedział: „Tak czyń, a będziesz zbawiony.” Sama czynność jest podstawą, ale jeśli czynimy to, co mówi Słowo Boże – jak uczy nas List Jakuba – wypełniamy swoje zbawienie. Jedni robią to lepiej, inni trochę inaczej, ale mamy czynić, bo Bóg zna również naszą indywidualną sytuację. Każdy jest inny, a Bóg jest wszechobecny i wszechwiedzący. Dobrze, że mamy takiego wspaniałego Boga, który podchodzi do każdego z nas indywidualnie.\n\nSłowo Boże jest uniwersalne, ponieważ Bóg jest wieczny, zna wszystko i wszystko wypełnia. Praktycznie jesteśmy w Nim, a do końca Boga nie pojmiemy naszym umysłem – niezależnie od tego, jakie jest nasze poznanie czy wiedza. Kiedy oglądamy świat i Jego dzieła, jesteśmy zachwyceni tym, co Bóg czyni.\n\nOtwórzmy Księgę Przypowieści Salomona, rozdział piąty – dzisiaj powoli kontynuujemy tę myśl: złe umieranie. Człowiekowi i światu jest bardzo trudno umrzeć. W zasadzie chciałoby się, jak w starej ludowej przypowieści, „Panu Bogu świeczkę, a diabłu ogarek”. Jednak tak nie przewiduje Słowo Boże. Nie powinniśmy iść na kompromisy ze światem, ponieważ jest ryzyko, że świat nas pochłonie na nowo.\n\nCzytając dalej w piątym rozdziale Przypowieści Salomona, wersety 22–23:\n\n„Bezbożny plącze się we własnych nieprawościach, wikła się w pętach swego grzechu. Umrze z powodu braku karności i z powodu wielkiej swojej głupoty zbłądzi.”\n\nWidzimy, że Słowo Boże nadaje kierunek temu, jak ktoś – mając bystry umysł, dobry intelekt – może sądzić, że z Bogiem będzie prowadził polemikę i się wybroni. Słowo Boże pokazuje, że taka postawa prowadzi do zguby. Umrze z powodu braku karności, czyli nieposłuszeństwa Bogu. Kto nie jest posłuszny Słowu Bożemu, nie umarł dla świata i nie obumarły w nim pożądania świata, a liczył, że będzie bezkarny. Jednak Słowo Boże mówi jasno, że w ten sposób zbłądzi z powodu swojej głupoty. \n\nJaki zamysł powinniśmy realizować w życiu? O naszych zamysłach mówi Słowo Boże w wielu miejscach. „Nie ma ani jednego sprawiedliwego, który by nie zbłądził”. Pragnienia naszego serca, jeśli nie jest odnowione, są ustawicznie złe. Z serca wypływa zazdrość, kłótliwość, nawet zabójstwo – wszystko wypływa z wnętrza człowieka. Jeśli pozwolimy tym pragnieniom pozostać w sercu, one w nas nie umrą, lecz będą żyły i rządziły nami.\n\nPrzykład koronnym jest apostoł Judasz, który zdradził Pana Jezusa. Szatan wzbudził w jego sercu myśl, aby zdradził Zbawcę. Tak opisuje to Ewangelia Jana, rozdział 13, werset 2. \n\nBadania pokazują, że w sercu są komórki podobne do tych w mózgu, które działają jak mózg – to ciekawe zagadnienie, które jeszcze wielu ludzi nie zbadało. W dzisiejszym świecie pełno jest fałszywych lekarstw, suplementów diety, które są reklamowane jako antidotum na wszystko – od zdrowia po piękno i szczupłą sylwetkę. Będąc młodym człowiekiem w latach 60., takich rzeczy nie było. Dziś trzeba by mieć wózek z lekami dosłownie wszędzie.\n\nJednak nie ma lekarstwa, oprócz jednego, które może zmienić serce ludzkie. Jest nim to, co Pan Jezus dokonał na krzyżu i Słowo Boże, które, jeśli będziemy wkładać do serca, ożywi w nas śmiertelne ciało przez moc Ducha Świętego i odnawia naszą duszę. Duch, dusza i ciało powinny być zachowane w czystości.\n\nProces umierania duszewności i ciała nie oznacza, że ktoś powinien zniszczyć swoje ciało. To są porównania, które Słowo Boże przedstawia prosto i komunikatywnie, abyśmy mogli je zrozumieć. Bóg przesłał swoje Słowo przez Ducha Świętego i ludzie, którzy je spisywali z Jego mocy, czynili to w sposób zrozumiały dla nas. Pan Jezus powiedział – nawet przeciętny człowiek nie zbłądzi na Jego drogach. I za to chwała Bogu.\n\nZłe umieranie jest zawsze inicjowane przez siły ciemności. Kontynuując lekturę Przypowieści, rozdział 10, werset 21:\n\n„Wargi sprawiedliwego pokrzepiają wielu, lecz głupcy umierają z powodu braku rozsądku.”\n\nWidzimy tutaj kolejny kierunek – życie wymaga rozsądku. Niestety, w różnych zgromadzeniach często obserwujemy brak rozsądku, zachowania dziwne, które nijak się mają do oddawania czci Bogu. Rozsądek jest konieczny. Przypomnę, że powinniśmy być w grzechu jak niemowlęta, ale w rozumowaniu dojrzali.\n\nNie rozsądek nie może być martwy w nas. Przykładem nierozsądnego zachowania jest popularne w Stanach Zjednoczonych zgromadzenie, które, wystawiając Boga na próbę, uprawia tzw. „harce z wężami”. Na nabożeństwach tych wielu ludzi zostało ukąszonych przez węże jadowite i umarło, powołując się przy tym na fragmenty Ewangelii Marka oraz na to, że apostoł Paweł żył po ukąszeniu przez węża.\n\nCzy to jest rozsądne? Bóg oczywiście wyciągnął Pawła z tamtej sytuacji, bo Paweł otrzymał wcześniejsze objawienie i anioł zapewnił go, że musi stanąć w Rzymie, więc jego śmierć w tym miejscu nie wchodziła w grę. Nie można więc uogólniać, że w każdej sytuacji i u każdego działają te same zasady.\n\nIdźmy dalej: „Błogosławieństwo Pana wzbogaca, lecz własny wysiłek nic do niego nie dodaje.” Bardzo często ludzie dziś wymyślają sposoby głoszenia Ewangelii, wysilają się na różne metody, ale to nie zastąpi prawdziwej mocy Bożej.\n\nPrzykład pokory zawdzięczamy królowi Hiskiaszowi, który był posłuszny Słowu Bożemu i odnowił swoje wnętrze. Nie polegał na doświadczeniach ani na tym, co widział, choć był synem królewskim i starannie wykształconym. Jego modlitwa nie była wymowna czy okazała – była modlitwą płynącą prosto z serca. Amen?\n\nJeśli umieramy dla tego świata, wzrasta w nas bliskość z Bogiem przez Ducha Świętego. Jesteśmy jak trawa – dziś kwitniemy, jutro nas nie ma. W Przypowieściach Salomona, rozdział 15, czytamy:\n\n„Surowa kara spada na tego, kto zbacza z drogi. Kto nienawidzi napomnienia, musi umrzeć. Kraina umarłych i otchłań są przed Panem, tym bardziej serca synów ludzkich.”\n\nBóg widzi wszystko – nie można ukryć się przed Nim ani schować z tym, co jest w naszym sercu. Możemy udawać w domu, na spacerze, w kościele – mieć pogodny wygląd albo udawać troskę – ale korzeń zgorzknienia może być schowany głęboko w sercu. Bóg natomiast w swoich oczach ma serca ludzi szeroko otwarte.\n\nApostoł Paweł powiedział, że serca są ciasne dla nas, co oznacza, że często zamykamy się ze swoimi problemami, a nie otwieramy serca braciom i siostrom. Tymczasem Pan zna nasze serca i nic nie ukryjemy. Nie ma chrześcijan-ławkojazów – spotykamy się, aby mieć społeczność, w której wypełniamy to, co przewiduje Słowo Boże: pouczenie, uwielbienie, dzielenie się i pocieszenie.\n\nDalej w Hebrajczyków, rozdział 9, czytamy, że „ludziom jest postanowione raz umrzeć, a potem sąd”. Nie ma przelewek z Bogiem – nie ułożymy się z Nim inaczej niż przez wiarę i pokorę w Jezusie Chrystusie. To ostrzeżenie również jest dla świata.\n\nWielu dzisiejszych niechrześcijan wierzy w sprawiedliwość na zasadzie: dobre uczynki, złe uczynki – i że jakoś to się wyrówna, ale prawdziwą sprawiedliwość daje tylko wiara. Bez niej nie ma zbawienia. \n\nDlatego jeśli w sercu rośnie myśl usprawiedliwiająca naszą nieposłuszność (często ubarwiana innymi argumentami), to jest to bardzo niebezpieczne. Nasza dusza potrafi zło przebierać w lepsze słowa.\n\nMówiąc obrazowo, sztuczna inteligencja jest inteligentna tylko na tyle, na ile człowiek wprowadzi dane. Podobnie Bóg ostrzega przed tymi, którzy chcą się ostać bez prawdziwej przemiany, bez umierania dla grzechu.\n\nZakończę przypomnieniem: jeśli się dwa razy narodzisz z ducha, to umrzesz tylko raz fizycznie. Jeśli jednak narodzisz się tylko raz – cielesnie – umrzesz dwa razy, także duchowo. To jest ta druga śmierć, o której mówi Apokalipsa.\n\nWarto pamiętać, że Objawienie jest błogosławioną księgą, choć wielu ludzi ją neguje. Słowo Boże albo nas karmi, albo oskarża – i wiele osób od niej ucieka.\n\nDlatego pytajmy siebie: umarłem dla grzechu, aby żyć? Po nowym narodzeniu pewne elementy naszego starego życia powinny powoli umierać. Nie od razu stajemy się świętymi. Umieranie trwa i jest procesem, bo pragnienia ciała i duszy, jeśli nie są eliminowane, powracają.\n\nWracając do Przypowieści Salomona, rozdział 11, czytamy:\n\n„Słodkie jest światło i miłe jest oczom oglądanie słońca. Gdy człowiek żyje wiele lat, niech się z nich wszystkich raduje, lecz niech pamięta, że dni mrocznych jest sporo. Wszystko, co nadchodzi, jest marnością. Raduj się, młodzieńcze, w swej młodości i bądź dobrej myśli, póki jesteś młody. Postępuj tak, jak każe ci serce. Używaj, czego pragną twoje oczy, lecz wiedz, że za to wszystko pozwie cię Bóg na sądzie.”\n\nTo jest obrazowo przeciwstawienie marności przed sądem Bożym. Każdy z nas to odczuwa. Proces umierania dla świata jest walką, a nasze zmysły mogą odnawiać pragnienia, które będą nas osądzać.\n\nNie jestem sędzią nikogo, lecz pamiętajmy, że pod sąd staje każdy. Niebo raduje się, gdy jeden grzesznik się opamięta. Naszym zadaniem jest powstawanie z martwych i nakłanianie innych, którzy się pogubili w świecie.\n\nBóg obiecuje, że zachowa nas w świecie – nie po to, abyśmy oddalili się od niego, lecz abyśmy świadomie i dobrowolnie wybierali Go i współdziałali ku dobremu.\n\nNa przykład, w modlitwie arcykapłańskiej Pana Jezusa, w Ewangelii Jana, jedenasto siódmym rozdziale, jest modlitwa: „Nie proszę, abyś ich zabrał z tego świata, ale abyś zachował ich od złego.”\n\nKto przestrzega przykazań Pana, okazuje Mu miłość i szacunek, tak jak dzieci, które okazują to posłuszeństwem rodzicom.\n\nJuż na dzisiaj kończę. W następnym tygodniu będziemy dalej omawiać temat umierania w ciele.\n\nNiech Pan nam błogosławi. Amen."
+  },
+  "cover": "/images/covers/Y3yieXr7N_k.webp"
+}

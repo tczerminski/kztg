@@ -1,0 +1,211 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { t, type Locale } from "../i18n/utils";
+import type { SermonView } from "../lib/sermons";
+import { getSermonTranscript } from "../lib/sermons";
+import { buildSermonJsonLd } from "../lib/jsonld";
+
+interface Props {
+  locale: Locale;
+  sermon: SermonView;
+}
+
+const { locale, sermon } = Astro.props;
+const transcript = await getSermonTranscript(sermon.id, locale);
+
+const siteUrl = Astro.site?.origin ?? "https://kztg.pl";
+const pageUrl = new URL(sermon.href, siteUrl).toString();
+const pageTitle = `${sermon.title || t(locale, "sermons.noTitle")} | ${t(locale, "site.name")}`;
+const jsonLd = buildSermonJsonLd(sermon, siteUrl, pageUrl, locale);
+const metaParts = [sermon.preacher, sermon.dateDisplay, sermon.durationDisplay].filter(Boolean);
+const backHref = `${getRelativeLocaleUrl(locale, "/")}#sermons`;
+---
+<BaseLayout
+  locale={locale}
+  pageTitle={pageTitle}
+  pageDescription={sermon.summary || undefined}
+  pageImage={sermon.cover}
+  pagePath={sermon.href}
+  skipHreflang
+  jsonLdOverride={jsonLd}
+>
+  <article id="sermon-top" class="sermon-detail-article max-w-4xl mx-auto px-4 pb-12 md:pb-20">
+    <div class="sermon-detail-content bg-white rounded-none sm:rounded-2xl shadow-sm -mx-4 sm:mx-0 px-4 sm:px-8 pb-4 sm:pb-8">
+      <a
+        id="sermon-back-link"
+        href={backHref}
+        class="inline-flex items-center gap-2 px-4 py-2 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition text-sm font-semibold mb-8"
+      >
+        {t(locale, "sermon.back")}
+      </a>
+
+      {sermon.cover && (
+        <div class="relative overflow-hidden rounded-none sm:rounded-xl aspect-video mb-8 -mx-4 sm:mx-0">
+          <img src={sermon.cover} class="w-full h-full object-cover" alt={sermon.title} loading="eager" />
+        </div>
+      )}
+
+      {sermon.title ? (
+        <h1 class="text-3xl md:text-4xl font-semibold text-gray-900 mb-2 leading-tight">{sermon.title}</h1>
+      ) : (
+        <h1 class="text-3xl md:text-4xl font-semibold text-gray-400 italic mb-2 leading-tight">{t(locale, "sermons.noTitle")}</h1>
+      )}
+
+      <div class="sermon-card-meta mb-8">
+        {metaParts.map((part, i) => (
+          <>
+            {i > 0 && <span class="sermon-card-meta-dot">·</span>}
+            <span>{part}</span>
+          </>
+        ))}
+      </div>
+
+      <div class="mb-10">
+        <div class="sermon-inline-player sermon-inline-player--lg" data-sermon-player>
+          <div class="sermon-inline-player__body">
+            <button
+              type="button"
+              class="sermon-inline-player__toggle"
+              data-sermon-play
+              data-title={sermon.title || sermon.dateDisplay}
+              data-preacher={sermon.preacher}
+              data-audio={sermon.audio}
+              aria-label={t(locale, "sermons.play")}
+            >
+              <svg data-play-icon xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+              <svg data-pause-icon xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="hidden">
+                <rect x="6" y="4" width="4" height="16" />
+                <rect x="14" y="4" width="4" height="16" />
+              </svg>
+            </button>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              class="sermon-inline-player__progress"
+              data-sermon-progress
+              data-duration={sermon.duration || 0}
+              aria-label={t(locale, "sermons.progress")}
+            />
+            <div class="sermon-inline-player__times">
+              <span data-current-time>0:00</span>
+              <span data-total-time>{sermon.durationDisplay || "0:00"}</span>
+            </div>
+            {sermon.isTTS && <div class="sermon-tts-notice">{t(locale, "sermons.aiVoice")}</div>}
+          </div>
+        </div>
+      </div>
+
+      {sermon.summary && (
+        <section class="mb-10">
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">{t(locale, "sermon.summaryHeading")}</h2>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            {sermon.summary} <span class="ai-badge" aria-label={t(locale, "sermons.aiGenerated")}>✦ AI</span>
+          </p>
+        </section>
+      )}
+
+      {transcript && (
+        <section id="sermon-transcript">
+          <h2 class="text-xl font-semibold text-gray-900 mb-4">{t(locale, "sermon.transcriptHeading")}</h2>
+          <div class="text-gray-700 leading-relaxed whitespace-pre-line">{transcript}</div>
+        </section>
+      )}
+    </div>
+  </article>
+
+  <button type="button" class="back-to-top" data-scroll-target="sermon-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+    <span>{t(locale, "sermon.backToTop")}</span>
+  </button>
+</BaseLayout>
+
+<style>
+  /* No fixed header on mobile (see .mobile-hidden-header) — the white card runs
+     flush to the top edge, with the safe-area/notch clearance as its own
+     padding instead of a gray gap above it. */
+  .sermon-detail-article {
+    padding-top: 0;
+  }
+
+  .sermon-detail-content {
+    padding-top: calc(env(safe-area-inset-top, 0px) + 1.5rem);
+  }
+
+  /* From md: up, #siteHeader is fixed at ~72px — clear it with room to spare,
+     and the card gets its normal (smaller) top padding back. */
+  @media (min-width: 768px) {
+    .sermon-detail-article {
+      padding-top: 8rem;
+    }
+
+    .sermon-detail-content {
+      padding-top: 2rem;
+    }
+  }
+
+  .sermon-inline-player--lg .sermon-inline-player__toggle {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+
+  .sermon-inline-player--lg .sermon-inline-player__progress {
+    height: 8px;
+  }
+
+  .sermon-inline-player--lg .sermon-inline-player__times {
+    font-size: 1rem;
+  }
+
+  .back-to-top {
+    /* centered at the bottom, matching the homepage's scroll indicator — with a
+       white pill background so it stays readable over scrolling text content
+       (the homepage version sits over a dark video, this one doesn't). */
+    position: fixed;
+    left: 50%;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 1.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 9999px;
+    padding: 0.625rem 2.5rem;
+    box-shadow: 0 2px 6px rgb(63 86 143 / 0.1);
+    color: #3f568f;
+    cursor: pointer;
+    letter-spacing: 0.08em;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 8px);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+    z-index: 40;
+  }
+
+  .back-to-top.is-visible {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 0);
+  }
+
+  .back-to-top svg {
+    animation: bounceUp 1.5s ease-in-out infinite;
+  }
+
+  .back-to-top span {
+    font-size: 0.6875rem;
+    text-transform: uppercase;
+  }
+
+  @keyframes bounceUp {
+    0%, 100% { transform: translateY(0); opacity: 1; }
+    50% { transform: translateY(-10px); opacity: 0.5; }
+  }
+</style>

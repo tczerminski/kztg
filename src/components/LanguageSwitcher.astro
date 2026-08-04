@@ -1,0 +1,57 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import { locales, type Locale } from "../i18n/utils";
+
+interface Props {
+  locale: Locale;
+  variant?: "header" | "hero";
+}
+
+const { locale, variant = "header" } = Astro.props;
+
+const labels: Record<Locale, string> = {
+  pl: "PL",
+  en: "EN",
+  de: "DE",
+  es: "ES",
+  uk: "UA",
+  ta: "TA",
+};
+
+const ariaLabels: Record<Locale, string> = {
+  pl: "Polski",
+  en: "English",
+  de: "Deutsch",
+  es: "Español",
+  uk: "Українська",
+  ta: "தமிழ்",
+};
+
+const btnClass =
+  variant === "hero"
+    ? "lang-btn px-2 py-1 text-xs font-semibold rounded transition text-white hover:text-white/70"
+    : "lang-btn px-2 py-1 text-xs font-semibold rounded transition text-[#1f2a44] hover:bg-gray-100";
+
+const sepClass = variant === "hero" ? "text-white/40 select-none" : "text-gray-300 select-none";
+---
+<nav
+  aria-label="Wybór języka"
+  class={variant === "hero"
+    ? "lang-switcher--hero md:hidden absolute top-3 left-1/2 -translate-x-1/2 z-20 flex items-center gap-0.5 bg-black/30 backdrop-blur-sm rounded-xl px-2 py-1"
+    : "flex items-center gap-0.5 ml-auto"}
+>
+  {locales.map((lc, i) => (
+    <>
+      {i > 0 && <span class={sepClass}>|</span>}
+      <a
+        href={getRelativeLocaleUrl(lc, "/")}
+        data-lang-btn={lc}
+        class={`${btnClass} ${lc === locale ? "lang-btn--active" : ""}`}
+        aria-label={ariaLabels[lc]}
+        aria-current={lc === locale ? "true" : "false"}
+      >
+        {labels[lc]}
+      </a>
+    </>
+  ))}
+</nav>

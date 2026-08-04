@@ -1,0 +1,139 @@
+{
+  "date": "2023-11-22",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/9-ZQmaCtpDc/9-ZQmaCtpDc.opus",
+  "preacher": "Krzysztof Rataj",
+  "title": "Obraz Pasterza i Jego Owiec cz. 1",
+  "summary": "Obraz pasterza i owiec, obecny w całym Piśmie Świętym, jest głównym tematem kazania, które odkrywa jego znaczenie zarówno w Starym, jak i Nowym Testamencie. Na przykładzie Dawida oraz nauczania Jezusa analizowane są cechy pasterza: troska, odwaga, sprawiedliwość i miłosierdzie. Fragmenty Pisma podkreślają też rolę wiernych owiec jako wspierających się wzajemnie w trudach życia duchowego.",
+  "duration": 4521,
+  "translations": {
+    "en": {
+      "title": "The Image of the Shepherd and His Sheep, Part 1",
+      "summary": "The imagery of the shepherd and his sheep, woven throughout the entire Bible, reveals God's care, courage, and justice. This sermon guides listeners to a deeper understanding of their role in God's flock and helps them recognize the spiritual fruits of life under the protection of Jesus Christ, the true Shepherd. It's an invitation to reflect on where we stand today in our relationship with Him."
+    },
+    "uk": {
+      "title": "Образ Пастиря і Його Вівців ч. 1",
+      "summary": "Образ пастиря і вівців, який проходить крізь усе Святе Письмо, показує Божу опіку, сміливість і справедливість. Проповідь веде слухача до глибшого розуміння своєї ролі в Божому отарі та допомагає впізнати духовні плоди життя під захистом Ісуса Христа, справжнього Пастиря. Це запрошення до роздумів над тим, де ми сьогодні стоїмо у відносинах із Ним."
+    },
+    "ta": {
+      "title": "ஆயالا்வனும் அவரது கோழிகளின் உருவம் பகுதி 1",
+      "summary": "பழையது முதல் புதிய நூலின் முழுவதும் திருவிவிலியத்தில் தோன்றும் ஆயாள்வனும் அவரது கோழிகளின் உருவம், கடவுளின் கவனிப்பு, துணிவும் நீதியையும் வெளிப்படுத்துகிறது. இந்த பிரசங்கம் கேட்கின்றவரை கடவுளின் கூர்மையான கூட்டத்தில் தமது பங்கு மீதும், இயேசு கிரிஸ்துவின் பாதுகாப்புக்குட்பட்ட ஆன்மீக வாழ்வின் பலன்களையும் ஆழமாக புரிந்து கொள்ள வழிநடத்துகிறது. இதில் இன்று உன்னிடம் மற்றும் அவருடன் உள்ள உறவின் மேல் சிந்திக்க அழைப்பாக இருக்கிறது."
+    },
+    "de": {
+      "title": "Das Bild des Hirten und seiner Schafe, Teil 1",
+      "summary": "Das Bild des Hirten und seiner Schafe, das sich durch die gesamte Heilige Schrift zieht, zeigt Gottes Fürsorge, Mut und Gerechtigkeit. Die Predigt führt die Zuhörer zu einem tieferen Verständnis ihrer Rolle in Gottes Herde und hilft dabei, die geistlichen Früchte eines Lebens unter dem Schutz Jesu Christi, des wahren Hirten, zu erkennen. Es ist eine Einladung zur Reflexion darüber, wo wir heute in unserer Beziehung zu Ihm stehen."
+    },
+    "es": {
+      "title": "La Imagen del Pastor y Sus Ovejas, parte 1",
+      "summary": "La imagen del pastor y las ovejas, que atraviesa toda la Escritura, revela el cuidado, la valentía y la justicia de Dios. Este sermón invita al oyente a profundizar en su papel dentro del rebaño divino y a reconocer los frutos espirituales de vivir bajo la protección de Jesucristo, el verdadero Pastor. Es una invitación a reflexionar sobre nuestra posición actual en relación con Él."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 4",
+      "Rdz 12",
+      "Rdz 30",
+      "Wj 3",
+      "1 Sm 17",
+      "1 Sm 30",
+      "2 Sm 24",
+      "J 8",
+      "J 2",
+      "J 14",
+      "J 11",
+      "Mt 20",
+      "Ps 23",
+      "Rz 15",
+      "Mt 7"
+    ],
+    "en": [
+      "Gen 4",
+      "Gen 12",
+      "Gen 30",
+      "Exod 3",
+      "1 Sam 17",
+      "1 Sam 30",
+      "2 Sam 24",
+      "John 8",
+      "John 2",
+      "John 14",
+      "John 11",
+      "Matt 20",
+      "Ps 23",
+      "Rom 15",
+      "Matt 7"
+    ],
+    "uk": [
+      "Бут 4",
+      "Бут 12",
+      "Бут 30",
+      "Вих 3",
+      "1 Сам 17",
+      "1 Сам 30",
+      "2 Сам 24",
+      "Ів 8",
+      "Ів 2",
+      "Ів 14",
+      "Ів 11",
+      "Мт 20",
+      "Пс 23",
+      "Рим 15",
+      "Мт 7"
+    ],
+    "ta": [
+      "ஆதி 4",
+      "ஆதி 12",
+      "ஆதி 30",
+      "எக்சோடு 3",
+      "1 சமு. 17",
+      "1 சமு. 30",
+      "2 சமு. 24",
+      "யோவான் 8",
+      "யோவான் 2",
+      "யோவான் 14",
+      "யோவான் 11",
+      "மத்தாய் 20",
+      "சங்கீதம் 23",
+      "ரோமர் 15",
+      "மத்தாய் 7"
+    ],
+    "de": [
+      "Gen 4",
+      "Gen 12",
+      "Gen 30",
+      "2 Mos 3",
+      "1 Sam 17",
+      "1 Sam 30",
+      "2 Sam 24",
+      "Joh 8",
+      "Joh 2",
+      "Joh 14",
+      "Joh 11",
+      "Matt 20",
+      "Ps 23",
+      "Röm 15",
+      "Matt 7"
+    ],
+    "es": [
+      "Gén 4",
+      "Gén 12",
+      "Gén 30",
+      "Éx 3",
+      "1 Sam 17",
+      "1 Sam 30",
+      "2 Sam 24",
+      "Juan 8",
+      "Juan 2",
+      "Juan 14",
+      "Juan 11",
+      "Mat 20",
+      "Sal 23",
+      "Rom 15",
+      "Mat 7"
+    ]
+  },
+  "transcript": {
+    "pl": "Chwała Panu Bogu! Cieszę się, że kolejny raz możemy rozważać Boże Słowo, możemy uwielbiać Pana. Chciałbym dziś poruszyć temat, o którym Biblia dość wiele razy wspomina, a mianowicie obraz pasterza i owiec.\n\nTo jest taki obraz, który przewija się zarówno w Starym, jak i w Nowym Testamencie, generalnie przez całe Słowo Boże. Zacząłem się zastanawiać, dlaczego akurat taki obraz? Dlaczego Pan Jezus tak mówił? Dlaczego w Starym Testamencie jest tak wiele o tym? Dziś chciałbym, abyśmy się chwilę nad tym pochylić i zastanowili, co możemy wziąć do naszego życia właśnie z tego obrazu pasterza i owiec. Gdzie my jesteśmy w naszej drodze za Panem? Gdzie możemy się odnaleźć właśnie w tym obrazie?\n\nJeżeli chodzi o pasterza, zastanowimy się, co sobą reprezentuje, jaka jest jego rola, a także przyjrzymy się owcom, ich postawie i zależności, jakie są same w sobie. Przez ten obraz chciałbym, abyśmy umieli dostrzec, na jakim miejscu jesteśmy w Królestwie Bożym. Gdzie się znajdujemy, rozszyfrowując trochę ten obraz pasterza i owiec.\n\nTak jak powiedziałem, ten obraz przewija się przez całą Biblię. Już na samym początku był Abel, który był pasterzem owiec; Abraham też pasł owce; Jakub pasł owce swego teścia, potem miał swoje trzody; był Mojżesz, który przez 40 lat pasł owce; był Dawid, który był pasterzem od najmłodszych lat; a w Nowym Testamencie Pan Jezus również używał tego obrazu.\n\nZobaczmy, ile osób w Biblii miało ten zawód, jak bardzo ich życie związane było z pasterstwem. Co z tego możemy wziąć dla siebie? Abraham, Jakub, Mojżesz, Dawid – to byli mężowie Boży, których Bóg używał, którzy dokonali wiele w Izraelu. Warto się zastanowić, jaki wpływ to miało na ich życie, na pokolenia, które przyszły później.\n\nO Ablu co prawda nie czytamy wiele, lecz wiemy, że jego ofiara była miła Panu Bogu, ponieważ złożył z najlepszych owieczek. To pokazuje, że Abel był prawdziwy przed Panem Bogiem i kochał Go, dając Mu to, co najlepsze ze swojego dobytku.\n\nA Dawida, pasterza od najmłodszych lat, chcę trochę zatrzymać się na jego przykładzie i przytoczyć kilka sytuacji z jego życia. W pierwszej księdze Samuelowej, 17 rozdziale, czytamy, jak Dawid mówi do Saula, zanim poszedł walczyć z Goliatem:\n\n„Sługa Twój pasał owce ojca swego, i bywało tak, że przyszedł lew lub niedźwiedź i porwał jagnię z trzody. Wtedy ja biegłem za nim, pokonywałem go i wyrywałem je z paszczy jego. A jeśli rzucił się na mnie, to go chwytałem za grzywę, tłukłem i zabijałem.”\n\nTo niesamowity obraz: młody człowiek, który jako pasterz stawia czoła lwowi czy niedźwiedziowi, aby ocalić owce. Zależało mu tak bardzo na tych owcach, że nie zważał na własne życie. To pokazuje, jak bardzo troszczył się o swoje trzody powierzane mu przez ojca.\n\nDawid wierzył również, że Pan Bóg go ochroni – mówi o tym w tym samym fragmencie: „Pan, który mnie wyrwał z mocy lwa i niedźwiedzia, wyrwie mnie także z ręki tego Filistyńczyka.” I rzeczywiście tak się stało.\n\nPasterz musi być odważny, a Dawid był odważny – to kolejna cecha, którą możemy wziąć do serca.\n\nInnym miejscem, gdzie widzimy, że Dawid troszczył się o swoje owce, jest historia z Syklaku, gdzie Amalekici napadli na miasto, spalili je i uprowadzili żony, dzieci oraz trzody Dawida. Dawid i jego wojownicy przygnębieni płakali. Mimo rozgoryczenia Dawid nie poddał się, ale zwrócił się do Pana z prośbą o wskazówkę, co robić dalej. Pan odpowiedział mu poprzez kapłana, że ma się ruszyć w pogoń za nieprzyjacielem i uratuje swoje rodziny.\n\nTo jest przykład wiary i zaufania. Dawid nie skarżył się, nie rozdzierał szat, ale szukał rozwiązania u Pana. To jest dla nas bardzo ważna wskazówka – nie rezygnujmy, ale zaufajmy Bogu w trudnych sytuacjach.\n\nPo pogoni Dawid zmierzył się także z nieporozumieniami w swoim otoczeniu. Część jego wojowników, które były zbyt słabe, by iść z nim w pogoń, chciała być wyłączona ze zdobyczy. Dawid odmówił takiego traktowania – chciał, żeby wszyscy byli równi i podzielili się owocami zwycięstwa po równo.\n\nTen przykład pokazuje niesamowitą sprawiedliwość i równość, jaką pasterz powinien okazywać swoim owcom. Wierzę też, że Pan Jezus tak właśnie traktuje każdego z nas.\n\nInnym fragmentem jest druga księga Samuela, rozdział 24: gdy Dawid dostrzegł anioła, który niszczył lud, przyznał: „Ja zgrzeszyłem i ja zawiniłem, a co uczyniły te owce? Niechaj raczej Twoja ręka dotknie mnie i domu mojego ojca.” \n\nTo pokazuje, jak bardzo Dawid troszczył się o swoich podwładnych, jak bardzo brał na siebie konsekwencje i nie chciał, żeby cierpieli przez jego błędy. To piękny obraz pasterza.\n\nA co z Panem Jezusem – naszym najlepszym Pasterzem? \n\nCzytamy w Ewangelii Jana o sytuacji, gdy przyniesiono do Niego kobietę pochwyconą na cudzołóstwie. Faryzeusze chcieli ją ukamienować, ale Jezus powiedział: „Kto z was jest bez grzechu, niech pierwszy rzuci na nią kamień.” Wszyscy odeszli, a Jezus rzekł do niej: „Nie potępiam cię, idź i odtąd już nie grzesz.”\n\nTo obraz miłosiernego pasterza, który kocha swoje owce, przebacza, ale także wzywa do przemiany. Pokazuje, że sąd należy do Boga, a my wszyscy potrzebujemy Jego łaski.\n\nPan Jezus był też radykalny, kiedy zobaczył, co dzieje się w świątyni. W Ewangelii Jana czytamy, że zrobił bicz z powrózków i wypędził kupców i wękslarzy, którzy sprzedawali woły, owce i gołębie, i wywrócił stoły. „Dom Ojca mego nie czyńcie targowiskiem!” – wołał.\n\nTo obraz pasterza dbającego o czystość i świętość owczarni. Gdy należy, należy zareagować stanowczo – Pan Jezus tego nie unikał.\n\nW Ewangelii Jana, rozdział 14, Pan Jezus mówi do Tomasza: „Ja jestem drogą, prawdą i życiem. Nikt nie przychodzi do Ojca inaczej jak tylko przeze mnie.” On jest także „drzwiami” do pastwiska, czyli do życia pełnego Bożego błogosławieństwa i ochrony.\n\nJezus troszczył się o nas aż do końca – dał swoje życie jako okup za wielu, a potem zmartwychwstał, abyśmy otrzymali życie wieczne.\n\nW Ewangelii Jana jest też piękny fragment o śmierci Łazarza, którego Jezus zapłakał, widząc ból Marii, Marty i innych. To pokazuje Pana, który współczuje, który jest blisko naszych trudności i cierpień.\n\nW Ewangelii Mateusza czytamy zdarzenie, gdy matka synów Zebedeusza prosiła o miejsca po prawicy i po lewicy w królestwie. Dziesięciu uczniów się na to oburzyło. Jezus wyjaśnił im, że w Jego królestwie wielkość jest mierzona służbą i pokorą, a nie władzą czy przywilejami: „Kto chce być wielki, niech będzie sługą waszym, jak Syn Człowieczy, który nie przyszedł, aby mu służono, lecz aby służyć i oddać życie na okup za wielu.”\n\nTo radykalna zmiana myślenia, ale piękny wzór dla nas, byśmy kochali i służyli bliźnim.\n\nPrzeczytajmy także Psalm 23 – napisany przez Dawida – który mówi o Panu jako naszym Pasterzu, który prowadzi nas na pastwiska zielone, po wodzie spokojnej, nawet kiedy idziemy przez ciemną dolinę nie ulękniamy się, bo On jest z nami.\n\nTo jest pocieszenie i obietnica na każdy dzień – Pan jest z nami, troszczy się i prowadzi.\n\nTeraz chciałbym chwilę zatrzymać się nad owcami – czyli nami. Mamy wspaniały wzór pasterza, a teraz powinniśmy spojrzeć na siebie i swoje miejsce w stadzie.\n\nZ listu do Rzymian 15, 1 czytamy: „My, którzy jesteśmy mocni, powinniśmy dźwigać ułomności słabych, a nie szukać upodobania w sobie samych.”\n\nOto obraz owiec mocnych – takich, które wspierają słabszych, które służą innym w miłości, a nie są skupione tylko na sobie. To piękna wskazówka dla każdego z nas – jeśli jesteś mocny, nie bądź zawistny czy dumy, ale wspieraj słabszych.\n\nMamy bowiem w Kościele różne rodzaje owiec: są tacy, którzy mogą być cielesni, czyli mają słabą relację z Bogiem i nie słyszą Jego głosu; są owce duchowe – te, które słuchają Boga i idą Jego drogą. \n\nJeśli nie słyszysz głosu Pana, módl się o to, by go usłyszeć i rozróżnić, czy to rzeczywiście Bóg, czy może twój własny głos albo głos złego.\n\nSą też owce gorliwe, ale nierozsądne – takie jak kiedyś Paweł (Saul), który w swojej gorliwości prześladował Kościół. Jednak Pan Bóg przemienił go i uczynił wielkim narzędziem Bożym.\n\nDlatego ważne jest, by w gorliwości nie wyprzedzać Pana, ale pytać Go o kierunek, ufać Jego prowadzeniu.\n\nNajgorsze, co może się przydarzyć owczarni, to obecność wilków, o których Jezus mówi w Ewangelii Mateusza, rozdział 7, werset 15:\n\n„Strzeżcie się fałszywych proroków, którzy przychodzą do was w odzieniu owczym, lecz wewnątrz są wilkami drapieżnymi.”\n\nWilk przychodzi, aby kraść, zabijać i niszczyć.\n\nWierzę, że najlepszym miejscem dla nas jest i zawsze będzie pod opieką dobrego Pasterza – Pana Jezusa.\n\nChciałbym więc zakończyć apelem: bądźmy owcami, które idą za Panem, nie przed Nim, ale za Nim. Niech On będzie naszym Pasterzem.\n\nAmen."
+  },
+  "cover": "/images/covers/9-ZQmaCtpDc.webp"
+}

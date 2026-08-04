@@ -1,0 +1,115 @@
+{
+  "date": "2024-11-03",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/3DSOpZmIOM0/3DSOpZmIOM0.opus",
+  "preacher": "Andreas Stutz",
+  "title": "Owoc Ducha Świętego",
+  "summary": "Owoc Ducha Świętego według listu do Galacjan 5,22–23 to miłość, radość, pokój i inne cnoty, które nie są uczynkami samych wierzących, lecz rezultatem działania Ducha Świętego w nich. Paweł przeciwstawia je uczynkom ciała, czyli grzechom starej natury, podkreślając, że duchowa przemiana jest darem Ducha, a nie wynikiem ludzkiego wysiłku czy samodyscypliny. Owoc jest jeden, a jego różnorodne cechy tworzą harmonijną całość nowego życia w Chrystusie.",
+  "duration": 2453,
+  "translations": {
+    "en": {
+      "title": "The Fruit of the Holy Spirit",
+      "summary": "Is the fruit of the Holy Spirit the result of our own efforts, or God's work deep within our hearts? An analysis of Galatians 5:22–23 reveals that a Christian's transformation is not just a collection of individual virtues, but the fullness of life in the Spirit. Love, joy, and peace emerge here as the natural outcome of God's work, which transforms us from the inside out and shapes our daily lives."
+    },
+    "uk": {
+      "title": "Плід Святого Духа",
+      "summary": "Чи є плід Святого Духа результатом наших зусиль, чи Божою справою в глибинах серця? Аналіз Послання до Галатів 5:22-23 показує, що перетворення християнина — це не сукупність окремих чеснот, а повнота життя в Дусі. Любов, радість і мир постають тут як природний результат Божої дії, яка змінює нас зсередини і формує наше повсякдення."
+    },
+    "ta": {
+      "title": "பवித்ர ஆவியின் பழம்",
+      "summary": "பவித்ர ஆவியின் பழம் என்பது நமது முயற்சியின் விளைவா, இல்லையா என்ற கேள்வி எழும். கலாத்தியர் குறளில் (5:22-23) உள்ள ஆய்வில், ஒரு கிறிஸ்துவனின் மாற்றம் தனித்தன்மை கொண்ட குணங்களின் தொகுப்பு அல்ல, ஆனால் ஆவியில் வாழும் முழுமையான வாழ்க்கை என விளக்கப்பட்டுள்ளது. அன்பு, மகிழ்ச்சி மற்றும் சமாதானம் போன்றவை, கடவுளின் செயல் மூலம் உள்ளிடப்பட்ட மாற்றத்தின் இயல்பான விளைவுகளாக வெளிப்படுகின்றன, அவை நம்மை உள்ளூரிலிருந்து மாற்றி, நாளந்தோறும் வாழ்வின் வடிவத்தை உருவாக்குகின்றன."
+    },
+    "de": {
+      "title": "Die Frucht des Heiligen Geistes",
+      "summary": "Ist die Frucht des Heiligen Geistes das Ergebnis unserer eigenen Anstrengungen oder ein göttliches Werk, das tief im Herzen wirkt? Eine Betrachtung des Galaterbriefs 5,22-23 zeigt, dass die Veränderung eines Christen nicht bloß eine Ansammlung einzelner Tugenden ist, sondern die Fülle des Lebens im Geist. Liebe, Freude und Friede erscheinen hier als natürliche Folge göttlichen Handelns, das uns von innen heraus verwandelt und unseren Alltag prägt."
+    },
+    "es": {
+      "title": "El fruto del Espíritu Santo",
+      "summary": "¿Es el fruto del Espíritu Santo resultado de nuestros esfuerzos o una obra divina en lo más profundo del corazón? El análisis de la carta a los Gálatas 5:22-23 revela que la transformación del cristiano no es un conjunto de virtudes aisladas, sino la plenitud de vida en el Espíritu. Aquí, el amor, la alegría y la paz se muestran como el resultado natural de la acción de Dios, que nos cambia desde el interior y moldea nuestra vida cotidiana."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Gal 5",
+      "1 Kor 12",
+      "Gal 3",
+      "Rz 8",
+      "1 J 4",
+      "Rz 8",
+      "Ef 3",
+      "Łk 15",
+      "Ps 103",
+      "1 Kor 1",
+      "Mt 11"
+    ],
+    "en": [
+      "Gal 5",
+      "1 Cor 12",
+      "Gal 3",
+      "Rom 8",
+      "1 John 4",
+      "Rom 8",
+      "Eph 3",
+      "Luke 15",
+      "Ps 103",
+      "1 Cor 1",
+      "Matt 11"
+    ],
+    "uk": [
+      "Гал 5",
+      "1 Кор 12",
+      "Гал 3",
+      "Рим 8",
+      "1 Ів 4",
+      "Рим 8",
+      "Еф 3",
+      "Лк 15",
+      "Пс 103",
+      "1 Кор 1",
+      "Мт 11"
+    ],
+    "ta": [
+      "கலா 5",
+      "1 கொரிந்தியர் 12",
+      "கலா 3",
+      "ரோமர் 8",
+      "1 யோவான் 4",
+      "ரோமர் 8",
+      "எபேசியர் 3",
+      "லூக்கா 15",
+      "சங்கீதம் 103",
+      "1 கொரிந்தியர் 1",
+      "மத்தேயு 11"
+    ],
+    "de": [
+      "Gal 5",
+      "1 Kor 12",
+      "Gal 3",
+      "Röm 8",
+      "1 Joh 4",
+      "Röm 8",
+      "Eph 3",
+      "Luk 15",
+      "Ps 103",
+      "1 Kor 1",
+      "Mt 11"
+    ],
+    "es": [
+      "Gál 5",
+      "1 Cor 12",
+      "Gál 3",
+      "Rom 8",
+      "1 Jn 4",
+      "Rom 8",
+      "Ef 3",
+      "Luc 15",
+      "Sal 103",
+      "1 Cor 1",
+      "Mat 11"
+    ]
+  },
+  "transcript": {
+    "pl": "Damy Bogu chwałę, dziękujemy za ten czas, który mamy teraz razem. Powiem już teraz, na sam początek, że będę dzisiaj, mam nadzieję, z pomocą Bożą, bez tłumaczenia mówił po polsku. Ćwiczyłem, ale jest to język, który dosyć trudno mówić. Wiem też, że my kochamy się nawzajem, więc jeśli będą błędy, proszę, bądźcie cierpliwi i łaskawi.\n\nTak, temat dzisiejszego kazania to „Owoc Ducha Świętego”. Jeśli przesadzimy roślinę zasadzoną w złej glebie, to wkrótce zacznie wyglądać chorowicie. Jeśli zabierzemy psa od złego właściciela i oddamy go kochającemu, to wkrótce zobaczymy, jak pies staje się lepszy. Ale o ile większa jest różnica, gdy Bóg odkupi zgubionego grzesznika z jego nędznej sytuacji, adoptuje go i da mu Ducha Świętego.\n\nCzytamy o tej różnicy w tekście dzisiejszego kazania z Listu do Galacjan, rozdział piąty, wersety 22–23. Galacjan 5, 22–23:\n\n„Owocem zaś Ducha są: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność, wstrzemięźliwość. Przeciwko takim nie ma zakonu.”\n\nPrzeczytajmy teraz ten werset w jego kontekście, trochę więcej, od wersetu 19:\n\n„Jawne zaś są uczynki ciała, mianowicie wszeteczeństwo, nieczystość, rozpusta, bałwochwalstwo, czary, wrogość, spór, zazdrość, gniew, knuwania, waśnie, odszczepieństwo, zabójstwa, pijaństwo, obżarstwo i tym podobne. O tych zapowiadam wam, jak już przedtem zapowiedziałem, że ci, którzy te rzeczy czynią, królestwa Bożego nie odziedziczą. Owocem zaś Ducha są: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność i wstrzemięźliwość. Przeciwko takim nie ma zakonu.”\n\nTutaj nasze stare życie, nasza stara natura i nasz stary sposób myślenia są porównane z naszym nowym życiem, naszą nową naturą i naszym nowym sposobem myślenia, który mamy w Chrystusie Jezusie. Dzisiaj chcemy skupić naszą uwagę na wersetach 22–23, które mówią nam o owocach Ducha Świętego.\n\nKiedy mówimy tutaj o owocach, mamy na myśli rezultat działania Ducha Świętego w życiu świętych. Rozważmy ten tekst w pięciu krokach dzisiaj:\n\nPo pierwsze: dzieło Ducha Świętego jest opisane jako „owoc”, a nie jako „uczynki”.\n\nPo drugie: dzieło Ducha Świętego jest opisane jako „owoc”, a nie jako „owoce”.\n\nPo trzecie: owoc Ducha jest dziełem Ducha Świętego.\n\nPo czwarte: owoc ten zmienia nas w charakter Boga.\n\nI po piąte: chcemy słuchać tego wołania i żyć zgodnie z tym.\n\nZacznijmy od pierwszego punktu: owoc, a nie uczynki. Przeczytajmy jeszcze raz nasz tekst biblijny — Galacjan 5, 22–23:\n\n„Owocem zaś Ducha są: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność, wstrzemięźliwość. Przeciwko takim nie ma zakonu.”\n\nJak zauważyliśmy, bezpośrednio przed tym tekstem Paweł wymienia uczynki ciała. To jest lista grzechów, które produkuje nasza upadła, grzeszna natura — grzechy, które charakteryzowały nasze stare życie. Paweł opisuje te grzechy jako „uczynki”. Byłoby więc naturalne, gdyby Paweł mówił o „uczynkach Ducha Świętego”. Byłoby to porównanie uczynków z uczynkami.\n\nAle dzieło Ducha Świętego w nas nie jest tutaj opisane jako „uczynki”, lecz jako „owoc”. Ta różnica daje nam do myślenia. Kiedy słyszymy o uczynkach, myślimy o wysiłku, trudzie i pracy. Te działania, które Paweł opisuje w wersetach 19–21 jako uczynki ciała, są produktem ludzkiej działalności. Innymi słowy, kiedy nasze ciało, czyli nasza cielesna natura, jest aktywne, prowadzi ono do wszeteczeństwa, nieczystości, rozpusty itd.\n\nAle jeśli chodzi o zmianę, którą przynosi Duch Święty, jest ona opisana jako owoc. Owoc to coś, co rośnie naturalnie. Kiedy widzimy jabłoń z pięknymi, zdrowymi, dojrzałymi jabłkami, nie myślimy: „Och, jak wielki wysiłek musiało podjąć to drzewo, aby wydać ten owoc?” Nie. Produkcję owoców postrzegamy jako coś naturalnego, bez wysiłku — jako sposób wzrostu. Myślimy o pięknych kwiatach, którymi drzewa owocowe obsypują się na wiosnę, i o tym, jak stają się one pięknymi owocami, które dojrzewają w słońcu, nabierając koloru i smaku — bez stresu, bez hałasu.\n\nI tak owoc rośnie w każdym dziecku Bożym, które przecież otrzymało Ducha Świętego i w którym Duch Święty mieszka. Źródło tego owocu jest w Duchu Świętym. To jest dokładnie Jego owoc. Oczywiście nie twierdzimy, że w Biblii owoce są zawsze pozytywne, a uczynki zawsze negatywne. Ale w tym konkretnym zestawieniu różnica ta jest wyraźna.\n\nPo drugie: owoc, a nie owoce. Przeczytajmy ponownie:\n\n„Owocem zaś Ducha są: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność, wstrzemięźliwość. Przeciwko takim nie ma zakonu.”\n\nZauważamy coś jeszcze — nasz tekst nie mówi o „owocach” w liczbie mnogiej, lecz o „owocu” w liczbie pojedynczej. Jest to uderzające, w końcu Paweł wymienia nie mniej niż dziewięć zalet. I skoro wcześniej mówił o uczynkach ciała w liczbie mnogiej, to logiczne byłoby, gdyby mówił również tutaj o owocach Ducha w liczbie mnogiej, prawda?\n\nTa obserwacja daje do myślenia. Jednak użycie „owocu” w liczbie pojedynczej nie jest ani przypadkowe, ani błędne. Wyrażenie to ma na celu wyjaśnienie, że wszystkie te zalety stanowią jeden owoc — harmonię, jedność, jednolitość, pełnię.\n\nZobaczcie, jeśli chodzi o dary Ducha Świętego, Słowo Boże mówi o darach w liczbie mnogiej i wyjaśnia to w 1 Koryntian 12, 29–30:\n\n„Czy wszyscy są apostołami? Czy wszyscy prorokami? Czy wszyscy nauczycielami? Czy wszyscy mają moc czynienia cudów? Czy wszyscy mają dary uzdrowienia? Czy wszyscy mówią językami? Czy wszyscy je wykładają?”\n\nAle jak napisano w wersetach 8–11 tego samego rozdziału:\n\n„Jeden bowiem otrzymuje przez Ducha mowę mądrości, inny przez tego samego Ducha mowę wiedzy, inny wiarę w tym samym Duchu, inny dar uzdrowienia, jeszcze inny dar czynienia cudów, inny dar proroctwa, inny dar rozróżniania duchów, inny różne rodzaje języków, inny dar wykładania języków. Wszystko to zaś sprawia jeden i ten sam Duch.”\n\nAlbo odwrotnie: czy jest możliwe, aby dziecko Boże posiadało wszystkie cnoty z wyjątkiem jednej? Na przykład, że ma radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność i wstrzemięźliwość, ale nie ma miłości?\n\nZ pewnością nie. Im dokładniej przyjrzymy się tym zaletom, tym bardziej zdajemy sobie sprawę, że wszystkie one są ze sobą nierozerwalnie splecione i całkowicie od siebie zależne. Ostatecznie jest to jeden owoc, jedna zmiana, którą Duch Święty tworzy w naszym życiu.\n\nTeraz trzeci punkt — to jest owoc Ducha. Nacisk na słowo „Ducha”. Jeszcze raz czytamy:\n\n„Owocem zaś Ducha są: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność, wstrzemięźliwość. Przeciwko takim nie ma zakonu.”\n\nPowtarzam to dlatego, że wierzę, iż to jest bardzo ważne — zawsze znowu zwracać uwagę na nasze teksty i nie odłączać się od nich.\n\nTeraz powiedzmy krótko: czy myślisz, że mógłbyś osiągnąć ten owoc poprzez wysiłek i samodyscyplinę? Czy uważasz, że coraz surowsze praktykowanie przykazań przybliża cię do tego celu? To właśnie próbowali zrobić Galacjanie. A jak Paweł ocenia tę próbę? Przeczytajmy Galacjan 3, 3:\n\n„Czy aż tak nierozumni jesteście? Rozpoczęliście w Duchu, a teraz na ciele kończycie?”\n\nJuż czytaliśmy, co wytwarza ciało. Dlatego poleganie na ciele i samodyscyplinie, gdy pragniemy duchowej przemiany, okazuje się katastrofalnym błędem.\n\nNasz tekst mówi, że ta zmiana jest dziełem Ducha Świętego. To nie jest tak, że Duch Święty znajduje w tobie lub we mnie dobre ziarno i sprawia, że ono rozkwita, jakby ta zmiana miała swoje źródło w tobie. Nie — byłeś przecież już martwy w swoich grzechach. Zmiana pochodzi z zewnątrz. Inna osoba dokonuje tej zmiany — osoba Ducha Świętego.\n\nNie jest to jednak specjalne doświadczenie, którego może doświadczyć tylko wybrana grupa dzieci Bożych. Nie, ta zmiana jest wspólnym dobrem wszystkich nowonarodzonych chrześcijan, wszystkich dzieci Bożych. Kiedy Duch Święty dokonuje tej zmiany, zauważmy, że Paweł kilkakrotnie odnosi się w liście do Galacjan do otrzymania Ducha Świętego w momencie nawrócenia.\n\nPrzyjrzyjmy się temu krótko. Galacjan 3, 2:\n\n„Chcę dowiedzieć się od was jednego: czy przez uczynki zakonu otrzymaliście Ducha, czy przez słuchanie z wiarą?”\n\nOczywista odpowiedź jest taka, że Galacjanie — i my również — otrzymali Ducha Świętego przez słuchanie z wiarą.\n\nAlbo werset 5:\n\n„Czy ten, który daje wam Ducha i dokonuje wśród was cudów, czyni to na podstawie uczynków zakonu, czy na podstawie słuchania z wiarą?”\n\nI ponownie, odpowiedź jest oczywista — Bóg daje Ducha i dokonuje cudów przez słuchanie z wiarą.\n\nI werset 14:\n\n„Aby błogosławieństwo Abrahamowe przeszło na pogan w Jezusie Chrystusie, my zaś, abyśmy obiecanego Ducha otrzymali przez wiarę.”\n\nPodobnie jak w innych fragmentach, także tutaj potwierdzone jest, że obiecanego Ducha Świętego otrzymujemy przez wiarę — to jest podczas nawrócenia, nowego narodzenia.\n\nZ pewnością pamiętasz, dziecko Boże, czas, gdy głoszono ci o krzyżu. Wtedy Duch Święty wzbudził w tobie głęboką skruchę i żal za grzechy, nienawiść do grzechu, poczucie wstydu za złe uczynki. Jednocześnie wzbudził w tobie pełną nadziei, ufność i wiarę w Chrystusa, tak że spojrzałeś na Niego i rozpoznałeś w Nim swego Zbawiciela. Stałeś się nowym stworzeniem, otrzymałeś Ducha Świętego, który mieszka w tobie i zmienia cię. W ten sposób powstaje w tobie piękny owoc, miły Bogu.\n\nPrzejdźmy teraz do następnego punktu — istoty zmiany, jaki charakter ma ta zmiana. Jeszcze raz przeczytajmy tekst:\n\n„Owocem zaś Ducha są: miłość, radość, pokój, cierpliwość, uprzejmość, dobroć, wierność, łagodność, wstrzemięźliwość. Przeciwko takim nie ma zakonu.”\n\nJeśli połączymy ten fragment z Listem do Rzymian 8, 29, zdamy sobie sprawę, że Duch Święty zmienia nas na obraz Jezusa. Czyż nie na tym polega piękno i chwała Jezusa, że znajdujemy w Nim wszystkie te cnoty w absolutnej doskonałości? Której z tych cnót Mu brakuje? Która z nich nie jest kompletna i doskonała w Chrystusie? Zaprawdę, w Nim odnajdujemy je wszystkie w doskonałym blasku.\n\nDuch Święty jest Duchem Świętości, Duchem Bożym, Duchem, który pochodzi od Ojca i Syna. Ten Duch odbija w nas cechy charakteru Ojca i Syna.\n\nZobaczmy, w jaki sposób te cnoty znajdują się w Bogu Ojcu i w naszym Panu Jezusie Chrystusie. Nie będę dużo komentował następujących cytatów, ale wolę, żeby one miały na ciebie wpływ. Dlatego chciałbym, żebyś ich nie przewijał ze stressem, a co najwyżej zapisywał fragmenty i słuchał ich z uwagą, dając im czas na działanie.\n\nNie zabraniałbym szukać, ale chcę, żebyś słuchał.\n\nPo pierwsze, gdy chodzi o miłość, mógłbym przeczytać wiele wersetów biblijnych na ten temat. Naprawdę trudno mi wybrać kilka, więc pozwolę sobie przeczytać trzy fragmenty:\n\n1. 1 List Jana 4, 9–10:\n\n„W tym objawiła się miłość Boga do nas: że Syna swego Jednorodzonego posłał Bóg na świat, abyśmy przez Niego żyli. Na tym polega miłość: nie że my umiłowaliśmy Boga, lecz że On nas umiłował i posłał Syna swego jako ofiarę za grzechy nasze.”\n\n2. Rzymian 8, 38–39:\n\n„Albowiem jestem tego pewien, że ani śmierć, ani życie, ani aniołowie, ani moce niebieskie, ani teraźniejszość, ani przyszłość, ani żadne inne stworzenie nie zdoła nas odłączyć od miłości Bożej, która jest w Chrystusie Jezusie, Panu naszym.”\n\n3. Efezjan 3, 18–19:\n\n„Byście mogli pojąć z wszystkimi świętymi, jaka jest szerokość i długość, i wysokość, i głębokość, i poznali miłość Chrystusową, która przewyższa wszelkie poznanie, abyście zostali wypełnieni całkowicie pełnią Bożą.”\n\nMiłość Boża.\n\nJeśli chodzi o Bożą radość, chcę tylko przeczytać fragment z Ewangelii Łukasza 15, 7:\n\n„Powiadam wam, większa będzie radość w niebie...”\n\n(dalej czytałem tylko część)\n\nO miłosierdziu i łaskawości Boga –  Psalm 103, 8:\n\n„Boże miłosierny i łaskawy, nieskory do gniewu, bogaty w łaskę i wierność.”\n\nTak, jeżeli chodzi o wierność, mamy też ten werset: 1 Koryntian 1, 9:\n\n„Wierny jest Bóg, który was powołał do społeczności Syna swego, Jezusa Chrystusa, Pana naszego.”\n\nKiedy myślimy o łagodności, przychodzą nam na myśl znane słowa Jezusa z Mateusza 11, 29–30:\n\n„Weźcie na siebie moje jarzmo i uczcie się ode mnie, że jestem cichy i pokornego serca, a znajdziecie ukojenie dla duszy waszej, albowiem jarzmo moje jest miłe, a brzemię moje lekkie.”\n\nJeśli chodzi o wstrzemięźliwość, Biblia nie opisuje Boga jako wstrzemiężliwego, ale znacznie mocniejszym słowem — święty. Bóg jest czysty i święty; w Nim nie ma nic złego.\n\nCzy widzisz, co Duch Święty chce w nas zmienić? Wyobraź sobie naszego niebiańskiego Ojca i naszego chwalebnego Zbawiciela. To jest to, co owoc Ducha ma w nas uczynić.\n\nCo za radość, że Bóg chce odbić swój obraz, swój wielki, piękny obraz w nas, w nas nigdyż tak zgubionych grzesznikach! Z pewnością na to nie zasługujemy. Jest to niepojęta łaska.\n\nWy, dzieci Boże, zobaczcie, jak dobry jest wasz niebiański Ojciec! Czy nadal chcecie dawać miejsce swojemu ciału? Czy naprawdę chcecie być prowadzeni przez swoją cielesną naturę, a nie przez czystego, świętego Ducha Bożego? Czy naprawdę wolicie żyć według swojej starej, grzesznej, cielesnej natury, niż przez zmianę, którą tworzy w was czysty, święty Duch Boży?\n\nCiało musi zostać ukrzyżowane i pozostać ukrzyżowane, a w nas powinien żyć Duch Święty.\n\nPrzechodzę teraz do piątego punktu: postępuj według Ducha.\n\nW tym miejscu chciałbym odnieść się do apelu Pawła w Galacjan 5, 24–25:\n\n„A ci, którzy należą do Chrystusa Jezusa, ukrzyżowali ciało swoje wraz z namiętnościami i żądzami. Jeśli zaś według Ducha żyjemy, według Ducha też postępujmy.”\n\nDrodzy bracia i siostry, ponieważ Duch Święty stworzył w nas piękne, chwalebne usposobienie, nie żyjmy według ciała!\n\nJak to możliwe, że dziecko Boże regularnie ma tak zły humor, że chce się go unikać? Jak to możliwe, że dziecko Boże oddaje się goryczy, kłótni i niezadowoleniu? Jak to możliwe, że dziecko Boże jest porywcze i kłótliwe?\n\nW naszym tekście biblijnym Chrystus wzywa nas do chodzenia w Duchu. Innymi słowy, mamy mówić i działać zgodnie z tym nowym usposobieniem, zgodnie z tym nowym charakterem.\n\nNasza rodzina, sąsiedzi, współpracownicy — wszyscy powinni rozpoznać, że jesteśmy dziećmi Bożymi, że obraz Boga jest w nas odbity, a zatem Bóg powinien być czczony w naszym życiu.\n\nI tutaj chcę też powiedzieć, że to wszystko są moje słowa, ale staram się mówić bez pomocy tłumaczenia. Bóg stworzył w nas coś nowego, coś pięknego, coś dobrego, coś świętego. On to uczynił, to ma Jego charakter.\n\nMy jesteśmy w sytuacji, gdzie nasza stara natura, nasze stare praktyki, zwyczaje i przyzwyczajenia mogą ciągnąć nas w dół. Te wszystkie rzeczy: „życie według ciała” — czy to jest wolą Bożą? Czy to jest moją radością? Przecież cieszyłem się, że On mnie uwolnił od starego życia, że przebaczył mi stare grzechy, których dokonałem ze starej natury, prawda?\n\nChcemy wszyscy żyć według tej innej natury, którą On stworzył w nas, bo nasze sumienie mówi nam to, a Duch Święty mówi to w naszych sercach.\n\nKiedy się gniewamy, możemy się jeszcze bardziej zatwardzić, ale to będzie według ciała. Słuchajmy głosu Ducha Świętego i dajmy tej nowej naturze, którą On stworzył w nas, prowadzić nas, byśmy żyli zgodnie z nią i uwielbiali Boga.\n\nDajmy Mu chwałę za to, co On zmienił w naszym życiu, czego sami byśmy nigdy nie potrafili, nigdy. Tylko On, tylko Bóg suwerenny i potężny, święty, potrafi to uczynić — czego nie potrafili ani nasi rodzice, ani inni ludzie, ani my sami.\n\nOn potrafi zmienić nasze życie i dlatego ufamy Jemu.\n\nAmen."
+  },
+  "cover": "/images/covers/3DSOpZmIOM0.webp"
+}

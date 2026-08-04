@@ -1,0 +1,578 @@
+@import "tailwindcss";
+
+/* dancing-script-700 - latin */
+@font-face {
+    font-display: swap;
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/dancing-script-v29-latin/dancing-script-v29-latin-700.woff2") format("woff2");
+}
+
+/* dancing-script-700 - latin-ext (adds diacritics: ą ć ę ł ń ó ś ź ż, etc.) */
+@font-face {
+    font-display: swap;
+    font-family: "Dancing Script";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/dancing-script-v29-latin/dancing-script-v29-latin-ext-700.woff2") format("woff2");
+    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* eb-garamond-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/eb-garamond-v32-latin/eb-garamond-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* eb-garamond-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 800;
+    src: url("/fonts/eb-garamond-v32-latin/eb-garamond-v32-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/roboto-v51-latin/roboto-v51-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/roboto-v51-latin/roboto-v51-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/noto-sans-v42-latin/noto-sans-v42-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* noto-sans-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/noto-sans-v42-latin/noto-sans-v42-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.6;
+    letter-spacing: 0.02ch;
+}
+
+body {
+    background-color: #f9fafb;
+}
+
+article h3 {
+    transition: none;
+}
+
+article:hover h3 {
+    color: inherit;
+}
+
+#hero div h2 {
+    font-family: "EB Garamond", serif !important;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.radio-inline-player {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    width: 100%;
+    max-width: 34rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 4px 16px rgb(63 86 143 / 0.10);
+}
+
+.radio-inline-player__toggle,
+.sermon-inline-player__toggle {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.radio-inline-player__toggle {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 9999px;
+    background: #3f568f;
+    color: white;
+    box-shadow: 0 4px 12px rgb(63 86 143 / 0.30);
+}
+
+.radio-inline-player__toggle:hover,
+.radio-inline-player__toggle.is-playing,
+.sermon-inline-player__toggle:hover,
+.sermon-inline-player__toggle.is-playing {
+    transform: translateY(-1px);
+}
+
+.radio-inline-player__body {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.radio-inline-player__label {
+    color: #3f568f;
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.audio-visualizer {
+    width: 100%;
+    height: 52px;
+    display: block;
+    border-radius: 0.85rem;
+    background: transparent;
+}
+
+.radio-inline-player--mobile {
+    max-width: none;
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    .radio-inline-player:not(.radio-inline-player--mobile) {
+        background: transparent;
+        border-color: transparent;
+        box-shadow: none;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: flex-end;
+    }
+
+    .radio-inline-player:not(.radio-inline-player--mobile) .radio-inline-player__label {
+        color: white;
+    }
+
+    .radio-inline-player:not(.radio-inline-player--mobile) .audio-visualizer {
+        background: transparent;
+    }
+
+    .radio-inline-player:not(.radio-inline-player--mobile) .radio-inline-player__toggle {
+        background: white;
+        color: #3f568f;
+    }
+}
+
+/* Utility class for hiding elements */
+.hidden {
+    display: none !important;
+}
+
+/* Mobile-specific sermon card styles */
+@media (max-width: 639px) {
+    .bank-account--desktop {
+        display: none !important;
+    }
+
+    .bank-account--mobile {
+        display: inline-block !important;
+    }
+
+    #kazania article {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        border-radius: 0 !important;
+    }
+
+    #kazania article > div:first-child {
+        border-radius: 0 !important;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #kazania article > div:first-child img {
+        border-radius: 0 !important;
+    }
+}
+
+.bank-account--desktop {
+    display: inline-block;
+}
+
+.bank-account--mobile {
+    display: none;
+}
+
+/* Landing page / index template helpers */
+@keyframes pulse-once {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.97);
+        opacity: 0.85;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#installBtn.clicked {
+    animation: pulse-once 0.25s ease-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.desktop-services-card {
+    display: none;
+}
+
+.mobile-hidden-header {
+    display: none;
+}
+
+.mobile-services-section {
+    display: block;
+}
+
+.mobile-radio-section {
+    display: block;
+}
+
+.radio-content-desktop {
+    display: none;
+}
+
+.radio-desc-desktop {
+    display: none;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 72px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroll-indicator svg {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+.scroll-indicator-desktop {
+    display: none;
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .scroll-indicator-desktop {
+        display: flex;
+    }
+
+    .scroll-indicator {
+        display: none;
+    }
+}
+
+.scroll-indicator-desktop svg {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0);    opacity: 1; }
+    50%       { transform: translateY(12px); opacity: 0.4; }
+}
+
+@media (min-width: 768px) {
+    .desktop-services-card {
+        display: block;
+    }
+
+    .mobile-services-section {
+        display: none;
+    }
+
+    .mobile-hidden-header {
+        display: block;
+    }
+
+    .mobile-radio-section {
+        display: none;
+    }
+
+    .radio-content-desktop {
+        display: block;
+    }
+
+    .radio-text-desktop {
+        display: block;
+    }
+
+    .radio-desc-desktop {
+        display: block;
+    }
+
+    #radio video {
+        display: block;
+    }
+}
+
+
+/* Fade-in animation for lazy-loaded images */
+@keyframes fadeInImage {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes coverShimmer {
+    from {
+        background-position: -200% 0;
+    }
+    to {
+        background-position: 200% 0;
+    }
+}
+
+.sermon-cover {
+    background-color: #e5e7eb;
+}
+
+.sermon-cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #e5e7eb 0%, #f3f4f6 50%, #e5e7eb 100%);
+    background-size: 200% 100%;
+    animation: coverShimmer 1.6s ease-in-out infinite;
+    transition: opacity 0.25s ease-out;
+}
+
+.sermon-cover.cover-ready::after {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sermon-cover-image {
+    opacity: 0;
+}
+
+.sermon-cover-image.loaded {
+    opacity: 1;
+    animation: fadeInImage 0.6s ease-in-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sermon-cover::after {
+        animation: none;
+    }
+
+    .sermon-cover-image.loaded {
+        animation: none;
+        opacity: 1;
+    }
+}
+
+/* Sermon card content */
+.sermon-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.sermon-card-title {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+.sermon-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8125rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.01em;
+}
+
+.sermon-card-meta-dot {
+    color: #d1d5db;
+    font-weight: 700;
+}
+
+.sermon-card-summary {
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: #4b5563;
+    letter-spacing: 0.01em;
+}
+
+.sermon-card-action {
+    margin-top: auto;
+    padding-top: 1.25rem;
+    width: 100%;
+}
+
+.sermon-inline-player {
+    display: block;
+    width: 100%;
+    padding: 0.875rem 0;
+    border: none;
+    background: transparent;
+}
+
+.sermon-inline-player__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.sermon-inline-player.is-playing {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.sermon-inline-player__toggle {
+    width: 2.85rem;
+    height: 2.85rem;
+    border-radius: 9999px;
+    background: #3f568f;
+    color: white;
+    box-shadow: 0 4px 12px rgb(63 86 143 / 0.2);
+    margin: 0 auto 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sermon-inline-player__toggle.is-playing {
+    background: #314574;
+}
+
+
+.sermon-inline-player__progress {
+    width: 100%;
+    margin: 0;
+    accent-color: #3f568f;
+    cursor: pointer;
+}
+
+.sermon-inline-player__times {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.sermon-card-details-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #3f568f;
+    letter-spacing: 0.01em;
+    transition: color 0.15s ease;
+}
+
+.sermon-card-details-link:hover {
+    color: #263a63;
+    text-decoration: underline;
+}
+
+.sermon-card-details-link svg {
+    flex-shrink: 0;
+    transition: transform 0.15s ease;
+}
+
+.sermon-card-details-link:hover svg {
+    transform: translateX(2px);
+}
+
+.sermon-tts-notice {
+    font-size: 0.6875rem;
+    color: #9ca3af;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 0.25rem;
+}
+
+.ai-badge {
+    font-size: 0.6875rem;
+    color: #9ca3af;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+}
+
+@media (max-width: 639px) {
+    .radio-inline-player,
+    .sermon-inline-player {
+        padding: 0.8rem 0.9rem;
+    }
+
+    .radio-inline-player {
+        gap: 0.75rem;
+    }
+
+    .radio-inline-player__toggle {
+        width: 3rem;
+        height: 3rem;
+    }
+}

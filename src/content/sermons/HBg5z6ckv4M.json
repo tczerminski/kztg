@@ -1,0 +1,109 @@
+{
+  "date": "2025-04-06",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/HBg5z6ckv4M/HBg5z6ckv4M.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Nadmierna troska jest wrogiem wiary. Sojusznikiem zaś wiary jest modlitwa",
+  "summary": "Nadmierna troska jest wrogiem wiary, a sojusznikiem wiary – modlitwa, podkreśla kaznodzieja, komentując fragment Ewangelii Łukasza 12:22–26. Jezus poucza uczniów, by nie martwili się o codzienne potrzeby, bo Bóg troszczy się o ludzi jak o ptaki i przyrodę. Kazanie zachęca do ustawienia właściwych priorytetów duchowych i zaufania Bogu w codziennych zmaganiach życia.",
+  "duration": 3735,
+  "translations": {
+    "en": {
+      "title": "Excessive Worry Is the Enemy of Faith, but Prayer Is Its Ally",
+      "summary": "Excessive worry often weakens our faith, disrupting our trust in God amidst daily struggles. This sermon reveals how Jesus’ words help us keep God’s priorities in focus and introduce prayer as a powerful support for the spirit. Discover how to build confidence that God is always caring for us, even in life’s toughest moments."
+    },
+    "uk": {
+      "title": "Надмірна тривога — ворог віри, а молитва — її союзник",
+      "summary": "Надмірна тривога часто ослаблює нашу віру, порушуючи довіру до Бога у щоденних випробуваннях. Проповідь показує, як слова Ісуса допомагають зберегти Божі пріоритети і впровадити молитву як силу, що підтримує дух. Дізнайтеся, як будувати впевненість у тому, що Бог постійно піклується про нас навіть у найскладніші моменти життя."
+    },
+    "ta": {
+      "title": "அதிக கவலை நம்பிக்கையின் எதிரி. நம்பிக்கையின் துணை பிரார்த்தனை",
+      "summary": "அதிகமான கவலை எப்போது நம்முடைய நம்பிக்கையை பலவீனப்படுத்துகிறது, அன்றாட போராட்டங்களில் கடவுளின் மீது நம்பிக்கை குறைகிறது. இந்த உபசாரம், இயேசுவின் வார்த்தைகள் எவ்வாறு கடவுளின் முன்னுரிமைகளை பராமரிக்க உதவுகின்றன என்றும், பிரார்த்தனையை ஆத்மாவுக்கு சக்தியாக கொண்டு வருமெனக் கற்பிக்கிறது. கடினமான வாழ்க்கை தருணங்களிலும் கடவுள் எப்போதும் நம்மை கவனித்துக் கொண்டுள்ளார் என்பதில் உறுதியை எப்படி உருவாக்குவது என்று அறிந்து கொள்ளுங்கள்."
+    },
+    "de": {
+      "title": "Übermäßige Sorge ist der Feind des Glaubens. Der Verbündete des Glaubens ist das Gebet",
+      "summary": "Übermäßige Sorge schwächt oft unseren Glauben und stört das Vertrauen in Gott im täglichen Leben. Die Predigt zeigt, wie die Worte Jesu helfen, Gottes Prioritäten zu bewahren und das Gebet als eine Kraft einzuführen, die den Geist stärkt. Erfahre, wie man die Gewissheit aufbaut, dass Gott sich ständig um uns sorgt – selbst in den schwierigsten Lebensmomenten."
+    },
+    "es": {
+      "title": "La preocupación excesiva es enemiga de la fe. La oración es su aliada",
+      "summary": "La preocupación excesiva a menudo debilita nuestra fe, afectando la confianza en Dios en los desafíos cotidianos. Este sermón muestra cómo las palabras de Jesús nos ayudan a mantener las prioridades divinas e incorporar la oración como una fuerza que sostiene el espíritu. Descubre cómo construir la certeza de que Dios se preocupa por nosotros constantemente, incluso en los momentos más difíciles de la vida."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Łk 12",
+      "Pwt 18",
+      "Hbr 12",
+      "1 Kor 9",
+      "Prz 12",
+      "Prz 15",
+      "J 17",
+      "Rz 1",
+      "Kol 4",
+      "2 Tm 2"
+    ],
+    "en": [
+      "Luke 12",
+      "Deut 18",
+      "Heb 12",
+      "1 Cor 9",
+      "Prov 12",
+      "Prov 15",
+      "John 17",
+      "Rom 1",
+      "Col 4",
+      "2 Tim 2"
+    ],
+    "uk": [
+      "Лк 12",
+      "Повт 18",
+      "Євр 12",
+      "1 Кор 9",
+      "Пр 12",
+      "Пр 15",
+      "Ів 17",
+      "Рим 1",
+      "Кол 4",
+      "2 Тим 2"
+    ],
+    "ta": [
+      "லூக்கா 12",
+      "தொடர் 18",
+      "ஹெப்ருவான்கள் 12",
+      "1 கொரி 9",
+      "நீதிமொழிகள் 12",
+      "நீதிமொழிகள் 15",
+      "யோவான் 17",
+      "ரோமர் 1",
+      "கொலோசெயர் 4",
+      "2 தீமோத்திரு 2"
+    ],
+    "de": [
+      "Luk 12",
+      "5 Mose 18",
+      "Hebr 12",
+      "1 Kor 9",
+      "Spr 12",
+      "Spr 15",
+      "Joh 17",
+      "Röm 1",
+      "Kol 4",
+      "2 Tim 2"
+    ],
+    "es": [
+      "Luc 12",
+      "Deut 18",
+      "Heb 12",
+      "1 Cor 9",
+      "Pr 12",
+      "Pr 15",
+      "Juan 17",
+      "Rom 1",
+      "Col 4",
+      "2 Tim 2"
+    ]
+  },
+  "transcript": {
+    "pl": "Aby zawinąć do portu, tak samo my nie jesteśmy zwolnieni z tego, abyśmy prowadzili bój i abyśmy cały czas korygowali to, co jest troską naszego życia. Dzisiejszą usługę zatytułowałem: „Nadmierna troska jest wrogiem wiary, sojusznikiem zaś wiary jest modlitwa”. Nadmierna troska jest wrogiem wiary. Będę starał się dzisiaj troszkę na ten temat mówić. A sojusznikiem zaś wiary jest modlitwa. Amen.\n\nKiedy byśmy obserwowali Pana naszego Jezusa Chrystusa, On codziennie dbał o społeczność z Ojcem. Codziennie wznosił swoje ręce do Ojca i codziennie modlił się. Otwórzmy Ewangelii Łukasza i spójrzmy, co na ten temat mówi Słowo Boże. W Ewangelii Łukasza, w dwunastym rozdziale będziemy czytać od dwudziestego drugiego wersetu i tylko pokrótce skomentuję.\n\nChciałbym, abyśmy wszyscy wejrzeli w siebie — abyśmy w sobie spojrzeli, ponieważ nie chcę tutaj nikogo oskarżać, ani siebie usprawiedliwiać, że jestem w tym dobry. Bo tak jak powiedziałem, my bez przerwy, prawda, musimy… A więc bez przerwy musimy korygować ten kurs, który jest na Królestwo… Niebo jest pośród nas, ale w tym rzeczywistym świecie, czyli z drugiej strony, bo to będzie rzeczywisty świat tych, którzy dojdą do końca. Kiedy Bóg zażąda naszej duszy, wtedy po prostu przywita nas Pan nasz Jezus Chrystus. I wtedy każde kolano zagnie się przed Jezusem.\n\nJa chciałbym, abyśmy stanęli przed tronem Chrystusowym i zdawali sobie z tego sprawę, że Bóg każdemu z nas odda za dobro i zło, ale będziemy zbawieni. Amen. Aby jak najmniej było w nas zła.\n\nW Ewangelii Łukasza, w dwunastym rozdziale, słowa Pana naszego Jezusa Chrystusa mówią tak: „I rzekł do uczniów swoich: Dlatego powiadam wam, nie troszczcie się o życie swoje, o to, co będziecie jedli, ani co ciało swoje przyodziewać będziecie. Życie bowiem jest czymś więcej niż pokarmem, a ciało niż odzieniem. Spójrzcie na kruki, że nie sieją ani nie żną, nie mają spichlerza ani składnicy, a jednak Bóg je żywi. O ileż więcej wy jesteście warci niż ptaki! Któż z was może troskliwą zapobiegliwością dodać do swojego wzrostu łokieć jeden? A jeśli więc najmniejszych rzeczy nie potraficie, czemu o pozostałe się troszczycie?”\n\nWidzimy, że Pan Jezus Chrystus widzi sytuację, że priorytety wśród uczniów były trochę zachwiane. Ale wiemy, że w Słowie Bożym jest powiedziane, że w przypowieściach i w proroctwach Bóg będzie przemawiał przez swojego proroka. Piąta Księga Mojżeszowa mówi, że Bóg pośle do niego Słowo. Te przypowieści są dla nas wielką nauką, ale musimy sami sobie odpowiedzieć, co jest naszą troską.\n\nKiedy rozważałem ten fragment, powiedziałem sobie: łatwo mówić, a trudniej wykonać. „Nie troszcz się\" — ale tytuł mojej sługi jest „nadmierna troska”. Przecież nie chodzi o to, żebyśmy pozostawili dzieci głodne albo nie troszczyli się o dzień dzisiejszy. Lecz priorytetem jest to, aby nadmierna troska nie przekładała nam priorytetów bożych na drugie lub trzecie miejsce. Dlatego Pan Jezus zwraca uwagę, abyśmy się nie troszczyli.\n\nDobrą wiadomością dla nas jest to, że w tym porównaniu Bóg mówi: „Spójrzcie na ptaki! One są zupełnie zależne od Boga”. W wielu innych fragmentach jest powiedziane, że Bóg, kiedy ptaki wychodzą, zapewnia im pokarm. Kiedy przyroda nieożywiona budzi się do życia wiosną, tak jak teraz, to Bóg zapewnia jej wodę. Bóg to wszystko zaprogramował. Zwierzęta się nie troszczą, a jednak Bóg je zaopatruje. I Bóg mówi do nas wszystkich, co jest dla nas bardzo pocieszające, że o wiele więcej jesteśmy warci. O wiele więcej jesteśmy warci!\n\nApeluję do mnie i do was, abyśmy składali pewne rzeczy, które dla nas nie są do rozwiązania czasami. Wtedy włącza się duszewność. Nasze stare doświadczenia chcą to rozwiązać i bardzo często pogubimy się na tych drogach, ponieważ na drogach tego świata jest przeciwnik udający anioła światłości, który będzie starał się nas odprowadzić od tych wąskich ścieżek, którą jest Pan nasz Jezus Chrystus. Bo Jezus powiedział: „Ja jestem droga, prawda i życie”.\n\nMogę dzisiaj, po wielu latach doświadczeń w życiu, powiedzieć, że wybory w naszym życiu są trudne. Kiedy byłem niemowlakiem we wierze, wszystko wydawało mi się bardzo ładne i dobre. Podobnie jak moje małe dzieci, które się nie troszczyły — miały wszystko, jeśli miały rodziców — ciepło, ubranie, jedzenie. I chcę z całą mocą podkreślić, że o wiele więcej jesteśmy warci.\n\nMożna jednak zadać pytanie: co jest naszym priorytetem? Zapewnienie dobrobytu na tym świecie? Ewangelia, czy Słowo Boże ogólnie ujmując, zupełnie inaczej mówi — że będziemy doświadczani, znienawidzeni przez świat, przejdziemy próby, a jednak Bóg nad wszystkim czuwa. Tak jak w ubiegłą niedzielę słyszeliśmy, mamy starać się być w Nim. Amen.\n\nJedną rzecz mogę powiedzieć: kiedy Bóg mnie wybrał, przez całą moją pielgrzymkę do Królestwa Niebios nigdy nie byłem głodny — chyba że sam nie jadłem. Nigdy nie było tak, że nie miałem się w co ubrać. Nigdy nie było tak, że Bóg spełnił moje marzenia. Nie miałem supersamochodu, a moja wybujała fantazja zawsze czegoś lepszego chciała. Przez wiele lat, nawet gdy modliłem się o te rzeczy — usilnie albo lakonicznie — Bóg dawał mi to, co było potrzebne ku życiu w pobożności. Amen? Abyśmy o tym wiedzieli i radowali się tym, że nasze imiona są zapisane gdzie? W niebie! Amen! Że nasze imiona są zapisane w niebie.\n\nZobaczmy jeszcze raz na 26. werset, gdzie Słowo Boże mówi: „Jeśli więc najmniejszej rzeczy nie potraficie, czemu o pozostałe się troszczycie?” No nie potrafimy dodać nawet do swojego wzrostu centymetra. Uważam, że Bóg trzyma nas na swoich rękach, nawet kiedy spotykają nas doświadczenia, choroby, a nawet kiedy odchodzimy z tego świata.\n\nTakim „papierek lakmusowy” jest to, czy mamy pokój w Jezusie Chrystusie, bez względu na zewnętrzne okoliczności. Ten pokój nie przychodzi w okresie niemowlęcym ani w okresie cielesności, o którym również mówi Słowo Boże. Ten pokój przychodzi, kiedy, jak jest w Hebrajczykach, jest świadectwo o Jezusie — że On również wycierpiał, współczuje i rozumie. Bóg wie o każdej sytuacji, nawet wtedy, gdy odchodzimy. W odwiecznym planie Boga jest, abyśmy zachowali życie wieczne. Ono też od nas nie zależy, ponieważ Bóg nas wybrał przed założeniem świata. Amen.\n\nTak widzimy stan rzeczy: czy Pan Jezus zganił Marię? Nie. Powiedział, że troszczy się o wiele rzeczy, ale jej siostra wybrała dobrą cząstkę, która po drugiej stronie nie będzie jej odjęta. Amen. To jest istota. Na naszej drodze, na naszej ścieżce, abyśmy troszczyli się maksymalnie o te rzeczy, które nie będą nam odjęte po drugiej stronie. Amen.\n\nWynika to z tekstu, który wcześniej czytaliśmy — że Bóg o nas troszczy się. Oczywiście nie bez naszego udziału, nie bez trudu. To nie jest stoliczku, nakryj się. Ale myślę, że powinniśmy mieć w umysłach i sercach prawidłowo ustawione priorytety, aby później, kiedy stanie przed Panem Jezusem Chrystusem, zegnie się kolano i będziemy mogli powiedzieć, tak jak Paweł: „Dobry bój bojowałem, wiarę zachowałem, teraz czeka mnie korona chwały”.\n\nNic nas nie zwalnia, powołując się na fragmenty, które czytaliśmy, od tego, abyśmy się nie troszczyli, nie pracowali, wierzyli, że manna spadnie nam z nieba, bo to już minęło. To było tylko na pustyni i dla jednego narodu — Izraela.\n\nJestem przekonany, że troska jest wrogiem wiary. Tak jak słyszeliśmy dzisiaj w proroctwie, powinniśmy wznosić ręce, aby otrzymać moc. Wiara zasadza się na mocy.\n\nOczywiście, chcę sprostować — kiedy mówi się o mocy wiary, często mówi się o tym, że chromi chodzą, ślepi widzą. I to są tak zwane rzekome cuda. Wielu ludzi ma skierowane oczy duchowe albo fizyczne na takie cuda. Ale nie o to chodziło Pawłowi. Wiara mocy jest tym, abyśmy mogli na końcu swojego życia powiedzieć, tak jak Paweł: „Dobry bój bojowałem, wiarę zachowałem”. Moc wiary to także to, by nie zgorszyła mnie postawa brata czy siostry, abym zabiegał o to, by pozostał moim bratem, by umiał w środku odpuszczać winy mojemu winowajcy, tak jak Jezus odpuścił mi, a nie pielęgnował korzenia zgorzknienia.\n\nW nas jest bardzo dużo wyzwań, to w nas jest walka. Gdybyśmy byli wzorem opisanym w Słowie Bożym, można by było powiedzieć „No problem, nie mam problemów”. Słowo Boże mówi: „Jeśli Bóg z tobą, któż przeciwko tobie!” Ale jest wiele przyczyn, kiedy Bóg jest zasmucony i musi nas dotykać przez doświadczenia, abyśmy stanęli i zastanowili się, dokąd zmierzamy.\n\nWażne jest, abyśmy zawsze wybierali dobrą cząstkę. Nie chodzi mi o życie fizyczne, ale o życie duchowe. Ciało i zamysł ciała to śmierć, a zamysł ducha to co? Życie wieczne. Pamiętajmy o tych dwóch zasadach.\n\nPatrząc na swój stan mogę powiedzieć, że ponoszę porażki, często wybieram zamysły ciała, i tylko miłosierdzie oraz łaska Pana Jezusa Chrystusa trzymają mnie w Nim. Jestem wdzięczny Bogu, bo Słowo Boże mówi, że początkiem mądrości jest bojaźń Pana. Mówię: „Panie Jezu, kiedy się modlę, nie odbieraj mi bojaźni przed Tobą, abym był mądry, wiedział, co mam wybrać, aby troski i łuda tego świata mnie nie przygniótły”.\n\nCo powoduje troska? Przypowieści Salomona, dwunasty rozdział, dwudziesty piąty werset: „Zmartwienie w sercu człowieka przygnębia go, lecz słowo dobre znowu go rozwesela”. Martwimy się, troszczymy się, a to powoduje przygnębienie w naszym sercu — to jest coś, co znają wszyscy.\n\nPrzygnębiony człowiek nie ma ochoty do działania, zamyka się w sobie, rozczula nad sobą, wymyśla usprawiedliwienia. Ale druga część wersetu mówi: „Lecz słowo dobre znowu go rozwesela”. Znamy dobre słowo? Amen. Dobre słowo jest w Słowie Bożym i ono rozwesela naszego ducha, rozrusza naszą duszewność.\n\nKontynuując tę myśl, w piętnastym rozdziale tej samej księgi, czytamy od trzynastego do szesnastego wersetu: „Radosne serce rozwesela oblicze, lecz gdy serce jest zmartwione, duch jest przygnębiony. Duch przygnębiony oznacza brak działania.”\n\nCi, którzy są przygnębieni, muszą to sobie uświadomić.\n\nDziałanie jest w ciele, a ciało wymaga działania w społeczności. Pamiętamy, że duch jest obecny, lecz społeczność jest fizyczna. Nie należy usprawiedliwiać się tym, że jest się „w duchu” z ludźmi, a nie fizycznie.\n\nBóg powołał społeczność po to, abyśmy w niej trwali. W Ewangelii Jana 17, Pan Jezus modlił się do Ojca o jedność dla nas właśnie po to, byśmy w społeczności się umacniali, wzajemnie sobie służyli.\n\nList do Rzymian, pierwszy rozdział, werset dziewiąty mówi o tym, jak Paweł zawsze o nas myśli i modli się, aby mógł przyjść do wspólnoty.\n\nZauważmy, że obecność fizyczna, społeczność, jest niezbędna. Nie możemy uznać za właściwe unikanie spotkań pod pozorem bycia „duchem”, jeśli ciało zaniedbuje tę więź.\n\nList do Kolosan, czwarty rozdział, dwunasty i trzynasty werset, pokazuje, że Epafras nieustannie toczy za nas bój w modlitwach, abyśmy byli doskonali i trwali we wszystkim, co jest wolą Bożą.\n\nModlitwa to cecha, to sprzymierzeniec wiary.\n\nTrwanie w modlitwie daje siłę i umocnienie.\n\nList do Tymoteusza, drugi rozdział, pierwszy werset: „Przede wszystkim więc napominam...” — i tak dalej.\n\nPrzytoczę teraz modlitwę Pana naszego Jezusa Chrystusa z Ewangelii Jana, rozdział 17. Bez komentarza, abyśmy wszyscy mogli się w nią zanurzyć.\n\nJezus mówi: „Ojcze, nadeszła godzina, uwielbij Syna swego, aby Syn uwielbił Ciebie. Jak Mu dałeś władzę nad wszystkim ciałem, aby dał żywot wieczny tym wszystkim, których Mu dałeś. Ja jestem żywot wieczny, aby poznali Cię, jedynego prawdziwego Boga, i Jezusa Chrystusa, którego posłałeś. Ja Cię uwielbiłem na ziemi, dokonałem dzieła, które mi zleciłeś, abym je wykonał. A teraz Ty mnie uwielbij, Ojcze, u siebie, taką chwałą, jaką miałem u Ciebie, zanim świat powstał. Objawiłem im Twoje imię ludziom, których mi dałeś ze świata. Twoimi byli i mnie ich dałeś, strzegli słowa Twojego. Teraz poznali, że wszystko, co mi dałeś, od Ciebie pochodzi. Dałem im słowa, które mi dałeś, i oni je przyjęli, i poznali prawdziwie, że od Ciebie wyszedłem i uwierzyli, że mnie posłałeś.”\n\nZanurzmy się w głębię tego. Tak Jezus dał nam wzór, abyśmy byli tacy i abyśmy także wydawali owoc dla Niego. Amen."
+  },
+  "cover": "/images/covers/HBg5z6ckv4M.webp"
+}

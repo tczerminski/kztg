@@ -1,0 +1,108 @@
+---
+import { t, type Locale } from "../i18n/utils";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+<section id="kontakt" class="min-h-screen flex items-center py-16 bg-[#f3f5fb]">
+  <div class="container mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12 px-4 sm:px-0">
+      <p class="text-sm uppercase tracking-[0.3em] text-[#5a6f9f] mb-3">{t(locale, "contact.label")}</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">{t(locale, "contact.heading")}</h2>
+      <p class="text-gray-600 mt-4">{t(locale, "contact.desc")}</p>
+    </div>
+    <div class="grid gap-8 lg:grid-cols-2">
+      <form
+        id="contactForm"
+        class="bg-white sm:rounded-2xl shadow-sm p-8 space-y-4 -mx-4 sm:mx-0"
+        data-label-submit={t(locale, "contact.submit")}
+        data-label-sending={t(locale, "contact.sending")}
+        data-label-send-error={t(locale, "contact.sendError")}
+      >
+        <input type="hidden" name="access_key" value="b34a545a-a177-4917-9333-ceae8be0bb40" />
+        <input type="hidden" name="subject" value="Wiadomość ze strony kztg.pl" />
+        <input type="hidden" name="from_name" value="Formularz kztg.pl" />
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-name">{t(locale, "contact.nameLabel")}</label>
+          <input
+            id="contact-name"
+            name="name"
+            type="text"
+            placeholder={t(locale, "contact.namePlaceholder")}
+            class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+            required
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-email">{t(locale, "contact.emailLabel")}</label>
+          <input
+            id="contact-email"
+            name="email"
+            type="email"
+            placeholder={t(locale, "contact.emailPlaceholder")}
+            class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+            required
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1" for="contact-message">{t(locale, "contact.messageLabel")}</label>
+          <textarea
+            id="contact-message"
+            name="message"
+            rows="5"
+            placeholder={t(locale, "contact.messagePlaceholder")}
+            class="w-full border border-gray-200 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+            required
+          ></textarea>
+        </div>
+        <div id="contactFormSuccess" class="hidden rounded-xl bg-green-50 border border-green-200 text-green-700 px-4 py-3 text-sm">
+          {t(locale, "contact.success")}
+        </div>
+        <div id="contactFormError" class="hidden rounded-xl bg-red-50 border border-red-200 text-red-700 px-4 py-3 text-sm" set:html={t(locale, "contact.error")} />
+        <button
+          id="contactSubmitBtn"
+          type="submit"
+          class="w-full bg-[#3f568f] text-white font-semibold py-3 rounded-xl hover:bg-[#334577] transition flex items-center justify-center gap-2"
+        >
+          <svg id="contactSpinner" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" class="hidden" style="animation: spin 0.8s linear infinite">
+            <circle cx="12" cy="12" r="10" stroke="white" stroke-width="4" stroke-dasharray="60" stroke-dashoffset="40" stroke-linecap="round" />
+          </svg>
+          <span id="contactSubmitLabel">{t(locale, "contact.submit")}</span>
+        </button>
+      </form>
+      <div class="sm:rounded-2xl overflow-hidden shadow-sm h-125 -mx-4 sm:mx-0 bg-white">
+        <iframe
+          id="contactMapFrame"
+          data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4686.449402420695!2d18.876954211011448!3d50.44441097062951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112bca94457a2f%3A0xe456ccebf37e9f3d!2zS2_Fm2Npw7PFgiBabWFydHd5Y2h3c3RhxYJlZ28gdyBUYXJub3dza2ljaCBHw7NyYWNo!5e0!3m2!1spl!2spl!4v1772382865381!5m2!1spl!2spl"
+          class="hidden w-full h-full"
+          title={t(locale, "contact.mapIframeTitle")}
+          style="border: 0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div id="contactMapPlaceholder" class="h-full flex flex-col items-center justify-center text-center px-6 bg-[#f8f9fe]">
+          <p class="text-sm font-semibold text-[#1f2a44]">{t(locale, "contact.mapCookieTitle")}</p>
+          <p class="text-sm text-gray-600 mt-2">{t(locale, "contact.mapCookieDesc")}</p>
+          <button id="contactMapConsentBtn" type="button" class="mt-4 px-4 py-2 rounded-xl bg-[#3f568f] text-white hover:bg-[#334577] transition">
+            {t(locale, "contact.mapAccept")}
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 md:hidden">
+      <a
+        href="https://www.google.com/maps/dir/?api=1&destination=Ko%C5%9Bci%C3%B3%C5%82%20Zmartwychwsta%C5%82ego%20w%20Tarnowskich%20G%C3%B3rach"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block w-full text-center bg-[#3f568f] text-white font-semibold py-3 rounded-xl hover:bg-[#334577] transition"
+      >
+        {t(locale, "contact.mapNav")}
+      </a>
+    </div>
+  </div>
+</section>

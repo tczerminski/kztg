@@ -1,0 +1,97 @@
+{
+  "date": "2022-09-14",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/I3mayXF8Z1M/I3mayXF8Z1M.opus",
+  "preacher": "Jakub Michalak",
+  "title": "Osoba Jezusa Chrystusa w Starym Testamencie cz. 2 - Dalsze losy Izraela",
+  "summary": "Tematem kazania jest objawienie Jezusa Chrystusa w Starym Testamencie, zwłaszcza poprzez Księgę Rut i historię Boaza jako typu Chrystusa. Kaznodzieja omawia preegzystencję Mesjasza oraz rozwój pragnienia Jego przyjścia w historii Izraela, wskazując na znaczenie Boaza jako wybawcy i przodka Jezusa. Wskazuje także na znaczenie rodowodu Chrystusa oraz uniwersalność Jego łaski.",
+  "duration": 3489,
+  "translations": {
+    "en": {
+      "title": "The Person of Jesus Christ in the Old Testament Part 2 - The Further Fate of Israel",
+      "summary": "Jesus Christ reveals Himself already in the Old Testament, gradually uncovering the mysteries of salvation. As Israel enters the promised land, new challenges arise alongside renewed hope for the Messiah. The story of Ruth, Naomi, and Boaz demonstrates God's grace, pointing to Christ as the Redeemer. This serves as a valuable reminder that understanding the Gospel is a continuous, living journey."
+    },
+    "uk": {
+      "title": "Особa Ісуса Христа в Старому Заповіті ч. 2 - Подальша доля Ізраїля",
+      "summary": "Ісус Христос уже являється у Старому Заповіті, поступово відкриваючи таємниці спасіння. З входженням Ізраїля до Обіцяної Землі виникають нові виклики та надія на Месію. Історія Рут, Ноємі та Вооза демонструє Божу благодать, вказуючи на Христа як Спасителя. Це повчальне нагадування, що пізнання Євангелії — це тривала, жива подорож."
+    },
+    "ta": {
+      "title": "பழைய ஏற்படுத்தலில் இயேசு கிறிஸ்துவின் உருவம் பகுதி 2 - இஸ்ரவேலின் மேலதிக பயணம்",
+      "summary": "இயேசு கிறிஸ்து பழைய ஏற்படுத்தலில் ஏற்கனவே தன்னை வெளிப்படுத்தி, இரட்சிப்பின் ரகசியங்களை படிப்படியாக வெளிப்படுத்துகிறார். இஸ்ரவேல் வாக்குறுதியான đấtுக்கு நுழையும்போது புதிய சவால்கள் மற்றும் மெசியாவின் மீது நம்பிக்கையுடன் வருகிறது. ருத், நோஎமி மற்றும் போஅஸ் கதைகள் தெய்வத்தின் கருணையை வெளிப்படுத்தி, கிறிஸ்துவை சொரியானவனாக காட்டுகின்றன. இதுவே எங்கேலும் எவாஞ்சலியைக் கற்றுக்கொள்வது ஒரு தொடர்ந்தும் உயிருள்ள பயணம் என்பதை நினைவூட்டும் அர்த்தமுள்ள செய்தியாகும்."
+    },
+    "de": {
+      "title": "Die Person Jesu Christi im Alten Testament Teil 2 - Die weiteren Schicksale Israels",
+      "summary": "Jesus Christus offenbart sich bereits im Alten Testament und enthüllt nach und nach die Geheimnisse des Heils. Mit dem Einzug Israels ins verheißene Land tauchen neue Herausforderungen und die Hoffnung auf den Messias auf. Die Geschichte von Rut, Noomi und Boas zeigt Gottes Gnade und weist auf Christus als Erlöser hin. Eine lehrreiche Erinnerung daran, dass das Entdecken des Evangeliums eine dauerhafte, lebendige Reise ist."
+    },
+    "es": {
+      "title": "La Persona de Jesucristo en el Antiguo Testamento, parte 2 - El destino continuo de Israel",
+      "summary": "Jesucristo ya se revela en el Antiguo Testamento, desvelando poco a poco los misterios de la salvación. Con la entrada de Israel en la tierra prometida, surgen nuevos desafíos y la esperanza en el Mesías. La historia de Rut, Noemí y Booz muestra la gracia de Dios, señalando a Cristo como el Salvador. Un recordatorio edificante de que conocer el Evangelio es un viaje vivo y constante."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 19",
+      "Rdz 22",
+      "Ps 23",
+      "Ps 110",
+      "Ru 1",
+      "1 Sm 1",
+      "1 Sm 2",
+      "1 Sm 7"
+    ],
+    "en": [
+      "Gen 19",
+      "Gen 22",
+      "Ps 23",
+      "Ps 110",
+      "Ruth 1",
+      "1 Sam 1",
+      "1 Sam 2",
+      "1 Sam 7"
+    ],
+    "uk": [
+      "Бут 19",
+      "Бут 22",
+      "Пс 23",
+      "Пс 110",
+      "Руф 1",
+      "1 Цар 1",
+      "1 Цар 2",
+      "1 Цар 7"
+    ],
+    "ta": [
+      "ஆதிகா 19",
+      "ஆதிகா 22",
+      "சங்கீதம் 23",
+      "சங்கீதம் 110",
+      "ரூத் 1",
+      "1 சங்கீதர் 1",
+      "1 சங்கீதர் 2",
+      "1 சங்கீதர் 7"
+    ],
+    "de": [
+      "Gen 19",
+      "Gen 22",
+      "Ps 23",
+      "Ps 110",
+      "Rut 1",
+      "1 Sam 1",
+      "1 Sam 2",
+      "1 Sam 7"
+    ],
+    "es": [
+      "Gén 19",
+      "Gén 22",
+      "Sal 23",
+      "Sal 110",
+      "Rut 1",
+      "1 Sam 1",
+      "1 Sam 2",
+      "1 Sam 7"
+    ]
+  },
+  "transcript": {
+    "pl": "Chwała Bogu, drodzy zgromadzeni! Chciałbym, abyśmy dzisiaj kontynuowali podróż z Jezusem Chrystusem. Tęskno mi kontynuować temat osoby Jezusa Chrystusa w Starym Testamencie. Jeśli pamiętacie, tydzień temu zakończyliśmy omawianie Ksiąg Mojżeszowych, a także mówiliśmy o objawieniu się naszego Pana Jezusa Chrystusa Jozuemu. Wiecie, tak naprawdę to, co czynimy rozważając te słowa, kolejne fragmenty o Jezusie Chrystusie, jest odczytywaniem krok po kroku objawienia się Jezusa Chrystusa.\n\nObjawienie to jest kroczące, ponieważ On krok po kroku ukazuje nam siebie przez swoje słowo. Kiedy przechodzimy przez kolejne księgi, On przed nami odkrywa coraz to większe tajemnice dotyczące osoby Jezusa Chrystusa, zbawienia w Jezusie Chrystusie oraz tego, co Pan Bóg przygotował. Coraz więcej odkrywamy osobę i dzieło Mesjasza. Jeszcze zanim On przyszedł, zanim nastąpiła inkarnacja, czyli wcielenie, On już się objawiał, a Jego cień szedł przez historię Izraela, przez historię Nowego Testamentu.\n\nTo jest bardzo ważne, drodzy zgromadzeni, aby zrozumieć, że to, co omawiamy, to tak naprawdę początki Ewangelii. To, co robimy, omawiając objawienie Jezusa Chrystusa w Starym Testamencie, to patrzymy na Ewangelię oczami tych mężów i niewiast ze Starego Testamentu. W podsumowaniu dzisiaj będę o tym mówił, że oni wchodzili w poznanie Jezusa Chrystusa. Tak naprawdę, jak będziemy czytać, oni pragnęli tego poznania Jezusa Pana. Jak usłyszycie w podsumowaniu dzisiejszego słowa, ten duch chrystusowy, który w nich działał, objawiał przed nimi coraz to więcej tajemnic.\n\nChcę wam jeszcze powiedzieć na wstępie, zanim przejdę do dalszego omawiania tego tematu, że Ewangelia jest wielką prawdą. Ewangelia jest największą historią, jaką można opowiedzieć w dziejach, która jest opowiadana i jest najważniejszą i zarazem najciekawszą historią w całej historii ludzkości, jak i poza nią, w całej wieczności. Ewangelia Jezusa Chrystusa.\n\nChcę wam powiedzieć, że kiedy mówimy o Ewangelii Jezusa Chrystusa, o Chrystusie, to mówimy o temacie, który nigdy się nie zakończy w naszym życiu. Nigdy. Nie zakończy się w naszym życiu doczesnym i nigdy nie zakończy się w wieczności. Wiecie, jest wiele tematów, których nie umniejszam, bo są ważne dla naszego życia, ale jest wiele tematów naszego życia duchowego i cielesnego, które przemijają. Są ważne tylko do naszego odejścia z tej ziemi. Ale temat Ewangelii to temat fascynujący, który możemy dzisiaj odkrywać. Teraz odkrywamy go na bazie Starego Testamentu w tej serii wykładów. Odkrywamy go na bazie Ewangelii Nowego Testamentu. Odkrywamy go w sposób praktyczny w naszym życiu i duchowy.\n\nOdczuwamy skutki Ewangelii, jej działanie i moc – moc Ewangelii, która działa w naszym życiu. Ta podróż, którą kontynuujemy przez Ewangelię, nigdy się nie skończy. Wierzę w to, że kiedy znajdziemy się w wieczności, jednym z najciekawszych tematów dla nas będzie nadal Ewangelia, dzieło Chrystusa. Będziemy mieli całą wieczność, aby zrozumieć i odkrywać jeszcze bardziej dzieło Chrystusa, coraz bardziej Go uwielbiać. I to jest coś, co nigdy się nie wyczerpie, ponieważ będziemy w wieczności i nigdy nie wyczerpią się pokłady naszego poznania tego, co możemy poznać o Chrystusie, o zbawieniu.\n\nTak naprawdę jesteśmy dopiero na wstępie. Nasze życie ziemskie jest tylko wstępem do poznania Ewangelii. Będziemy ją badać, a jest to moje przekonanie, jeszcze głębiej przez całą wieczność, aby tym większe było nasze uwielbienie Chrystusa. Duch Boży będzie wzbudzał nas na wieki wieków do uwielbienia osoby Jezusa Chrystusa w wieczności, w społeczności z Bogiem. Ta nasza podróż nigdy się nie skończy. To jest dopiero nasz początek.\n\nW ostatnich wykładach praktycznie przeszliśmy przez pięć ksiąg, przez sześć ksiąg Starego Testamentu – pięć ksiąg Mojżeszowych – i odkrywaliśmy, jak Chrystus był obecny u patriarchów, jak objawił się Mojżeszowi, a także Jozuemu, jak był skałą towarzyszącą Izraelowi w ich podróży.\n\nPowtórzę się po raz kolejny: Chrystus objawia się w Starym Testamencie na trzy sposoby. Po pierwsze, poprzez proroctwa – wtedy, gdy mówi się o Jezusie Chrystusie jako Mesjaszu, bardziej lub mniej wyraźnie. Dzisiaj będziemy mówić o takich przykładach. Po drugie, poprzez typy Chrystusa, czyli osoby, rzeczy, okoliczności, które wskazują na Jezusa i w których zauważamy cechy podobne do Chrystusa. I po trzecie, Chrystus objawia się w postaci osobistej obecności, co możemy nazwać preegzystencją, czyli obecnością przed wcieleniem, które ma miejsce w Nowym Testamencie.\n\nStajemy dzisiaj przed początkiem pewnej historii. Następuje cezura czasowa w historii Izraela, ponieważ Izrael wchodzi do ziemi obiecanej. Wchodzi, ale jedna rzecz się nie zmienia w historii Izraela – temat i pragnienie Mesjasza nie znikają. Temat Mesjasza nie zanika wraz z wejściem do ziemi obiecanej. Jeśli ktoś myślałby, że Mesjasz jest ważny tylko, gdy Izrael jest uciskany, gdy jest w Egipcie i potrzebuje wyprowadzenia, to się myli. Temat Mesjasza nie umiera, nie znika. On wręcz się rozwija.\n\nDlatego że, de facto, kiedy Izrael wchodzi do ziemi obiecanej, znikają stare problemy – ucisk w Egipcie, trudności w wędrówce przez pustynię. Jesteśmy wreszcie u siebie, przejmujemy winnice, pola, miasta. To sam Chrystus wypędza narody przed Izraelem.\n\nAle w miejsce starych problemów pojawiają się nowe. A tak naprawdę nie ma nic nowego pod słońcem. Izrael – gdybyśmy czytali Księgę Sędziów – znowu cierpi. A dlaczego cierpi? Cierpi i jest zbawiany przez kolejnych wybawicieli. Zachęcam do lektury Księgi Sędziów, która pokazuje, jak Izrael wciąż popada w tarapaty. Dlaczego? To już wiecie.\n\nW pewien sposób znamy historię pewnego męża imieniem Elimelech, który miał żonę Noemi i dwóch synów – Machlona i Kiliona. Pochodzili z Betlejem w Judy, co nie jest przypadkiem, bo z Betlejem pochodzi Chrystus. Ta historia zatem rozgrywa się w ważnym mieście dla nauki o Chrystusie.\n\nWiemy, że z powodu głodu Elimelech z rodziną uciekł do Moabu, gdzie stała się tragedia: ojciec i synowie zmarli, została Noemi z dwiema synowymi, w tym z Rut, i wracają do Betlejem. Cała historia jest przepełniona ogromnym smutkiem.\n\nZwróćmy uwagę: decyzja Elimelecha i Noemi o opuszczeniu Izraela nie była właściwa. Można przypuszczać, że to, co ich spotkało, było Bożą odpowiedzią na ich nieprawidłową decyzję. Nie powinni byli opuszczać Betlejem i iść mieszkać z poganami. Pan Bóg przeznaczył Izraelowi określone miejsce na mapie i tam mieli czekać na Jego błogosławieństwo.\n\nGdy Noemi wraca bez męża i synów, mówi: „Nie nazywajcie mnie już Noemi, czyli moja rozkosz, lecz nazywajcie mnie Mara, czyli gorzka.”  \n\nTa historia pokazuje, jak wielkiego nieszczęścia doświadczyły te kobiety. Historycznie rzecz biorąc, zostanie wdową bez dzieci było prawie jak wyrok śmierci. Pamiętamy scenę z Ewangelii, jak Jezus wzbudza syna wdowy, dając nadzieję na życie.\n\nW Księdze Rut czytamy, że Noemi wysyła Rut do zbierania kłosów po żniwiarzach, by zdobyć trochę żywności. W tamtych czasach wdowa bez dzieci była praktycznie skazana na śmierć z głodu. W niektórych kulturach wdowy popełniały nawet rytualne samobójstwo, gdyż nie były w stanie same przetrwać.\n\nW tej tragicznej historii pojawia się postać Boaza, który jest typem Chrystusa, zwanym wybawcą i odkupicielem. Boaz był tym, który znalazł się w odpowiednim miejscu i czasie, by ratować te dwie kobiety z beznadziei. I jest to typ Chrystusa.\n\nCo ważne, Boaz jest istotny również dlatego, że jest przodkiem Pana Jezusa Chrystusa. Księga Rut dotyczy rodowodu naszego Pana. Żydzi, którzy nie uwierzyli w Chrystusa, ustalili, że księga Rut będzie częścią kanonu Starego Testamentu. My, chrześcijanie, odbieramy ją jako ważne świadectwo o historii naszego Mesjasza.\n\nW rodowodzie Pana Jezusa Chrystusa pojawiają się postaci, które po ludzku zdają się nie pasować – na przykład Moabitka Rut, czy Tamar, która miała związek z teściem. Pokazuje to, że łaska nie jest skierowana tylko do ludzi doskonałych czy sprawiedliwych, ale do wszystkich.\n\nPrzechodząc dalej, do pierwszego rozdziału Pierwszej Księgi Samuela, spotykamy kobietę Annę. Anna jest niewiastą zamężną z Elkaną z rodu Efraima. Inną straszną rzeczą dla niewiasty w tamtych czasach było być bezdzietną, co dla hut wielu kultur stanowiło poważny problem.\n\nKontekst historyczny pokazuje także zepsucie kapłaństwa w Izraelu. Po latach sędziów Izrael upada; grzeszy, podnosi się i znowu upada. Dochodzi do kulminacji zepsucia, gdy zaczyna popadać w zepsucie również kapłaństwo, które jest łącznością z Bogiem.\n\nW drugim rozdziale Księgi Samuela czytamy, że Pan mówi do Heliego o tym, jak dom jego ojca przestał chodzić przed Jego obliczem. Zobaczmy fragment:  \n„I wzbudzę sobie kapłana wiernego, który postępować będzie według mego serca i mojej duszy, i zbuduję mu trwały dom. On będzie chodził przed moim Pomazańcem po wszystkie dni.”\n\nBóg zapowiada nowe, wierne kapłaństwo – kapłaństwo według porządku Melchizedeka – wieczne, które zostanie wypełnione przez Chrystusa. Oto wieczny Arcykapłan, który już na wieki będzie wierny Bogu.\n\nW drugiej Księdze Samuela, rozdział 7, odczytujemy słowa skierowane do Dawida. Był on mężem według serca Bożego i zapragnął wznieść świątynię dla Pana, miejsce trwałe dla skrzyni przymierza.\n\nDawid czuł dyskomfort, że mieszka w domu z drewna, podczas gdy Bóg mieszka w namiocie. To przypomina nam nasze pragnienia życiowe, choć ważniejsze od wygody jest Boża wola.\n\nGeograficznie Jerozolima jest umiejscowiona u stóp Góry Oliwnej, na której Chrystus płakał i modlił się przed męką, podobnie jak Dawid, który tam również płakał. Obaj byli wojownikami – Dawid jako dowódca wojskowy, Chrystus jako wieczny zwycięski Król.\n\nObaj pokonali olbrzymów – Dawid pokonał Goliata, a Chrystus na Golgocie zwyciężył największego wroga, szatana.\n\nInny obraz to szabat – jako odpocznienie w Chrystusie. Szabat, siódmy dzień, był dla Izraela dniem świętym, zapowiedzią prawdziwego odpocznienia w Chrystusie.\n\nSpotkałem się ostatnio z zarzutem, że jestem bałwochwalcą, ponieważ święcę niedzielę, dzień boga słońca. Według tej oceny wszyscy, którzy tak czynią, są bałwochwalcami. Tymczasem ja nie czuję się bałwochwalcą, bo i tak nie święcę żadnego dnia w sensie religijnym.\n\nNiedziela jest dla mnie wyjątkowym dniem, gdyż spotykamy się i wspólnie uwielbiamy Chrystusa Pana. W Nowym Testamencie czytamy, że zbierają się pierwszego dnia tygodnia.\n\nJa czuję się wolny w Chrystusie. Z kolei szabat święcę, ale rozumiem go jako odpocznienie w Panu Jezusie – mój szabat, moje odpocznienie, a nie jako dzień tygodnia. Każdego dnia powinniśmy szukać odpocznienia w Panu.\n\nNie ograniczajmy Bożej łaski do dni czy form, bo Chrystus jest naszym odpocznieniem w każdym dniu naszego życia.\n\nAmen."
+  },
+  "cover": "/images/covers/I3mayXF8Z1M.webp"
+}

@@ -1,0 +1,56 @@
+---
+import { t, type Locale } from "../i18n/utils";
+import { getSermonsForLocale } from "../lib/sermons";
+import SermonCard from "./SermonCard.astro";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const PAGE_SIZE = 6;
+const sermons = await getSermonsForLocale(locale);
+const firstPage = sermons.slice(0, PAGE_SIZE);
+const totalPages = Math.max(1, Math.ceil(sermons.length / PAGE_SIZE));
+
+const clientStrings = {
+  noTitle: t(locale, "sermons.noTitle"),
+  play: t(locale, "sermons.play"),
+  progress: t(locale, "sermons.progress"),
+  cover: t(locale, "sermons.cover"),
+  newer: t(locale, "sermons.newer"),
+  older: t(locale, "sermons.older"),
+  page: t(locale, "sermons.page"),
+  noResults: t(locale, "sermons.noResults"),
+  aiGenerated: t(locale, "sermons.aiGenerated"),
+  aiVoice: t(locale, "sermons.aiVoice"),
+  viewDetails: t(locale, "sermons.viewDetails"),
+};
+---
+<section id="sermons" class="min-h-screen flex flex-col justify-center py-16">
+  <div class="container mx-auto px-4">
+    <div class="max-w-3xl mx-auto text-center mb-12">
+      <p class="text-sm uppercase tracking-[0.3em] text-[#5a6f9f] mb-3">{t(locale, "sermons.label")}</p>
+      <h2 class="text-3xl md:text-4xl font-semibold text-gray-900">{t(locale, "sermons.heading")}</h2>
+      <p class="text-gray-600 mt-4">{t(locale, "sermons.desc")}</p>
+      <div class="mt-6">
+        <label class="sr-only" for="sermons-search">{t(locale, "sermons.searchLabel")}</label>
+        <input
+          id="sermons-search"
+          type="search"
+          placeholder={t(locale, "sermons.searchPlaceholder")}
+          class="w-full sm:w-2/3 lg:w-1/2 mx-auto block border border-gray-200 rounded-xl px-4 py-3 text-base focus:outline-none focus:ring-2 focus:ring-[#3f568f]"
+        />
+      </div>
+    </div>
+    <div id="sermons-grid" class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      {firstPage.map((sermon) => <SermonCard locale={locale} sermon={sermon} />)}
+    </div>
+    <nav id="sermons-nav" class="flex flex-wrap justify-center items-center gap-3 mt-12 text-center">
+      <span class="text-gray-600">{t(locale, "sermons.page", { page: 1, total: totalPages })}</span>
+    </nav>
+  </div>
+</section>
+
+<script is:inline type="application/json" id="sermons-data" set:html={JSON.stringify(sermons)} />
+<script is:inline type="application/json" id="sermons-i18n" set:html={JSON.stringify(clientStrings)} />

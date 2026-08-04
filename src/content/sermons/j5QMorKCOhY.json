@@ -1,0 +1,103 @@
+{
+  "date": "2026-02-14",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/j5QMorKCOhY/j5QMorKCOhY.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Wszystko ma swój czas i porę - III",
+  "summary": "Przypowieść z Księgi Kaznodziei 3 ukazuje cykl czasu zabijania i leczenia, odnosząc się do Biblii, szczególnie do Listu do Hebrajczyków. W kazaniu omawiany jest proces duchowego leczenia prowadzący do uświęcenia, które jest konieczne do ujrzenia Boga. Zwraca uwagę na konieczność poddania się Bożemu działaniu w celu odnowy ducha, duszy i ciała oraz na historię upadku człowieka jako punkt wyjścia do tego procesu.",
+  "duration": 3675,
+  "translations": {
+    "en": {
+      "title": "Everything Has Its Time and Season - Part III",
+      "summary": "Every stage of life, including the time for healing, has its place in God's plan. This sermon reveals how God guides us through the process of healing both soul and body, even amidst evil. Drawing on the Letters to the Hebrews and the Book of Genesis, the reflections emphasize that true transformation begins with God's grace and a new birth. This inspiring message shows how to draw closer to Christ step by step."
+    },
+    "uk": {
+      "title": "Всьому свій час і пора - III",
+      "summary": "Кожен етап життя, включаючи час лікування, має своє місце в Божому плані. Проповідь показує, як Бог веде через процес зцілення душі і тіла, навіть коли панує зло. Базуючись на Посланнях до Євреїв та Книзі Буття, роздуми підкреслюють, що справжня трансформація починається з Божої благодаті та нового народження. Це надихаюче послання демонструє, як крок за кроком наближатися до Христа."
+    },
+    "ta": {
+      "title": "ஒவ்வொன்றுக்கும் தனது நேரமும் காலமும் உண்டு - III",
+      "summary": "வாழ்க்கையின் ஒவ்வொரு கட்டத்தையும், குணமடையும் நேரத்தையும் கடவுள் திட்டத்தில் தனி இடம் உள்ளது. இந்த பிரசங்கம், தீமை விரயமாக இருந்தாலும், ஆன்மா மற்றும் உடல் குணமடைய கடவுள் வழிநடத்துவது எப்படி என்பதை வெளிப்படுத்துகிறது. ஹீபிரு கடிதங்களிலும் ஆரம்ப பரம்பரைகளிலும் அடிப்படையாகக் கொண்ட இந்த விவாதங்கள், உண்மையான மாற்றம் கடவுளின் கிருபையால் மற்றும் புதிய பிறப்பால் ஆரம்பிக்கிறது என்பதை என்னும் சிறப்பாக வலியுறுத்துகின்றன. இந்த ஊக்கமளிக்கும் செய்தி, படி படியாக கிறிஸ்துவுக்கு அருகில் செல்ல உதவுகிறது."
+    },
+    "de": {
+      "title": "Alles hat seine Zeit und Stunde - III",
+      "summary": "Jede Lebensphase, auch die Zeit der Heilung, hat ihren Platz in Gottes Plan. Diese Predigt zeigt, wie Gott durch den Prozess der Heilung von Seele und Körper führt, selbst wenn das Böse herrscht. Die Betrachtungen, basierend auf den Hebräerbriefen und dem Buch Genesis, betonen, dass wahre Veränderung mit Gottes Gnade und neuer Geburt beginnt. Diese inspirierende Botschaft zeigt, wie man Schritt für Schritt Christus näherkommen kann."
+    },
+    "es": {
+      "title": "Todo tiene su tiempo y temporada - III",
+      "summary": "Cada etapa de la vida, incluyendo el tiempo de sanación, tiene su lugar en el plan de Dios. Este sermón muestra cómo Dios guía el proceso de sanación del alma y el cuerpo, incluso cuando existe el mal. Basado en las Cartas a los Hebreos y el Libro del Génesis, las reflexiones destacan que la verdadera transformación comienza con la gracia de Dios y un nuevo nacimiento. Un mensaje inspirador que enseña cómo acercarse a Cristo paso a paso."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Kazn 3",
+      "Hbr 12",
+      "Hbr 2",
+      "Rz 6",
+      "Hbr 2",
+      "Rdz 3",
+      "Rdz 3",
+      "Pwt 32",
+      "Wj 15"
+    ],
+    "en": [
+      "Eccl 3",
+      "Heb 12",
+      "Heb 2",
+      "Rom 6",
+      "Heb 2",
+      "Gen 3",
+      "Gen 3",
+      "Deut 32",
+      "Exod 15"
+    ],
+    "uk": [
+      "Еккл 3",
+      "Євр 12",
+      "Євр 2",
+      "Рим 6",
+      "Євр 2",
+      "Бут 3",
+      "Бут 3",
+      "Повт 32",
+      "Вих 15"
+    ],
+    "ta": [
+      "உப 3",
+      "எபிர 12",
+      "எபிர 2",
+      "ரோம 6",
+      "எபிர 2",
+      "ஆத 3",
+      "ஆத 3",
+      "வியாக 32",
+      "தொட 15"
+    ],
+    "de": [
+      "Pred 3",
+      "Hebr 12",
+      "Hebr 2",
+      "Röm 6",
+      "Hebr 2",
+      "1 Mos 3",
+      "1 Mos 3",
+      "Dtn 32",
+      "2 Mos 15"
+    ],
+    "es": [
+      "Ecl 3",
+      "Heb 12",
+      "Heb 2",
+      "Rom 6",
+      "Heb 2",
+      "Gn 3",
+      "Gn 3",
+      "Dt 32",
+      "Ex 15"
+    ]
+  },
+  "transcript": {
+    "pl": "Dzisiaj dalej będziemy kontynuowali to, co kilka tygodni temu rozpoczęliśmy. Tradycyjnie przeczytamy również tę myśl, która towarzyszy nam już od sześciu wykładów, a mianowicie z przypowieści kaznodziei Salomona z trzeciego rozdziału. Dzisiaj będziemy rozważać czas leczenia, ale przeczytamy całą sekwencję.\n\n„Wszystko ma swój czas i każda sprawa pod niebem ma swoją porę. Jest czas rodzenia i czas umierania, czas sadzenia i czas wyrywania tego, co zasadzono. Jest czas zabijania i czas leczenia.”\n\nMówiliśmy już o czasie zabijania, który rozpoczął się od momentu, kiedy pierwsza para rodziców została usunięta, wypędzona z ogrodu Eden. Dwaj bracia – Kain zabił swojego brata, i od tego momentu widzimy, że to zło, czas zabijania, rozszerza się i trwa bez końca. Jak jednak omawialiśmy w ostatnim tygodniu, Bóg znalazł rozwiązanie – poprzez śmierć własnego Syna mogliśmy dostąpić odkupienia.\n\nCzemu tak się stało? Ponieważ karą za grzech jest śmierć – mówi Słowo Boże w prawie Bożym – a także, że krew obmywa i jest tym, co oczyszcza z grzechów. Nie będziemy więc powtarzali tego, co mówiliśmy w ubiegłym tygodniu, lecz chciałbym rozpocząć od tego, czym zakończyliśmy, a mianowicie od Listu do Hebrajczyków, aby kontynuować tę myśl.\n\nOtwórzmy więc List do Hebrajczyków i przeczytajmy dwie sekwencje, nad którymi dzisiaj nie będziemy się zbyt długo zatrzymywać, ale które chciałbym przypomnieć, zwłaszcza z 12. rozdziału, od drugiego wersetu:\n\n„Patrząc na Jezusa, sprawcę i dokończyciela wiary, który zamiast doznać należytej mu radości, wycierpiał krzyż i nie zważał na hańbę, i usiadł po prawicy tronu Bożego. Przedo pomyślcie o tym, który od grzeszników zniósł tak wiele sprzeciwu wobec siebie, abyście nie upadali na duchu, utrudzeni.”\n\nMówiłem troszkę o tym, że mamy patrzeć na Jezusa, na wymiar duchowy tego wszystkiego. Bardzo często jesteśmy utrudzeni, jak mówi Słowo Boże tutaj, ale będąc utrudzeni, nie powinniśmy upadać na duchu. Widzimy więc, że Bóg w Jezusie Chrystusie kieruje nasze myśli na sferę duchową.\n\nOczywiście świat fizyczny i wymiar duszy powinny się zmieniać w dziecku Bożym, bo duch, dusza i ciało winny być zachowane w czystości i uświęcać się. To również jest proces leczenia nas wszystkich. Omawiałem go już w ubiegłym tygodniu, ale chciałbym wrócić jeszcze do drugiego rozdziału Listu do Hebrajczyków, ponieważ wielu ludzi powołuje się na ten werset. Jednak jeśli chodzi o proces leczenia, który finalnie kończy się tym, że nasz wewnętrzny człowiek – duch – wychodzi na zewnątrz, manifestuje się na ciele, bo Bóg dobrze nas stworzył, i pomimo, że mamy zakon serca, skłonność do grzechu w nas pozostaje, to mimo nowego narodzenia Biblia jasno mówi, że potknięcia o grzech zdarzać się będą.\n\nAle w Liście do Rzymian jest napisane, że grzech nie będzie panował nad nami. Mówiliśmy już o grzechu, jego przyczynach i przeszkodach, które powodują, że grzech nas zabija. Jednak jest czas leczenia.\n\nUważam, że finałem tego procesu jest to, że poddamy się leczeniu – a jeśli będziemy w tym procesie, Bóg wyda na świat nowego człowieka, który objawi się na naszym ciele. Ten „stary człowiek” umiera dla nas i dla naszych braci i sióstr, i zaczyna się proces uświęcenia, ponieważ jak mówi Słowo Boże: „Bez uświęcenia nikt nie ujrzy Boga”.\n\nKonsekwencją uświęcenia jest to, co jest napisane w 2. rozdziale Hebrajczyków, w 10. wersecie:\n\n„Przystało bowiem, aby Ten, dla którego i przez którego wszystko istnieje, który przywiódł do chwały wielu synów, sprawcę ich zbawienia uczynił doskonałym przez cierpienie, bo zarówno Ten, który uświęca, jak i ci, którzy bywają uświęceni, są z jednego. Z tego powodu nie wstydzi się nazwać ich braćmi.”\n\nW pewnym momencie zatem Słowo Boże wskazuje nam na proces uświęcenia, przez który musimy przejść, by Jezus mógł śmiało nazwać nas braćmi. Nie dzieje się to od razu – w tym procesie są przeszkody, a siły ciemności będą nas obserwowały i nie będą z tego zadowolone.\n\nJak mówiłem w zeszłym tygodniu, Bóg objawił mi pewne rzeczy o Jezusie Chrystusie, który jest światłością, ale istnieje też „druga światłość”, którą, jeśli nie będziemy czujni i nie będziemy baczyć, jak Słowo Boże nakazuje, możemy być zwiedzeni.\n\nPrzejdźmy teraz do pierwszej Księgi Mojżeszowej. Nie będę wracał do komentarza z ubiegłego tygodnia, aczkolwiek dzisiaj zajmiemy się czasem leczenia, będącym drugą częścią cyklu – jest czas zabijania i czas leczenia. Skoncentrujemy się na procesie leczenia.\n\nJeśli popatrzymy cielesnie i zmysłowo, na pewno najchętniej byśmy chcieli, aby Bóg leczył nas cieleśnie. Oczywiście ten proces jest dostępny i zachodzi, ale Bóg pragnie czegoś więcej – leczenia naszej duszy. To jest istotne, gdyż zarówno ciało, jak i dusza są skażone, a kiedy w nowym narodzeniu ożywia się nasz duch, mamy dostęp do tronu łaski Ojca w niebiesiech.\n\nKiedy Bóg planował ten proces? W trzecim rozdziale pierwszej Księgi Mojżeszowej czytamy:\n\n„Na to rzekł Adam: ‘Kobieta, którą mi dałeś, aby była ze mną, dała mi z tego drzewa i jadłem.’”\n\nWtedy Pan Bóg zwrócił się do kobiety… Dobrze jest podkreślić, że nie jest możliwe, aby niemowlę umiało rozróżniać dobro i zło. Ten okres życia jest wykorzystywany przez diabła. Widzimy, że Ewa zjadła owoc z drzewa poznania dobra i zła; to zapoczątkowało przerzucanie winy – Ewa mówi, że wąż ją zwiódł; Adam mówi: kobieta dała mi ten owoc.\n\nDiabeł stosuje więc jedną z technik – chce, abyśmy mieli idola. Bardzo często inwestujemy w jakiegoś kaznodzieję, w kogoś, kto prowadzi zbór, zapatrujemy się na niego, a mamy być zapatrzeni w Chrystusa, w fundament, pragnąć niesfałszowanego mleka, które ma moc budować nas jako żywe kamienie w duchową budowlę. Mamy dążyć do jedności, jak mówi Słowo Boże. Procesy leczenia są skomplikowane, lecz chcę tu przytoczyć pewien przykład z mojego doświadczenia.\n\nKiedyś wykonywałem zawód weterynarza i trochę jeździłem konno. Każdy, kto uczy jazdy konnej, nie pozwoliłby początkującemu jeździć na ogierze, a tylko na wałachu lub klaczy. Podobnie Bóg, kierując się swoim porządkiem, nie dopuszcza, aby ktoś bez ukształtowanych zmysłów rozróżniania dobra i zła był przywódcą w zborze czy starszym. Bardzo ważne jest to, że droga do pełnego uświęcenia jest procesem, wymagającym czasu i doświadczeń.\n\nDalej czytamy w pierwszej Księdze Mojżeszowej:\n\n„Wtedy Pan Bóg rzekł do węża: ‘Ponieważ to uczyniłeś, będziesz przeklęty spośród wszystkich bydła i dzikich zwierząt. Po brzuchu będziesz się pełzał i proch jeść po wszystkie dni życia swojego. Ustanowię nieprzyjaźń między tobą a niewiastą, między twoim potomstwem a jej potomstwem. Ono zdepcze twoją głowę, a ty ukąsisz je w piętę.’”\n\nBóg mówi dalej do kobiety, że pomnoży jej dolegliwości brzemienności, że będzie rodziła w bólach, ale pociągać ją będzie ku mężowi, a on będzie nad nią panował. Do Adama mówi, że z powodu swojej nieposłuszeństwa ziemia będzie przeklęta i będzie żywił się mozolem jej ziemi po wszystkie dni życia, że będzie miał ciernie i osty, że będzie jadł chleb w pocie czoła, aż wróci do ziemi, bo prochem jest i w proch się obróci.\n\nTe słowa opisują konsekwencje złamania nakazu Bożego. Relacje między pierwszymi rodzicami będą przebiegać w określony sposób aż do powrotu Pana Jezusa. Wtedy, jak wiemy, wierzący będą aniołami, nie będzie rozróżnienia płci, a ciała będą chwalebne.\n\nWażne jednak, że Bóg w tym momencie zapowiedział początek procesu leczenia. Od wyprowadzenia Abrahama z Ur Chaldejskiego, przez narodziny dwunastu patriarchów Jakuba, po wyprowadzenie narodu izraelskiego z Egiptu przez Mojżesza, aż wreszcie pojawienie się Mesjasza – to wszystko jest częścią procesu leczenia ludzkiego człowieczeństwa.\n\nNie chcę spekulować, co by było, gdyby człowiek pozostał w ogrodzie Eden i nie upadł, bo nie ma to sensu. Ważne jest, czy się na nowo narodziłeś, bo jak mówi Pan Jezus:\n\n„Zaprawdę, zaprawdę powiadam ci, jeśli się ktoś nie narodzi na nowo, nie ujrzy królestwa Bożego.”\n\n„Zaprawdę” można rozumieć w języku polskim – tak, a nie inaczej.\n\nCały proces leczenia zaczął się od momentu usunięcia pierwotnych rodziców z ogrodu Eden; ich nieposłuszeństwo miało poważne konsekwencje. W tym momencie nagle zobaczyli, że Bóg jest prawdomówny i że będą musieli ponieść skutki swojego grzechu.\n\nDiabeł zwiódł Ewę, obiecując, że nie umrą, lecz jedno pominął – że będą duchowo martwi i oddzieleni od Boga, a także zdominowani przez grzech, który rozwiązywali często w tragiczny sposób.\n\nWidzimy, że wiedza człowieka rozwija się szybciej niż konsekwencje tej wiedzy. Od kiedy ludzie posiedli tę wiedzę, jej skutki były niekontrolowane.\n\nPrzykładowo opanowanie energii atomowej do dziś przyniosło broń masowego rażenia, zagrażając całemu światu, a jednocześnie miliardy ludzi umierają z głodu. Widzimy więc, że mądrość świata często jest sprzeczna z Bożą mądrością i prowadzi do zniszczenia.\n\nDiabeł chciał równać się z Bogiem, jak mówi prorok Ezechiel, a ta myśl jest obecna do dziś w człowieku, który pragnie znać dobro i zło.\n\nW Księdze Mojżeszowej, trzecim rozdziale, 22. wersecie jest napisane:\n\n„A Pan Bóg rzekł: Oto człowiek stał się jak jeden z nas, znający dobro i zło. Teraz niech tylko wyciągnie rękę swoją i zerwie owoc także z drzewa życia i zje, i żyć będzie na wieki.”\n\nWidzimy, że Bóg zapobiega, aby człowiek żył wiecznie w stanie grzechu, dlatego został wypędzony z Edenu.\n\nWerset dalej mówi, że Bóg umieścił cherubów i płomienisty miecz, który strzeże drogi do drzewa życia.\n\nPrzypominamy sobie słowa Jezusa, który jest „wodą żywą”, dającą życie wieczne.\n\nPatrząc na dalsze konsekwencje grzechu, widzimy, że po spożyciu owocu poznania dobra i zła Adam i Ewa dostrzegli swoją nagość i zaczęli się wstydzić. To zmieniło ich postrzeganie rzeczywistości.\n\nDzisiaj, niestety, diabeł nadal wykorzystuje tę nagość i brak wstydu w społeczeństwie. Bóg nas jednak odział i powinniśmy być przyzwoicie ubrani.\n\nProces leczenia, który przewidział Bóg, leczy nie tylko ciało, ale przede wszystkim duszę poprzez Słowo Boże i działanie Ducha Świętego.\n\nW piątej Księdze Mojżeszowej, 32. rozdziale czytamy, że Bóg upomniał się o prawo ludzkie i lituje się nad sługami swoimi, gdy zauważa ich słabość, brak siły i oddanie bożkom.\n\nBóg przypomina im, że to On jest jedynym Bogiem, który daje życie i leczy. On mówi: „Ja pozbawiam życia i darzę życiem. Ja ranię i leczę. Z ręki mojej nikt nie zdoła się wyrwać.”\n\nW tym miejscu widzimy Bożą sprawiedliwość i równocześnie miłosierdzie. Bóg wymierza karę sprawiedliwą, ale także jest lekarzem gotowym uleczyć.\n\nW drugiej Księdze Mojżeszowej, w rozdziale 15, czytamy o doświadczeniach Izraela na pustyni. Lud szemrał, pytając Mojżesza, co będą pić. Pan wskazał Mojżeszowi drzewo, które wrzucił do wody, a ona stała się słodka. Tam ustanowił dla nich przepisy i prawo, aby poznali Jego posłuszeństwo.\n\nJezus mówi do nas:\n\n„Jeśli ktoś pragnie, niech przyjdzie do mnie i pije. Kto wierzy we mnie, z jego wnętrza popłyną rzeki wody żywej.”\n\nBędziemy jeszcze mówić o wodzie żywej i o procesie leczenia, które finalnie powinno doprowadzić nas do spotkania z Panem Jezusem Chrystusem.\n\nNiech Bóg nas błogosławi. Amen."
+  },
+  "cover": "/images/covers/j5QMorKCOhY.webp"
+}

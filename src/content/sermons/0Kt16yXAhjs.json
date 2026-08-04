@@ -1,0 +1,115 @@
+{
+  "date": "2022-10-05",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/0Kt16yXAhjs/0Kt16yXAhjs.opus",
+  "preacher": "Jakub Michalak",
+  "title": "Osoba Jezusa Chrystusa w Starym Testamencie cz. 4",
+  "summary": "Przesłanie skupia się na objawieniu Jezusa Chrystusa w Starym Testamencie, szczególnie w księgach prorockich od Jeremiasza do Malachiasza. Kazanie omawia imię Boga „Pan Sprawiedliwością Naszą” oraz prorocze zapowiedzi mesjańskie w księgach Ezechiela, Daniela, Ozeasza i Micheasza. Podkreśla, że Jezus jest odpowiedzią na wszystkie ludzkie potrzeby i pytania, a Jego postać i dzieło stanowią fundament wiary chrześcijańskiej.",
+  "duration": 3400,
+  "translations": {
+    "en": {
+      "title": "The Person of Jesus Christ in the Old Testament Part 4",
+      "summary": "Prophecies and images of Christ presented by the prophets from Jeremiah to Malachi reveal Jesus as the Lord of Righteousness, the Good Shepherd, and the eternal King. Understanding His preexistence and the fulfillment of Old Testament promises in the New Testament strengthens the conviction that Jesus is active in contemporary life. This is an inspiring reflection on the living and relevant power of God's Word."
+    },
+    "uk": {
+      "title": "Особистість Ісуса Христа у Старому Завіті, ч. 4",
+      "summary": "Пророцтва та образи Христа, представлені пророками від Єремії до Малахії, відкривають Ісуса як Господа Праведності, Доброго Пастиря та вічного Царя. Пізнання Його преісторії та здійснення обітниць Старого Завіту у Новому Завіті зміцнює переконання, що Ісус діє в сучасному житті. Це надихаюче роздумування про живу та актуальну силу Божого Слова."
+    },
+    "ta": {
+      "title": "பழைய ஏற்பாட்டில் இயேசு கிறிஸ்துவின் உருவம் பகுதி 4",
+      "summary": "யீரேமியா முதல் மலாக்கியர் வரை ஆயுமான புரட்சியாளர்களால் வெளிப்படுத்தப்பட்ட இயேசு கிறிஸ்துவின் பலவிதமான தீர்க்கதரிசனங்கள் மற்றும் படங்கள், அவரை நீதிபதி ஆண்டவராகவும், நல்ல ஓசராமாயராகவும் என்றென்றும் வாழும் அரசராகவும் காட்டுகின்றன. அவரது முன்-உள்ளமைதியையும், பழைய ஏற்பாட்டில் கொள்ளப்பட்ட வாக்குறுதிகள் புதிய ஏற்பாட்டில் நிரூபிக்கப்பட்டதையும் அறிந்து கொண்டால், இயேசுவின் செயற்பாடு நமது காலத்தில் கூட நடந்தேறுகிறது என நமக்கு உறுதி வலுப்படும். இது இறைவர்த்துருவத்தின் உயிரோடும் சமகால சக்தியோடும் கூடியதான ஒரு ஊக்கமளிக்கும் சிந்தனை."
+    },
+    "de": {
+      "title": "Die Person Jesu Christi im Alten Testament, Teil 4",
+      "summary": "Die Prophezeiungen und Bilder Christi, die von den Propheten von Jeremia bis Maleachi vorgestellt werden, zeigen Jesus als den Herrn der Gerechtigkeit, den guten Hirten und den ewigen König. Das Erkennen seiner Präexistenz und die Erfüllung der alttestamentlichen Verheißungen im Neuen Testament bestärken den Glauben daran, dass Jesus im heutigen Leben wirkt. Eine inspirierende Betrachtung über die lebendige und gegenwärtige Kraft des Wortes Gottes."
+    },
+    "es": {
+      "title": "La Persona de Jesucristo en el Antiguo Testamento, parte 4",
+      "summary": "Las profecías e imágenes de Cristo presentadas por los profetas desde Jeremías hasta Malaquías muestran a Jesús como el Señor Justicia, el Buen Pastor y el Rey eterno. Conocer Su preexistencia y el cumplimiento de las promesas del Antiguo Testamento en el Nuevo Testamento fortalece la convicción de que Jesús actúa en la vida contemporánea. Es una reflexión inspiradora sobre el poder vivo y actual de la Palabra de Dios."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 1",
+      "Ps",
+      "Iz",
+      "Jr",
+      "Ez",
+      "Dn",
+      "Oz",
+      "Mich",
+      "Za",
+      "Ml",
+      "Mt"
+    ],
+    "en": [
+      "Gen 1",
+      "Ps",
+      "Isa",
+      "Jer",
+      "Ezek",
+      "Dan",
+      "Hos",
+      "Mic",
+      "Zech",
+      "Mal",
+      "Matt"
+    ],
+    "uk": [
+      "Бут 1",
+      "Пс",
+      "Іс",
+      "Єр",
+      "Єз",
+      "Дн",
+      "Ос",
+      "Міх",
+      "Зах",
+      "Мал",
+      "Мт"
+    ],
+    "ta": [
+      "ஆதியாகமம் 1",
+      "சங்கீதம்",
+      "எசையே",
+      "யிர்மியா",
+      "எசேக்கியேல்",
+      "தனியேல்",
+      "ஓசியா",
+      "மீகா",
+      "சக்கரியா",
+      "மலாகி",
+      "மத்தேயு"
+    ],
+    "de": [
+      "Gen 1",
+      "Ps",
+      "Jes",
+      "Jer",
+      "Hes",
+      "Dan",
+      "Hos",
+      "Micha",
+      "Sach",
+      "Mal",
+      "Matt"
+    ],
+    "es": [
+      "Gén 1",
+      "Sal",
+      "Is",
+      "Jer",
+      "Eq",
+      "Dan",
+      "Hos",
+      "Miq",
+      "Zac",
+      "Mal",
+      "Mat"
+    ]
+  },
+  "transcript": {
+    "pl": "Chwała Bogu. Witam was, drodzy bracia i siostry, na dzisiejszym zgromadzeniu, na naszym rozważaniu. Dzisiaj chciałbym zakończyć nasze studium o Chrystusie Panu, o Jezusie Chrystusie w Starym Testamencie. Tak jak ostatnio zapowiadałem, mówiliśmy głównie o księdze Izajasza, tak teraz przejdziemy przez pozostałych proroków. Zaczynaliśmy od pierwszej księgi Starego Testamentu, czyli pierwszej księgi Mojżeszowej, a tak zakończymy na ostatniej księdze Starego Testamentu, czyli księdze Malachiasza.\n\nKtoś tu zwrócił uwagę przed chwilą, że naniesiono dużo chusteczek. Nie wiem, czy to dla mnie, że tyle aż wykorzystałem, czy będę się tak wzruszał, ale przypomniało mi się przy tej okazji, drodzy zgromadzeni, że to też jest o Jezusie, bo to Jezus to sprawia, o czym zaraz powiem. Parę tygodni temu, w niedzielę, w trakcie uwielbienia, wiecie, dzieci, takie jak ja mam, często nie wiedzą, co ze sobą zrobić. Czasem rozglądają się, a mój Bartuś, sześcioletni, rozglądał się po sali i w którymś momencie mówi do mnie: „Tato, tato, a dlaczego ludzie tutaj płaczą?” Odebrało mi mowę w tym momencie. Odpowiedziałem: „Bartuś, dlatego, że Pan Bóg porusza serca ludzi. To właśnie Jezus czyni.” I cieszę się, że możemy śpiewać pieśni, mówić o Jezusie, jak dzisiaj – jeśli zwróciliście uwagę, co śpiewaliśmy, to w większości były to słowa o naszym Panu Jezusie Chrystusie. Cieszę się, że możemy przeżywać osobę naszego Pana Jezusa Chrystusa.\n\nPodkreślałem nieraz podczas tego naszego wspólnego studium biblijnego, że jesteśmy niesamowicie uprzywilejowani. Wiecie o tym. Nawet względem tych ludzi, o których tutaj mówiliśmy – oni Jezusa przywitali niejako z daleka, z oddali. Czytaliśmy też, co w Nowym Testamencie było napisane, że oni tak pragnęli jak najwięcej wiedzieć o Jezusie. Tak jak mówiliśmy, nawet aniołowie w niebie pragnęli wejrzeć w te rzeczy. A my to mamy! To ogromne szczęście, ogromny przywilej, którego – myślę – czasem sobie nie uświadamiamy.\n\nKiedy idziemy do zboru, oczekujemy często różnych odpowiedzi na nasze pytania – duchowe pytania, pytania dotyczące życia. Cieszę się, że mogę dzisiaj na ten temat mówić, kończąc tę serię o Jezusie Chrystusie, ponieważ, jak mówi pewna piękna pieśń, Jezus jest odpowiedzią. To jest zaskakujące – możemy mieć dziś wiele pytań i problemów, ale odpowiedzią zawsze jest Jezus. Jeśli masz wątpliwości, jeśli jesteś smutny, odpowiedzią jest: „Zaufaj Jezusowi.” Jeśli twoje życie jest pełne upadków, jeśli potykasz się – przyjdź do Jezusa. Jeśli jesteś chory, czy to cieleśnie, czy duchowo – również przyjdź do Jezusa. On jest zawsze odpowiedzią na każde nasze pytanie.\n\nJezus Chrystus jest postacią absolutnie niesamowitą, wyróżniającą wiarę chrześcijańską spośród wszystkich innych wiar. Niektórzy w ramach daleko idącego ekumenizmu mówią, że wszyscy wierzą w tego samego Boga, nawet że Islam to ten sam Bóg. Nie, to nie jest ten sam Bóg, ponieważ moim Panem jest Jezus Chrystus, a inni uważają Go za jednego z proroków, mówią, że nie umarł, tylko udawał, że umarł, że nie zmartwychwstał. Według mnie, gdyby Jezus nie umarł i nie zmartwychwstał, całe moje życie od dzieciństwa byłoby bez sensu, a nasze spotkania tutaj – również. Jeśli Jezus nie jest tym, kim powiedział, że jest, to... cóż, możemy iść na herbatę – szkoda czasu na takie rozważania.\n\nOn jednak prawdziwie jest tym, kim powiedział, że jest, i dalece więcej, bo nie możemy do końca pojąć, kim On jest. Chwała Jezusowi za to!\n\nPowtórzę więc raz jeszcze: mówiliśmy o Chrystusie i o Jego objawieniu w Starym Testamencie na trzy różne sposoby. Pierwszy to proroctwa – omawialiśmy ich bardzo wiele, zwłaszcza w psalmach i w księdze Izajasza, które w zasadzie są Ewangelią. Drugi sposób to jego osobista obecność. Chrystus objawił się Mojżeszowi, jak to brzmi tytuł pewnej książki: „Kto jadł obiad z Abrahamem?” To Chrystus był Skałą towarzyszącą Izraelitom podczas wędrówki przez pustynię – Duchową Skałą. Był też wodzem wojska Izraela, a dziś omówimy Jego militarne funkcje. Objawił się również Jozuemu.\n\nTrzeci sposób to typy Chrystusa: postacie i rzeczy wskazujące na Jezusa Chrystusa, jak baranek paschalny, Dawid, Mojżesz – osoby przewyraźnie naznaczone cechami i atrybutami Chrystusa. Dzisiaj, omawiając proroków od Jeremiasza do Malachiasza, zobaczymy ten schemat na sam koniec.\n\nChciałbym zwrócić uwagę na szczególne imię naszego Pana – „Pan Sprawiedliwością Naszą”, które pojawia się właśnie w tej części prorockiej. To nie jest po prostu kolejne imię. Imiona Boga mają znaczenie: z każdego imienia Boga wypływają atrybuty i prawdy. Kiedy Bóg objawia się imieniem, wynika z tego coś ważnego, innego niż gdy ja mówię, że mam na imię Kuba.\n\nGłówne imię Boże to Jahwe, czyli „Jestem, który Jestem”. To pokazuje, że Bóg przede wszystkim jest – że naprawdę istnieje. To znak samowystarczalności i niezmienności Boga. To imię było objawione Izraelitom w czasie ich niewoli egipskiej – właśnie wtedy, kiedy przeżywali ciężkie chwile.\n\nCzy w twoim życiu Bóg objawił się imieniem „Jestem”? Mi się to zdarzyło nieraz. To imię ma w sobie niezwykłą moc i pocieszenie.\n\nMamy też imię Boga mówiące, że jest Uzdrawiającym, i wiele innych imion niosących różne przesłania. Ale „Pan Sprawiedliwością Naszą” mówi o tym, że Pan jest naszą sprawiedliwością, ponieważ my sami nią nie jesteśmy. To kluczowa prawda: ani ja, ani ty nie jesteśmy sprawiedliwi sami z siebie. Ale korzystamy z błogosławieństwa, które Bóg dał Abrahamowi – Abraham uwierzył i zostało mu to przypisane za sprawiedliwość.\n\nW teologii to przedmiot sporu między protestantyzmem a katolicyzmem: czy sprawiedliwość jest nam przypisana, czy udzielona. Protestanci mówią o przypisaniu, katolicy o udzieleniu – to subtelna, ale ważna różnica.\n\nTeraz o proroku Ezechielu – jego księga jest trudna i ma ciężki gatunkowo charakter, ale też zawiera piękne Boże obietnice i proroctwa mesjańskie. Na przykład w 17 rozdziale (22-24) jest obraz różdżki, która wyrastając z wysokiego cedru, stanie się potężnym drzewem, pod którym zamieszkają wszystkie ptactwa. Wielu interpretuje tę różdżkę jako Jezusa Chrystusa.\n\nW 34 rozdziale (23-24) Bóg mówi: „Ustanowię jednego pasterza, mojego sługę Dawida... Ja Pan będę ich Bogiem, a Dawid będzie księciem wśród nich.” Pan Jezus nazywa siebie Dobrym Pasterzem - to potwierdzenie prorocze.\n\nW Nowym Testamencie uczniowie znali Pismo i mogli rozpoznać te odniesienia.\n\nTeraz o księdze Daniela. Znajdujemy tam niezwykłe objawienie. W 10 rozdziale, wersetach 1-10, Daniel opisuje wizję męża ubranego w szatę lnianą, którego ciało jest jak topaz, a oblicze jaśnieje jak błyskawica. Dźwięk jego głosu przypomina wrzawę wielkiego tłumu.\n\nTo objawienie przypomina opis Chrystusa uwielbionego, który ukazał się Janowi na wyspie Patmos. W Biblii taki sposób objawiania się Jezusa sprzed Jego narodzin nazywamy preegzystencją Chrystusa. W wizji Daniel otrzymał zrozumienie dalszych czasów ostatecznych, choć sam nie wszystko rozumiał.\n\nNa koniec rozmowy z Jezusem, Daniel mówi: „Widziłem to, lecz nie rozumiałem”. Pan odpowiada: „Idź, Danielu, słowa są zamknięte i zapieczętowane aż do czasu ostatecznego.” Wielu będzie oczyszczonych, lecz bezbożni będą trwać w bezbożności. Roztropni będą mieli poznanie. Chwała Bogu, że my to poznanie mamy właśnie w Chrystusie!\n\nPrzejdźmy do proroków mniejszych. W Księdze Ozeasza, rozdziale 3 (wersety 4-5): Izrael na dłuższy czas będzie bez króla, księcia, ofiary, posągu, efodu i terafów. Potem się nawrócą i znów będą szukać Pana i Dawida – swojego króla.\n\nTo proroctwo ciągnie się przez 2000 lat i obecnie obserwujemy jego wypełnienie i oczekujemy kolejnej fazy, gdy Izrael powróci do Boga.\n\nW 11 rozdziale, 1 wersecie, Ozeasz mówi: „Gdy Izrael był młody, pokochałem go i z Egiptu powołałem mojego syna.” Izrael jest tu typem Chrystusa, co pokazuje, że życie Jezusa jest wypełnieniem Bożych słów dotyczących Izraela.\n\nW Księdze Micheasza, rozdziale 5, werset 2 (chciałem to poprawić) – mówi o szczególe przyjścia króla: „Wykrzykuj, córko jerozolimska: oto przychodzi twój król, sprawiedliwy i zwycięski, łagodny, jeżdżący na ośle, na źrebięciu oślicy.” To kolejny szczegół z życia Jezusa.\n\nZ kolei w Zachariaszu, rozdział 11 (12 werset), prorok mówi, że ludzie zapłacili za niego trzydzieści srebrników – echo zdrady Judasza.\n\nRozdział 12, werset 10 mówi: „Wyleję ducha łaski i błagania, wtedy spojrzą na tego, którego przebodli, i będą go opłakiwać, jak opłakuje się jedynaka.” To zapowiedź przyszłego żalu Izraela i narodów.\n\nW 13 rozdziale, 7 wersecie czytamy: „Ocknij się, mieczu, przeciwko mojemu pasterzowi, uderz pasterza, a owce się rozproszą.” Ewangeliści odnieśli to do wydarzeń w ogrodzie Getsemane, kiedy uczniowie rozproszyli się po pojmaniu Jezusa.\n\nI na koniec, zanim prorocy i Duch Boży zamilkli na około 400 lat, mamy księgę Malachiasza.\n\nW rozdziale 3, wers 1, Bóg mówi: „Oto ja posyłam mojego anioła, aby przygotował drogę przede mną. Potem przyjdzie do świątyni swojej Pan, którego oczekujecie.” To zapowiedź przyjścia Chrystusa, Anioła Przymierza.\n\nBóg pyta: „Kto znieść może dzień jego przyjścia i kto się ostoi, gdy się ukaże?” On jest jak ogień oczyszczający, który przetopuje synów Lewiego, sprawi, że będą składali ofiary sprawiedliwości.\n\nJa często czytając ten werset, myślę o Ewangelii Mateusza, kiedy Jezus usiadł i zaczął nauczać. On jest tym, który przetapia wybranych z Izraela.\n\nWielu się nie ostało, więc Pan ostrzegał: kto będzie mógł znieść dzień jego przyjścia?\n\nTen fragment potwierdza także słowa Symeona ze świątyni, który mówił, że przez Jezusa „wielu upadnie w Izraelu”.\n\nNa osobną wzmiankę zasługuje Jan Chrzciciel – ostatni prorok Starego Testamentu, który zapowiadał Chrystusa. Jezus powiedział o nim, że był największym prorokiem.\n\nI warto zauważyć, że największym cudem Jana było wskazywanie na Chrystusa. Nie ma większego cudu niż prowadzenie kogoś do poznania i podążania za Jezusem.\n\nKończąc, ostatni werset Starego Testamentu – Malachiasza 3, 20 – mówi: „Dla was, którzy boicie się imienia mojego, wzejdzie słońce sprawiedliwości z uzdrowieniem na swoich skrzydłach, a wy będziecie wychodzić z podskakiwaniem, jak cielęta z obory.”\n\nKto jest tym słońcem sprawiedliwości? To Jezus Chrystus! Wy, którzy boicie się imienia Jego, otrzymacie uzdrowienie i radość.\n\nMój dziadek, który był wierzącym człowiekiem, na swoim grobie kazał napisać słowa: „Pan będzie moim wiecznym światłem.”\n\nChwała Panu za to!\n\nAmen."
+  },
+  "cover": "/images/covers/0Kt16yXAhjs.webp"
+}

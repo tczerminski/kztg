@@ -1,0 +1,97 @@
+{
+  "date": "2025-02-10",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/aNiMS76YXsA/aNiMS76YXsA.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Nikolaici dawniej i współcześnie cz. 7",
+  "summary": "Analiza terminu „nikolaici” wyjaśnia jego etymologię oraz duchowe zagrożenia, jakie niesie dla Kościoła. Kazanie odnosi się do fragmentów Listu do Galacjan i Objawienia św. Jana, które ukazują próbę zawładnięcia Kościołem przez fałszywe nauki i duch Izebel, prowadzące do duchowej niewoli grzechu mimo pozoru wolności w Chrystusie. Autor podkreśla trwałość tych zagrożeń od czasów pierwotnego Kościoła aż po współczesność.",
+  "duration": 4083,
+  "translations": {
+    "en": {
+      "title": "The Nicolaitans Then and Now, Part 7",
+      "summary": "Does the spirit of the Nicolaitans still try to seize power in the Church? This sermon reveals contemporary spiritual dangers that, although hidden under various names, continue to exist. Reflecting on manipulation, false teaching, and the battle for biblical truth, it reminds us of the importance of standing firm in the freedom offered by Christ. This enlightening message helps identify spiritual traps and strengthens faith."
+    },
+    "uk": {
+      "title": "Ніколаїти колишні та сучасні, частина 7",
+      "summary": "Чи дух ніколаітів і досі намагається захопити владу в Церкві? Проповідь відкриває сучасні духовні загрози, які, хоч і приховані під різними назвами, усе ще існують. Роздуми про маніпуляції, хибне вчення та боротьбу за біблійну правду нагадують, наскільки важливо зберігати свободу, даровану Христом. Це повчальне послання допомагає розпізнати духовні пастки та міцно укріпити віру."
+    },
+    "ta": {
+      "title": "நிகோலைசீயர்கள்: கடந்த காலமும் நவீனமும் பகுதி 7",
+      "summary": "நிகோலைசீயர்களின் ஆவி தற்போது கூட தேவாலயத்தில் அதிகாரத்தை கைப்பற்ற முயல்கிறதா? இந்த ஊர்வலம், பல்வேறு பெயர்களால் மறைக்கப்பட்டாலும், இன்று உருவாகும் ஆன்மீக அச்சுறுத்தல்களை வெளிப்படுத்துகிறது. பொய்வழிப்பாடு, தவறான போதனை மற்றும் பைபிள் உண்மைக்கான போராட்டத்தின் மீது விரிவான சிந்தனை, கிறிஸ்துவால் வழங்கப்படும் சுதந்திரத்தில் ஒருங்கிணைந்து இருத்தலின் முக்கியத்துவத்தை நினைவுபடுத்துகிறது. இதுவே ஆன்மீக வாபகங்களை அிக்காமைக்கும் மற்றும் நம்பிக்கையை வலுப்படுத்தவும் உதவும் ஒரு பயனுள்ள செய்தி."
+    },
+    "de": {
+      "title": "Die Nikolaïter damals und heute, Teil 7",
+      "summary": "Versucht der Geist der Nikolaïter immer noch, Macht in der Kirche zu übernehmen? Diese Predigt deckt zeitgenössische geistliche Gefahren auf, die sich zwar unter verschiedenen Namen verbergen, aber nach wie vor existieren. Eine Reflexion über Manipulation, falsche Lehren und den Kampf um biblische Wahrheit erinnert daran, wie wichtig es ist, in der Freiheit zu bleiben, die Christus schenkt. Diese lehrreiche Botschaft hilft, geistliche Fallen zu erkennen und den Glauben zu stärken."
+    },
+    "es": {
+      "title": "Los Nicolaítas antes y ahora, parte 7",
+      "summary": "¿Sigue el espíritu de los Nicolaítas intentando tomar el control en la Iglesia? Este sermón revela las amenazas espirituales actuales que, aunque ocultas bajo diferentes nombres, persisten. Una reflexión sobre la manipulación, la falsa enseñanza y la lucha por la verdad bíblica que recuerda la importancia de permanecer en la libertad que Cristo nos ofrece. Un mensaje enriquecedor que ayuda a identificar trampas espirituales y a fortalecer la fe."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Ga 2",
+      "Ga 5",
+      "Hbr",
+      "Ap 2",
+      "Flp 2",
+      "2 Kor 6",
+      "Ef 5",
+      "1 Kor 13"
+    ],
+    "en": [
+      "Gal 2",
+      "Gal 5",
+      "Heb",
+      "Rev 2",
+      "Phil 2",
+      "2 Cor 6",
+      "Eph 5",
+      "1 Cor 13"
+    ],
+    "uk": [
+      "Гал 2",
+      "Гал 5",
+      "Євр",
+      "Од 2",
+      "Флп 2",
+      "2 Кор 6",
+      "Еф 5",
+      "1 Кор 13"
+    ],
+    "ta": [
+      "கலா 2",
+      "கலா 5",
+      "யூபிரோசர்",
+      "பரிசுத்தவாக்கியம் 2",
+      "பிலி 2",
+      "2 கொரி 6",
+      "எபேசி 5",
+      "1 கொரி 13"
+    ],
+    "de": [
+      "Gal 2",
+      "Gal 5",
+      "Hebr",
+      "Offb 2",
+      "Phil 2",
+      "2 Kor 6",
+      "Eph 5",
+      "1 Kor 13"
+    ],
+    "es": [
+      "Gál 2",
+      "Gál 5",
+      "Heb",
+      "Apoc 2",
+      "Flp 2",
+      "2 Cor 6",
+      "Ef 5",
+      "1 Cor 13"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was wszystkich w imieniu Pana naszego Jezusa Chrystusa, również tych wszystkich, którzy oglądają nas przez internet online. Dzisiaj będziemy dalej kontynuować temat nikolaiców. Rozpoczęliśmy już od ubiegłego tygodnia dokładną analizę tego wyrazu i dziś będziemy ją kontynuować, więc nie będę powtarzał, co już czytaliśmy.\n\nNikolaici — jeszcze tylko tak, z woli przypomnienia: „nikolaitanos” pochodzi od słów „laos” — laików, lud, nad którym trzeba panować, oraz „niko” — ci, którzy panują, czyli książęta. To zależy od etymologii tego wyrazu, ale rozpracowaliśmy ten pień i mówiliśmy również o formie żeńskiej i męskiej. „Niko” i „nikos” oznaczają panowanie, władzę, kontrolę — i na tym skończyliśmy. Już też nie będziemy do tego wracać, bo bardzo obszernie omówiliśmy wzór, jaki Pan Jezus w Słowie Bożym pozostawił nam, bo wiemy, że również i w Starym Testamencie, gdy Bóg zwracał się do Mojżesza, kazał mu, aby wszystko dokładnie wykonał według wzoru.\n\nA więc jeśli Pan Jezus skonstruował tutaj przekaz, jak powinno funkcjonować ciało Jezusa Chrystusa — On jest zresztą głową ciała Kościoła, jak to kolwiek nazwiemy — to dzisiaj chciałbym dalej kontynuować właśnie ten temat dotyczący nikolaiców, ponieważ wielu znawców Słowa Bożego uważa, że temat ten wygasł już w pierwszym kościele. Twierdzą, że Pan Jezus piętnował to do momentu, kiedy część badaczy, historyków Słowa Bożego uważa, że powstała sekta w pierwotnym Kościele od Mikołaja — o nim dzisiaj będziemy mówić — cechowała się pewnymi charakterystycznymi zasadami duchowymi. Ta sekta zanikła i w tej chwili już nie istnieje.\n\nJa chciałbym się z tym nie zgodzić, ponieważ, jak wiemy, wszelkiego rodzaju odszczepieństwa, gnozy, które były w pierwotnym Kościele, one do dziś mają odzwierciedlenia pod innymi nazwami. Natomiast wiemy dobrze, że duchy, które stoją za tym, one się nie zmieniają; zmieniają tylko nazwy, aby nie podpaść. W pewnym momencie zaczęliśmy opowiadać i dzielić się tym, co jest cechami tych duchów, które stoją za całym działaniem nikolaiców — które, jak powiedzieliśmy na pierwszym wykładzie, Pan Jezus wypunktował w trzech cechach. Jeszcze tylko to wspomnę: uczynkowość, nauka oraz duch Izebel.\n\nTen duch jest odzwierciedleniem tego, że poprzez naukę i proroctwa, tak jak widzimy, co zrobiła królowa Izebel — ona wzięła winnicę Nabota podstępnie, poprzez fałszywe oskarżenie, zdobyła dla swojego męża, który jej zapragnął, chociaż mógł mieć wiele innych rzeczy. Wiemy, że właśnie ta winnica Nabota jest symbolem również Kościoła. I ten symbol przewija się przez Nowy Testament w narracji Pana Jezusa, który przyrównuje to do winnicy, do krzewu winnego, przyrównuje niektóre przypowieści do winnogródnika, do krzewu winnego — a my jesteśmy winoroślą prawdziwą.\n\nZresztą to nie jest teraz czas, aby to tłumaczyć, ale chciałbym powiedzieć, że będziemy rozmawiać w trzech kierunkach. Nikolaici mają cechę, aby zawładnąć Kościołem Pana naszego Jezusa Chrystusa — czyli winnicą — i w zamian za głowę, którą jest Jezus, wstawić swoją własną głowę. Do tego będziemy jeszcze wracać, może nie dziś. Później będziemy mówić — pewnie zdążymy — o Szymonie czarowniku, czyli o symonii. Będziemy też mówić o Mikołaju, który, tak jak w pierwotnym Kościele, to zjawisko duchowe występowało, ale ma się bardzo dobrze i na koniec czasów wręcz eksplodowało i rozwija się bardzo szybko.\n\nChciałbym tę myśl rozpocząć od tego, że nikolaici — ten „nikos” oznacza panowanie, władzę i kontrolę. To są ich cechy: panowanie, władza, kontrola. Teraz, jeśli byśmy otworzyli List do Galacjan — nie pamiętam już, czy czytaliśmy wcześniej, ale to nieistotne — zaczniemy właśnie od niego. Drugi rozdział Listu do Galacjan, od 4. do 5. wersetu:\n\n„Nie bacząc na fałszywych braci, którzy po kryjomu zostali wprowadzeni i potajemnie weszli, aby wyszpiegować naszą wolność, którą mamy w Chrystusie, i uczynić nas znowu niewolnikami.”\n\nWidzimy więc, że kontrola jest cechą nikolaiców i Paweł mówi tutaj, że zostali potajemnie wprowadzeni — potajemnie weszli. Wyobraźmy sobie teraz ciało Jezus Chrystusa, gdzie wszyscy wielbią Pana, i nagle ktoś, jakiś tajemniczy facet, po cichu wchodzi i wprowadza pewne zasady. Kojarzę to z siłami ciemności, których nie widzimy, a które przebiegle wprowadzają swoje schematy. Zaraz o tym będziemy jeszcze czytać.\n\nSłowo Boże mówi, że oni są fałszywi, aby nas na nowo podbić w niewolę — w jaką niewolę? Na pewno nie po to, aby uczynić z nas niewolników pracujących na nich — choć też się to zdarza — ale podbić nas w niewolę grzechu.\n\nZnamy tę metodę, którą tu Bóg nam objawia, a Paweł wspomina, że on nigdy nie ustępował ani na chwilę. Mamy świadomość kompromisów, które doprowadziły do upadku wiele zborów, duchowego upadku.\n\nSłyszymy czasem, że nie ma miłości, że nic się nie dzieje — a tymczasem, kiedy ktoś walczy o prawdę Ewangelii, często spotyka się z oskarżeniami, które są nie z Boga, bo Bóg wie, że nie ma ani jednego sprawiedliwego. Bóg cieszy się jednak, gdy każdy człowiek, bez względu na staż wiary, rozwija się duchowo — w kierunku postawy, o której mówiliśmy ostatnio.\n\nDlatego w Liście do Hebrajczyków jest powiedziane, że rozróżnić można dobro i zło przez długotrwałe stosowanie nauki o sprawiedliwości. Wielu ludzi myśli, że przez rozpoznawanie dobra i zła szybko można osądzać innych, ale chodzi tu przede wszystkim o nasze wnętrze — o to, byśmy sami potrafili rozeznawać, co się Bogu podoba, a co nie.\n\nW Liście do Galacjan, rozdział 5, werset 1, jest powiedziane:\n\n„Chrystus nas wyzwolił, abyśmy w tej wolności żyli. Stójcie więc niezachwianie i nie poddawajcie się znowu pod jarzmo niewoli.”\n\nPodkreślę jeszcze raz: jeśli nie byłoby mówienia o miłości, jaką podkreśla Słowo Boże, i jeśli nie byłoby akceptacji swoich słabości, to jarzmo niewoli nie powinno być obecne w Kościele. A Słowo Boże jest ponadczasowe; nawet ci, którzy czytali je w wiekach średnich, mogli myśleć także o niewolnictwie fizycznym. Jednak Słowo Boże całe odnosi się do dzieła Jezusa na krzyżu, który uwolnił nas od grzechu. Amen.\n\nJarzmo niewoli jest uwalniającym posłuszeństwem Słowu Bożemu oraz krwi Jezusa, co jest wyraźnie powiedziane. Oni, którzy zwyciężyli, uczynili to poprzez świadectwo Słowa i krew Jezusa — to jest uwolnienie od jarzma niewoli.\n\nDzisiaj niektórzy głoszą miłość fałszywą, która nie uwalnia od jarzma, a jedynie daje fałszywe uspokojenie, akceptując grzech. Bardzo mocno to podkreślam, ponieważ rozumiem, czym jest prawdziwa miłość — i nie zaprzeczam, że powinna ona występować w ciele Chrystusa, lecz ona ma określone cechy, opisane w 13. rozdziale Pierwszego Listu do Koryntian.\n\nCzęsto słyszę, że w Kościele brakuje miłości, ale gdyby skonfrontować tę wypowiedź z tekstem biblijnym, zobaczylibyśmy, że trzeba funkcjonować w miłości opisanej przez Pawła. Biblia mówi o oskarżycielu braci i podkreśla, że Chrystus nas wyzwolił. Brak miłości to grzech.\n\nWidząc teksty z pierwszych wieków Kościoła, wiemy, że wielu było niewolników. Gdyby rzeczywiście Kościół głosił fizyczne wyzwolenie tak, jak to niektóre grupy dzisiaj interpretuje, to mielibyśmy powstanie niewolników, jak Spartakus, co w historii nie miało miejsca. Jarzmo niewoli dotyczy niewolnictwa duchowego, a nie fizycznego.\n\nPaweł — jak czytaliśmy — nie ustępował ani na chwilę, gdy chodziło o zachowanie prawdy o niewolności od grzechu. Objawienie Jana też mówi w tym temacie. Otwórzmy sobie dla przypomnienia Objawienie Jana, drugi rozdział, 14. werset:\n\n„Lecz mam ci nieco za złe, mianowicie to, że są tam tacy, którzy trzymają się nauki Bileama, który nauczał Balaka, jak uwodzić synów izraelskich, by spożywali rzeczy bałwanom ofiarowane i uprawiali nierząd.”\n\nPaweł w Galacjanach mówi, że on nie pozwala na to, a mimo to są tacy, którzy trzymają się tej nauki.\n\nMógłbym parafrazować: tytuły biskupów z czasów Kościoła rozwijano do arcybiskupów, a potem kardynałów. Nawet dziś w niektórych wyznaniach ewangelicznych używa się tytułu księdza — co jest chlubą — a pochodzi od „księcia”. Natomiast chcę podkreślić zasadę równości: tak, jest pasterz, ale Kościół nie powinien dzielić się na duchownych i laików.\n\nNajwiększym tytułem, którym Bóg nas obdarował, jest tytuł brata lub siostry — to są więzy krwi w Jezusie Chrystusie. Inne tytuły, uzyskiwane czy to przez edukację, czy inne szczeble hierarchii, mogą w zasadzie prowadzić do pychy i dzielenia Kościoła, czego Pan Jezus nie zamierzał.\n\nW liście do Filipian, rozdział 2, wersety 2–3, czytamy:\n\n„Dopełnijcie radości mojej i bądźcie jednej myśli, mając tę samą miłość, zgodni, ożywieni jednomyślnością. Nie czyńcie nic z kłótliwości ani przez wzgląd na próżną chwałę.”\n\nWidzimy więc, że Bóg przedstawia zupełnie inną myśl: jednomyślność i miłość mają zachować jedność Kościoła i prawdy Ewangelii.\n\nKsięża czy biskupi, którzy przyjmują wysokie tytuły, często bywają nękani przez próżną chwałę. Paweł mówił, że pilnuje się, by nie stać się przedmiotem tego zjawiska.\n\nSłowo Boże poucza nas, abyśmy w pokorze uważali jedni drugich za wyższych od siebie. Nie ma powodu, by się chlubić tytułami, jeśli otrzymaliśmy wszystko od Boga.\n\nIdąc dalej, przejrzeliśmy też kierunki nauki nikolaiców. Po kolei przyjrzymy się im, ale na dziś skupimy się na pierwszych dwóch.\n\nPierwszą tezą sekty Mikołaja było to, że chrześcijanie nie powinni się separować od społeczności pogańskich. Czy my tego dziś nie słyszymy? Neopogaństwo duchowe często jest dziś ukryte pod biblijnymi hasłami i trudno je rozpoznać. Duch Święty przekonuje nas jednak o prawdzie Ewangelii — nie wiedza ani uczoność jest najważniejsza, lecz posłuszeństwo Duchowi.\n\nTrzeba rozróżnić Areopag od świątyni — na Areopagu możemy się spotykać z różnymi ludźmi, ale nie powinniśmy uczestniczyć w pogańskich kultach czy bałwochwalstwie.\n\nW Liście do Drugich Koryntian, rozdział 6, werset 14 i 16, czytamy:\n\n„Nie chodźcie w obcym jarzmie z niewiernymi. Bo co ma wspólnego sprawiedliwość z nieprawością? A jaka społeczność między światłością a ciemnością?”\n\nWidzimy więc jasno, że pogaństwo i bałwochwalstwo jest ciemnością, a Kościół ma iść w światłości przez posłuszeństwo Jezusowi, który jest objawiony w Pięcioksięgu, Prorokach, Psalmach i w Duchu Świętym — nie przez sparafrazowaną wersję.\n\nDruga teza tej sekty mówiła, że można zachowywać pogańskie zwyczaje. Czy dziś to nie jest także problem? Ile razy się potykamy o takie sprawy, jak choinka czy inne zwyczaje? Słowo Boże uczy nas walki duchowej z bałwochwalstwem.\n\nBałwochwalstwo nie jest nigdy nieszkodliwe; to deprawacja wyobrażenia Boga w naszym umyśle. Bóg nienawidzi pewnych rzeczy i nie powinniśmy ryzykować, traktując je jako nieszkodliwe ozdoby.\n\nW Liście do Efezjan, rozdział 5, od 6. wersetu, czytamy:\n\n„Niechaj was nikt nie zwodzi próżnymi słowami. Z powodu nich bowiem na nieposłusznych synów spada gniew Boży. Nie bądźcie wspólnikami ich.”\n\nWidzimy więc, że nie powinniśmy nawet uczestniczyć w działaniach tych, którzy dają się zwieźć fałszywym naukom.\n\nTen ekumenizm nikolaicki, który dziś się dobrze ma, zachęca do jedności przy różnicach, ale to jest rodzaj próżnej chwały i zwiedzenia.\n\nWiem, że niektórzy ludzie mówią nam to z pobudek humanitarnych czy humanistycznych, ale musimy skonfrontować to ze Słowem Bożym i uczyć się, że nie ma miejsca na kompromisy z grzechem.\n\nPan Jezus był posłuszny aż do śmierci, a my mamy stać się dziećmi światłości — nie należy chodzić w ciemności i uczestniczyć w niej.\n\nNiech nas Pan Bóg błogosławi i pomoże utrzymać się w wierze i prawdzie Ewangelii. Amen."
+  },
+  "cover": "/images/covers/aNiMS76YXsA.webp"
+}

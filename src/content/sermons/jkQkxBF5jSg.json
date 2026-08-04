@@ -1,0 +1,97 @@
+{
+  "date": "2023-12-03",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/jkQkxBF5jSg/jkQkxBF5jSg.opus",
+  "preacher": "Andreas Stutz",
+  "title": "Bóg wie i jeszcze więcej",
+  "summary": "Boża wszechwiedza jest tematem kazania opierającego się na Liście do Rzymian 11:33-36, gdzie podkreślone są niezbadane wyroki i mądrość Boga. Autor ukazuje, że Bóg zna przeszłość, teraźniejszość i przyszłość oraz utrzymuje szczególną, osobistą relację z wybranymi, cytując 2 Tymoteusza 2:19. Proroctwa mesjańskie ze Starego Testamentu służą jako dowód Bożej wiedzy, a przesłanie zachęca do głębszego zaufania i oddania.",
+  "duration": 3640,
+  "translations": {
+    "en": {
+      "title": "God Knows Me Even More",
+      "summary": "God knows every detail of the world's story, but above all, He knows you personally—this is the central message of this sermon. His omniscience spans the past, present, and future, with prophecies confirming this truth. The message reveals both God's greatness and His closeness, offering comfort as well as a call to gratitude. Discover the relationship where God not only knows but truly cares for each one of us."
+    },
+    "uk": {
+      "title": "Бог знає і ще більше",
+      "summary": "Бог знає кожну деталь історії світу, але насамперед знає тебе особисто – це провідна думка цієї проповіді. Його всезнання охоплює минуле, теперішнє та майбутнє, а пророцтва підтверджують цю істину. Послання показує як Божу велич, так і Його близькість, пропонуючи втіху та заклик до вдячності. Відкрий для себе стосунки, в яких Бог не лише знає, а справді піклується про кожного з нас."
+    },
+    "ta": {
+      "title": "கடவுள் எனக்கு மட்டும் இல்லாமல் இன்னும் அதிகமாக அறிவார்",
+      "summary": "கடவுள் உலகின் எல்லா பிரிவுகளையும் அறிந்தவர், ஆனால் முக்கியமாக, நம்மை தனிப்பட்ட முறையில் அறிவவர் – இதுவே இந்த பிரசங்கத்தின் முக்கிய கருத்து. அவர் அனைத்தையும் அறிந்தவன்; கடந்த காலம், தற்போதைய காலம் மற்றும் எதிர்காலம் அனைத்தும் உன்னுடைய வாழ்க்கையில் தெரிவிக்கின்றன. தனது அறிவின் மூலம் முன்னறிவிப்புகள் இந்நூலை உறுதிப்படுத்துகின்றன. கடவுளின் பெருமையும் அக்கறையும், அதனால் உருக்கொண்டு நம்பிக்கை மற்றும் நன்றியுணர்வை வழங்கும் இந்த செய்தி, நாம் ஒன்றாக இருக்க வேண்டும் என்பதற்கான அழைப்பாகும். கடவுள் எட்டுப் பக்கமும் கவனிக்கிறார், ஒருவேளை உனக்கே கூட விருப்பமிருந்து உனைப் பாதுகாத்து, காண்கிறார்."
+    },
+    "de": {
+      "title": "Gott weiß und noch viel mehr",
+      "summary": "Gott kennt jedes Detail der Weltgeschichte, aber vor allem kennt er dich persönlich – das ist die zentrale Botschaft dieser Predigt. Sein Allwissen umfasst Vergangenheit, Gegenwart und Zukunft, und die Prophezeiungen bestätigen diese Wahrheit. Die Botschaft zeigt sowohl Gottes Größe als auch seine Nähe auf, bietet Trost und ruft zu Dankbarkeit auf. Entdecke eine Beziehung, in der Gott nicht nur weiß, sondern sich wirklich um jeden von uns sorgt."
+    },
+    "es": {
+      "title": "Dios sabe aún más",
+      "summary": "Dios conoce cada detalle de la historia del mundo, pero sobre todo te conoce a ti personalmente; esa es la idea central de este sermón. Su omnisciencia abarca el pasado, el presente y el futuro, y las profecías confirman esta verdad. El mensaje muestra tanto la grandeza como la cercanía de Dios, ofreciendo consuelo y un llamado a la gratitud. Descubre una relación en la que Dios no solo sabe, sino que realmente se preocupa por cada uno de nosotros."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rz 11",
+      "Mch 5",
+      "Za 12",
+      "Ps 22",
+      "Mt 24",
+      "2 Tm 2",
+      "Rdz 4",
+      "J 10"
+    ],
+    "en": [
+      "Rom 11",
+      "Mic 5",
+      "Zech 12",
+      "Ps 22",
+      "Matt 24",
+      "2 Tim 2",
+      "Gen 4",
+      "John 10"
+    ],
+    "uk": [
+      "Рим 11",
+      "Мх 5",
+      "Зах 12",
+      "Пс 22",
+      "Мт 24",
+      "2 Тим 2",
+      "Бут 4",
+      "Ів 10"
+    ],
+    "ta": [
+      "ரோமர் 11",
+      "மீகா 5",
+      "சக்கரியா 12",
+      "சங்கீதம் 22",
+      "மத்தேயு 24",
+      "2 திமோத்தேயு 2",
+      "ஆதியாகமம் 4",
+      "யோவான் 10"
+    ],
+    "de": [
+      "Röm 11",
+      "Mich 5",
+      "Sach 12",
+      "Ps 22",
+      "Matt 24",
+      "2 Tim 2",
+      "Gen 4",
+      "Joh 10"
+    ],
+    "es": [
+      "Rom 11",
+      "Miq 5",
+      "Zac 12",
+      "Sal 22",
+      "Mat 24",
+      "2 Tim 2",
+      "Gén 4",
+      "Juan 10"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam Was wszystkich, bracia i siostry, w imię naszego Pana Jezusa Chrystusa. Cieszę się, że jestem dzisiaj tutaj i mam możliwość głosić słowo Boże. Modlę się, aby Bóg prowadził. Wiecie, kiedy się modliłem, to ta modlitwa była bardzo z serca. Mój Amen był ze serca.\n\nJak wiecie, zwykle wolę wygłaszać wykładowe kazania. Jak już zauważyliście, wolę kazania, które są wykładem fragmentu Słowa Bożego. Tam wybieram sobie jakiś tekst i na nim się koncentruję. Polega to na tym, że wykładam pewien fragment i skupiam się właśnie na nim. Ale dzisiaj będzie wyjątek. Mam dzisiaj temat, a temat brzmi: „Bóg wie i jeszcze więcej”. To jest temat. I zanim zacznę samą kazanie, chciałbym jeszcze coś powiedzieć.\n\nTo kazanie było dla mnie przygotowaniem związanym z kilkoma niespodziankami. Zaczynałem i chciałem po prostu mówić o wszechwiedzy Boga. Ale potem zostałem poprowadzony do następnego punktu, a potem jeszcze do kolejnego. I teraz ktoś może powiedzieć: „Aha, o tym będzie mówił, jak dojdzie do trzeciego punktu”. Ten punkt miałem zaplanowany. Ale nie jest tak, że ja od początku to wszystko zaplanowałem. Ja zaplanowałem mówić tylko o pierwszym punkcie – że Bóg wie. A może Słowo Boże także Was zaskoczy, tak jak i mnie zaskoczyło. Nie chodzi o rzeczy, których nie wiedzieliście, bo one są jasno napisane w Słowie Bożym, ale być może po prostu jeszcze z taką siłą do naszej świadomości to dotrze.\n\nW swoim Słowie Bóg uczy nas, że jest wszechmocny, wszechobecny i wszechwiedzący. To są trzy specjalne cechy, które często przypisujemy Bogu. Każda z tych cech może dotyczyć tylko Boga. Nikt poza Nim nie jest wszechmocny, nikt nie jest wszechobecny ani wszechwiedzący. Skupimy się teraz na tej ostatniej – na wszechwiedzy Boga. To, że Bóg wszystko wie, jest stwierdzeniem ogólnym, ale jednocześnie absolutnym. Dotyczy to przeszłości, teraźniejszości i przyszłości; świata widzialnego i niewidzialnego; dobra i zła. Bóg wie wszystko – całkowicie, w pełni i doskonale.\n\nOznacza to, że On niczego się nie musi uczyć i niczego nie zapomina. Ta wszechwiedza objawia Bożą wielkość i jego chwałę. Dlatego też Kościół Boży nie tylko wierzy w tę prawdę, ale ją głosi, podziwia i świętuje.\n\nNa początek przeczytajmy sobie List do Rzymian, rozdział 11, wersety od 33 do 36:\n\n„O głębokości bogactwa i mądrości i poznania Boga! Jakże niezbadane są wyroki Jego i niewyśledzone drogi Jego! Bo któż poznał myśl Pana lub kto był Jemu radcą? Albo kto Mu pierw dał, aby mu się odpłacić? Albowiem z Niego i przez Niego i ku Niemu jest wszystko. Jemu niech będzie chwała na wieki. Amen.”\n\nBoża wiedza jest doskonała, bez braków. Nie musimy długo zastanawiać się, dlaczego i w jaki sposób Bóg wszystko wie – jest wszechobecny, więc widzi wszystko. Ale gdyby to był jedyny powód, to byłby tylko biernym świadkiem, obserwatorem. Tymczasem Bóg jest aktywny, On jest Panem, nie jest obojętny. Bóg wie wszystko, bo w ramach swojego świętego i doskonałego planu na to pozwolił i to określił.\n\nUwierzcie mi, nie mówię tego lekko. Trudno mi łatwo o tym mówić, zwłaszcza mając na myśli wydarzenia w Gazie, gdzie wielu Żydów zostało bestialsko zamordowanych. Wiem jednak, że Bóg jest w kontroli, Bóg panuje. To nie był moment Bożej słabości, lecz On wszystko wie i panuje nad tym.\n\nChcemy teraz zobaczyć, jak konkretnie ujawnia się Boża wiedza. A wiecie, gdzie to najbardziej się objawia? W proroctwie. Inne religie mają pewne mądre powiedzenia, które są ogólne, jak powiedzenie: „nawet ślepa kura czasem znajdzie ziarno”. Ale Bóg jest źródłem mądrości i wiedzy. W proroctwie objawia to bezsprzecznie.\n\nWeźmy na przykład słynne proroctwa dotyczące Mesjasza, które wskazują na Jezusa. Najpierw Bóg przepowiedział, gdzie Mesjasz ma się urodzić – wskazał konkretną miejscowość. Czytamy z Księgi Micheasza 5:1 – tam jest napisane dotyczące miasta Betlejem.\n\nDalej, proroctwa mówią o tym, jak Mesjasz będzie zraniony i przebity, co doskonale wypełniło się podczas ukrzyżowania Jezusa. W Księdze Zachariasza 12:10 jest mowa, że spojrzą na tego, którego przebodli. W Psalmie 22:17 czytamy: „przebodli ręce i nogi moje”.\n\nTe proroctwa powstały setki lat przed narodzeniem Jezusa i są bardzo szczegółowe. Bóg nie boi się przewidzieć wydarzeń, On ma pewność ich wypełnienia, bo sam im to zapewnia.\n\nChcemy tę Bożą wszechwiedzę przyjąć do naszych serc, chwalić i uwielbiać Boga za to.\n\nChciałbym też odnieść się do krytycznych teologów. Kiedy widzą bardzo dokładne proroctwo, na przykład opis zburzenia Jerozolimy w Ewangelii Mateusza 24, mówią, że to zostało dopisane później. Ja się z tego cieszę, bo to tylko świadczy o tym, jak dokładne są te proroctwa, że sprawiają im to trudność. Nie mogą ich zignorować ani odrzucić. To są bardzo szczegółowe proroctwa, które nie mogły powstać przypadkowo czy jako pomysł jakiegoś mądrego człowieka.\n\nDlatego wybrałem proroctwa ze Starego Testamentu, które wypełniły się w Nowym, bo w ten sposób nie można ich skwitować spekulacjami, że zostały dopisane później.\n\nRównież w odniesieniu do każdego człowieka Boża wiedza jest kompletna. Bóg wie wszystko o wszystkich ludziach – nic nie jest mu ukryte. Nie ma nikogo, o kim Bóg by nie wiedział wszystko. Dotyczy to zarówno dzieci Bożych, jak i niewierzących.\n\nPytam: czy to jest dla Was przyjemna informacja? Czy raczej nieprzyjemna? Czy czujecie się zagrożeni? A może jest to dla Was pocieszenie?\n\nI tutaj zostałem poprowadzony do kolejnego punktu. Mieliśmy \"Bóg wie\" – teraz przejdziemy do \"Bóg zna\". Mała różnica, a ogromne znaczenie.\n\nPodczas gdy „Bóg wszystko o wszystkich wie”, to nie „zna” wszystkich w tym samym znaczeniu. Zna w szczególnym sensie tylko wybrane osoby. O tym czytamy w 2 Liście do Tymoteusza 2:19:\n\n„Wszakże fundament Boży stoi niewzruszony, a ma tę pieczęć: Pan zna tych, którzy są Jego. Niech odstąpi od nieprawości każdy, kto powołuje się na imię Pana.”\n\nTo słowo „zna” wyraża więc bliskość, relację. Tu nie chodzi tylko o informację o kimś, bo Bóg wie wszystko o wszystkich, ale zna kogoś osobiście, jest w relacji z tą osobą. To intymne poznanie, które w języku hebrajskim – słowo „jada” – może oznaczać też bardzo intymną relację między mężem i żoną.\n\nJak jest napisane w Księdze Rodzaju 4:1: „Adam poznał Ewę” – to znaczy wszedł z nią w bliską relację.\n\nJeżeli Pan Jezus zna ciebie, oznacza to, że zna cię konkretnie, kocha cię szczerze z serca, troszczy się o ciebie, uważa za swoją własność, woła cię po imieniu i życzliwie patrzy na ciebie. Jego miłość objawia się w tym, że dał dla ciebie swoje życie.\n\nW Ewangelii Jana, rozdział 10, wersety od 14 do 15, czytamy:\n\n„Ja znam moje owce, a moje owce mnie znają. Tak jak zna mnie Ojciec, Ja też znam Ojca, i daję życie moje za owce.”\n\nTo jest relacja równoległa do tej, którą Pan Jezus ma z Ojcem. On zna swoje owce, kocha je i daje swoje życie za nie.\n\nWśród tych owiec jest też ta zagubiona owca – każdy z nas kiedyś nią był.\n\nZapytam teraz ciebie: czy możesz sobie wyobrazić wiedzę pełną troski i zaufania bardziej pocieszającą niż ta?\n\nMówię ci: możesz być pewien, że On zna ciebie. Kiedy umierał na krzyżu, ty byłeś w Jego planie, w Jego zamiarze – konkretnie.\n\nJeszcze nie przejdę do trzeciego punktu, który również został mi pokazany, choć go nie planowałem. „Bóg wiedział” - znał i rozeznawał.\n\nChcemy dać Mu chwałę za wszystko i we wszystkim. Ten przekaz napełnia mnie pokorą, bo wiem, że nie jestem ani trochę lepszy od innych. Napełnia mnie też wielką wdzięcznością.\n\nWchodzi tu też kwestia tego, jak my chcemy to wykorzystać. Dziękujemy. Uczmy się gorliwie dziękować i być wdzięcznymi.\n\nChcemy także coraz lepiej poznawać Boga w tej relacji, uczyć się Go rozumieć i znać. To jest najlepsze studium, jakie możemy zrobić. Amen.\n\nProśmy w modlitwie:\n\nOjcze w niebie, dziękujemy Ci za Twoje Słowo, które nam dałeś i które dzisiaj mogliśmy czytać. Dziękujemy, że objawiłeś nam Twoją wszechwiedzę, ale także relację, którą masz do nas. To jest nie do zrozumienia.\n\nCzęsto brakuje nam słów, jak reagować, by dać Ci to, co masz otrzymać – nasze dziękczynienie. Proszę, napełniaj nas zawsze Duchem Świętym, abyśmy umieli Ci dziękować tak, jak należy. Abyśmy potrafili wyrażać prawdziwe słowa dziękczynienia nie tylko słownie, ale też przez życie, przez służbę i nasze codzienne postępowanie. Niech nasze życie będzie ofiarą dziękczynienia dla Ciebie. Amen."
+  },
+  "cover": "/images/covers/jkQkxBF5jSg.webp"
+}

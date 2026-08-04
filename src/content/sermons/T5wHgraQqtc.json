@@ -1,0 +1,139 @@
+{
+  "date": "2023-07-16",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/T5wHgraQqtc/T5wHgraQqtc.opus",
+  "preacher": "Mateusz Zyzik",
+  "title": "Woń miła Panu",
+  "summary": "Relacja człowieka z Bogiem ukazana jest poprzez motyw ofiar w Starym Testamencie, w tym historie Kaina i Abla, Noego oraz Abrahama. Podkreślona jest potrzeba dobrowolnego, świadomego oddania życia jako „ofiary duchowej” (Rz 12,1) i codziennego otwarcia na działanie Ducha Świętego. Przesłanie zachęca do spójności słów i serca w codziennej służbie Bogu.",
+  "duration": 3075,
+  "translations": {
+    "en": {
+      "title": "A Fragrance Pleasing to the Lord",
+      "summary": "Do the words of your worship truly reflect the condition of your heart? This sermon reveals how to build a daily, living relationship with God that transforms life and goes beyond empty gestures. It reminds us that God desires offerings from a willing heart—full of love and obedience. The Word of God invites reflection on the tension between speaking and genuine devotion."
+    },
+    "uk": {
+      "title": "Кохання Боже приваблює",
+      "summary": "Чи справді слова твоєї хвали відображають стан твого серця? Проповідь показує, як будувати щоденні, живі стосунки з Богом, які змінюють життя і виходять за межі порожніх жестів. Нагадує, що Бог очікує жертв від добровільного серця — повного любові та послуху. Слово Боже спонукає задуматися над напругою між словами та справжньою відданістю."
+    },
+    "ta": {
+      "title": "கடவுள் மீது என் அன்பு",
+      "summary": "உன் புகழ்பாடோடு கூடிய வார்த்தைகள் உண்மையில் உன் இதய நிலையை வெளிப்படுத்துகிறதா? இந்த பிரசங்கம், கடவுளுடன் தினமும் உயிருள்ள உறவை எப்படி உருவாக்குவது என்பதை காட்டுகிறது, இது வாழ்க்கையை மாற்றி, வெறும் வெறுமையான பாவனைகளைக் கடந்துபோகிறது. கடவுள் விரும்புவது, முழுமையான அன்பும் அடக்கமும் கொண்ட சுதந்திரமான இதயம் மூலம் அர்ப்பணிப்புகளை ஆகும் என்பதை நினைவூட்டி கூறுகிறது. கடவுளின் வார்த்தைகள், வார்த்தைகள் மற்றும் உண்மையான அர்ப்பணிப்பின் միջև உள்ள மெல்லிசை பற்றிய ஆழமான சிந்தனையை ஏற்படுத்துகிறது."
+    },
+    "de": {
+      "title": "Woń der Liebe für den Herrn",
+      "summary": "Spiegelt dein Lobwort wirklich den Zustand deines Herzens wider? Die Predigt zeigt, wie man eine lebendige, tägliche Beziehung zu Gott aufbaut, die das Leben verwandelt und über leere Gesten hinausgeht. Sie erinnert daran, dass Gott Opfer aus freiem Herzen erwartet – erfüllt von Liebe und Gehorsam. Gottes Wort regt zum Nachdenken über die Spannung zwischen Worten und echtem Hingeben an."
+    },
+    "es": {
+      "title": "Deléitate en el Señor",
+      "summary": "¿Acaso las palabras de tu adoración reflejan realmente el estado de tu corazón? Este sermón muestra cómo construir una relación diaria y viva con Dios que transforma la vida y va más allá de gestos vacíos. Nos recuerda que Dios espera ofrendas de un corazón voluntario, lleno de amor y obediencia. La Palabra de Dios invita a reflexionar sobre la tensión entre hablar y la verdadera entrega."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 1",
+      "Rdz 4",
+      "Rdz 6",
+      "Rdz 12",
+      "Rdz 28",
+      "Lb 1",
+      "Lb 6",
+      "Lb 29",
+      "Kpł 1",
+      "Rz 12",
+      "1 Kor 4",
+      "2 Kor 9",
+      "Ps 50",
+      "2 P 1",
+      "Mk 12"
+    ],
+    "en": [
+      "Gen 1",
+      "Gen 4",
+      "Gen 6",
+      "Gen 12",
+      "Gen 28",
+      "Num 1",
+      "Num 6",
+      "Num 29",
+      "Lev 1",
+      "Rom 12",
+      "1 Cor 4",
+      "2 Cor 9",
+      "Ps 50",
+      "2 Pet 1",
+      "Mark 12"
+    ],
+    "uk": [
+      "Бут 1",
+      "Бут 4",
+      "Бут 6",
+      "Бут 12",
+      "Бут 28",
+      "Чис 1",
+      "Чис 6",
+      "Чис 29",
+      "Лев 1",
+      "Рим 12",
+      "1 Кор 4",
+      "2 Кор 9",
+      "Пс 50",
+      "2 Пт 1",
+      "Мк 12"
+    ],
+    "ta": [
+      "ஆதியாகமம் 1",
+      "ஆதியாகமம் 4",
+      "ஆதியாகமம் 6",
+      "ஆதியாகமம் 12",
+      "ஆதியாகமம் 28",
+      "எண்ணெயாக்கமம் 1",
+      "எண்ணெயாக்கமம் 6",
+      "எண்ணெயாக்கமம் 29",
+      "லேவியராகமம் 1",
+      "ரோமர் 12",
+      "1 கொரி 4",
+      "2 கொரி 9",
+      "சங்கீதம் 50",
+      "2 பிதுரு 1",
+      "மார்க்கு 12"
+    ],
+    "de": [
+      "Gen 1",
+      "Gen 4",
+      "Gen 6",
+      "Gen 12",
+      "Gen 28",
+      "Num 1",
+      "Num 6",
+      "Num 29",
+      "Lev 1",
+      "Röm 12",
+      "1 Kor 4",
+      "2 Kor 9",
+      "Ps 50",
+      "2 Petr 1",
+      "Mk 12"
+    ],
+    "es": [
+      "Gén 1",
+      "Gén 4",
+      "Gén 6",
+      "Gén 12",
+      "Gén 28",
+      "Núm 1",
+      "Núm 6",
+      "Núm 29",
+      "Lev 1",
+      "Rom 12",
+      "1 Cor 4",
+      "2 Cor 9",
+      "Sal 50",
+      "2 Ped 1",
+      "Mat 12"
+    ]
+  },
+  "transcript": {
+    "pl": "Cieszę się, że dzisiaj mogę tu na tym miejscu być, że mogę uwielbiać mojego Pana, Króla i Zbawiciela. Myślę, że w waszym sercu też jest z tego tytułu radość, z tego powodu tutaj przyszliście, tak? Czyż nie tak jest, bracia i siostry? Przyszliśmy tutaj błogosławić wspaniałe imię Jezusa, przez które jesteśmy zbawieni, ale i też mamy tutaj wiele obietnic tu na ziemi, w których możemy być uczestnikami.\n\nCieszę się, że dzisiaj Kościół zgromadza się po to, aby błogosławić imię Jezus Chrystus. Wiecie, Bóg stworzył człowieka na swój obraz i podobieństwo — tak czytamy w Słowie Bożym. Ale Bóg też stworzył człowieka, aby mieć z nim relację. Czy zgadzacie się z tym twierdzeniem? Że w sercu Bożym jest to, aby mieć z Tobą i ze mną — jest takie pragnienie, aby mieć z nami relację. Bóg tego chce, bracia i siostry. Bóg chce, kiedy tutaj się zgromadzamy, abyś Ty, ja, miał relację z Nim przez Ducha Świętego, abyś miał relację żywą, abyś miał relację skuteczną.\n\nTo, co śpiewamy, myślę, jest wyrazem naszego serca i nie są to puste słowa. Ale żeby tak było, musimy mieć pewną postawę, którą Słowo Boże pokazuje nam, która jest przewidziana dla chrześcijan, abyśmy nie śpiewali próżnych słów w naszym życiu, abyśmy nie wypowiadali słów na wiatr nieopatrznie. Wiecie, nie tylko nieopatrznie możemy mówić słowa niedobre, jakieś obrażające, ale nieopatrznie możemy wypowiadać też prawdę, jeśli ona nie jest w naszym życiu prawdą.\n\nCzy weryfikujemy swoje serce i czy to, co śpiewamy, jest takim „amen” w naszym życiu? Bracia i siostry, dla mnie każde nabożeństwo jest weryfikacją mojego serca, ale nie tylko. Ja mogę sądzić siebie, bo tak jest napisane w Słowie Bożym, codziennie. Codziennie możesz badać swoje serce, swoją postawę.\n\nBóg stworzył człowieka właśnie po to, aby mieć relację, aby w tej relacji Bóg nas prostował, aby nas prostował przez głos Ducha Świętego, aby nas prostował przez Jego Słowo. Czy dzisiaj pragniesz takiej żywej relacji? Czy dzisiaj pragniesz tego, aby Duch Święty przemawiał do ciebie codziennie, w każdej chwili? Nie tylko rano, jak się obudzisz, kiedy może masz w zwyczaju czytanie Słowa Bożego, nie tylko wieczorem, kiedy kończysz ten dzień, ale jest powiedziane, że codziennie, w każdej chwili, Duch Święty może być z tobą, bo jesteśmy świątynią. Jesteśmy świątynią, ale nie zasmucajmy głosu Ducha Świętego.\n\nBędąc tą świątynią, składajmy ofiary miłe Bogu w tej świątyni. Przez całe Słowo Boże, od Starego do Nowego Testamentu, możemy znaleźć szereg postaw ludzi, którzy składali ofiary Bogu. I widzimy już na samym początku — chociażby tę historię z Kainem i Ablem, kiedy zostały składane ofiary. Widzimy historię Noego, który składał ofiary, Abrahama, Jakuba. I wiecie, jestem przekonany, że oni składali ofiary dlatego, że chcieli mieć społeczność z Bogiem. Że przez ofiary, które składamy, wyrażamy nasze pragnienie bycia w społeczności z Bogiem.\n\nMyślę, że dzisiaj nic się nie zmieniło. Oczywiście już dzisiaj nie składamy ofiar rzeźnych, krwawych, z pokarmów, ale składamy ofiary, bracia i siostry. Nasze życie może być wspaniałą ofiarą, która w oczach Bożych może być miłą wonią, może bardziej w nozdrzach Bożych, w oczach Bożych może być miłym wyrazem, miłym obrazem.\n\nJak widzimy już na początku, w trzeciej Mojżeszowej, w pierwszym rozdziale, w drugim wersecie jest napisane: „Przemów do synów izraelskich i powiedz im”, mówi Bóg, „jeśli ktoś z was chce złożyć ofiarę Panu, to niech złoży ofiarę swoją z bydła rogatego lub z trzody. Jeśli ktoś z was chce” — Bóg nikogo nie przymusza. Jeżeli w twoim sercu jest pragnienie złożenia Bogu ofiary, to uczyń to z ochotnego serca. Bóg nie mówi, masz składać ofiary.\n\nTak jest napisane w Słowie Bożym: codziennie możesz badać swoje serce, swoją postawę. I Bóg stworzył człowieka właśnie po to, aby mieć relację — aby w tej relacji Bóg nas prostował. Przez głos Ducha Świętego, przez Jego Słowo. Czy dzisiaj pragniesz takiej żywej relacji? Czy dzisiaj pragniesz, aby Duch Święty przemawiał do ciebie codziennie, w każdej chwili? Nie tylko rano, jak się obudzisz i masz w zwyczaju czytać Słowo Boże, nie tylko wieczorem, kiedy kończysz dzień, ale codziennie, w każdej chwili Duch Święty może być z tobą, bo jesteśmy świątynią.\n\nJesteśmy świątynią, ale nie zasmucajmy głosu Ducha Świętego. Będąc tą świątynią, składajmy ofiary miłe Bogu. Przez całe Słowo Boże — od początku Starego do końca Nowego Testamentu — możemy znaleźć wiele przykładów ludzi, którzy składali Bogu ofiary. Już na samym początku, w historii Kaina i Abla, widzimy składane ofiary. Widzimy Noego, który składał ofiary, Abrahama, Jakuba. Jestem przekonany, że oni składali ofiary, bo chcieli mieć społeczność z Bogiem. Przez ofiary wyrażamy pragnienie bycia w społeczności z Bogiem. Dzisiaj sytuacja się nie zmieniła. Oczywiście nie składamy ofiar rzeźnych, ale składamy ofiary – nasze życie może być piękną ofiarą, miłą Bogu wonią.\n\nJak czytamy w trzeciej Mojżeszowej, 1 rozdział, 2 werset: „Przemów do synów izraelskich i powiedz im: jeśli ktoś z was chce złożyć ofiarę Panu, niech złoży ją z bydła rogatego lub trzody. Jeśli ktoś chce” — Bóg nikogo nie przymusza. Jeżeli w twoim sercu jest pragnienie złożenia ofiary, to uczyń to z ochotnego serca.\n\nBóg stworzył człowieka, by mieć relację i w tej relacji prostować nas przez głos Ducha Świętego i Słowo Boże. Czy pragniesz dziś takiej żywej relacji? Czy chcesz, by Duch Święty przemawiał do ciebie codziennie, nie tylko rano lub wieczorem, ale przez cały dzień? Jesteśmy świątynią, więc nie zasmucajmy Ducha Świętego. Składajmy Mu ofiary miłe Bogu.\n\nCałe Słowo Boże pełne jest przykładów składania ofiar — Kain, Abel, Noe, Abraham, Jakub. Oni chcieli społeczności z Bogiem. My dziś też składamy ofiary — nasze życie i serce jako miłą Bogu wonność.\n\nBóg nie zmusza, ale pragnie ochotnego serca składania Mu ofiar. My często czekamy, że Bóg nas zmieni, przemieni, a sami nic nie robimy. Bracia i siostry, Pan wzywa nas: „Zbliżcie się do Boga, a On się zbliży do was!” Nie bądźmy obojętni, ofiara duchowa wymaga naszych kroków do Niego.\n\nW drugim liście do Koryntian, 9 rozdziale, 7 wersecie jest napisane: „Każdy niech daje, jak mu w sercu postanowione, nie z żalu ani przymusu, bo dobrowolnego dawcę miłuje Bóg”. A w pierwszym liście do Koryntian czytamy, że Bóg jest władny udzielić łaski obficie, abyśmy zawsze mieli wszystkiego pod dostatkiem i mogli hojnie łożyć na wszelką dobrą sprawę.\n\nBóg dał ci dziś wiele narzędzi, abyś mógł oddawać Mu chwałę. Głos, ręce, myśli, język — wszystko może służyć Bogu. Językiem możesz błogosławić ludzi albo ich przeklinać. Dlatego tak ważne jest, aby nasze ofiary były święte i czyste, wtedy Bóg obficie nas błogosławi.\n\nW Starym Testamencie przykładano wielką wagę do tego, jak mają wyglądać ofiary. Obrzędy były szczegółowo opisane, nie było dowolności. Dziś często myślimy, że możemy samowolnie oddawać Bogu chwałę, ale Bóg wciąż ma plan, jak składamy Mu ofiary.\n\nW Rzymian 12, 1 werset jest napisane: „Proszę więc was, bracia, przez miłosierdzie Boże, abyście składali ciała swoje jako ofiarę żywą, świętą, miłą Bogu, jako duchową służbę waszą”.\n\nCzy twoja duchowa służba jest dziś żywa, święta i miła Bogu? To jest kluczowe w codziennej modlitwie, relacji, społeczności z Bogiem. Zadaj sobie pytanie: Panie, co Ci jest dziś miłe? Jak mam dziś żyć, abym był dla Ciebie przyjemną ofiarą?\n\nW historii Kaina i Abla widzimy, że Pan spojrzał na ofiarę Abla. Abel przyniósł to, co najlepsze, z czystym sercem. Tak samo twoje ciało i ręce mogą być ofiarą dla Pana — świadectwem twojej postawy. W Starym Testamencie często ludzie czcili Boga wargami, lecz ich serce było daleko. Dzisiaj może być podobnie: możesz śpiewać pieśni „Chwała Chrystusowi”, a twoje serce być gdzie indziej.\n\nMożesz przynieść dziesięcinę, ale jeśli nie ma twojego oddania serca i myśli, to nie jest pełna ofiara. Zachęcam cię, abyś oddawał więcej niż potrzeba — nie tylko pieniądze, ale modlitwę, świadectwo, budowanie siebie i innych według Słowa Bożego. \n\nBracie, siostro, jaka jest postawa twojego serca? Czy twoje kolana są uświęcone, by się schylić przed Bogiem? Co stoi na przeszkodzie, by oddawać Bogu chwałę życiem i czynami? \n\nW Starym Testamencie czytamy, że Dawid tańczył przed Panem. Nie wstydź się wyrażać radości i chwały Panu. Pytanie: gdzie jest twoje serce, komu chcesz służyć?\n\nPamiętaj, wszystko, co mamy, pochodzi od Boga. On bada nasze serca i ma upodobanie w prawdzie. Jak mówi psalmista: „Szczerym sercem złożyłem w darze to wszystko”. Czy dziś te słowa są dla ciebie wyzwaniem?\n\nW koraliku Bożym — w 2 Liście Piotra 1:7 — czytamy, że cnota, pobożność i pozostałe cnoty mają w nas rosnąć, abyśmy nie byli bezowocni w poznaniu Pana Jezusa Chrystusa.\n\nW Psalmie 50:14 zachęca nas, byśmy składali dziękczynienie i spełniali śluby Najświętszemu.\n\nJesteśmy oblubienicą Chrystusa, przygotowaną na Jego przyjście jako czysta dziewica. Szukaj Bożego Królestwa, składaj życie w ofierze — tutaj, na miejscu i w domu — bądź ofiarą miłą Bogu.\n\nNa koniec zachęcam: nie patrz na brata czy siostrę, nie bądź strażnikiem ofiar innych. Pilnuj swoich ofiar i stawaj się zachętą dla innych przez swoje życie. Bóg zna serca i możliwości każdego z nas.\n\nPrzypomnę wam fragment z Ewangelii Marka, 12 rozdział, wersety 41–44:\n\n„A usiadłszy naprzeciwko skarbnicy, przypatrywał się, jak lud wrzucał pieniądze do skarbca, i jak wielu bogaczy dużo wrzucało. Przyszła wtedy jedna uboga wdowa i wrzuciła dwie drobne monety — to jest tyle co jeden grosz. I przywoławszy uczniów swoich, rzekł im: Zaprawdę powiadam wam, ta uboga wdowa wrzuciła więcej do skarbca niż wszyscy, którzy wrzucali, bo wszyscy wrzucali z tego, co im zbywało, ale ta ze swego ubóstwa wrzuciła wszystko, co miała, całe swoje utrzymanie”.\n\nGdyby nie komentarz Jezusa, pewnie pomyślałbym: dwa grosze — to nic nie znaczy. Ale Jezus bada serca i zna nasze możliwości. Pytanie, czy wrzucasz z tego, co ci zbywa, czy całe swoje życie oddajesz Bogu? Zweryfikuj swoje serce, będąc tu, na tym miejscu, gdziekolwiek jesteś. Co dziś dajesz na ofiarę dla Pana?\n\nNie oceniaj innych i nie porównuj się, tylko sprawdź swoje serce, bo Chrystus dał wszystko, abyś mógł Mu oddać chwałę. Wzywam was przez miłosierdzie Boże, abyście dzisiaj składali ofiary z ochotnego serca.\n\nNiech wasze ofiary będą żywe, święte, miłe Bogu! Amen."
+  },
+  "cover": "/images/covers/T5wHgraQqtc.webp"
+}

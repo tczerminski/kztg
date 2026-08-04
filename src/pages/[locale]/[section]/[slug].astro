@@ -1,0 +1,22 @@
+---
+import SermonDetail from "../../../components/SermonDetail.astro";
+import { getSermonsForLocale } from "../../../lib/sermons";
+import type { SermonView } from "../../../lib/sermons";
+import { locales, defaultLocale, sermonsPathSegment, localeUrlSlug, type Locale } from "../../../i18n/utils";
+
+export async function getStaticPaths() {
+  const nonDefaultLocales = locales.filter((locale) => locale !== defaultLocale);
+  const paths = [];
+  for (const locale of nonDefaultLocales) {
+    const section = sermonsPathSegment(locale);
+    const sermons = await getSermonsForLocale(locale);
+    for (const sermon of sermons) {
+      paths.push({ params: { locale: localeUrlSlug(locale), section, slug: sermon.slug }, props: { sermon, locale } });
+    }
+  }
+  return paths;
+}
+
+const { sermon, locale } = Astro.props as { sermon: SermonView; locale: Locale };
+---
+<SermonDetail locale={locale} sermon={sermon} />

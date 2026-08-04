@@ -1,0 +1,121 @@
+{
+  "date": "2024-08-04",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/bJLBy9S036g/bJLBy9S036g.opus",
+  "preacher": "Jacek Maj",
+  "title": "Dyskusja i Krytyka w kościele cz. 1",
+  "summary": "Dyskusja i krytyka w Kościele stanowią fundamentalny temat kazania, które opiera się na analizie fragmentu z Listu do Rzymian (1,18-20) oraz Przypowieści. Podkreślono, że krytyka nie musi być negatywna, lecz stanowi element konstruktywnego dialogu i rozwoju duchowego wspólnoty. Przykłady z Dziejów Apostolskich ilustrują naturalność wzajemnej oceny i jej rolę w budowaniu Kościoła.",
+  "duration": 3195,
+  "translations": {
+    "en": {
+      "title": "Discussion and Criticism in the Church Part 1",
+      "summary": "Is criticism and discussion within the Church a threat, or could it be the key to spiritual growth? This sermon addresses the challenges of conversations that test us and shows how wise dialogues can strengthen the community. God's Word encourages us to treat one another with honesty and humility, leading to maturity and a deeper understanding of faith. It offers an important reflection on relationships within the congregation and their impact on the life of a Christian."
+    },
+    "uk": {
+      "title": "Дискусія та Критика в Церкві. Частина 1",
+      "summary": "Чи є критика та дискусія в Церкві загрозою, чи, можливо, ключем до духовного зростання? Проповідь розкриває виклики розмов, які випробовують нас, і показує, як мудрі діалоги зміцнюють спільноту. Слово Боже закликає ставитися один до одного з чесністю та покорою, що веде до зрілості і глибшого розуміння віри. Це важливе роздумування над відносинами у громаді та їхнім впливом на життя християнина."
+    },
+    "ta": {
+      "title": "சங்கீதம் மற்றும் விமர்சனம் தேவாலயத்தில் பகுதி 1",
+      "summary": "தேவாலயத்திலுள்ள விமர்சனமும் சங்கீதமும் ஆபத்தானவையா, அல்லது ஆன்மிக வளர்ச்சிக்கான திறவுகோலா? இந்த வசனம், நம்மை சவால்களுக்கு குள்ளாக்கும் உரையாடல்களின் சிக்கல்களை அலசுகிறது மற்றும் حکمتான உரையாடல்கள் சமுதாயத்தை எவ்வாறு வலுப்படுத்துகின்றன என்பதைக் காட்டுகிறது. கடவுளின் சொல்லானது ஒருவருக்கு ஒருவர் நற்செயல் மற்றும் அடையாளத்துடன் அணுக வேண்டும் என்று ஊக்குவிக்கிறது, இது பரிபக்குவத்துக்கும் விசுவாசத்தின் ஆழ்ந்த புரிதலுக்குமான வழியைத் திறக்கிறது. இது கூட்டத்தினுள் உள்ள உறவுகள் மற்றும் அவற்றின் கிறிஸ்துவ வாழ்வில் விளைவுகளைப் பற்றிய ஒரு முக்கியமான சிந்தனை ஆகும்."
+    },
+    "de": {
+      "title": "Diskussion und Kritik in der Kirche, Teil 1",
+      "summary": "Sind Kritik und Diskussion in der Kirche eine Gefahr oder vielleicht der Schlüssel zum geistlichen Wachstum? Die Predigt beleuchtet die Herausforderungen von Gesprächen, die uns auf die Probe stellen, und zeigt, wie kluge Dialoge die Gemeinschaft stärken. Gottes Wort ermutigt dazu, einander mit Ehrlichkeit und Demut zu begegnen, was zu Reife und einem tieferen Verständnis des Glaubens führt. Eine wichtige Reflexion über Beziehungen in der Gemeinde und ihren Einfluss auf das Leben der Christen."
+    },
+    "es": {
+      "title": "Discusión y Crítica en la Iglesia, parte 1",
+      "summary": "¿Son la crítica y la discusión en la iglesia una amenaza o quizás la clave para el crecimiento espiritual? Este sermón aborda los desafíos de las conversaciones que ponen a prueba nuestra fe y muestra cómo los diálogos sabios fortalecen la comunidad. La Palabra de Dios nos anima a tratarnos con honestidad y humildad, lo que conduce a la madurez y a una comprensión más profunda de la fe. Una reflexión importante sobre las relaciones en la congregación y su impacto en la vida cristiana."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rz 1",
+      "Prz 16",
+      "Prz 27",
+      "Dz 2",
+      "Dz 5",
+      "Dz 10",
+      "Dz 11",
+      "Dz 15",
+      "Rz 14",
+      "Ga",
+      "1 Kor",
+      "Kol"
+    ],
+    "en": [
+      "Rom 1",
+      "Prov 16",
+      "Prov 27",
+      "Acts 2",
+      "Acts 5",
+      "Acts 10",
+      "Acts 11",
+      "Acts 15",
+      "Rom 14",
+      "Gal",
+      "1 Cor",
+      "Col"
+    ],
+    "uk": [
+      "Рим 1",
+      "Прип 16",
+      "Прип 27",
+      "Дії 2",
+      "Дії 5",
+      "Дії 10",
+      "Дії 11",
+      "Дії 15",
+      "Рим 14",
+      "Гал",
+      "1 Кор",
+      "Кол"
+    ],
+    "ta": [
+      "ரோமர் 1",
+      "கீதம் 16",
+      "கீதம் 27",
+      "அப்போஸ்தலர் 2",
+      "அப்போஸ்தலர் 5",
+      "அப்போஸ்தலர் 10",
+      "அப்போஸ்தலர் 11",
+      "அப்போஸ்தலர் 15",
+      "ரோமர் 14",
+      "கலாத்தியர்",
+      "1 கொரி",
+      "கொலொசை"
+    ],
+    "de": [
+      "Röm 1",
+      "Spr 16",
+      "Spr 27",
+      "Apg 2",
+      "Apg 5",
+      "Apg 10",
+      "Apg 11",
+      "Apg 15",
+      "Röm 14",
+      "Gal",
+      "1 Kor",
+      "Kol"
+    ],
+    "es": [
+      "Rom 1",
+      "Pro 16",
+      "Pro 27",
+      "Hch 2",
+      "Hch 5",
+      "Hch 10",
+      "Hch 11",
+      "Hch 15",
+      "Rom 14",
+      "Gál",
+      "1 Cor",
+      "Col"
+    ]
+  },
+  "transcript": {
+    "pl": "Za wszystkie dzieła, które czynisz w nas. Amen. Chwała Bogu.\n\nDzisiaj chciałbym zacząć jeden z tematów, który uważam za bardzo ważny dla budowy i rozwoju zboru i którego nie da się zamknąć w jednym kazaniu. Szacuję, że zajmie mi to gdzieś ze cztery kazania. Natomiast mówię o tym, żeby zwrócić uwagę na to, że to nie jest gdzieś tam skończony temat. On dzisiaj nie będzie skończony, on będzie rozpoczęty, można powiedzieć trochę rozgrzebany i być może będziemy mieli szansę w domach i na przestrzeni tych kolejnych miesięcy, jak Bóg da, omawiać ten temat.\n\nA mianowicie, chcę mówić o dyskusji i krytyce w kościele. Czy ma ona miejsce, czy powinna mieć miejsce, jak powinna ona wyglądać? Istnieje powszechny pogląd, stosunkowo intuicyjny, że przecież jest Duch Święty i Duch Święty mówi do mnie, do każdego z nas, tak, tutaj. Więc temat zewnętrznych oddziaływań, tych negatywnych w szczególności, których doświadczamy w trakcie dyskusji czy kiedy podlegamy krytyce, wydaje się co najmniej niestosowny. Przecież jest Bóg, który mnie osobiście naprawia.\n\nTa postawa, uważam, generalnie degeneruje nasze życie z Bogiem, nasze życie w społeczności i uważam, że ma negatywny skutek w takim długofalowym chodzeniu z Bogiem. Bo każdy z nas nie myśli, mam nadzieję, o chodzeniu z Bogiem z perspektywy tygodnia czy miesiąca, tylko praktycznie całego życia, naszej historii 20 lat, 30 lat, 10 lat, nieważne, wstecz. Ten temat dyskusji wydaje się mocno w sferze intelektualnej i ponieważ taka również była moja intuicja, chciałbym rozpocząć od wersetu z Rzymian 1,18-20, gdzie Paweł, rozpoczynając swój list do adresatów, opisuje, jaki jest fundamentalny stan moralny ludzi na całym świecie. Nie tylko tych, którzy są wśród Żydów, ale też i pogan. Opisuje to w ten sposób:\n\n„Albowiem gniew Boży z nieba objawia się przeciwko wszelkiej bezbożności i nieprawości ludzi, którzy przez nieprawość tłumią prawdę; ponieważ to, co o Bogu wiedzieć można, jest dla nich jawne, gdyż Bóg im to objawił. Bo niewidzialna Jego istota, to jest wiekuista Jego moc i bóstwo, mogą być od stworzenia świata oglądane w dziełach i poznane umysłem, tak iż nic nie mają na swoją obronę.”\n\nInnymi słowy, natura sama w sobie objawia każdemu, kto na nią patrzy, że jest to dzieło potężnego Boga. Bez względu na to, kto się gdzie urodził i jak, jest to pewien wniosek, który według Pawła zmusza go do poszukiwania Stwórcy, daje mu wyzwanie; także nikt z nas nie ma nic na swoją obronę i nikt z nas przed tym, kiedy Chrystus powołał nas do swojego królestwa, nie mógł powiedzieć: „A, nie wiedziałem”. Ten standard już Bóg ustanowił.\n\nCo jest fascynujące dla mnie osobiście, bo nie patrzyłem na to nigdy wcześniej w ten sposób, że ta bramka, można powiedzieć, czy ta poprzeczka jest postawiona na poziomie intelektualnym. To znaczy: to, co można zobaczyć, to, co można poznać o Bogu, jest możliwe do poznania umysłem, dlatego że mamy wokół siebie przyrodę, która o tym opowiada. Natomiast jest to coś, co powinno prowadzić nas do duchowego zgłębiania, oczywiście nie do tego, żeby na tym etapie pozostać.\n\nAby mieć, bym powiedział, wspólny język i wspólny słownik — bo jest to taka ciekawa cecha każdego z nas, że funkcjonujemy trochę w dwóch słownikach — w słowniku powszechnym i w prawdziwym, słownikowym, języka polskiego. Często nasze definicje się rozjeżdżają, jeśli chodzi o to, co dane słowo naprawdę oznacza, a co my myślimy, że ono oznacza. I jesteśmy w stanie stworzyć całą kulturę w oparciu o te nieprawdziwe stwierdzenia. \n\nŻebyśmy mieli wspólny język do dalszych rozważań, chciałbym określić tutaj trzy definicje, w zasadzie cztery, ale one są pochodne z siebie. \n\nPierwsza to krytyka. Co to jest słowo „krytyka”? Krytyka w najkrótszym znaczeniu oznacza surowe lub negatywne oceny kogoś lub czegoś. „Krytyczny” to jest oparty na rzeczowej analizie i ocenie. Jest to analiza i ocena dobrych i złych stron z punktu widzenia jakichś określonych wartości. Nie jest to więc coś zasadniczo negatywnego — jest to pewnego rodzaju ocena.\n\nKrytyczne myślenie to aktywne i uważne analizowanie prezentowanych idei, argumentów i informacji. Nie jest to bunt sam w sobie, tylko pewnego rodzaju aktywne słuchanie tego, co jest do nas mówione, i analiza wewnątrz, w oparciu o wspólne wartości. Czy my, czy ja i ta osoba, która do mnie mówi, operujemy na tej samej płaszczyźnie, czy też nie?\n\nDyskusja to wymiana zdań na jakiś temat, mająca prowadzić do wspólnych wniosków. I wspólne wnioski są tutaj kluczowe. Nie jest to wymiana zdań sama dla siebie, tylko po to, żeby jakieś wnioski wyciągnąć i potencjalnie coś z tym później zrobić, a nie tylko, żeby na tym pozostać.\n\nPrzytoczyłem te definicje po to, żebyśmy mieli wspólny język i nie operowali na powszechnym zrozumieniu może danych słów, tylko żebyście rozumieli, co mam na myśli, gdy używam tych słów.\n\nChciałbym do naszych rozważań użyć fragmentu z Dziejów Apostolskich, ale zanim do niego dojdziemy, chcę też odnieść się do Słowa Bożego, aby opisać nasz stan, co jest w każdym z nas, czego skutkiem jest grzech i jego działanie w nas.\n\nW Przypowieściach 16,2 jest napisane: „Wszystkie drogi człowieka wydają mu się czyste, lecz Pan bada duchy.” Innymi słowy, jest to określenie naszego stanu: prawie zawsze myślimy, że jesteśmy na właściwej drodze. Nie patrzymy krytycznie na siebie ani na decyzje, które podejmowaliśmy. Nawet jeśli coś wyszło źle albo są negatywne skutki, potrafimy je sobie jakoś wyjaśnić. Niemniej to nie jest krytyczne patrzenie na siebie — jest to tłumaczenie siebie, a nie krytyczne spojrzenie. Lecz Pan bada duchy, czyli Pan jest autentycznym sędzią. Autor robi rozgraniczenie między naszą postawą a tym, kto naprawdę potrafi nas oceniać i ma do tego prawo.\n\nW Przypowieściach 27,17 jest napisane: „Żelazo ostrzy się żelazem, a zachowanie swojego bliźniego wygładza człowiek.” A troszeczkę wcześniej, w 27,5-6: „Lepsza jest jawna nagana niż nieszczera miłość. Razy przyjaciela są oznaką wierności, pocałunki wroga są zwodnicze.”\n\nJak mówiłem na samym początku, my mamy zabudowany mechanizm, który chce, byśmy patrzyli bardzo romantycznie na współwspółbraci. To nie jest atomowy argument: „Bóg mi powiedział, więc co powiesz? Nic nie powiesz.” Opisując tę sytuację, dajemy słuchaczom możliwość wyciągnięcia własnych wniosków. \n\nJest to dla mnie niesamowite i bardzo ciekawe, bo użyte jest słowo „zarzut”. Oni nie przyszli i nie powiedzieli: „Kochamy się”, tylko „Nasza kultura zabrania ci tego. Nasze zrozumienie Bożego prawa zabrania ci robić tego, co ty zrobiłeś.”\n\nA on odpowiada w sposób spokojny, a w konkluzji, w wersecie 18, jest napisane: „A gdy to usłyszeli, uspokoili się i wielbili Boga.” Tak kończy się ta wymiana.\n\nChciałbym zwrócić uwagę również na cztery elementy, o których pokrótce będę mówił w kolejnych kazaniach. Dzisiaj omówię tylko pierwszy.\n\nPo pierwsze: pierwszy Kościół składał się prawie wyłącznie z Żydów. Był żydowski. Cała ta tradycja, kultura, prawo, zasady — wszystko było silnie ugruntowane na fundamencie tysięcy lat kultury żydowskiej. Nie był to zbór otwarty, progresywny na zasadzie „zobaczymy, jak będzie”. Oni mieli swoje zasady i trzymali się ich bardzo jasno. Była to grupa bardzo pilnie trzymająca się zakonu.\n\nTo napięcie, to napięcie jest widoczne pierwszy raz w 11 rozdziale, a drugi raz — prawie 11 lat później — w rozdziale 15, gdzie mamy list do zborów pogańskich. Problem na nowo się naradza i musi być rozwiązany — i to jest też ważne.\n\nMiędzy 11 a 15 rozdziałem mija 11 lat. Mamy tu problem misji Kościoła. Bóg powołał Żydów, dał im zbawienie, więc misją ich jest szerzenie Ewangelii wśród braci głównie, jednak pojawia się wyzwanie, że jest inaczej.\n\nRównież Piotr, który jest apostolskim filarem, wielokrotnie powtarzane jest w Słowie Bożym, i taka jest tradycja Kościoła, podlega krytyce i dyskusji, tak samo jak każdy inny członek zboru.\n\nTo prawo nie jest odbierane tym członkom, ta interakcja jest naturalna i normalna. To, że on coś zrobił nie tak, nikt nie mówi: „Nie, bo to Piotr, ma swoje powody.” Nie, on zrobił coś, co się im nie podobało, nie było to zgodne z ich kulturą ani zrozumieniem misji Kościoła i zaraz poszli konfrontować: „Ty, dlaczego tak zrobiłeś?”\n\nNie było ludzi, że autorytet był świętą krową. Autorytet był, ale nie był wyłączony z obiegu krytyki.\n\nPiotr nie obraża się na tę sytuację, nie ma negatywnej, emocjonalnej reakcji, tylko spokojnie, metodycznie wykłada po kolei.\n\nSkutek jest taki, że gdy to usłyszeli, uspokoili się i wielbili Boga. Ewidentnie emocje były, ale wielbili Boga. Skutkiem tej różnicy nie był rozłam.\n\nTo nie była mała różnica. Mówimy o kwestiach, które pojawiają się na przestrzeni 11 i 15 rozdziału Dziejów Apostolskich, mamy je również w Rzymian, Galacjan, Koryntian, Kolosan.\n\nWielokrotnie są opisane problemy kluczowe dla rodowitych Żydów — problemy kulturowe i zrozumienia tego, co należy, a czego nie należy robić. Mimo tak ostrej różnicy nie spowodowało to rozłamu, ale dało początek nowej jakości.\n\nCo jest ważne i czego nie wolno zapominać, to jawne skutki działania Ducha Świętego — nie tylko impuls, ale autentycznie skutki.\n\nMamy jednak dalej różnicę kulturową, co uważam za problem ważny i faktycznie aktualny tak samo teraz, jak dwa tysiące lat temu.\n\nBo pierwszy Kościół trzymał się pierwszych zasad bardzo mocno. Na przykład w Dziejach 5,12 i 2 rozdziale jest mowa, że przez ręce apostołów działo się wiele znaków i cudów, i gromadzili się jednomyślnie w przysionku Salomonowym. Kontynuowali tę żydowską tradycję.\n\nCo mnie zaskoczyło, czytając tę historię, to że Piotr zanegował nakaz, który został mu podany. Jest powiedziane w 10 rozdziale, wersetach 13-14: „Odezwał się do niego głos: Wstań, Piotrze, zabijaj i jedz. Piotr rzekł: Przennigdy, Panie, bo nigdy jeszcze nie jadłem nic skalanego i nieczystego.”\n\nPiotr wie, że mówi do niego Bóg, ale mówi: „Przennigdy, Panie! Nie zrobię tego!” Piotr myśli, że on i Bóg mają ten sam system wartości — to, co on uznaje za najwyższe dobro, Bóg również tak myśli. Ignoruje to, kto mówi, zwraca uwagę tylko na treść.\n\nDroga do objawienia nie była od razu prosta. Piotr rozważał to w oparciu o swój system wartości.\n\nOczywiście to wyjątkowa sytuacja — nie sugeruję, że przed nami są takie przełomy, ale ważna jest wrażliwość na działanie Ducha Świętego i współpraca z Duchem.\n\nKiedy Piotr podjął dyskusję, wstał i wygłosił mowę, która rozładowała napięcie i zaprowadziła pokój.\n\nWidać, że dyskusja, choć trudna i burzliwa, była podstawą procesu przemian Bożych.\n\nDalej, komentując Dzieje Apostolskie 15,19: „Dlatego sądzę, że nie należy czynić trudności tym spośród pogan, którzy nawracają się do Boga.”\n\nByła to sprawa totalnie kluczowa dla tamtego Kościoła — prawo i kultura żydowska były fundamentem ich życia. Dlatego tak mocno opierali się Piotrowi i Pawłowi.\n\nW liście do pogan zawarto tylko cztery zasady, z czego trzy dotyczyły jedzenia, a jedna moralności — nie wprowadzono nowych obostrzeń ani zakonu.\n\nDoszli do wniosku, że kultura, w której żyją nowo narodzeni, może być przeszkodą.\n\nPodkreślam: nie sugeruję tu rewolucji kulturowej, tylko otwartość na działanie Ducha Świętego.\n\nKultura może tłamsić Ducha Świętego, zabijać jego działanie, jeśli utrzymujemy sztywne zasady, normy i wzorce.\n\nW pierwszym Kościele rozpoznano, że kultura może być przeszkodą i trzeba ją odpowiednio modyfikować.\n\nNa przykład w Rzymian 14 Paweł pisze: „Słabego w wierze przyjmujcie, nie wdając się w ocenę jego poglądów. Jeden wierzy, że może jeść wszystko, słaby zaś jarzyny jada. Niech ten, kto je, nie pogardza tym, który nie je, a kto nie je, niech nie osądza tego, który je, albowiem Bóg go przyjął.”\n\nPaweł wskazuje, że ten, kto nakłada na siebie większe obostrzenia, jest słabszy sumieniem i należy go tak samo przyjąć — i nie wolno tego narzucać innym.\n\nChodzi o różnice kulturowe nie tylko między poganami, ale też między poganami i Żydami.\n\nNie chodzi o drobne różnice — to były poważne sprawy, wielokrotnie omawiane w listach apostolskich.\n\nPaweł pokazuje, że gdy stawiamy siebie wyżej, bo robimy „więcej”, to nie zgadza się z nauką.\n\nKrólestwo Boże to nie pokarm i napój, ale sprawiedliwość, pokój i radość w Duchu Świętym (Rzymian 14,17).\n\nTo Duch Święty, a nie kultura, stanowi o jakości Kościoła.\n\nJeśli coś robisz albo czegoś nie robisz i powoduje to, że tracisz radość Ducha Świętego, to trzeba się zastanowić, czy to dobrze na Ciebie wpływa.\n\nRobimy coś dla Boga, nie po to, by tworzyć nową kulturę i nakładać to na innych.\n\nPrzekonanie, które mamy — zachowajmy je przed Bogiem.\n\nWerset 22 podkreśla, że szczęśliwy jest ten, kto nie osądza samego siebie za to, co uważa za dobre.\n\nNie mówimy tu o poznaniu, lecz o sprawach kulturowych i zachowaniach, które nie są opisane jako grzech.\n\nNa zakończenie przypomnę, że kultura zapobiega konieczności posiadania wiary i tego, żeby Bóg musiał interweniować.\n\nW Łukasza 18,6-8: „A czyżby Bóg nie wziął w obronę swoich wybranych, którzy wołają do niego we dnie i w nocy, chociaż zwleka w ich sprawie? Powiadam wam, że szybko weźmie ich w obronę, tylko czy Syn Człowieczy znajdzie wiarę na ziemi, gdy przyjdzie?”\n\nKultura umożliwia funkcjonowanie według sztywnych zasad, bez konieczności wiary i interwencji Boga.\n\nKiedy Żydzi dowiedzieli się, że Piotr jadł z mężami nieobrzezanymi, natychmiast zareagowali z powodu swoich kulturowych przekonań.\n\nPiotr jednak przypomniał sobie, że Bóg dał obietnicę chrztu w Duchu Świętym poganom i że jest jedna owczarnia i jeden pasterz (J 10,16).\n\nWażne jest, czy znamy dzisiaj wszystkie nauki na temat funkcjonowania Kościoła. \n\nPierwszy Kościół przechodził proces uczenia się i rozwiązywania problemów przez długie lata.\n\nNie możemy mówić, że wszystko jest ustalone i nie będzie potrzeby zmian. To pokazuje nasz stosunek do Ducha Świętego i konieczność przemian, przez które musimy przejść jako ludzie i Kościół.\n\nPrzypominam: „Wszystkie drogi człowieka wydają mu się czyste, lecz Pan bada duchy.” Potrzebujemy krytyki, krytycznego myślenia i dyskusji, aby być świadomymi drugiej strony i rozumieć różnice.\n\nNie mówimy tutaj o grzechu, ale o różnicach kulturowych, które mogą zamykać drogę naprzód.\n\nBóg interweniował w pierwszym Kościele, by otworzyć drogę do pogan i pokazać pełnię Jego działania.\n\nBóg dziś też używa dyskusji, rozmowy, krytyki, jeśli są wykonywane w dobrej wierze.\n\nBez tego nie będziemy mogli spełnić kluczowego kryterium biblijnego: „Tych, których Duch Boży prowadzi, są dziećmi Bożymi” (Rz 8,14).\n\nKrytyka jest przykrym doświadczeniem. Wolimy słyszeć zgodę niż sprzeciw.\n\nAle dowiadywanie się, że czegoś nie wiemy lub byliśmy w błędzie, jest dobre, bo prowadzi do pokory, nie pychy.\n\nObcinając krytykę, obcinamy zdolność innych do wygładzania naszego charakteru i naszego zbyt ostrego podejścia.\n\nPierwszy Kościół przeszedł przez taki proces, który był niezbędny do wprowadzania Bożych zmian — w sprawach znacznie bardziej kluczowych niż te, z którymi my borykamy się dzisiaj.\n\nDlatego musimy pamiętać, by nie zamieniać prawdy duchowej na kulturę, by rozumieć różnicę między prawem Bożym a tym, co przez interpretację nakładamy na ludzi.\n\nTo jest ważne, zwłaszcza gdy widzimy, że zarzuty, które podnosili Żydzi wobec Piotra i Korneliusza, opierały się na interpretacji, a nie bezpośrednio na prawie.\n\nI wierzę, że możemy w taki sam sposób popełniać błędy w naszym życiu osobistym i w kościele."
+  },
+  "cover": "/images/covers/bJLBy9S036g.webp"
+}

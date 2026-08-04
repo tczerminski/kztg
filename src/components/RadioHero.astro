@@ -1,0 +1,122 @@
+---
+import { t, type Locale } from "../i18n/utils";
+import LangSwitcher from "./LanguageSwitcher.astro";
+import ServicesCard from "./ServicesCard.astro";
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+---
+<section id="radio" class="relative min-h-screen flex items-center justify-center text-gray-900 overflow-hidden">
+  <video
+    class="absolute inset-0 w-full h-full object-cover"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    poster="/images/video-poster.webp"
+  >
+    <source src="/videos/background.mp4" type="video/mp4" />
+  </video>
+  <div class="hero-overlay absolute inset-0 bg-linear-to-r from-black/70 via-black/60 to-black/50"></div>
+
+  <LangSwitcher locale={locale} variant="hero" />
+
+  <div class="mobile-hero-brand md:hidden absolute inset-0 flex flex-col items-center justify-start pt-24 z-10 pointer-events-none">
+    <div class="w-36 h-36 rounded-full shadow-xl overflow-hidden ring-4 ring-white/90">
+      <img src="/images/logo.jpg" alt="Logo" class="w-full h-full object-cover" />
+    </div>
+    <p
+      class="mt-10 text-white text-4xl text-center px-6"
+      style="font-family: &quot;Dancing Script&quot;, cursive; font-weight: 700; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);"
+      set:html={t(locale, "site.name.mobile")}
+    />
+  </div>
+
+  <div class="relative z-10 w-full max-w-screen-2xl px-6 py-16 pb-12 text-white radio-content-desktop">
+    <div class="grid w-full items-center gap-10 md:grid-cols-2">
+      <div class="w-full md:rounded-2xl md:border md:border-white/25 md:bg-black/30 md:p-6 md:backdrop-blur-sm">
+        <div>
+          <p class="text-sm uppercase tracking-[0.3em] text-[#dce7ff] mb-4">{t(locale, "radio.label")}</p>
+          <h1 class="text-3xl sm:text-4xl md:text-6xl font-semibold leading-tight mb-6">{t(locale, "radio.heading")}</h1>
+          <p class="text-base sm:text-lg md:text-xl text-gray-100 mb-10 max-w-3xl radio-desc-desktop">
+            {t(locale, "radio.desc")}
+          </p>
+        </div>
+        <div class="w-full pb-8 md:pb-0">
+          <div class="radio-inline-player">
+            <button
+              id="radioPlayBtn"
+              type="button"
+              class="radio-inline-player__toggle"
+              data-radio-toggle
+              aria-label={t(locale, "radio.playAriaLabel")}
+            >
+              <svg data-radio-play-icon xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+              <svg data-radio-pause-icon xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="hidden">
+                <rect x="6" y="4" width="4" height="16" />
+                <rect x="14" y="4" width="4" height="16" />
+              </svg>
+            </button>
+            <div class="radio-inline-player__body">
+              <span class="radio-inline-player__label">{t(locale, "radio.live")}</span>
+              <canvas class="audio-visualizer radio-inline-player__visualizer" data-radio-visualizer aria-hidden="true"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="desktop-services-card w-full md:justify-self-center">
+        <ServicesCard locale={locale} variant="hero" />
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator md:hidden" data-scroll-target="radio-mobile">
+    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+    <p class="text-white text-xs tracking-widest mb-0">{t(locale, "scroll.down")}</p>
+  </div>
+  <div class="scroll-indicator-desktop" data-scroll-target="sermons">
+    <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2">
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+    <p class="text-white text-xs tracking-widest mb-0">{t(locale, "scroll.down")}</p>
+  </div>
+</section>
+
+<section id="radio-mobile" class="mobile-radio-section bg-white px-6 py-10 text-gray-900">
+  <p class="mb-2 text-sm uppercase tracking-[0.3em] text-[#5a6f9f]">{t(locale, "radio.label")}</p>
+  <h2 class="mb-4 text-2xl font-semibold">{t(locale, "radio.heading")}</h2>
+  <p class="mb-8 text-base text-gray-600">{t(locale, "radio.desc")}</p>
+  <div class="radio-inline-player radio-inline-player--mobile">
+    <button
+      id="radioMobilePlayBtn"
+      type="button"
+      class="radio-inline-player__toggle"
+      data-radio-toggle
+      aria-label={t(locale, "radio.playAriaLabel")}
+    >
+      <svg data-radio-play-icon xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <polygon points="5 3 19 12 5 21 5 3" />
+      </svg>
+      <svg data-radio-pause-icon xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="hidden">
+        <rect x="6" y="4" width="4" height="16" />
+        <rect x="14" y="4" width="4" height="16" />
+      </svg>
+    </button>
+    <div class="radio-inline-player__body">
+      <span class="radio-inline-player__label">{t(locale, "radio.live")}</span>
+      <canvas class="audio-visualizer radio-inline-player__visualizer" data-radio-visualizer aria-hidden="true"></canvas>
+    </div>
+  </div>
+</section>
+
+<section id="nabozenstwa-mobile" class="mobile-services-section bg-gray-50 px-6 py-16 text-gray-900">
+  <ServicesCard locale={locale} variant="mobile" />
+</section>

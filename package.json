@@ -1,0 +1,40 @@
+{
+  "name": "kztg",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:worker": "wrangler dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "typecheck": "astro check",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tczerminski/kztg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tczerminski/kztg/issues"
+  },
+  "homepage": "https://github.com/tczerminski/kztg#readme",
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@astrojs/sitemap": "^3.7.3",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.1.6",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.118.0"
+  },
+  "dependencies": {
+    "@sentry/browser": "^10.69.0",
+    "driver.js": "^1.8.0",
+    "fuse.js": "^7.5.0"
+  }
+}

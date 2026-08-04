@@ -1,0 +1,121 @@
+{
+  "date": "2024-07-03",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/_0shujaVLts/_0shujaVLts.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Wszystko ma swój czas i porę - I cz. 1",
+  "summary": "Tematem wykładu jest Boże działanie i porządek czasu, ilustrowany cytatem z Księgi Kaznodziei 3,1: „Wszystko ma swój czas i każda sprawa pod niebem ma swoją porę”. Przedstawiono różne aspekty czasu – fizyczny i duchowy – oraz etapy życia, podkreślając, że Boże plany spełniają się zgodnie z ustalonym porządkiem, a rozumienie znaków czasu jest ważne dla duchowego wzrostu i rozeznania.",
+  "duration": 3834,
+  "translations": {
+    "en": {
+      "title": "Everything Has Its Time and Season - Part 1",
+      "summary": "\"Everything has its time, and every matter under heaven has its season\" – these words from the Book of Ecclesiastes reveal God's guidance through every stage of life, both physical and spiritual. This sermon explores how to recognize God's timing amidst life's changes and challenges, discovering hope and purpose along the way. The living Word of God invites us to spiritual growth right when it's needed most."
+    },
+    "uk": {
+      "title": "У всьому свій час і пора - Частина 1",
+      "summary": "«У всьому свій час і кожна річ під небом має свою годину» — ці слова Книги Проповідника відкривають Боже провідництво на кожному етапі життя, як фізичного, так і духовного. Проповідь показує, як у мінливості долі та випробуваннях розпізнати Божий час, знаходячи надію та сенс. Живе Слово Боже запрошує до духовного зростання саме тоді, коли це найпотрібніше."
+    },
+    "ta": {
+      "title": "ஒவ்வொன்றுக்கும் தன் காலமும் நேரமும் உண்டு - பகுதி 1",
+      "summary": "“ஒவ்வொன்றுக்கும் தன் காலமும், விண்ணுலகம் முழுவதும் ஒவ்வொரு காரியத்துக்கும் தன் நேரமும் உண்டு” – இந்த வார்த்தைகள்kaznodziei புத்தகத்தில் உள்ளன, தேவனுடைய வழிகாட்டுதலை வாழ்க்கையின் ஒவ்வொரு கட்டத்திலும், உடல் மற்றும் ஆன்மீக தளங்களில் வெளிப்படுத்துகின்றன. இந்த பிரிவுரை, வாழ்க்கையின் மாற்றங்கள் மற்றும் சவால்களில் தேவனுடைய நேரத்தை அறிந்து, நம்பிக்கையும் குறிக்கோளையும் கண்டுபிடிப்பது எப்படி என்பதை காட்டுகிறது. உயிரின்மிகு தேவ வார்த்தை, தேவையான நேரத்தில் ஆன்மீக வளர்ச்சிக்காக அழைக்கிறது."
+    },
+    "de": {
+      "title": "Alles hat seine Zeit und seine Stunde – Teil 1",
+      "summary": "„Alles hat seine Zeit, und jede Angelegenheit unter dem Himmel hat ihre Stunde“ – diese Worte aus dem Buch Prediger zeigen Gottes Führung in jeder Lebensphase, sowohl körperlich als auch geistlich. Die Predigt zeigt, wie man in den wechselnden Schicksalslagen und Herausforderungen Gottes Zeit erkennt und dabei Hoffnung und Sinn findet. Das lebendige Wort Gottes lädt genau dann zum geistlichen Wachstum ein, wenn es am dringendsten gebraucht wird."
+    },
+    "es": {
+      "title": "Todo tiene su tiempo y su momento - Parte 1",
+      "summary": "“Todo tiene su tiempo y todo lo que se quiere debajo del cielo tiene su hora” – estas palabras del Libro del Eclesiastés muestran la guía divina en cada etapa de la vida, tanto física como espiritual. El sermón revela cómo, en medio de la incertidumbre y los desafíos, reconocer el tiempo de Dios nos permite encontrar esperanza y propósito. La Palabra viva de Dios invita al crecimiento espiritual justo cuando más lo necesitamos."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "1 Moj",
+      "Ek",
+      "Iz",
+      "Kazn",
+      "Mt",
+      "J",
+      "Rz",
+      "1 Kor",
+      "2 Kor",
+      "Ef",
+      "1 P",
+      "Obj"
+    ],
+    "en": [
+      "Gen",
+      "Exod",
+      "Isa",
+      "Eccl",
+      "Matt",
+      "John",
+      "Rom",
+      "1 Cor",
+      "2 Cor",
+      "Eph",
+      "1 Pet",
+      "Rev"
+    ],
+    "uk": [
+      "Бут",
+      "Вих",
+      "Іс",
+      "Екл",
+      "Мт",
+      "Ів",
+      "Рим",
+      "1 Кор",
+      "2 Кор",
+      "Еф",
+      "1 Пт",
+      "Об"
+    ],
+    "ta": [
+      "ஆதியாகமம்",
+      "திரவியம்",
+      "ஐசயா",
+      "படிக்கும்",
+      "மத்தேயு",
+      "யோவான்",
+      "ரோமர்",
+      "1 கொரி",
+      "2 கொரி",
+      "எபேசியர்",
+      "1 ப தீமொ",
+      "வெளிப்பாடு"
+    ],
+    "de": [
+      "1 Mose",
+      "Ex",
+      "Jes",
+      "Koel",
+      "Matt",
+      "Joh",
+      "Röm",
+      "1 Kor",
+      "2 Kor",
+      "Eph",
+      "1 Petr",
+      "Offb"
+    ],
+    "es": [
+      "Gén",
+      "Éx",
+      "Is",
+      "Ecl",
+      "Mat",
+      "Juan",
+      "Rom",
+      "1 Cor",
+      "2 Cor",
+      "Ef",
+      "1 Pe",
+      "Apoc"
+    ]
+  },
+  "transcript": {
+    "pl": "Rozpoczniemy dzisiaj taki cykl wykładów. Będziemy rozważać coś, co dotyczy każdego z nas, a mianowicie – tytuł kilku tych wykładów to *Wszystko ma swój czas i porę*.\n\nCzas towarzyszy ludziom na ziemi od momentu stworzenia. Możemy wyróżnić trzy wielkości czasu: czas przeszły, który możemy po prostu, kiedy mamy dobrą pamięć, sięgać pamięcią; czas teraźniejszy – teraz tu stoję, wy mnie słuchacie, jesteśmy w czasie teraźniejszym i on też nam jest wiadomy; oraz czas przyszły, który jest pewnego rodzaju niewiadomą. To, co przed chwilą powiedziałem, już jest w czasie przeszłym, a czas nieustannie biegnie do przodu.\n\nBardzo wielu ludzi, cytując pewne rzeczy, z którymi mogą mieć problem, powołuje się na Słowo Boże, mówiąc, że dla Boga tysiąc lat jest jak jeden dzień, i takie teologiczne stwierdzenia wykorzystują do usprawiedliwiania pewnych rzeczy. Ale to tylko dla Boga tysiąc lat jest jak jeden dzień, a dzień jak tysiąc lat. Nam, ludziom, czas na ziemi jest dany – o tym trochę później będziemy mówić.\n\nW Słowie Bożym jest też takie sformułowanie, że są czasy, są pokolenia. Każde zdarzenie, każda rzecz, która się dzieje na ziemi, ma swoje miejsce w czasie. Nasze życie również Bóg trzyma w ręku, a pewne procesy zachodzące nawet w naszym organizmie są umiejscowione w czasie: jest czas niemowlęcy, następnie czas młodzieńczy, jak mówi Słowo Boże – czas młodzieńczej energii, później czas dojrzały, a następnie czas, kiedy jesteśmy sędziwymi, starszymi osobami. Jak mówi Słowo Boże, Bóg darował nam, jeśli mamy siły, 70–80 lat, a też wiemy, że po potopie Bóg rzekł, iż życie człowieka będzie trwało około 120 lat.\n\nWidzimy więc, że Bóg precyzyjnie działa w czasie. Otóż, potwierdzając tę tezę, otwórzmy Księgę Kaznodziei Salomona, rozdział trzeci, i przeczytajmy pierwszy werset: „Wszystko ma swój czas i każda sprawa pod niebem ma swoją porę”.\n\nDowiadujemy się więc ze Słowa Bożego, że wszystko ma swój czas. Jak trochę wspomniałem, moglibyśmy otworzyć dyskusję, bo każdy z nas troszeczkę inaczej odczuwa czas. Zwierzęta również, z powodu przemiany materii, odczuwają czas inaczej, choć on biegnie cały czas dokładnie tak samo. 24 godziny tworzą dobę, w tych 24 godzinach jest wschód słońca, jest zenit, południe, a potem zachód słońca, i my podzieliliśmy ten czas na 24 godziny, które się cyklicznie powtarzają. Są też podzielone pory roku: wiosna, lato, jesień, zima. Może jeszcze ktoś w innej szerokości geograficznej odmierza czas inaczej? Odmierzamy też czas datując dni, tygodnie, miesiące, lata, wieki, i znajdziemy takie określenia także w Słowie Bożym, które mówi o wiekach i tak dalej.\n\nWidzimy więc, że bez przerwy poruszamy się również w czasie. Słowo Boże jest napisane także w kontekście eonów czasu. Prorocy prorokowali, zapowiadali rzeczy, które mają się wypełnić w swoim czasie. Bóg jest tym, który panuje nad tym, co ma się wydarzyć. On jest ponadczasem i zna wszystko – od momentu, kiedy powstała ziemia, do chwili, gdy dzieła ludzkie na niej spłoną. Wie, kiedy to nastąpi, a także – w swym czasie – nadejdzie nowe niebo i nowa ziemia.\n\nJest też czas, gdy ci, którzy nie wybiorą tej arki, jaką jest Pan nasz Jezus Chrystus – bo również w swoim czasie Bóg przygotował jezioro ognia i siarki płonące dla szatana i jego aniołów. Natomiast ludzie, którzy nie znajdą się w Królestwie Bożym, znajdą się tam, ale Bóg nie przygotował tego dla ludzi. Dla ludzi Bóg przygotował coś zupełnie innego – o tym jeszcze powiemy.\n\nPierwszy czas na ziemi był dobrym czasem. Bóg umieścił człowieka w ogrodzie Eden i był to dobry czas dla człowieka. W ogrodzie Eden były dwa drzewa: drzewo życia i drzewo poznania dobra i zła. Do dziś nie potrafię sobie odpowiedzieć, dlaczego człowiek wybrał poznanie dobra i zła. Wiem jednak, że człowiek chciał być jak Bóg – to kłamstwo, które wtedy powiedział mu przeciwnik Boży, szatan. W wyniku tego ludzie zaczęli znajdować się w złym czasie. Zostali usunięci z ogrodu Eden – nagle wiele rzeczy zaczęło im się nie układać tak, jak Bóg chciał. Ale Bóg w swym czasie zapowiedział, że będzie takie pokolenie, w którym narodzi się Jezus Chrystus, przynosząc wyzwolenie ludziom.\n\nTak jak czytaliśmy, wszystko ma swój czas, a każda sprawa pod niebem ma swoją porę. Wiele pokoleń czekało na Mesjasza, aż w Izraelu się pojawi. My żyjemy już w czasie, kiedy wiele proroczych zapowiedzi dotyczących Zbawiciela się wypełniło. Można powiedzieć, że dzisiaj jest czas łaski – amen – dla nas wszystkich. To dobra wieść.\n\nJednak ziemia jest w czasie skażenia. Bóg później wypowiedział na nią przekleństwo, mówiąc: „będziecie w pocie czoła pracować, a ziemia będzie rodziła chwasty” i wiele innych problemów. Dzisiaj jest to dla ziemi zły czas. Nie byliśmy w ogrodzie Eden i nie widzieliśmy tego, ale współczesne naukowe tezy mówią, że kiedyś na całym globie panował jeden klimat, o bardzo małej amplitudzie, z innymi warunkami plonowania i ciśnienia – to są hipotezy. Dziś, gdy patrzymy na to, co się dzieje zarówno wśród ludzi, jak i w naturze, widzimy, że to zły czas.\n\nSłowo Boże mówi: „a kiedy będą mówić pokój i bezpieczeństwo, wtedy nagle na nich przyjdzie zagłada”. Pan Jezus też zwrócił uwagę na to, że potrafimy rozpoznać znaki na niebie, ale znaki czasu, wypełnienia się pewnych wydarzeń, albo nie chcemy, albo nie potrafimy rozpoznać. Żyjemy w czasach końcowych, które będą złe.\n\nTeraz przyjrzyjmy się definicji naukowej czasu, bardzo prostej. Nie jestem człowiekiem ścisłym, raczej humanistą, więc przeczytam najprostszą definicję, która trochę nam określi, czym jest czas: wielkość fizyczna określająca kolejność zdarzeń i odstępy między zachodzącymi w tym samym miejscu zdarzeniami.\n\nDalej są opisywane różne czasy i momenty, dziś ich nie będziemy komentować szczegółowo, choć są bardzo ciekawe. Przykładowo, jest czas rodzenia i czas umierania. Doznajemy tych czasów: widzimy czas rodzenia i czas umierania. Ale Bóg przewidział też, w wymiarze duchowym, czas narodzenia się na nowo „z ducha” – amen. Ten czas jest dostępny dla wszystkich. Czas umierania w wymiarze duchowym to czas umierania dla świata.\n\nWidzimy więc, że możemy obserwować wymiar fizyczny, ale też istnieje wymiar duchowy. Wielu ludzi dziś się naradza dla Boga i umiera dla świata. Są przez świat postrzegani dziwnie, ale taka jest wola Boża, aby był czas narodzenia i czas umierania. W planie Bożym, gdy w Pierwszej Księdze Mojżeszowej było zapowiedź, że będzie pokolenie, które „z niewiasty zdepcze szatanowi głowę” – jest to również ten czas, który dzisiaj się wypełnia.\n\nDla nas jest to wspaniałe – łaska, która nas spotkała, jest umieszczona w czasie. Słowo Boże mówi: jest czas sadzenia i czas wyrywania tego, co zasadzono. Jezus w przypowieściach mówił o winnicy: jest Winogrodnik, jest winna latorośl wszczepiona w krzew winny. To jest obraz tego, co dzieje się również w sferze duchowej w nas.\n\nWidzimy też czas wyrywania: prorocy zapowiedzieli, że naród izraelski, ci, którzy nie będą posłuszni Słowu Bożemu, zostaną wyrwani. W Słowie Bożym czytamy, że Bóg ma moc wyrwać, zasadzić i wszczepić. Fizycznie to także obserwujemy: chcąc coś zjeść, musimy zasadzić i potem wyrwać to, co zasadziliśmy.\n\nPodobnie w duchowości: chcąc być ludźmi duchowymi, musimy zasiać w naszych sercach Słowo Boże i wyrwać z serca zło. To alegoria, ale jest swój czas. Wielu ludzi myśli, że wszystko to dzieje się od razu, jak w magicznym zaklęciu, ale obserwując życie, widzimy, że Boże procesy, wszystkie te obiecane w Jezusie Chrystusie, są umieszczone w czasie.\n\nMamy czas niemowlęcy – Słowo Boże mówi, abyśmy pragnęli prostego, czystego mleka, żeby wzrastać – czas, gdy ciało jeszcze domaga się tego. Są też czasy, gdy mamy być dojrzali duchowo. To nie jest tak, że od razu po narodzeniu się na nowo stajemy się doskonałymi mężami wiary. Paweł mówił, że gdy był niemowlęciem w wierze, mówił jak niemowlak. Bóg przewidział wszystkie procesy zachodzące w nas i na ziemi, które są umieszczone w czasie.\n\nJest też czas zabijania i czas leczenia. Powinniśmy „zabić” starego człowieka – obraz świata, aby nie rządził nami. Bóg dobrze stworzył człowieka i umieścił w bardzo dobrym miejscu. Dziś nie jest miejsce na opowiadanie o tym, jak się to stało, bo wszyscy znamy tę historię. Musimy jednak zdawać sobie sprawę, żeby dla świata umierać tak, jak umarł Chrystus, abyśmy razem z Nim mogli zmartwychwstać – amen.\n\nProces „zabijania” starego człowieka jest trudny, Biblia mówi: „Zzłóżcie z siebie starego człowieka”. Niebezpieczeństwa jest wiele, ponieważ siły ciemności – szatan, kłamca i fałszerz Słowa Bożego – czynią wszystko, aby nas zwieść. Nawet kusił samego Pana Jezusa Słowem Bożym.\n\nMamy łaskę taką samą jak zawsze, ale jest też czas leczenia. Bóg przewidział, że jest czas leczenia. Rozpoczął się on razem z narodzinami Pana Jezusa. Zakon nie miał mocy zmienić człowieka, był jedynie obrazem tego, co miało nastąpić w Jezusie Chrystusie. Jan Chrzciciel był największym w tamtym królestwie, ale w królestwie Pana Jezusa Chrystusa większy jest od niego każdy, kto narodzi się na nowo i przyjmie leczenie Ducha Świętego.\n\nDuch Święty jest budowniczym – jest czas leczenia. Jezus Chrystus jest lekarzem – amen. Często skupiamy się na wyleczeniu ciała, ale dzisiaj apeluję, abyśmy skupili się na leczeniu duszy. Dusza i ciało muszą być zachowane na dzień spotkania z Panem Jezusem w uświęceniu. Bóg przewidział czas leczenia.\n\nCud wyleczenia się zdarza, choć nie często, to Bóg przewidział dla nas czas, w którym następuje powolne leczenie skażenia, które odziedziczyliśmy od momentu usunięcia pierwszych rodziców z ogrodu Eden – to właśnie nazywamy grzechem pierworodnym. Różni ludzie mają różne teorie na ten temat, ale obserwując świat i wydarzenia, widzimy, że to tak nie działa.\n\nJeśli jest czas leczenia, to Duch Święty współdziała ku dobremu z każdym, kto miłuje Boga – amen. Popatrzmy dziś z perspektywy leczenia tego, co nas zabija, np. zamysł ciała to śmierć – w wielu fragmentach Biblii to jest jasno powiedziane. Mamy wyleczyć zamysły ciała.\n\nNa tę duchową chorobę jest recepta, jak czytamy w listach apostoła Pawła: odnowić umysł przez Słowo Boże, myśli mieć Chrystusa. Znamy te zalecenia i wiemy, że Bóg dał nam wszystko, czego potrzebujemy. Idziesz do lekarza, a lekarz wypisuje ci receptę. Wiary potrzebujemy, by przyjąć tę receptę i wierzyć, że nam pomoże.\n\nObserwując świat i zjawiska, dowiadujemy się też, że Bóg mówi o burzeniu szatańskich warowni. Bóg tego świata będzie starał się atakować nasze ciało, zmysły, duszę, a nawet ducha – bo duch można również zająć przez siły ciemności. Jednak Bóg przewidział czas burzenia tych warowni. Daje nam elementy do tego, ale po zburzeniu nie zostaje pustka, bo jest czas budowania.\n\nBiblia mówi o budowaniu, my mamy się budować jako żywe kamienie. Mamy się wzajemnie dopasowywać do budowli Bożej. Nasze ciało jest zbudowane z organów, które się wspomagają – tak i my, duchowo, mamy funkcjonować jak ciało, wzajemnie się wspierając.\n\nJest więc czas budowania – od momentu nowego narodzenia aż do chwili, gdy Bóg zabierze naszą duszę. Słowo Boże mówi o czasie burzenia i czasie budowania.\n\nJest czas płaczu i czas śmiechu. Wiem, że płacz jest bardzo ważny – Bóg stworzył nas też z tą możliwością. Mówiłem już kiedyś o łzach – są łzy gorzkie i łzy radości. Jest też czas płaczu, który ma oczyścić. Piotr gorzko zapłakał po swoim zaparciu się Pana Jezusa, ale ten płacz został przez Boga oceniony, i Piotr nie został wykreślony z Księgi Żywota.\n\nŁzy to także ważny balsam dla serca. Prawdziwy mężczyzna nie płacze? Prawdziwy chrześcijanin płacze – płacze nad sobą i nad tym, co dzieje się wokół niego. Bóg jest czuły na nasze łzy.\n\nJest czas śmiechu. Wielu dziś szydzi z wierzących, ale nigdy nie zaznali radości w Duchu Świętym, która jest szczególna i powinna być doświadczeniem dzieci Bożych – radość, pląsy, hymn chwały Bogu. I ten czas radości jest przeznaczony dla nas wszystkich.\n\nWszystko to towarzyszy nam na ziemi: płacz, doświadczenia, radość. Odchodzą nasi bliscy, chcielibyśmy ich zatrzymać, ale Bóg trzyma czas w swoich rękach i wie, dlaczego tak się dzieje – nawet jeśli my nie rozumiemy. On często wspomaga w trudnych chwilach.\n\nSą też czasy narzekania i pląsów. Narzekamy często: na rząd, na brata lub siostrę, na życie, na wzrost cen prądu. Przeszedłem przez wiele takich narzekań. Biblia jednak mówi, abyśmy narzekali przede wszystkim na nasze grzechy przed Bogiem, aby mogły one zostać usunięte w czasie leczenia.\n\nNarzekajmy na to, co złe w nas samych, a Bóg nas wspomoże, bo to obiecał: „Przyjdźcie do Mnie, a wyczyścimy was, choćbyśmy byli jak śnieg”. To wspaniała obietnica!\n\nW Starym Testamencie za grzech była kara śmierci, ale w Jezusie Chrystusie jest łaska i dar życia. Żyjemy w tym czasie łaski. A gdy doświadczymy Bożego dotknięcia, możemy śpiewać i cieszyć się niezależnie od okoliczności.\n\nKończąc dzisiejsze rozważania – jest czas szukania i czas gubienia, czas przechowywania i odrzucenia, czas rozdzierania i zszywania, czas milczenia i mówienia, czas miłowania i nienawidzenia, czas wojny i czas pokoju.\n\nNiektórzy twierdzą, że starszy powinien być mężem jednej żony, trzeźwym, umiarkowanym, dobrym nauczycielem – to wartości, które oceniają przydatność do służby. Nie ma tu mowy o wszczemźliwości (całkowitej powściągliwości) – takie praktyki jak tzw. „śluby jozefowe” mogą wyrządzać wielką szkoda. Bóg przewidział dobre rzeczy dla nas podczas pielgrzymki na ziemi.\n\nChrześcijanie toczą bój – ale nie między sobą, lecz z władcami ciemności i duchami nieczystymi na wyżynach niebieskich. Mamy się ostać po dokonaniu wszystkiego.\n\nPan Jezus mówi: „Pokój mój daję wam, nie jak świat daje”. Czy zastanawialiśmy się, jak to jest mieć pokój Boży? Jak nie reagować na otaczający nas chaos i ludzkie pragnienia, które nie dają trwałego pokoju?\n\nPieniądze – nie chodzi o to, by ich nie mieć, ale umiłowanie pieniędzy jest początkiem wszelkiego zła. Dla dzieci Bożych – mamy mieć co jeść, gdzie spać i w co się przyodziać. To wystarczy.\n\nŚwiat skomunikowany, pełen reklam, próbuje nam wmówić, że potrzebujemy wszystkiego, aby być szczęśliwym i mieć pokój, ale prawda jest inna. Znani ludzie, bogaci, często mają problemy – czy mają pokój? Nie.\n\nPokój mamy z Bogiem, przez Pana naszego Jezusa Chrystusa. Tylko dzięki Niemu mamy dostęp do łaski, w której stoimy.\n\nList do Rzymian, rozdział 5, werset 1 mówi: „Usprawiedliwieni tedy z wiary, pokój mamy z Bogiem przez Pana naszego Jezusa Chrystusa, dzięki któremu też mamy dostęp przez wiarę do łaski, w której stoimy, chlubimy się nadzieją chwały Bożej”. Możemy się chlubić, ale chlubimy się w nadziei, chlubimy się chwałą Boga – amen.\n\nPokój mamy z Bogiem, ale tylko przez Pana Jezusa Chrystusa. Występuje tu symbolika szaty weselnej – w przypowieściach Nowego Testamentu gospodarz pyta uczestnika wesela, dlaczego nie ma szaty – my wszyscy musimy być odpowiednio ubrani.\n\nNie tylko to: chlubimy się również z ucisków, bo ucisk wywołuje cierpliwość, cierpliwość doświadczenie, a doświadczenie nadzieję. Nadzieja nie zawodzi, ponieważ miłość Boża rozlana jest w naszych sercach przez Ducha Świętego.\n\nTo piękna obietnica zapisana w czasie teraźniejszym – nadzieja Boża nas nie zawiedzie tutaj na ziemi. Nawet w obliczu śmierci, którą wszyscy przejdziemy, bo jest czas umierania.\n\nWielu mówi: „Czekam na objawienie Ducha Świętego” – ale masz coś dobrego zrobić, to zrób, bo Bóg współdziała ku dobremu. My nie jesteśmy maszynami – mamy swoje zamysły i plany – ale mamy też słuchać Boga.\n\nPo drugiej stronie nie ma zamysłu ani działania – nie ma czyśćca, jak niektórzy myślą. Nie ma nic. Tam nie ma nadziei.\n\nBiblia mówi: „W krainie umarłych, dokąd idziesz, nie ma ani działania, ani zamysłu, ani poznania, ani mądrości”. I znów stwierdza, że nie najlepszym przypada nagroda ani zwycięstwo, które charakteryzują świat. Nagrodą jest życie wieczne w Jezusie Chrystusie – amen.\n\nSalomon mówi: „Nie najlepszym przypada nagroda, ani najmądrzejszym bogactwo ani uznanie, lecz odpowiedni czas i przypadek decydują o powodzeniu”. Odpowiedni czas to czas, w którym słyszymy głos Boży i możemy się nawrócić.\n\nKiedy usłyszysz Słowo Boże, nie zatwardzaj serca, bo to jest odpowiedni czas. Bóg przez Ducha Świętego przekonuje nas o grzechu.\n\nBiblia jeszcze mówi, że człowiek nie zna nawet swojego czasu. Jak ryba, która zostaje złowiona zdradliwą siecią, albo ptaki, które wpadają w sidła, tak synowie ludzie są uwikłani w złym czasie, który nagle na nich przypada.\n\nNa następny raz będziemy mówić o tym złym czasie i Bożych receptach, które towarzyszą wszystkim, którzy są pod słońcem.\n\nNiech Pan błogosławi nam wszystkim do następnej środy.\n\nAmen."
+  },
+  "cover": "/images/covers/_0shujaVLts.webp"
+}

@@ -1,0 +1,127 @@
+{
+  "date": "2024-11-24",
+  "preacher": "Tomasz Czermiński",
+  "title": "I Ks. Samuela cz. 3 - O służbie i rodzinie",
+  "summary": "Analiza historii Saula i Jonatana z 1 Księgi Samuela (rozdziały 13–14) ukazuje, jak rodzinne środowisko i relacje wpływają na duchowe życie i służbę chrześcijanina. Kontrast między nieposłuszeństwem Saula a odwagą Jonatana podkreśla znaczenie właściwego wzoru i wychowania w wierze. Tekst zwraca również uwagę na wagę wspólnoty w życiu Kościoła w obliczu współczesnego indywidualizmu.",
+  "duration": 3651,
+  "translations": {
+    "en": {
+      "title": "1 Samuel 3 - On Service and Family",
+      "summary": "The story of Saul and Jonathan reveals how family relationships and environment shape Christian life and service to God. Reflecting on the choice between individualism and community leads to a deeper understanding of true service—faithfulness to the calling that comes from God. This is an inspiring call to unite personal faith with commitment to the community, especially amid daily challenges."
+    },
+    "uk": {
+      "title": "Перша Книга Самуїла, розділ 3 – Про служіння та сім’ю",
+      "summary": "Історія Саула і Йонатана показує, як сімейні стосунки та оточення формують християнське життя і служіння Богові. Роздуми про вибір між індивідуалізмом і спільнотою приводять до розуміння справжнього значення служіння – вірності покликанню, яке походить від Бога. Це надихаючий заклик поєднувати особисту віру з активною участю в житті спільноти, особливо у щоденних викликах."
+    },
+    "ta": {
+      "title": "1 சாமுவேல் அத்தியாயம் 3 - சேவை மற்றும் குடும்பம் பற்றி",
+      "summary": "சவுலும் யோனாதானும் பாரம்பரிய உறவுகள் மற்றும் சூழல் எவ்வாறு கிறிஸ்துவ வாழ்க்கை மற்றும் கடவுளுக்கான சேவையை உருவாக்குகின்றன என்பதை வெளிப்படுத்துகின்றனர். தனிமனிதத்தன்மை மற்றும் சமூகத்தினைத் தேர்ந்தெடுப்பதில் உள்ள குழப்பம் மூலம் உண்மையான சேவையின் அர்த்தம் – கடவுளிடமிருந்து வரும் அழைப்புக்கு உறுதி ஆகியவற்றை புரிந்துகொள்ள முடிகிறது. இது தனிப்பட்ட மதிப்பீடுகளையும் சமூகத்திற்கான பங்கேற்பையும், குறிப்பாக தினசரி சவால்களில் இணைக்க அழைக்கும் ஊக்கமளிக்கும் ஒரு அழைப்பு."
+    },
+    "de": {
+      "title": "1. Samuel 3 - Über Dienst und Familie",
+      "summary": "Die Geschichte von Saul und Jonathan zeigt, wie familiäre Beziehungen und das Umfeld das christliche Leben und den Dienst an Gott prägen. Die Reflexion über die Wahl zwischen Individualismus und Gemeinschaft führt zum Verständnis der wahren Bedeutung des Dienstes – der Treue zu der Berufung, die von Gott kommt. Ein inspirierender Aufruf, persönlichen Glauben mit Engagement für die Gemeinschaft zu verbinden, besonders in den alltäglichen Herausforderungen."
+    },
+    "es": {
+      "title": "1 Samuel 3 - Sobre el servicio y la familia",
+      "summary": "La historia de Saúl y Jonatán muestra cómo las relaciones familiares y el entorno moldean la vida cristiana y el servicio a Dios. Una reflexión sobre la elección entre el individualismo y la comunidad conduce a entender el verdadero significado del servicio: la fidelidad al llamado que proviene de Dios. Una invitación inspiradora a combinar la fe personal con el compromiso hacia la comunidad, especialmente en los desafíos cotidianos."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "1 Sm 13",
+      "1 Sm 14",
+      "2 Tm 3",
+      "1 Tm 3",
+      "Tt 1",
+      "1 Tm 5",
+      "Mt 16",
+      "Mt 23",
+      "Obj 2",
+      "Obj 3",
+      "2 Kor",
+      "Ga",
+      "1 P"
+    ],
+    "en": [
+      "1 Sam 13",
+      "1 Sam 14",
+      "2 Tim 3",
+      "1 Tim 3",
+      "Titus 1",
+      "1 Tim 5",
+      "Matt 16",
+      "Matt 23",
+      "Rev 2",
+      "Rev 3",
+      "2 Cor",
+      "Gal",
+      "1 Pet"
+    ],
+    "uk": [
+      "1 Сам 13",
+      "1 Сам 14",
+      "2 Тим 3",
+      "1 Тим 3",
+      "Тит 1",
+      "1 Тим 5",
+      "Мт 16",
+      "Мт 23",
+      "Об’яв 2",
+      "Об’яв 3",
+      "2 Кор",
+      "Гал",
+      "1 Пт"
+    ],
+    "ta": [
+      "1 சமுவேல் 13",
+      "1 சமுவேல் 14",
+      "2 திமோத்தேயு 3",
+      "1 திமோத்தேயு 3",
+      "தீத்தூசு 1",
+      "1 திமோத்தேயு 5",
+      "மத்தேயு 16",
+      "மத்தேயு 23",
+      "வெளிப்படுத்தல் 2",
+      "வெளிப்படுத்தல் 3",
+      "2 கொரிந்தியர்",
+      "கலாத்தியர்",
+      "1 பெதுர்"
+    ],
+    "de": [
+      "1 Sam 13",
+      "1 Sam 14",
+      "2 Tim 3",
+      "1 Tim 3",
+      "Tit 1",
+      "1 Tim 5",
+      "Matt 16",
+      "Matt 23",
+      "Offb 2",
+      "Offb 3",
+      "2 Kor",
+      "Gal",
+      "1 Petr"
+    ],
+    "es": [
+      "1 Sam 13",
+      "1 Sam 14",
+      "2 Tim 3",
+      "1 Tim 3",
+      "Tit 1",
+      "1 Tim 5",
+      "Mat 16",
+      "Mat 23",
+      "Apoc 2",
+      "Apoc 3",
+      "2 Cor",
+      "Gal",
+      "1 Pe"
+    ]
+  },
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/nKjb0lpUmlw/nKjb0lpUmlw.opus",
+  "transcript": {
+    "pl": "Włączyłem? Jest ok, dobra. Niesamowicie zdumiony byłem dzisiejszym proroctwem podczas uwielbienia. Zobaczycie pewnie, że dzisiejsze kazanie będzie nawiązywać do podobnych tematów. Żyjemy w świecie, w którym promowany jest indywidualizm, ale taki indywidualizm w bardzo skrajnej formie. Nie interesuje nas, co się dzieje za płotem, coraz wyższe te płoty stawiamy i następuje coraz większa atomizacja społeczeństwa. I jest to problem nie tylko dla Kościoła. Z perspektywy chrześcijanina jest oczywiste, że jesteśmy wezwani do wychodzenia do ludzi, do interesowania się problemami ludzi wokół. Ale też z perspektywy ludzi spoza Kościoła to też nie jest możliwe. Przecież żyjemy w społeczeństwie, nie jesteśmy w stanie uciec od problemów, które są wokół nas, nawet gdybyśmy bardzo chcieli. I Bóg nas stawia w różnych miejscach. Bóg nas stawia i w pracy, i w szkole, ale też w rodzinie.\n\nDzisiaj chciałbym porozmawiać właśnie o tym, jak środowisko, w którym wzrastamy, w którym się wychowujemy, wpływa na nasze późniejsze losy w kontekście naszej służby i naszego życia z Chrystusem. Chciałbym po pierwsze przypomnieć dwa poprzednie kazania w telegraficznym skrócie. Omawialiśmy trzynasty i czternasty rozdział pierwszej księgi Samuela. A jeszcze zanim do tego przejdziemy, chciałem tylko zwrócić uwagę, że Jezus, gdy zwraca się do siedmiu kościołów w Objawieniu św. Jana – to są rozdziały drugi i trzeci – to właśnie zwraca się do kościołów. Mamy: do anioła kościoła w Efezie w pierwszym wersecie, w ósmym wersecie do anioła kościoła w Smyrnie, potem do anioła kościoła w Tiatyrze w trzecim rozdziale, do anioła kościoła w Sardes w pierwszym wersecie, potem w czternastym wersecie do anioła kościoła w Laodycei. Tak samo Paweł, kiedy zwraca się do Koryntian w drugim liście do Koryntian, zwraca się do Kościoła Bożego, nie do poszczególnych wierzących. Tak samo zwraca się do Galacjan, mówiąc: „Nierozumni albo głupi Galacjanie.” Piotr w pierwszym liście Piotra zwraca się też do Kościoła Bożego, do świętych. I my, będąc częścią tego świata zachodniego, też – nie wiem, sami oceńcie – ale z mojej perspektywy wydaje się, że akcentujemy bardzo ten indywidualny aspekt chodzenia z Chrystusem. Natomiast jest druga strona medalu. Jak mamy monetę, mamy awers i rewers. Jedna strona to ta indywidualna, ale druga to strona wspólnotowa. I nie powinniśmy o niej zapominać.\n\nWracając do tego, o czym mówiłem, czyli do przypomnienia dwóch poprzednich kazań – otwórzmy, proszę, nasze Biblie na pierwszej księdze Samuela, rozdział trzynasty. Zaczniemy od rozdziału trzynastego i przeczytajmy wersety od dwunastego do czternastego:\n\n„Wtedy powiedziałem” – to mówi Saul – „oto Filistyni zstąpią do mnie do Gilgal, a ja jeszcze nie zjednałem sobie Pana. Przezwyciężyłem się więc i złożyłem całopalenie.” Samuel powiedział do Saula: „Głupio postąpiłeś, nie zachowałeś przykazania Pana, swego Boga, który ci nadał. Pan bowiem teraz utwierdziłby twoje królestwo nad Izraelem aż na wieki, lecz teraz twoje królestwo się nie ostoi. Pan wyszukał sobie człowieka według swego serca i Pan ustanowił go wodzem nad swoim ludem, gdyż nie zachowałeś tego, co ci Pan rozkazał.”\n\nTutaj widzimy, że Saul, od rodu Saula, od samego Saula, zostanie odebrane królowanie nad Izraelem. Widzimy w czternastym wersecie, że skoro prorok Samuel mówi do Saula, że znalazł sobie człowieka według swojego serca, to znaczy, że nie wprost Saul tym człowiekiem się nie okazał, nie był tym człowiekiem. Mamy więc upadek Saula, tak to nazwijmy skrótowo.\n\nW tym samym rozdziale, w trzecim wersecie, czytamy: „Wtedy Jonatan pobił załogę Filistynów, która była w Geba, po czym usłyszeli Filistyni. Saul zadał więc trąbę po całej ziemi i powiedział: niech usłyszą o tym Hebrajczycy.” Więc mamy upadek Saula i czyn Jonatana. To on starł się z okupantami Izraela, działał.\n\nZobaczmy teraz czternasty rozdział. W drugim wersecie czytamy: „Saul zaś pozostał na krańcu Gibea pod drzewem granatu, które było w Migron, a lud, który był z nim, liczył około sześciuset mężczyzn.” Filistyni najechali ogromnymi siłami, ogromną armią Izrael i pustoszą na lewo i prawo wszystkie ziemie Izraela. A król Saul, od którego można by oczekiwać jakiegoś działania, leży pod drzewem granatu. W kontraście do niego jest jego syn Jonatan.\n\nW pierwszym wersecie czytamy: „Pewnego dnia Jonatan, syn Saula, powiedział do swego giermka: chodź, pójdziemy do załogi Filistynów, która jest po tamtej stronie, lecz swemu ojcu nic o tym nie powiedział.” W szóstym wersecie Jonatan powiedział do swojego giermka: „Chodź, pójdziemy do załogi tych nieobrzezanych. Może Pan zadziała dla nas, gdyż Panu nie trudno wybawić przez wielu czy też niewielu.” Znowu widzimy Jonatana w kontraście do jego ojca. Jonatan wydaje się idealnym człowiekiem według Bożego serca. Jest człowiekiem, który wchodzi w królewskie buty w idealny sposób. Jest mu drogi Izrael, jest mu drogi Bóg i nie waha się poświęcić swojego życia, zaryzykować swojego życia w takim szaleńczym ataku na Filistynów, w których była cała armia, a on tylko sam ze swoim giermkiem.\n\nSkończyliśmy więc i stwierdziliśmy, że Saul nie podołał swojemu powołaniu królewskiemu – można by nawet powiedzieć, że się mu sprzeniewierzył. Ale zastanówmy się nad innym aspektem relacji Saula i Jonatana. Nie tylko poprzez ten kontrast, o którym była mowa, bo będziemy dalej kontynuować rozważania z Księgi Samuela i dzisiejsze kazanie będzie spinało klamrą te dwa poprzednie, dlatego będę się do nich odwoływał.\n\nDzisiaj chciałbym, żebyśmy przyjrzeli się relacji, właśnie wzrastaniu Jonatana w rodzinie i temu, jakim ojcem dla Jonatana był Saul. Czy był dobrym przykładem? Czy Jonatan miał kogoś, na kim mógł się wzorować? Jak to jest możliwe, że Jonatan poszedł za Bogiem, w momencie kiedy w otoczeniu króla był król, który niespecjalnie interesował się Bożą wolą, i byli dworzanie, doradcy króla z pokolenia Heljego, któremu odebrano kapłaństwo? A propos Heljego, o którym również wspominaliśmy, weźmy Księgę Drugiego Tymoteusza, rozdział 3, werset 15: „I ponieważ od dziecka znasz Pisma Święte, które cię mogą uczynić mądrym ku zbawieniu przez wiarę, która jest w Chrystusie Jezusie.”\n\nTymoteusz sam nie nauczył się Pism Świętych, kiedy był dzieckiem. Ktoś musiał je przekazać, ktoś musiał go wychować w pobożności. Powiemy potem, kto to był tak naprawdę i że to też nie jest bez znaczenia.\n\nAle zanim przejdziemy dalej, o co mi chodzi? Odpowiedzmy sobie na pytanie: czym jest służba? Chciałbym uniknąć nieporozumień i przedstawić moje rozumienie służby, pozostawiając wam do oceny.\n\nWyobraźmy sobie, że jesteśmy niewolnikami, sługami na dworze jakiegoś urzędnika czy patrycjusza w starożytnym Rzymie. Jesteśmy urzędnikami, znaczy niewolnikami, którzy uczą dziecko takiego patrycjusza. Dostajemy listę poleceń do zrealizowania. Mamy wykonać polecenia i złożyć raport pod koniec dnia. Okazuje się jednak, że nie wykonałem połowy tych rzeczy. Jako usprawiedliwienie mówię, że to było bez sensu, mam lepszy pomysł, a to może poczekać.\n\nPomijam fakt, że z taką postawą nie dożyłbym starości, ale czy uznalibyśmy takiego sługę za posłusznego? Czy fakt, że coś mu się nie podoba, albo uważa, że jest bardziej zdolny do innych zadań, daje mu prawo do zignorowania polecenia swojego pana? Pan kazał coś zrobić, czemu tego nie zrobił?\n\nMożemy zadać sobie pytanie: kto tutaj jest sługą, a kto jest panem?\n\nDrugi obraz: jesteśmy rycerzami, powiedzmy, w średniowiecznej Francji, mamy suwerena, króla. Służymy królowi. Kiedy nas powoła na wojnę, idziemy na wojnę. Ale czy cały czas jest wojna? Nie, jesteśmy w domu, doglądamy gospodarstwa. Gdy dostaniemy wezwanie od króla, jesteśmy zobowiązani się stawić do służby.\n\nMamy więc dwa obrazy: wybieramy sobie to, co chcemy robić, bo nam się podoba, albo mamy okresy bezczynności przeplatane potężnym działaniem i wezwanie do wierności naszemu powołaniu. I proszę, otwórzmy pierwszy list do Tymoteusza, rozdział 3, wersety od 1 do 7:\n\n„Wiarygodne to słowa. Jeśli ktoś pragnie biskupstwa, pragnie dobrej pracy. Biskup ma być nienaganny, mąż jednej żony, czujny, trzeźwy, przyzwoity, gościnny, zdolny do nauczania, nieoddający się piciu wina, nieskłonny do bicia, niełakomy na brudny zysk, opanowany, niekłótliwy, niechciwy, dobrze rządzący własnym domem, trzymający dzieci w posłuszeństwie i szacunku. Jeśli bowiem ktoś nie umie rządzić własnym domem, jakże będzie mógł troszczyć się o Kościół Boży? Nie nowicjusz, żeby nie wbił się w pychę i nie wpadł w potępienie diabelskie. Musi mieć też dobre świadectwo od tych, którzy są na zewnątrz, żeby nie ściągał na siebie hańby i nie wpadł w sidła diabła.”\n\nZauważmy, że w kwalifikacjach biskupa (tu słowo „presbiteros”, czyli starszy) nie ma mowy o tym, że ma być widoczny, aktywny czy udzielać się w służbach. Mowa jest o jego rodzinie i tym, jak jest postrzegany. Dlaczego rodzina? Dlaczego dzieci są tak istotne?\n\nNawiążę tutaj do proroctwa, które słyszeliśmy – możemy nosić maski, mamy wpływ na to, co mówimy i jak się zachowujemy, ale nie mamy wpływu na to, jak zachowa się inny człowiek. Nie kontrolujemy tego, co myśli czy powie. Każdy, kto ma dzieci, wie, że dzieci czasem nie mają sekretów – powiedzą za dużo, nie za mało. Nie mamy się kierować deklaracjami, tylko owocami życia i wiernością w powołaniu, do którego Bóg powołuje każdego, kto ma rodzinę.\n\nMoże to nie jest lista zamknięta – warto mieć ten fragment z listu do Tytusa (kilkanaście stron dalej, pierwszy rozdział, wersety 5 i 9):\n\n„Zostawiłem cię na Krecie, abyś uporządkował, co tam jeszcze zostało do zrobienia i ustanowił w każdym mieście starszych, jak ci nakazałem. Jeśli ktoś jest nienaganny, mąż jednej żony, mający dzieci wierne, nieobwiniane o hulaszcze życie lub niekarność. Biskup bowiem, jako szafarz Boży, ma być nienaganny, niesamowolny, nieskory do gniewu, nieoddający się piciu wina, nieskłonny do bicia, niegoniący za brudnym zyskiem.”\n\nI po raz kolejny nie ma tam mowy o aktywności czy byciu na świeczniku, jest mowa o odpowiedzialności za siebie nawzajem.\n\nWracamy tu do początku, do atomizacji społeczeństwa i gubienia naturalnych więzi, które kiedyś były naturalne i powinny być teraz. Nie ma sytuacji, w której mąż mówi: „A moja żona ma swój rozum i robi, co uważa za słuszne.” Albo: „Mój syn jest już dorosły, mnie to nie interesuje, umywam ręce.” Tak to nigdy nie działało i nie powinno działać.\n\nJesteśmy nawzajem za siebie odpowiedzialni. Nie możemy machnąć ręką na to, jak ktoś żyje, ignorując jawny grzech, nie robiąc nic, jak kapłani Heli.\n\nA najmocniejszy fragment, według mnie, to znowu pierwszy list do Tymoteusza, musimy się cofnąć do rozdziału 5, wersetu 8:\n\n„A jeśli ktoś nie dba o swoich, a zwłaszcza o domowników, ten wyparł się wiary i jest gorszy od niewierzącego.”\n\nMamy więc pozorną sprzeczność: aktywny udział Jonatana w tym, co robił, ale nie jako pierwszy plan w swoim życiu; może się zdarzyć, że nie będziesz w swoim życiu pierwszoplanowym bohaterem, bracie i siostro. Może Bóg powołuje cię do służby rodzinie w cichości i pobożności, wychowując dzieci. Przykład Tymoteusza jest tego dobrym przykładem, bo jego wychowywały babcia i matka w wierze, a służbą ich było wychowanie sługi Bożego.\n\nDalej mamy Ewangelii według Mateusza, rozdział 23, werset 23:\n\n„Biada wam, uczeni w Piśmie i faryzeusze, obłudnicy, bo dajecie dziesięcinę z mięty, anyżu i kminku, a opuszczacie to, co ważniejsze w prawie: sąd, miłosierdzie i wiarę. To należało uczynić i tamtego nie zaniedbywać.”\n\nJezus pokazuje, że faryzeusze wybierają sobie kawałki, które im pasują, ignorując ważniejsze sprawy.\n\nJeszcze fragment z Mateusza, rozdział 16, werset 24:\n\n„Wtedy Jezus powiedział do swoich uczniów: jeśli ktoś chce pójść za mną, niech się wyprze samego siebie, weźmie swój krzyż i idzie za mną.”\n\nMamy się wyprzeć siebie, swoich pragnień, zdać na Boga, wykonywać to, czego Bóg od nas oczekuje.\n\nMożecie zapytać: „Co z Mojżeszem? Co z Piotrem?” Mojżesz miał rodzinę, ale nie ma o niej mowy w Piśmie Świętym, był wielkim sługą Bożym i zajmował się Izraelem, a rodziną się nie zajmował. Piotr był apostołem, Kefasem, miał żonę, teściową, ale niewiele o nich wiadomo.\n\nCo teraz? Czy to zaprzecza temu, co przed chwilą powiedziałem?\n\nOtwórzmy Księgę Wyjścia, rozdział 18, wersety 3 i 4, żeby potwierdzić fakty o Mojżeszu:\n\n„Wtedy Jetro, teść Mojżesza, wziął żonę Mojżesza Seforę, którą ten wcześniej odesłał, oraz jej dwóch synów, z których jednemu było na imię Gerszom, bo Mojżesz powiedział: jestem przybyszem w cudzej ziemi. Drugi zaś miał na imię Eliezer, bo mówił: Bóg mego ojca był moją pomocą i wybawił mnie od miecza Faraona.”\n\nPrzejdźmy teraz do Księgi Wyjścia, rozdział 4, wersety 24-26:\n\n„A w czasie drogi, w gospodzie, Pan zastawił drogę Mojżeszowi i chciał go zabić. Wtedy Sefora wzięła ostry kamień, odcięła napletek swojego syna i rzuciła go do jego stóp, mówiąc: naprawdę jesteś dla mnie oblubieńcem krwi.”\n\nMojżesz nie obrzezał syna, a miał taki obowiązek. Bóg miał do niego pretensje o to. Księga Wyjścia pokazuje, że Mojżesz od samego początku chciał pokazać, że Izrael to nie jest monarchia dziedziczna, jak wokół nich, dlatego wybrał Jozuego na następcę. Nie znaczy to, że zaniedbał rodzinę, wręcz przeciwnie – pokazuje pokorę Mojżesza, który usuwa się w cień, co później przynosi mu problemy.\n\nO pokorze Mojżesza czytamy w Księdze Liczb, rozdział 12, werset 3:\n\n„Mojżesz był człowiekiem bardzo pokornym, najbardziej ze wszystkich ludzi, którzy żyli na ziemi.”\n\nMamy zatem podsumowany wątek Mojżesza.\n\nA co z Piotrem? Potwierdzmy, że był żonaty i to uzasadnione. Ewangelia według Mateusza, rozdział 8, wersety 14–15:\n\n„A gdy Jezus przyszedł do domu Piotra, zobaczył jego teściową, która leżała w gorączce. Dotknął jej ręki, a gorączka opuściła ją. Ona wstała i usługiwała im.”\n\nTeściowa świadczy o tym, że Piotr miał żonę. Co z żoną? Niewiele więcej wiadomo; nie ma wzmianki o dzieciach. Historia Kościoła nie wspomina o dzieciach Piotra, możemy więc przypuszczać, że był bezdzietny. To sugeruje, że Bóg umożliwił mu poświęcenie się służbie.\n\nPiotr podróżował ze swoją żoną, ponieważ większość ludzi mieszkała na stałe w jednym miejscu. Kupcy musieli jednak często wędrować. Czy wtedy zostawiali rodziny? Nie. Rodzina najczęściej podróżowała razem z nimi.\n\nMożna powiedzieć, że było niebezpiecznie zostawiać rodzinę samą, bo mogli napadać bandyci, nie było policji, nikogo, kto by ich bronił.\n\nPodsumowując, przykład Tymoteusza pokazuje, że wychowanie w wierze wymagało zaangażowania całej rodziny, jak matka i babcia. Ostrzeżenie z listów Pawła wskazuje na istotę wierności w rodzinie.\n\nW Dziejach Apostolskich, rozdział 16, werset 1:\n\n„Przybył do Derbe, Listry, a oto był tam pewien uczeń imieniem Tymoteusz, syn pewnej Żydówki, która uwierzyła, ojca natomiast Greka.”\n\nOjciec był niewierzący, więc ciężar przekazania wiary i wychowania w pobożności spadł na matkę i babcię, co widać w drugim liście do Tymoteusza, rozdział 1, werset 5:\n\n„Pamiętając nieobłudną wiarę, która najpierw mieszkała w twojej babce Lois i w twojej matce Eunice.”\n\nTo pokazuje, że one nie umyły rąk, choć można by przypuszczać, że mogły się wycofać, ale służba rodziny wymaga zaangażowania wielu pokoleń.\n\nBył ktoś taki jak Augustyn z Hippony, ważny ojciec Kościoła. On w swoich Wyznaniach mówi, że jego matka ogromnie go „męczyła” modlitwą wstawienniczą i karceniem, co doprowadziło do jego przemiany i służby Kościołowi.\n\nJeszcze dwa krótkie tematy.\n\nCo zrobić, gdy jestem z rodziny niewierzącej? W Polsce wciąż więcej osób przychodzi z niewierzących rodzin do kościołów niż się w nich rodzi.\n\nCo zrobić z błędami popełnionymi w życiu, gdy brakowało wzorców? Odpowiedź jest jedna: nic nie możesz już z tym zrobić, nie da się cofnąć czasu ani usunąć wszystkich konsekwencji grzechów. Niektórych sytuacji nie da się naprawić.\n\nOtwórzmy Filipian, rozdział 3, wersety 13 i 14:\n\n„Bracia, ja o sobie nie myślę, że już pochwyciłem, lecz jedno czynię: zapominając o tym, co za mną, a zdążając do tego, co przede mną, biegnę do mety, do nagrody powołania Bożego, które jest w Chrystusie Jezusie.”\n\nPaweł mówi: Stare zostawiam za sobą, jestem nowym stworzeniem w Chrystusie, który wszystko czyni nowe.\n\nCo do pytania, dlaczego inni biegną szybciej? Może źle rozumiemy naturę biegu. W chrześcijaństwie nie ma miejsca na współzawodnictwo. To nasz bieg, trenujemy, by osiągnąć swój szczyt i otrzymać koronę zwycięstwa.\n\nMamy fragment z drugiego listu do Tymoteusza, rozdział 4, wersety 7 i 8:\n\n„Dobrą walkę stoczyłem, bieg ukończyłem, wiarę zachowałem. Odtąd odłożona jest dla mnie korona sprawiedliwości, którą da mi Pan, sędzia sprawiedliwy, nie tylko mnie, ale i wszystkim, którzy umiłowali Jego przyjście.”\n\nPaweł pisze to będąc w więzieniu, świadom, że czeka go śmierć.\n\nNa koniec poprośmy naszego Pana:\n\nProszę też o wierność Twojemu Słowu, Panie, i proszę, abyś obdarzył nas, rozbudził naszą miłość do Ciebie za dar zbawienia. Panie, byśmy Tobie służyli, byli Twoim królewskim kapłaństwem, oczekującym Twojego przyjścia i królowania. Porzuciwszy wszystko, co było przed nami i wszystko inne uznając za śmieci w porównaniu do Ciebie, Panie, skarbu naszego życia. Ojcze mój i Panie, proszę o to w Chrystusie Jezusie przez Ducha Świętego. Amen."
+  },
+  "cover": "/images/covers/nKjb0lpUmlw.webp"
+}

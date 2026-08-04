@@ -1,0 +1,13 @@
+---
+import SermonDetail from "../../components/SermonDetail.astro";
+import { getSermonsForLocale } from "../../lib/sermons";
+import type { SermonView } from "../../lib/sermons";
+
+export async function getStaticPaths() {
+  const sermons = await getSermonsForLocale("pl");
+  return sermons.map((sermon) => ({ params: { slug: sermon.slug }, props: { sermon } }));
+}
+
+const { sermon } = Astro.props as { sermon: SermonView };
+---
+<SermonDetail locale="pl" sermon={sermon} />

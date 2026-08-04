@@ -1,0 +1,115 @@
+{
+  "date": "2022-12-14",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/m4co4D4xSg8/m4co4D4xSg8.opus",
+  "preacher": "Czesław Ferdynand",
+  "title": "Czy można dzisiaj widzieć i słyszeć Boga? cz. 9",
+  "summary": "Tematem rozważań jest słyszenie Bożego głosu i widzenie Boga we współczesnym życiu, analizowane poprzez biblijne relacje objawień JHWH oraz obecność Jezusa Chrystusa jako wcielenia Boga. Przywołane zostały początki stworzenia człowieka, bliska relacja z Bogiem i jej utrata wskutek nieposłuszeństwa, a także potrzeba otwarcia na Boże prowadzenie zgodne z Jego wolą.",
+  "duration": 3319,
+  "translations": {
+    "en": {
+      "title": "Can We See and Hear God Today? Part 9",
+      "summary": "Is it possible today to hear God's voice and recognize His presence in our daily lives? This sermon reveals that since the time of Adam and Eve, God has desired a close relationship with humanity. Despite the fall, He never stops seeking His children. By listening, we can better understand how to recognize God's guidance today and live in harmony with His will. This message encourages thoughtful reflection on God's work in our lives."
+    },
+    "uk": {
+      "title": "Чи можна сьогодні бачити і чути Бога? ч. 9",
+      "summary": "Чи можливо сьогодні почути голос Бога та розпізнати Його присутність у повсякденному житті? Проповідь показує, що ще з часів Адама і Єви Бог прагне близьких стосунків із людиною, і незважаючи на падіння, не припиняє шукати Своїх дітей. Слухаючи її, можна краще зрозуміти, як сьогодні розпізнавати Боже провідництво і жити у злагоді з Його волею. Це послання спонукає до уважної рефлексії над Божою дією в нашому житті."
+    },
+    "ta": {
+      "title": "இன்று நாமும் கடவுளை காணவும் கேட்கவும் முடியுமா? பகுதி 9",
+      "summary": "இன்று கடவுளின் குரலை கேட்டு, அவருடைய இருப்பை தினசரி வாழ்க்கையில் அடையாளம் காண்பது சாத்தியமா? இந்த உரை, ஆடாம் மற்றும் இவாவின் காலத்திலிருந்தே கடவுள் மனிதருடன் நெருக்கமான உறவை ஆசைப்படுவதாகவும், மனிதர் விழுந்த போதும் கடவுளின் பிள்ளைகளைத் தேடுவதில் தொடர்ந்து முயற்சித்துவருகிறதெனவும் விளக்குகிறது. இந்த கர்த்தரின் வழிகாட்டுதலைச் சரியாக எப்படிப் புரிந்து கொண்டு, அவரது நேர்மையைப் படைப்பதையும், அவருடைய இச்சையுடன் பொருந்தி வாழவும் எப்படி ஆகுமென இந்த உரை நமக்கு தெளிவளிக்கிறது. இது கடவுளின் செயல்திறனை நம் வாழ்க்கையில் கவனமாக ஆராய கவனச்சேர்வை ஊக்குவிக்கிறது."
+    },
+    "de": {
+      "title": "Kann man Gott heute sehen und hören? Teil 9",
+      "summary": "Ist es heute möglich, die Stimme Gottes zu hören und Seine Gegenwart im Alltag zu erkennen? Die Predigt zeigt, dass Gott bereits seit der Zeit von Adam und Eva eine enge Beziehung zum Menschen wünscht und trotz des Falls unermüdlich nach Seinen Kindern sucht. Beim Zuhören kann man besser verstehen, wie man heute Gottes Führung erkennen und im Einklang mit Seinem Willen leben kann. Diese Botschaft lädt dazu ein, aufmerksam über Gottes Wirken in unserem Leben nachzudenken."
+    },
+    "es": {
+      "title": "¿Es posible hoy ver y escuchar a Dios? parte 9",
+      "summary": "¿Es posible hoy escuchar la voz de Dios y reconocer Su presencia en nuestra vida diaria? Este sermón muestra que desde los tiempos de Adán y Eva, Dios desea una relación cercana con el ser humano, y a pesar de la caída, nunca deja de buscar a Sus hijos. Al escuchar, podemos comprender mejor cómo reconocer la guía divina hoy y vivir en armonía con Su voluntad. Este mensaje invita a una reflexión profunda sobre la acción de Dios en nuestra vida."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Rdz 1",
+      "Rdz 2",
+      "Rdz 3",
+      "Iz 59",
+      "J 16",
+      "J 10",
+      "J 8",
+      "J 17",
+      "Lb 22",
+      "2 P 2",
+      "Hbr 3"
+    ],
+    "en": [
+      "Gen 1",
+      "Gen 2",
+      "Gen 3",
+      "Isa 59",
+      "John 16",
+      "John 10",
+      "John 8",
+      "John 17",
+      "Num 22",
+      "2 Pet 2",
+      "Heb 3"
+    ],
+    "uk": [
+      "Бут 1",
+      "Бут 2",
+      "Бут 3",
+      "Іс 59",
+      "Ів 16",
+      "Ів 10",
+      "Ів 8",
+      "Ів 17",
+      "Чис 22",
+      "2 Пт 2",
+      "Євр 3"
+    ],
+    "ta": [
+      "ஆதியாகமம் 1",
+      "ஆதியாகமம் 2",
+      "ஆதியாகமம் 3",
+      "இசாயா 59",
+      "யோவான் 16",
+      "யோவான் 10",
+      "யோவான் 8",
+      "யோவான் 17",
+      "எண்ணாகமம் 22",
+      "2 பேதுரு 2",
+      "எபிரேயர் 3"
+    ],
+    "de": [
+      "1 Mose 1",
+      "1 Mose 2",
+      "1 Mose 3",
+      "Jes 59",
+      "Joh 16",
+      "Joh 10",
+      "Joh 8",
+      "Joh 17",
+      "4 Mose 22",
+      "2 Petr 2",
+      "Hebr 3"
+    ],
+    "es": [
+      "Gén 1",
+      "Gén 2",
+      "Gén 3",
+      "Isa 59",
+      "Juan 16",
+      "Juan 10",
+      "Juan 8",
+      "Juan 17",
+      "Núm 22",
+      "2 Ped 2",
+      "Hebr 3"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam, bracia i siostry, witam was serdecznie. Co prawda pogoda dzisiaj jest taka nieszczególna, ale cieszę się, że dotarliście tutaj i chcecie wspólnie rozważać dzisiaj Słowo Boże.\n\nChciałbym, abyśmy pochylili swoje głowy i poprosili Pana.\n\nOjcze nasz kochany, w imieniu Pana Jezusa Chrystusa, Panie, stajemy przed Twoim tronem, składając Ci pokłon, oddając Ci chwałę, Panie, cześć i uwielbienie. Cieszymy się, Panie, że Ty jesteś tym, który nie opuszcza swoich dzieci i Ty dzisiaj również, Boże drogi, myśl swojej obietnicy, gdzie dwóch lub trzech spotyka się w Twoim imieniu, tam Ty jesteś pośród nich.\n\nDziękujemy Ci, że jesteś w obecnym miejscu, Panie. Zapraszamy Cię, Panie, abyś dotykał naszych serc, abyś wprowadzał nas w prawdę i aby słowo Twoje, które jest żywe, również ono tak zamieszkało w naszych sercach i rozjaśniało nam ten horyzont poznania Ciebie, Panie. Przez to możemy się zbliżać i rozumieć to, co Ty, Panie, przygotowujesz dla nas. Niech Twoje imię będzie wywyższone w naszych sercach i przez nasze usta. Amen.\n\nPrzez kilka ostatnich tygodni spotykamy się i badamy to, co w Słowie Bożym znajdujemy na temat tego, czy można widzieć lub słyszeć Boga. Widzimy, jak wyglądały te kontakty, nie wszystkie, ale to, co Biblia opisuje wśród patriarchów i tych bożych mężów, których Bóg jednokrotnie wyznaczył na przywódców i błogosławił im.\n\nWidujemy też, że w tym naszym badaniu mogli oglądać oblicze Boże. Nie Boga Ojca w Jego pełni chwały, bo jak mówi Słowo Boże, człowiek nie byłby w stanie tego przeżyć, ale widzimy tutaj, że postacie objawiające się tym mężom Bożym wymienionym w Starym i Nowym Testamencie to były postacie ludzkie — Biblia nazywa je aniołami JHWH, Jahwe. Widzieliśmy też wodza wojsk Pana, który jest tej samej natury bożej. To ta sama osoba, która również pokazywała się jako Bóg w osobowości.\n\nBadanie bliżej wskazuje, że Słowo Boże, zwłaszcza Nowy Testament, przybliża nam, iż tym kimś był nie kto inny jak sam Pan Jezus Chrystus. Jak wspominałem, w tym imieniu mieści się również imię najwyższego Boga JHWH. Tak jak wspominałem, wymawiając dzisiaj Jeszu — tak to mówią Żydzi — a także my, kiedy mówimy to imię przetłumaczone na nasz język — Jezus — w nim zawiera się imię także Boga JHWH.\n\nWażne jest więc, abyśmy to imię, tak jak w pieśni przed chwilą, mieli możliwość wyrażania czci i chwały, tego pięknego, cudownego imienia Jezus, abyśmy zawsze mieli do niego wielki szacunek i poczucie bojaźni, wymawiając je. Nie powinniśmy szafować tym imieniem, lecz mieć zawsze świadomą cześć do niego.\n\nDzisiaj chciałbym rozpocząć badanie Słowa Bożego, które pokazuje nam, jak dzisiaj możemy — lub czy w ogóle możemy — słyszeć głos Boży i widzieć Boga. Wiemy, że jak ostatnio wspominaliśmy, Bóg został wcielony, i z woli Bożej przewidział narodziny tego dziecka, które było zapowiedziane przez proroków, które jest zbawicielem, Mesjaszem, Pomazańcem, Chrystusem. Miał się nazywać Jeszu, czyli Jezus. W tym imieniu również jest zawarte, że Bóg — Jahwe — jest zbawieniem.\n\nIstotne jest to dziś, ponieważ w naszym życiu powstaje wiele pytań dotyczących tego, czy dane wydarzenie lub sprawa jest zgodna z wolą Bożą. Chcielibyśmy usłyszeć potwierdzenie Boże — czy ten temat lub problem, który stoi przede mną, jest zgodny z wolą Bożą.\n\nTo jest dzisiaj na porządku dziennym. Każdy z nas, jako chrześcijanin, nieraz sobie takie pytanie stawia. Może nawet każdego dnia. „Panie, co mam zrobić?” I najlepiej byłoby usłyszeć ten głos Boży: „To zrób, tamto zrób, idź w tym kierunku, tak postąp.” Wielu przywódców również często to pytanie stawia i przed Panem przynosi: „Panie, odpowiedz, proszę, pokieruj.”\n\nZ tego postępowania widać, że jest możliwe uzyskanie odpowiedzi Bożej, bo gdyby nie było takiej możliwości, to byśmy tych pytań nie zadawali. W wielu przypadkach jest to związane właśnie z pragnieniem życia według woli Bożej — postępowania jako ludzie oddani Chrystusowi, znający Jego plany co do życia i chcący postępować zgodnie z Jego wolą.\n\nTo są codzienne wyzwania i sytuacje, które nas spotykają.\n\nChciałbym na najbliższych spotkaniach, w oparciu o Słowo Boże, przedstawić, jak Bóg do nas dzisiaj mówi, jak potrafimy usłyszeć Jego głos i w jaki sposób możemy uzyskać Jego odpowiedź co do naszego życia. Oczywiście Stwórca nigdy nie ukrywał tego, co chce, aby człowiek robił i jak żył. Najbardziej zależało mu na społeczności i bliskości z człowiekiem, ze swoim stworzeniem.\n\nTo widzimy od samych początków, gdy została ukształtowana ziemia w pierwszej Księdze Mojżeszowej. Gdybyśmy otworzyli pierwszy rozdział tej księgi, zobaczylibyśmy, co Słowo Boże mówi o planie Boga względem człowieka.\n\nPrzeczytam kilka wersetów z 1 Mojżeszowej, rozdział 1, wersety 26-29:\n\n„Potem rzekł Bóg: Uczyńmy człowieka na obraz nasz, podobnego do nas, niech panuje nad rybami morskimi, ptactwem niebios, bydłem oraz nad całą ziemią i nad wszelkim płazem pełzającym po ziemi. I stworzył Bóg człowieka na obraz swój, na obraz Boga stworzył go; jako mężczyznę i niewiastę stworzył ich. I błogosławił im Bóg, mówiąc: Rozradzajcie się, rozmnażajcie się, napełniajcie ziemię i czyńcie ją sobie poddaną; panujcie nad rybami morski­mi, nad ptactwem niebios i nad wszelkimi zwierzętami poruszającymi się po ziemi. Potem rzekł Bóg: Oto daję wam wszelką roślinę wydającą nasienie na całej ziemi oraz wszelkie drzewa, których owoc w sobie ma nasienie, niech będą dla was pokarmem.”\n\nJeśli spojrzymy na drugi rozdział, od 15 wersetu, widzimy, jak Pan Bóg wziął człowieka i dał mu ogród, aby go uprawiał i strzegł.\n\nZauważmy, że Bóg przedstawił plan wobec swojego stworzenia — Adama i Ewy — który jest aktualny również dziś i nie ogranicza się jedynie do nich.\n\nWidzimy, że oni mieli wolę i byli posłuszni Bogu, dopóki nie dopuścili się nieposłuszeństwa. Przekroczyli Bożą wolę, spożywając owoc z zakazanego drzewa, za co ponieśli konsekwencje. Wola, którą Bóg szanował, przyniosła upadek.\n\nJednak w wyniku tego upadku Bóg objawia człowiekowi swoją wolę wobec człowieka, czego możemy się dowiedzieć m.in. o bólu zdobywania pożywienia, trudzie uprawy ziemi, oznacza to, że Bóg nie ukrywał nic przed Adamem i Ewą.\n\nMiał z nimi relację i objawiał im, co ich czeka, co mają robić, jak postępować i żyć.\n\nWiele razy w Słowie Bożym widzimy, że Bóg przemawia do człowieka, objawiając mu plan względem jego życia, mówiąc, co ma zrobić, jak postąpić, jak rozwiązać problemy, z którymi się mierzy.\n\nNie tylko jednostkom — Bóg objawiał to narodom, państwom, swoim specjalnym narodom, takim jak Izrael.\n\nWiemy, że Bóg kierował do Izraela swoje słowa, błogosławieństwa, ale także ostrzeżenia przed nieposłuszeństwem i konsekwencje, jeśli nie będą żyli zgodnie z Jego wolą.\n\nTen głos Boży jest istotny również dziś.\n\nJak mówiłem, na najbliższych spotkaniach przybliżymy ten temat, powtórzymy go, aby był dla nas jasny i bliski.\n\nIstotną sprawą jest relacja między Bogiem a człowiekiem.\n\nZawsze Bogu zależało, aby mieć bliską relację z człowiekiem.\n\nJednak nie do końca ten zamiar się zrealizował.\n\nW 3 rozdziale 1 Księgi Mojżeszowej czytamy w wersecie 8 i 9:\n\n„Gdy usłyszeli szelest Pana Boga przechodzącego po ogrodzie w powiewie dziennym, Adam i jego żona ukryli się przed Panem Bogiem wśród drzew ogrodu. Lecz Pan Bóg zawołał na Adama i zapytał: Gdzie jesteś?”\n\nWidzimy, że relacja między Bogiem a Adamem i Ewą była bliska, Bóg chodził pośród nich i mogli się z Nim spotykać.\n\nAle kiedy popełnili grzech, zaczęli się Go bać i ukryli się.\n\nBóg ich szukał, wiedząc, gdzie się ukryli z powodu grzechu.\n\nIzajasz w 59 rozdziale, w wersetach 1 i 2, powiedział:\n\n„Oto ręka Pana nie jest tak krótka, aby nie móc pomóc, ani Jego ucho tak przytępione, aby nie słyszeć. Lecz wasze winy odłączyły was od waszego Boga, a wasze grzechy zasłoniły Jego oblicze przed wami, tak że nie chce was słyszeć.”\n\nTo jest aktualne także dziś.\n\nJeśli człowiek grzeszy i jest nieposłuszny Bogu, to Bóg nie ma z nim relacji i trudno, aby go słyszał.\n\nJednak Bóg, w swoim wielkim planie miłosierdzia, przewidział dla nas rozwiązanie.\n\nPrzyszedł zapłacić cenę za grzech — zapłatą za grzech jest śmierć.\n\nPan Jezus, który jest tożsamy z najwyższym Bogiem, przyszedł na ziemię, aby złożyć swoje życie w ofierze i udostępnić nam możliwość przyjścia do Niego, nawiązania osobistej relacji i znów słyszenia Jego głosu.\n\nKiedy Pan Jezus był na ziemi, ludzie słyszeli Go, widzieli Jego czyny, mogli z Nim rozmawiać, poznawać prawdę o Królestwie Bożym i Bogu Ojcu.\n\nJednak wiadomo, że Jego czas na ziemi się kończył.\n\nW Ewangelii Jana, rozdziale 16, wersetach od 7 wzwyż, mówi:\n\n„Lecz ja wam mówię prawdę: lepiej, aby mnie nie było, bo jeśli nie odejdę, Pocieszyciel do was nie przyjdzie; jeśli zaś odejdę, poślę go do was. A on, gdy przyjdzie, przekona świat o grzechu, o sprawiedliwości i o sądzie.”\n\nWidzimy więc, że Pan nie zamknął drogi do siebie.\n\nMówił, że grzechy oddzieliły człowieka od Boga, ale Bóg położył most, byśmy mogli wrócić.\n\nCo Pan Jezus mówi o dobrym pasterzu? Przeczytam fragment z Ewangelii Jana, rozdział 10, wersety 14–16 i 27:\n\n„Ja jestem dobrym pasterzem; znam swoje owce i moje mnie znają. Mam też inne owce, które nie są z tej owczarni; i tych również muszę przyprowadzić, i będą słuchać głosu mojego, i będzie jedna owczarnia i jeden pasterz. Owce moje słuchają mojego głosu; ja je znam, i idą za mną.”\n\nTen tekst pokazuje, że jest Bóg, który przemawia do człowieka i chce z nim mieć społeczność, chce go prowadzić — tak jak pasterz prowadzi owce.\n\nOwca musi nauczyć się rozpoznawać głos pasterza i poddać się mu, aby być prowadzoną.\n\nDla ludzi spoza owczarni — czyli nie należących do narodu izraelskiego — przeznaczone jest Boże Słowo, które dociera do nich i zaprasza do owczarni.\n\nW Ewangelii Jana, rozdziale 8, werset 32, Pan Jezus mówi:\n\n„Poznacie prawdę, a prawda was wyzwoli.”\n\nNiektórzy, jak faryzeusze i sadyceusze, byli wzburzeni, bo powoływali się na swoje pochodzenie i nie czuli się w niewoli.\n\nPodobnie wielu ludzi współcześnie uważa się za wolnych i nie potrzebujących Boga, a jednak napięcie i pytanie o prawdę nie ustaje.\n\nW rozdziale 17 Ewangelii Jana, w modlitwie arcykapłańskiej, Pan Jezus mówi:\n\n„Poświęć ich w prawdzie Twojej, Twoje słowo jest prawdą.”\n\nBóg pragnie więc się komunikować z każdym człowiekiem indywidualnie.\n\nMamy dowody na to, że Bóg przemawia — chce nawiązać osobistą relację.\n\nMy sami często nie znamy siebie tak dobrze, jak zna nas Bóg.\n\nOn zna nasze problemy i wie, co dla nas najlepsze.\n\nPytanie tylko, czy chcemy tego słuchać.\n\nBywa, że Bóg do nas przemawia, a my Go nie słyszymy lub nie chcemy słuchać.\n\nKtoś mógłby powiedzieć, że to niemożliwe — słyszę głos pasterza, ale nie uważam go za pasterza i nie słucham.\n\nTo niestety prawda.\n\nI widzimy, jak kończą się owce, które się buntują i odchodzą.\n\nPrzywołam przykład Bileama z 4 Księgi Mojżeszowej.\n\nBalak sprowadzał go, aby przeklinał Izraela.\n\nOpis zdarzenia jest w 22 rozdziale, wersetach 22–33, gdzie oślica przemawia do Bileama i przestrzega go, by wykonywał wolę Bożą.\n\nApostoł Piotr w drugim liście, 2 rozdziale, 16 wersecie, odnosi się do tego zdarzenia słowami:\n\n„Lecz został zganiony za swoją nieprawość, gdyż niebo bydlę juczne przemówiwszy głosem ludzkim zapobiegło nierozumnemu postępowi proroka.”\n\nWidzimy zatem, że głos Boży możemy usłyszeć i może przemówić do nas na różne sposoby.\n\nBiblia przedstawia całe spektrum takich spotkań.\n\nNa najbliższych spotkaniach będziemy badać, jak Bóg dziś do nas przemawia, czy przemawia, co powinniśmy uczynić i w jaki sposób możemy do Niego przyjść, aby usłyszeć Jego głos.\n\nList do Hebrajczyków przypomina nam o tym wyraźnie.\n\nW rozdziale 3, wersety 7 i 8, mówi:\n\n„Dlatego, jak mówi Duch Święty: Dziś, jeśli usłyszycie głos Jego, nie zatwardzajcie serc waszych, jak podczas buntu w dniu kuszenia na pustyni.”\n\nW wersecie 15 jest powtórzenie:\n\n„Dziś, jeśli usłyszycie głos Jego, nie zatwardzajcie serc waszych, jak podczas buntu.”\n\nTo przypomnienie dla Hebrajczyków jest też apelem do nas: jeśli usłyszymy dziś głos Boży, nie zatwardzajmy serc i nie przeciwstawiajmy się Mu.\n\nCzęsto jesteśmy mało wrażliwi na Boży głos i na proroctwo, a czasem nie rozważamy ich wcale.\n\nTymczasem mamy wobec Boga wiele żądań i oczekiwań, chcemy, by uczynił to czy tamto, często dla własnych egoistycznych celów.\n\nA tymczasem powinniśmy najpierw uregulować relację z Bogiem, przyjść do Niego z czystym sercem i wtedy wołać do Niego.\n\nJak mówi do Jeremiasza w 33 rozdziale: „Wołaj do mnie, a odpowiem ci i objawię ci rzeczy wielkie i nieznane.”\n\nWarunkiem usłyszenia głosu i odpowiedzi Bożej jest uregulowanie relacji z Bogiem — oczyszczenie serca, uwolnienie od grzechu.\n\nPowinniśmy z dziecinną prostotą przyjść do Boga i Go prosić o wskazanie drogi, wyjścia, rozwiązania problemu.\n\nBędziemy więc przechodzić przez Słowo Boże i odkrywać wiele fragmentów dotyczących Bożego działania w życiu ludzi oraz Bożych wezwań do zbliżenia się do Niego.\n\nZobaczymy, jak możemy się z Nim komunikować, jak sprawdzić, co stoi na przeszkodzie, by Pan do mnie nie mówił lub nie odpowiadał na moje zawołania.\n\nWiele osób doświadcza tego braku odpowiedzi i to jest trudny stan, który pozbawia wiary i prowadzi do załamań.\n\nJednak i o tym mówimy na przykładzie Samuela, który usłyszał głos Boży, lecz przez pewien czas nie umiał go rozpoznać.\n\nDopiero kiedy Heli go pouczył, Samuel zawołał: „Mów, Panie, bo sługa Twój słucha.”\n\nWtedy ich relacja się zacieśniła i rozgorzała.\n\nMyślę, że badanie Słowa Bożego w tym kontekście odpowie na wiele pytań i pozwoli nam zweryfikować, gdzie jesteśmy w relacji z Bogiem.\n\nKażdy z nas będzie mógł ocenić swój stan i zobaczyć, co trzeba poprawić, aby usłyszeć Boży głos.\n\nNiech Pan nas błogosławi. Amen."
+  },
+  "cover": "/images/covers/m4co4D4xSg8.webp"
+}

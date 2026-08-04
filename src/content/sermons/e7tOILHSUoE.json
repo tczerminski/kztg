@@ -1,0 +1,115 @@
+{
+  "date": "2022-02-27",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/e7tOILHSUoE/e7tOILHSUoE.opus",
+  "preacher": "Jacek Maj",
+  "title": "Rodzina - Co to znaczy Kochać?",
+  "summary": "Pierwszy list do Tymoteusza 2,15 oraz 1 Jana 3,1 stanowią biblijną podstawę rozważań o rodzinie, miłości i wychowaniu. Kazanie podkreśla, że zbawienie i relacje rodzinne wymagają nie tylko aktywności zewnętrznej, ale przemiany serca i posłuszeństwa. Wychowanie dzieci i relacja z Bogiem to proces wzajemnego poświęcenia, uwzględniający karcenie jako element prowadzący do dojrzałości duchowej.",
+  "duration": 3766,
+  "translations": {
+    "en": {
+      "title": "Family - What Does It Mean to Love?",
+      "summary": "What does true love for family mean according to God's design? This sermon reveals that love is not just superficial obedience but a deep transformation of the heart and a willingness to sacrifice. It emphasizes how spiritual upbringing and humility lead to growth and maturity in faith, showing that God desires a complete inner renewal, not just outward actions."
+    },
+    "uk": {
+      "title": "Родина - Що означає кохати?",
+      "summary": "Що означає справжня любов до родини за Божим зразком? Проповідь показує, що любов — це не лише поверхневе послухання, а глибока зміна серця і готовність до жертв. Вона підкреслює, як духовне виховання та смирення ведуть до зростання і зрілості у вірі, показуючи, що Бог прагне повної внутрішньої трансформації, а не лише зовнішніх вчинків."
+    },
+    "ta": {
+      "title": "குடும்பம் - காதலிக்கின்றது என்றால் என்ன?",
+      "summary": "தேவருடைய மாதிரியில் குடும்பத்துக்கு உண்மையான அன்பு என்பது என்ன அர்த்தம்? இந்த போதனை அன்பு என்பது வெறும் superficial கட்டளைகள் இல்லை; இது உள்ளத்தின் ஆழமான மாற்றம் மற்றும் தியாகங்களுக்கு தயாராக இருக்க வேண்டும் என்று காட்டுகிறது. ஆன்மீகப் பண்புப்பாடு மற்றும் பணிவுத்தன்மை நம்பிக்கையில் வளர்ச்சியும் பரிபக்வத்தையும் இன்னும் அதிகம் கொண்டு வரும் என்பதை விளக்குகிறது. கடவுள் முழுமையான உள்ளுணர்ச்சி மாற்றத்தை விரும்புகிறார்க், புற நிகழ்ச்சிகளுக்கு மட்டுமல்ல."
+    },
+    "de": {
+      "title": "Familie – Was bedeutet Lieben?",
+      "summary": "Was bedeutet wahre Liebe zur Familie nach Gottes Vorbild? Die Predigt zeigt, dass Liebe nicht nur oberflächlicher Gehorsam ist, sondern eine tiefe Herzensverwandlung und die Bereitschaft zu Opfern. Sie betont, wie geistliche Erziehung und Demut zu Wachstum und Reife im Glauben führen und offenbart, dass Gott eine vollständige innere Veränderung wünscht, nicht nur äußerliche Taten."
+    },
+    "es": {
+      "title": "Familia - ¿Qué significa amar?",
+      "summary": "¿Qué significa el verdadero amor a la familia según el modelo divino? El sermón muestra que el amor no es solo una obediencia superficial, sino una profunda transformación del corazón y disposición para el sacrificio. Destaca cómo la educación espiritual y la humildad conducen al crecimiento y madurez en la fe, mostrando que Dios desea una transformación completa del interior, no solo acciones externas."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "1 Tm 2",
+      "J 3",
+      "Ef 5",
+      "1 J 3",
+      "1 Sm 15",
+      "2 Sm",
+      "Hb 12",
+      "Ps 139",
+      "J 2",
+      "Ps 29",
+      "Rz"
+    ],
+    "en": [
+      "1 Tim 2",
+      "John 3",
+      "Eph 5",
+      "1 John 3",
+      "1 Sam 15",
+      "2 Sam",
+      "Heb 12",
+      "Ps 139",
+      "John 2",
+      "Ps 29",
+      "Rom"
+    ],
+    "uk": [
+      "1 Тим 2",
+      "Ів 3",
+      "Еф 5",
+      "1 Ів 3",
+      "1 Сам 15",
+      "2 Сам",
+      "Євр 12",
+      "Пс 139",
+      "Ів 2",
+      "Пс 29",
+      "Рим"
+    ],
+    "ta": [
+      "1 திமோ 2",
+      "யோவான் 3",
+      "எபேசியர் 5",
+      "1 யோவான் 3",
+      "1 சாமுவேல் 15",
+      "2 சாமுவேல்",
+      "ஹெப்ரேயர் 12",
+      "சங்கீதம் 139",
+      "யோவான் 2",
+      "சங்கீதம் 29",
+      "ரோமர்"
+    ],
+    "de": [
+      "1 Tim 2",
+      "Joh 3",
+      "Eph 5",
+      "1 Joh 3",
+      "1 Sam 15",
+      "2 Sam",
+      "Hebr 12",
+      "Ps 139",
+      "Joh 2",
+      "Ps 29",
+      "Röm"
+    ],
+    "es": [
+      "1 Tim 2",
+      "Juan 3",
+      "Ef 5",
+      "1 Juan 3",
+      "1 Sam 15",
+      "2 Sam",
+      "Heb 12",
+      "Sal 139",
+      "Juan 2",
+      "Sal 29",
+      "Rom"
+    ]
+  },
+  "transcript": {
+    "pl": "Chwała Bogu! Ja będę kontynuował temat, o którym mówię już od dłuższego czasu. Tym razem będę mówił o rodzinie. Natomiast, kiedy przygotowywałem się do ostatniego, do poprzedniego kazania, tak bardzo uderzyły mnie słowa Pawła z pierwszego listu do Tymoteusza 2,15, które są dosyć nieszczęśliwie przetłumaczone w Biblii warszawskiej. Dlatego pozwolę sobie przeczytać je słowo po słowie, tak, jak są tłumaczone z greckiego. Jest tam napisane tak: „Zostanie zbawiona zaś przez rodzenie dzieci, jeśli pozostaną w wierze i miłości i uświęceniu z rozsądkiem.”\n\nI kiedy do mnie dotarło, jak wysokie to jest wymaganie, zacząłem myśleć o tym w kontekście mojego spojrzenia, które – wydaje mi się – nie jest wyjątkowe, więc chyba jest popularne. Otóż w moim przekonaniu, które wiele osób podziela, w Starym Testamencie były te wymagania: trzeba było dużo zrobić, ofiarować, fizycznie być w jakimś miejscu, coś uczynić, żeby osiągnąć zbawienie. Natomiast w Nowym Testamencie mamy łaskę. Przyszedł Jezus, który oddał za nas swoje życie. I w takim przekonaniu żyłem przez wiele lat.\n\nNatomiast z czasem widzę, że w Nowym Testamencie poziom wymagań, które Bóg ma wobec nas, sięga dużo głębiej, bo wymaga nie tylko powierzchownego posłuszeństwa. Wymaga posłuszeństwa w sercu. Czyli nie wymaga jedynie wykonywania czynności, ale przemiany serca, która powoduje, że robimy to, co robimy dla Boga z chęcią, że chcemy to robić.\n\nKiedy przeczytałem ten werset, pomyślałem: to jest niesamowicie wysokie wymaganie. I postawiłem sobie pytanie: co to znaczy w takim razie kochać? Znany każdemu werset z Ewangelii Jana 3,16 mówi: „Tak Bóg umiłował świat, że Syna swojego dał.” To znaczy, że Bóg swoją miłość do nas wyraził poprzez poświęcenie. Bóg poświęcił coś, co było dla Niego najcenniejsze, aby umożliwić nam relację z Nim.\n\nPonieważ to, o czym mówię już od jakiegoś czasu, i co tak jasno Paweł wykazuje szczególnie w Liście do Efezjan – Bóg oczekuje od nas tej samej miłości względem siebie nawzajem. Ale pierwszym punktem kontaktu z człowiekiem nie jest kościół, nie są osoby na ulicy, lecz nasza rodzina: nasi rodzice, nasze dzieci, nasza żona, nasze siostry, bracia – to są osoby, z którymi mamy pierwszy kontakt.\n\nCo to znaczy kochać ich w praktyce? Oznacza to dokładnie to samo, co kochać w sensie bożym: Bóg poświęcił nie coś drobnego, tylko coś najcenniejszego, aby umożliwić relację z człowiekiem. Bo bez tego nie ma takiej możliwości. I jest to ciekawe, bo jeśli chodzi o nasze dzieci, kiedy się rodzą, sytuacja wygląda podobnie – wymaga to poświęcenia, czasem od nas, aby nawiązać tę relację, tę więź, szczególnie z członkami rodziny, z którymi nie umiemy się jeszcze skomunikować.\n\nDlatego chciałbym dzisiaj powiedzieć o tym, jaki jest nadrzędny cel rodziny i relacji z Bogiem, bo ta sama struktura wiary funkcjonuje zarówno w relacji Boga z nami, jak i naszej z Bogiem. Pamiętamy przypowieść, gdzie sługa miał ogromny dług, pan mu go odpuścił, ale ten sługa poszedł i swojego współsługę za dużo mniejszą kwotę próbował udusić. To bardzo zaniepokoiło pana, a podsumowanie jest takie: tak uczyni Bóg każdemu, kto z serca nie odpuści bratu swemu. Czyli taką miłość, jaką Bóg wykazał wobec nas, Bóg oczekuje, abyśmy ją dawali innym.\n\nNajbardziej niezwykłe w naszej relacji z Bogiem jest to, że Bóg zna nas całkowicie: zna każdy nasz grzech, zna nasz charakter, a mimo to okazał nam miłość. Ale bez Ducha Świętego nie jesteśmy w stanie naprawdę poznać drugiego człowieka. Możemy rozumieć charakterystykę naszych dzieci, naszej matki, ojca, ale naprawdę ich poznać możemy tylko dzięki Duchowi Świętemu.\n\nWierzę i jestem głęboko przekonany, że celem naszych relacji jest zmiana – przyniesienie zmiany do naszego serca, do naszego charakteru – poprzez, lub z powodu tej miłości, którą mamy do drugiego człowieka, tej miłości, którą mamy do Boga.\n\nChciałbym przeczytać 1 Jana 3,1: „Patrzcie, jaką miłość okazał nam Ojciec, że zostaliśmy nazwani dziećmi Bożymi i nimi jesteśmy. Dlatego świat nas nie zna, że jego nie poznał.” Ten werset to cudowne świadectwo Bożej łaski wobec nas. Kiedy przychodzimy do Boga, kiedy przechodzimy nowe narodzenie, Bóg sprawia, że stajemy się Jego dziećmi.\n\nIstnieje jednak pewien konflikt – czy jesteśmy dziećmi tak samo, jak dzieckiem jest Jezus? Czy jesteśmy dziećmi i to koniec? Kiedy widzimy nasze dzieci, widzimy, że każde dziecko, jeśli jest kochane przez rodziców, przechodzi przez bardzo długotrwały, często bolesny proces dla obu stron – dla rodzica i dla dziecka – który nazywa się wychowaniem. Jeżeli dziecko nie przejdzie przez ten proces, bez względu na wiek, dalej będzie dzieckiem.\n\nPodobnie jest z nami. Bóg nazywa nas swoimi dziećmi, to znaczy, że stajemy się w Jego oczach osobami, do których On może mówić, abyśmy Go słuchali, aby następowała przemiana w nas. A cóż to jest wychowanie? Wychowanie to celowe oddziaływanie, które prowadzi do pożądanych zmian u kogoś. Ktoś robi coś celowo, nieprzypadkowo, nie pod wpływem impulsu czy okoliczności, ale celowo, by kogoś zmienić.\n\nWychowanie musi nastąpić praktycznie w każdym aspekcie życia dziecka: od spania, kiedy idzie spać, jak długo śpi, czy w ogóle śpi; jedzenia, co je, kiedy je, jak je; po ciszę – czy dziecko ma być cicho, czy nie? Bo chcemy, aby odpowiadało na słowo, ale nie gadało bez przerwy 24 godziny na dobę. To wymaga posłuszeństwa. Bez posłuszeństwa nie ma wychowania.\n\nNie możemy powiedzieć, że Bóg nas wychowuje, jeśli nie jesteśmy Mu posłuszni. Nie możemy powiedzieć, że wychowujemy dzieci, jeśli nasze dzieci nie są nam posłuszne. To posłuszeństwo Bóg, jak i my, próbujemy uskuteczniać na różne sposoby.\n\nBardzo mnie dotyka to, co Bóg powiedział przez Samuela do Saula, w 1 Samuela 15, 22: „Samuel odpowiedział: Czy takie ma Pan upodobanie w całopaleniach i ofiarach, jak w posłuszeństwie?”\n\nPrzyjmując błogosławieństwo, możemy sobie uzurpować prawo, by powiedzieć, że dostaliśmy je, bo jesteśmy wyjątkowi, bo wykonaliśmy dużo pracy, bo zrobiliśmy to czy tamto. Powinno to nas pobudzić do pokory, abyśmy chcieli się jeszcze bardziej przemieniać. Jestem głęboko przekonany, że dokładnie taki sam mechanizm działa u dzieci.\n\nKiedy dzieci otrzymują to, na co zasłużyły, wzbijają się w pychę, uważając się za lepsze od innych – od rodzeństwa, od innych dzieci, od kolegów. Ale kiedy dostają coś z świadomością, że to dar, coś, na co nie zasłużyły, wtedy ich stosunek zarówno do daru, jak i do jego dawcy, zupełnie się zmienia.\n\nTo jest ważne, abyśmy i my w naszym życiu nie skupiali się na darze, ale na jego celu. Dlaczego Bóg mi to dał? Co Bóg chce przez to osiągnąć w moim życiu? Bo z pewnością nie chce, abyśmy wzbijali się w pychę.\n\nBóg nie dał królestwa Saulowi, aby działał według własnego uznania. Nie dał królestwa Dawidowi, aby robił, co mu się podoba. Nie dał nam darów po to, abyśmy nimi dysponowali według woli, ale abyśmy byli Mu posłuszni.\n\nOstatnio uderzyła mnie historia Dawida. Gdy Dawid powiedział do Natana, paraphrasing, że Bóg mieszka w namiotach, a on ma dom cedrowy i chce zbudować dla Boga świątynię, Natan odrzekł mu: „Uczyń, co jest w sercu twoim, bo Bóg jest z tobą.” Po czym poszedł, a Bóg powiedział mu: „Nieprawda – nie będziesz budował mi świątyni.”\n\nDo tego czasu Dawid wykazywał ogromną pokorę – modlił się, pytał Boga, czy ma walczyć, i choć Bóg wielokrotnie mu nakazał, by szedł do boju, Dawid działał zgodnie z Bożym sercem.\n\nMożna odnieść wrażenie, że prorok powiedział: „Uczyń, co uważasz w sercu swoim, bo Bóg jest z tobą.” To było stwierdzenie faktu: Bóg jest z nim. Ale czy Bóg chciał, żeby to zrobił? To już inna kwestia – Bogu się to nie podobało, choć wypływało z czystego serca.\n\nHebrajczyków 12, 6-7 mówi: „Bo kogo Pan miłuje, tego karze i chłoszcze każdego syna, którego przyjmuje. Jeśli znosicie karania, to Bóg obchodzi się z wami jak z synami. Bo gdzie jest syn, którego by ojciec nie karał?”\n\nKarcenie jest fundamentem wychowania, które z kolei jest fundamentem zmiany. A wszystko to, aby Bóg budował nas do pełni dojrzałości.\n\nWażne jest, abyśmy rozumieli, że nie jesteśmy dziećmi takimi, jak dzieckiem jest Jezus. Jezus był u Ojca, przyszedł na świat, był doskonały w duchu i ciele, i jako doskonały był dzieckiem Bożym.\n\nMy, obmyci Jego krwią z grzechów, wciąż mamy tę samą charakterystykę, z tymi samymi wadami i zaletami, które Bóg chce wygładzić i przemienić.\n\nNie jesteśmy jak Jezus. Kiedy Bóg przyjmuje nas do swojego królestwa, nasz charakter wciąż wymaga przemiany. Dlatego psalmista woła w Psalmie 139, 23-24: „Badaj mnie, Boże, i poznaj serce moje; doświadcz mnie i poznaj myśli moje; i zobacz, czy nie kroczę drogą zagłady, a prowadź mnie drogą odwieczną.”\n\nPsalmista pragnie, by Bóg objawił mu, co w nim jest nie tak.\n\nŻyjemy w kulturze, w której wstyd jest nie do przyjęcia. A jednak, kiedy ktoś wyjawia przed tobą grzech, czy nie odczuwasz wstydu? Problem polega na tym, że grzechem jest każde nieposłuszeństwo wobec Ducha Świętego, nie to, co sobie ustaliliśmy.\n\nGrzechem jest każde nieposłuszeństwo wobec słowa, które Bóg kieruje do naszego życia, którego nie realizujemy.\n\nWstyd oznacza, że zrozumieliśmy to, co zrobiliśmy, i nie chcemy tego powtarzać.\n\nStrach przed tym wstydem w moim życiu często powodował, że nie chciałem, by Bóg szperał w moim sercu i pokazywał, gdzie byłem nieszczery – na przykład wobec żony, której pokazywałem, że jestem taki, a byłem inny.\n\nKiedy Bóg zmienia nasze serca, prawdziwie kochamy drugiego – działamy w zgodzie z przemienioną naturą.\n\nWażne jest pytanie: czy wolisz się wstydzić tego, kim byłeś, czy kim się stałeś?\n\nWierzę, że wstyd tego, kim byliśmy, jest tym, co utrzymuje nas przy ziemi, co trzyma nas stąpających twardo po ziemi – z czego wyrwał nas Bóg, przemienił nas już po zbawieniu.\n\nNie mówię o okresie życia, gdy byliśmy w świecie, ale o okresie po obmyciu nas przez Jego krew i rozpoczęciu wychowania.\n\nNie będzie wychowania bez posłuszeństwa – bez poddania się celowemu działaniu, które ma zmienić nasze serce.\n\nAutor Listu do Hebrajczyków przypomina: jeśli ci, którzy widzieli Chrystusa, nie uniknęli kary, tym bardziej my, którzy Go nie widzimy, nie ujdziemy jej.\n\nNie traktujmy więc Boga ani Jego słowa jako sugestii. Jestem przekonany, że każdy ojciec najbardziej się denerwuje, gdy dziecko traktuje jego słowa jak propozycję – zrobi, gdy będzie miało czas i chęci.\n\nBóg oczekuje od nas posłuszeństwa. Nie narzuca nic na siłę, mówi – my mamy słuchać.\n\nBóg dał Izraelowi godność synów Bożych, a kiedy zaraz wyszli z Egiptu, pokazali, że nie są gotowi na spotkanie z Ojcem.\n\nBóg chce nas zbawić, abyśmy przeszli uświęcenie i byli gotowi Go uwielbiać. Jezus umarł za każdego z nas.\n\nPrzeczytajmy Jana 2,2: „On jest ubłaganiem za grzechy nasze, a nie tylko za nasze, lecz za grzechy całego świata.”\n\nPomimo zmazania przez krzyż naszych grzechów, to nie koniec. Bóg wymaga od nas uświęcenia.\n\nHebrajczyków 12,14 mówi: „Dążcie do pokoju ze wszystkimi i do uświęcenia, bez którego nikt nie ujrzy Pana.”\n\nW Janie 3,3 jest też zapisane: „Każdy, kto w Nim pokłada nadzieję, oczyszcza się, tak jak On jest czysty.”\n\nPsalmista w Psalmie 29,2 mówi: „Uważajcie, abyście uwielbiali Boga.”\n\nMy uwielbieniem nie uzyskamy uświęcenia, a uświęceniem nie uzyskamy zbawienia. Uświęcenie jest trwałą zmianą, motywowaną miłością do Boga – ciągłą, następującą krok po kroku.\n\nBez tego przeżywamy w relacjach i z dziećmi, i z Bogiem jedynie powierzchowność. W Kościele przeżywamy powierzchowne uwielbienie, bo bez uświęcenia nie ma prawdy w uwielbieniu.\n\nUwielbienie wymuszone wynika z umiejętności, a nie z serca, a Bóg chce, abyśmy tym, jacy jesteśmy, przynosili Mu chwałę.\n\nNie jest to możliwe bez umierania dla grzechu.\n\nPaweł podsumowuje w liście do Rzymian – kto umarł, uwolniony jest od grzechu.\n\nBez śmierci dla grzechu nie jest to możliwe.\n\nMy, którzy zostaliśmy powołani do bycia dziećmi Bożymi, jesteśmy także powołani do stałego wychowania w Bogu – poddawania się Jego procesowi, który wymaga śmierci dla grzechu.\n\nWierzę, że każdy ojciec chce tego samego od swoich dzieci, czego Bóg chce od nas – aby przyniosły Mu chwałę, aby był z nich dumny.\n\nNie dlatego, że szkoła je wykształciła, ale dlatego, że przelał na nie swój charakter.\n\nJeśli ja sam nie upodabniam się do Boga, to do kogo upodabniają się moje dzieci? Będą tylko cieniem Bożego dziecka, albo kimś, kto kiedyś chciał być Bożym dzieckiem, ale coś poszło nie tak.\n\nCzego oczekujemy od naszych dzieci? Wykształcenia, czy bycia podobnymi do nas? A jak możemy chcieć, żeby były podobne do nas, skoro w sercu mówimy: „Tylko nie bądź takie jak ja – dwóch takich to za dużo”?\n\nBóg chce nas przemienić, abyśmy chcieli, by nasz przemieniony charakter miał odzwierciedlenie w naszych dzieciach. Tak do pełni doskonałości, przez wiele pokoleń.\n\nBóg oddał Syna za ciebie i mnie – tak nas kochał, gdy Go jeszcze nie znaliśmy, gdy nie mogliśmy nic dobrego ani złego uczynić.\n\nCo my jesteśmy w stanie poświęcić dla naszych dzieci, żeby im przynieść zbawienie, którego potrzebują? Wykształcenie ich nie uratuje.\n\nBóg oczekuje, abyśmy działaniami przynosili Mu chwałę, tak jak oczekiwał tego od Izraela.\n\nW Izajasza 49,3 jest napisane: „Jesteś moim sługą, Izraelu. Przez ciebie się w sławie, dosłownie, w tobie okażę swoją chwałę.”\n\nCzy nie tak było, kiedy Bóg wyprowadzał Izraela z Egiptu? Czy nie okazał wtedy swojej chwały? Kiedy prowadził ich przez pustynię, czy nie okazywał swojej chwały?\n\nNie chodziło o klaskanie, tańczenie czy śpiewy, ale o to, że Bóg prowadził ich wbrew okolicznościom, które w normalnej sytuacji mogłyby ich zniszczyć.\n\nBóg ich zbawił, ale ich nieposłuszeństwo i lęk sprawiły, że całe pokolenie nie weszło do ziemi obiecanej – wszedł tylko Kaleb i Jozue.\n\nTylko oni zaufali Bogu i poświęcili całe swoje życie dla relacji z Bogiem.\n\nCzy my mamy podobny stosunek do naszych dzieci, do naszej rodziny?\n\nCzy jesteśmy gotowi iść tak za Bogiem i kochać tak, jak Bóg kocha nas?\n\nTą prawdziwą chwałę Bogu przynosi posłuszeństwo – nie klaskanie czy śpiewanie.\n\nJeśli robimy to, co umiemy, to jedno, ale gdy robimy to, co Bóg chce – to zupełnie inna sprawa.\n\nJak możemy uczyć dzieci tego wszystkiego? Bez Ducha Świętego jest to niemożliwe.\n\nPotrzebujesz wielkiej mądrości, by wiedzieć, co zmienić w dziecku, który aspekt jego życia.\n\nTo, co ciebie denerwuje, może dla Boga wcale nie być ważne.\n\nJeśli skupiamy się tylko na sobie i własnych oczekiwaniach, nie będziemy posłuszni Bogu i nie zrealizujemy Jego woli.\n\nMy decydujemy tylko, jak robimy, czy dobrze, starannie, czy posłusznie do końca, czy powierzchownie.\n\nNie usprawiedliwiaj częściowego wykonań – np. dziecko ma zdjąć naczynia ze stołu, a bierze tylko kubek. To nie wystarczy.\n\nW Bożej woli nie chodzi o częściowe wykonanie, ale o pełne posłuszeństwo.\n\nW 2 Koryntian 3,13 Paweł pisze, że Mojżesz kładł zasłony na oblicze, aby Izraelici nie patrzyli na koniec tego, co miało ustać.\n\nMojżesz odbijał Bożą chwałę jak słońce odbijane przez powierzchnię księżyca – choć piękne, to jednak odbicie, a nie przemiana.\n\nPaweł dalej pisze w wersetach 17-18: „Pan jest duchem; gdzie jest Duch Pański, tam jest wolność. My wszyscy z odsłoniętym obliczem, oglądając jak w zwierciadle chwałę Pana, zostajemy przemienieni w ten sam obraz, z chwały w chwałę, jak to sprawia Pan, który jest Duchem.”\n\nCzas poświęcony na relację z Bogiem przez Ducha Świętego przemienia nasze serce – zamiast odbijać Boga, stajemy się jak On.\n\nJak mówi Piotr, Bóg daje nam dary, abyśmy stawali się uczestnikami Jego natury.\n\nTakiego samego przemienienia oczekuje od nas i od naszych dzieci.\n\nJeśli sami się wstydzimy swojego nieposłuszeństwa, jak mamy wymagać go od dzieci?\n\nJeśli sami nie jesteśmy obrazem tego, który nas powołał, relacje z Bogiem i rodziną będą powierzchowne.\n\nTo sprawia Pan, który jest duchem.\n\nBez Boga i Jego mądrości nie doświadczymy przemiany ani nie będziemy wiedzieć, jak ją realizować w rodzinie.\n\nHebrajczyków 12,1: „Patrząc na Jezusa, sprawcę i dokończyciela wiary, który zamiast doznać należitej Mu radości, wycierpiał krzyż, nie bacząc na hańbę, i usiadł na prawicy tronu Bożego.”\n\nBywa, że rozumiemy to tak, że Jezus jest tym, który robi wszystko za nas – zaczyna i kończy naszą wiarę, a my nic nie musimy robić.\n\nAle sprawca to ktoś, kto zaczyna, pobudza serce do działania, a dokończyciel to ten, który wspiera i prowadzi.\n\nBóg daje nam Ducha Świętego, by prowadził, motywował, ale to my musimy podejmować świadome decyzje i być posłuszni, by Boża wola w nas się spełniła.\n\nJezus sam mówił: „Nikt mi nie każe, ja to robię sam.”\n\nTak Bóg chce, byśmy byli posłuszni, i tak powinniśmy chcieć, by nasze dzieci były posłuszne.\n\nCelem wychowania jest zmiana serca, a nie tylko zachowania.\n\nBóg nie chce nas nauczać jedynie moralności: „nie mlaskaj, utrzymuj kulturę przy stole, nie trąb.”\n\nBóg chce, by nasze serca były przemienione, gotowe stać się naczyniami Jego łaski, by wydawać owoc w odpowiednim czasie.\n\nCzy nie oczekujemy od dzieci, by były odpowiedzialne? Zaczynamy od drobnych kroków, jak posłanie po bułkę, później można zostawić dziecko z drugim i liczyć na pokój.\n\nKochajmy innych tak, jak Bóg ukochał nas – a zaczynamy od najbliższej rodziny.\n\nBóg posłał Syna, który dobrowolnie oddał życie za nas. Co my jesteśmy w stanie poświęcić dla naszych rodzin?\n\nRodzina jest arką dni ostatecznych – przyjdą dni, gdy tylko w rodzinie znajdziemy schronienie przed złem i gniewem tego świata.\n\nJakość tej arki decyduje o naszej przyszłości, o przyszłości naszych dzieci i pokoleń.\n\nRodzina to Boże błogosławieństwo, obietnica, że jeśli Mu będziemy posłuszni, doprowadzi nas do końca.\n\nNie uprawiajmy kultu cargo w rodzinie – nie udawajmy rodziny, ale bądźmy rodziną.\n\nZmiana to fakt, nie twoje przekonanie – to coś, co zauważy ktoś, kto znał ciebie wcześniej.\n\nNie osiągniemy tego bez posłuszeństwa Bogu, bez poddania się Jego wychowaniu.\n\nNie osiągniemy uświęcenia przez samo uwielbienie, ani zbawienia przez uświęcenie bez śmierci dla grzechu.\n\nJeśli jesteśmy zbawieni, to umarliśmy dla grzechu i możemy poddać się temu procesowi wychowawczemu w Bogu.\n\nPrzez to, jak Bóg nas prowadzi, oddajemy Mu chwałę – nie słowami, ale życiem.\n\nGrzech to nie jest tylko niemoralność, ale nieposłuszeństwo wobec każdego słowa, które wychodzi z ust Bożych.\n\nAmen."
+  },
+  "cover": "/images/covers/e7tOILHSUoE.webp"
+}

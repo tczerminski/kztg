@@ -1,0 +1,85 @@
+{
+  "date": "2024-11-10",
+  "preacher": "Dariusz Nakonowski",
+  "title": "Ja i dom mój służyć będziemy Panu",
+  "summary": "Postacie Mojżesza, Jozuego, Eliasza i Elizeusza przedstawione zostały jako przykłady wiernej służby Bogu, z podkreśleniem ich różnych życiowych etapów i powołania. Fragment Listu do Hebrajczyków 11 ukazuje wiarę Mojżesza jako kluczową dla dokonywania życiowych wyborów. Przesłanie nawołuje do wyboru Boga ponad doczesne wartości oraz podporządkowania życia Jego woli i Słowu.",
+  "duration": 4007,
+  "translations": {
+    "en": {
+      "title": "I and My People Will Serve the Lord",
+      "summary": "The stories of Moses, Joshua, Elijah, and Elisha reveal how to persevere in serving God despite challenges and personal weaknesses. This sermon inspires a commitment to Christ, who is the rock—a refuge and strength in every circumstance. It reflects on the relevance of the calling to serve and the true meaning of freedom in God's Kingdom."
+    },
+    "uk": {
+      "title": "Я і дім мій служитимемо Господу",
+      "summary": "Історія Мойсея, Ісуса Навина, Іллі та Єлисея показує, як витримати в служінні Богові, незважаючи на труднощі та власні слабкості. Проповідь надихає прийняти рішення за Христа, який є каменем – притулком і силою в будь-якій ситуації. Вона містить роздуми про сучасність покликання до служіння та суть справжньої свободи в Божому Царстві."
+    },
+    "ta": {
+      "title": "ஆமாம், நாங்கள் எள்ளாமல் ஆண்டவரை சேவிப்போம்",
+      "summary": "மோசேஸ், யோசுவா, எலியாகர் மற்றும் எலீசர் ஆகியோரின் கதைகள் கடினங்களில் மற்றும் தனது பலவீனங்களிலும் கடவுளின் சேவையில் நிலைத்திருப்பதை எவ்வாறு செய்வது என்பதைச் காட்டுகின்றன. இந்த போதனை, சுவர் போல் நிலைத்திருக்கும் கிரிஸ்துவையேத் தொடர்ந்து பின்பற்றும் தீர்மானத்தை எடுக்க மக்களை ஊக்குவிக்கிறது - அவன் ஒவ்வொரு சூழலிலும் நம்பிக்கையும் வலுவும் ஆகும். இது சேவையில் அழைக்கப்பட்டதைப் பற்றிய தொலைநோக்குப் பார்வையும், கடவுளின் ராஜ்யத்தில் உண்மையான சுதந்திரத்தின் தன்மையையும் தித்தியற்கிறது."
+    },
+    "de": {
+      "title": "Ja und mein Haus werden dem Herrn dienen",
+      "summary": "Die Geschichte von Mose, Josua, Elia und Elisa zeigt, wie man trotz Schwierigkeiten und eigener Schwächen im Dienst für Gott bestehen kann. Die Predigt ermutigt dazu, sich für Christus zu entscheiden, der der Fels ist – Zuflucht und Stärke in jeder Situation. Sie regt zum Nachdenken über die heutige Bedeutung des Rufes zum Dienst und die wahre Freiheit im Reich Gottes an."
+    },
+    "es": {
+      "title": "Sí, también nosotros serviremos al Señor",
+      "summary": "La historia de Moisés, Josué, Elías y Eliseo muestra cómo perseverar en el servicio a Dios a pesar de las dificultades y nuestras propias debilidades. Este sermón inspira a tomar la decisión por Cristo, quien es la roca: un refugio y fuerza en toda situación. Incluye una reflexión sobre la actualidad del llamado al servicio y la importancia de la verdadera libertad en el Reino de Dios."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Hbr 11",
+      "Wj 17",
+      "1 Krl 19",
+      "Joz 1",
+      "Joz 24",
+      "Rz 14"
+    ],
+    "en": [
+      "Heb 11",
+      "Exod 17",
+      "1 Kings 19",
+      "Josh 1",
+      "Josh 24",
+      "Rom 14"
+    ],
+    "uk": [
+      "Євр 11",
+      "Вих 17",
+      "1 Цар 19",
+      "Ісус Навин 1",
+      "Ісус Навин 24",
+      "Рим 14"
+    ],
+    "ta": [
+      "எபிரேயர் 11",
+      "எக்ஸோடஸ் 17",
+      "1 ராஜாக்கள் 19",
+      "யோசுவா 1",
+      "யோசுவா 24",
+      "ரோமர் 14"
+    ],
+    "de": [
+      "Hebr 11",
+      "2 Mose 17",
+      "1 Kön 19",
+      "Jos 1",
+      "Jos 24",
+      "Röm 14"
+    ],
+    "es": [
+      "Heb 11",
+      "Éx 17",
+      "1 Rey 19",
+      "Jos 1",
+      "Jos 24",
+      "Rom 14"
+    ]
+  },
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/tFsyQ5roBjk/tFsyQ5roBjk.opus",
+  "transcript": {
+    "pl": "Zanim to zrobię, zanim przejdę do głównej myśli tego, czym chciałem się z wami dzisiaj podzielić, co Pan położył na moje serce już jakiś czas temu, chciałbym przedstawić kilku biblijnych bohaterów, którzy są mi szczególnie bliscy. To nie znaczy, że inni nie są oczywiście tacy, ale są bohaterowie, którzy w jakimś okresie naszego życia spełniają ważną rolę, dając nam inspirację do życia, do funkcjonowania w codzienności, ale przede wszystkim, by nieustannie iść ścieżką za Bogiem.\n\nSą to osoby ze Starego Testamentu: Mojżesz, Jozue, Eliasz i Elizeusz. Przepiękne postacie, które całym swoim życiem miały pewien osobisty cel, ale również cel dla innych — dla narodu i dla indywidualnych osób. Są one dla nas wzorem właściwego podejścia i postępowania. To nie są ludzie bez błędów czy potyczek, ale jestem przekonany, że z każdego ich doświadczenia i słabości możemy wyciągnąć niesamowite boże rady dla naszego życia.\n\nPozwólcie, że przypomnę, kim był Mojżesz i co tak naprawdę uczynił. Myślę, że jest to dla nas wszystkich bardzo oczywiste. Mojżesz, sługa Pana, oddany, gorliwy, nazwany najpokorniejszym człowiekiem, urodził się w niewoli i był skazany na śmierć wyrokiem faraona, który nakazał zabicie każdego nowonarodzonego chłopca. Jednak dzięki wierze swoich rodziców został cudownie ocalony, stał się uczestnikiem dworu faraona, wychowywanym przy stole faraona, gdzie zasiadał razem z córką faraona, która go przyjęła jako swoje dziecko.\n\nTen człowiek, wychowywany przy stole faraona, nabył wiele mądrości i wykształcenia. Wiedział o swoim pochodzeniu i nie zgadzał się na rozkosze życia, które się mu pojawiały. Mijają mu około czterdziestu lat, i wtedy decyduje się, że chce coś uczynić dla narodu jemu bliskiego — próbuje go bronić. Niestety, ta obrona nie wychodzi mu dobrze — zabija Egipcjanina, przez co musi uciekać, aby sam nie został zabity. Już wtedy ma w sobie poczucie potrzeby wyzwolenia narodu z niewoli.\n\nWypędzony, idzie na pustynię, gdzie spędza kolejne czterdzieści lat, po których objawia mu się Bóg i nadaje mu cel życia — co ma robić. Potrzebował około osiemdziesięciu lat, by stanąć przed Bogiem i Izraelem, a może kolejne czterdzieści lat, by stać się wybawcą Izraela.\n\nOtwórzmy sobie list do Hebrajczyków, który w skrócie opisuje historię Mojżesza — kim był, co uczynił, czego pragnął, a czego nie. W rozdziale 11, od 24. do 27. wersetu czytamy:\n\n„Przez wiarę Mojżesz, kiedy dorósł, nie zgodził się, by go zwano synem córki faraona, i wolał raczej znosić ucisk wraz z ludem Bożym, aniżeli zażywać przemijającej rozkoszy grzechu. Uznawszy hańbę chrystusową za większe bogactwo niż skarby Egiptu, skierował bowiem oczy na zapłatę. Przez wiarę opuścił Egipt, nie uląkłszy się gniewu królewskiego, trzymał się bowiem tego, który jest niewidzialny, jak gdyby go widział.”\n\nJeszcze proszę służbę techniczną o wyciszenie pogłosu, bo bardzo ciężko się przez to tu mówi.\n\nPatrząc na Mojżesza, widzę człowieka powołanego przez Boga, który podąża za Nim, ale nie godzi się na to, by w jego życiu pojawiały się rzeczy, które mu się nie podobają, choć może światu się podobały. Mógł być wykształcony, bogaty, majętny, ale wyrzeka się tego wszystkiego, by stać się wygnanym, biednym człowiekiem, któremu nic nie pozostało. Jednak Bóg jest z nim wszędzie.\n\nMija czas rozmyślań i zastanawiania się, co dalej robić. Te czterdzieści lat na pustyni to czas refleksji. Jeśli miałbym sklasyfikować etapy jego życia: niewolnik, dziedzic faraona, wygnaniec, potem wybawiciel Izraela, a w końcowym etapie nadawca prawa — Mojżesz jako pośrednik, który przynosi prawo do Izraela.\n\nTo nie była jedyna jego służba — kształcił też Jozuego na swojego następcę.\n\nTeraz chciałbym powiedzieć o Jozuem — młodym człowieku, który miał właściwe podejście do służby. Jozue zapragnął służyć Mojżeszowi i jest po raz pierwszy wspomniany w Drugiej Księdze Mojżeszowej, rozdziale 17, werset 9:\n\n„Wtedy rzekł Mojżesz do Jozuego: Wybierz nam mężów i wyrusz do boju z Amalekitami. Jutro ja z laską Bożą w ręku stanę przy szczycie góry.”\n\nJozue wykonał polecenie i wyruszył do boju.\n\nChoć może nie miał takich przywilejów jak Mojżesz, był wiernym sługą, czujnym i wyczekującym Bożej obecności. Jozue dążył do tego, co Boże, a nie co ludzkie.\n\nKolejny bohater to Eliasz, prorok Pana, powołany w czasie dużego odstępstwa Izraela. Człowiek obdarzony wielkim autorytetem, czyniący cuda — zstąpił ogień z nieba, modlił się usilnie o deszcz po trzech latach suszy, przez co objawiła się Boża chwała.\n\nW pierwszej księdze królewskiej, rozdziale 19, znajdujemy opis powołania Elizeusza:\n\n„Odszedł więc stamtąd i znalazł Elizeusza, syna Szafata, przy orce. Dwanaście zaprzęgów wołów szło przed nim, a on był przy dwunastym. Eliasz podszedł do niego i zarzucił na niego swój płaszcz. Wtedy opuścił woły, pobiegł za Eliaszem i rzekł: ‘Pozwól mi pocałować ojca i matkę, a potem pójdę za tobą.’ A on mu odpowiedział: ‘Idź, ale potem wróć, bo po cóż ci to uczyniłem?’ Wrócił do niego, wziął parę wołów, zarżnął je, ugotował ich mięso na uprzęży i podał swoim ludziom, a oni jedli. Potem ruszył za Eliaszem i mu służył.”\n\nElizeusz, mając rodzinę i majątek, bez wahania odszedł, by służyć Eliaszowi.\n\nElizeusz, jako czwarty bohater, przechodzi trudności, ale skupia się na służbie, wzorując się na Eliaszu. Pragnie Bożej społeczności i bliskości, co Bóg odpowiadając na jego wołanie, ukazuje cud rozdzielenia wód, jak wcześniej u Mojżesza i Jozuego.\n\nW Biblii znane są cztery takie wydarzenia: rozstąpienie wód Morza Czerwonego przez Mojżesza, rozstąpienie Jordanu przez Jozuego, a następnie ten sam cud dokonany przez Eliasza i Elizeusza. Bóg działa dla narodu i dla pojedynczej osoby, spełniając cuda, które są dla nas nieraz niepojęte.\n\nCo łączy tych czterech bohaterów? Przede wszystkim ich podejście do służby, zaangażowanie i głęboka więź z Bogiem, z której i my możemy czerpać.\n\nZwracam uwagę, że łączy ich Jezus. Mojżesz ukrywał się w szczelinie skalnej, by oglądać Bożą chwałę; Eliasz schronił się w jaskini — podobne wydarzenia. Któż może być tą skałą, gdzie można znaleźć schronienie i oglądać Boże cuda, jak nie Jezus? On łączy wszystkie te wydarzenia.\n\nChciałbym wrócić do Księgi Jozuego i powołania, jakie Bóg mu daje. Bóg wyznacza mu zadanie, by przeprowadzić Izrael przez Jordan do ziemi obiecanej. W Jozuego 1:1-9 czytamy:\n\n„Po śmierci Mojżesza, sługi Pana, rzekł Pan do Jozuego, syna Nuda, sługi Mojżesza: ‘Mojżesz, mój sługa, umarł, teraz więc wstań, przepraw się przez ten Jordan ty i cały ten lud do ziemi, którą ja im daję. Każde miejsce, na którym postaniecie, dam wam jak przyobiecałem Mojżeszowi. Od pustyni i Libanu, aż do wielkiej rzeki Eufrat, poprzez kraj hetyjczyków, aż do wielkiego morza na zachodzie, sięgać będzie wasz obszar. Nikt przed tobą się nie ostoi, dopóki żyć będziesz. Jak byłem z Mojżeszem, tak będę z tobą, nie odstąpię cię ani nie opuszczę.’”\n\nBóg daje konkretne polecenie i obietnicę obecności. Trzykrotnie powtarza: „Bądź mocny i mężny.” Ale w czym? W ścisłym przestrzeganiu Prawa, jakie Mojżesz przekazał, zamyślaniu się nad nim dniem i nocą, tak by wszystko wypełniać.\n\nJozue przez około 40 lat służył przy Mojżeszu, uczył się i obserwował, a teraz Bóg przypomina mu, by nie odstępował od Jego Słowa, bo wtedy będzie mu się powodziło.\n\nW rozdziale 24 Jozue przedkłada ludowi pytanie: „Komu chcecie służyć?” I sam odpowiada: „Ja i mój dom służyć będziemy Panu.”\n\nSłużyć oznacza tu decyzję, wolność i miłość, a nie niewolnictwo. To jest podobne do relacji małżeńskiej — usługiwanie sobie nawzajem z miłości. Kościół jest oblubienicą Chrystusa, która mu służy.\n\nZastanówmy się: czy chcemy być wykonawcami Bożego Słowa? Komu chcemy służyć? Świat służy pieniądzom, władzy, pożądliwości, ale my chcemy służyć Bogu.\n\nTo samo potwierdza List do Rzymian 14:17-18:\n\n„Albowiem Królestwo Boże to nie pokarm i napój, lecz sprawiedliwość, pokój i radość w Duchu Świętym.”\n\nDrodzy bracia i siostry, na koniec chciałbym zadać wam pytanie: czy jest coś, co stoi na przeszkodzie, by służyć Bogu? Czy nie zwlekacie z rozwiązaniem jakichś spraw? Czy nie obarczacie się czymś?\n\nWierzę, że dzisiaj Bóg chce do was przemówić. Bóg powołuje was i daje obietnicę, abyście mogli Mu służyć.\n\nJeśli chcecie, możecie teraz podjąć tę decyzję w sercu i powiedzieć sobie: „Ja i mój dom służyć będziemy Bogu.” Niech to będzie szczera deklaracja, wynikająca z waszej wolnej woli, a nie przymusu.\n\nNa koniec się pomodlę. Jeśli są osoby, które czują w swoim życiu jakieś przeszkody lub obciążenia, możemy po nabożeństwie wspólnie się modlić. Możecie teraz wstać i powiedzieć: „Panie, chcę Tobie służyć, potrzebuję Twojej pomocy i siły.”\n\nZamknijmy oczy i pozwólmy Bogu działać w naszych sercach, aby odpowiedział na tę modlitwę, szczere i prawdziwe wołanie:\n\n„Panie, dziękuję Ci za to wszystko, co dziś usłyszeliśmy, za Twoje żywe Słowo przez Twojego Ducha Świętego. Jako Twoje dziecko stoję dziś i deklaruję: ja i mój dom służyć będziemy Tobie. Chcę polegać na Tobie, oddawać Ci chwałę każdego dnia, iść Twoimi ścieżkami, mieć siłę, by trwać w prawdzie i dążyć do dobra. Panie, błogosław nas wszystkich. Ty znasz nasze serca i widzisz szczerość. Mimo naszych błędów i trudności, chcemy iść za Tobą i mówić: ja i mój dom służyć będziemy Tobie.”\n\nAmen."
+  },
+  "cover": "/images/covers/tFsyQ5roBjk.webp"
+}

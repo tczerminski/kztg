@@ -1,0 +1,121 @@
+{
+  "date": "2025-03-17",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/mc1_v_IsMRc/mc1_v_IsMRc.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Nikolaici dawniej i współcześnie cz. 12",
+  "summary": "Tematem kazania jest analiza postaci nikolaitów w kontekście biblijnym i historycznym, ze szczególnym uwzględnieniem ich duchowego wpływu na Kościół. Kaznodzieja omawia fragmenty z Objawienia Jana oraz listy apostolskie, wskazując na zagrożenia wynikające z fałszywego pośrednictwa duchowego i manipulacji emocjonalnej. Przesłanie podkreśla konieczność rozróżniania mocy Bożej od duchów nieprawości i zachowania czujności wobec fałszywych nauk.",
+  "duration": 3722,
+  "translations": {
+    "en": {
+      "title": "The Nicolaitans Then and Now Part 12",
+      "summary": "Does the power present in the church always come from God? This sermon reveals who the Nicolaitans really are – spiritual manipulators who create a false sense of security and use emotions to control others. The message emphasizes that the Church is a living community of saints, and true support comes only from God's Word and the Holy Spirit. Learn how to recognize and guard against spiritual deception."
+    },
+    "uk": {
+      "title": "Ніколаїти раніше і сьогодні, ч. 12",
+      "summary": "Чи завжди сила, присутня в церковній громаді, походить від Бога? У цій проповіді розкривається, хто такі ніколаїти — духовні маніпулятори, які створюють хибне відчуття безпеки та використовують емоції для контролю над людьми. Послання наголошує, що Церква — це живий спільнот святців, а справжньою опорою є лише Слово Боже і Святий Дух. Дізнайтеся, як розпізнавати і захищатися від духовного обману."
+    },
+    "ta": {
+      "title": "நிகொலைகி முன்பும் இப்போதும் பாகம் 12",
+      "summary": "சமூಹத்தில் உள்ள சக்தி எப்போதும் கடவுளிடம்தான் வந்ததைப்பற்றி இந்த பிரச்சாரத்தில் பேசப்படுகிறது. நிகொலைகிகள் யார் என்று வெளிப்படுத்துகிறது – ஆன்மிகக் கழகர்களாகும், உண்மையற்ற பாதுகாப்பு உணர்வை உருவாக்கி, மனிதர்களை உணர்ச்சியால் கட்டுப்படுத்துகிறார்கள். கிறிஸ்துவின் கிராமம் உயிரும் புனிதர்களின் கூட்டமைப்பும் ஆகும், உண்மையான ஆதாரம் கடவுளின் வார்த்தை மற்றும் பரிசுத்த ஆவியே என்பதை இந்த செய்தி வலியுறுத்துகிறது. ஆன்மிக குழப்பத்திலிருந்து எப்படி அறிந்து, பாதுகாக்க வேண்டும் என்பது பற்றியும் அறிந்து கொள்க."
+    },
+    "de": {
+      "title": "Nikolaïten früher und heute, Teil 12",
+      "summary": "Kommt die Kraft, die in der Gemeinde spürbar ist, immer von Gott? Diese Predigt enthüllt, wer die Nikolaïten wirklich sind – geistliche Manipulatoren, die ein falsches Sicherheitsgefühl erzeugen und Emotionen nutzen, um Menschen zu kontrollieren. Die Botschaft betont, dass die Gemeinde eine lebendige Gemeinschaft der Heiligen ist und wahre Halt nur das Wort Gottes und der Heilige Geist geben. Erfahre, wie du geistliche Täuschung erkennst und dich dagegen schützt."
+    },
+    "es": {
+      "title": "Los Nicolaítas en el pasado y en la actualidad, parte 12",
+      "summary": "¿La autoridad presente en la iglesia siempre proviene de Dios? Este sermón revela quiénes son los nicolaítas: manipuladores espirituales que crean una falsa sensación de seguridad y utilizan las emociones para controlar a las personas. El mensaje destaca que la Iglesia es una comunidad viva de santos, y que el verdadero apoyo solo lo brindan la Palabra de Dios y el Espíritu Santo. Aprende a reconocer y defenderte contra el engaño espiritual."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Ps 1",
+      "Rz 1",
+      "Ef 5",
+      "Ef 6",
+      "Mt 23",
+      "J 1",
+      "Jd 1",
+      "Wj 28",
+      "Lb 24",
+      "Hbr 7",
+      "Iz 29",
+      "Jl 2"
+    ],
+    "en": [
+      "Ps 1",
+      "Rom 1",
+      "Eph 5",
+      "Eph 6",
+      "Matt 23",
+      "John 1",
+      "Jude 1",
+      "Ex 28",
+      "Num 24",
+      "Heb 7",
+      "Isa 29",
+      "Joel 2"
+    ],
+    "uk": [
+      "Пс 1",
+      "Рим 1",
+      "Еф 5",
+      "Еф 6",
+      "Мт 23",
+      "Ів 1",
+      "Юд 1",
+      "Вих 28",
+      "Чис 24",
+      "Євр 7",
+      "Іс 29",
+      "Йл 2"
+    ],
+    "ta": [
+      "சங்கீதம் 1",
+      "ரோமர் 1",
+      "எபேசியர் 5",
+      "எபேசியர் 6",
+      "மத்தேயு 23",
+      "யோவான் 1",
+      "அப்போஸ்தலர் 1 யூதா",
+      "எக்ஸோடு 28",
+      "நூமரி 24",
+      "எபிரேயர் 7",
+      "ஐசயா 29",
+      "யொவேல் 2"
+    ],
+    "de": [
+      "Ps 1",
+      "Röm 1",
+      "Eph 5",
+      "Eph 6",
+      "Matt 23",
+      "Joh 1",
+      "Jud 1",
+      "2 Mos 28",
+      "4 Mos 24",
+      "Hebr 7",
+      "Jes 29",
+      "Joel 2"
+    ],
+    "es": [
+      "Sal 1",
+      "Rom 1",
+      "Ef 5",
+      "Ef 6",
+      "Mat 23",
+      "Juan 1",
+      "Jud 1",
+      "Éx 28",
+      "Nm 24",
+      "Heb 7",
+      "Is 29",
+      "Jl 2"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was wszystkich w imieniu Pana naszego Jezusa Chrystusa. Zanim rozpoczniemy cykl wykładów na temat nikolaitów, jest prośba Asi Labisz, abyśmy się pomodlili. Powstańmy więc i zawołajmy do Boga, aby nasza siostra została dotknięta w tych sprawach, które ją jeszcze bolą, czyli ten bark, a także problemy z nastawieniem psychicznym, z nerwicą psychiczną. Prośmy Pana, aby nasza siostra została uzdrowiona.\n\nTak, Panie Jezu, dziękujemy Ci za to, że dajesz nam ten przywilej. Panie, nie będziemy ustawać w modlitwach za naszą siostrą Asią, abyś jej dotknął. Panie Jezu, niech Twoja ręka także dotknie tego miejsca, które ją boli, ale też umysłu i duszy, aby została pocieszona i podniesiona. Dziękujemy Ci, że mamy ten przywilej, Panie Jezu, wstawiać się jedni za drugich. Tobie niech będzie za wszystko wdzięczność, chwała, cześć i uwielbienie za wszystkie dzieła, które czynisz w naszym życiu. Amen.\n\nUsiądźmy, moi kochani. Powoli będziemy dobiegali końca cyklu, może jeszcze dwa wykłady na temat nikolaitów. Jak widzimy, wykłady są prowadzone od października, a dokładnie od 14 października. Dla przypomnienia – najpierw mówiliśmy o trzech aspektach, które cechują nikolaitów, o objawieniu, a dzisiaj zaczniemy mówić o uczynkach.\n\nMówiliśmy o wzorcu w Słowie Bożym – jaki jest prawdziwy pasterz. Czytaliśmy ze Słowa Bożego na ten temat i mówiliśmy o porządku, który powinien funkcjonować w kościele, czyli o porządku według Melchizedeka.\n\nPóźniej omawialiśmy aspekty, które pokazują, że w pierwotnym kościele pojawiły się dwa odszczepieństwa zarówno w wymiarze fizycznym, jak i duchowym. Dzisiaj może nazywamy je inaczej, ale duchowo cechują one wszystkie charakterystyczne rzeczy, o których Biblia mówi.\n\nMianowicie nikolaiti to ci, którzy uzurpują sobie pewnego rodzaju pośrednictwo – prędzej czy później. Mówiliśmy również o sekcie Mikołaja, która wprowadziła do pierwotnego kościoła przyzwolenie na uczestnictwo w obrzędach pogańskich, które zdaniem nich nie szkodzą duszy. To są fakty historyczne, które można sprawdzić.\n\nW objawieniu Jana Bóg odnosi się do nauki Bileama i Balaka, o której będziemy dzisiaj mówić. Ta nauka nie jest według woli Bożej, ponieważ doprowadza do cudzołóstwa duchowego i bałwochwalstwa. Mówiliśmy też o Szymonie czarnoksiężniku. Szeroko omawialiśmy tego osobnika. Wydawało się, że się nawrócił, ale jego serce nie było zdolne do całkowitego oczyszczenia. Pomimo dobrych chęci, chciał za pieniądze nabyć dary Boże. Przed poznaniem nauki apostolskiej wielu ludzi z Samarii uważało, że ma wielką moc Bożą.\n\nChcę zwrócić uwagę, że nawet moc może nas zmylić. Kiedy widzimy moc, często mówimy: \"Alleluja, moc Boża!\" Ale u Szymona czarnoksiężnika moc ta pochodziła niestety ze strony ciemności, co Słowo Boże potwierdza. W końcu czasów szatan przyjdzie ze wszelką mocą, w znakach i rzekomych cudach.\n\nTo znaczy, że jeśli działa jakaś moc, to wcale nie oznacza, że pochodzi od Boga. Mamy obowiązek badać, z jakiego ducha pochodzą te znaki i cuda, zwłaszcza w dzisiejszych czasach. W pierwotnym kościele również to badano – czytamy o tym w liście do Tesaloniczan, gdzie mowa jest o duchu nieprawości, czyli duchu antychrysta, który zaczął działać już wtedy.\n\nNie znaczy to, że działa tylko \"teraz\", gdy będą znaki końca czasów, ale ta moc nieprawości działa nieprzerwanie. Przeciwnik wciąż chodzi jak lew ryczący – to chyba oczywiste.\n\nPóźniej mówiliśmy o duchowym aspekcie symonii, czyli o skutkach powstawania w kościele pewnych sytuacji, kiedy ludzie poddają się religijnym efektom psychologicznym, które zwiążą nas przez duszewność. Omawialiśmy również, jak budynek, w którym funkcjonuje kościół, ma swoje znaczenie – to \"castellum\", \"castra\" – miejsce warowne, zamek (języki teutońskie). Natomiast słowo \"kirche\" pochodzi od bogini Kirke – bogini strachu.\n\nMożna by dalej badać grecki czy inne języki, ale wspólnym mianownikiem jest to, że wytwarza się fałszywe poczucie bezpieczeństwa, jeśli utożsamiamy się z budynkiem, a nie ze wspólnotą ludzi.\n\nBiblia mówi, że świątynią Ducha Świętego są nasze ciała. Kiedy więc myślimy o kościele, nie powinniśmy mówić: \"Idę do budynku, aby spotkać kościół\", ale \"Idę do kościoła, aby się spotkać z ludźmi\".\n\nTo może wydawać się grą słów, ale psychologia wywiera na nas wpływ, wytwarzając fałszywe poczucie bezpieczeństwa. Jeśli w nas jest Duch Święty, i jeśli my jesteśmy świątynią Ducha Świętego, nic nam nie grozi, a bezpieczeństwo zapewnia nam Bóg.\n\nWiedzieliśmy też, że w tych sprawach jest zaangażowana psychologia, która działa do dziś. Przez kłamstwo – tysiąc razy powtarzane – kłamstwo staje się dla ludzi prawdą.\n\nNikolaiti nie muszą się zbytnio wysilać, aby trzymać przy sobie swoich podległych, ponieważ w wielu zborach możemy zaobserwować, że ludzie przywiązują się do nich emocjonalnie. Gdy mówi się im prawdę, odbierają to jako atak i reagują agresywnie.\n\nPowiedziałem przykład, że kiedy zwiastujemy Słowo Boże...\n\n(...) Tak, i już koniec? Nie, te pisma były przepisywane, a by nie dopuścić do fałszerstw, kopiści, często nawet nieumiejący czytać, przepisywali dokładnie te teksty. Można by powiedzieć, że litery rysowali na ich kształt.\n\nDzięki temu mamy dziś tysiące egzemplarzy potwierdzających prawdziwość Słowa Bożego – zarówno w Babilonie, gdzie znaleziono babiloński Stary Testament, jak i w Septuagincie – tłumaczeniu Starego Testamentu na grecki – oraz w pismach koptyjskich, prawosławnych i innych oryginalnych greckich tekstach.\n\nPóźniej pojawiły się teksty według tzw. tekstu recepum, aż w końcu powstała Wulgata, czyli łacińska wersja Biblii. To można by szeroko omawiać, ale dziś tylko przypominam, że przez tysiąclecia kształtowało się Słowo Boże.\n\nDzisiaj nie możemy mówić, że któreś księgi Słowa Bożego nie obowiązują. Zarówno Stary, jak i Nowy Testament stanowią zamkniętą całość i są natchnione przez Ducha Świętego.\n\nCałe Pismo Święte jest pożyteczne do nauki, wychowania w pobożności, wykrywania błędów i prowadzenia życia zgodnego z wolą Bożą.\n\nJuż za czasów Pana Jezusa nauki ludzkie zaczęto wprowadzać do wykładni Biblii – wymyślano różne reguły i zasady. Pan Jezus je częściowo podważał, np. obmywanie rąk, które było nakazane przez starszych, a On przywoływał przykłady, takie jak Dawid spożywający chleby pokładne bez zgorszenia.\n\nNauka ludzka często triumfuje nad słowem Bożym, co widzimy również w wielu fragmentach Starego Testamentu.\n\nNikolaiti będą wykorzystywać emocje, duszewność – będą podkręcać nasze emocje, tworzyć piękne śpiewy i pieśni, które dają emocjonalne zadowolenie, ale nie niosą prawdziwego Boga.\n\nW Starym Testamencie Pan Bóg przez proroków mówił, że brzydzą się świętami, krzykami i pieśniami, kiedy nie ma prawdziwego serca.\n\nLudzie „czczą Mnie wargami, lecz serca ich są dalekie” – tak jest wyrażone w Piśmie.\n\nTak więc, ci, którzy chcą zarządzać innymi, wiedzą, że duszewność i emocjonalność jest kluczem do manipulacji.\n\nTe uczucia są zawsze wykorzystywane jako karta przetargowa.\n\nOtwórzmy teraz List do Efezjan, rozdział 5, aby rozważyć skutki emocji, które są wyzwalane w różnych miejscach.\n\nW średniowieczu były też specjalne pieśni, np. gregoriańskie, hymny, które w określonych tonacjach i falach wywoływały określone stany ducha – lęk, podziw, strach.\n\nLudzie od zarania dziejów, od czasów plemiennych, byli pośrednikami między światem duchowym a wspólnotą. Doskonale wiedzieli, jak wykorzystywać emocje i manipulować podległymi.\n\nBrali ofiary czy przebłagania dla bóstw złych albo dobrych.\n\nDziś te rzeczy nadal funkcjonują – na przykład w Indiach, Chinach, czy Japonii (gdzie choć nie ubiera się już kimona na co dzień, to przed pracą ubiera się tradycyjny strój i oddaje cześć bóstwom).\n\nCzłowiek jest stworzeniem duchowym. Niezależnie od tego, czy nazwiemy się ateistami, mamy w sobie gen wiary, którego nikt nie jest w stanie wyrwać – nawet komunizm, który próbował z Lenina uczynić bóstwo.\n\nTakże duszewność jest związana z wiarą, a ci, którzy manipuluja ludźmi jako nikolaiti, doskonale wiedzą, jak to robić.\n\nA teraz otwórzmy Efezjan 6,7-8: \n\n\"Niechaj nikt was nie zwodzi próżnymi słowami, ponieważ z powodu nich przychodzi gniew Boży na nieposłusznych synów.\"\n\nZwróćmy uwagę na zwrot \"próżne słowa\". Wiara opiera się na słowie i na mocy – \"Rzekł Bóg i stało się\" – a próżne słowa to te, które zwodzą i nie mają mocy.\n\nW wielu naukach, które poznaliśmy, przewijają się właśnie takie próżne słowa – np. żonglowanie modlitwami, utrzymaniem \"wiary\" czy \"uzdrowień\".\n\nW czasach apostolskich modlitwy o wskrzeszenie były faktem, lecz dziś bardzo rzadko zdarza się modlić za umarłych.\n\n(...)\n\nJednak bądźcie pełni Ducha, rozmawiajcie między sobą przez psalmy, hymny, pieśni duchowe, śpiewając i grając w sercach waszych Panu.\n\nWidać więc, że pieśni i hymny mają wypływać z głębi serca, nie tylko wychodzić z duszy (dusza – jest często narażona na grzechy i złe skłonności).\n\nAby wypływały prawdziwie z serca, trzeba usunąć to, co w sercu złe, a wprowadzić Słowo Boże, które ożywia duchowo i pozwala Duchowi Świętemu pokazywać wolę Bożą.\n\nKontynuując, dziękujmy zawsze Bogu Ojcu w imieniu Pana naszego Jezusa Chrystusa, ulegając jedni drugim w bojaźni Chrystusowej.\n\nTu przypomnieliśmy sobie, że bojaźń Boża jest początkiem mądrości.\n\nNie możemy mieć \"świętego Boga-kolegi\". Gdy jesteśmy na zgromadzeniu, które jest jak przed królem, każdy musi się odpowiednio zachować.\n\nNikt nie może przyjść w opalaczu. W ludzkim porządku są różne etykiety, np. przed królem czy królową obowiązuje etykieta dworska.\n\nW Słowie Bożym są też zasady dotyczące zachowania mężczyzn i kobiet – etykieta na zgromadzeniu obowiązuje i nie jest to wolność.\n\nDziś często występuje sprzeciw wobec etykiety obowiązującej przed królem naszym – Panem Jezusem Chrystusem.\n\nA przecież przed królami tego świata obowiązuje etykieta.\n\nUważam, że ta etykieta obowiązuje także przed duchowym królem i kościołem, z którym spotyka się Jezus.\n\nW Objawieniu Jana jest mowa o tych, którzy nie dostąpią zbawienia – oni nie będą nad Nim biadolić, lecz będą biadolić nad sobą przed Nim.\n\nTak jest w oryginalnym tekście greckim.\n\nLamentacje i chwała Bogu – to są zapowiedzi, że siły ciemności stopniowo będą zmieniać Słowo Boże – tu trochę, tam trochę...\n\nPojawią się też osoby, które będą pytać: czy to takie ważne? Czy te rzeczy drugorzędne są ważne?\n\nA prawda jest taka, że w Słowie Bożym nie ma rzeczy drugorzędnych.\n\nPrzyjrzyjmy się przykładom – kapłan musiał być dokładnie oczyszczony, zanim wszedł przed zasłonę, inaczej by zginął.\n\nDziś ludzie są tak śmiali, że z nauką ludzką anulują Słowo Boże.\n\nOmówmy teraz konsekwencje wszystkiego, co mówiliśmy o sekcie Mikołaja, o Szymonie czarnoksiężniku i religii uprawianej w budynku.\n\nTo bardzo prosta reguła: konsekwencją eliminacji Słowa Bożego jest eliminacja Boga.\n\nWiele dzisiaj widzimy w kościołach, że Słowo Boże mówi jedno, a zgromadzenie \"przegłosuje\" coś innego i stwierdza, że jest inaczej.\n\nJa raz w życiu brałem udział w takim przegłosowaniu i nauka ludzka zwyciężyła.\n\nTo jest konsekwencja odważnego ingerowania w Słowo Boże, nie zdając sobie sprawy z późniejszych reperkusji.\n\nWidzimy to coraz częściej w naszych czasach – to zjawisko zaczęło się już w XVIII wieku, kiedy nastąpiła reinterpretacja Biblii.\n\nNie chcę o tym dzisiaj szerzej mówić, ale trzeba wiedzieć, że siły ciemności reinterpretowały Biblię przez Kościół anglikański.\n\nTo jest historia, mój konik, ale dziś tylko przypominam – w ten sposób księga Boga została zmieniona.\n\nWymyślano nowe interpretacje, wprowadzano zmiany do nauki, wmówiono ludziom, także wierzącym, że można coś zmienić.\n\nNie wspominam o religiach, które od początku dowolnie zmieniają całą doktrynę.\n\nTeraz otwórzmy List Judy, który znajduje się chyba przed Listem Jana i przed Objawieniem.\n\nCzytamy od czwartego wersetu:\n\n\"Wkradli się bowiem między was jacyś ludzie, na których od dawna wypisany jest wyrok potępienia.\"\n\nTo obraz złodzieja, który wkrada się cicho, a nie jak słoń w skład porcelany.\n\nSłowo Boże porównuje ich do wilka w przebraniu owcy.\n\nDalej mówi o nich tak:\n\n\"Bezbożni, którzy łaskę Boga naszego obracają w rozpustę i zapierają się Pana naszego Jezusa Chrystusa.\"\n\nZapieranie się Pana Jezusa można analizować na wiele sposobów.\n\nPan Jezus mówił, że szeroką drogą idą ci, którzy mówią \"Panie, Panie\", lecz On ich nie zna, bo czynią nieprawość – czyli anulują prawo Boże.\n\nGrzech to nie to samo co nieprawość; Słowo Boże rozróżnia te pojęcia.\n\nMówi się też o prorokach, których poznamy po owocach.\n\nZapowiedzi te są w Nowym Testamencie.\n\nBóg nas nie potępiłby z miłości, ale konsekwencje grzechu i żółtej, gorzkiej żółci – symbolu zgorzknienia – działają same.\n\nBóg zawsze pozostawia szansę na nawrócenie, jeżeli tylko chcemy.\n\nTen temat przypominamy, aby zrozumieć, że opuszczenie Słowa Bożego prowadzi do duchowego zniszczenia, a diabeł tylko dolewa oliwy do ognia, podkładając suche gałązki.\n\nW Liście Judy czytamy dalej:\n\n\"Ci zaś bluźnią przeciwko rzeczom, których nie znają, natomiast rzeczy, które w naturalny sposób jako nierozumne zwierzęta poznają, gubią ich.\"\n\nWidać tu głęboką myśl: naturalność i dusza zwierzęcia mogą nas gubić, jeśli doprowadzają do anulowania woli Bożej.\n\nZwierzęta kieruje instynkt, który często prowadzi je do zguby.\n\nPewna ciekawostka: naukowcy zauważyli, że zwierzęta przy zagrożeniu gromadzą się w zagłębieniach lub dolinkach – np. konie nie wychodzą z płonącej stajni i mogą się spalić, jeśli ich nie wyprowadzić.\n\nPodobnie ludzie poddani naturalnym, zmysłowym uczuciom duchowo się gubią.\n\nMamy więc tylko jedno wyjście – ufać Duchowi Świętemu i Słowu Bożemu, które może nam się wydawać dziwne czy nakazowe, ale nie zachowywać się naturalnie, ale duchowo.\n\nW Liście Judy jest ostrzeżenie:\n\n\"Biada im, bo poszli drogą Kaina, pokądrzyli się w błędzie Bileama dla zapłaty, zginęli w buncie Korego.\"\n\nWielokrotnie mówiłem o trzech błędach Kaina, Bileama i Korego.\n\nDalej są nazwani: \"zakałą na waszych uczcie miłości, w których bez obawy biorą udział.\"\n\n\"Tuczą siebie samych, chmurami bez wody, unoszonymi przez wiatr, drzewami jesiennymi, które nie rodzą owoców, dwakroć obumarłymi, wykorzenionymi.\"\n\nSymbolika drzewa w Słowie Bożym jest wyraźna – gdy Izrael zostaje wykorzeniony, traci owocowanie, a kiedy zostaje wkorzeniony, doczeka czasu wydawania owoców.\n\nKiedy drzewo się zazielenia, czas wyzwolenia jest bliski.\n\nTych ludzi określa się jako wykorzenionych – nie zależy im ani na braciach, ani na siostrach. Nie zostaną, nawet jeśli statek nabiera wody – przeskoczą do innej łódki.\n\nPaweł mówił: \"Jeśli oni nie zostaną, to my zginiemy.\" I Bóg mu to potwierdził – przebaczył wszystkim.\n\nTo ciekawa sprawa do refleksji.\n\nPóźniej Paweł szerzył Ewangelię i ludzie się liczyli z jego autorytetem po znakach, które Bóg przez niego czynił.\n\nTeraz otwórzmy Dzieje Apostolskie 2, wiersze 1–4. Już wspomniałem ten fragment, ale dziś przeczytam na koniec:\n\n\"A gdy nadszedł dzień Zielonych Świąt, byli wszyscy razem na jednym miejscu.\n\nPowstał nagle z nieba szum, jakby gwałtownego wiatru, i napełnił cały dom, gdzie siedzieli.\n\nI ukazały się im języki, jakby z ognia, które się rozdzieliły i usiadły na każdym z nich.\n\nI napełnieni zostali wszyscy Duchem Świętym i zaczęli mówić językami, tak jak Duch im poddawał.\"\n\nWidzimy, że społeczność funkcjonuje przez wspólnotę, obecność na jednym miejscu. Oni byli zgromadzeni w domu – i nic nie stało na przeszkodzie, by zostali napełnieni Duchem Świętym.\n\nTo jest Kościół żywy – ciało Jezusa na poziomie zboru czy całego Kościoła.\n\nDotyczy to także zbiorów historycznych – spotkania na jednym miejscu były możliwe w różnych lokalizacjach – nad rzeką, na polanie, itd.\n\nNie ma więc niczego szczególnego w samym budynku.\n\nNa koniec otwórzmy Hebrajczyków 13, werset 8:\n\n\"Jezus Chrystus wczoraj, dziś i na wieki ten sam.\"\n\nNic się nie zmieniło. Nie możemy w XXI wieku, z naszymi wszystkimi ludzkimi teoriami, iść w kierunku...\n\n(to był inny temat i nie chcę go dziś komentować).\n\nPan Jezus mówi też o obłudnych uczynkach.\n\nLubią pierwsze miejsca na ucztach i pierwsze krzesła w synagogach.\n\nWielu ludzi docenia takie miejsce w zgromadzeniach – pseudochrześcijańskich czy chrześcijańskich.\n\nPan Jezus radzi: \"Nie siadaj pierwszemu, ale z tyłu. A gdy cię zauważą i poproszą do przodu, doznasz czci.\"\n\nLepiej doznawać czci przez posłuszeństwo i pokorę niż przez własne uczynki.\n\nTo są uczynki ciała – nie powinny budować autorytetu dzieci Bożych.\n\nAutorytet powinien opierać się na uczynkach wiary, które podobają się Bogu.\n\nPierwsze krzesła na uczcie czy pozdrowienia na ulicach i tytuły typu \"rabbi\" – o tym też mówiliśmy.\n\nSłowo \"rabbi\" oznacza \"nauczyciel\" – przypisane jest przecież tylko Jezusowi.\n\nNie pozwalajcie się nazywać rabbi – jest tylko jeden nauczyciel, a my wszyscy jesteśmy braćmi.\n\nAmen.\n\nNa tym dzisiaj zakończę. Będziemy dalej omawiać cechy tych uczynków w kolejnych wykładach.\n\nNiech Pan nam wszystkim błogosławi. Amen."
+  },
+  "cover": "/images/covers/mc1_v_IsMRc.webp"
+}

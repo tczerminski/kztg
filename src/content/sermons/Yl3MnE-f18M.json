@@ -1,0 +1,121 @@
+{
+  "date": "2022-03-02",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/Yl3MnE-f18M/Yl3MnE-f18M.opus",
+  "preacher": "Czesław Ferdynand",
+  "title": "Sąd Chrystusowy nad wierzącymi",
+  "summary": "List do Hebrajczyków (6,1–2) oraz 1 List Piotra (4,17–18) stanowią podstawę rozważań na temat sądu wiecznego i jego powiązania ze zmartwychwstaniem. Kazanie wyjaśnia różnicę między czasowymi, historycznymi sądami Bożymi a ostatecznym sądem nad duszami, podkreślając, że chrześcijanie będą sądzeni nie dla potępienia, lecz dla otrzymania nagrody za swoje uczynki. Omówiono także symbolikę białych szat i koron, które przeznaczone są dla wiernych uznanych przez Boga.",
+  "duration": 3781,
+  "translations": {
+    "en": {
+      "title": "Christ's Judgment on Believers",
+      "summary": "Christ's Judgment on Believers invites deep reflection on God's justice and the eternal significance of His judgment. The sermon explains that this judgment is not a sentence of condemnation but an evaluation of deeds leading to rewards for believers. This perspective encourages living with full responsibility in faith, preparing for a personal encounter with the Lord."
+    },
+    "uk": {
+      "title": "Христовий суд над віруючими",
+      "summary": "Христовий суд над віруючими – це тема, що спонукає до глибоких роздумів про Божу справедливість та вічний вимір Його суду. Проповідь пояснює, що цей суд не є вироком осуду, а оцінкою вчинків, яка веде до нагороди для віруючих. Така перспектива мобілізує жити з повною відповідальністю у вірі, готуючись до особистої зустрічі з Господом."
+    },
+    "ta": {
+      "title": "நம்பிக்கையாளர்களுக்கான கிறிஸ்து நீதிமன்றம்",
+      "summary": "நம்பிக்கையாளர்களுக்கான கிறிஸ்து நீதிமன்றம் என்பது கடவுளின் நீதிமுறையையும் அவரது அதிகாரத்தின் நிரந்தர தாக்கத்தையும் ஆழமாகக் கவனிக்கும் ஒரு தலைப்பாகும். இந்தத் த்தயிரியில், இந்த நீதிமன்றம் தண்டனை வழங்குவதற்கான தீர்ப்பு அல்ல, குறிப்பிடும் பணிகளின் மதிப்பீடு ஆகும், இது நம்பிக்கையாளர்களுக்கான வெற்றிக்கு வழிவகுக்கிறது. இந்த பார்வை நம்பிக்கையின் முழுமையான பொறுப்பை ஏற்று வாழ ஊக்குவிக்கிறது மற்றும் கர்த்தருடன் நேரடி சந்திப்புக்கு தயாராக இருக்க அழைக்கிறது."
+    },
+    "de": {
+      "title": "Christusgericht über die Gläubigen",
+      "summary": "Das Christusgericht über die Gläubigen regt tiefgründige Überlegungen zur göttlichen Gerechtigkeit und zur ewigen Bedeutung seines Gerichts an. Die Predigt erklärt, dass dieses Gericht kein Urteil der Verdammnis, sondern eine Bewertung der Taten ist, die zu einer Belohnung für die Gläubigen führt. Diese Perspektive ermutigt dazu, verantwortungsvoll im Glauben zu leben und sich auf die persönliche Begegnung mit dem Herrn vorzubereiten."
+    },
+    "es": {
+      "title": "El juicio de Cristo sobre los creyentes",
+      "summary": "El juicio de Cristo sobre los creyentes es un tema que invita a una profunda reflexión sobre la justicia de Dios y la dimensión eterna de Su juicio. El sermón explica que este juicio no es una condena, sino una evaluación de las obras que conduce a la recompensa para los creyentes. Esta perspectiva motiva a vivir con plena responsabilidad en la fe, preparando para el encuentro personal con el Señor."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Hbr 6",
+      "1 P 4",
+      "Rz 14",
+      "J 3",
+      "J 5",
+      "Rz 8",
+      "Iz 43",
+      "Iz 44",
+      "J 1",
+      "1 Kor 1",
+      "Obj 4",
+      "Obj 19"
+    ],
+    "en": [
+      "Heb 6",
+      "1 Pet 4",
+      "Rom 14",
+      "John 3",
+      "John 5",
+      "Rom 8",
+      "Isa 43",
+      "Isa 44",
+      "John 1",
+      "1 Cor 1",
+      "Rev 4",
+      "Rev 19"
+    ],
+    "uk": [
+      "Євр 6",
+      "1 Пет 4",
+      "Рим 14",
+      "Ів 3",
+      "Ів 5",
+      "Рим 8",
+      "Іс 43",
+      "Іс 44",
+      "Ів 1",
+      "1 Кор 1",
+      "Об’явл 4",
+      "Об’явл 19"
+    ],
+    "ta": [
+      "எபேசியர் 6",
+      "அப்போஸ்தலர் 4",
+      "ரோமர் 14",
+      "யோவான் 3",
+      "யோவான் 5",
+      "ரோமர் 8",
+      "ஆதியாகமம் 43",
+      "ஆதியாகமம் 44",
+      "யோவான் 1",
+      "1 கொரி 1",
+      "அப்போஸ்தலர் 4",
+      "அப்போஸ்தலர் 19"
+    ],
+    "de": [
+      "Hebr 6",
+      "1 Petr 4",
+      "Röm 14",
+      "Joh 3",
+      "Joh 5",
+      "Röm 8",
+      "Jes 43",
+      "Jes 44",
+      "Joh 1",
+      "1 Kor 1",
+      "Offb 4",
+      "Offb 19"
+    ],
+    "es": [
+      "Heb 6",
+      "1 Ped 4",
+      "Rom 14",
+      "Juan 3",
+      "Juan 5",
+      "Rom 8",
+      "Isa 43",
+      "Isa 44",
+      "Juan 1",
+      "1 Cor 1",
+      "Apoc 4",
+      "Apoc 19"
+    ]
+  },
+  "transcript": {
+    "pl": "Pokój Boży wam, bracia i siostry. Witam was serdecznie w ten wieczór środowy. Dzisiaj będziemy kontynuować nasze rozważania dotyczące sądów.\n\nZanim to nastąpi, chciałbym ogłosić jeden komunikat. Jeżeli ktoś tutaj dzisiaj jest w stanie zadeklarować pomoc przy wszystkich sprawach związanych z pomocą dla Ukrainy, a więc tutaj, w zborze, również pewne załatwienia zrobić czy pomoc, która jest związana z tą sprawą, proszony jest, aby po spotkaniu dzisiaj, po nabożeństwie, udać się do sali młodzieżowej. W różnych sprawach jest potrzebna pomoc, dlatego ważne jest, abyśmy mogli się określić i wiedzieli, kto jest gotowy pomóc.\n\nZanim zaczniemy rozważać dzisiejsze słowo, chciałbym, abyśmy skłonili głowy i poprosili Pana, żeby dziś był z nami tutaj, na tym miejscu.\n\nJakże wdzięczny jestem, Panie, że jesteśmy Twoją własnością, jesteśmy Twoimi dziećmi. To jest, Panie, wspaniałe, że obojętnie, gdzie jesteśmy i w jakiej sytuacji, Ty jesteś z nami. Dziękujemy Ci za to, że tu jesteś, Panie.\n\nProsimy Cię, abyś dotykał naszych serc, otworzył nasze duchowe zmysły, abyśmy rozumieli i odbierali Twoje pouczenie w kwestii sądów. Abyś Ty nas pouczał, Panie, abyśmy nie błądzili i nie byli niewolnikami różnych, zwodniczych nauk. Ale to, co Ty mówisz, Panie, abyśmy rozumieli, potrafili prezentować i żyć zgodnie z tym. Tobie chwałę oddajemy, Tobie cześć z naszych serc, dziękując Ci za Twoją obecność i Twego Ducha, Ducha prawdy. W imieniu Jezusa, Ojcze. Amen. Amen.\n\nMyślę, że dobrze, że potrafimy przyznać, że tak jest.\n\nChciałem wrócić do fragmentu, który dla niektórych jest już niemal znany na pamięć, z Listu do Hebrajczyków, rozdział VI, pierwsze dwa wersety. Dziś rozważamy to, co Słowo Boże mówi o początkach nauki o Chrystusie.\n\n„Dlatego, pomijając początki nauki o Chrystusie, zwróćmy się ku rzeczom wyższym, nie powracając ponownie do podstaw nauki o odwróceniu się od martwych uczynków i o wierze w Boga, nauki o obmywaniach, o wkładaniu rąk, o zmartwychwstaniu i o sądzie wiecznym.”\n\nTak jak wspominaliśmy, te sześć fundamentalnych prawd zawartych w Biblii stanowi początki nauki o Chrystusie. Z nauki Słowa Bożego wynika jednoznacznie, że każdy z nas powinien wiedzieć, co Biblia na ten temat mówi.\n\nTych pięć nauk już omówiliśmy, a od dwóch tygodni rozważamy ostatni, szósty punkt — sąd wieczny. Jak wspominałem wcześniej, te dwa ostatnie — o zmartwychwstaniu i o sądzie wiecznym — korelują ze sobą. Są ściśle powiązane, nie tylko dlatego, że dotyczą przyszłości, nie tylko dlatego, że łączą się w wymiarze duchowym z wcześniejszymi czterema naukami, które odnoszą się do świata obecnego, materialnego.\n\nNatomiast te dwie nauki dotyczą wymiaru duchowego, sfery duchowej i są ze sobą powiązane. Jak już mówiliśmy, najpierw śmierć, a później sąd. Nauka o zmartwychwstaniu mówi, że człowiek na sądzie stanie kompletny, a więc ciało, duch i dusza.\n\nWracając do naszego tematu: ostatnio rozważaliśmy, co Biblia mówi o sądzie Bożym, takim bezpośrednim, który był w dziejach ludzkich. Ten sąd jest inny niż ten, o którym tu czytamy, nazwany sądem wiecznym — sądem ostatecznym, który decyduje o tym, gdzie dana dusza będzie przebywać w wieczności, gdy kształt tego świata ulegnie zagładzie.\n\nOmawialiśmy, że Biblia przedstawia także wylanie sądów na ludzi, plemiona i narody, jak i sąd ogólnoświatowy, jakim był potop. Były to sądy, które Bóg wykonywał od razu i bezpośrednio; nie są one związane z sądem ostatecznym. Dotyczyły one ludzi, rodziny czy nawet narodów w danym momencie historycznym. Musimy umieć to rozróżnić i nie uważać, że sąd nad ludzkością podczas potopu był sądem ostatecznym nad tamtym pokoleniem.\n\nTo był sąd czasowy, ponieważ Bóg nie mógł już dłużej znieść nieprawości panującej wśród ludzi i postanowił zgładzić ród ludzki, pozostawiając ocalonych jedynie osiem osób z rodziny Noego.\n\nWidzimy też, że takie sądy następowały w mniejszym zakresie, na przykład gdy narody czy ludy były wytępione przez Izrael. Sąd spadł również na Sodomę i Gomorę — dwa miasta zniszczone ogniem ze względu na grzechy mieszkańców, których Pan nie mógł już dłużej tolerować.\n\nWidzimy także Jerycho, gdy naród izraelski wchodził do ziemi obiecanej. Pan był karzącą ręką dla narodów bałwochwalczych i bez nadziei od Boga. Za pośrednictwem Izraela Bóg wylewał swój gniew. Jerycho było pierwszym takim miastem, które zostało całkowicie zniszczone — wszyscy ludzie, dzieci, kobiety i bydło. Nic nie mogło zostać zabrane, tylko złoto i srebro, które przetrwały próbę ognia, złożone zostały w świątyni.\n\nMieliśmy przypadek Achana, który przywłaszczył sobie srebro, złoto i płaszcz, i poniósł za to konsekwencje, gdyż Pan odwrócił błogosławieństwo od Izraela, a oni ponieśli klęskę pod Aj — drugim miastem, które chcieli zdobyć.\n\nWidzimy też, że Bóg uratował Rahab z Jerycha wraz z jej rodziną, jako jedynych z tego miasta przeznaczonego na zagładę. Miłosierdzie Boże pozwoliło Rahab wyjść z opresji — wykazała wiarę.\n\nMówiliśmy też o Ananiaszu i Safirze — przykładach ze Słowa Bożego. Takich przykładów jest więcej w Biblii.\n\nChciałbym, aby nikt z nas nie łączył tych wydarzeń z sądem, o którym mówi autor Listu do Hebrajczyków — sądem wiecznym, ostatecznym.\n\nOgólnie mówi się o sądzie ostatecznym — końcowym — wyrokowaniu, gdzie dana dusza...\n\nW czwartym wersecie czytamy: „A wokoło tronu dwadzieścia cztery trony, a na tych tronach siedzących dwudziestu czterech starców, odzianych w białe szaty, a na głowach ich złote korony.”\n\nMożemy powiedzieć, że tutaj dwudziestu czterech ludzi, tych dusz, które zostały przez Boga uznane za tych, którzy mają zająć trony, musiało przejść weryfikację, zostać wyznaczonych przez Boga, a w wyniku sądu uznanych za godnych, aby zasiąść na tronach.\n\nSą odziani w białe szaty — znak, że zostali uznani za sprawiedliwych — a na głowach mają złote korony, będące nagrodą.\n\nDziesiąty werset tego rozdziału również potwierdza tę prawdę:\n\n„Upadli dwudziestu czterech starcy...” Zwróćmy uwagę, że w oryginale powinniśmy czytać „starszych”, a nie „starców”, ale o tym nie będę teraz szerzej mówił. Ci, którzy jeszcze tego nie słyszeli, powinni wiedzieć, że tłumaczenie z greki wskazuje bardziej na „starszych”. Przed tym, który siedzi na tronie, składają pokłon temu, który żyje na wieki wieków i składają przed tronem korony swoje.\n\nWidzimy więc, że ci ludzie zostali uznani, że za swoje życie, przywiązanie i wiarę w Chrystusa otrzymali tę nagrodę — mogli usiąść na tronach, zostali ubrani w białe szaty i otrzymali koronę.\n\nRównież kiedy spojrzymy na dziewiętnasty rozdział Księgi Objawienia, w ósmym wersecie widzimy, że podczas wielkiego ucisku na ziemi, w niebie odbywa się wesele Baranka. Ósmy werset mówi:\n\n„I dano jej przyoblec się w czysty, lśniący bisior, a bisior oznacza sprawiedliwe uczynki świętych.”\n\nWidzimy tutaj, że Bóg już uznał tych ludzi, osądził ich i przyznał im prawo do białego bisioru, który oznacza ich sprawiedliwe uczynki — Bożą nagrodę.\n\nWielu ludzi dziwi się, że mówi się o sądzeniu chrześcijan. Dlaczego mieliby być sądzeni, skoro są sprawiedliwi?\n\nTrzeba zrozumieć, że chrześcijanie nie będą sądzeni, aby być potępionymi i otrzymać karę, ale wręcz przeciwnie — będą sądzeni, by otrzymać odpowiednią nagrodę za swe uczynki.\n\nDzisiejsze rozważanie chciałbym kontynuować w pierwszym liście apostoła Piotra, rozdział 4, wersety 17-18:\n\n„Nadszedł bowiem czas, aby się rozpoczął sąd od domu Bożego; a jeśli zaczyna się od nas, to jakiż koniec czeka tych, którzy nie wierzą w Ewangelię Bożą? A jeśli sprawiedliwy z trudnością dostąpi zbawienia, to bezbożny i grzesznik gdzież się znajdą?”\n\nTen fragment bardzo mocno podkreśla, że sąd rozpoczął się od domu Bożego — nas, chrześcijan. Zobaczymy więc, że będą co najmniej dwa sądy: jeden nad tymi, którzy wierzą i należą do Chrystusa — do rodziny Bożej — i drugi nad tymi, którzy są poza nią. \n\nZwróćmy uwagę, że apostoł Piotr mówi tu „od nas” — od chrześcijan. W ten sposób odróżnia tych, którzy należą do Chrystusa, od tych, którzy nie wierzą w Ewangelię i nie wezmą udziału w tym pierwszym sądzie.\n\nDalej podkreśla, że sprawiedliwi z trudnością dostąpią zbawienia, a bezbożni i grzesznicy... no właśnie, gdzie się znajdą? Ten fragment wskazuje wyraźnie, że dom Boży to my, którzy należymy do Chrystusa, a sąd nad nami zaczyna się najpierw. Bezbożni będą sądzeni później, ale to nie będzie ten sam sąd.\n\nW liście do Rzymian, rozdział 14, wersety 10, 11 i 12, czytamy:\n\n„Ty zaś czemu osądzasz swego brata? Albo ty, czemu pogardzasz swoim bratem? Wszak wszyscy staniemy przed sądem Bożym, przed trybunałem Chrystusowym. Jak napisano: »Ugnie się przede mną wszelkie kolano i wszelki język wyznawać będzie Boga«. Tak więc każdy z nas za samego siebie zda sprawę Bogu.”\n\nWidzimy zatem, że wszyscy — bez wyjątku — staniemy przed trybunałem Chrystusa. Apostoł Paweł podkreśla także, abyśmy nie osądzali swoich braci, zwłaszcza w kwestii zbawienia, bo to należy do Boga.\n\nJesteśmy w Ewangelii Jana, rozdział 3, w wersecie 18:\n\n„Kto wierzy w Niego, nie będzie sądzony, kto zaś nie wierzy, jest już osądzony, ponieważ nie uwierzył w imię jednorodzonego Syna Bożego.”\n\nWidzimy więc jasno, że ten, kto uwierzył w Chrystusa, nie podlega sądowi potępiającemu, to znaczy, że jest zbawiony i w momencie wiary zostaje oceniony jako sprawiedliwy. Ale i tak stanie przed trybunałem Chrystusa, aby odebrać nagrodę.\n\nNatomiast kto nie uwierzył i odrzucił Chrystusa, już jest osądzony — potępiony — choć również stanie przed sądem.\n\nW Ewangelii Jana, rozdział 5, werset 24 mówi:\n\n„Zaprawdę, zaprawdę powiadam wam: kto słucha słowa mego i wierzy temu, który mnie posłał, ma żywot wieczny i nie stanie przed sądem, lecz przeszedł ze śmierci do żywota.”\n\nWidzimy zatem, że życie zgodne z nauką Chrystusa i wiara w Niego gwarantują życie wieczne, a sąd potępiający nie będzie miał mocy w stosunku do wierzącego.\n\nApostoł Paweł wielokrotnie wyrażał pewność swojego zbawienia. Chrześcijanie powinni być pewni swojego stanu i świadomi, gdzie się znajdują — czy są w Chrystusie, czy nie.\n\nKsięga Objawienia mówi także o wierności wiernych, którzy razem z Chrystusem będą mieszkali. Jedni — do życia, a drudzy — na śmierć. Wszyscy staną jednak przed sądem Chrystusowym.\n\nW liście do Rzymian, rozdział 8, werset 1, apostoł Paweł mówi:\n\n„Przeto teraz nie ma żadnego potępienia dla tych, którzy są w Chrystusie Jezusie.”\n\nJest to potwierdzenie, że jeśli żyjemy zgodnie z Duchem Bożym, nie poniesiemy potępienia.\n\nW Księdze Izajasza, rozdział 43, werset 25 czytamy:\n\n„Ja, jedynie Ja mogę przez wzgląd na siebie zmazać twoje przestępstwa i twoich grzechów nie wspomnę.”\n\nTylko Bóg może przebaczyć nasze grzechy i rozsądzić nasze życie. Człowiek z własnych sił nie jest w stanie osiągnąć sprawiedliwości.\n\nW 44 rozdziale, w 22 wersecie Izajasz mówi:\n\n„Starłem jak obłok twoje występki, a twoje grzechy jak mgłę. Nawróć się do mnie, bo cię odkupiłem.”\n\nWyraźnie widzimy, że Bóg jest jedynym zdolnym do oczyszczenia nas i dopuszczenia do swojej obecności.\n\nNowy Testament również podkreśla, że jako nowonarodzeni jesteśmy oczyszczeni i możemy stanąć przed Bożym tronem.\n\nW Ewangelii Jana, w pierwszym rozdziale, dziewiątym wersecie czytamy:\n\n„Prawdziwa światłość, która oświeca każdego człowieka, przyszła na świat.”\n\nTo światło, to Pan Jezus Chrystus, który objawił Boga i Jego prawo. Człowiek od Adama i Ewy, który zerwał posłuszeństwo Bogu, poniósł śmierć.\n\nA więc musimy być dziś w Chrystusie i żyć z Nim codziennie, aby być nowym stworzeniem oraz utrzymać czystość przed Bożym tronem.\n\nJeśli jesteśmy usprawiedliwieni, to po co sąd? Nie będzie to sąd dotyczący potępienia, ale sąd dla nagrody, dzięki sprawiedliwości, jaką otrzymaliśmy od Jezusa Chrystusa i którą będziemy realizować w swoim życiu.\n\nW pierwszym liście do Koryntian, rozdział 1, werset 30:\n\n„Ale wy dzięki Niemu jesteście w Chrystusie Jezusie, który stał się dla nas mądrością od Boga i sprawiedliwością, i poświęceniem, i odkupieniem.”\n\nTo dzięki Chrystusowi otrzymujemy sprawiedliwość, jesteśmy poświęceni i odkupieni.\n\nNie możemy zasłużyć swoimi uczynkami na sprawiedliwość Bożą; otrzymujemy ją przez oddanie swojego życia w ręce Jezusa.\n\nW drugim liście do Koryntian, rozdział 5, werset 21:\n\n„On tego, który nie znał grzechu, za nas grzechem uczynił, abyśmy my w Nim stali się sprawiedliwością Bożą.”\n\nTylko dzięki ofierze Jezusa Chrystusa możemy stanąć przed Bogiem usprawiedliwieni.\n\nSpójrzmy teraz na sąd i nagrody.\n\nApostoł Paweł w pierwszym liście do Koryntian, rozdział 3, opisuje sąd nad uczynkami wierzących.\n\nPrzeczytamy wersety 11-15:\n\n„Albowiem fundamentu innego nikt nie może założyć oprócz tego, który jest założony, a którym jest Jezus Chrystus. A czy ktoś na tym fundamencie wznosi budowę ze złota, srebra, drogich kamieni, z drzewa, siana, słomy, to wyjdzie na jaw w jego dziele; dzień sądny bowiem to pokaże, gdyż w ogniu się objawi, a jakie jest dzieło każdego, wypróbuje ogień.\n\nJeśli czyjeś dzieło zbudowane na tym fundamencie się ostoi, ten zapłatę odbierze.\n\nJeśli czyjeś dzieło spłonie, ten szkodę poniesie, lecz on sam zbawiony będzie, tak jednak jak przez ogień.”\n\nPaweł pokazuje, że fundamentem jest tylko Jezus Chrystus.\n\nNa tym fundamencie budujemy różne dzieła — szlachetne i trwałe jak złoto, srebro, drogocenne kamienie albo nietrwałe jak drewno, siano i słoma.\n\nOgień Boży sprawdzi jakość tych dzieł. Jeśli dzieło się ostoi, jego twórca otrzyma zapłatę — nagrodę.\n\nJeśli spłonie, poniesie szkodę, ale on sam będzie zbawiony, choć bez nagrody.\n\nJak będzie wyglądał ten ogień? Możemy wyobrazić go sobie jak obraz z Księgi Objawienia, gdzie Jan opisuje spotkanie z Panem Jezusem.\n\nW Objawieniu Jana, rozdział 1, wersety 14-15:\n\n„Głowa Jego i włosy były lśniące jak śnieżnobiała wełna, a oczy Jego jak płomień ognisty; nogi Jego podobne były do mosiądzu, który w piecu jest rozżarzony; głos Jego jak szum wielu wód.”\n\nTo obraz Chrystusa przenikającego i wypróbowującego rady naszych uczynków.\n\nTen sąd nie dotyczy spraw zbawienia — ono jest udziałem tych, którzy zostali usprawiedliwieni — ale dotyczy ocenienia każdego uczynku i jego wartości przed Bogiem.\n\nNie liczy się ilość uczynków, lecz ich jakość — czy są wartościowe w oczach Boga.\n\nZbawienie otrzymujemy z łaski, ale sposób naszego życia i uczynków może przynieść lub pozbawić nas nagrody.\n\nW pierwszym liście do Koryntian, rozdział 2, werset 4, Paweł mówi o swoim zwiastowaniu:\n\n„Mowa moja i zwiastowanie moje nie były głoszone w przekonywujących słowach mądrości, lecz objawiały się w nim duch i moc.”\n\nTak też nasze życie powinno się charakteryzować — uczynki powinny mieć dobrą motywację i moc Bożą.\n\nChcemy to czynić dla Boga, a nie dla ludzi, zgodnie z Jego słowem i w posłuszeństwie.\n\nNa zakończenie podzielę się jeszcze jednym wersetem z listu do Kolosan, rozdział 1, werset 29:\n\n„Nad tym też pracuję, walcząc w mocy Jego, która skutecznie we mnie działa.”\n\nChciałbym, abyśmy wszyscy walczyli w takim Bożym działaniu i mocy.\n\nByśmy nie bali się stanąć przed Bożym sądem — przed Bożym tronem i trybunałem Chrystusa — ale z radością i wdzięcznością oddali chwałę Bogu za życie, którym nas obdarzył i którego nam udziela, oczekując od Niego najlepszej nagrody.\n\nDziękuję wam dzisiaj. Zostańcie z Bogiem. Amen."
+  },
+  "cover": "/images/covers/Yl3MnE-f18M.webp"
+}

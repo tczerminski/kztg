@@ -1,0 +1,121 @@
+{
+  "date": "2023-08-13",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/DBRDIHXRgrA/DBRDIHXRgrA.opus",
+  "preacher": "Krzysztof Rataj",
+  "title": "Próby aby wiara rosła",
+  "summary": "List Jakuba, rozdział 1, werset 2-4, stanowi punkt wyjścia do rozważań nad rolą prób w życiu wierzącego. Próby są przedstawione jako doświadczenia wiary, które prowadzą do wytrwałości i duchowego dojrzewania, umożliwiając osiągnięcie doskonałości i nienaganności. Kazanie podkreśla, że trudności mają służyć wzrostowi wiary, a ich przejście jest konieczne dla pełnego rozwoju duchowego.",
+  "duration": 2808,
+  "translations": {
+    "en": {
+      "title": "Trials That Strengthen Faith",
+      "summary": "Challenges filled with difficulties can become a source of true joy and faith growth. This sermon reveals how life's trials serve to strengthen perseverance and lead to spiritual maturity. It emphasizes that God's work during tough times shapes character and deepens the relationship with Him. This message inspires trust and endurance despite life's challenges."
+    },
+    "uk": {
+      "title": "Випробування, щоб віра зростала",
+      "summary": "Досвіди, сповнені труднощів, можуть стати джерелом справжньої радості та зростання віри. Проповідь показує, як випробування в житті віруючого служать укріпленню витривалості та ведуть до духовної зрілості. Вона переконує, що Боже діяння у важкі моменти формує характер і поглиблює стосунки з Богом. Це послання надихає довіряти та наполегливо йти вперед, незважаючи на життєві виклики."
+    },
+    "ta": {
+      "title": "சோதனைகள் மூலம் நம்பிக்கை வளர்கிறது",
+      "summary": "கஷ்டங்களை அனுபவித்தல் உண்மையான மகிழ்ச்சியும் நம்பிக்கையின் வளர்ச்சியுமான ஒரு மூலமாக மாறக்கூடும். இந்த போதனையில், நம்பிக்கையாளரின் வாழ்க்கையில் வரும் சோதனைகள், செலவுகூறும் சகிப்புத்தன்மையை வலுப்படுத்தி ஆன்மீக மொடதியை நோக்கி வழிநடத்துகின்றன என்பதைப் பாராட்டுகிறது. கடுமையான நேரங்களில் கடவுளின் செயலில் தோன்றும் விசுவாசம் குணாதிசயத்தை உருவாக்கி, கடவுளுடன் உள்ள உறவை ஆழ்த்துகிறது என்பதை நம்புவதாக இது கூறுகிறது. வாழ்க்கையின் சவால்களைத் தாண்டி நம்பிக்கையுடனும் உறுதியுடனும் இருப்பதற்கான ஓர் ஊக்குவிப்பாகும் இந்த செய்தி."
+    },
+    "de": {
+      "title": "Prüfungen, damit der Glaube wächst",
+      "summary": "Erfahrungen voller Schwierigkeiten können zu einer Quelle wahrer Freude und Glaubenswachstums werden. Die Predigt zeigt, wie Prüfungen im Leben eines Gläubigen dazu dienen, Ausdauer zu stärken und zur geistlichen Reife zu führen. Sie überzeugt davon, dass Gottes Handeln in schweren Zeiten den Charakter formt und die Beziehung zu Gott vertieft. Diese Botschaft inspiriert dazu, trotz lebenslanger Herausforderungen Vertrauen zu bewahren und standhaft zu bleiben."
+    },
+    "es": {
+      "title": "Pruebas para que la fe crezca",
+      "summary": "Las experiencias llenas de dificultades pueden convertirse en una fuente de verdadera alegría y crecimiento de la fe. El sermón muestra cómo las pruebas en la vida del creyente fortalecen la perseverancia y conducen a la madurez espiritual. Convence de que la acción de Dios en los momentos difíciles moldea el carácter y profundiza la relación con Dios. Este mensaje inspira a confiar y perseverar a pesar de los desafíos de la vida."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Jk 1",
+      "2 Kor 13",
+      "Hi 1",
+      "Est 4",
+      "Ps 23",
+      "Ps 34",
+      "Ps 37",
+      "Prz 3",
+      "Iz 40",
+      "Mt 12",
+      "J 2",
+      "J 12"
+    ],
+    "en": [
+      "Jas 1",
+      "2 Cor 13",
+      "Job 1",
+      "Est 4",
+      "Ps 23",
+      "Ps 34",
+      "Ps 37",
+      "Prov 3",
+      "Isa 40",
+      "Matt 12",
+      "John 2",
+      "John 12"
+    ],
+    "uk": [
+      "Як 1",
+      "2 Кор 13",
+      "Йов 1",
+      "Есф 4",
+      "Пс 23",
+      "Пс 34",
+      "Пс 37",
+      "Прит 3",
+      "Іс 40",
+      "Мт 12",
+      "Ів 2",
+      "Ів 12"
+    ],
+    "ta": [
+      "யாக்கோபு 1",
+      "2 கோரிந்தியர் 13",
+      "யோபு 1",
+      "எஸ்தர் 4",
+      "சங்கீதம் 23",
+      "சங்கீதம் 34",
+      "சங்கீதம் 37",
+      "புதிர்கள் 3",
+      "ஐசயா 40",
+      "மத்தேயு 12",
+      "யோவான் 2",
+      "யோவான் 12"
+    ],
+    "de": [
+      "Jak 1",
+      "2 Kor 13",
+      "Hiob 1",
+      "Est 4",
+      "Ps 23",
+      "Ps 34",
+      "Ps 37",
+      "Spr 3",
+      "Jes 40",
+      "Mt 12",
+      "Joh 2",
+      "Joh 12"
+    ],
+    "es": [
+      "Sant 1",
+      "2 Cor 13",
+      "Job 1",
+      "Est 4",
+      "Sal 23",
+      "Sal 34",
+      "Sal 37",
+      "Prov 3",
+      "Is 40",
+      "Mat 12",
+      "Juan 2",
+      "Juan 12"
+    ]
+  },
+  "transcript": {
+    "pl": "Chwała Panu Bogu! Cieszę się, że mogliśmy się zgromadzić i że możemy uwielbiać naszego Pana oraz słuchać Bożego Słowa, które Pan kieruje do nas dziś. Wierzę, że temat, który od jakiegoś czasu jest w moim sercu — taki werset, motto — który za chwilę przeczytam, zatytułowałem: \"Próby, aby wiara rosła\". \n\nDlaczego taki temat? Chciałbym, żebyśmy już od razu otworzyli Boże Słowo — List Jakuba, pierwszy rozdział. Tam jest niesamowity dla mnie werset, który dzwonił mi i dzwonił już od jakiegoś czasu i jest w moim sercu. Rozdział pierwszy, werset drugi i trzeci. \n\nPoczytujcie to sobie za najwyższą radość, bracia moi, gdy rozmaite próby przechodzicie, wiedząc, że doświadczenie wiary waszej sprawia wytrwałość.\n\nPoczytujcie to sobie za najwyższą radość, bracia moi, gdy rozmaite próby przechodzicie. I ma to być najwyższa radość, kiedy przechodzimy próby. Taki paradoks, można powiedzieć. Słowo, które zaprzecza dwa słowa, które zaprzeczają sobie, tak? Próba, a jednocześnie radość mieć z tego, że przechodzimy tę próbę. \n\nO co chodzi? Dlaczego Jakub użył takiego stwierdzenia? Zacząłem się zastanawiać, dlaczego ma to być radością dla nas, kiedy próby przechodzimy? I dziś właśnie spróbujemy odpowiedzieć sobie na to pytanie: Dlaczego? Dlaczego ma to być radość, kiedy przechodzimy próby? O co chodzi z tym? Dlaczego tak słowo Boże mówi i dlaczego warto zwrócić na to uwagę, abyśmy w naszym życiu, kiedy przechodzimy próby, nie ponieśli porażki, ale zrozumieli, po co te próby są? Dlaczego nas dotykają różne rzeczy i co to ma uczynić w naszym życiu? Jaki jest sens tego? Jakie ma to znaczenie? Co ma to przynieść? \n\nI właśnie dziś będziemy szukali odpowiedzi na to pytanie: Po co to wszystko? Po co te próby? Jaki cel? Jaki sens? Dlaczego ma to być radość?\n\nI już pierwsza wskazówka, dlaczego ma to być radość, jest w trzecim wersecie:  \n\"Wiedząc, że doświadczenie wiary naszej sprawia wytrwałość.\"  \n\nPróba to nic innego, jak tutaj Jakub pisze, doświadczenie wiary. Innymi słowy, próba jest po to, aby nasza wiara została sprawdzona, wypróbowana. Abyśmy mogli zobaczyć, gdzie jest nasza wiara, jaka jest nasza wiara, czy w ogóle jest w godzinie próby. Po co w ogóle ma to służyć? A ma to służyć właśnie doświadczeniu — doświadczeniu wiary. Innymi słowy, sprawdzeniu, co się dzieje z naszą wiarą. To właśnie jest po to ta nasza wiara, ta próba.\n\nCo przeczytamy dalej w czwartym wersecie?  \nBo w trzecim zakończone jest to, że doświadczenie wiary waszej sprawia wytrwałość. A w czwartym:  \n\"Wytrwałość zaś niech prowadzi do dzieła doskonałego, abyście byli doskonali i nienaganni, niemający żadnych braków.\"\n\nZobaczmy więc: próba w drugim wersecie, mowa o próbie; w trzecim — doświadczenie wiary, które ma sprawić wytrwałość; a wytrwałość co ma sprawić? Ma prowadzić do dzieła doskonałego, abyśmy byli nienaganni, niemający żadnych braków. Bez próby to raczej jest nie do zrealizowania, bez doświadczenia wiary po prostu nie będziemy wzrastać, nie osiągniemy doskonałości.\n\nTo, co ja zauważyłem w swoim życiu, to, co już przez jakiś czas widzę, to fakt, że próby przechodzimy przez całe życie. To nie jest tak, że jest jedna próba i już koniec, wszystko załatwione i więcej ich nie będzie. Nie, właśnie nie! Ja zauważyłem coś takiego, że kiedy kończy się jedna próba, jest może chwila wytchnienia, przerwy, a nagle nadchodzi kolejna próba, kolejne zmaganie, kolejne doświadczenie. I znowu kończy się to, jest jakaś puenta, jakiś wynik tej próby i znowu kolejne doświadczenie.\n\nChciałbym, abyśmy zapamiętali też, że próby mamy i będziemy mieli przez całe życie. Do końca, kiedy tu jesteśmy, będziemy przechodzili próby.\n\nA dlaczego? Dlaczego mamy przechodzić te próby? Dlaczego nasza wiara ma być doświadczana co chwilę, co jakiś czas? Myślę, że dlatego, aby nasza wiara nie stała w miejscu. Pan Bóg nie chce, abyśmy stali w miejscu. Bo gdyby była tylko jedna próba i koniec, to zazwyczaj jako ludzie jesteśmy bardzo wygodni, wolimy usiąść w fotelu i siedzieć całe życie, bo tak nam jest dobrze. Ale w ten sposób trudno jest zrealizować Boże zamierzenia, Boże plany, to, co Pan Bóg chce, abyśmy my jako Jego narzędzia tutaj na ziemi mogli zrealizować. Trudno tak działać.\n\nTaka jest nasza natura, że lubimy wygodę, bezpieczeństwo, nie lubimy wyzwań, nie lubimy nowych rzeczy, nie lubimy prób. Bo próba to, można powiedzieć, jest jak z różnymi materiałami: kiedy materiał poddajemy próbie, to albo go ściskamy mocno, albo rozciągamy albo coś z nim robimy — aż do granic wytrzymałości, aż do granic możliwości, albo po to, aby zobaczyć, kiedy pęknie, albo kiedy się skruszy. To są właśnie chwile próby.\n\nKiedy doświadczamy tych prób i różnych rzeczy w naszym życiu, często jest nam niewygodnie, źle, czasem czujemy się przytłoczeni, zgnębieni. Ale po to są próby, aby zobaczyć, gdzie jesteśmy, jaka jest nasza wiara.\n\nDziś właśnie słowa: próba, doświadczenie, wiara — będą się cały czas przeplatać, do nich będziemy wracać, bo one są ze sobą powiązane, zazębiają się. To wszystko stanowi jedność, spójność — kiedy jest próba, gdy jest doświadczenie wiary, to po to, abyśmy mogli wzrastać.\n\nWierzę, że Bożym zamysłem jest to, że kiedy przechodzimy próby, to po to one są, abyśmy wzrastali, aby nasza wytrwałość rosła i prowadziła nas, tak jak czytamy w czwartym wersecie, do dzieła doskonałego, do tego, abyśmy byli nienaganni, abyśmy nie mieli żadnych braków, jak mówi Słowo Boże. Wysoko postawiona poprzeczka, ale taka poprzeczka stawiana przez Pana, abyśmy nie popadli w letniość, nie stali w miejscu. Pamiętajmy o tym, że doświadczenie wiary sprawia wytrwałość.\n\nPo co jeszcze są te próby? Przeczytajmy teraz werset z Drugiego Listu do Koryntian, dotyczący tego, dlaczego mamy sami siebie poddawać próbie. \n\nW drugim liście do Koryntian, rozdział trzynasty, wiersz piąty:  \n\"Poddawajcie samych siebie próbie, czy trwacie w wierze. Doświadczajcie siebie. Czy nie wiecie o sobie, że Jezus Chrystus jest w was? Chyba żeście próby nie przeszli.\"\n\nCzyli próby są także po to, aby sprawdzić, czy naprawdę wiara w nas trwa.\n\nTeraz chciałbym powiedzieć coś jeszcze, co bardzo mnie dotknęło — i jak się okazuje, jest to bardzo ważne przesłanie: wiara jest cenniejsza niż złoto. I nie to, co świat promuje jako coś cennego, wspaniałego, co powinniśmy mieć, ale Słowo Boże mówi, że wiara powinna być dla was cenniejsza niż złoto — cenniejsza niż wszystkie skarby, które mamy na ziemi. Bo to przyczyni się do chwalenia naszego Pana, ale także do tego, że będziesz miał relację i że zwyciężysz, przejdziesz przez życie. I w chwilach próby i doświadczeń odniesiesz sukces, odniesiesz zwycięstwo.\n\nTo jest najtrudniejsze: kiedy przychodzą próby i doświadczenia, oczekujemy ich końca, oczekujemy ulgi i wytchnienia. Ale czy w tych chwilach próby i doświadczenia będzie zwycięstwo? \n\nPiotr napisał, że bywamy poddani różnorodnym doświadczeniom, bo próba to inaczej też doświadczenie. To coś niewygodnego, co może sprawić kłopot, problem — jesteśmy poddani jakiemuś doświadczeniu, próbie.\n\nTeraz chcę wymienić kilka przykładów prób, które mogą nas dotyczyć w życiu — co to są próby, czego mogą dotyczyć, o co w tym wszystkim chodzi.\n\nPierwsze, co się najbardziej nasuwa, to próby ze zdrowiem. Nasze zdrowie jest kruche, często chorujemy, niedomagamy w różnych sytuacjach i doświadczeniach. Szczególnie trudne są próby długotrwałe — kiedy nie czujemy się dobrze, coś nas boli, coś się dzieje. To trudna próba.\n\nPamiętam sytuację, kiedy bolała mnie głowa przez ponad rok czasu — dzień w dzień budziłem się z bólem głowy i zasypiałem z bólem głowy. Non stop ból, i człowiek się do tego przyzwyczaja, ale nie jest z tym dobrze. Słyszałem o bracie, który od trzydziestu lat ma ciężkie bóle. Możemy sobie wyobrazić, jakie to cierpienie, jakie to doświadczenie, jaka to próba.\n\nMożemy zadawać pytanie: dlaczego przychodzą takie doświadczenia ze zdrowiem? Ale traktujmy to jako próbę wiary, czy w tych długotrwałych próbach będziemy nadal wierzyć Panu Bogu.\n\nJob, poddany próbie, mimo że jego żona mówiła: \"Złorzecz Bogu i umrzyj\", nie zrobił tego. I możemy czytać o jego zwycięstwie — że stał się bogatszy po tych doświadczeniach, że ma wiedzę, przeżycia z Bogiem, relacje z Panem Bogiem i ludźmi. Te próby przyniosły owoc, choć nie było łatwo.\n\nKiedy się traci dzieci, majątek, zdrowie — wszystko to, co się wypracowało własnymi rękami — można powiedzieć, że Job mógł powiedzieć: \"Mam już dosyć tego. Lepiej umrzeć niż żyć.\" Ale on tak nie zrobił.\n\nMyślę, że to jest dla nas wskazówka, abyśmy w wytrwałości trwali przy Panu, także gdy próba jest długotrwała — my mielibyśmy ufać Panu, że da zwycięstwo.\n\nPróby związane z finansami — to też jest próba. Kiedy budżet się nie spina, nie starcza z miesiąca na miesiąc, mamy dzieci i rodzinę — i pytamy: Panie, co teraz? Co zrobić? Dzieci tego nie zrozumieją, one chcą jeść, przychodzą na śniadanie, obiad, kolację. One wiedzą, że dostaną jedzenie, ale trzeba je kupić. Skąd wziąć środki? To też próba.\n\nCzy wtedy łatwo jest ufać? Łatwo uwierzyć? Panie, potrzebuję finansów, by żyć i funkcjonować. Słowo Boże zachęca nas, że Pan zna nasze potrzeby i nie pozostawi nas samych.\n\nPróby to także uciski — różne rodzaje ucisków, np. w pracy. Może pracodawca nas uciska, koledzy źle mówią, może nie umiemy nawiązać relacji, ktoś nam dokucza — to trudne. Chcielibyśmy chodzić z radością do pracy, a nie mamy już sił czy woli.\n\nTakże relacje — w rodzinie, między bliskimi — bywają trudne, kłótnie, nieporozumienia, spory; nie rozumiemy, dlaczego tak się dzieje i to też może być próba.\n\nPróby związane z dziećmi i relacjami z nimi — też są doświadczeniami. Czasem nie rozumiemy, dlaczego nie dogadujemy się z dziećmi, dlaczego jest opór. Może są obawy, co z nimi będzie, gdzie pójdą, co wybiorą. To również próby dla nas jako rodziców.\n\nCzy zaufamy Bogu, że ma moc je przeprowadzić? Czy oddamy je Bogu, czy kurczowo sami próbujemy je zabezpieczyć?\n\nNie da się tego tak zrobić. Zawsze mogą być takie czasy, gdy dzieci są same, w niebezpieczeństwach, i wierzę, że tylko Bóg je ochroni. Jeśli nie oddamy ich Bogu, przeżywamy strach, niepokój, obawy. Lepiej więc oddać je Panu Bogu: Panie, Ty masz moc je chronić, błogosław je i prowadź. Wtedy doświadczymy pokoju, nawet gdy oni przeżywają próby i problemy.\n\nPróby mogą być związane również ze strachem.\n\nWielu myśli, że jeśli przeżyliby jakieś cuda, ich wiara wzrosłaby. Zobaczymy, że ktoś został uzdrowiony, Pan Bóg rozwiązał jego problem – wtedy nasza wiara wzrośnie.\n\nDobrze jest słuchać świadectw, bo to buduje. Ale my sami potrzebujemy naszych świadectw, osobistych doświadczeń wiary. Samo oglądanie cudów czy słuchanie o próbach innych nie poprawi naszej wiary.\n\nDlaczego? Patrzę na Izraela, który wędrował po pustyni 40 lat. Codziennie widzieli, że Pan Bóg się o nich troszczy, ale mimo to poumierali na pustyni. Mieli tak wiele dni i okazji, by zobaczyć działanie Pana, ale ich wiara nie wzrosła. \n\nIch ciała zginęły, bo w sercach nie potrafili dostrzec opieki Boga, tylko w próbach narzekali i utyskiwali. Przychodzili do Mojżesza i skarżyli się: po co nas tu wyprowadziłeś? Lepiej nam było w Egipcie! Zapomnieli, jak tam było: prześladowania, uciski, mordowanie dzieci.\n\nMamy krótką pamięć. Kiedy jest źle, trudno pamiętać o tym, co dobrego Bóg uczynił. Ale warto sobie to przypominać, by wiara wzrastała. Dlatego potrzebujemy naszych osobistych doświadczeń, nie tylko czytania o czyichś.\n\nBoże działanie jest najbardziej widoczne właśnie w próbach i doświadczeniach. Wtedy nasza wiara może wzrastać, bo widzimy swoją bezsilność, trudności, momenty poddania czy zwątpienia.\n\nFaryzeusze obserwowali Pana Jezusa — widzieli cuda, ale chcieli kolejnych znaków. Pan Jezus odpowiedział, że nie dostaną żadnego znaku oprócz znaku Jonasza — że Syn Człowieczy zostanie ukrzyżowany i zmartwychwstanie po trzech dniach, tak jak Jonasz był w brzuchu ryby trzy dni i trzy noce.\n\nNie rozumieli tego w pełni. Nie dostał od Pana Jezusa cudów na pokaz.\n\nHerod chciał zobaczyć Pana Jezusa, aby się napawać cudami. Wiele osób tak myśli, że oglądanie cudów przyniesie radość i pokój.\n\nAle wiara jest najważniejsza. Cuda są potrzebne, bo pokazują, że Bóg działa, ale nie można opierać życia na samej rozrywce cudami.\n\nPrzeczytajmy werset z Drugiego Listu do Tesaloniczan, który jest trudny, ale ważny:  \nRozdział 3, wersety 1-2:  \n  \n\"Na ostatek, bracia, módlcie się za nas, aby Słowo Pańskie krzewiło się i rosło wszędzie, podobnie jak i u was, i abyśmy byli wybawieni od ludzi przewrotnych i złych.\"\n\nWiara nie jest rzeczą wszystkich. Nie wszyscy wierzą, nie wszyscy mają wiarę, że Pan Bóg działa, czyni cuda, przeprowadza przez próby.\n\nCi ludzie są nazwani \"przewrotnymi i złymi\". W naszym życiu pewnie spotykamy takich, którzy nie wierzą w Boga. To trudne, bo gdy mówisz im o Panu Bogu, a oni nie wierzą, to po co mówić?\n\nAle wierzę, że Pan Bóg może ożywić to słowo. Może w którymś momencie ich życia zatrzymają się, zastanowią. Może w godzinie próby, którą też przeżywają, przypomni im się jakiś werset Boży. Bo próbują przechodzić wszyscy — i wierzący, i niewierzący.\n\nJeśli nie masz wiary, możesz zrobić coś jeszcze: uwierzyć w Pana Jezusa, a będziesz zbawiony ty i twój dom. To paradoksalne — jak uwierzyć, skoro brak wiary? Ale jeśli otworzysz serce, spróbujesz przyjąć słowo Boże do życia, zobaczysz, że wiara wzrośnie. Z bezwiary pojawi się wiara.\n\nPan Jezus jest sprawcą i dokończycielem naszej wiary, ale trzeba uwierzyć, że przyszedł na ziemię i ją zaakceptować, bo inaczej zostaniesz pozostawiony sobie i przejdziesz życie samotnie.\n\nSłyszałem świadectwo człowieka w szpitalu, umierającego, któremu zwiastowano Ewangelię. On odwrócił się i oglądał telewizję. Wkrótce umarł. Można powiedzieć — poszedł do piekła oglądając telewizję. Miał wybór, Pan Bóg dał mu szansę.\n\nKażdemu Pan Bóg daje wybór. Co zrobisz w chwili próby? Jak się zachowasz? Jeśli uwierzysz, że Bóg istnieje i Go szukasz, On ci to wynagrodzi, da pokój i radość.\n\nSłuchając tych słów, zachęcam was — ufajmy Panu, trwajmy w wierze, nawet jeśli są trudne, długotrwałe próby i cierpienia.\n\nW historii biblijnej widzimy, że ludzie, jak Józef, przeszli przez wiele prób — uprowadzono go, był w więzieniu, później stawał się ważną osobą i ratował ludzi w czasie głodu. Każda próba była sprawdzianem jego wiary i lojalności wobec Boga.\n\nI my, podobnie jak oni, mamy ufać Bogu w każdej próbie, bo wtedy nasza wiara rośnie, a Pan daje zwycięstwo.\n\nBóg nie zostawi nas samych, chce, byśmy wzrastali i woła: bądźcie radośni, gdy przechodzicie próby, bo one prowadzą do doskonałości, której On pragnie.\n\nNiech więc wzrost naszej wiary będzie udziałem każdego z nas. Amen."
+  },
+  "cover": "/images/covers/DBRDIHXRgrA.webp"
+}

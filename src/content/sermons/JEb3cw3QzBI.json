@@ -1,0 +1,115 @@
+{
+  "date": "2024-12-08",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/JEb3cw3QzBI/JEb3cw3QzBI.opus",
+  "preacher": "Henryk Zyzik",
+  "title": "Jak budować dom na opoce?",
+  "summary": "Słowa Jezusa z Ewangelii Mateusza 7:24-27 ukazują kontrast między budowaniem życia na skale a na piasku, podkreślając konieczność słuchania i wypełniania Jego nauk. Kazanie omawia duchową strukturę człowieka jako świątyni Ducha Świętego, wskazując na proces wzrastania w wierze przez pragnienie niesfałszowanego Słowa Bożego (1 P 2,2-5) oraz na roztropność i mądrość duchową (Prz 8,4-11), które chronią przed zwodzeniem świata.",
+  "duration": 3329,
+  "translations": {
+    "en": {
+      "title": "How to Build a House on the Rock?",
+      "summary": "Building a spiritual house on the rock that is Jesus Christ reminds us of the lasting strength found in a life rooted in obedience to His word. Referencing the words from the Gospel of Matthew, the sermon emphasizes that only such a foundation can withstand life's storms. It presents four practical steps to help deepen faith, strengthen community bonds, and grow in Christ while overcoming everyday challenges."
+    },
+    "uk": {
+      "title": "Як побудувати дім на скелі?",
+      "summary": "Будівництво духовного дому на скелі, якою є Ісус Христос, нагадує про стійкість життя, побудованого на послуху Його слову. Слова з Євангелії від Матвія підкреслюють, що лише такий фундамент витримає життєві бурі. Проповідь показує чотири практичні кроки, які допомагають укріпити віру, зміцнити зв’язки спільноти та зростати в Христі, долаючи щоденні випробування."
+    },
+    "ta": {
+      "title": "பாறையில் வீடு கட்டுவது எப்படி?",
+      "summary": "ஈசுவு கிறிஸ்துவுடைய சித்திரமான பாறையில் ஆன்மீக வீடு கட்டுவது என்றது, நம் வாழ்க்கை அவர் வசனத்தின் விசுவாசத்தின்மேல் நிலை நாட்டியதாக இருக்க வேண்டும் என்பதை நினைவூட்டுகிறது. மாதாயு சுவார் எங்கள் எழுத்துக்கள், அப்படி ஒரு அடித்தளம் மட்டுமே வாழ்க்கை புயல்களை எதிர்கொள்ளும் என்பதை வலியுறுத்துகிறது. இப்பிரசங்கம் நான்கு நடைமுறை படிகளை எடுத்துரைக்கிறது, அவை நம் விசுவாசத்தை வலுப்படுத்தி, சமூக உறவுகளை உறுதிப்படுத்து, தினசரி சோதனைகளை வென்று கிறிஸ்துவிலும் வளரும் வழிகளை நமக்கு காட்டுகின்றன."
+    },
+    "de": {
+      "title": "Wie baut man ein Haus auf den Felsen?",
+      "summary": "Ein geistliches Haus auf den Felsen zu bauen – Jesus Christus – erinnert uns an die Beständigkeit eines Lebens, das auf dem Gehorsam gegenüber Seinem Wort gründet. Die Worte aus dem Evangelium nach Matthäus zeigen, dass nur dieses Fundament den Stürmen des Lebens standhält. Die Predigt stellt vier praktische Schritte vor, die helfen, den Glauben zu festigen, die Gemeinschaft zu stärken und im Christus zu wachsen, um den täglichen Herausforderungen zu trotzen."
+    },
+    "es": {
+      "title": "¿Cómo construir una casa sobre la roca?",
+      "summary": "Construir una casa espiritual sobre la roca, que es Jesucristo, es un tema que nos recuerda la durabilidad de una vida basada en la obediencia a Su palabra. Las palabras recordadas del Evangelio de Mateo señalan que solo tal fundamento resistirá las tormentas de la vida. El sermón presenta cuatro pasos prácticos que ayudan a fortalecer la fe, fortalecer los lazos de la comunidad y crecer en Cristo, superando las pruebas diarias."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Mt 7",
+      "Hi 42",
+      "1 P 2",
+      "Łk 10",
+      "Prz 8",
+      "Am 5",
+      "Mt 13",
+      "Flp 3",
+      "1 Kor 3",
+      "2 P 2",
+      "Obj 21"
+    ],
+    "en": [
+      "Matt 7",
+      "Job 42",
+      "1 Pet 2",
+      "Luke 10",
+      "Prov 8",
+      "Amos 5",
+      "Matt 13",
+      "Phil 3",
+      "1 Cor 3",
+      "2 Pet 2",
+      "Rev 21"
+    ],
+    "uk": [
+      "Мт 7",
+      "Йов 42",
+      "1 Пет 2",
+      "Лк 10",
+      "Прип 8",
+      "Ам 5",
+      "Мт 13",
+      "Флп 3",
+      "1 Кор 3",
+      "2 Пет 2",
+      "Об 21"
+    ],
+    "ta": [
+      "மத்தாய் 7",
+      "யோபு 42",
+      "1 பேதுரு 2",
+      "லுக்கா 10",
+      "சங்கீதம் 8",
+      "ஆமோஸ் 5",
+      "மத்தாய் 13",
+      "பிலிப்பியர் 3",
+      "1 கொரி 3",
+      "2 பேதுரு 2",
+      "வெளிப்பாடு 21"
+    ],
+    "de": [
+      "Matt 7",
+      "Hiob 42",
+      "1 Petr 2",
+      "Lk 10",
+      "Spr 8",
+      "Am 5",
+      "Matt 13",
+      "Phil 3",
+      "1 Kor 3",
+      "2 Petr 2",
+      "Offb 21"
+    ],
+    "es": [
+      "Mat 7",
+      "Job 42",
+      "1 Pe 2",
+      "Luc 10",
+      "Prov 8",
+      "Am 5",
+      "Mat 13",
+      "Fil 3",
+      "1 Cor 3",
+      "2 Pe 2",
+      "Apoc 21"
+    ]
+  },
+  "transcript": {
+    "pl": "Usiądźmy. Witam was wszystkich w imieniu Pana naszego Jezusa Chrystusa.\n\nUbiegłym razem, kiedy tutaj stałem na tym miejscu, usługiwałem na temat pytania, które Pan Jezus zadał swoim uczniom: „Za kogo ludzie mają Syna Człowieczego?” Dzisiaj przypominam to pytanie, abyśmy się nad nim zastanowili, bo my Pana naszego Jezusa Chrystusa mamy za swojego Zbawiciela, Króla. On jest naszym Mistrzem, jak dziś słyszeliśmy, i jesteśmy Jego uczniami. To są istotne cechy tych, którzy oczekują przyjścia Pana naszego Jezusa Chrystusa, Zbawiciela.\n\nDzisiejszy tytuł mojej usługi brzmi: „Jak budować dom na opoce?” Wiemy, że Słowo Boże zapowiada, że kamień, o który się rozbiją, skała, o którą się rozbiją, to Jezus Chrystus. Te wszystkie wyobrażenia ludzi starotestamentowych miały nieco inny kierunek, ale dziś, po niemal dwudziestu wiekach, pytanie, jak budować dom na Panu Jezusie Chrystusie, na opoce, jest nadal aktualne.\n\nChciałbym przeczytać z Ewangelii Mateusza, siódmy rozdział, fragment, który mówi o tym temacie. Mówi o tym, że ludzie budują w dwojaki sposób: jedni budują na skale, inni na piasku. Konsekwencje tych budowli są różne. Przeczytajmy zatem w imieniu Pana naszego Jezusa Chrystusa słowa Pana Jezusa:\n\n„Każdy więc, kto słucha tych słów moich i wykonuje je, będzie przyrównany do męża mądrego, który zbudował dom swój na opoce. Spadł deszcz ulewny, wezbrały rzeki i powiały wiatry i uderzyły na ów dom, ale on nie runął, gdyż był zbudowany na opoce.” \n\nTo jest pierwsza budowla. Pan Jezus zwraca uwagę, że każdy, kto co? Słucha tych słów i wykonuje je. To jest pierwsza zasada: trzeba najpierw słuchać, a potem wykonywać. Ponadto Pan Jezus porównuje, że przyjdą doświadczenia, życiowe wichry, burze i ta budowla będzie przez nie wypróbowana, gdy będziemy pielgrzymować tutaj na ziemi, ale ona się ostoi, ponieważ jest zbudowana na opoce, czyli na Panu naszym Jezusie Chrystusie.\n\nA druga budowla: „Każdy, kto słucha tych słów moich, lecz nie wykonuje ich, przyrównany będzie do męża głupiego, który zbudował swój dom na piasku. Spadł ulewny deszcz, wezbrały rzeki, powiały wiatry i uderzyły na ów dom – i runął, a upadek jego był wielki.”\n\nA gdy Jezus dokończył tych słów, tłumy zdumiewały się nad Jego nauką, bo uczył je jako moc mający, a nie jak ich uczeni w Piśmie. \n\nWidzimy więc, że uczeni w Piśmie nauczali inaczej. Spotkali się z pewną informacją, która powinna była być dla Izraelitów jasna i zrozumiała – że trzeba wykonywać Słowo Boże. Jednak przez wiele stuleci weszli w obrzędowość. Myśleli, że pewne gesty i czynności religijne mają moc uczynienia ich sprawiedliwymi, ale te czynności oddalały ich od Żywego Słowa i zasadniczo od Boga.\n\nCzytając Stary Testament, widzimy, że budowali na uczoności, wiedzy, rytuałach, mniemając, że to wszystko jest dobre. Jezus przyszedł jako Król, zapowiedziany w psalmach, Pięcioksięgu i prorokach, lecz nie poznali Go ci, którzy najlepiej wiedzieli, że ma przyjść. Natomiast Jezus odwrócił się do prostego ludu i powołał uczniów, którzy poszli za Nim.\n\nWydarzyło się coś, co było początkiem. I teraz zadam sobie i wam pytanie: czy będziemy budować na piasku? To znaczy – czy będziemy budować na intelekcie, doświadczeniach, wiedzy, czy na opoce, którą jest Jezus? \n\nDziś postaram się ukazać, jak powinna wyglądać budowa naszego domu duchowego. A naszym domem duchowym jest nasze ciało – świątynia Ducha Świętego. Omówię to dzisiaj, bo jest to bardzo istotne dla naszego życia. Świat i książęta tego świata czasami, jeśli nie sprawdzamy swojego sumienia przez Słowo Boże, mogą nas oszukać i przekonać, że nasza budowla jest w porządku.\n\nJaki powinien być początek? Gdy narodziliśmy się na nowo i dotarła do nas prawda, że jesteśmy grzeszni i potrzebujemy zmiany życia, co powinniśmy zrobić? Często doświadczenia gorzkiego smaku grzechu prowadzą do przemiany. Nawet Mojżesz wybrał drogę za Bogiem, rezygnując z przyjemności Egiptu.\n\nPamiętajmy, że to Duch Święty przekonuje świat o grzechu. Dlaczego? Bo to Bóg nas wybrał. Co powinniśmy zrobić, by nasza budowla była zbudowana na opoce? Zawsze mamy wiele do powiedzenia, również o innych. Doświadczenia, o których czytaliśmy, powinny wywoływać w nas reakcję, podobną do doświadczeń Hioba. \n\nOtwórzmy więc Księgę Hioba, rozdział 42, werset 1–5. To jest rada dla nas wszystkich, abyśmy wiedzieli, jak budować:\n\n„Wtedy Hiob odpowiedział Panu, mówiąc: Wiem, że Ty możesz wszystko, i że żaden Twój zamysł nie jest dla Ciebie niewykonalny. Któż może ci przeszkodzić w twoim planie, mówiąc nierozsądnie? Mówiłem rzeczy, których nie rozumiałem – o cudach, których nie pojąłem.”\n\nWidzimy, że początek dzieła Boga jest dla nas w pewnych etapach trudny do zrozumienia, albo wydaje się, że wiemy. Jednak początek znalezienia się w Jezusie Chrystusie polega na tym, abyśmy przyjęli, że Bóg może wszystko i że bez Niego nic nie możemy uczynić.\n\nSłowo Boże mówi też, że nawet centymetra nie możemy dołożyć do swojego wzrostu bez wiedzy Boga. Pan Jezus przypomina, że każdy włos na naszej głowie jest policzony i nie spada bez woli Boga. Wyobraźmy sobie tę wielką wiedzę i moc Boga! Nasza wiedza jest bardzo ograniczona.\n\nSłowo Boże mówi też, abyśmy sprawowali swoje zbawienie. I powstaje pytanie: jak budować na tym, czym Pan Jezus jest, na skale, którą jest? Omówię dziś cztery aspekty budowy, które pomogą nam iść dobrze i znaleźć wąską drogę.\n\nPierwszy krok budowy – otwórzmy Pierwszy list Piotra, drugi rozdział, wersety 2–5:\n\n„Jako nowo narodzone niemowlęta zapragnijcie niesfałszowanego mleka, abyście przez nie wzrastali ku zbawieniu...\"\n\nMleko – i to mleko musi być niesfałszowane. W XXI wieku bardzo łatwo można dostać coś pięknie opakowanego, a w środku mającego kroplę kwasu, która zakwasi całe ciasto. Dlatego mamy pragnąć prawdziwego, niesfałszowanego Słowa Bożego.\n\nW Ewangelii Łukasza, rozdział 10, werset 25 i niżej, jest opowieść o uczonym, który pytał Jezusa, co ma czynić, aby otrzymać życie wieczne. Jezus krótko odpowiedział: „Jak czytasz, tak czyń.” \n\nFundamentem pierwszym jest więc wykonanie Słowa Bożego. I dalej Piotr pisze, byśmy przystąpili do kamienia żywego, którym jest Jezus – kamienia, przez ludzi odrzuconego, lecz u Boga wybranego, jako kosztowny. I my sami, jako „kamienie żywe”, mamy się budować w dom duchowy.\n\nNie budujemy na pożądliwościach ciała czy ucha, ale na Słowie Bożym. Przystępując do tego kosztownego kamienia, budujemy się nawzajem jako jeden dom duchowy. Widzimy więc, że sami stajemy się kamieniami, a Bóg powołuje nas do wspólnoty.\n\nPytanie: czy w zborze, gdzie jest tylu braci i sióstr, nie ma też wielu poglądów? Tak jest, ale Bóg powołuje nas do jedności – dążmy do niej, choć jeszcze nie jesteśmy jedno, tak jak mówi Pan Jezus: Ja z Ojcem jednym jestem.\n\nMusimy więc dążyć do tego, by Słowo Jezusa wypełniało się w naszym życiu, a nie nasze własne pragnienia. \n\nDrugi krok budowy jest trudniejszy. Otwórzmy Przypowieści Salomona, rozdział 8, wersety 4–11:\n\n„Na was, mężowie, wołam! Mój głos zwraca się do synów ludzkich: Uczcie się roztropności, prostaczkowie, a wy, głupcy, nabierajcie rozumu! Słuchajcie, bo o rzeczach szlachetnych mówię, a prawe jest to, co wypowiadają moje wargi...\"\n\nMądrość Boża jest cenniejsza niż korale i żadne klejnoty jej nie dorównają. Musimy się więc przestroić, zmienić sposób patrzenia na życie. Świat pragnie luksusu, wiedzy, lecz Boża mądrość wydaje się światu głupstwem.\n\nMądrość ta w nas wytwarza brak obłudy, pokój, radość, miłość – to są cechy, które Bóg widzi i ceni. Świat natomiast stawia na pozory, a to wszystko przemija.\n\nPodsumowując drugi krok: przyjaźń ze światem jest nieprzyjaźnią z Bogiem. Wszystko, co świat oferuje, przemija. My musimy przejść przemianę, metanoję, aby iść za Bożymi wartościami.\n\nMamy Ducha Świętego, który jest naszym budowniczym, wspomaga nas i przekonuje o grzechu, a przede wszystkim daje pokój. \n\nTrzeci krok dotyczy walki z pokuszeniem i zwodzeniem. Otwórzmy Księgę Amosa, rozdział 5, wersety 21–24:\n\n„Nienawidzę waszych świąt, gardzę nimi, nie podobają mi się wasze uroczystości świąteczne; nawet gdy mi składacie ofiary całopalne i ofiary z pokarmów, nie mam w nich upodobania...\"\n\nBóg sprzeciwia się obłudzie i pozorom, które zastąpiły prawdziwą relację z Nim. Izraelici oszaleli się na formalizmy, a serce ich oddalało się od Boga.\n\nDziś też często światło, błyski i rozrywki próbują zastąpić prawdziwe wypełnianie słowa Bożego, ale Jezus powiedział: „Uczcie się ode mnie, że jestem cichy i pokornego serca...” \n\nPrawdziwa radość pochodzi z prostoty serca i wypełniania Bożych przykazań.\n\nWerset końcowy z Amos 5 mówi: „Niech prawo tryska jak woda, a sprawiedliwość jako potok niewysychający.” Królestwo Boże to królestwo sprawiedliwości, a prawo Boże jest wykonawalne! Nie możemy oszukiwać Boga.\n\nCzwarty krok to w pełni oddane życie dla Pana. Otwórzmy Ewangelii Mateusza, rozdział 13, werset 44:\n\n„Podobne jest królestwo niebios do ukrytego w roli skarbu, którego człowiek znalazł, ukrył, a radowany sprzedaje wszystko, co ma, i kupuje ową rolę.”\n\nJezus wykupił świat i jeśli będziemy siać na tej roli, jesteśmy wybawieni od przekleństwa świata.\n\nDecyzja należy do nas. W Liście do Filipian, rozdział 3, Paweł mówi, że wszystko, co było jego zyskiem, uznał za szkodę ze względu na Chrystusa. \n\nMoje świadectwo? Kiedyś miałem dobry zawód, dobre pieniądze, ale zostałem tak, że orałem pole traktorem. W Chrystusie musimy uznać wszystkie ziemskie zyski za nic.\n\nPaweł nazywa to „gnój”, śmiecie. Zyskać Chrystusa i mieć sprawiedliwość, która nie opiera się na zakonie, ale na wierze w Chrystusa.\n\nSprawiedliwość wiary to przebaczenie i miłość – tak jak Pan Jezus nauczał: odpuszczajmy winowajcom.\n\nKiedy budujemy dom z wiary, pamiętajmy fundament – Jezus Chrystus.\n\nOtwórzmy Pierwszy list do Koryntian, trzeci rozdział, wersety 10–17:\n\n„Według łaski Bożej, która jest mi dana, jako mądry budowniczy założyłem fundament, a inny na nim buduje. Każdy niech baczy, jak buduje. Albowiem innego fundamentu nie może założyć nikt oprócz tego, który jest założony, którym jest Jezus Chrystus.\n\nJeśli ktoś buduje na tym fundamencie ze złota, srebra, drogich kamieni, z drzewa, siana lub słomy, to zostanie to ujawnione przez ogień.\n\nJeśli dzieło się ostoi, otrzyma zapłatę; jeśli spłonie, poniesie szkodę, ale sam będzie zbawiony, jakby przez ogień.\n\nCzy nie wiecie, że świątynią Bożą jesteście i że Duch Boży mieszka w was? Jeśli ktoś niszczy świątynię Bożą, tego zniszczy Bóg, bo świątynia Boża jest święta, a wy nią jesteście.”\n\nChcę, abyśmy budowali dom święty, mając na uwadze to słowo i troszcząc się o każdy element naszej duchowej budowli.\n\nOtwórzmy Drugi list Piotra, rozdział 2, wersety 9–11:\n\n„Pan potrafi wyrwać pobożnych z pokuszenia, a bezbożnych zachować na dzień sądu, aby ukarać, zwłaszcza tych, którzy oddają się nieczystym pragnieniom i pogardzają zwierzchnościami.”\n\nDziś widzimy wiele zgromadzeń, które bluźnią Bogu, ale wiemy, że będą zachowani na dzień sądu.\n\nPan Bóg umie wyrwać nas z pokuszenia.\n\nNa koniec, w Objawieniu Jana, rozdział 21, wersety 3–5:\n\n„Usłyszałem donośny głos z tronu, mówiący: Oto przybytek Boga między ludźmi i będzie mieszkał z nimi, oni będą Jego ludem, a Bóg sam będzie z nimi. Otrze z ich oczu wszelką łzę, śmierci już nie będzie, ani smutku, ani krzyku, ani mozolu już nie będzie.\n\nI rzekł Ten, który siedział na tronie: Oto wszystko czynię nowe! Napisz, bo te słowa są pewne i prawdziwe.”\n\nAmen."
+  },
+  "cover": "/images/covers/JEb3cw3QzBI.webp"
+}

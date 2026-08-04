@@ -1,0 +1,127 @@
+{
+  "date": "2023-12-27",
+  "audio": "https://pub-8b5cdf2f2aed4a6e832dd72430dfacc1.r2.dev/sermons/i8OOFnV07Ac/i8OOFnV07Ac.opus",
+  "preacher": "Tomasz Ulfik",
+  "title": "Osoba Ducha Świętego cz. 5",
+  "summary": "Namaszczenie Duchem Świętym jest trzecim aspektem obecności Ducha w życiu wierzących, obok pieczęci i pełni Ducha. Kazanie omawia biblijne przykłady namaszczenia – od Jezusa w Nazarecie (Łk 4,18–21), przez apostołów (2 Kor 1,21–22), aż po kapłanów, królów i proroków ze Starego Testamentu. Przesłanie podkreśla, że namaszczenie to poświęcenie do służby i źródło duchowego poznania prawdy o Jezusie, które przekazuje Duch Święty jako Duch prawdy (J 14,17; 1 J 2,27).",
+  "duration": 2873,
+  "translations": {
+    "en": {
+      "title": "The Person of the Holy Spirit Part 5",
+      "summary": "Anointing with the Holy Spirit is God's consecration for service and the gift of knowing the truth about Jesus, which transforms life. This sermon reveals how this anointing was evident in the life of Christ and His disciples, highlighting its significance for daily spiritual transformation. It's important to understand how remaining in this experience deepens our discernment of God's guidance and wisdom."
+    },
+    "uk": {
+      "title": "Особа Святого Духа ч. 5",
+      "summary": "Помазання Святим Духом – це Боже посвячення до служіння та дар пізнання істини про Ісуса, що змінює життя. Проповідь показує, як це помазання проявилося в житті Христа та Його учнів, підкреслюючи його значення для щоденної духовної трансформації. Важливо зрозуміти, як перебування в цьому досвіді поглиблює наше розпізнавання Божого проводу і мудрості."
+    },
+    "ta": {
+      "title": "ஆவியுடையவர் பகுதி 5",
+      "summary": "பवిత్ర ஆவியின் அரிசுத்தி என்பது தேவனுடைய பணிக்கான விசேஷ அர்ப்பணிப்பும், இயேசுவைப் பற்றிய உண்மையை அறியும் பரிசாகும். இது வாழ்க்கையை முழுமையாக மாற்றுகிறது. இந்த சுவிசேஷம், இந்த அரிசுத்தி இயேசுவின் மற்றும் அவரது சீடர்களின் வாழ்வில் எவ்வாறு வெளிப்பட்டது என்று காட்டி, அன்றாட ஆன்மிக மாற்றத்துக்கான அவசியத்தை வலியுறுத்துகிறது. இந்த அனுபவத்தில் நிலைவதைப் புரிந்து கொள்வதன் மூலம் நமது தேவனுடைய வழிகாட்டல் மற்றும் ஞானத்தைத் தூண்டும் ஆழத்தை காணலாம்."
+    },
+    "de": {
+      "title": "Die Person des Heiligen Geistes, Teil 5",
+      "summary": "Die Salbung durch den Heiligen Geist ist eine göttliche Weihe zum Dienst und ein Geschenk, die Wahrheit über Jesus zu erkennen, die das Leben verwandelt. Die Predigt zeigt, wie diese Salbung im Leben Christi und seiner Jünger sichtbar wurde und betont ihre Bedeutung für die tägliche geistliche Erneuerung. Es lohnt sich zu verstehen, wie das Verweilen in dieser Erfahrung unser Erkennen von Gottes Führung und Weisheit vertieft."
+    },
+    "es": {
+      "title": "La Persona del Espíritu Santo, parte 5",
+      "summary": "La unción con el Espíritu Santo es la consagración divina para el servicio y el don de conocer la verdad sobre Jesús, que transforma nuestra vida. Este sermón muestra cómo esa unción se manifestó en la vida de Cristo y sus discípulos, destacando su importancia para la transformación espiritual diaria. Es fundamental comprender cómo permaneciendo en esta experiencia profundizamos nuestro discernimiento de la guía y sabiduría de Dios."
+    }
+  },
+  "tts_durations": {},
+  "bible_refs": {
+    "pl": [
+      "Łk 4",
+      "Dz 4",
+      "Dz 10",
+      "2 Kor 1",
+      "Lb 8",
+      "1 Sm 16",
+      "1 Krl 19",
+      "Lb 14",
+      "1 J 2",
+      "J 14",
+      "1 Kor 12",
+      "2 Tm",
+      "Kol 3"
+    ],
+    "en": [
+      "Luke 4",
+      "Acts 4",
+      "Acts 10",
+      "2 Cor 1",
+      "Lev 8",
+      "1 Sam 16",
+      "1 Kings 19",
+      "Lev 14",
+      "1 John 2",
+      "John 14",
+      "1 Cor 12",
+      "2 Tim",
+      "Col 3"
+    ],
+    "uk": [
+      "Лк 4",
+      "Дії 4",
+      "Дії 10",
+      "2 Кор 1",
+      "Чис 8",
+      "1 Сам 16",
+      "3 Цар 19",
+      "Чис 14",
+      "1 Ів 2",
+      "Ів 14",
+      "1 Кор 12",
+      "2 Тим",
+      "Кол 3"
+    ],
+    "ta": [
+      "லூக்கா 4",
+      "அப்போஸ்தலர் 4",
+      "அப்போஸ்தலர் 10",
+      "கொரிந்தியர் 2 1",
+      "லேவியர் 8",
+      "சாமுவேல் முதலாம கண்டகம் 16",
+      "எசரேயேல் 19",
+      "லேவியர் 14",
+      "யோவான் 1 2",
+      "யோவான் 14",
+      "கொரிந்தியர் 1 12",
+      "திமோத்தேயு 2",
+      "கலோசியர் 3"
+    ],
+    "de": [
+      "Luk 4",
+      "Apg 4",
+      "Apg 10",
+      "2 Kor 1",
+      "3 Mos 8",
+      "1 Sam 16",
+      "1 Kö 19",
+      "3 Mos 14",
+      "1 Joh 2",
+      "Joh 14",
+      "1 Kor 12",
+      "2 Tim",
+      "Kol 3"
+    ],
+    "es": [
+      "Luc 4",
+      "Hch 4",
+      "Hch 10",
+      "2 Cor 1",
+      "Lev 8",
+      "1 Sam 16",
+      "1 Rey 19",
+      "Lev 14",
+      "1 Jn 2",
+      "Jn 14",
+      "1 Cor 12",
+      "2 Tim",
+      "Col 3"
+    ]
+  },
+  "transcript": {
+    "pl": "Witam was, bracia i siostry, w imieniu Pana Jezusa Chrystusa na kolejnym spotkaniu, podczas którego możemy omawiać temat, którego się podjąłem. Mówię o osobie Ducha Świętego. Do tej pory omówiłem dwa aspekty przyobleczenia Ducha Świętego. Powiedziałem, że są trzy, więc dzisiaj zostaje nam trzeci aspekt.\n\nMówiłem o pieczęci Ducha – pieczęci, która ma dwa napisy: własność i świętość. Mówiłem o pełni Ducha, czyli napełnieniu Duchem Świętym, które jest potrzebne do służby, do znaków i cudów. Wszystko to działo się w czasach Pana Jezusa, i w Dziejach Apostolskich właśnie poprzedzone jest tym, że otrzymali napełnienie albo byli pełni Ducha i coś wykonali.\n\nZostał nam trzeci aspekt, który chcę dzisiaj omówić – namaszczenie Duchem Świętym. W Biblii jest takie określenie używane i użyte, i na ten temat chciałbym dziś powiedzieć coś więcej.\n\nKiedy Pan Jezus został ochrzczony, był kuszony przez diabła, a kiedy już to wszystko przeszedł, był w synagodze w Nazarecie, gdzie został poproszony, by przeczytać słowa z Izajasza. To jest Ewangelia Łukasza, rozdział czwarty, wersety osiemnasty i dziewiętnasty. Pragnę je przeczytać:\n\n„Duch Pański jest nade mną, przeto namaścił mnie, abym zwiastował ubogim dobrą nowinę. Posłał mnie, abym ogłosił więźniom wyzwolenie, a ślepym przejrzenie, abym uciśnionych wypuścił na wolność, abym zwiastował miłościwy rok Pana.”\n\nPan Jezus, czytając te słowa, jakby zastosował je do siebie – słowa proroka zastosował do swojej misji. W wersecie dwudziestym pierwszym powiedział: „Dziś wypełniło się to pismo w waszych uszach.” To znaczy, że to namaszczenie, o którym tutaj czytamy, że Duch Pański nade mną przeto namaścił mnie, odnosi się bezpośrednio do Niego.\n\nMożemy również znaleźć fragmenty w Dziejach Apostolskich, które mówią o tym namaszczeniu. Dzieje Apostolskie, czwarty rozdział, dwudziesty siódmy werset: „Zgromadzili się bowiem w tym mieście przeciwko Świętemu Synowi Twemu Jezusowi, którego namaściłeś, Herod i Poncjusz Piłat z poganami i plemionami izraelskimi.” To są słowa modlitwy apostołów.\n\nJeszcze w Dziejach Apostolskich, dziesiąty rozdział, trzydziesty ósmy werset – Piotr mówi swoje kazanie: „O Jezusie z Nazaretu, jak Bóg namaścił go Duchem Świętym i mocą, jak chodził czyniąc dobrze i uzdrawiając wszystkich opętanych przez diabła, bo Bóg był z nim.” Tak więc o Jezusie mówi się, że Bóg namaścił go Duchem Świętym.\n\nI właśnie o tym namaszczeniu chcę mówić. W odniesieniu do Pana Jezusa – On przyjął te słowa z Izajasza jako zastosowanie ich do siebie. Podobnie jest powiedziane w Dziejach Apostolskich o uczniach. Weźmy na przykład drugi list Pawła do Koryntian, pierwszy rozdział, 21 i 22 werset:\n\n„Tym zaś, który nas utwierdza wraz z wami w Chrystusie, który nas namaścił, jest Bóg, który też wycisnął na nas pieczęć i dał zadatek Ducha do serc naszych.”\n\nJuż wcześniej mówiłem o tym dwudziestym drugim wersecie, kiedy rozmawiałem o pieczęci. Jest powiedziane, że tym, który nas utwierdza w Chrystusie i namaścił nas, jest Bóg. Czyli uczniów Pana Jezusa, tych, którzy naśladują Pana Jezusa, też to namaszczenie dotyczy.\n\nCzytając Słowo Boże i Stary Testament, zauważymy, że ceremonia namaszczenia była ściśle związana z ważnymi urzędami i służbami, które słudzy Boży wówczas pełnili.\n\nKapłan był namaszczany, by być świętym dla Pana. W trzeciej Księdze Mojżeszowej, rozdział ósmy, werset dwunasty, czytamy:\n\n„Wylał nieco oliwy do namaszczenia na głowę Arona i namaścił go, aby go poświęcić.”\n\nTo namaszczenie miało na celu poświęcenie kapłana do służby.\n\nKról był namaszczany, aby Duch Pański spoczął na nim – tak jak w przypadku Dawida. Pierwsza Księga Samuela, rozdział szesnasty, werset trzynasty:\n\n„Wtedy wziął Samuel róg z olejem i namaścił go wśród jego braci. Od tego dnia Duch Pański spoczął na Dawidzie i pozostał nim nadal.”\n\nSamuel zaś powstał i poszedł do Ramy.\n\nW pierwszej Księdze Królewskiej, rozdział dziewiętnasty, werset szesnasty, czytamy o namaszczeniu proroka i króla:\n\n„A Jehu, syn Nimszego, namaścił na króla nad Izraelem, Elizeusza zaś, syna Szafana z Abel Mechola, namaścił na proroka na twoje miejsce.”\n\nProrok był też namaszczany.\n\nKról, prorok – wszyscy byli namaszczani do służby. W Starym Testamencie żaden sługa Boży nie rozpoczynał służby bez uświęcającego dotknięcia, bez tego namaszczenia, które Bóg kazał, aby było zrobione.\n\nDobrym przykładem namaszczenia jest ceremonia oczyszczenia trędowatego. W trzeciej Księdze Mojżeszowej, rozdział czternasty, czytam wersety od jedenastego dalej:\n\n„Kapłan dokonujący oczyszczenia postawi tego, który się oczyszcza, oraz to wszystko przed Panem u wejścia do namiotu zgromadzenia. Potem kapłan weźmie jednego baranka i złoży go wraz z logiem oliwy jako ofiarę pokutną i dokona nimi obrzędu potrząsania przed Panem.”\n\nDalej: „Ziarna zaś tego baranka zostaną zaniesione do miejsca, gdzie się zabija ofiarę za grzech i ofiarę całopalną – w miejsce święte. Jest to świętość nad świętościami, bo ofiara pokutna, podobnie jak ofiara za grzech, należy do kapłana.”\n\nNastępnie kapłan wziął nieco oliwy (nie z krwi ofiary pokutnej) i namaścił płatek prawego ucha, kciuk prawej ręki oraz wielki palec prawej nogi osoby oczyszczającej się. Potem wlał nieco oliwy na swoją lewą dłoń, maczał wielki palec prawej ręki w oliwie i pokropił oliwą siedem razy przed Panem.\n\nTakie były ceremonie, które oznaczały święcenie, namaszczenie, poświęcenie do służby. \n\nNauka, którą Pan Jezus ma jeszcze dla nas, może znać i zna objawienie Boże. Tylko Duch Święty może nam to objawić. Tylko Duch Święty może nas nauczyć i pokazać wiedzę, którą ma od Pana Jezusa. I tak pisze Jan: „Wiemy wszystko”. Dlatego w 1. Liście Jana, 2 rozdziale, w wersecie 27, czytamy:\n\n„A to namaszczenie, które od Niego otrzymaliście, pozostaje w was i nie potrzebujecie, aby was ktoś uczył. Lecz jak namaszczenie Jego poucza was o wszystkim i jest prawdziwe, a nie jest kłamstwem, tak w nim trwajcie.”\n\nJan pisze: tak w nim trwajcie, czyli trwajcie w tym namaszczeniu, które otrzymaliście. Trwajcie w nim, bo to namaszczenie was nauczyło, poucza was i będzie was dalej pouczać. Nie potrzebujecie, jak czytamy w wersecie 20, aby was ktoś uczył.\n\nTrwanie w namaszczeniu jest więc wyzwaniem dla nas – potrzebujemy tego, aby trwać w tym namaszczeniu i odbierać właśnie nauki od Pana Jezusa, wszystko, co On dla nas ma.\n\nTo namaszczenie Duchem Świętym manifestuje się przede wszystkim w rozróżnianiu prawdy, którą On przekazuje.\n\nWidać różnicę między wyuczoną prawdą, wiedzą, a wiedzą od Ducha – wiedzą od Tego, który bierze od Pana Jezusa i objawia nam wiedzę od Ducha. \n\nNiektórzy mówią o intuicji duchowej – to nic innego jak namaszczenie, które przychodzi od Ducha Świętego i przekazuje wiedzę od Pana Jezusa.\n\nNie neguję oczywiście wyuczonej wiedzy – doceniam ją, sam się długo uczyłem – ale Słowo Boże kładzie nacisk właśnie na wiedzę od Ducha, wiedzę, którą daje Duch Święty i Jego namaszczenie.\n\nTa wiedza od Ducha to poznanie prawdy, która jest w Jezusie – prawdy o Jezusie i prawdy, która jest w Jezusie,\n\nbo Jezus powiedział: „Ja jestem drogą, prawdą i życiem.” Prawda jest tylko w Jezusie Chrystusie.\n\nDuch Święty wprowadza nas we wszelką prawdę o Jezusie i objawia nam też panowanie Jezusa. My Go nazywamy Panem.\n\nTrzeba zdać sobie sprawę, że jeśli On jest moim Panem, to muszę Mu być posłuszny.\n\nWszelką prawdę, którą możemy otrzymać przez Ducha Świętego o Jezusie, otrzymujemy tylko przez Ducha Świętego.\n\nDlatego Pan Jezus nazwał Ducha Świętego Duchem prawdy, którego świat nie może przyjąć. Czytamy o tym w Ewangelii Jana, 14 rozdział, 17 werset: „Duch prawdy, którego świat przyjąć nie może.”\n\nOn nie jest posłany do świata – Duch prawdy nie przyjdzie do świata. Duch Święty jedynie przekonuje o sprawiedliwości, sądzie i o grzechu – o grzechu, sprawiedliwości i sądzie, w takiej kolejności.\n\nŚwiat zostanie przekonany o tych sprawach, ale Duch prawdy nie przyjdzie do świata.\n\nZanim ktoś otrzyma Ducha prawdy i to namaszczenie od Ducha, musi przyjść do Chrystusa, pod krzyż.\n\nNie ma innej drogi.\n\nNie ma innej możliwości – musi skorzystać z ofiary, wtedy może być obdarzony Duchem Świętym i z pełną świadomością oraz zrozumieniem powiedzieć: „Jezus jest moim Panem.”\n\nSą ludzie, którzy mogą wypowiedzieć te słowa, nie mając nawet pojęcia, co mówią, ponieważ mówią „Jezus jest Panem”, a w rzeczywistości nie znają prawdy o panowaniu Jezusa i nie znają prawdy, która jest w Jezusie Chrystusie, bo Go nigdy nie poznali.\n\nDlatego Paweł w 1. Liście do Koryntian, rozdział 12, werset 3, pisze:\n\n„Dlatego oznajmiam wam, że nikt przemawiający w Duchu Bożym nie powie: Niech Jezus będzie przeklęty. I nikt nie może rzec: Jezus jest Panem, chyba tylko w Duchu Świętym.”\n\nTo pokazuje, że powiedzenie tych słów bez Ducha Świętego oznacza brak prawdziwej znajomości, kim jest Jezus Chrystus i że Pan Jezus jest Panem.\n\nMówiąc „Jezus jest Panem”, powinniśmy to wyznać prawdziwie, w Duchu Świętym, ze świadomością podporządkowania się Jemu.\n\nTo przebyczenie (zapewne chodzi o namaszczenie) Duchu Świętym omawiałem już chyba z dwa tygodnie temu, przedstawiając je w trzech aspektach: zapieczętowanie, napełnienie Duchem, czyli pełnię Ducha, oraz namaszczenie.\n\nPowiedziałem, że te trzy aspekty oznaczają w sumie to samo: dar Ducha Świętego przyjęty przez wiarę. Przedstawione są w trzech aspektach, a każde z tych określeń wiąże się z jakimś szczególnym Bożym wyposażeniem.\n\nPieczęć Ducha to potwierdzenie własności i świętości – potwierdzenie, że należymy do Niego, że On nas zna, ponieważ to jest ważne. On zna nas i żyjemy dla Niego uświęconym życiem.\n\nNapełnienie to moc do służby, do znaków, do cudów, ale również moc do uświęconego życia, moc do zwycięstwa nad grzechem – bo to jest nasze powołanie, prowadzić uświęcone życie.\n\nNamaszczenie, o którym dziś mówiłem, to wiedza, prawda, poznanie prawdy i wiedzy od Boga, a także olej uświęcenia.\n\nWszystkie te dary i określenia są zawarte w jednym – darze Ducha Świętego. Każda z nich jest jego częścią i nie mogą istnieć samodzielnie, bez pozostałych.\n\nNie może być uświęcenia bez własności, nie może być własności bez mocy i na odwrót.\n\nPaweł pisze do Tymoteusza:\n\n„Pilnuj samego siebie i nauki.”\n\nTo znaczy – pilnuj swojej świętości, uświęconego życia, i korzystaj z nauki, wiedzy, czyli namaszczenia, jakie daje Duch Święty.\n\nTe dwie rzeczy Paweł zaleca Tymoteuszowi.\n\nW każdym z tych trzech aspektów pojawia się jedno słowo – uświęcenie, świętość.\n\nNie chcę przez to powiedzieć, że jest to najważniejsze, bo u Boga nie ma najważniejszych i drugorzędnych rzeczy – u Niego wszystko się liczy równolegle.\n\nMuszą być wszystkie elementy, które Bóg przewidział.\n\nU Boga nie ma spraw drugorzędnych – takie mamy my, ludzie, z naszej ziemskiej perspektywy, gdzie możemy ustalać terminy nabożeństw, przenosić je, zmieniać. Nie chcę tego rozwijać, ale u Boga w Słowie nie ma spraw drugorzędnych i pierwszorzędnych.\n\nTo samo słowo, które Pan Jezus wypowiedział o nowonarodzeniu – jest to to samo słowo.\n\nSpołeczność Ducha Świętego niech będzie z wami wszystkimi.\n\nCzy to słowo „społeczność z Duchem Świętym” ma jakieś głębsze znaczenie? Możemy się nad tym zastanowić.\n\nTo słowo użyte tutaj: społeczność z Duchem Świętym – czy ma jakieś znaczenie głębsze?\n\nPozwólcie, że zostawię was z tym pytaniem do refleksji.\n\nBracia i siostry, dla mnie słowa, które czytam w Słowie Bożym, są zachętą do życia w mocy Ducha Świętego.\n\nNie powinniśmy czynić tego własnymi siłami, ponieważ Bóg nie może patrzeć na nasze wysiłki i cielesne dążenia.\n\nW Liście do Kolosan czytamy (rozdział 3, wersety 9 i 10):\n\n„Nie okłamujcie się nawzajem, skoro zewlekliście z siebie starego człowieka wraz z uczynkami jego, a przyoblekliście nowego, który odnawia się ustawicznie ku poznaniu na obraz Tego, który go stworzył.”\n\nNie możemy siebie okłamywać – jeśli zewlekliśmy starego człowieka i przyoblekliśmy nowego, to trzeba się odnawiać ciągle w Duchu Świętym, na obraz tego, który nas stworzył.\n\nTo jest możliwe tylko poprzez moc Ducha Świętego, korzystając z namaszczenia, które otrzymujemy przez Ducha Świętego.\n\nBracia i siostry, zachęcam was, aby tak żyć – nie własnymi siłami, ale w społeczności Ducha Świętego.\n\nWiem, że wtedy możemy prowadzić życie, które podoba się Bogu.\n\nBędę jeszcze mówił o Duchu Uświęcenia, który jest opisany w Słowie Bożym, ale na dzisiaj skończę, bo patrzę na zegar, który jest bezlitosny.\n\nŻyczę wam, bracia i siostry, Bożego błogosławieństwa.\n\nZapraszam grupę uwielbiającą i chciejmy żyć tymi słowami, które pokazują, jak żyć w Duchu Świętym, jak korzystać z tego, co Duch Święty nam przyniósł, kiedy został posłany na ziemię.\n\nPan Jezus powiedział: „Kto weźmie z mego, temu oznajmię.” Duch Święty chce nam to oznajmiać.\n\nWiele już oznajmił właśnie uczniom Pana Jezusa, wiele rzeczy jest zapisanych w listach zawartych w Słowie Bożym, które objawił uczniom.\n\nOn chce nam dalej ciągle objawiać, ale my trwajmy w społeczności z Duchem Świętym.\n\nNiech was Bóg błogosławi."
+  },
+  "cover": "/images/covers/i8OOFnV07Ac.webp"
+}
