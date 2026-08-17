@@ -1,8 +1,9 @@
 ---
 import { getRelativeLocaleUrl } from "astro:i18n";
 import "../styles/global.css";
-import { t, locales, type Locale } from "../i18n/utils";
+import { t, locales, defaultLocale, type Locale } from "../i18n/utils";
 import { getSermonsForLocale } from "../lib/sermons";
+import { getSongs } from "../lib/songs";
 import { buildJsonLd } from "../lib/jsonld";
 import Header from "../components/Header.astro";
 import CookieBanner from "../components/CookieBanner.astro";
@@ -35,7 +36,8 @@ const ogLocales: Record<Locale, string> = {
 };
 
 const sermons = jsonLdOverride ? [] : await getSermonsForLocale(locale);
-const jsonLd = jsonLdOverride ?? buildJsonLd(sermons, siteUrl, canonicalUrl + "#sermons", locale);
+const songs = !jsonLdOverride && locale === defaultLocale ? await getSongs() : undefined;
+const jsonLd = jsonLdOverride ?? buildJsonLd(sermons, siteUrl, canonicalUrl + "#sermons", locale, songs);
 const ogImageUrl = pageImage ? new URL(pageImage, siteUrl).toString() : new URL("/images/og-image.jpg", siteUrl).toString();
 const titleText = pageTitle ?? t(locale, "page.title");
 const ogTitleText = pageTitle ?? t(locale, "site.name");
@@ -46,7 +48,7 @@ const descriptionText = pageDescription ?? t(locale, "radio.desc");
     <meta charset="utf-8" />
     <title>{titleText}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-    <meta name="theme-color" content="#1E3A8A" />
+    <meta name="theme-color" content="#3f568f" />
     <meta name="description" content={descriptionText} />
 
     <meta property="og:type" content="website" />
@@ -77,6 +79,8 @@ const descriptionText = pageDescription ?? t(locale, "radio.desc");
     <script is:inline type="application/ld+json" set:html={jsonLd} />
 
     <link rel="icon" type="image/png" href="/images/icons/icon-48x48.png" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png" />
+    <link rel="manifest" href="/manifest.json" />
     <link
       rel="preload"
       as="font"
@@ -95,7 +99,7 @@ const descriptionText = pageDescription ?? t(locale, "radio.desc");
         min-height: 100vh;
       }
       .hidden { display: none !important; }
-      .lang-btn--active { color: #3f568f; font-weight: 700; text-decoration: underline; }
+      .lang-btn--active { color: #7b8fc4; font-weight: 700; text-decoration: underline; }
       .lang-switcher--hero .lang-btn--active { color: #fff; font-weight: 700; text-decoration: underline; }
       html[lang="ta"] .mobile-hero-brand p { font-size: 1.6rem; line-height: 1.3; }
       #siteHeader { position: fixed; top: 0; left: 0; width: 100%; z-index: 50; background: rgba(255, 255, 255, 0.95); }
@@ -112,14 +116,17 @@ const descriptionText = pageDescription ?? t(locale, "radio.desc");
     </style>
   </head>
   <body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen font-['EB_Garamond']">
+    <div id="offlineBanner" class="hidden fixed top-4 left-4 right-4 z-90 mx-auto max-w-md rounded-xl bg-[#3f568f] text-white text-sm text-center px-4 py-3 shadow-lg">
+      {t(locale, "offline.banner")}
+    </div>
     <Header locale={locale} />
-    <main class="flex-1 pb-24">
+    <main class="flex-1">
       <slot />
     </main>
     <audio id="audioElement" preload="auto" class="hidden"></audio>
     <footer class="bg-white text-center py-4 text-gray-600 text-sm">
       <p>{t(locale, "footer.copyright")}</p>
-      <button id="cookieSettingsBtn" type="button" class="mt-2 text-[#3f568f] hover:text-[#334577] hover:underline transition">
+      <button id="cookieSettingsBtn" type="button" class="mt-2 font-semibold text-[#7b8fc4] hover:text-[#263a63] hover:underline transition">
         {t(locale, "cookie.settings")}
       </button>
     </footer>

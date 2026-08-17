@@ -36,6 +36,8 @@ const dict: LocaleDict = {
     "sermon.back": "← Todos los sermones",
     "sermon.summaryHeading": "Resumen",
     "sermon.transcriptHeading": "Transcripción",
+    "sermon.moreByPreacher": "Más sermones de {preacher}",
+    "sermon.showMore": "Mostrar más",
     "sermon.backToTop": "Volver arriba",
     "donations.label": "Apoyo",
     "donations.heading": "Hacer una donación",
@@ -73,6 +75,7 @@ const dict: LocaleDict = {
       "Usamos cookies necesarias para el funcionamiento del sitio y cookies opcionales (p. ej., Google Maps) para mejorarlo.",
     "cookie.reject": "No acepto",
     "cookie.accept": "Acepto",
+    "offline.banner": "Estás sin conexión — la radio, el formulario de contacto, el mapa y el audio de los sermones (excepto el más reciente) no están disponibles ahora.",
   },
   tour: {
     next: "Siguiente",

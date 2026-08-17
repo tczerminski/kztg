@@ -3,8 +3,9 @@ import { getRelativeLocaleUrl } from "astro:i18n";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { t, type Locale } from "../i18n/utils";
 import type { SermonView } from "../lib/sermons";
-import { getSermonTranscript } from "../lib/sermons";
+import { getSermonTranscript, getSermonsForLocale } from "../lib/sermons";
 import { buildSermonJsonLd } from "../lib/jsonld";
+import SermonCard from "./SermonCard.astro";
 
 interface Props {
   locale: Locale;
@@ -13,6 +14,13 @@ interface Props {
 
 const { locale, sermon } = Astro.props;
 const transcript = await getSermonTranscript(sermon.id, locale);
+
+const MORE_BY_PREACHER_COUNT = 3;
+const moreByPreacher = sermon.preacher
+  ? (await getSermonsForLocale(locale))
+      .filter((s) => s.preacher === sermon.preacher && s.id !== sermon.id)
+      .slice(0, MORE_BY_PREACHER_COUNT)
+  : [];
 
 const siteUrl = Astro.site?.origin ?? "https://kztg.pl";
 const pageUrl = new URL(sermon.href, siteUrl).toString();
@@ -31,14 +39,24 @@ const backHref = `${getRelativeLocaleUrl(locale, "/")}#sermons`;
   jsonLdOverride={jsonLd}
 >
   <article id="sermon-top" class="sermon-detail-article max-w-4xl mx-auto px-4 pb-12 md:pb-20">
-    <div class="sermon-detail-content bg-white rounded-none sm:rounded-2xl shadow-sm -mx-4 sm:mx-0 px-4 sm:px-8 pb-4 sm:pb-8">
-      <a
-        id="sermon-back-link"
-        href={backHref}
-        class="inline-flex items-center gap-2 px-4 py-2 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition text-sm font-semibold mb-8"
-      >
-        {t(locale, "sermon.back")}
-      </a>
+    <a
+      id="sermon-back-link-desktop"
+      href={backHref}
+      class="max-md:hidden inline-flex items-center gap-2 mb-6 text-[#7b8fc4] hover:text-[#263a63] hover:underline transition text-sm font-semibold"
+    >
+      {t(locale, "sermon.back")}
+    </a>
+    <div class="sermon-detail-content bg-white rounded-none sm:rounded-2xl -mx-4 sm:mx-0 px-4 sm:px-8 pb-4 sm:pb-8">
+      <div class="flex items-center justify-between gap-3 mb-8 md:hidden">
+        <img src="/images/logo.jpg" alt="Logo" class="w-12 h-12 rounded-full flex-shrink-0" />
+        <a
+          id="sermon-back-link-mobile"
+          href={backHref}
+          class="inline-flex items-center gap-2 px-4 py-2 border border-[#7b8fc4] text-[#7b8fc4] rounded-xl hover:bg-[#7b8fc4] hover:text-white hover:border-[#7b8fc4] transition text-sm font-semibold"
+        >
+          {t(locale, "sermon.back")}
+        </a>
+      </div>
 
       {sermon.cover && (
         <div class="relative overflow-hidden rounded-none sm:rounded-xl aspect-video mb-8 -mx-4 sm:mx-0">
@@ -110,23 +128,77 @@ const backHref = `${getRelativeLocaleUrl(locale, "/")}#sermons`;
       )}
 
       {transcript && (
-        <section id="sermon-transcript">
+        <section id="sermon-transcript" class="mb-10">
           <h2 class="text-xl font-semibold text-gray-900 mb-4">{t(locale, "sermon.transcriptHeading")}</h2>
-          <div class="text-gray-700 leading-relaxed whitespace-pre-line">{transcript}</div>
+          <div class="sermon-transcript-wrap" data-transcript-wrap>
+            <div class="text-gray-700 leading-relaxed whitespace-pre-line">{transcript}</div>
+          </div>
+          <button type="button" class="sermon-transcript-toggle hidden" data-transcript-toggle>
+            {t(locale, "sermon.showMore")}
+          </button>
         </section>
       )}
+
     </div>
   </article>
 
-  <button type="button" class="back-to-top" data-scroll-target="sermon-top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <polyline points="18 15 12 9 6 15" />
-    </svg>
-    <span>{t(locale, "sermon.backToTop")}</span>
-  </button>
+  {moreByPreacher.length > 0 && (
+    <section id="sermon-more-by-preacher" class="bg-white py-12 md:py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 text-center mb-10">
+          {t(locale, "sermon.moreByPreacher", { preacher: sermon.preacher })}
+        </h2>
+        <div class="grid gap-8 -mx-4 sm:mx-0 sm:grid-cols-2 lg:grid-cols-3">
+          {moreByPreacher.map((s, i) => (
+            <div class:list={["grid", i > 0 && "max-sm:hidden"]}>
+              <SermonCard locale={locale} sermon={s} />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 </BaseLayout>
 
 <style>
+  .sermon-transcript-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .sermon-transcript-wrap.is-collapsed {
+    max-height: 320px;
+  }
+
+  .sermon-transcript-wrap.is-collapsed::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5rem;
+    background: linear-gradient(to bottom, rgb(255 255 255 / 0), white);
+    pointer-events: none;
+  }
+
+  .sermon-transcript-toggle {
+    display: flex;
+    margin: 1rem auto 0;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid #7b8fc4;
+    color: #7b8fc4;
+    border-radius: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  }
+
+  .sermon-transcript-toggle:hover {
+    background: #7b8fc4;
+    border-color: #7b8fc4;
+    color: #fff;
+  }
+
   /* No fixed header on mobile (see .mobile-hidden-header) — the white card runs
      flush to the top edge, with the safe-area/notch clearance as its own
      padding instead of a gray gap above it. */
@@ -155,57 +227,27 @@ const backHref = `${getRelativeLocaleUrl(locale, "/")}#sermons`;
     height: 3.75rem;
   }
 
-  .sermon-inline-player--lg .sermon-inline-player__progress {
+  .sermon-inline-player--lg .sermon-inline-player__progress::-webkit-slider-runnable-track {
     height: 8px;
+  }
+
+  .sermon-inline-player--lg .sermon-inline-player__progress::-webkit-slider-thumb {
+    width: 18px;
+    height: 18px;
+    margin-top: -5px;
+  }
+
+  .sermon-inline-player--lg .sermon-inline-player__progress::-moz-range-track {
+    height: 8px;
+  }
+
+  .sermon-inline-player--lg .sermon-inline-player__progress::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
   }
 
   .sermon-inline-player--lg .sermon-inline-player__times {
     font-size: 1rem;
   }
 
-  .back-to-top {
-    /* centered at the bottom, matching the homepage's scroll indicator — with a
-       white pill background so it stays readable over scrolling text content
-       (the homepage version sits over a dark video, this one doesn't). */
-    position: fixed;
-    left: 50%;
-    bottom: calc(env(safe-area-inset-bottom, 0px) + 1.5rem);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.1rem;
-    background: white;
-    border: 1px solid #e2e8f0;
-    border-radius: 9999px;
-    padding: 0.625rem 2.5rem;
-    box-shadow: 0 2px 6px rgb(63 86 143 / 0.1);
-    color: #3f568f;
-    cursor: pointer;
-    letter-spacing: 0.08em;
-    opacity: 0;
-    pointer-events: none;
-    transform: translate(-50%, 8px);
-    transition: opacity 0.25s ease, transform 0.25s ease;
-    z-index: 40;
-  }
-
-  .back-to-top.is-visible {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translate(-50%, 0);
-  }
-
-  .back-to-top svg {
-    animation: bounceUp 1.5s ease-in-out infinite;
-  }
-
-  .back-to-top span {
-    font-size: 0.6875rem;
-    text-transform: uppercase;
-  }
-
-  @keyframes bounceUp {
-    0%, 100% { transform: translateY(0); opacity: 1; }
-    50% { transform: translateY(-10px); opacity: 0.5; }
-  }
 </style>

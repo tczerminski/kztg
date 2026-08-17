@@ -17,10 +17,10 @@ const { locale } = Astro.props;
       <p class="text-sm text-gray-600">{t(locale, "cookie.bannerDesc")}</p>
     </div>
     <div class="flex gap-2 sm:shrink-0">
-      <button id="cookieNecessaryBtn" type="button" class="px-4 py-2 rounded-xl border border-[#3f568f] text-[#3f568f] hover:bg-[#3f568f]/10 transition">
+      <button id="cookieNecessaryBtn" type="button" class="px-4 py-2 rounded-xl border border-[#7b8fc4] text-[#7b8fc4] hover:bg-[#7b8fc4] hover:text-white hover:border-[#7b8fc4] transition">
         {t(locale, "cookie.reject")}
       </button>
-      <button id="cookieAcceptBtn" type="button" class="px-4 py-2 rounded-xl bg-[#3f568f] text-white hover:bg-[#334577] transition">
+      <button id="cookieAcceptBtn" type="button" class="px-4 py-2 rounded-xl bg-[#7b8fc4] text-white hover:bg-[#334577] transition">
         {t(locale, "cookie.accept")}
       </button>
     </div>

@@ -22,4 +22,12 @@ const sermons = defineCollection({
   }),
 });
 
-export const collections = { sermons };
+const songs = defineCollection({
+  loader: glob({ pattern: "*.json", base: "./src/content/songs" }),
+  schema: z.object({
+    title: z.string(),
+    verses: z.array(z.object({ lines: z.array(z.string()) })),
+  }),
+});
+
+export const collections = { sermons, songs };

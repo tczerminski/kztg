@@ -6,6 +6,7 @@ import os
 import re
 import shutil
 import sys
+import tempfile
 from pathlib import Path
 
 import boto3
@@ -624,11 +625,9 @@ def main() -> None:
         log_info("No URLs to process.")
         return
 
-    scripts_dir = Path(__file__).parent
-
     for yt_url in urls:
         try:
-            process_sermon(yt_url, scripts_dir, force=args.force, skip_tts=args.skip_tts)
+            process_sermon(yt_url, force=args.force, skip_tts=args.skip_tts)
         except Exception as exc:
             log_error(f"Failed processing {yt_url}: {exc}")
             continue
@@ -645,7 +644,7 @@ def r2_delete_prefix(s3, bucket: str, video_id: str) -> None:
     log_info(f"  → deleted {len(keys)} object(s) from R2")
 
 
-def process_sermon(yt_url: str, scripts_dir: Path, *, force: bool = False, skip_tts: bool = False) -> None:
+def process_sermon(yt_url: str, *, force: bool = False, skip_tts: bool = False) -> None:
     s3, bucket = make_s3_client()
 
     log_info(f"Resolving video ID for {yt_url}...")
@@ -678,7 +677,7 @@ def process_sermon(yt_url: str, scripts_dir: Path, *, force: bool = False, skip_
         log_info(f"✓ {video_id} already complete, skipping")
         return
 
-    sermon_dir = scripts_dir / video_id
+    sermon_dir = Path(tempfile.gettempdir()) / "kztg-pipeline" / video_id
     sermon_dir.mkdir(parents=True, exist_ok=True)
     to_upload: list[Path] = []  # media only
 
@@ -760,6 +759,21 @@ def process_sermon(yt_url: str, scripts_dir: Path, *, force: bool = False, skip_
                 if tts_done.get(lang_code):
                     log_info(f"Skipping {lang_code.upper()} TTS (already in R2)")
                     continue
+
+                tts_path = sermon_dir / f"{video_id}_{lang_code}.opus"
+                scratch_path = sermon_dir / f"{lang_code}_translation.json"
+                if tts_path.exists() and scratch_path.exists():
+                    log_info(f"Using existing local scratch TTS for {lang_code.upper()}...")
+                    lang_scratch = json.loads(scratch_path.read_text(encoding="utf-8"))
+                    translations[lang_code] = {
+                        "title": lang_scratch["title"],
+                        "summary": lang_scratch["summary"],
+                    }
+                    transcript_by_lang[lang_code] = lang_scratch["transcript"]
+                    tts_durations[lang_code] = lang_scratch["duration"]
+                    to_upload.append(tts_path)
+                    continue
+
                 log_info(f"Translating and generating TTS for {lang_code.upper()}...")
                 lang_data = translate_for_lang(cleaned, metadata["title"], summary, lang_code)
                 translations[lang_code] = {
@@ -767,9 +781,20 @@ def process_sermon(yt_url: str, scripts_dir: Path, *, force: bool = False, skip_
                     "summary": lang_data["summary"],
                 }
                 transcript_by_lang[lang_code] = lang_data["transcript"]
-                tts_path = sermon_dir / f"{video_id}_{lang_code}.opus"
                 duration = generate_tts_audio(lang_data["transcript"], voice_id, tts_path)
                 tts_durations[lang_code] = duration
+                scratch_path.write_text(
+                    json.dumps(
+                        {
+                            "title": lang_data["title"],
+                            "summary": lang_data["summary"],
+                            "transcript": lang_data["transcript"],
+                            "duration": duration,
+                        },
+                        ensure_ascii=False,
+                    ),
+                    encoding="utf-8",
+                )
                 to_upload.append(tts_path)
                 log_info(f"  → {lang_code.upper()} done ({duration}s)")
 
@@ -807,10 +832,15 @@ def process_sermon(yt_url: str, scripts_dir: Path, *, force: bool = False, skip_
                 upload_file_to_r2(s3, bucket, video_id, path)
         else:
             log_info("No new media to upload.")
+    except BaseException:
+        log_info(f"⚠ {video_id} interrupted — local scratch in {sermon_dir} kept for resuming next run")
+        raise
 
-    finally:
-        shutil.rmtree(sermon_dir, ignore_errors=True)
-
+    # Only clean up the scratch dir once everything above has actually
+    # succeeded — on failure/interruption it stays so a rerun can resume
+    # from whatever transcript/translations/TTS audio already finished
+    # instead of redoing every language from scratch.
+    shutil.rmtree(sermon_dir, ignore_errors=True)
     log_info(f"✓ {video_id} done")
 
 

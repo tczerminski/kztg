@@ -36,6 +36,8 @@ const dict: LocaleDict = {
     "sermon.back": "← Усі проповіді",
     "sermon.summaryHeading": "Короткий зміст",
     "sermon.transcriptHeading": "Транскрипція",
+    "sermon.moreByPreacher": "Більше проповідей від {preacher}",
+    "sermon.showMore": "Показати більше",
     "sermon.backToTop": "Догори",
     "donations.label": "Підтримка",
     "donations.heading": "Зробити пожертву",
@@ -74,6 +76,7 @@ const dict: LocaleDict = {
       "Ми використовуємо необхідні cookie для роботи сайту та необов'язкові (наприклад, Google Maps) для його покращення.",
     "cookie.reject": "Не погоджуюсь",
     "cookie.accept": "Приймаю",
+    "offline.banner": "Ви офлайн — радіо, контактна форма, карта та аудіо проповідей (крім останньої) зараз недоступні.",
   },
   tour: {
     next: "Далі",

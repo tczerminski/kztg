@@ -36,6 +36,8 @@ const dict: LocaleDict = {
     "sermon.back": "← All sermons",
     "sermon.summaryHeading": "Summary",
     "sermon.transcriptHeading": "Transcript",
+    "sermon.moreByPreacher": "More sermons by {preacher}",
+    "sermon.showMore": "Show more",
     "sermon.backToTop": "Back to top",
     "donations.label": "Support",
     "donations.heading": "Make a donation",
@@ -73,6 +75,7 @@ const dict: LocaleDict = {
       "We use necessary cookies for the site to work and optional cookies (e.g. Google Maps) to improve it.",
     "cookie.reject": "I disagree",
     "cookie.accept": "Accept",
+    "offline.banner": "You're offline — radio, the contact form, the map, and sermon audio (except the latest one) are unavailable right now.",
   },
   tour: {
     next: "Next",

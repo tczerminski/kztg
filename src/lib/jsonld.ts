@@ -1,4 +1,5 @@
 import type { SermonView } from "./sermons";
+import type { SongView } from "./songs";
 
 const SITE_NAME = "Kościół Zmartwychwstałego w Tarnowskich Górach";
 const ORG_DESC =
@@ -31,7 +32,25 @@ function buildAudioObject(s: SermonView, siteUrl: string, url: string, locale: s
   return obj;
 }
 
-export function buildJsonLd(sermons: SermonView[], siteUrl: string, sermonsAnchor: string, locale: string): string {
+function buildMusicComposition(s: SongView, siteUrl: string, url: string): Record<string, unknown> {
+  return {
+    "@type": "MusicComposition",
+    name: s.title,
+    url,
+    position: s.number,
+    inLanguage: "pl",
+    lyrics: { "@type": "CreativeWork", text: s.verses.map((v) => v.lines.join("\n")).join("\n\n") },
+    publisher: { "@id": siteUrl + "/#organization" },
+  };
+}
+
+export function buildJsonLd(
+  sermons: SermonView[],
+  siteUrl: string,
+  sermonsAnchor: string,
+  locale: string,
+  songs?: SongView[],
+): string {
   const org = {
     "@type": ["Organization", "Church"],
     "@id": siteUrl + "/#organization",
@@ -57,7 +76,7 @@ export function buildJsonLd(sermons: SermonView[], siteUrl: string, sermonsAncho
     buildAudioObject(s, siteUrl, s.href ? siteUrl + s.href : sermonsAnchor, locale),
   );
 
-  return JSON.stringify([
+  const items: Record<string, unknown>[] = [
     { "@context": "https://schema.org", ...org },
     {
       "@context": "https://schema.org",
@@ -67,11 +86,31 @@ export function buildJsonLd(sermons: SermonView[], siteUrl: string, sermonsAncho
       numberOfItems: sermons.length,
       itemListElement: audioObjects.map((obj, i) => ({ "@type": "ListItem", position: i + 1, item: obj })),
     },
-  ]);
+  ];
+
+  if (songs?.length) {
+    const songObjects = songs.map((s) => buildMusicComposition(s, siteUrl, siteUrl + s.href));
+    items.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "Śpiewnik — " + SITE_NAME,
+      numberOfItems: songs.length,
+      itemListElement: songObjects.map((obj, i) => ({ "@type": "ListItem", position: i + 1, item: obj })),
+    });
+  }
+
+  return JSON.stringify(items);
 }
 
 export function buildSermonJsonLd(sermon: SermonView, siteUrl: string, pageUrl: string, locale: string): string {
   const obj = buildAudioObject(sermon, siteUrl, pageUrl, locale);
+  obj["@context"] = "https://schema.org";
+  obj.mainEntityOfPage = pageUrl;
+  return JSON.stringify(obj);
+}
+
+export function buildSongJsonLd(song: SongView, siteUrl: string, pageUrl: string): string {
+  const obj = buildMusicComposition(song, siteUrl, pageUrl);
   obj["@context"] = "https://schema.org";
   obj.mainEntityOfPage = pageUrl;
   return JSON.stringify(obj);

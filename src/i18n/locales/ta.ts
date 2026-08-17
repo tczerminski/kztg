@@ -38,6 +38,8 @@ const dict: LocaleDict = {
     "sermon.back": "← அனைத்து பிரசங்கங்களும்",
     "sermon.summaryHeading": "சுருக்கம்",
     "sermon.transcriptHeading": "பிரதி",
+    "sermon.moreByPreacher": "{preacher} இன் மேலும் பிரசங்கங்கள்",
+    "sermon.showMore": "மேலும் காட்டு",
     "sermon.backToTop": "மேலே செல்ல",
     "donations.label": "ஆதரவு",
     "donations.heading": "நன்கொடை வழங்குங்கள்",
@@ -78,6 +80,7 @@ const dict: LocaleDict = {
       "தளம் செயல்படுவதற்கு தேவையான குக்கீகளையும் மேம்படுத்துவதற்கு விருப்பத்தேர்வான குக்கீகளையும் (எ.கா. Google Maps) பயன்படுத்துகிறோம்.",
     "cookie.reject": "ஒப்புக்கொள்ளவில்லை",
     "cookie.accept": "ஏற்றுக்கொள்கிறேன்",
+    "offline.banner": "நீங்கள் ஆஃப்லைனில் உள்ளீர்கள் — வானொலி, தொடர்பு படிவம், வரைபடம் மற்றும் பிரசங்க ஆடியோ (சமீபத்தியது தவிர) இப்போது கிடைக்கவில்லை.",
   },
   tour: {
     next: "அடுத்து",

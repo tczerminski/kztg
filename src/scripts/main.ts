@@ -1,10 +1,14 @@
-import { getTour, getSermonTour, locales, defaultLocale, type Locale } from "../i18n/utils";
+import { getTour, getSermonTour, getSongTour, locales, defaultLocale, type Locale } from "../i18n/utils";
 import { initAudioPlayer } from "./audio-player";
 import { initSermonsClient } from "./sermons-client";
+import { initSongsClient } from "./songs-client";
 import { initContactForm } from "./contact-form";
 import { initCookies } from "./cookies";
-import { initOnboarding, initSermonOnboarding } from "./onboarding";
+import { initOnboarding, initSermonOnboarding, initSongOnboarding } from "./onboarding";
 import { initBackToTop } from "./back-to-top";
+import { initTranscriptToggle } from "./transcript-toggle";
+import { registerServiceWorker } from "./pwa";
+import { initNetworkStatus } from "./network-status";
 
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
@@ -23,14 +27,19 @@ document.addEventListener("click", (event) => {
 
 initAudioPlayer();
 initSermonsClient();
+initSongsClient();
 initContactForm();
 initCookies();
+initTranscriptToggle();
 if (document.getElementById("sermon-top")) {
   initSermonOnboarding(getSermonTour(currentLocale()));
+} else if (document.getElementById("song-top")) {
+  initSongOnboarding(getSongTour(currentLocale()));
 } else {
   initOnboarding(getTour(currentLocale()));
 }
 initBackToTop();
+initNetworkStatus();
 
 let sentryInitialized = false;
 
@@ -64,3 +73,4 @@ function scheduleSentryInit(): void {
 }
 
 window.addEventListener("load", scheduleSentryInit, { once: true });
+window.addEventListener("load", registerServiceWorker, { once: true });

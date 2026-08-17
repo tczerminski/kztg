@@ -82,6 +82,7 @@
 
 body {
     background-color: #f9fafb;
+    color-scheme: light;
 }
 
 article h3 {
@@ -109,7 +110,7 @@ article:hover h3 {
     border: 1px solid #e2e8f0;
     border-radius: 1rem;
     background: white;
-    box-shadow: 0 4px 16px rgb(63 86 143 / 0.10);
+    box-shadow: 0 4px 16px rgb(123 143 196 / 0.10);
 }
 
 .radio-inline-player__toggle,
@@ -118,18 +119,17 @@ article:hover h3 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 0;
+    border: 1px solid #7b8fc4;
     cursor: pointer;
-    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .radio-inline-player__toggle {
     width: 3.25rem;
     height: 3.25rem;
     border-radius: 9999px;
-    background: #3f568f;
-    color: white;
-    box-shadow: 0 4px 12px rgb(63 86 143 / 0.30);
+    background: white;
+    color: #7b8fc4;
 }
 
 .radio-inline-player__toggle:hover,
@@ -137,6 +137,15 @@ article:hover h3 {
 .sermon-inline-player__toggle:hover,
 .sermon-inline-player__toggle.is-playing {
     transform: translateY(-1px);
+}
+
+.radio-inline-player__toggle:hover,
+.radio-inline-player__toggle.is-playing,
+.sermon-inline-player__toggle:hover,
+.sermon-inline-player__toggle.is-playing {
+    background: #7b8fc4;
+    color: white;
+    border-color: #7b8fc4;
 }
 
 .radio-inline-player__body {
@@ -148,7 +157,7 @@ article:hover h3 {
 }
 
 .radio-inline-player__label {
-    color: #3f568f;
+    color: #7b8fc4;
     font-size: 0.875rem;
     font-weight: 700;
     letter-spacing: 0.08em;
@@ -186,11 +195,6 @@ article:hover h3 {
 
     .radio-inline-player:not(.radio-inline-player--mobile) .audio-visualizer {
         background: transparent;
-    }
-
-    .radio-inline-player:not(.radio-inline-player--mobile) .radio-inline-player__toggle {
-        background: white;
-        color: #3f568f;
     }
 }
 
@@ -489,24 +493,60 @@ html {
     width: 2.85rem;
     height: 2.85rem;
     border-radius: 9999px;
-    background: #3f568f;
-    color: white;
-    box-shadow: 0 4px 12px rgb(63 86 143 / 0.2);
+    background: white;
+    color: #7b8fc4;
     margin: 0 auto 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sermon-inline-player__toggle.is-playing {
-    background: #314574;
-}
-
 
 .sermon-inline-player__progress {
+    -webkit-appearance: none;
+    appearance: none;
     width: 100%;
+    height: 4px;
     margin: 0;
-    accent-color: #3f568f;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sermon-inline-player__progress::-webkit-slider-runnable-track {
+    height: 4px;
+    border-radius: 9999px;
+    background: linear-gradient(to right, #3f568f var(--progress, 0%), #e2e8f0 var(--progress, 0%));
+}
+
+.sermon-inline-player__progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    margin-top: -5px;
+    border-radius: 50%;
+    background: #7b8fc4;
+    cursor: pointer;
+}
+
+.sermon-inline-player__progress::-moz-range-track {
+    height: 4px;
+    border-radius: 9999px;
+    background: #e2e8f0;
+}
+
+.sermon-inline-player__progress::-moz-range-progress {
+    height: 4px;
+    border-radius: 9999px;
+    background: #3f568f;
+}
+
+.sermon-inline-player__progress::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border: none;
+    border-radius: 50%;
+    background: #7b8fc4;
     cursor: pointer;
 }
 
@@ -527,7 +567,7 @@ html {
     padding-top: 0.75rem;
     font-size: 0.8125rem;
     font-weight: 600;
-    color: #3f568f;
+    color: #7b8fc4;
     letter-spacing: 0.01em;
     transition: color 0.15s ease;
 }
@@ -559,6 +599,56 @@ html {
     color: #9ca3af;
     letter-spacing: 0.04em;
     white-space: nowrap;
+}
+
+/* Songs index: compact multi-column list (like a hymnal table of contents)
+   instead of a card grid — hundreds of plain-text titles read better as a
+   dense, scannable list than as padded cards. */
+.song-list {
+    column-fill: balance;
+}
+
+.song-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 0.75rem;
+    break-inside: avoid;
+    color: #1f2a44;
+    text-decoration: none;
+    background: transparent;
+    border-bottom: 1px solid #eef0fa;
+    transition: color 0.15s ease, background 0.15s ease;
+}
+
+.song-row:last-child {
+    border-bottom: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .song-row:hover {
+        background: #7b8fc4;
+        color: #fff;
+    }
+
+    .song-row:hover .song-row-number {
+        color: #fff;
+    }
+}
+
+.song-row-number {
+    flex-shrink: 0;
+    min-width: 2.25rem;
+    color: #9ca3af;
+    font-variant-numeric: tabular-nums;
+}
+
+.song-row-title {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 @media (max-width: 639px) {

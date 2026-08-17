@@ -1,0 +1,13 @@
+---
+import SongDetail from "../../components/SongDetail.astro";
+import { getSongs } from "../../lib/songs";
+import type { SongView } from "../../lib/songs";
+
+export async function getStaticPaths() {
+  const songs = await getSongs();
+  return songs.map((song) => ({ params: { slug: song.slug }, props: { song } }));
+}
+
+const { song } = Astro.props as { song: SongView };
+---
+<SongDetail song={song} />

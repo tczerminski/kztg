@@ -1,0 +1,13 @@
+---
+import type { SongView } from "../lib/songs";
+
+interface Props {
+  song: SongView;
+}
+
+const { song } = Astro.props;
+---
+<a href={song.href} class="song-row">
+  <span class="song-row-number">{song.number}.</span>
+  <span class="song-row-title">{song.title}</span>
+</a>

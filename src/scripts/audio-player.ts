@@ -104,10 +104,10 @@ export function initAudioPlayer(): void {
     }
 
     if (progress) {
-      progress.value =
-        Number.isFinite(duration) && duration > 0
-          ? String(Math.min(100, (currentTime / duration) * 100))
-          : "0";
+      const percent =
+        Number.isFinite(duration) && duration > 0 ? Math.min(100, (currentTime / duration) * 100) : 0;
+      progress.value = String(percent);
+      progress.style.setProperty("--progress", `${percent}%`);
     }
   }
 
@@ -505,6 +505,8 @@ export function initAudioPlayer(): void {
     const audioDuration =
       isActive && Number.isFinite(sermonAudio.duration) && sermonAudio.duration > 0 ? sermonAudio.duration : null;
     const duration = audioDuration ?? Number(target.dataset.duration) ?? 0;
+
+    target.style.setProperty("--progress", `${target.value}%`);
 
     if (duration > 0) {
       const currentEl = player.querySelector("[data-current-time]");

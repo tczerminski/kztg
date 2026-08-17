@@ -2,6 +2,7 @@ import { getCollection, getEntry } from "astro:content";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import type { Locale } from "../i18n/utils";
 import { defaultLocale, sermonsPathSegment } from "../i18n/utils";
+import { slugify } from "./slug";
 
 export interface SermonView {
   id: string;
@@ -33,16 +34,6 @@ function formatDuration(seconds: number): string {
   const m = Math.floor(seconds / 60);
   const s = Math.floor(seconds % 60);
   return `${m}:${s < 10 ? "0" : ""}${s}`;
-}
-
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 80);
 }
 
 /**

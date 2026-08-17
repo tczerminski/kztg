@@ -37,6 +37,11 @@ export function getSermonTour(locale: Locale): TourDict {
   return dictionaries[locale]?.sermonTour ?? dictionaries[defaultLocale].sermonTour;
 }
 
+/** Song detail pages are pl-only, so this always resolves to pl.ts's songTour. */
+export function getSongTour(locale: Locale): TourDict {
+  return (dictionaries[locale]?.songTour ?? dictionaries[defaultLocale].songTour) as TourDict;
+}
+
 /** Path prefix for a locale's routes: "" for the default locale, "/xx" otherwise. */
 export function localePrefix(locale: Locale): string {
   return locale === defaultLocale ? "" : `/${locale}`;

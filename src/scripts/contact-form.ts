@@ -11,6 +11,8 @@ export function initContactForm(): void {
   const labelSubmit = contactForm.dataset.labelSubmit || "Wyślij wiadomość";
   const labelSending = contactForm.dataset.labelSending || "Wysyłanie...";
   const labelSendError = contactForm.dataset.labelSendError || "Błąd wysyłki";
+  const successText = contactFormSuccess.dataset.successText || "";
+  const errorHtml = contactFormError.dataset.errorHtml || "";
 
   contactForm.addEventListener("submit", async (event) => {
     event.preventDefault();
@@ -28,6 +30,7 @@ export function initContactForm(): void {
       });
       const json = await response.json();
       if (response.ok && json.success) {
+        contactFormSuccess.textContent = successText;
         contactFormSuccess.classList.remove("hidden");
         contactForm.reset();
       } else {
@@ -35,6 +38,7 @@ export function initContactForm(): void {
       }
     } catch (err) {
       console.error("Form error:", err);
+      contactFormError.innerHTML = errorHtml;
       contactFormError.classList.remove("hidden");
     } finally {
       contactSubmitBtn.disabled = false;

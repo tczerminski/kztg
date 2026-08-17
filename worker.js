@@ -41,7 +41,12 @@ export default {
     const response = await env.ASSETS.fetch(request);
     const headers = new Headers(response.headers);
 
-    if (path.startsWith("/videos/")) {
+    if (path === "/sw.js") {
+      // The service worker script itself must never be served stale — browsers
+      // already re-check it on navigation, but a cached response here would
+      // delay that check and slow down rollout of SW fixes.
+      headers.set("Cache-Control", "no-cache");
+    } else if (path.startsWith("/videos/")) {
       headers.set("Cache-Control", "public, max-age=604800, stale-while-revalidate=86400");
     } else if (path.match(/\.js$/)) {
       headers.set("Cache-Control", "public, max-age=3600, stale-while-revalidate=86400");

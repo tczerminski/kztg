@@ -14,7 +14,8 @@ interface ClientStrings {
   viewDetails: string;
 }
 
-const PAGE_SIZE = 6;
+const PAGE_SIZE_DESKTOP = 6;
+const PAGE_SIZE_MOBILE = 2;
 
 export function initSermonsClient(): void {
   const grid = document.getElementById("sermons-grid");
@@ -24,6 +25,8 @@ export function initSermonsClient(): void {
   const i18nEl = document.getElementById("sermons-i18n");
 
   if (!grid || !nav || !dataEl || !i18nEl) return;
+
+  let PAGE_SIZE = window.innerWidth < 640 ? PAGE_SIZE_MOBILE : PAGE_SIZE_DESKTOP;
 
   const sermons: SermonView[] = JSON.parse(dataEl.textContent || "[]");
   const strings: ClientStrings = JSON.parse(i18nEl.textContent || "{}");
@@ -61,8 +64,8 @@ export function initSermonsClient(): void {
       : "";
 
     return (
-      `<article class="sermon-card bg-white rounded-2xl shadow-sm flex flex-col">` +
-      `<a href="${escapeAttr(sermon.href)}" class="sermon-cover block relative overflow-hidden rounded-t-2xl aspect-video">` +
+      `<article class="sermon-card bg-white rounded-none sm:rounded-2xl shadow-sm flex flex-col">` +
+      `<a href="${escapeAttr(sermon.href)}" class="sermon-cover block relative overflow-hidden rounded-t-none sm:rounded-t-2xl aspect-video">` +
       `<img src="${escapeAttr(sermon.cover)}" class="sermon-cover-image w-full h-full object-cover" alt="${escapeAttr(strings.cover)}" loading="lazy" ` +
       `onload="this.classList.add('loaded');this.parentElement.classList.add('cover-ready')" ` +
       `onerror="this.classList.add('loaded');this.parentElement.classList.add('cover-ready')">` +
@@ -95,7 +98,7 @@ export function initSermonsClient(): void {
 
     if (page > 1) {
       parts.push(
-        `<button class="sermons-page-btn px-5 py-3 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition" data-page="${page - 1}">${escapeAttr(strings.newer)}</button>`,
+        `<button class="sermons-page-btn px-5 py-3 bg-white border border-[#7b8fc4] text-[#7b8fc4] rounded-xl hover:bg-[#7b8fc4] hover:text-white transition" data-page="${page - 1}">${escapeAttr(strings.newer)}</button>`,
       );
     }
 
@@ -103,7 +106,7 @@ export function initSermonsClient(): void {
 
     if (page < total) {
       parts.push(
-        `<button class="sermons-page-btn px-5 py-3 border border-[#3f568f] text-[#3f568f] rounded-xl hover:bg-[#3f568f]/10 transition" data-page="${page + 1}">${escapeAttr(strings.older)}</button>`,
+        `<button class="sermons-page-btn px-5 py-3 bg-white border border-[#7b8fc4] text-[#7b8fc4] rounded-xl hover:bg-[#7b8fc4] hover:text-white transition" data-page="${page + 1}">${escapeAttr(strings.older)}</button>`,
       );
     }
 
@@ -172,6 +175,7 @@ export function initSermonsClient(): void {
 
     grid.innerHTML = items.map(sermonCardHTML).join("");
     nav.innerHTML = paginationNavHTML(page, totalPages);
+    document.dispatchEvent(new CustomEvent("sermons:rendered"));
 
     prefetchAdjacentPages(page);
 
@@ -262,6 +266,15 @@ export function initSermonsClient(): void {
   // Re-render page 1 client-side so pagination/search take over from the
   // server-rendered first page (identical markup, so no visible flash).
   renderPage(1);
+
+  // Re-derive PAGE_SIZE when crossing the mobile/desktop breakpoint (e.g.
+  // rotating a device, resizing the window, or live DevTools viewport
+  // changes) rather than only once at load.
+  window.matchMedia("(max-width: 639px)").addEventListener("change", (event) => {
+    PAGE_SIZE = event.matches ? PAGE_SIZE_MOBILE : PAGE_SIZE_DESKTOP;
+    totalPages = Math.max(1, Math.ceil(filteredSermons.length / PAGE_SIZE));
+    renderPage(1);
+  });
 
   if (window.requestIdleCallback) {
     window.requestIdleCallback(prefetchFirstPageAudio, { timeout: 3000 });

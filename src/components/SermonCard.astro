@@ -10,8 +10,8 @@ interface Props {
 const { locale, sermon } = Astro.props;
 const metaParts = [sermon.preacher, sermon.dateDisplay, sermon.durationDisplay].filter(Boolean);
 ---
-<article class="sermon-card bg-white rounded-2xl shadow-sm flex flex-col">
-  <a href={sermon.href} class="sermon-cover block relative overflow-hidden rounded-t-2xl aspect-video">
+<article class="sermon-card bg-white rounded-none sm:rounded-2xl shadow-sm flex flex-col">
+  <a href={sermon.href} class="sermon-cover block relative overflow-hidden rounded-t-none sm:rounded-t-2xl aspect-video">
     <img
       src={sermon.cover}
       class="sermon-cover-image w-full h-full object-cover"
