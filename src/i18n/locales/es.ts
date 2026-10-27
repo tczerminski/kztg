@@ -12,6 +12,7 @@ const dict: LocaleDict = {
       "Música de alabanza, sermones y transmisiones en vivo desde Tarnowskie Góry. Permanece conectado con nuestra congregación, donde sea que estés.",
     "radio.live": "Transmisión en vivo",
     "radio.playAriaLabel": "Reproducir o pausar la transmisión en vivo",
+    "radio.polishOnly": "La transmisión de radio solo está disponible en polaco.",
     "services.label": "Cultos",
     "services.heading": "Nos encontramos",
     "services.sunday": "Domingo",

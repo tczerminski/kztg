@@ -148,6 +148,18 @@ article:hover h3 {
     border-color: #7b8fc4;
 }
 
+.radio-inline-player__toggle:disabled {
+    cursor: not-allowed;
+    transform: none;
+    background: #f1f5f9;
+    border-color: #cbd5e1;
+    color: #94a3b8;
+}
+
+.radio-inline-player:has(.radio-inline-player__toggle:disabled) .radio-inline-player__body {
+    opacity: 0.45;
+}
+
 .radio-inline-player__body {
     flex: 1;
     min-width: 0;
@@ -191,6 +203,12 @@ article:hover h3 {
 
     .radio-inline-player:not(.radio-inline-player--mobile) .radio-inline-player__label {
         color: white;
+    }
+
+    .radio-inline-player:not(.radio-inline-player--mobile) .radio-inline-player__toggle:disabled {
+        background: rgb(255 255 255 / 0.12);
+        border-color: rgb(255 255 255 / 0.3);
+        color: rgb(255 255 255 / 0.4);
     }
 
     .radio-inline-player:not(.radio-inline-player--mobile) .audio-visualizer {

@@ -15,7 +15,9 @@ interface TourProfile {
 }
 
 function getRadioEl(): string {
-  return window.innerWidth < 768 ? "#radio-mobile" : "#radioPlayBtn";
+  // Only matches where the radio is playable — outside pl the button is disabled
+  // (no data-radio-toggle), so the "press play" step is skipped there.
+  return window.innerWidth < 768 ? "#radio-mobile:has([data-radio-toggle])" : "#radioPlayBtn[data-radio-toggle]";
 }
 
 function getLangSwitcherEl(): string {
@@ -103,7 +105,7 @@ function startTour(profile: TourProfile): void {
       if (tourBtn) tourBtn.style.display = "none";
 
       // Skip steps whose target isn't on the page — some sections (radio, songs)
-      // only render for certain locales, so their tour steps would otherwise
+      // only render (or are only usable) in certain locales, so their tour steps would otherwise
       // point at a selector that doesn't exist there.
       const steps = profile.tour.steps
         .map((step, i) => {

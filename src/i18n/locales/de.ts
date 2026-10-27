@@ -12,6 +12,7 @@ const dict: LocaleDict = {
       "Lobpreismusik, Predigten und Livestreams aus Tarnowskie Góry. Bleiben Sie in Verbindung mit unserer Gemeinde, wo immer Sie sind.",
     "radio.live": "Livestream",
     "radio.playAriaLabel": "Livestream abspielen oder pausieren",
+    "radio.polishOnly": "Der Radiostream ist nur auf Polnisch verfügbar.",
     "services.label": "Gottesdienste",
     "services.heading": "Treffen wir uns",
     "services.sunday": "Sonntag",

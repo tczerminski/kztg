@@ -12,6 +12,7 @@ const dict: LocaleDict = {
       "Worship music, sermons and live streams from Tarnowskie Góry. Stay connected with our congregation, wherever you are.",
     "radio.live": "Live Stream",
     "radio.playAriaLabel": "Play or pause the live stream",
+    "radio.polishOnly": "The radio stream is available in Polish only.",
     "services.label": "Services",
     "services.heading": "Let's meet",
     "services.sunday": "Sunday",
