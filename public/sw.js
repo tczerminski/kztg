@@ -9,12 +9,11 @@
 // fetches into install/activate's waitUntil risked exceeding the browser's
 // background-execution budget for those lifecycle events on real devices.
 
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL_CACHE = `kztg-shell-${VERSION}`;
 const PAGES_CACHE = `kztg-pages-${VERSION}`;
 const ASSETS_CACHE = `kztg-assets-${VERSION}`;
-const MEDIA_CACHE = `kztg-media-${VERSION}`;
-const KNOWN_CACHES = [SHELL_CACHE, PAGES_CACHE, ASSETS_CACHE, MEDIA_CACHE];
+const KNOWN_CACHES = [SHELL_CACHE, PAGES_CACHE, ASSETS_CACHE];
 
 // Small, stable-URL app shell so the site can at least open offline even on
 // a first visit that never fully completed. Hashed build assets (JS/CSS)
@@ -27,7 +26,6 @@ const SHELL_URLS = ["/", "/manifest.json", "/images/logo.jpg", "/images/icons/ic
 const NEVER_CACHE_PATHS = ["/stream", "/radio-status"];
 
 const STATIC_ASSET_RE = /\.(?:js|css|woff2?|png|jpe?g|webp|svg|ico|gif)$/i;
-const AUDIO_RE = /\.opus$/i;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -100,7 +98,10 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (AUDIO_RE.test(url.pathname) || url.hostname.endsWith(".r2.dev") || url.hostname.endsWith(".r2.cloudflarestorage.com")) {
-    event.respondWith(cacheFirst(request, MEDIA_CACHE));
-  }
+  // Audio (sermons/TTS on R2) is deliberately NOT intercepted. Media elements
+  // fetch with Range requests and expect 206 Partial Content; Safari/iOS is
+  // strict about this and refuses to play when a service worker answers with
+  // a full 200 or an opaque cross-origin response. The Cache API can't store
+  // 206 responses anyway, so caching here never actually worked — it only
+  // broke playback on iPhone/Safari. Let the browser talk to R2 directly.
 });
