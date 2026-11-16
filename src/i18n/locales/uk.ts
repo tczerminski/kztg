@@ -37,7 +37,7 @@ const dict: LocaleDict = {
     "sermon.back": "← Усі проповіді",
     "sermon.summaryHeading": "Короткий зміст",
     "sermon.transcriptHeading": "Транскрипція",
-    "sermon.moreByPreacher": "Більше проповідей від {preacher}",
+    "sermon.suggested": "Рекомендовані проповіді",
     "sermon.showMore": "Показати більше",
     "sermon.backToTop": "Догори",
     "donations.label": "Підтримка",

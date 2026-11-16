@@ -15,12 +15,43 @@ interface Props {
 const { locale, sermon } = Astro.props;
 const transcript = await getSermonTranscript(sermon.id, locale);
 
-const MORE_BY_PREACHER_COUNT = 3;
-const moreByPreacher = sermon.preacher
-  ? (await getSermonsForLocale(locale))
-      .filter((s) => s.preacher === sermon.preacher && s.id !== sermon.id)
-      .slice(0, MORE_BY_PREACHER_COUNT)
-  : [];
+const allSermons = await getSermonsForLocale(locale);
+
+// Suggested sermons, drawn from the whole archive (not just recent ones).
+// The page is static, so at build time we split the archive (newest-first)
+// into SUGGESTED_POOL_SIZE equal age buckets and pick one sermon from each
+// (seeded per sermon, so builds stay deterministic). The pool is therefore
+// ordered newest → oldest; suggested-sermons.ts splits it into
+// SUGGESTED_COUNT age groups and picks one at random from each on every
+// visit, so there's always a mix of newer and older sermons.
+// Without JS the first card of each age group is shown.
+const SUGGESTED_COUNT = 3;
+const SUGGESTED_POOL_SIZE = 12;
+
+function seededRandom(seedText: string): () => number {
+  let h = 2166136261;
+  for (let i = 0; i < seedText.length; i++) {
+    h ^= seedText.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return () => {
+    h = (h + 0x6d2b79f5) | 0;
+    let x = Math.imul(h ^ (h >>> 15), 1 | h);
+    x = (x + Math.imul(x ^ (x >>> 7), 61 | x)) ^ x;
+    return ((x ^ (x >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+const suggestedCandidates = allSermons.filter((s) => s.id !== sermon.id);
+const rand = seededRandom(sermon.id);
+const bucketCount = Math.min(SUGGESTED_POOL_SIZE, suggestedCandidates.length);
+const suggestedPool = Array.from({ length: bucketCount }, (_, b) => {
+  const start = Math.floor((b * suggestedCandidates.length) / bucketCount);
+  const end = Math.floor(((b + 1) * suggestedCandidates.length) / bucketCount);
+  return suggestedCandidates[start + Math.floor(rand() * (end - start))];
+});
+const groupSize = Math.ceil(suggestedPool.length / SUGGESTED_COUNT);
+const isInitiallyShown = (i: number) => i % groupSize === 0;
 
 const siteUrl = Astro.site?.origin ?? "https://kztg.pl";
 const pageUrl = new URL(sermon.href, siteUrl).toString();
@@ -142,15 +173,16 @@ const backHref = `${getRelativeLocaleUrl(locale, "/")}#sermons`;
     </div>
   </article>
 
-  {moreByPreacher.length > 0 && (
-    <section id="sermon-more-by-preacher" class="bg-white py-12 md:py-16">
+
+  {suggestedPool.length > 0 && (
+    <section id="sermon-suggested" class="bg-white py-12 md:py-16">
       <div class="container mx-auto px-4">
         <h2 class="text-2xl md:text-3xl font-semibold text-gray-900 text-center mb-10">
-          {t(locale, "sermon.moreByPreacher", { preacher: sermon.preacher })}
+          {t(locale, "sermon.suggested")}
         </h2>
-        <div class="grid gap-8 -mx-4 sm:mx-0 sm:grid-cols-2 lg:grid-cols-3">
-          {moreByPreacher.map((s, i) => (
-            <div class:list={["grid", i > 0 && "max-sm:hidden"]}>
+        <div class="grid gap-8 -mx-4 sm:mx-0 sm:grid-cols-2 lg:grid-cols-3" data-suggested-sermons data-count={SUGGESTED_COUNT}>
+          {suggestedPool.map((s, i) => (
+            <div class:list={["grid", i > 0 && isInitiallyShown(i) && "max-sm:hidden"]} hidden={!isInitiallyShown(i)} data-suggested-item>
               <SermonCard locale={locale} sermon={s} />
             </div>
           ))}

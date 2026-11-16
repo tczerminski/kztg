@@ -37,7 +37,7 @@ const dict: LocaleDict = {
     "sermon.back": "← All sermons",
     "sermon.summaryHeading": "Summary",
     "sermon.transcriptHeading": "Transcript",
-    "sermon.moreByPreacher": "More sermons by {preacher}",
+    "sermon.suggested": "Suggested sermons",
     "sermon.showMore": "Show more",
     "sermon.backToTop": "Back to top",
     "donations.label": "Support",

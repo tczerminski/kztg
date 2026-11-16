@@ -7,6 +7,7 @@ import { initCookies } from "./cookies";
 import { initOnboarding, initSermonOnboarding, initSongOnboarding } from "./onboarding";
 import { initBackToTop } from "./back-to-top";
 import { initTranscriptToggle } from "./transcript-toggle";
+import { initSuggestedSermons } from "./suggested-sermons";
 import { registerServiceWorker } from "./pwa";
 import { initNetworkStatus } from "./network-status";
 
@@ -31,6 +32,7 @@ initSongsClient();
 initContactForm();
 initCookies();
 initTranscriptToggle();
+initSuggestedSermons();
 if (document.getElementById("sermon-top")) {
   initSermonOnboarding(getSermonTour(currentLocale()));
 } else if (document.getElementById("song-top")) {

@@ -39,7 +39,7 @@ const dict: LocaleDict = {
     "sermon.back": "← அனைத்து பிரசங்கங்களும்",
     "sermon.summaryHeading": "சுருக்கம்",
     "sermon.transcriptHeading": "பிரதி",
-    "sermon.moreByPreacher": "{preacher} இன் மேலும் பிரசங்கங்கள்",
+    "sermon.suggested": "பரிந்துரைக்கப்பட்ட பிரசங்கங்கள்",
     "sermon.showMore": "மேலும் காட்டு",
     "sermon.backToTop": "மேலே செல்ல",
     "donations.label": "ஆதரவு",
